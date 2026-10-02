@@ -1,0 +1,95 @@
+Reference,Value,Manufacturer,MPN,Footprint,Populate,Notes,LCSC,JLC Category
+J1,INPUTS 1-4,Ningbo Xinlaiya Elec.,XY350V-3.5-4P,Tester:XY350V_3.5_4P,YES,"C557656; 3.5mm pitch, 0.8mm square pins, 1.4mm drill. 14x6.9mm body. WIRE OPENINGS FACE LOWER BOARD EDGE (+Y); footprint contact 1 at right. Input labels increase left-to-right.",C557656,Extended
+R1,1M,UNI-ROYAL,0805W8F1004T5E,Tester:R_0805_2012Metric,YES,1%,C17514,Basic
+R2,1M,UNI-ROYAL,0805W8F1004T5E,Tester:R_0805_2012Metric,YES,1%,C17514,Basic
+R3,4.7k,UNI-ROYAL,0805W8F4701T5E,Tester:R_0805_2012Metric,YES,"1% | JLC: Basic; same 1%, 100ppm/K, 125mW, 150V rating",C17673,Basic
+C1,470p,Fenghua,0805B471K500NT,Tester:C_0805_2012Metric,YES,"470pF +/-10%, 50V X7R; Rev D candidate model bounds total input capacitance at 1nF",C1743,Basic
+R4,1M,UNI-ROYAL,0805W8F1004T5E,Tester:R_0805_2012Metric,YES,1%,C17514,Basic
+R5,1M,UNI-ROYAL,0805W8F1004T5E,Tester:R_0805_2012Metric,YES,1%,C17514,Basic
+R6,4.7k,UNI-ROYAL,0805W8F4701T5E,Tester:R_0805_2012Metric,YES,"1% | JLC: Basic; same 1%, 100ppm/K, 125mW, 150V rating",C17673,Basic
+C2,470p,Fenghua,0805B471K500NT,Tester:C_0805_2012Metric,YES,"470pF +/-10%, 50V X7R; Rev D candidate model bounds total input capacitance at 1nF",C1743,Basic
+R7,1M,UNI-ROYAL,0805W8F1004T5E,Tester:R_0805_2012Metric,YES,1%,C17514,Basic
+R8,1M,UNI-ROYAL,0805W8F1004T5E,Tester:R_0805_2012Metric,YES,1%,C17514,Basic
+R9,4.7k,UNI-ROYAL,0805W8F4701T5E,Tester:R_0805_2012Metric,YES,"1% | JLC: Basic; same 1%, 100ppm/K, 125mW, 150V rating",C17673,Basic
+C3,470p,Fenghua,0805B471K500NT,Tester:C_0805_2012Metric,YES,"470pF +/-10%, 50V X7R; Rev D candidate model bounds total input capacitance at 1nF",C1743,Basic
+R10,1M,UNI-ROYAL,0805W8F1004T5E,Tester:R_0805_2012Metric,YES,1%,C17514,Basic
+R11,1M,UNI-ROYAL,0805W8F1004T5E,Tester:R_0805_2012Metric,YES,1%,C17514,Basic
+R12,4.7k,UNI-ROYAL,0805W8F4701T5E,Tester:R_0805_2012Metric,YES,"1% | JLC: Basic; same 1%, 100ppm/K, 125mW, 150V rating",C17673,Basic
+C4,470p,Fenghua,0805B471K500NT,Tester:C_0805_2012Metric,YES,"470pF +/-10%, 50V X7R; Rev D candidate model bounds total input capacitance at 1nF",C1743,Basic
+U1,ADS1115IDGSR,Texas Instruments,ADS1115IDGSR,Tester:TSSOP-10_3x3mm_P0.5mm,YES,"PGA +/-1.024V, nominal attenuation 426.5319. Rev D calibration/firmware required.",C37593,Extended
+C13,100n,Yageo,CC0805KRX7R9BB104,Tester:C_0805_2012Metric,YES,"Use specified capacitance, voltage and dielectric | JLC: Basic; 100nF, 10%, 50V, X7R preserved",C49678,Basic
+J2,INPUTS 5-8,Ningbo Xinlaiya Elec.,XY350V-3.5-4P,Tester:XY350V_3.5_4P,YES,"C557656; 3.5mm pitch, 0.8mm square pins, 1.4mm drill. 14x6.9mm body. WIRE OPENINGS FACE LOWER BOARD EDGE (+Y); footprint contact 1 at right. Input labels increase left-to-right.",C557656,Extended
+R13,1M,UNI-ROYAL,0805W8F1004T5E,Tester:R_0805_2012Metric,YES,1%,C17514,Basic
+R14,1M,UNI-ROYAL,0805W8F1004T5E,Tester:R_0805_2012Metric,YES,1%,C17514,Basic
+R15,4.7k,UNI-ROYAL,0805W8F4701T5E,Tester:R_0805_2012Metric,YES,"1% | JLC: Basic; same 1%, 100ppm/K, 125mW, 150V rating",C17673,Basic
+C5,470p,Fenghua,0805B471K500NT,Tester:C_0805_2012Metric,YES,"470pF +/-10%, 50V X7R; Rev D candidate model bounds total input capacitance at 1nF",C1743,Basic
+R16,1M,UNI-ROYAL,0805W8F1004T5E,Tester:R_0805_2012Metric,YES,1%,C17514,Basic
+R17,1M,UNI-ROYAL,0805W8F1004T5E,Tester:R_0805_2012Metric,YES,1%,C17514,Basic
+R18,4.7k,UNI-ROYAL,0805W8F4701T5E,Tester:R_0805_2012Metric,YES,"1% | JLC: Basic; same 1%, 100ppm/K, 125mW, 150V rating",C17673,Basic
+C6,470p,Fenghua,0805B471K500NT,Tester:C_0805_2012Metric,YES,"470pF +/-10%, 50V X7R; Rev D candidate model bounds total input capacitance at 1nF",C1743,Basic
+R19,1M,UNI-ROYAL,0805W8F1004T5E,Tester:R_0805_2012Metric,YES,1%,C17514,Basic
+R20,1M,UNI-ROYAL,0805W8F1004T5E,Tester:R_0805_2012Metric,YES,1%,C17514,Basic
+R21,4.7k,UNI-ROYAL,0805W8F4701T5E,Tester:R_0805_2012Metric,YES,"1% | JLC: Basic; same 1%, 100ppm/K, 125mW, 150V rating",C17673,Basic
+C7,470p,Fenghua,0805B471K500NT,Tester:C_0805_2012Metric,YES,"470pF +/-10%, 50V X7R; Rev D candidate model bounds total input capacitance at 1nF",C1743,Basic
+R22,1M,UNI-ROYAL,0805W8F1004T5E,Tester:R_0805_2012Metric,YES,1%,C17514,Basic
+R23,1M,UNI-ROYAL,0805W8F1004T5E,Tester:R_0805_2012Metric,YES,1%,C17514,Basic
+R24,4.7k,UNI-ROYAL,0805W8F4701T5E,Tester:R_0805_2012Metric,YES,"1% | JLC: Basic; same 1%, 100ppm/K, 125mW, 150V rating",C17673,Basic
+C8,470p,Fenghua,0805B471K500NT,Tester:C_0805_2012Metric,YES,"470pF +/-10%, 50V X7R; Rev D candidate model bounds total input capacitance at 1nF",C1743,Basic
+U2,ADS1115IDGSR,Texas Instruments,ADS1115IDGSR,Tester:TSSOP-10_3x3mm_P0.5mm,YES,"PGA +/-1.024V, nominal attenuation 426.5319. Rev D calibration/firmware required.",C37593,Extended
+C14,100n,Yageo,CC0805KRX7R9BB104,Tester:C_0805_2012Metric,YES,"Use specified capacitance, voltage and dielectric | JLC: Basic; 100nF, 10%, 50V, X7R preserved",C49678,Basic
+J3,INPUTS 9-12,Ningbo Xinlaiya Elec.,XY350V-3.5-4P,Tester:XY350V_3.5_4P,YES,"C557656; 3.5mm pitch, 0.8mm square pins, 1.4mm drill. 14x6.9mm body. WIRE OPENINGS FACE LOWER BOARD EDGE (+Y); footprint contact 1 at right. Input labels increase left-to-right.",C557656,Extended
+R25,1M,UNI-ROYAL,0805W8F1004T5E,Tester:R_0805_2012Metric,YES,1%,C17514,Basic
+R26,1M,UNI-ROYAL,0805W8F1004T5E,Tester:R_0805_2012Metric,YES,1%,C17514,Basic
+R27,4.7k,UNI-ROYAL,0805W8F4701T5E,Tester:R_0805_2012Metric,YES,"1% | JLC: Basic; same 1%, 100ppm/K, 125mW, 150V rating",C17673,Basic
+C9,470p,Fenghua,0805B471K500NT,Tester:C_0805_2012Metric,YES,"470pF +/-10%, 50V X7R; Rev D candidate model bounds total input capacitance at 1nF",C1743,Basic
+R28,1M,UNI-ROYAL,0805W8F1004T5E,Tester:R_0805_2012Metric,YES,1%,C17514,Basic
+R29,1M,UNI-ROYAL,0805W8F1004T5E,Tester:R_0805_2012Metric,YES,1%,C17514,Basic
+R30,4.7k,UNI-ROYAL,0805W8F4701T5E,Tester:R_0805_2012Metric,YES,"1% | JLC: Basic; same 1%, 100ppm/K, 125mW, 150V rating",C17673,Basic
+C10,470p,Fenghua,0805B471K500NT,Tester:C_0805_2012Metric,YES,"470pF +/-10%, 50V X7R; Rev D candidate model bounds total input capacitance at 1nF",C1743,Basic
+R31,1M,UNI-ROYAL,0805W8F1004T5E,Tester:R_0805_2012Metric,YES,1%,C17514,Basic
+R32,1M,UNI-ROYAL,0805W8F1004T5E,Tester:R_0805_2012Metric,YES,1%,C17514,Basic
+R33,4.7k,UNI-ROYAL,0805W8F4701T5E,Tester:R_0805_2012Metric,YES,"1% | JLC: Basic; same 1%, 100ppm/K, 125mW, 150V rating",C17673,Basic
+C11,470p,Fenghua,0805B471K500NT,Tester:C_0805_2012Metric,YES,"470pF +/-10%, 50V X7R; Rev D candidate model bounds total input capacitance at 1nF",C1743,Basic
+R34,1M,UNI-ROYAL,0805W8F1004T5E,Tester:R_0805_2012Metric,YES,1%,C17514,Basic
+R35,1M,UNI-ROYAL,0805W8F1004T5E,Tester:R_0805_2012Metric,YES,1%,C17514,Basic
+R36,4.7k,UNI-ROYAL,0805W8F4701T5E,Tester:R_0805_2012Metric,YES,"1% | JLC: Basic; same 1%, 100ppm/K, 125mW, 150V rating",C17673,Basic
+C12,470p,Fenghua,0805B471K500NT,Tester:C_0805_2012Metric,YES,"470pF +/-10%, 50V X7R; Rev D candidate model bounds total input capacitance at 1nF",C1743,Basic
+U3,ADS1115IDGSR,Texas Instruments,ADS1115IDGSR,Tester:TSSOP-10_3x3mm_P0.5mm,YES,"PGA +/-1.024V, nominal attenuation 426.5319. Rev D calibration/firmware required.",C37593,Extended
+C15,100n,Yageo,CC0805KRX7R9BB104,Tester:C_0805_2012Metric,YES,"Use specified capacitance, voltage and dielectric | JLC: Basic; 100nF, 10%, 50V, X7R preserved",C49678,Basic
+U6,ISO1640BDR,Texas Instruments,ISO1640BDR,Tester:SOIC-8_3.9x4.9mm_P1.27mm,YES,"Isolated I2C, GPIO2/3 host side. CM5 internal 1.8k pull-ups; isolated 4.7k pull-ups. 100kHz.",C5122339,Extended
+R37,4.7k,UNI-ROYAL,0805W8F4701T5E,Tester:R_0805_2012Metric,YES,"1% | JLC: Basic; same 1%, 100ppm/K, 125mW, 150V rating",C17673,Basic
+R38,1k,UNI-ROYAL,0805W8F1001T5E,Tester:R_0805_2012Metric,YES,"1% | JLC: Basic; same 1%, 100ppm/K, 125mW, 150V rating",C17513,Basic
+R44,4.7k,UNI-ROYAL,0805W8F4701T5E,Tester:R_0805_2012Metric,YES,"1% | JLC: Basic; same 1%, 100ppm/K, 125mW, 150V rating",C17673,Basic
+R45,4.7k,UNI-ROYAL,0805W8F4701T5E,Tester:R_0805_2012Metric,YES,"1% | JLC: Basic; same 1%, 100ppm/K, 125mW, 150V rating",C17673,Basic
+R48,1k,UNI-ROYAL,0805W8F1001T5E,Tester:R_0805_2012Metric,YES,"1% | JLC: Basic; same 1%, 100ppm/K, 125mW, 150V rating",C17513,Basic
+C16,10u,Samsung Electro-Mechanics,CL21A106KAYNNNE,Tester:C_0805_2012Metric,YES,"Use specified capacitance, voltage and dielectric | JLC: Basic; 10uF, 10%, X5R; voltage rating increased to 25V",C15850,Basic
+C17,100n,Yageo,CC0805KRX7R9BB104,Tester:C_0805_2012Metric,YES,"Use specified capacitance, voltage and dielectric | JLC: Basic; 100nF, 10%, 50V, X7R preserved",C49678,Basic
+C24,100n,Yageo,CC0805KRX7R9BB104,Tester:C_0805_2012Metric,YES,"Use specified capacitance, voltage and dielectric | JLC: Basic; 100nF, 10%, 50V, X7R preserved",C49678,Basic
+C25,100n,Yageo,CC0805KRX7R9BB104,Tester:C_0805_2012Metric,YES,"Use specified capacitance, voltage and dielectric | JLC: Basic; 100nF, 10%, 50V, X7R preserved",C49678,Basic
+C26,470p,Fenghua,0805B471K500NT,Tester:C_0805_2012Metric,YES,"470pF +/-10%, 50V X7R; Rev D candidate model bounds total input capacitance at 1nF",C1743,Basic
+U8,ADS1115IDGSR,Texas Instruments,ADS1115IDGSR,Tester:TSSOP-10_3x3mm_P0.5mm,YES,"Independent reference monitor at 0x4B, AIN0. Same PGA and conversion timing as input banks; unused inputs tied to AGND.",C37593,Extended
+R49,4.7k,UNI-ROYAL,0805W8F4701T5E,Tester:R_0805_2012Metric,YES,"1% | JLC: Basic; same 1%, 100ppm/K, 125mW, 150V rating",C17673,Basic
+C27,100n,Yageo,CC0805KRX7R9BB104,Tester:C_0805_2012Metric,YES,"Use specified capacitance, voltage and dielectric | JLC: Basic; 100nF, 10%, 50V, X7R preserved",C49678,Basic
+C28,470p,Fenghua,0805B471K500NT,Tester:C_0805_2012Metric,YES,"470pF +/-10%, 50V X7R; Rev D candidate model bounds total input capacitance at 1nF",C1743,Basic
+J4,5 V POWER INPUT,Ningbo Xinlaiya Elec.,XY350V-3.5-4P,Tester:XY350V_3.5_4P,YES,"Same stocked terminal as J1-J3: no extra Extended SKU. Viewed from top, left-to-right: +5V,+5V,GND,GND. Regulated 5.1V recommended; never DUT voltage.",C557656,Extended
+F1,5A input fuse,Shenzhen JDT Fuse,JFC1206-1500FS,Tester:Fuse_1206_3216Metric,YES,5A fast fuse. Does not establish an allowed 5A current through CM5 sockets.,C136351,Extended
+Q1,AO4409 UMW,UMW,AO4409,Tester:SOIC-8_3.9x4.9mm_P1.27mm,YES,"C347462 exact manufacturer; max 9.5mohm at VGS=-4.5V,25C. Reverse polarity: drain to fused input, source to load, gate grounded. No overvoltage protection.",C347462,Extended
+U7,MIE1W0505BGLVH-3R-Z,Monolithic Power Systems,MIE1W0505BGLVH-3R-Z,Tester:MIE1W0505BGLVH,YES,"VSEL=GND2 selects regulated 3.3V. EN=VIN. No minimum-load preload. 30uF nominal output capacitance, plus 100nF; 10ohm/10uF analog rail filter. Functional isolation only.",C22419841,Extended
+R50,10R,UNI-ROYAL,0805W8F100JT5E,Tester:R_0805_2012Metric,YES,Basic 10ohm analog supply RC filter. DC/ripple/rail-collapse behaviour needs bench measurement.,C17415,Basic
+C18,10u,Samsung Electro-Mechanics,CL21A106KAYNNNE,Tester:C_0805_2012Metric,YES,"Use specified capacitance, voltage and dielectric | JLC: Basic; 10uF, 10%, X5R; voltage rating increased to 25V",C15850,Basic
+C19,100n,Yageo,CC0805KRX7R9BB104,Tester:C_0805_2012Metric,YES,"Use specified capacitance, voltage and dielectric | JLC: Basic; 100nF, 10%, 50V, X7R preserved",C49678,Basic
+C20,10u,Samsung Electro-Mechanics,CL21A106KAYNNNE,Tester:C_0805_2012Metric,YES,"Use specified capacitance, voltage and dielectric | JLC: Basic; 10uF, 10%, X5R; voltage rating increased to 25V",C15850,Basic
+C21,100n,Yageo,CC0805KRX7R9BB104,Tester:C_0805_2012Metric,YES,"Use specified capacitance, voltage and dielectric | JLC: Basic; 100nF, 10%, 50V, X7R preserved",C49678,Basic
+C22,10u,Samsung Electro-Mechanics,CL21A106KAYNNNE,Tester:C_0805_2012Metric,YES,"Use specified capacitance, voltage and dielectric | JLC: Basic; 10uF, 10%, X5R; voltage rating increased to 25V",C15850,Basic
+C23,100n,Yageo,CC0805KRX7R9BB104,Tester:C_0805_2012Metric,YES,"Use specified capacitance, voltage and dielectric | JLC: Basic; 100nF, 10%, 50V, X7R preserved",C49678,Basic
+C29,10u,Samsung Electro-Mechanics,CL21A106KAYNNNE,Tester:C_0805_2012Metric,YES,"Use specified capacitance, voltage and dielectric | JLC: Basic; 10uF, 10%, X5R; voltage rating increased to 25V",C15850,Basic
+C30,10u,Samsung Electro-Mechanics,CL21A106KAYNNNE,Tester:C_0805_2012Metric,YES,"Use specified capacitance, voltage and dielectric | JLC: Basic; 10uF, 10%, X5R; voltage rating increased to 25V",C15850,Basic
+C31,10u,Samsung Electro-Mechanics,CL21A106KAYNNNE,Tester:C_0805_2012Metric,YES,"Use specified capacitance, voltage and dielectric | JLC: Basic; 10uF, 10%, X5R; voltage rating increased to 25V",C15850,Basic
+C32,10u,Samsung Electro-Mechanics,CL21A106KAYNNNE,Tester:C_0805_2012Metric,YES,"Use specified capacitance, voltage and dielectric | JLC: Basic; 10uF, 10%, X5R; voltage rating increased to 25V",C15850,Basic
+C33,10u,Samsung Electro-Mechanics,CL21A106KAYNNNE,Tester:C_0805_2012Metric,YES,"Use specified capacitance, voltage and dielectric | JLC: Basic; 10uF, 10%, X5R; voltage rating increased to 25V",C15850,Basic
+C34,100n,Yageo,CC0805KRX7R9BB104,Tester:C_0805_2012Metric,YES,"Use specified capacitance, voltage and dielectric | JLC: Basic; 100nF, 10%, 50V, X7R preserved",C49678,Basic
+J5,CM5 SOCKET 1-100,Amphenol ICC,10164227-1001A1RLF,Tester:CM5_SOCKET_J5,YES,"Raspberry Pi recommended 1.5mm socket. No components under module. 300mA/contact rating: six parallel 5V pins, not a 5A-per-module claim. CM5 with eMMC; preimage on an external IO carrier.",C6782225,Extended
+J6,CM5 SOCKET 101-200,Amphenol ICC,10164227-1001A1RLF,Tester:CM5_SOCKET_J6,YES,"Raspberry Pi recommended 1.5mm socket. No components under module. 300mA/contact rating: six parallel 5V pins, not a 5A-per-module claim. CM5 with eMMC; preimage on an external IO carrier.",C6782225,Extended
+J7,HOST SPI / I2C,,,Tester:PinHeader_2x06_P2.54mm_Vertical,NO,"Optional user-fitted 2x6 header. Host 3.3V logic, host ground, no isolation at this connector. Can connect a compatible SPI LCD or separately specified sensor/emitter. Not a power stimulus for DUT.",,
+J8,POWER BUTTON,,,Tester:PinHeader_1x02_P2.54mm_Vertical,NO,Optional normally-open momentary button across these pads. CM5 handles safe OS shutdown where configured.,,
+J9,UART CONSOLE,,,Tester:PinHeader_1x03_P2.54mm_Vertical,NO,Optional 3.3V GPIO14/15 console. No USB connector. Do not apply 5V logic or power through UART.,,

@@ -1,0 +1,21 @@
+{
+  "status": "PASS",
+  "purchasing_metadata_footprints": 116,
+  "pcb_before_sha256": "885fefa2ecadbf35ab674bcdc5141cc5e6061406cc44aefea95a61bf268ce7e5",
+  "pcb_after_sha256": "8e68fb65e4d7663bc9b04b8eaf4f14a24ec3db056932f1bbd0cf0b777bbf6ff1",
+  "physical_pcb_tree_unchanged": true,
+  "manufacturing_drawing_commands_unchanged": {
+    "gerbers/tester12v-B_Cu.gbl": true,
+    "gerbers/tester12v-B_Mask.gbs": true,
+    "gerbers/tester12v-B_Silkscreen.gbo": true,
+    "gerbers/tester12v-Edge_Cuts.gm1": true,
+    "gerbers/tester12v-F_Cu.gtl": true,
+    "gerbers/tester12v-F_Mask.gts": true,
+    "gerbers/tester12v-F_Silkscreen.gto": true,
+    "gerbers/tester12v-NPTH.drl": true,
+    "gerbers/tester12v-PTH.drl": true,
+    "stencil/tester12v-F_Paste.gtp": true
+  },
+  "meaning": "Only hidden MPN/manufacturer/JLC fields changed in PCB; timestamps changed in regenerated plots. No circuit or geometry change.",
+  "pcb_run_input_sha256": "8e68fb65e4d7663bc9b04b8eaf4f14a24ec3db056932f1bbd0cf0b777bbf6ff1"
+}

@@ -1,0 +1,995 @@
+                                                                                            MIE1W0505BGLVH
+                                                                                                 5V, 1W, Regulated, 2.5kVRMS
+                                                                                                      Isolated DC/DC Module
+
+DESCRIPTION                                                           FEATURES
+The MIE1W0505BGLVH is an isolated,                                    •    3V to 5.5V Input Voltage (VIN) Operation
+regulated, DC/DC module. It can support 3V to                              Range
+5.5V input voltage (VIN) applications. With                           •    Selectable 5V or 3.3V Output Voltage (VOUT)
+excellent load and line regulation, it supports up                         o 5V to 5V: ≥200mA Available Load
+to 1W of output power (POUT).                                                 Current (ILOAD)
+The MIE1W0505BGLVH integrates power                                        o 5V to 3.3V: ≥200mA Available ILOAD
+MOSFETs, transformer, and feedback (FB)                                    o 3.3V to 3.3V: ≥75mA Available ILOAD
+circuit all in one chip, achieving excellent                          •    2.5kVRMS Isolation Voltage
+performance and saving size.                                          •    Supports Infinite Capacitive Load
+                                                                      •    0.4% Load Regulation
+The MIE1W0505BGLVH supports a regulated                               •    0.3% Line Regulation
+output voltage (VOUT). When VOUT drops below
+                                                                      •    Continuous Short-Circuit Protection (SCP)
+the target voltage (3.3V or 5V), the IC begins
+                                                                      •    Over-Temperature Protection (OTP)
+switching, delivering power from the VIN pin to
+the VOUT pin until VOUT reaches the target                            •    CB Certification According to IEC 62368-1
+voltage again.                                                        •    Meets EN55032 Class B Emissions
+                                                                      •    -40°C to +125°C Operating Temperature
+The device also integrates a VOUT feedback                                 Range
+block, which can regulate VOUT without the need                       •    Available in an LGA-12 (4mmx5mm)
+for a traditional optocoupler and a precision                              Package
+programmable reference IC. This small solution
+provides high reliability compared to traditional                     APPLICATIONS
+isolated power modules.                                               •    Industrial Automation Systems
+Full protection features include short-circuit                        •    Isolated Bias Power for Digital Isolators
+protection    (SCP)   and    over-temperature                         •    Isolated Power for Isolated RS-485, RS-
+protection (OTP).                                                          422, and CAN Interfaces
+                                                                      •    Isolated Sensor Power Supplies
+The MIE1W0505BGLVH is available in a small
+LGA-12 (4mmx5mm) package.                                             •    Telecom and Network Devices (5G RRUs,
+                                                                           Industrial CPEs, Network Gateways, etc.)
+                                                                      All MPS parts are lead-free, halogen-free, and adhere to the RoHS directive.
+                                                                      For MPS green status, please visit the MPS website under Quality
+                                                                      Assurance. “MPS”, the MPS logo, and “Simple, Easy Solutions” are
+                                                                      trademarks of Monolithic Power Systems, Inc. or its subsidiaries.
+
+
+TYPICAL APPLICATION
+                                                                                                 Efficiency vs. Load Current
+                                                                                                 VIN = VOUT = 5V
+                             U1                                                             60
+                                                                           EFFICIENCY (%)
+
+
+
+
+             4.5V-5.5V                         5V                                           50
+       VIN                   VIN    VOUT             VOUT
+                                                                                            40
+                    On/off
+                             EN
+               C1                               C2                                          30
+                                    VSEL
+             10uF                                                                           20
+                                                 22uF
+                                                                                            10
+     GND1                    GND1   GND2             GND2
+                                                                                            0
+                                                                                                 0       50        100   150   200
+                                                                                                          LOAD CURRENT (mA)
+
+
+
+
+MIE1W0505BGLVH Rev. 1.0                              MonolithicPower.com                                                                      1
+6/28/2024      MPS Proprietary Information. Patent Protected. Unauthorized Photocopy and Duplication Prohibited.
+                                              © 2024 MPS. All Rights Reserved.
+                           MIE1W0505BGLVH – 1W, REGULATED, 2.5kVRMS ISOLATED DC/DC MODULE
+
+                                          ORDERING INFORMATION
+                      Part Number*                     Package                  Top Marking        MSL Rating
+                  MIE1W0505BGLVH-3R               LGA-12 (4mmx5mm)               See Below             3
+                            * For Tape & Reel, add suffix -Z (e.g. MIE1W0505BGLVH-3R-Z).
+
+
+
+                                                    TOP MARKING
+
+
+
+
+                     MPS: MPS prefix
+                     Y: Year code
+                     WW: Week code
+                     1W0505: Part number
+                     LLLLLL: Lot number
+                     BH: Part number suffix
+
+
+
+
+                                            PACKAGE REFERENCE
+                                                           TOP VIEW
+
+                                           GND1    GND1 GND1       VIN    VIN      EN
+
+                                              1       12     11     10     9        8
+
+
+
+
+                                              2       3      4      5      6        7
+
+                                           GND2     GND2 GND2      VOUT VOUT      VSEL
+
+                                                     LGA-12 (4mmx5mm)
+
+
+MIE1W0505BGLVH Rev. 1.0                              MonolithicPower.com                                           2
+6/28/2024      MPS Proprietary Information. Patent Protected. Unauthorized Photocopy and Duplication Prohibited.
+                                              © 2024 MPS. All Rights Reserved.
+                              MIE1W0505BGLVH – 1W, REGULATED, 2.5kVRMS ISOLATED DC/DC MODULE
+
+PIN FUNCTIONS
+   Pin #         Name       Description
+ 1, 11, 12       GND1       Power ground side 1.
+  2, 3, 4        GND2       Power ground side 2.
+                            Power output pin. It is recommended to connect a 22μF capacitor and a 0.1μF capacitor
+    5, 6         VOUT       between VOUT and GND2 (pins 3 and 4) to decrease the output voltage (VOUT) ripple and
+                            noise.
+                            Output voltage setting pin. For a 5V output, connect the VSEL pin to VOUT or float this
+      7          VSEL       pin. For a 3.3V output, connect the VSEL pin to GND2. Do not bias VSEL with another
+                            power source.
+                            Enable pin. Pull the EN pin high to enable the MIE1W0505BGLVH; pull it low to disable
+      8            EN
+                            the MIE1W0505BGLVH. Do not leave this pin floating.
+                            Power input pin. Connect the VIN pin to a 3V to 5.5V power supply. Connect a 10μF
+    9, 10         VIN       capacitor and a 0.1μF capacitor between VIN and GND1 (pins 11 and 12) to stabilize the
+                            IC.
+
+
+ABSOLUTE MAXIMUM RATINGS (1)                                            Thermal Resistance                        θJA       θJC
+VIN/EN to GND1 ..........................-0.3V to +6.5V                 LGA-12 (4mmx5mm)
+VOUT/VSEL to GND2 ..................-0.3V to +6.5V                      EV1W0505B-LVH-00A (4)...…. 70...….22...°C/W
+Continuous power dissipation (TA = 25°C) (2) (4)                        JESD51-7 (5) ........................... 61 ...... 19... °C/W
+    ........................................................... 1.78W
+                                                                        Notes:
+Junction temperature (TJ) .........................150°C                1) Exceeding these ratings may damage the device.
+Lead temperature .....................................260°C             2) The maximum allowable power dissipation is a function of the
+Storage temperature ................ -65°C to +150°C                       maximum junction temperature TJ (MAX), the junction-to-
+                                                                           ambient thermal resistance θJA, and the ambient temperature
+ESD Ratings                                                                TA. The maximum allowable continuous power dissipation at
+                                                                           any ambient temperature is calculated by PD (MAX) = (TJ
+Human body model (HBM) .................... ±5000V                         (MAX) - TA) / θJA. Exceeding the maximum allowable power
+Charged-device model (CDM) .............. ±2000V                           dissipation can produce an excessive die temperature, which
+                                                                           may cause the regulator to go into thermal shutdown. Internal
+                                                                           thermal shutdown circuitry protects the device from
+Recommended Operating Conditions (3)                                       permanent damage.
+Input voltage (VIN) .............................. 3V to 5.5V           3) The device is not guaranteed to function outside of its
+                                                                           operating conditions.
+Output voltage (VOUT) ............................... 5/3.3V            4) Measured on the EV1W0505B-LVH-00A (51mmx51mm), a
+Operating junction temp (TJ) .... -40°C to +125°C                          1oz, 2- layer PCB.
+                                                                        5) The value of θJA given in this table is only valid for comparison
+                                                                           with other packages and cannot be used for design purposes.
+                                                                           These values were calculated in accordance with JESD51-7,
+                                                                           and simulated on a specified JEDEC board. They do not
+                                                                           represent the performance obtained in an actual application.
+
+
+
+
+MIE1W0505BGLVH Rev. 1.0                              MonolithicPower.com                                                                  3
+6/28/2024      MPS Proprietary Information. Patent Protected. Unauthorized Photocopy and Duplication Prohibited.
+                                              © 2024 MPS. All Rights Reserved.
+                           MIE1W0505BGLVH – 1W, REGULATED, 2.5kVRMS ISOLATED DC/DC MODULE
+
+ELECTRICAL CHARACTERISTICS
+VIN = 5V, VOUT = 5V, CIN = 0.1μF + 10μF, COUT = 0.1μF + 22μF, TJ = -40°C to +125°C (6), typical
+values are tested at TJ = 25°C, unless otherwise noted.
+Parameter                         Symbol      Condition                                         Min      Typ       Max    Units
+Power Supply
+VIN under-voltage lockout
+                                 VIN_UVLO_R VIN rising                                         2.45      2.6       2.75    V
+(UVLO) rising threshold
+VIN UVLO threshold
+                                  VIN_HYS                                                                220               mV
+hysteresis
+                                              VIN = 5.5V, VEN = 0V, measured on the
+Shutdown current                     ISD                                                                  7        50      µA
+                                              VIN pin
+                                              Load = 0A                                                   8        11      mA
+Input current                        IIN
+                                              Load = 0.2A                                                395       450     mA
+EN input high threshold                                                                                             2      V
+EN input voltage low
+                                                                                                0.4                        V
+threshold
+EN input current leakage                      EN connected to GND1                               -7       -5               µA
+                                   VOUT_
+Output voltage accuracy                       VIN = 4.5V to 5.5V, IOUT = 0A                    4.85       5        5.15    V
+                                     ACC
+Load regulation                               Load = 0A to 0.2A                                          0.4        2      %
+Line regulation                               VIN = 4.5V to 5.5V, load = 0.2A                            0.3        2      %
+Efficiency (7)                                Load = 0.2A                                                50.5              %
+Ripple                                        TA = 25°C, 20MHz bandwidth                                  60       100     mV
+                                              Short all primary pins and all secondary
+                                              pins as a two-terminal part,                      2.5                       kVRMS
+                                              test time = 60s, qualified test
+Isolated voltage                    VISO      Short all primary pins and all secondary
+                                              pins as a two-terminal part,
+                                                                                                 3                        kVRMS
+                                              test time = 1s, production test, 100%
+                                              test
+                                              Short all primary pins and all secondary
+Input to output
+                                    CI-O      pins as a two-terminal part,                                5                pF
+capacitance (7)
+                                              measuring frequency = 1MHz
+                                              Short all primary pins and all secondary
+Input to output resistance
+(7)                                 RI-O      pins as a two-terminal part,                      50                         GΩ
+                                              test voltage = 500VDC
+Static common-mode
+transient immunity (CMTI)          CMTI                                                         100                       kV/μs
+(7)
+
+Thermal Shutdown (7)
+Thermal shutdown
+                                    TSD                                                                  150               °C
+temperature
+Thermal shutdown
+                                  TSD-HYS                                                                 20               °C
+hysteresis
+
+
+
+
+MIE1W0505BGLVH Rev. 1.0                              MonolithicPower.com                                                          4
+6/28/2024      MPS Proprietary Information. Patent Protected. Unauthorized Photocopy and Duplication Prohibited.
+                                              © 2024 MPS. All Rights Reserved.
+                           MIE1W0505BGLVH – 1W, REGULATED, 2.5kVRMS ISOLATED DC/DC MODULE
+
+ELECTRICAL CHARACTERISTICS (continued)
+VIN = 5V, VOUT = 3.3V, CIN = 0.1μF + 10μF, COUT = 0.1μF + 22μF, TJ = -40°C to +125°C (6), typical
+values are tested at TJ = 25°C, unless otherwise noted.
+Parameter                        Symbol       Condition                                        Min       Typ       Max    Units
+Power Supply
+                                              VIN = 5.5V, VEN = 0V, measured on the
+Shutdown current                     ISD                                                                  7        50      µA
+                                              VIN pin
+                                              Load = 0A                                                   5         8      mA
+Input current                        IIN
+                                              Load = 0.2A                                                354       430     mA
+EN input current leakage                      EN connected to GND1                              -7        -5               µA
+Output voltage accuracy          VOUT_ACC     VIN = 4.5V to 5.5V, IOUT = 0A                    3.18      3.3       3.42     V
+Load regulation                               Load = 0A to 0.2A                                          0.4         2     %
+Line regulation                               VIN = 4.5V to 5.5V, load = 0.2A                            0.2         2     %
+Efficiency (7)                                Load = 0.2A                                                37                %
+Ripple                                        TA = 25°C, 20MHz bandwidth                                 50        90      mV
+
+
+
+
+MIE1W0505BGLVH Rev. 1.0                              MonolithicPower.com                                                          5
+6/28/2024      MPS Proprietary Information. Patent Protected. Unauthorized Photocopy and Duplication Prohibited.
+                                              © 2024 MPS. All Rights Reserved.
+                            MIE1W0505BGLVH – 1W, REGULATED, 2.5kVRMS ISOLATED DC/DC MODULE
+
+ELECTRICAL CHARACTERISTICS (continued)
+VIN = 3.3V, VOUT = 3.3V, CIN = 0.1μF + 10μF, COUT = 0.1μF + 22μF, TJ = -40°C to +125°C (6), typical
+values are tested at TJ = 25°C, unless otherwise noted.
+Parameter                           Symbol       Condition                                      Min      Typ       Max    Units
+Power Supply
+Shutdown current                       ISD       VEN = 0V, measured on the VIN pin                         5        30     µA
+                                                 Load = 0A                                                 5        8      mA
+Input current                          IIN
+                                                 Load = 0.075A                                           150       190     mA
+EN input current leakage                         EN connected to GND1                           -5       -3.3              µA
+Output voltage accuracy            VOUT_ACC      VIN = 3V to 3.6V, IOUT = 0A                   3.18       3.3      3.42     V
+Load regulation                                  Load = 0A to 0.075A                                      0.3      1.8     %
+Line regulation                                  VIN = 3V to 3.6V, load = 0.075A                          0.2      1.5     %
+Efficiency (7)                                   Load = 0.075A                                            50               %
+Ripple                                           TA = 25°C, 20MHz bandwidth                               30       60      mV
+Notes:
+6) Guaranteed by over-temperature (OT) correlation. Not tested in production.
+7) Guaranteed by sample characterization. Not tested in production.
+
+
+
+
+MIE1W0505BGLVH Rev. 1.0                              MonolithicPower.com                                                        6
+6/28/2024      MPS Proprietary Information. Patent Protected. Unauthorized Photocopy and Duplication Prohibited.
+                                              © 2024 MPS. All Rights Reserved.
+                                                        MIE1W0505BGLVH – 1W, REGULATED, 2.5kVRMS ISOLATED DC/DC MODULE
+
+TYPICAL CHARACTERISTICS
+VIN = 5V, VOUT = 5V, CIN = 0.1µF + 10µF, COUT = 0.1µF + 22µF, TA = 25°C, unless otherwise noted.
+
+                                        Output Voltage Accuracy vs.                                                                       Output Voltage Accuracy vs.
+                                        Temperature                                                                                       Temperature
+                                                                                                                                          VIN = 5V, VOUT = 3.3V, IOUT = 0A
+
+
+
+
+                                                                                         OUPUT VOLTAGE ACCURACY (%)
+                                        VIN = 5V, VOUT = 5V, IOUT = 0A
+OUPUT VOLTAGE ACCURACY (%)
+
+
+
+
+                                1.5                                                                                               1.5
+
+                                1.0                                                                                               1.0
+
+                                0.5                                                                                               0.5
+
+                                0.0                                                                                               0.0
+
+                                -0.5                                                                                              -0.5
+
+                                -1.0                                                                                              -1.0
+
+                                -1.5                                                                                              -1.5
+                                       -50   -25    0   25  50   75          100   125                                                   -50   -25   0     25    50    75    100   125
+                                                   TEMPERATURE ( C)                                                                                   TEMPERATURE ( C)
+
+
+                                        Output Voltage Accuracy vs.                                                                       Shutdown Current vs.
+                                        Temperature                                                                                       Temperature
+   OUPUT VOLTAGE ACCURACY (%)
+
+
+
+
+                                        VIN = 3.3V, VOUT = 3.3V, IOUT = 0A                                                                VIN = 5V
+                                1.5                                                                                                20
+                                                                                                          SHUTDOWN CURRENT (μA)
+
+
+
+
+                                1.0
+                                                                                                                                   15
+                                0.5
+
+                                0.0                                                                                                10
+
+                                -0.5
+                                                                                                                                    5
+                                -1.0
+
+                                -1.5                                                                                                0
+                                       -50   -25    0    25    50    75      100   125                                                   -50   -25    0  25  50   75 100           125
+                                                   TEMPERATURE ( C)                                                                                  TEMPERATURE ( C)
+
+
+
+
+MIE1W0505BGLVH Rev. 1.0                              MonolithicPower.com                                                                                                                 7
+6/28/2024      MPS Proprietary Information. Patent Protected. Unauthorized Photocopy and Duplication Prohibited.
+                                              © 2024 MPS. All Rights Reserved.
+                                                   MIE1W0505BGLVH – 1W, REGULATED, 2.5kVRMS ISOLATED DC/DC MODULE
+
+TYPICAL PERFORMANCE CHARACTERISTICS
+VIN = 5V, VOUT = 5V, CIN = 0.1µF + 10µF, COUT = 0.1µF + 22µF, TA = 25°C, unless otherwise noted.
+
+
+                                  Efficiency vs. Load Current                                                     Efficiency vs. Load Current
+                                  VIN = VOUT = 5V                                                                 VIN = 5V, VOUT = 3.3V
+                           60                                                                              50
+                                                                                                           45
+ EFFICIENCY (%)
+
+
+
+
+                                                                                 EFFICIENCY (%)
+                           50                                                                              40
+                           40                                                                              35
+                                                                                                           30
+                           30                                                                              25
+                                                                                                           20
+                           20                                                                              15
+                           10                                                                              10
+                                                                                                            5
+                            0                                                                               0
+                                  0           50         100        150    200                                    0          50         100     150   200
+                                              LOAD CURRENT (mA)                                                               LOAD CURRENT (mA)
+
+
+
+                                  Efficiency vs. Load Current                                                         Load Regulation
+                                  VIN = 3.3V, VOUT = 3.3V                                                             VIN = VOUT = 5V
+                           60                                                                             1.00
+                                                                                    LOAD REGULATION (%)
+
+
+
+
+                                                                                                          0.75
+ EFFICIENCY (%)
+
+
+
+
+                           50
+                                                                                                          0.50
+                           40
+                                                                                                          0.25
+                           30                                                                             0.00
+
+                           20                                                                             -0.25
+                                                                                                          -0.50
+                           10
+                                                                                                          -0.75
+                            0                                                                             -1.00
+                                  0         15      30         45     60   75                                     0           50    100     150       200
+                                              LOAD CURRENT (mA)                                                             LOAD CURRENT (mA)
+
+
+
+
+                                      Load Regulation                                                                 Load Regulation
+                                      VIN = 5V, VOUT = 3.3V                                                           VIN = 3.3V, VOUT = 3.3V
+                          1.00                                                                             1.00
+                                                                                    LOAD REGULATION (%)
+    LOAD REGULATION (%)
+
+
+
+
+                          0.75                                                                             0.75
+                          0.50                                                                             0.50
+                          0.25                                                                             0.25
+                          0.00                                                                             0.00
+                          -0.25                                                                           -0.25
+                          -0.50                                                                           -0.50
+                          -0.75                                                                           -0.75
+                          -1.00                                                                           -1.00
+                                  0           50    100     150            200                                        0      15   30   45     60      75
+                                            LOAD CURRENT (mA)                                                               LOAD CURRENT (mA)
+
+
+
+
+MIE1W0505BGLVH Rev. 1.0                              MonolithicPower.com                                                                                    8
+6/28/2024      MPS Proprietary Information. Patent Protected. Unauthorized Photocopy and Duplication Prohibited.
+                                              © 2024 MPS. All Rights Reserved.
+                                                     MIE1W0505BGLVH – 1W, REGULATED, 2.5kVRMS ISOLATED DC/DC MODULE
+
+TYPICAL PERFORMANCE CHARACTERISTICS (continued)
+VIN = 5V, VOUT = 5V, CIN = 0.1µF + 10µF, COUT = 0.1µF + 22µF, TA = 25°C, unless otherwise noted.
+
+
+                                     Line Regulation                                                                   Line Regulation
+                                     VOUT = 5V, IOUT = 0.2A                                                            VOUT = 3.3V, IOUT = 0.2A
+                             1.2                                                                               1.2
+ LINE REGULATION (%)
+
+
+
+
+                                                                               LINE REGULATION (%)
+                             0.8                                                                               0.8
+
+                             0.4                                                                               0.4
+
+                             0.0                                                                               0.0
+
+                             -0.4                                                                              -0.4
+
+                             -0.8                                                                              -0.8
+
+                             -1.2                                                                              -1.2
+                                 4.50           4.75     5.00   5.25    5.50                                       4.50           4.75     5.00   5.25         5.50
+                                                   INPUT VOLTAGE (V)                                                                 INPUT VOLTAGE (V)
+
+
+
+                                     Line Regulation                                                                   Load Current vs. Temperature
+                                     VOUT = 3.3V, IOUT = 0.075A                                                        VIN = 5V, VOUT = 5V
+                             1.2                                                                               250
+ LINE REGULATION (%)
+
+
+
+
+                                                                                                                                                  45℃
+                                                                                           LOAD CURRENT (mA)
+
+
+
+                             0.8
+                                                                                                               200
+                             0.4
+                                                                                                               150
+                             0.0                                                                                                                         85℃
+                             -0.4                                                                              100
+
+                             -0.8                                                                               50
+                             -1.2
+                                 3.00     3.10    3.20 3.30 3.40 3.50   3.60                                     0
+                                                 INPUT VOLTAGE (V)                                                    -50   -25     0  25  50   75       100   125
+                                                                                                                                  TEMPERATURE ( C)
+
+
+                                                                                                                       Load Current vs. Temperature
+                                     Load Current vs. Temperature                                                      VIN = 3.3V, VOUT = 3.3V
+                                     VIN = 5V, VOUT = 3.3V
+                             250                                                                               125
+                                                              40℃
+         LOAD CURRENT (mA)
+
+
+
+
+                                                                                        LOAD CURRENT (mA)
+
+
+
+
+                             200                                                                               100
+                                                                                                                                                    100℃
+                             150
+                                                                                                                75
+
+                             100
+                                                                                                                50
+                                                     85℃, 90mA
+                              50
+                                                                                                                25
+                               0
+                                    -50   -25     0   25 50   75    100 125                                      0
+                                                 TEMPERATURE ( C)                                                     -50   -25  0   25  50   75        100 125
+                                                                                                                               TEMPERATURE ( C)
+
+
+
+
+MIE1W0505BGLVH Rev. 1.0                              MonolithicPower.com                                                                                              9
+6/28/2024      MPS Proprietary Information. Patent Protected. Unauthorized Photocopy and Duplication Prohibited.
+                                              © 2024 MPS. All Rights Reserved.
+                              MIE1W0505BGLVH – 1W, REGULATED, 2.5kVRMS ISOLATED DC/DC MODULE
+
+TYPICAL PERFORMANCE CHARACTERISTICS (continued)
+VIN = 5V, VOUT = 5V, CIN = 0.1µF + 10µF, COUT = 0.1µF + 22µF, TA = 25°C, unless otherwise noted.
+
+                VOUT Ripple                                                      Load Transient
+                IOUT = 0.2A                                                      IOUT = 0A to 0.2A
+
+
+
+
+        CH1:
+     VOUT/AC                                                             CH1:
+                                                                      VOUT/AC
+
+
+
+     CH2: VIN
+
+
+    CH4: IOUT                                                        CH4: IOUT
+
+
+
+
+                Start-Up through VIN                                             Shutdown through VIN
+                IOUT = 0.2A                                                      IOUT = 0.2A
+
+
+
+
+   CH1: VOUT                                                        CH1: VOUT
+
+
+
+     CH2: VIN                                                         CH2: VIN
+
+    CH4: IOUT                                                        CH4: IOUT
+
+
+
+
+                Start-Up through EN                                              Shutdown through EN
+                IOUT = 0.2A                                                      IOUT = 0.2A
+
+
+
+
+   CH1: VOUT                                                        CH1: VOUT
+
+
+
+     CH2: VIN                                                         CH2: VIN
+
+     CH3: EN                                                          CH3: EN
+    CH4: IOUT                                                        CH4: IOUT
+
+
+
+
+MIE1W0505BGLVH Rev. 1.0                              MonolithicPower.com                                           10
+6/28/2024      MPS Proprietary Information. Patent Protected. Unauthorized Photocopy and Duplication Prohibited.
+                                              © 2024 MPS. All Rights Reserved.
+                              MIE1W0505BGLVH – 1W, REGULATED, 2.5kVRMS ISOLATED DC/DC MODULE
+
+TYPICAL PERFORMANCE CHARACTERISTICS (continued)
+VIN = 5V, VOUT = 3.3V, CIN = 0.1µF + 10µF, COUT = 0.1µF + 22µF, TA = 25°C, unless otherwise noted.
+
+                VOUT Ripple                                                      Load Transient
+                IOUT = 0.2A                                                      IOUT = 0A to 0.2A
+
+
+
+
+        CH1:                                                             CH1:
+     VOUT/AC                                                          VOUT/AC
+
+
+
+     CH2: VIN
+
+
+
+    CH4: IOUT                                                        CH4: IOUT
+
+
+
+
+                Start-Up through VIN                                             Shutdown through VIN
+                IOUT = 0.2A                                                      IOUT = 0.2A
+
+
+
+
+   CH1: VOUT                                                        CH1: VOUT
+
+
+
+
+     CH2: VIN                                                         CH2: VIN
+
+    CH4: IOUT                                                        CH4: IOUT
+
+
+
+
+                Start-Up through EN                                              Shutdown through EN
+                IOUT = 0.2A                                                      IOUT = 0.2A
+
+
+
+
+   CH1: VOUT                                                        CH1: VOUT
+
+
+
+     CH2: VIN                                                         CH2: VIN
+     CH3: EN                                                          CH3: EN
+
+    CH4: IOUT                                                        CH4: IOUT
+
+
+
+
+MIE1W0505BGLVH Rev. 1.0                              MonolithicPower.com                                           11
+6/28/2024      MPS Proprietary Information. Patent Protected. Unauthorized Photocopy and Duplication Prohibited.
+                                              © 2024 MPS. All Rights Reserved.
+                           MIE1W0505BGLVH – 1W, REGULATED, 2.5kVRMS ISOLATED DC/DC MODULE
+
+FUNCTIONAL BLOCK DIAGRAM
+
+
+
+
+                                                                 ISOLATION BARRIER
+                     VIN                                                                               VOUT
+                                        DC/AC                                                 AC/DC
+                   GND1                                                                                GND2
+
+
+                     EN                           Decode                             Encode    FB      VSEL
+
+
+                                           Figure 1: Functional Block Diagram
+
+
+
+
+MIE1W0505BGLVH Rev. 1.0                              MonolithicPower.com                                           12
+6/28/2024      MPS Proprietary Information. Patent Protected. Unauthorized Photocopy and Duplication Prohibited.
+                                              © 2024 MPS. All Rights Reserved.
+                           MIE1W0505BGLVH – 1W, REGULATED, 2.5kVRMS ISOLATED DC/DC MODULE
+
+OPERATION
+The MIE1W0505BGLVH is a regulated, isolated                           Enable (EN)
+DC/DC module that can support 3V to 5.5V                              The EN pin enables and disables the
+input voltage (VIN) applications across a -40°C                       MIE1W0505BGLVH. When a voltage above 2V
+to +125°C operating temperature range. It has                         is applied to the EN pin and VIN is above the VIN
+excellent load and line regulation, and supports                      UVLO threshold, the MIE1W0505BGLVH
+up to 1W of output power (POUT).                                      enables all functions and begins switching. If
+Isolation Power Conversion                                            the EN voltage (VEN) falls below its lower
+                                                                      threshold and (0.4V), switching is disabled. For
+The MIE1W0505BGLVH integrates power
+                                                                      automatic start-up, connect the EN pin to VIN
+MOSFETs, transformer, and feedback (FB)
+                                                                      directly or through a resistor divider.
+circuit all in one chip, making it a high-
+performance, small-sized solution.                                    Power Converter Soft Start (SS) and Short-
+                                                                      Circuit Protection (SCP)
+If the output voltage (VOUT) is below the target
+                                                                      To avoid overshoot and inrush current during
+voltage (3.3V or 5V), the IC starts switching to
+                                                                      start-up, the MIE1W0505BGLVH has a built-in
+deliver power from VIN to VOUT. If VOUT exceeds
+                                                                      internal soft start (SS) function that gradually
+the target voltage, the device stops switching.
+                                                                      ramps up the output voltage (VOUT).
+Setting the Output Voltage
+                                                                      The MIE1W0505BGLVH starts up in constant
+To set VOUT to 5V, float the VSEL pin or connect                      current (CC) charging mode. In this mode, the
+it to VOUT. The VOUT pin can output a 200mA                           current limit folds back, and IOUT CC charges
+load with a 4.5V to 5.5V VIN range.                                   the output capacitor (COUT) until VOUT rises to
+To set VOUT to 3.3V, connect the VSEL to                              about 2.7V. After the CC charging period, the
+GND2. The VOUT pin can output a 200mA load                            MIE1W0505BGLVH's current limit returns to
+with a 4.5V to 5.5V VIN range, or a 75mA load                         normal (does not fold back), with higher IOUT
+with a 3V to 3.6V VIN range. VSEL logic is                            capability. Such features guarantee infinite
+locked during start-up. After start-up, VOUT is                       capacitive load.
+fixed even if the VSEL logic is changed.                              During an overload or output short-circuit
+Under-Voltage Lockout Protection (UVLO)                               condition, VOUT drops due to the internal current
+The MIE1W0505BGLVH has input under-                                   limit. Once VOUT drops below about 2.2V, the
+voltage lockout (UVLO) protection to ensure                           MIE1W0505BGLVH enters CC charging mode.
+reliable POUT. The MIE1W0505BGLVH starts up                           After the over-current (OC) or short-circuit is
+once VIN exceeds the UVLO rising threshold.                           condition removed and VOUT rises to about 2.7V,
+The device shuts down when VIN drops below                            the MIE1W0505BGLVH resumes normal
+the UVLO falling threshold. This function                             operation.
+prevents the device from operating at an                              Over-Temperature Protection (OTP)
+insufficient voltage. UVLO is a non-latch                             The     MIE1W0505BGLVH       integrates    one
+protection.                                                           temperature monitoring circuit. If the junction
+                                                                      temperature     (TJ)  exceeds     150°C,    the
+                                                                      MIE1W0505BGLVH shuts down. Once the
+                                                                      temperature drops below 130°C, the device
+                                                                      restarts and resumes normal operation.
+
+
+
+
+MIE1W0505BGLVH Rev. 1.0                              MonolithicPower.com                                            13
+6/28/2024      MPS Proprietary Information. Patent Protected. Unauthorized Photocopy and Duplication Prohibited.
+                                              © 2024 MPS. All Rights Reserved.
+                           MIE1W0505BGLVH – 1W, REGULATED, 2.5kVRMS ISOLATED DC/DC MODULE
+
+APPLICATION INFORMATION
+Selecting the Input and Output Capacitors                                      Top layer           Bottom layer           Mid-layer 2            Mid-layer 3   Via
+
+For stable operation, connect decoupling
+capacitors between the VIN and GND1 pins at
+
+
+
+
+                                                                        GND1
+the input side, and between the VOUT and
+GND2 pins at the output side. Place these                                                                  EN                    VSEL
+                                                                                             C1A                                                  C2B
+
+
+
+
+                                                                                                                                                        VOUT
+decoupling capacitors as close to VIN and                                                                                                 C2A
+
+
+
+
+                                                                        VIN
+                                                                                                   C1B     VIN                   VOUT
+                                                                                                           VIN                   VOUT
+VOUT as possible. It is recommended to add                                                                        MIE1W0505B
+
+
+
+
+                                                                                                                                                        GND2
+one 10μF and one 0.1μF ceramic capacitor at                                                               GND1                    GND2
+
+the input, and to add one 22μF and one 0.1μF
+
+
+
+
+                                                                        GND1
+                                                                                                          GND1                    GND2
+ceramic capacitor at output side. The higher-
+value capacitor is used to make the VOUT ripple
+                                                                                                                  Y-CAP option
+suitable, and the smaller one is used to filter
+high-frequency noise.
+PCB Layout Guidelines                                                                        Top Layer and Bottom Layer
+Efficient PCB layout is critical for stable
+                                                                                                         10mm
+operation. A 4-layer layout is recommended for
+good EMI performance. For the best results,
+refer to Figure 2 and follow the guidelines below:
+1. For safety, the primary side and secondary
+   side should be physically separated. Ensure                                                                    EN                    VSEL
+
+
+
+                                                                                      GND1
+   that the creepage/clearance meets the                                                                         VIN                    VOUT
+                                                                        63mm                                     VIN                    VOUT
+   standards for the specified application.                                                                             MIE1W0505B
+                                                                                                                 GND1                   GND2
+2. To reduce output noise, minimize the loop
+   area between VIN, the input capacitor, and                                                                    GND1                   GND2
+
+
+   GND1, as well as between VOUT, the
+   output capacitor, and GND2.
+3. Place enough copper and vias around the
+   GND1 pins to improve thermal performance.
+4. Do not place large copper areas on the                                                                        Mid-Layer 2
+   GND2 and VOUT pins on the top layer, as                                                                                        10mm
+   doing so will make EMI worse. The smaller
+   the copper areas on VOUT and GND2, the
+   better the EMI performance.
+5. Build a low-ESL overlap Y-capacitor to
+   bypass EMI noise. Place sufficient vias on                                                             EN                     VSEL
+
+   the GND1 and GND2 copper planes to
+                                                                                                                                          GND2
+
+
+
+
+                                                                                                          VIN                    VOUT                           63mm
+   reduce the Y-capacitor’s ESL.                                                                          VIN                    VOUT
+                                                                                                                 MIE1W0505B
+
+6. It is recommended to place the external Y-                                                            GND1                    GND2
+
+   capacitor for EMI debugging. An SMD                                                                   GND1                    GND2
+   package     for   the    Y-capacitor    is
+   recommended due to its lower ESL.
+
+
+
+                                                                                              Mid-Layer 3
+                                                                                  Figure 2: Recommended PCB Layout
+
+
+
+MIE1W0505BGLVH Rev. 1.0                              MonolithicPower.com                                                                                             14
+6/28/2024      MPS Proprietary Information. Patent Protected. Unauthorized Photocopy and Duplication Prohibited.
+                                              © 2024 MPS. All Rights Reserved.
+                           MIE1W0505BGLVH – 1W, REGULATED, 2.5kVRMS ISOLATED DC/DC MODULE
+
+TYPICAL APPLICATION CIRCUITS
+                                                       U1
+
+                               4.5V to 5.5V                                                      5V
+                         VIN                           VIN               VOUT                          VOUT
+
+                                              On/Off
+                                                       EN
+                                  C1A C1B                                                 C2A C2B
+                                                                          VSEL
+                                 10μF 0.1μF                                              0.1μF 22μF
+
+
+                      GND1                             GND1               GND2                        GND2
+
+
+                                  Figure 3: Typical Application Circuit with 5V Output
+
+
+                                                       U1
+
+                               3V to 5.5V                                                       3.3V
+                         VIN                           VIN               VOUT                          VOUT
+
+                                              On/Off
+                                                       EN
+                                  C1A C1B                                                 C2A C2B
+                                                                          VSEL
+                                 10μF 0.1μF                                              0.1μF 22μF
+
+
+                      GND1                             GND1               GND2                        GND2
+
+
+                                 Figure 4: Typical Application Circuit with 3.3V Output
+
+
+
+
+MIE1W0505BGLVH Rev. 1.0                              MonolithicPower.com                                           15
+6/28/2024      MPS Proprietary Information. Patent Protected. Unauthorized Photocopy and Duplication Prohibited.
+                                              © 2024 MPS. All Rights Reserved.
+                           MIE1W0505BGLVH – 1W, REGULATED, 2.5kVRMS ISOLATED DC/DC MODULE
+
+PACKAGE INFORMATION
+                                                  LGA-12 (4mmx5mm)
+
+
+
+                                                                                                                   PIN 1 ID
+                                                                                                                   0.15X45° TYP
+       PIN 1 ID
+       MARKING
+
+
+
+
+       PIN 1 ID
+       INDEX AREA
+
+
+
+
+                         TOP VIEW                                                          BOTTOM VIEW
+
+
+
+
+                         SIDE VIEW
+
+
+
+
+                                                             NOTE:
+            0.15X45°
+
+                                                             1) ALL DIMENSIONS ARE IN MILLIMETERS.
+                                                             2) LEAD COPLANARITY SHALL BE 0.10
+                                                             MILLIMETERS MAX.
+                                                             3) JEDEC REFERENCE IS MO-303.
+                                                             4) DRAWING IS NOT TO SCALE.
+
+
+
+         RECOMMENDED LAND PATTERN
+
+
+
+
+MIE1W0505BGLVH Rev. 1.0                              MonolithicPower.com                                                          16
+6/28/2024      MPS Proprietary Information. Patent Protected. Unauthorized Photocopy and Duplication Prohibited.
+                                              © 2024 MPS. All Rights Reserved.
+                           MIE1W0505BGLVH – 1W, REGULATED, 2.5kVRMS ISOLATED DC/DC MODULE
+
+CARRIER INFORMATION
+
+
+                                            Pin1              1               1                 1                  1
+                                                                   ABCD             ABCD                 ABCD             ABCD
+
+
+
+
+                                                                                        Feed Direction
+
+
+                                                                                                                Carrier      Carrier
+                              Package           Quantity       Quantity       Quantity         Reel
+      Part Number                                                                                                Tape         Tape
+                             Description         /Reel          /Tube          /Tray         Diameter
+                                                                                                                Width         Pitch
+  MIE1W0505BGLVH-              LGA-12
+                                                   2500           N/A             N/A            13in           12mm             8mm
+       3R-Z                  (4mmx5mm)
+
+
+
+
+MIE1W0505BGLVH Rev. 1.0                              MonolithicPower.com                                                               17
+6/28/2024      MPS Proprietary Information. Patent Protected. Unauthorized Photocopy and Duplication Prohibited.
+                                              © 2024 MPS. All Rights Reserved.
+                           MIE1W0505BGLVH – 1W, REGULATED, 2.5kVRMS ISOLATED DC/DC MODULE
+
+REVISION HISTORY
+  Revision #       Revision Date        Description                                                           Pages Updated
+     1.0             6/28/2024          Initial Release                                                             -
+
+
+
+
+Notice: The information in this document is subject to change without notice. Please contact MPS for current specifications.
+Users should warrant and guarantee that third-party Intellectual Property rights are not infringed upon when integrating MPS
+products into any application. MPS will not assume any legal responsibility for any said applications.
+
+MIE1W0505BGLVH Rev. 1.0                              MonolithicPower.com                                                  18
+6/28/2024      MPS Proprietary Information. Patent Protected. Unauthorized Photocopy and Duplication Prohibited.
+                                              © 2024 MPS. All Rights Reserved.
+

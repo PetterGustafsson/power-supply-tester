@@ -1,0 +1,22 @@
+{
+  "status": "PASS",
+  "board_sha256": "937a579b79b98c4ebae025e0e0ced9c3974ec9adf549f6ffd6467b51675622c3",
+  "outline_mm": [
+    90,
+    80
+  ],
+  "gerber_layers": 7,
+  "plated_drill_hits": 78,
+  "nonplated_2_7mm_holes": 4,
+  "bom_rows": 116,
+  "populated_components": 114,
+  "smd_placements_matching_native": 110,
+  "do_not_populate": [
+    "R43",
+    "R44"
+  ],
+  "stencil_excludes_DNP": true,
+  "bare_pcb_zip_entries": 10,
+  "bare_pcb_zip_sha256": "a6f792b1de9e0248be6aa21419d239fa2b9566e3b6e503507104a9d5c211cd58",
+  "limitations": "File consistency checks only; vendor DFM and physical first article remain required."
+}

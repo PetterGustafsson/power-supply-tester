@@ -1,0 +1,49 @@
+2026-09-30 18:47:36.168 [main] INFO  Freerouting v2.0.1 (build-date: 2024-11-14)
+WARNING: Final field userId in class app.freerouting.settings.UserProfileSettings has been mutated reflectively by class com.google.gson.internal.bind.ReflectiveTypeAdapterFactory$2 in unnamed module @4abdb505 (file:/private/tmp/tester-freerouting-2.0.1.jar)
+WARNING: Use --enable-final-field-mutation=ALL-UNNAMED to avoid a warning
+WARNING: Mutating final fields will be blocked in a future release unless final field mutation is enabled
+2026-09-30 18:47:36.215 [main] INFO  Settings were loaded from freerouting.json
+java.util.concurrent.CompletionException: java.net.ConnectException
+	at java.base/java.util.concurrent.CompletableFuture.wrapInCompletionException(CompletableFuture.java:323)
+	at java.base/java.util.concurrent.CompletableFuture.encodeRelay(CompletableFuture.java:412)
+	at java.base/java.util.concurrent.CompletableFuture.completeRelay(CompletableFuture.java:421)
+	at java.base/java.util.concurrent.CompletableFuture$UniCompose.tryFire(CompletableFuture.java:1173)
+	at java.base/java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:531)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1794)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1090)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:614)
+	at java.base/java.lang.Thread.run(Thread.java:1516)
+Caused by: java.net.ConnectException
+	at java.net.http/jdk.internal.net.http.common.Utils.toConnectException(Utils.java:1273)
+	at java.net.http/jdk.internal.net.http.PlainHttpConnection.connectAsync(PlainHttpConnection.java:210)
+	at java.net.http/jdk.internal.net.http.AsyncSSLConnection.connectAsync(AsyncSSLConnection.java:58)
+	at java.net.http/jdk.internal.net.http.Http2Connection.createAsync(Http2Connection.java:531)
+	at java.net.http/jdk.internal.net.http.Http2ClientImpl.getConnectionFor(Http2ClientImpl.java:139)
+	at java.net.http/jdk.internal.net.http.ExchangeImpl.attemptHttp2Exchange(ExchangeImpl.java:143)
+	at java.net.http/jdk.internal.net.http.ExchangeImpl.get(ExchangeImpl.java:122)
+	at java.net.http/jdk.internal.net.http.Exchange.establishExchange(Exchange.java:409)
+	at java.net.http/jdk.internal.net.http.Exchange.responseAsyncImpl(Exchange.java:624)
+	at java.net.http/jdk.internal.net.http.Exchange.responseAsync(Exchange.java:447)
+	at java.net.http/jdk.internal.net.http.MultiExchange.responseAsyncImpl(MultiExchange.java:486)
+	at java.net.http/jdk.internal.net.http.MultiExchange.retryRequest(MultiExchange.java:466)
+	at java.net.http/jdk.internal.net.http.MultiExchange.lambda$responseAsyncImpl$3(MultiExchange.java:553)
+	at java.base/java.util.concurrent.CompletableFuture.uniHandle(CompletableFuture.java:955)
+	at java.base/java.util.concurrent.CompletableFuture.uniHandleStage(CompletableFuture.java:971)
+	at java.base/java.util.concurrent.CompletableFuture.handle(CompletableFuture.java:2399)
+	at java.net.http/jdk.internal.net.http.MultiExchange.responseAsyncImpl(MultiExchange.java:523)
+	at java.net.http/jdk.internal.net.http.MultiExchange.lambda$responseAsync0$0(MultiExchange.java:401)
+	at java.base/java.util.concurrent.CompletableFuture$UniCompose.tryFire(CompletableFuture.java:1171)
+	... 5 more
+Caused by: java.nio.channels.UnresolvedAddressException
+	at java.base/sun.nio.ch.Net.checkAddress(Net.java:147)
+	at java.base/sun.nio.ch.Net.checkAddress(Net.java:155)
+	at java.base/sun.nio.ch.SocketChannelImpl.checkRemote(SocketChannelImpl.java:915)
+	at java.base/sun.nio.ch.SocketChannelImpl.connect(SocketChannelImpl.java:933)
+	at java.net.http/jdk.internal.net.http.PlainHttpConnection.connectAsync(PlainHttpConnection.java:197)
+	... 22 more
+2026-09-30 18:47:38.772 [Thread-2] INFO  Auto-router pass #1 on board '39bff616ad9189859e0cb26a4b76ce1f' was completed in 1.15 seconds
+2026-09-30 18:47:39.495 [Thread-2] INFO  Auto-router pass #2 on board '92293096a1f9002dfac2dd47dca8f8c7' was completed in 0.71 seconds
+2026-09-30 18:47:40.136 [Thread-2] INFO  Auto-router pass #3 on board 'd2cfcec549827e342b15fa372d9b01e1' was completed in 0.63 seconds
+2026-09-30 18:47:40.456 [Thread-2] INFO  Auto-router pass #4 on board 'adce420171b845982c321b0340ac34ae' was completed in 0.31 seconds
+2026-09-30 18:47:40.633 [Thread-2] INFO  Auto-router pass #5 on board 'b545394baf889b407f8539d3b4906858' was completed in 0.16 seconds
+2026-09-30 18:47:40.657 [Thread-2] INFO  Auto-router pass #6 on board '598ac22384c5cadfcfadec3160960a64' was completed in 0.01 seconds

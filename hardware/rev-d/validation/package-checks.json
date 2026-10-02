@@ -1,0 +1,19 @@
+{
+  "status": "PASS_ENGINEERING_PACKAGE_CHECKS",
+  "revision": "D2",
+  "board_sha256": "3b42eb5357a07355b095cfb20fbd8990def34dc454e6bbaee1a527b505f991d6",
+  "fitted_components": 89,
+  "bom_skus": 15,
+  "basic_components": 75,
+  "gerber_outline_mm": [
+    86,
+    62
+  ],
+  "solder_mask": "Black, both sides",
+  "silkscreen": "White, both sides; numbered J4 harness labels",
+  "physical_validation": false,
+  "jlc_placement_review": false,
+  "jlc_checkout_created": false,
+  "abnormal_forced_rail_collapse_failures": 40,
+  "note": "Normal-slew model passed; forced 1/10us rail-short cases exceed ADC absolute voltage window. Read REPORT.md. Package is not approval to place an order."
+}

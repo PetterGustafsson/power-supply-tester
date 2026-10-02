@@ -1,0 +1,15 @@
+{
+  "status": "PASS",
+  "revision": "D2",
+  "all_pads_nets_and_routes_unchanged": true,
+  "solder_mask": "Black, both sides",
+  "silkscreen": "White, both sides",
+  "j4_top_to_bottom": [
+    "5 SCL7",
+    "4 SDA6",
+    "3 3V3",
+    "2 GND",
+    "1 5V"
+  ],
+  "previous_board_sha256": "ac44593f0c8ab5adecc06742e8060204c25d2b73bb558ec3c9fd61290ae969cf"
+}

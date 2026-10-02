@@ -1,0 +1,21 @@
+{
+  "compile_exit_code": 0,
+  "fqbn": "esp32:esp32:esp32s3:FlashSize=16M,PSRAM=enabled,CDCOnBoot=default,PartitionScheme=app3M_fat9M_16MB",
+  "core_version": "3.3.7",
+  "flashed": false,
+  "source_sha256": {
+    "DEV_Config.cpp": "3064ca0b66f077c09c4b5a86fc006130e2bf1ae4802a7ab8a81ffd2c11b4bd52",
+    "DEV_Config.h": "670e4474e3e5b24e8b298e6bb9be0597eeb058fa4ed99e5446ced59d15c25ecf",
+    "Debug.h": "3b9c7b8aaea9dacd124fabbecb390db0cafca4c80755743709935edd467fb9c0",
+    "LCD_1in28.cpp": "dce921beacd90a2862ad7eb6c8730f716a045868901038a0f6a141c7f959cc4f",
+    "LCD_1in28.h": "79b78afc637a699f7ee1aeeb4af09db83c542845f7d68840f787211df50b2bb1",
+    "Measurement.h": "31e11ec43b4f306aefbd3bb6a509e6f50c3fdf928c6ff3f71aa393cfb5844244",
+    "Tester12VRevD.ino": "6b385544b6261df12825a4aa162e651268204fa5c64f40fd060ff45b78fdd846"
+  },
+  "binary_sha256": {
+    "Tester12VRevD.ino.bin": "e8d2452f665d86aa895acffc4e2b094a04146034f166d4133274939be3c227bb",
+    "Tester12VRevD.ino.bootloader.bin": "5403ba8cdf81cbb47f2debe13c0f5ff5903540075ccaf3fac65f0ee68213cb7d",
+    "Tester12VRevD.ino.merged.bin": "7d66835fb5477f32e86506d3fe79b5cc26cdec9c65a9a802142fe2cfcd8e583e",
+    "Tester12VRevD.ino.partitions.bin": "ace02503447d0f470692e65fa76002f2d77a92dc81cd3813d8aa66718d716da9"
+  }
+}

@@ -1,0 +1,3570 @@
+{
+  "scope": {
+    "revision": "D",
+    "status": "ENGINEERING DRAFT - NOT RELEASED FOR ORDER",
+    "nominal_voltage_V": 12,
+    "intended_measurement_V": [
+      0,
+      18
+    ],
+    "input_count": 12,
+    "all_assignment_identification_target_V": [
+      9,
+      18
+    ],
+    "input_scope": "One common floating DC supply; any positive/return/open assignment, with at least one positive and one return for live classification. Measure only; no power outputs or continuity test.",
+    "power": "One USB cable to Waveshare ESP32-S3-LCD-1.28; five-wire harness. USB5V preregulated to 3.3V before isolation.",
+    "display": "Waveshare ESP32-S3-LCD-1.28 non-touch; external MCU/display module",
+    "isolation": "Functional isolation from USB; not mains or CAT rated.",
+    "accuracy": "Target +/-0.15V near 12V after room-temperature calibration; not physically verified.",
+    "nominal_gain": 426.531914893617,
+    "adc_FSR_V": 1.024,
+    "board_mm": [
+      86,
+      62
+    ],
+    "layers": 2,
+    "thickness_mm": 1.6,
+    "calibration_required": true,
+    "bench_verified": false,
+    "48V_note": "Calculation stress only, not a survival rating."
+  },
+  "channels": [
+    {
+      "pin": 1,
+      "bank": 0,
+      "adc": "U1",
+      "address": 72,
+      "mux": 0,
+      "series": [
+        "R1",
+        "R2"
+      ],
+      "bias": "R3",
+      "adc_pin": 4,
+      "filter": "C1",
+      "testpoint": "TP1"
+    },
+    {
+      "pin": 2,
+      "bank": 0,
+      "adc": "U1",
+      "address": 72,
+      "mux": 1,
+      "series": [
+        "R4",
+        "R5"
+      ],
+      "bias": "R6",
+      "adc_pin": 5,
+      "filter": "C2",
+      "testpoint": "TP2"
+    },
+    {
+      "pin": 3,
+      "bank": 0,
+      "adc": "U1",
+      "address": 72,
+      "mux": 2,
+      "series": [
+        "R7",
+        "R8"
+      ],
+      "bias": "R9",
+      "adc_pin": 6,
+      "filter": "C3",
+      "testpoint": "TP3"
+    },
+    {
+      "pin": 4,
+      "bank": 0,
+      "adc": "U1",
+      "address": 72,
+      "mux": 3,
+      "series": [
+        "R10",
+        "R11"
+      ],
+      "bias": "R12",
+      "adc_pin": 7,
+      "filter": "C4",
+      "testpoint": "TP4"
+    },
+    {
+      "pin": 5,
+      "bank": 1,
+      "adc": "U2",
+      "address": 73,
+      "mux": 0,
+      "series": [
+        "R13",
+        "R14"
+      ],
+      "bias": "R15",
+      "adc_pin": 4,
+      "filter": "C5",
+      "testpoint": "TP5"
+    },
+    {
+      "pin": 6,
+      "bank": 1,
+      "adc": "U2",
+      "address": 73,
+      "mux": 1,
+      "series": [
+        "R16",
+        "R17"
+      ],
+      "bias": "R18",
+      "adc_pin": 5,
+      "filter": "C6",
+      "testpoint": "TP6"
+    },
+    {
+      "pin": 7,
+      "bank": 1,
+      "adc": "U2",
+      "address": 73,
+      "mux": 2,
+      "series": [
+        "R19",
+        "R20"
+      ],
+      "bias": "R21",
+      "adc_pin": 6,
+      "filter": "C7",
+      "testpoint": "TP7"
+    },
+    {
+      "pin": 8,
+      "bank": 1,
+      "adc": "U2",
+      "address": 73,
+      "mux": 3,
+      "series": [
+        "R22",
+        "R23"
+      ],
+      "bias": "R24",
+      "adc_pin": 7,
+      "filter": "C8",
+      "testpoint": "TP8"
+    },
+    {
+      "pin": 9,
+      "bank": 2,
+      "adc": "U3",
+      "address": 74,
+      "mux": 0,
+      "series": [
+        "R25",
+        "R26"
+      ],
+      "bias": "R27",
+      "adc_pin": 4,
+      "filter": "C9",
+      "testpoint": "TP9"
+    },
+    {
+      "pin": 10,
+      "bank": 2,
+      "adc": "U3",
+      "address": 74,
+      "mux": 1,
+      "series": [
+        "R28",
+        "R29"
+      ],
+      "bias": "R30",
+      "adc_pin": 5,
+      "filter": "C10",
+      "testpoint": "TP10"
+    },
+    {
+      "pin": 11,
+      "bank": 2,
+      "adc": "U3",
+      "address": 74,
+      "mux": 2,
+      "series": [
+        "R31",
+        "R32"
+      ],
+      "bias": "R33",
+      "adc_pin": 6,
+      "filter": "C11",
+      "testpoint": "TP11"
+    },
+    {
+      "pin": 12,
+      "bank": 2,
+      "adc": "U3",
+      "address": 74,
+      "mux": 3,
+      "series": [
+        "R34",
+        "R35"
+      ],
+      "bias": "R36",
+      "adc_pin": 7,
+      "filter": "C12",
+      "testpoint": "TP12"
+    }
+  ],
+  "parts": [
+    {
+      "ref": "J1",
+      "sym": "CONN4",
+      "value": "INPUTS 1-4",
+      "pins": {
+        "1": "P1",
+        "2": "P2",
+        "3": "P3",
+        "4": "P4"
+      },
+      "fp": "Tester:XY350V_3.5_4P",
+      "pcb": [
+        26.75,
+        52,
+        0
+      ],
+      "sch": [
+        30,
+        92
+      ],
+      "page": "bank1",
+      "mpn": "XY350V-3.5-4P",
+      "maker": "Ningbo Xinlaiya Elec.",
+      "note": "C557656; 3.5mm pitch, 0.8mm square pins, 1.4mm drill. 14x6.9mm body.",
+      "dnp": false,
+      "schrot": 0,
+      "uuid": "30b35858-ed20-5b75-9167-beb7db4552af",
+      "lcsc": "C557656",
+      "jlc_category": "Extended",
+      "local_fp": "Tester:XY350V_3.5_4P"
+    },
+    {
+      "ref": "R1",
+      "sym": "R",
+      "value": "1M",
+      "pins": {
+        "1": "P1",
+        "2": "MID1"
+      },
+      "fp": "Resistor_SMD:R_0805_2012Metric",
+      "pcb": [
+        26.0,
+        44,
+        90
+      ],
+      "sch": [
+        78,
+        40
+      ],
+      "page": "bank1",
+      "mpn": "0805W8F1004T5E",
+      "maker": "UNI-ROYAL",
+      "note": "1%",
+      "dnp": false,
+      "schrot": 0,
+      "uuid": "b2ddae45-e17f-5231-ba0e-e0eba057f1a7",
+      "lcsc": "C17514",
+      "jlc_category": "Basic",
+      "local_fp": "Tester:R_0805_2012Metric"
+    },
+    {
+      "ref": "R2",
+      "sym": "R",
+      "value": "1M",
+      "pins": {
+        "1": "MID1",
+        "2": "A1"
+      },
+      "fp": "Resistor_SMD:R_0805_2012Metric",
+      "pcb": [
+        26.0,
+        38,
+        90
+      ],
+      "sch": [
+        115,
+        40
+      ],
+      "page": "bank1",
+      "mpn": "0805W8F1004T5E",
+      "maker": "UNI-ROYAL",
+      "note": "1%",
+      "dnp": false,
+      "schrot": 0,
+      "uuid": "e4bfe09a-a7ec-5373-8b50-b7171730c03e",
+      "lcsc": "C17514",
+      "jlc_category": "Basic",
+      "local_fp": "Tester:R_0805_2012Metric"
+    },
+    {
+      "ref": "R3",
+      "sym": "R",
+      "value": "4.7k",
+      "pins": {
+        "1": "A1",
+        "2": "VBIAS"
+      },
+      "fp": "Resistor_SMD:R_0805_2012Metric",
+      "pcb": [
+        26.0,
+        32,
+        90
+      ],
+      "sch": [
+        151,
+        53
+      ],
+      "page": "bank1",
+      "mpn": "0805W8F4701T5E",
+      "maker": "UNI-ROYAL",
+      "note": "1% | JLC: Basic; same 1%, 100ppm/K, 125mW, 150V rating",
+      "dnp": false,
+      "schrot": 0,
+      "uuid": "0914b89d-dbf7-5c79-9268-ea39b6713797",
+      "lcsc": "C17673",
+      "jlc_category": "Basic",
+      "local_fp": "Tester:R_0805_2012Metric"
+    },
+    {
+      "ref": "C1",
+      "sym": "C",
+      "value": "470p",
+      "pins": {
+        "1": "A1",
+        "2": "AGND"
+      },
+      "fp": "Capacitor_SMD:C_0805_2012Metric",
+      "pcb": [
+        26.0,
+        27,
+        90
+      ],
+      "sch": [
+        191,
+        53
+      ],
+      "page": "bank1",
+      "mpn": "0805B471K500NT",
+      "maker": "Fenghua",
+      "note": "470pF +/-10%, 50V X7R; Rev D candidate model bounds total input capacitance at 1nF",
+      "dnp": false,
+      "schrot": 0,
+      "uuid": "08fdade9-5b33-55dd-be52-68ed0073f17b",
+      "lcsc": "C1743",
+      "jlc_category": "Basic",
+      "local_fp": "Tester:C_0805_2012Metric"
+    },
+    {
+      "ref": "TP1",
+      "sym": "TP",
+      "value": "A1",
+      "pins": {
+        "1": "A1"
+      },
+      "fp": "TestPoint:TestPoint_Pad_D1.5mm",
+      "pcb": [
+        26.0,
+        35,
+        0
+      ],
+      "sch": [
+        192,
+        40
+      ],
+      "page": "bank1",
+      "mpn": "",
+      "maker": "",
+      "note": "",
+      "dnp": false,
+      "schrot": 0,
+      "uuid": "bfedab87-f597-5470-a597-5925c9f4b894",
+      "local_fp": "Tester:TestPoint_Pad_D1.5mm"
+    },
+    {
+      "ref": "R4",
+      "sym": "R",
+      "value": "1M",
+      "pins": {
+        "1": "P2",
+        "2": "MID2"
+      },
+      "fp": "Resistor_SMD:R_0805_2012Metric",
+      "pcb": [
+        30.0,
+        44,
+        90
+      ],
+      "sch": [
+        78,
+        78
+      ],
+      "page": "bank1",
+      "mpn": "0805W8F1004T5E",
+      "maker": "UNI-ROYAL",
+      "note": "1%",
+      "dnp": false,
+      "schrot": 0,
+      "uuid": "50642473-c9ef-5d39-91de-04eafbec1f19",
+      "lcsc": "C17514",
+      "jlc_category": "Basic",
+      "local_fp": "Tester:R_0805_2012Metric"
+    },
+    {
+      "ref": "R5",
+      "sym": "R",
+      "value": "1M",
+      "pins": {
+        "1": "MID2",
+        "2": "A2"
+      },
+      "fp": "Resistor_SMD:R_0805_2012Metric",
+      "pcb": [
+        30.0,
+        38,
+        90
+      ],
+      "sch": [
+        115,
+        78
+      ],
+      "page": "bank1",
+      "mpn": "0805W8F1004T5E",
+      "maker": "UNI-ROYAL",
+      "note": "1%",
+      "dnp": false,
+      "schrot": 0,
+      "uuid": "6b65522b-e63a-5bb7-81ef-b8eece45c7d3",
+      "lcsc": "C17514",
+      "jlc_category": "Basic",
+      "local_fp": "Tester:R_0805_2012Metric"
+    },
+    {
+      "ref": "R6",
+      "sym": "R",
+      "value": "4.7k",
+      "pins": {
+        "1": "A2",
+        "2": "VBIAS"
+      },
+      "fp": "Resistor_SMD:R_0805_2012Metric",
+      "pcb": [
+        30.0,
+        32,
+        90
+      ],
+      "sch": [
+        151,
+        91
+      ],
+      "page": "bank1",
+      "mpn": "0805W8F4701T5E",
+      "maker": "UNI-ROYAL",
+      "note": "1% | JLC: Basic; same 1%, 100ppm/K, 125mW, 150V rating",
+      "dnp": false,
+      "schrot": 0,
+      "uuid": "54df1826-bdb2-5d7b-b35d-5248d70768ce",
+      "lcsc": "C17673",
+      "jlc_category": "Basic",
+      "local_fp": "Tester:R_0805_2012Metric"
+    },
+    {
+      "ref": "C2",
+      "sym": "C",
+      "value": "470p",
+      "pins": {
+        "1": "A2",
+        "2": "AGND"
+      },
+      "fp": "Capacitor_SMD:C_0805_2012Metric",
+      "pcb": [
+        30.0,
+        27,
+        90
+      ],
+      "sch": [
+        191,
+        91
+      ],
+      "page": "bank1",
+      "mpn": "0805B471K500NT",
+      "maker": "Fenghua",
+      "note": "470pF +/-10%, 50V X7R; Rev D candidate model bounds total input capacitance at 1nF",
+      "dnp": false,
+      "schrot": 0,
+      "uuid": "400ec1a1-f891-5dc2-98a6-fbc8ad54b975",
+      "lcsc": "C1743",
+      "jlc_category": "Basic",
+      "local_fp": "Tester:C_0805_2012Metric"
+    },
+    {
+      "ref": "TP2",
+      "sym": "TP",
+      "value": "A2",
+      "pins": {
+        "1": "A2"
+      },
+      "fp": "TestPoint:TestPoint_Pad_D1.5mm",
+      "pcb": [
+        30.0,
+        35,
+        0
+      ],
+      "sch": [
+        192,
+        78
+      ],
+      "page": "bank1",
+      "mpn": "",
+      "maker": "",
+      "note": "",
+      "dnp": false,
+      "schrot": 0,
+      "uuid": "65d41b0b-1cc0-50bd-93f2-0b1fc495eea6",
+      "local_fp": "Tester:TestPoint_Pad_D1.5mm"
+    },
+    {
+      "ref": "R7",
+      "sym": "R",
+      "value": "1M",
+      "pins": {
+        "1": "P3",
+        "2": "MID3"
+      },
+      "fp": "Resistor_SMD:R_0805_2012Metric",
+      "pcb": [
+        34.0,
+        44,
+        90
+      ],
+      "sch": [
+        78,
+        116
+      ],
+      "page": "bank1",
+      "mpn": "0805W8F1004T5E",
+      "maker": "UNI-ROYAL",
+      "note": "1%",
+      "dnp": false,
+      "schrot": 0,
+      "uuid": "12754300-04bb-5431-839e-f9a2ccf7f151",
+      "lcsc": "C17514",
+      "jlc_category": "Basic",
+      "local_fp": "Tester:R_0805_2012Metric"
+    },
+    {
+      "ref": "R8",
+      "sym": "R",
+      "value": "1M",
+      "pins": {
+        "1": "MID3",
+        "2": "A3"
+      },
+      "fp": "Resistor_SMD:R_0805_2012Metric",
+      "pcb": [
+        34.0,
+        38,
+        90
+      ],
+      "sch": [
+        115,
+        116
+      ],
+      "page": "bank1",
+      "mpn": "0805W8F1004T5E",
+      "maker": "UNI-ROYAL",
+      "note": "1%",
+      "dnp": false,
+      "schrot": 0,
+      "uuid": "9b4623d3-1dd0-5f1f-9766-903beebe027c",
+      "lcsc": "C17514",
+      "jlc_category": "Basic",
+      "local_fp": "Tester:R_0805_2012Metric"
+    },
+    {
+      "ref": "R9",
+      "sym": "R",
+      "value": "4.7k",
+      "pins": {
+        "1": "A3",
+        "2": "VBIAS"
+      },
+      "fp": "Resistor_SMD:R_0805_2012Metric",
+      "pcb": [
+        34.0,
+        32,
+        90
+      ],
+      "sch": [
+        151,
+        129
+      ],
+      "page": "bank1",
+      "mpn": "0805W8F4701T5E",
+      "maker": "UNI-ROYAL",
+      "note": "1% | JLC: Basic; same 1%, 100ppm/K, 125mW, 150V rating",
+      "dnp": false,
+      "schrot": 0,
+      "uuid": "0cd3d288-3df5-5377-ad02-023dc5853cec",
+      "lcsc": "C17673",
+      "jlc_category": "Basic",
+      "local_fp": "Tester:R_0805_2012Metric"
+    },
+    {
+      "ref": "C3",
+      "sym": "C",
+      "value": "470p",
+      "pins": {
+        "1": "A3",
+        "2": "AGND"
+      },
+      "fp": "Capacitor_SMD:C_0805_2012Metric",
+      "pcb": [
+        34.0,
+        27,
+        90
+      ],
+      "sch": [
+        191,
+        129
+      ],
+      "page": "bank1",
+      "mpn": "0805B471K500NT",
+      "maker": "Fenghua",
+      "note": "470pF +/-10%, 50V X7R; Rev D candidate model bounds total input capacitance at 1nF",
+      "dnp": false,
+      "schrot": 0,
+      "uuid": "d71cb9fc-dfb8-5794-8ec2-bf897fb76440",
+      "lcsc": "C1743",
+      "jlc_category": "Basic",
+      "local_fp": "Tester:C_0805_2012Metric"
+    },
+    {
+      "ref": "TP3",
+      "sym": "TP",
+      "value": "A3",
+      "pins": {
+        "1": "A3"
+      },
+      "fp": "TestPoint:TestPoint_Pad_D1.5mm",
+      "pcb": [
+        34.0,
+        35,
+        0
+      ],
+      "sch": [
+        192,
+        116
+      ],
+      "page": "bank1",
+      "mpn": "",
+      "maker": "",
+      "note": "",
+      "dnp": false,
+      "schrot": 0,
+      "uuid": "98d52d43-2c3a-58f4-948d-0fa260ca176f",
+      "local_fp": "Tester:TestPoint_Pad_D1.5mm"
+    },
+    {
+      "ref": "R10",
+      "sym": "R",
+      "value": "1M",
+      "pins": {
+        "1": "P4",
+        "2": "MID4"
+      },
+      "fp": "Resistor_SMD:R_0805_2012Metric",
+      "pcb": [
+        38.0,
+        44,
+        90
+      ],
+      "sch": [
+        78,
+        154
+      ],
+      "page": "bank1",
+      "mpn": "0805W8F1004T5E",
+      "maker": "UNI-ROYAL",
+      "note": "1%",
+      "dnp": false,
+      "schrot": 0,
+      "uuid": "7a9ef14d-8f9f-586b-8035-3aa6ee23bf09",
+      "lcsc": "C17514",
+      "jlc_category": "Basic",
+      "local_fp": "Tester:R_0805_2012Metric"
+    },
+    {
+      "ref": "R11",
+      "sym": "R",
+      "value": "1M",
+      "pins": {
+        "1": "MID4",
+        "2": "A4"
+      },
+      "fp": "Resistor_SMD:R_0805_2012Metric",
+      "pcb": [
+        38.0,
+        38,
+        90
+      ],
+      "sch": [
+        115,
+        154
+      ],
+      "page": "bank1",
+      "mpn": "0805W8F1004T5E",
+      "maker": "UNI-ROYAL",
+      "note": "1%",
+      "dnp": false,
+      "schrot": 0,
+      "uuid": "a69a26b6-3350-5b99-a13d-72ec601068f3",
+      "lcsc": "C17514",
+      "jlc_category": "Basic",
+      "local_fp": "Tester:R_0805_2012Metric"
+    },
+    {
+      "ref": "R12",
+      "sym": "R",
+      "value": "4.7k",
+      "pins": {
+        "1": "A4",
+        "2": "VBIAS"
+      },
+      "fp": "Resistor_SMD:R_0805_2012Metric",
+      "pcb": [
+        38.0,
+        32,
+        90
+      ],
+      "sch": [
+        151,
+        167
+      ],
+      "page": "bank1",
+      "mpn": "0805W8F4701T5E",
+      "maker": "UNI-ROYAL",
+      "note": "1% | JLC: Basic; same 1%, 100ppm/K, 125mW, 150V rating",
+      "dnp": false,
+      "schrot": 0,
+      "uuid": "255a85cb-f277-5237-9bdc-79b14e11b47a",
+      "lcsc": "C17673",
+      "jlc_category": "Basic",
+      "local_fp": "Tester:R_0805_2012Metric"
+    },
+    {
+      "ref": "C4",
+      "sym": "C",
+      "value": "470p",
+      "pins": {
+        "1": "A4",
+        "2": "AGND"
+      },
+      "fp": "Capacitor_SMD:C_0805_2012Metric",
+      "pcb": [
+        38.0,
+        27,
+        90
+      ],
+      "sch": [
+        191,
+        167
+      ],
+      "page": "bank1",
+      "mpn": "0805B471K500NT",
+      "maker": "Fenghua",
+      "note": "470pF +/-10%, 50V X7R; Rev D candidate model bounds total input capacitance at 1nF",
+      "dnp": false,
+      "schrot": 0,
+      "uuid": "5ef3879e-376d-5ed9-a727-626f002212ac",
+      "lcsc": "C1743",
+      "jlc_category": "Basic",
+      "local_fp": "Tester:C_0805_2012Metric"
+    },
+    {
+      "ref": "TP4",
+      "sym": "TP",
+      "value": "A4",
+      "pins": {
+        "1": "A4"
+      },
+      "fp": "TestPoint:TestPoint_Pad_D1.5mm",
+      "pcb": [
+        38.0,
+        35,
+        0
+      ],
+      "sch": [
+        192,
+        154
+      ],
+      "page": "bank1",
+      "mpn": "",
+      "maker": "",
+      "note": "",
+      "dnp": false,
+      "schrot": 0,
+      "uuid": "cd18a3b7-da18-5899-a515-dcf61e21ff55",
+      "local_fp": "Tester:TestPoint_Pad_D1.5mm"
+    },
+    {
+      "ref": "U1",
+      "sym": "ADS1115",
+      "value": "ADS1115IDGSR",
+      "pins": {
+        "8": "A3V3",
+        "3": "AGND",
+        "9": "SDA_ISO",
+        "10": "SCL_ISO",
+        "2": null,
+        "1": "AGND",
+        "4": "A1",
+        "5": "A2",
+        "6": "A3",
+        "7": "A4"
+      },
+      "fp": "Package_SO:TSSOP-10_3x3mm_P0.5mm",
+      "pcb": [
+        32,
+        20,
+        0
+      ],
+      "sch": [
+        285,
+        88
+      ],
+      "page": "bank1",
+      "mpn": "ADS1115IDGSR",
+      "maker": "Texas Instruments",
+      "note": "PGA +/-1.024V, nominal attenuation 426.5319. Rev D calibration/firmware required.",
+      "dnp": false,
+      "schrot": 0,
+      "uuid": "b0e35d83-0a18-5625-a2c8-7a7991d92384",
+      "lcsc": "C37593",
+      "jlc_category": "Extended",
+      "local_fp": "Tester:TSSOP-10_3x3mm_P0.5mm"
+    },
+    {
+      "ref": "C13",
+      "sym": "C",
+      "value": "100n",
+      "pins": {
+        "1": "A3V3",
+        "2": "AGND"
+      },
+      "fp": "Capacitor_SMD:C_0805_2012Metric",
+      "pcb": [
+        37,
+        20,
+        90
+      ],
+      "sch": [
+        285,
+        130
+      ],
+      "page": "bank1",
+      "mpn": "CC0805KRX7R9BB104",
+      "maker": "Yageo",
+      "note": "Use specified capacitance, voltage and dielectric | JLC: Basic; 100nF, 10%, 50V, X7R preserved",
+      "dnp": false,
+      "schrot": 0,
+      "uuid": "56a152ca-99d1-5034-bfda-90286ddbdd46",
+      "lcsc": "C49678",
+      "jlc_category": "Basic",
+      "local_fp": "Tester:C_0805_2012Metric"
+    },
+    {
+      "ref": "J2",
+      "sym": "CONN4",
+      "value": "INPUTS 5-8",
+      "pins": {
+        "1": "P5",
+        "2": "P6",
+        "3": "P7",
+        "4": "P8"
+      },
+      "fp": "Tester:XY350V_3.5_4P",
+      "pcb": [
+        46.75,
+        52,
+        0
+      ],
+      "sch": [
+        30,
+        92
+      ],
+      "page": "bank2",
+      "mpn": "XY350V-3.5-4P",
+      "maker": "Ningbo Xinlaiya Elec.",
+      "note": "C557656; 3.5mm pitch, 0.8mm square pins, 1.4mm drill. 14x6.9mm body.",
+      "dnp": false,
+      "schrot": 0,
+      "uuid": "13877981-890a-5a56-97c7-ed2c22f127f5",
+      "lcsc": "C557656",
+      "jlc_category": "Extended",
+      "local_fp": "Tester:XY350V_3.5_4P"
+    },
+    {
+      "ref": "R13",
+      "sym": "R",
+      "value": "1M",
+      "pins": {
+        "1": "P5",
+        "2": "MID5"
+      },
+      "fp": "Resistor_SMD:R_0805_2012Metric",
+      "pcb": [
+        46.0,
+        44,
+        90
+      ],
+      "sch": [
+        78,
+        40
+      ],
+      "page": "bank2",
+      "mpn": "0805W8F1004T5E",
+      "maker": "UNI-ROYAL",
+      "note": "1%",
+      "dnp": false,
+      "schrot": 0,
+      "uuid": "0812f580-dc92-56c7-932c-7f6a40c71570",
+      "lcsc": "C17514",
+      "jlc_category": "Basic",
+      "local_fp": "Tester:R_0805_2012Metric"
+    },
+    {
+      "ref": "R14",
+      "sym": "R",
+      "value": "1M",
+      "pins": {
+        "1": "MID5",
+        "2": "A5"
+      },
+      "fp": "Resistor_SMD:R_0805_2012Metric",
+      "pcb": [
+        46.0,
+        38,
+        90
+      ],
+      "sch": [
+        115,
+        40
+      ],
+      "page": "bank2",
+      "mpn": "0805W8F1004T5E",
+      "maker": "UNI-ROYAL",
+      "note": "1%",
+      "dnp": false,
+      "schrot": 0,
+      "uuid": "12584ce7-1ea5-573f-8cd1-8c9ce8c11932",
+      "lcsc": "C17514",
+      "jlc_category": "Basic",
+      "local_fp": "Tester:R_0805_2012Metric"
+    },
+    {
+      "ref": "R15",
+      "sym": "R",
+      "value": "4.7k",
+      "pins": {
+        "1": "A5",
+        "2": "VBIAS"
+      },
+      "fp": "Resistor_SMD:R_0805_2012Metric",
+      "pcb": [
+        46.0,
+        32,
+        90
+      ],
+      "sch": [
+        151,
+        53
+      ],
+      "page": "bank2",
+      "mpn": "0805W8F4701T5E",
+      "maker": "UNI-ROYAL",
+      "note": "1% | JLC: Basic; same 1%, 100ppm/K, 125mW, 150V rating",
+      "dnp": false,
+      "schrot": 0,
+      "uuid": "22c3d518-e625-5e61-9ffb-5459c68f3b88",
+      "lcsc": "C17673",
+      "jlc_category": "Basic",
+      "local_fp": "Tester:R_0805_2012Metric"
+    },
+    {
+      "ref": "C5",
+      "sym": "C",
+      "value": "470p",
+      "pins": {
+        "1": "A5",
+        "2": "AGND"
+      },
+      "fp": "Capacitor_SMD:C_0805_2012Metric",
+      "pcb": [
+        46.0,
+        27,
+        90
+      ],
+      "sch": [
+        191,
+        53
+      ],
+      "page": "bank2",
+      "mpn": "0805B471K500NT",
+      "maker": "Fenghua",
+      "note": "470pF +/-10%, 50V X7R; Rev D candidate model bounds total input capacitance at 1nF",
+      "dnp": false,
+      "schrot": 0,
+      "uuid": "087fe5ac-0b4c-50f8-8b16-f292ee0cbff5",
+      "lcsc": "C1743",
+      "jlc_category": "Basic",
+      "local_fp": "Tester:C_0805_2012Metric"
+    },
+    {
+      "ref": "TP5",
+      "sym": "TP",
+      "value": "A5",
+      "pins": {
+        "1": "A5"
+      },
+      "fp": "TestPoint:TestPoint_Pad_D1.5mm",
+      "pcb": [
+        46.0,
+        35,
+        0
+      ],
+      "sch": [
+        192,
+        40
+      ],
+      "page": "bank2",
+      "mpn": "",
+      "maker": "",
+      "note": "",
+      "dnp": false,
+      "schrot": 0,
+      "uuid": "e2b1da2c-8025-557e-8de7-e5eb0cd21a33",
+      "local_fp": "Tester:TestPoint_Pad_D1.5mm"
+    },
+    {
+      "ref": "R16",
+      "sym": "R",
+      "value": "1M",
+      "pins": {
+        "1": "P6",
+        "2": "MID6"
+      },
+      "fp": "Resistor_SMD:R_0805_2012Metric",
+      "pcb": [
+        50.0,
+        44,
+        90
+      ],
+      "sch": [
+        78,
+        78
+      ],
+      "page": "bank2",
+      "mpn": "0805W8F1004T5E",
+      "maker": "UNI-ROYAL",
+      "note": "1%",
+      "dnp": false,
+      "schrot": 0,
+      "uuid": "5518d7f3-d657-5214-ad10-ee111a016ef3",
+      "lcsc": "C17514",
+      "jlc_category": "Basic",
+      "local_fp": "Tester:R_0805_2012Metric"
+    },
+    {
+      "ref": "R17",
+      "sym": "R",
+      "value": "1M",
+      "pins": {
+        "1": "MID6",
+        "2": "A6"
+      },
+      "fp": "Resistor_SMD:R_0805_2012Metric",
+      "pcb": [
+        50.0,
+        38,
+        90
+      ],
+      "sch": [
+        115,
+        78
+      ],
+      "page": "bank2",
+      "mpn": "0805W8F1004T5E",
+      "maker": "UNI-ROYAL",
+      "note": "1%",
+      "dnp": false,
+      "schrot": 0,
+      "uuid": "b9c64607-dd01-5a1d-b824-eb80ab44b8d4",
+      "lcsc": "C17514",
+      "jlc_category": "Basic",
+      "local_fp": "Tester:R_0805_2012Metric"
+    },
+    {
+      "ref": "R18",
+      "sym": "R",
+      "value": "4.7k",
+      "pins": {
+        "1": "A6",
+        "2": "VBIAS"
+      },
+      "fp": "Resistor_SMD:R_0805_2012Metric",
+      "pcb": [
+        50.0,
+        32,
+        90
+      ],
+      "sch": [
+        151,
+        91
+      ],
+      "page": "bank2",
+      "mpn": "0805W8F4701T5E",
+      "maker": "UNI-ROYAL",
+      "note": "1% | JLC: Basic; same 1%, 100ppm/K, 125mW, 150V rating",
+      "dnp": false,
+      "schrot": 0,
+      "uuid": "00a7ccdb-5d97-5ef7-90df-7ec23487ed7f",
+      "lcsc": "C17673",
+      "jlc_category": "Basic",
+      "local_fp": "Tester:R_0805_2012Metric"
+    },
+    {
+      "ref": "C6",
+      "sym": "C",
+      "value": "470p",
+      "pins": {
+        "1": "A6",
+        "2": "AGND"
+      },
+      "fp": "Capacitor_SMD:C_0805_2012Metric",
+      "pcb": [
+        50.0,
+        27,
+        90
+      ],
+      "sch": [
+        191,
+        91
+      ],
+      "page": "bank2",
+      "mpn": "0805B471K500NT",
+      "maker": "Fenghua",
+      "note": "470pF +/-10%, 50V X7R; Rev D candidate model bounds total input capacitance at 1nF",
+      "dnp": false,
+      "schrot": 0,
+      "uuid": "a0434e32-170c-5ba3-8a71-4fd69a58733b",
+      "lcsc": "C1743",
+      "jlc_category": "Basic",
+      "local_fp": "Tester:C_0805_2012Metric"
+    },
+    {
+      "ref": "TP6",
+      "sym": "TP",
+      "value": "A6",
+      "pins": {
+        "1": "A6"
+      },
+      "fp": "TestPoint:TestPoint_Pad_D1.5mm",
+      "pcb": [
+        50.0,
+        35,
+        0
+      ],
+      "sch": [
+        192,
+        78
+      ],
+      "page": "bank2",
+      "mpn": "",
+      "maker": "",
+      "note": "",
+      "dnp": false,
+      "schrot": 0,
+      "uuid": "5052293d-7f24-5c97-8294-4d82f2e64925",
+      "local_fp": "Tester:TestPoint_Pad_D1.5mm"
+    },
+    {
+      "ref": "R19",
+      "sym": "R",
+      "value": "1M",
+      "pins": {
+        "1": "P7",
+        "2": "MID7"
+      },
+      "fp": "Resistor_SMD:R_0805_2012Metric",
+      "pcb": [
+        54.0,
+        44,
+        90
+      ],
+      "sch": [
+        78,
+        116
+      ],
+      "page": "bank2",
+      "mpn": "0805W8F1004T5E",
+      "maker": "UNI-ROYAL",
+      "note": "1%",
+      "dnp": false,
+      "schrot": 0,
+      "uuid": "042732ae-e43e-5600-b8d3-73943afebf6a",
+      "lcsc": "C17514",
+      "jlc_category": "Basic",
+      "local_fp": "Tester:R_0805_2012Metric"
+    },
+    {
+      "ref": "R20",
+      "sym": "R",
+      "value": "1M",
+      "pins": {
+        "1": "MID7",
+        "2": "A7"
+      },
+      "fp": "Resistor_SMD:R_0805_2012Metric",
+      "pcb": [
+        54.0,
+        38,
+        90
+      ],
+      "sch": [
+        115,
+        116
+      ],
+      "page": "bank2",
+      "mpn": "0805W8F1004T5E",
+      "maker": "UNI-ROYAL",
+      "note": "1%",
+      "dnp": false,
+      "schrot": 0,
+      "uuid": "c95b6213-1a9a-5fe4-a472-d01d490572dc",
+      "lcsc": "C17514",
+      "jlc_category": "Basic",
+      "local_fp": "Tester:R_0805_2012Metric"
+    },
+    {
+      "ref": "R21",
+      "sym": "R",
+      "value": "4.7k",
+      "pins": {
+        "1": "A7",
+        "2": "VBIAS"
+      },
+      "fp": "Resistor_SMD:R_0805_2012Metric",
+      "pcb": [
+        54.0,
+        32,
+        90
+      ],
+      "sch": [
+        151,
+        129
+      ],
+      "page": "bank2",
+      "mpn": "0805W8F4701T5E",
+      "maker": "UNI-ROYAL",
+      "note": "1% | JLC: Basic; same 1%, 100ppm/K, 125mW, 150V rating",
+      "dnp": false,
+      "schrot": 0,
+      "uuid": "a2c1f906-25df-508d-91fd-150df12f276e",
+      "lcsc": "C17673",
+      "jlc_category": "Basic",
+      "local_fp": "Tester:R_0805_2012Metric"
+    },
+    {
+      "ref": "C7",
+      "sym": "C",
+      "value": "470p",
+      "pins": {
+        "1": "A7",
+        "2": "AGND"
+      },
+      "fp": "Capacitor_SMD:C_0805_2012Metric",
+      "pcb": [
+        54.0,
+        27,
+        90
+      ],
+      "sch": [
+        191,
+        129
+      ],
+      "page": "bank2",
+      "mpn": "0805B471K500NT",
+      "maker": "Fenghua",
+      "note": "470pF +/-10%, 50V X7R; Rev D candidate model bounds total input capacitance at 1nF",
+      "dnp": false,
+      "schrot": 0,
+      "uuid": "2c3a6097-7c17-502f-ad6f-d24d02623f7b",
+      "lcsc": "C1743",
+      "jlc_category": "Basic",
+      "local_fp": "Tester:C_0805_2012Metric"
+    },
+    {
+      "ref": "TP7",
+      "sym": "TP",
+      "value": "A7",
+      "pins": {
+        "1": "A7"
+      },
+      "fp": "TestPoint:TestPoint_Pad_D1.5mm",
+      "pcb": [
+        54.0,
+        35,
+        0
+      ],
+      "sch": [
+        192,
+        116
+      ],
+      "page": "bank2",
+      "mpn": "",
+      "maker": "",
+      "note": "",
+      "dnp": false,
+      "schrot": 0,
+      "uuid": "2641fd30-97e7-5cc2-89a8-b18c273995c1",
+      "local_fp": "Tester:TestPoint_Pad_D1.5mm"
+    },
+    {
+      "ref": "R22",
+      "sym": "R",
+      "value": "1M",
+      "pins": {
+        "1": "P8",
+        "2": "MID8"
+      },
+      "fp": "Resistor_SMD:R_0805_2012Metric",
+      "pcb": [
+        58.0,
+        44,
+        90
+      ],
+      "sch": [
+        78,
+        154
+      ],
+      "page": "bank2",
+      "mpn": "0805W8F1004T5E",
+      "maker": "UNI-ROYAL",
+      "note": "1%",
+      "dnp": false,
+      "schrot": 0,
+      "uuid": "9485d658-3468-548f-8726-b350234d4ce4",
+      "lcsc": "C17514",
+      "jlc_category": "Basic",
+      "local_fp": "Tester:R_0805_2012Metric"
+    },
+    {
+      "ref": "R23",
+      "sym": "R",
+      "value": "1M",
+      "pins": {
+        "1": "MID8",
+        "2": "A8"
+      },
+      "fp": "Resistor_SMD:R_0805_2012Metric",
+      "pcb": [
+        58.0,
+        38,
+        90
+      ],
+      "sch": [
+        115,
+        154
+      ],
+      "page": "bank2",
+      "mpn": "0805W8F1004T5E",
+      "maker": "UNI-ROYAL",
+      "note": "1%",
+      "dnp": false,
+      "schrot": 0,
+      "uuid": "f317afa0-61e1-5536-b233-f893cc154e56",
+      "lcsc": "C17514",
+      "jlc_category": "Basic",
+      "local_fp": "Tester:R_0805_2012Metric"
+    },
+    {
+      "ref": "R24",
+      "sym": "R",
+      "value": "4.7k",
+      "pins": {
+        "1": "A8",
+        "2": "VBIAS"
+      },
+      "fp": "Resistor_SMD:R_0805_2012Metric",
+      "pcb": [
+        58.0,
+        32,
+        90
+      ],
+      "sch": [
+        151,
+        167
+      ],
+      "page": "bank2",
+      "mpn": "0805W8F4701T5E",
+      "maker": "UNI-ROYAL",
+      "note": "1% | JLC: Basic; same 1%, 100ppm/K, 125mW, 150V rating",
+      "dnp": false,
+      "schrot": 0,
+      "uuid": "53106ea6-1266-5b37-b936-157b53673fc3",
+      "lcsc": "C17673",
+      "jlc_category": "Basic",
+      "local_fp": "Tester:R_0805_2012Metric"
+    },
+    {
+      "ref": "C8",
+      "sym": "C",
+      "value": "470p",
+      "pins": {
+        "1": "A8",
+        "2": "AGND"
+      },
+      "fp": "Capacitor_SMD:C_0805_2012Metric",
+      "pcb": [
+        58.0,
+        27,
+        90
+      ],
+      "sch": [
+        191,
+        167
+      ],
+      "page": "bank2",
+      "mpn": "0805B471K500NT",
+      "maker": "Fenghua",
+      "note": "470pF +/-10%, 50V X7R; Rev D candidate model bounds total input capacitance at 1nF",
+      "dnp": false,
+      "schrot": 0,
+      "uuid": "bf9fc694-13eb-5227-8093-c77d193df411",
+      "lcsc": "C1743",
+      "jlc_category": "Basic",
+      "local_fp": "Tester:C_0805_2012Metric"
+    },
+    {
+      "ref": "TP8",
+      "sym": "TP",
+      "value": "A8",
+      "pins": {
+        "1": "A8"
+      },
+      "fp": "TestPoint:TestPoint_Pad_D1.5mm",
+      "pcb": [
+        58.0,
+        35,
+        0
+      ],
+      "sch": [
+        192,
+        154
+      ],
+      "page": "bank2",
+      "mpn": "",
+      "maker": "",
+      "note": "",
+      "dnp": false,
+      "schrot": 0,
+      "uuid": "5da0f9e0-296d-54a5-8353-8ec08e09042b",
+      "local_fp": "Tester:TestPoint_Pad_D1.5mm"
+    },
+    {
+      "ref": "U2",
+      "sym": "ADS1115",
+      "value": "ADS1115IDGSR",
+      "pins": {
+        "8": "A3V3",
+        "3": "AGND",
+        "9": "SDA_ISO",
+        "10": "SCL_ISO",
+        "2": null,
+        "1": "A3V3",
+        "4": "A5",
+        "5": "A6",
+        "6": "A7",
+        "7": "A8"
+      },
+      "fp": "Package_SO:TSSOP-10_3x3mm_P0.5mm",
+      "pcb": [
+        52,
+        20,
+        0
+      ],
+      "sch": [
+        285,
+        88
+      ],
+      "page": "bank2",
+      "mpn": "ADS1115IDGSR",
+      "maker": "Texas Instruments",
+      "note": "PGA +/-1.024V, nominal attenuation 426.5319. Rev D calibration/firmware required.",
+      "dnp": false,
+      "schrot": 0,
+      "uuid": "60df7c3c-ffb6-5fbb-b052-d1aa2a9b1e68",
+      "lcsc": "C37593",
+      "jlc_category": "Extended",
+      "local_fp": "Tester:TSSOP-10_3x3mm_P0.5mm"
+    },
+    {
+      "ref": "C14",
+      "sym": "C",
+      "value": "100n",
+      "pins": {
+        "1": "A3V3",
+        "2": "AGND"
+      },
+      "fp": "Capacitor_SMD:C_0805_2012Metric",
+      "pcb": [
+        57,
+        20,
+        90
+      ],
+      "sch": [
+        285,
+        130
+      ],
+      "page": "bank2",
+      "mpn": "CC0805KRX7R9BB104",
+      "maker": "Yageo",
+      "note": "Use specified capacitance, voltage and dielectric | JLC: Basic; 100nF, 10%, 50V, X7R preserved",
+      "dnp": false,
+      "schrot": 0,
+      "uuid": "2f4be612-5420-5c4a-8242-5f8b124db05c",
+      "lcsc": "C49678",
+      "jlc_category": "Basic",
+      "local_fp": "Tester:C_0805_2012Metric"
+    },
+    {
+      "ref": "J3",
+      "sym": "CONN4",
+      "value": "INPUTS 9-12",
+      "pins": {
+        "1": "P9",
+        "2": "P10",
+        "3": "P11",
+        "4": "P12"
+      },
+      "fp": "Tester:XY350V_3.5_4P",
+      "pcb": [
+        66.75,
+        52,
+        0
+      ],
+      "sch": [
+        30,
+        92
+      ],
+      "page": "bank3",
+      "mpn": "XY350V-3.5-4P",
+      "maker": "Ningbo Xinlaiya Elec.",
+      "note": "C557656; 3.5mm pitch, 0.8mm square pins, 1.4mm drill. 14x6.9mm body.",
+      "dnp": false,
+      "schrot": 0,
+      "uuid": "100970bc-5f99-50bf-ba1c-8ec8575aedda",
+      "lcsc": "C557656",
+      "jlc_category": "Extended",
+      "local_fp": "Tester:XY350V_3.5_4P"
+    },
+    {
+      "ref": "R25",
+      "sym": "R",
+      "value": "1M",
+      "pins": {
+        "1": "P9",
+        "2": "MID9"
+      },
+      "fp": "Resistor_SMD:R_0805_2012Metric",
+      "pcb": [
+        66.0,
+        44,
+        90
+      ],
+      "sch": [
+        78,
+        40
+      ],
+      "page": "bank3",
+      "mpn": "0805W8F1004T5E",
+      "maker": "UNI-ROYAL",
+      "note": "1%",
+      "dnp": false,
+      "schrot": 0,
+      "uuid": "3087dc90-19ce-5c18-abfa-e0fe29c81b17",
+      "lcsc": "C17514",
+      "jlc_category": "Basic",
+      "local_fp": "Tester:R_0805_2012Metric"
+    },
+    {
+      "ref": "R26",
+      "sym": "R",
+      "value": "1M",
+      "pins": {
+        "1": "MID9",
+        "2": "A9"
+      },
+      "fp": "Resistor_SMD:R_0805_2012Metric",
+      "pcb": [
+        66.0,
+        38,
+        90
+      ],
+      "sch": [
+        115,
+        40
+      ],
+      "page": "bank3",
+      "mpn": "0805W8F1004T5E",
+      "maker": "UNI-ROYAL",
+      "note": "1%",
+      "dnp": false,
+      "schrot": 0,
+      "uuid": "fb8fc3f1-c33c-56e9-aa82-0bbb4c60732c",
+      "lcsc": "C17514",
+      "jlc_category": "Basic",
+      "local_fp": "Tester:R_0805_2012Metric"
+    },
+    {
+      "ref": "R27",
+      "sym": "R",
+      "value": "4.7k",
+      "pins": {
+        "1": "A9",
+        "2": "VBIAS"
+      },
+      "fp": "Resistor_SMD:R_0805_2012Metric",
+      "pcb": [
+        66.0,
+        32,
+        90
+      ],
+      "sch": [
+        151,
+        53
+      ],
+      "page": "bank3",
+      "mpn": "0805W8F4701T5E",
+      "maker": "UNI-ROYAL",
+      "note": "1% | JLC: Basic; same 1%, 100ppm/K, 125mW, 150V rating",
+      "dnp": false,
+      "schrot": 0,
+      "uuid": "64d16a60-d977-5bac-b0d2-5fa68e728a6d",
+      "lcsc": "C17673",
+      "jlc_category": "Basic",
+      "local_fp": "Tester:R_0805_2012Metric"
+    },
+    {
+      "ref": "C9",
+      "sym": "C",
+      "value": "470p",
+      "pins": {
+        "1": "A9",
+        "2": "AGND"
+      },
+      "fp": "Capacitor_SMD:C_0805_2012Metric",
+      "pcb": [
+        66.0,
+        27,
+        90
+      ],
+      "sch": [
+        191,
+        53
+      ],
+      "page": "bank3",
+      "mpn": "0805B471K500NT",
+      "maker": "Fenghua",
+      "note": "470pF +/-10%, 50V X7R; Rev D candidate model bounds total input capacitance at 1nF",
+      "dnp": false,
+      "schrot": 0,
+      "uuid": "763e5b68-7341-51b0-a73b-aa8b3b1526fb",
+      "lcsc": "C1743",
+      "jlc_category": "Basic",
+      "local_fp": "Tester:C_0805_2012Metric"
+    },
+    {
+      "ref": "TP9",
+      "sym": "TP",
+      "value": "A9",
+      "pins": {
+        "1": "A9"
+      },
+      "fp": "TestPoint:TestPoint_Pad_D1.5mm",
+      "pcb": [
+        66.0,
+        35,
+        0
+      ],
+      "sch": [
+        192,
+        40
+      ],
+      "page": "bank3",
+      "mpn": "",
+      "maker": "",
+      "note": "",
+      "dnp": false,
+      "schrot": 0,
+      "uuid": "4337e8f0-6fa4-589e-8408-01a50e4f826e",
+      "local_fp": "Tester:TestPoint_Pad_D1.5mm"
+    },
+    {
+      "ref": "R28",
+      "sym": "R",
+      "value": "1M",
+      "pins": {
+        "1": "P10",
+        "2": "MID10"
+      },
+      "fp": "Resistor_SMD:R_0805_2012Metric",
+      "pcb": [
+        70.0,
+        44,
+        90
+      ],
+      "sch": [
+        78,
+        78
+      ],
+      "page": "bank3",
+      "mpn": "0805W8F1004T5E",
+      "maker": "UNI-ROYAL",
+      "note": "1%",
+      "dnp": false,
+      "schrot": 0,
+      "uuid": "c861cc9c-1723-50e5-ad8c-d23d534c4537",
+      "lcsc": "C17514",
+      "jlc_category": "Basic",
+      "local_fp": "Tester:R_0805_2012Metric"
+    },
+    {
+      "ref": "R29",
+      "sym": "R",
+      "value": "1M",
+      "pins": {
+        "1": "MID10",
+        "2": "A10"
+      },
+      "fp": "Resistor_SMD:R_0805_2012Metric",
+      "pcb": [
+        70.0,
+        38,
+        90
+      ],
+      "sch": [
+        115,
+        78
+      ],
+      "page": "bank3",
+      "mpn": "0805W8F1004T5E",
+      "maker": "UNI-ROYAL",
+      "note": "1%",
+      "dnp": false,
+      "schrot": 0,
+      "uuid": "dc7cf2a0-c5c1-5b8f-b63f-71c47562bbba",
+      "lcsc": "C17514",
+      "jlc_category": "Basic",
+      "local_fp": "Tester:R_0805_2012Metric"
+    },
+    {
+      "ref": "R30",
+      "sym": "R",
+      "value": "4.7k",
+      "pins": {
+        "1": "A10",
+        "2": "VBIAS"
+      },
+      "fp": "Resistor_SMD:R_0805_2012Metric",
+      "pcb": [
+        70.0,
+        32,
+        90
+      ],
+      "sch": [
+        151,
+        91
+      ],
+      "page": "bank3",
+      "mpn": "0805W8F4701T5E",
+      "maker": "UNI-ROYAL",
+      "note": "1% | JLC: Basic; same 1%, 100ppm/K, 125mW, 150V rating",
+      "dnp": false,
+      "schrot": 0,
+      "uuid": "6a9e0f3f-7f64-5916-9e7e-001887de7b02",
+      "lcsc": "C17673",
+      "jlc_category": "Basic",
+      "local_fp": "Tester:R_0805_2012Metric"
+    },
+    {
+      "ref": "C10",
+      "sym": "C",
+      "value": "470p",
+      "pins": {
+        "1": "A10",
+        "2": "AGND"
+      },
+      "fp": "Capacitor_SMD:C_0805_2012Metric",
+      "pcb": [
+        70.0,
+        27,
+        90
+      ],
+      "sch": [
+        191,
+        91
+      ],
+      "page": "bank3",
+      "mpn": "0805B471K500NT",
+      "maker": "Fenghua",
+      "note": "470pF +/-10%, 50V X7R; Rev D candidate model bounds total input capacitance at 1nF",
+      "dnp": false,
+      "schrot": 0,
+      "uuid": "b6267036-1dd8-5034-8d9a-f4236f3011db",
+      "lcsc": "C1743",
+      "jlc_category": "Basic",
+      "local_fp": "Tester:C_0805_2012Metric"
+    },
+    {
+      "ref": "TP10",
+      "sym": "TP",
+      "value": "A10",
+      "pins": {
+        "1": "A10"
+      },
+      "fp": "TestPoint:TestPoint_Pad_D1.5mm",
+      "pcb": [
+        70.0,
+        35,
+        0
+      ],
+      "sch": [
+        192,
+        78
+      ],
+      "page": "bank3",
+      "mpn": "",
+      "maker": "",
+      "note": "",
+      "dnp": false,
+      "schrot": 0,
+      "uuid": "8594d5ad-7753-581f-b375-6bb0075107fa",
+      "local_fp": "Tester:TestPoint_Pad_D1.5mm"
+    },
+    {
+      "ref": "R31",
+      "sym": "R",
+      "value": "1M",
+      "pins": {
+        "1": "P11",
+        "2": "MID11"
+      },
+      "fp": "Resistor_SMD:R_0805_2012Metric",
+      "pcb": [
+        74.0,
+        44,
+        90
+      ],
+      "sch": [
+        78,
+        116
+      ],
+      "page": "bank3",
+      "mpn": "0805W8F1004T5E",
+      "maker": "UNI-ROYAL",
+      "note": "1%",
+      "dnp": false,
+      "schrot": 0,
+      "uuid": "adb3108a-b1cb-5a7b-9568-d03446ca3b85",
+      "lcsc": "C17514",
+      "jlc_category": "Basic",
+      "local_fp": "Tester:R_0805_2012Metric"
+    },
+    {
+      "ref": "R32",
+      "sym": "R",
+      "value": "1M",
+      "pins": {
+        "1": "MID11",
+        "2": "A11"
+      },
+      "fp": "Resistor_SMD:R_0805_2012Metric",
+      "pcb": [
+        74.0,
+        38,
+        90
+      ],
+      "sch": [
+        115,
+        116
+      ],
+      "page": "bank3",
+      "mpn": "0805W8F1004T5E",
+      "maker": "UNI-ROYAL",
+      "note": "1%",
+      "dnp": false,
+      "schrot": 0,
+      "uuid": "2820d0cd-8fa5-59bc-af6b-4359669b8963",
+      "lcsc": "C17514",
+      "jlc_category": "Basic",
+      "local_fp": "Tester:R_0805_2012Metric"
+    },
+    {
+      "ref": "R33",
+      "sym": "R",
+      "value": "4.7k",
+      "pins": {
+        "1": "A11",
+        "2": "VBIAS"
+      },
+      "fp": "Resistor_SMD:R_0805_2012Metric",
+      "pcb": [
+        74.0,
+        32,
+        90
+      ],
+      "sch": [
+        151,
+        129
+      ],
+      "page": "bank3",
+      "mpn": "0805W8F4701T5E",
+      "maker": "UNI-ROYAL",
+      "note": "1% | JLC: Basic; same 1%, 100ppm/K, 125mW, 150V rating",
+      "dnp": false,
+      "schrot": 0,
+      "uuid": "4aae9489-8e84-520b-bd9a-5473b4b3fe75",
+      "lcsc": "C17673",
+      "jlc_category": "Basic",
+      "local_fp": "Tester:R_0805_2012Metric"
+    },
+    {
+      "ref": "C11",
+      "sym": "C",
+      "value": "470p",
+      "pins": {
+        "1": "A11",
+        "2": "AGND"
+      },
+      "fp": "Capacitor_SMD:C_0805_2012Metric",
+      "pcb": [
+        74.0,
+        27,
+        90
+      ],
+      "sch": [
+        191,
+        129
+      ],
+      "page": "bank3",
+      "mpn": "0805B471K500NT",
+      "maker": "Fenghua",
+      "note": "470pF +/-10%, 50V X7R; Rev D candidate model bounds total input capacitance at 1nF",
+      "dnp": false,
+      "schrot": 0,
+      "uuid": "59da9960-2ad0-5f56-a772-46874ea1356c",
+      "lcsc": "C1743",
+      "jlc_category": "Basic",
+      "local_fp": "Tester:C_0805_2012Metric"
+    },
+    {
+      "ref": "TP11",
+      "sym": "TP",
+      "value": "A11",
+      "pins": {
+        "1": "A11"
+      },
+      "fp": "TestPoint:TestPoint_Pad_D1.5mm",
+      "pcb": [
+        74.0,
+        35,
+        0
+      ],
+      "sch": [
+        192,
+        116
+      ],
+      "page": "bank3",
+      "mpn": "",
+      "maker": "",
+      "note": "",
+      "dnp": false,
+      "schrot": 0,
+      "uuid": "5557b6e7-9cd1-5d52-9037-2adc6491d330",
+      "local_fp": "Tester:TestPoint_Pad_D1.5mm"
+    },
+    {
+      "ref": "R34",
+      "sym": "R",
+      "value": "1M",
+      "pins": {
+        "1": "P12",
+        "2": "MID12"
+      },
+      "fp": "Resistor_SMD:R_0805_2012Metric",
+      "pcb": [
+        78.0,
+        44,
+        90
+      ],
+      "sch": [
+        78,
+        154
+      ],
+      "page": "bank3",
+      "mpn": "0805W8F1004T5E",
+      "maker": "UNI-ROYAL",
+      "note": "1%",
+      "dnp": false,
+      "schrot": 0,
+      "uuid": "6826f7a2-aa29-5c9c-80f3-100dcf5ee98e",
+      "lcsc": "C17514",
+      "jlc_category": "Basic",
+      "local_fp": "Tester:R_0805_2012Metric"
+    },
+    {
+      "ref": "R35",
+      "sym": "R",
+      "value": "1M",
+      "pins": {
+        "1": "MID12",
+        "2": "A12"
+      },
+      "fp": "Resistor_SMD:R_0805_2012Metric",
+      "pcb": [
+        78.0,
+        38,
+        90
+      ],
+      "sch": [
+        115,
+        154
+      ],
+      "page": "bank3",
+      "mpn": "0805W8F1004T5E",
+      "maker": "UNI-ROYAL",
+      "note": "1%",
+      "dnp": false,
+      "schrot": 0,
+      "uuid": "82862e8c-f345-5121-b84c-18e1858dac0b",
+      "lcsc": "C17514",
+      "jlc_category": "Basic",
+      "local_fp": "Tester:R_0805_2012Metric"
+    },
+    {
+      "ref": "R36",
+      "sym": "R",
+      "value": "4.7k",
+      "pins": {
+        "1": "A12",
+        "2": "VBIAS"
+      },
+      "fp": "Resistor_SMD:R_0805_2012Metric",
+      "pcb": [
+        78.0,
+        32,
+        90
+      ],
+      "sch": [
+        151,
+        167
+      ],
+      "page": "bank3",
+      "mpn": "0805W8F4701T5E",
+      "maker": "UNI-ROYAL",
+      "note": "1% | JLC: Basic; same 1%, 100ppm/K, 125mW, 150V rating",
+      "dnp": false,
+      "schrot": 0,
+      "uuid": "96f6af33-2dcc-5f94-99a5-cc0ed61039c6",
+      "lcsc": "C17673",
+      "jlc_category": "Basic",
+      "local_fp": "Tester:R_0805_2012Metric"
+    },
+    {
+      "ref": "C12",
+      "sym": "C",
+      "value": "470p",
+      "pins": {
+        "1": "A12",
+        "2": "AGND"
+      },
+      "fp": "Capacitor_SMD:C_0805_2012Metric",
+      "pcb": [
+        78.0,
+        27,
+        90
+      ],
+      "sch": [
+        191,
+        167
+      ],
+      "page": "bank3",
+      "mpn": "0805B471K500NT",
+      "maker": "Fenghua",
+      "note": "470pF +/-10%, 50V X7R; Rev D candidate model bounds total input capacitance at 1nF",
+      "dnp": false,
+      "schrot": 0,
+      "uuid": "61c1b74e-a52f-5c1a-9593-aa7f9388ce03",
+      "lcsc": "C1743",
+      "jlc_category": "Basic",
+      "local_fp": "Tester:C_0805_2012Metric"
+    },
+    {
+      "ref": "TP12",
+      "sym": "TP",
+      "value": "A12",
+      "pins": {
+        "1": "A12"
+      },
+      "fp": "TestPoint:TestPoint_Pad_D1.5mm",
+      "pcb": [
+        78.0,
+        35,
+        0
+      ],
+      "sch": [
+        192,
+        154
+      ],
+      "page": "bank3",
+      "mpn": "",
+      "maker": "",
+      "note": "",
+      "dnp": false,
+      "schrot": 0,
+      "uuid": "0f76ec8a-2861-5f2c-925b-d5d93f0e4ff8",
+      "local_fp": "Tester:TestPoint_Pad_D1.5mm"
+    },
+    {
+      "ref": "U3",
+      "sym": "ADS1115",
+      "value": "ADS1115IDGSR",
+      "pins": {
+        "8": "A3V3",
+        "3": "AGND",
+        "9": "SDA_ISO",
+        "10": "SCL_ISO",
+        "2": null,
+        "1": "SDA_ISO",
+        "4": "A9",
+        "5": "A10",
+        "6": "A11",
+        "7": "A12"
+      },
+      "fp": "Package_SO:TSSOP-10_3x3mm_P0.5mm",
+      "pcb": [
+        72,
+        20,
+        0
+      ],
+      "sch": [
+        285,
+        88
+      ],
+      "page": "bank3",
+      "mpn": "ADS1115IDGSR",
+      "maker": "Texas Instruments",
+      "note": "PGA +/-1.024V, nominal attenuation 426.5319. Rev D calibration/firmware required.",
+      "dnp": false,
+      "schrot": 0,
+      "uuid": "acd86481-85f4-516e-a8d7-971eb60e1f48",
+      "lcsc": "C37593",
+      "jlc_category": "Extended",
+      "local_fp": "Tester:TSSOP-10_3x3mm_P0.5mm"
+    },
+    {
+      "ref": "C15",
+      "sym": "C",
+      "value": "100n",
+      "pins": {
+        "1": "A3V3",
+        "2": "AGND"
+      },
+      "fp": "Capacitor_SMD:C_0805_2012Metric",
+      "pcb": [
+        77,
+        20,
+        90
+      ],
+      "sch": [
+        285,
+        130
+      ],
+      "page": "bank3",
+      "mpn": "CC0805KRX7R9BB104",
+      "maker": "Yageo",
+      "note": "Use specified capacitance, voltage and dielectric | JLC: Basic; 100nF, 10%, 50V, X7R preserved",
+      "dnp": false,
+      "schrot": 0,
+      "uuid": "f375d0d2-8fd3-5213-a963-56901b36eea3",
+      "lcsc": "C49678",
+      "jlc_category": "Basic",
+      "local_fp": "Tester:C_0805_2012Metric"
+    },
+    {
+      "ref": "J4",
+      "sym": "CONN5",
+      "value": "DISPLAY HARNESS",
+      "pins": {
+        "1": "USB5V",
+        "2": "USB_GND",
+        "3": "HOST3V3",
+        "4": "SDA_HOST",
+        "5": "SCL_HOST"
+      },
+      "fp": "Connector_JST:JST_XH_B5B-XH-A_1x05_P2.50mm_Vertical",
+      "pcb": [
+        6,
+        46,
+        90
+      ],
+      "sch": [
+        30,
+        48
+      ],
+      "page": "root",
+      "mpn": "B5B-XH-A(LF)(SN)",
+      "maker": "JST",
+      "note": "1=VSYS/5V,2=GND,3=3V3,4=GPIO6 SDA,5=GPIO7 SCL. One USB cable to Waveshare powers both boards.",
+      "dnp": false,
+      "schrot": 0,
+      "uuid": "60e90452-c889-5c75-815c-e3ebbffa6271",
+      "lcsc": "C157991",
+      "jlc_category": "Extended",
+      "local_fp": "Tester:JST_XH_B5B-XH-A_1x05_P2.50mm_Vertical"
+    },
+    {
+      "ref": "U4",
+      "sym": "TLV75533",
+      "value": "TLV75533PDBVR",
+      "pins": {
+        "1": "USB5V_F",
+        "2": "USB_GND",
+        "3": "USB5V_F",
+        "4": null,
+        "5": "P3V3"
+      },
+      "fp": "Package_TO_SOT_SMD:SOT-23-5",
+      "pcb": [
+        8,
+        10,
+        0
+      ],
+      "sch": [
+        112,
+        45
+      ],
+      "page": "root",
+      "mpn": "TLV75533PDBVR",
+      "maker": "Texas Instruments",
+      "note": "Primary 3.3V preregulator avoids 4.5V minimum requirement at USB-fed isolated converter. 500mA rating.",
+      "dnp": false,
+      "schrot": 0,
+      "uuid": "9e5b1dd4-d5cb-52fc-aa74-f015c66245af",
+      "lcsc": "C404027",
+      "jlc_category": "Extended",
+      "local_fp": "Tester:SOT-23-5"
+    },
+    {
+      "ref": "U5",
+      "sym": "TPS70933",
+      "value": "TPS70933DBVR",
+      "pins": {
+        "1": "ISO5V_RAW",
+        "2": "AGND",
+        "3": null,
+        "4": null,
+        "5": "A3V3"
+      },
+      "fp": "Package_TO_SOT_SMD:SOT-23-5",
+      "pcb": [
+        29,
+        10,
+        0
+      ],
+      "sch": [
+        265,
+        45
+      ],
+      "page": "root",
+      "mpn": "TPS70933DBVR",
+      "maker": "Texas Instruments",
+      "note": "30V VIN withstands unregulated converter output. EN intentionally floating, internally enabled; do not tie to VIN. Integrated reverse-current blocking.",
+      "dnp": false,
+      "schrot": 0,
+      "uuid": "582caeda-9a95-518f-afd1-a68656c3acae",
+      "lcsc": "C89347",
+      "jlc_category": "Extended",
+      "local_fp": "Tester:SOT-23-5"
+    },
+    {
+      "ref": "U6",
+      "sym": "ISO1640B",
+      "value": "ISO1640BDR",
+      "pins": {
+        "1": "HOST3V3",
+        "2": "SDA_HOST",
+        "3": "SCL_HOST",
+        "4": "USB_GND",
+        "5": "AGND",
+        "6": "SCL_ISO",
+        "7": "SDA_ISO",
+        "8": "A3V3"
+      },
+      "fp": "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm",
+      "pcb": [
+        17,
+        27,
+        0
+      ],
+      "sch": [
+        170,
+        130
+      ],
+      "page": "root",
+      "mpn": "ISO1640BDR",
+      "maker": "Texas Instruments",
+      "note": "Functional isolation, 100kHz I2C. Non-isolated host pullups on Waveshare.",
+      "dnp": false,
+      "schrot": 0,
+      "uuid": "9892e7b4-3df2-58bc-8733-5266b96c665f",
+      "lcsc": "C5122339",
+      "jlc_category": "Extended",
+      "local_fp": "Tester:SOIC-8_3.9x4.9mm_P1.27mm"
+    },
+    {
+      "ref": "U7",
+      "sym": "B0305S",
+      "value": "B0305S-1WR3",
+      "pins": {
+        "1": "USB_GND",
+        "2": "P3V3",
+        "3": "AGND",
+        "4": "ISO5V_RAW"
+      },
+      "fp": "Tester:B0305S_1WR3_EVISUN",
+      "pcb": [
+        13.19,
+        17,
+        0
+      ],
+      "sch": [
+        188,
+        45
+      ],
+      "page": "root",
+      "mpn": "B0305S-1WR3",
+      "maker": "EVISUN",
+      "note": "C7465186 exact manufacturer. 3.3V input, 5V unregulated output; 20mA minimum output load supplied by five 1k resistors. Through-hole, JLC Economic eligible.",
+      "dnp": false,
+      "schrot": 0,
+      "uuid": "dea1a263-b3de-580e-8346-12ee027578d3",
+      "lcsc": "C7465186",
+      "jlc_category": "Extended",
+      "local_fp": "Tester:B0305S_1WR3_EVISUN"
+    },
+    {
+      "ref": "D1",
+      "sym": "D",
+      "value": "LDO reverse protection",
+      "pins": {
+        "1": "USB5V_F",
+        "2": "P3V3"
+      },
+      "fp": "Diode_SMD:Nexperia_CFP3_SOD-123W",
+      "pcb": [
+        8,
+        15,
+        0
+      ],
+      "sch": [
+        112,
+        83
+      ],
+      "page": "root",
+      "mpn": "PMEG2010ER,115",
+      "maker": "Nexperia",
+      "note": "OUT-to-IN reverse-current protection for U4; cathode to USB5V_F",
+      "dnp": false,
+      "schrot": 0,
+      "uuid": "087b5def-beef-5bff-8829-ffbeb0292045",
+      "lcsc": "C82288",
+      "jlc_category": "Extended",
+      "local_fp": "Tester:Nexperia_CFP3_SOD-123W"
+    },
+    {
+      "ref": "F1",
+      "sym": "FUSE",
+      "value": "250mA PTC",
+      "pins": {
+        "1": "USB5V",
+        "2": "USB5V_F"
+      },
+      "fp": "Fuse:Fuse_1206_3216Metric",
+      "pcb": [
+        9,
+        5,
+        0
+      ],
+      "sch": [
+        65,
+        48
+      ],
+      "page": "root",
+      "mpn": "1206L025/24YR",
+      "maker": "Littelfuse",
+      "note": "USB power path only; not a DUT fuse",
+      "dnp": false,
+      "schrot": 0,
+      "uuid": "b4bacfbb-3357-5da8-8c95-a40dddd3878d",
+      "lcsc": "C3762322",
+      "jlc_category": "Extended",
+      "local_fp": "Tester:Fuse_1206_3216Metric"
+    },
+    {
+      "ref": "R37",
+      "sym": "R",
+      "value": "4.7k",
+      "pins": {
+        "1": "A3V3",
+        "2": "VBIAS"
+      },
+      "fp": "Resistor_SMD:R_0805_2012Metric",
+      "pcb": [
+        48,
+        6,
+        0
+      ],
+      "sch": [
+        332,
+        45
+      ],
+      "page": "root",
+      "mpn": "0805W8F4701T5E",
+      "maker": "UNI-ROYAL",
+      "note": "1% | JLC: Basic; same 1%, 100ppm/K, 125mW, 150V rating",
+      "dnp": false,
+      "schrot": 0,
+      "uuid": "33980f06-d7b1-5844-91b7-73d64a609655",
+      "lcsc": "C17673",
+      "jlc_category": "Basic",
+      "local_fp": "Tester:R_0805_2012Metric"
+    },
+    {
+      "ref": "R38",
+      "sym": "R",
+      "value": "1k",
+      "pins": {
+        "1": "VBIAS",
+        "2": "AGND"
+      },
+      "fp": "Resistor_SMD:R_0805_2012Metric",
+      "pcb": [
+        48,
+        10,
+        0
+      ],
+      "sch": [
+        332,
+        64
+      ],
+      "page": "root",
+      "mpn": "0805W8F1001T5E",
+      "maker": "UNI-ROYAL",
+      "note": "1% | JLC: Basic; same 1%, 100ppm/K, 125mW, 150V rating",
+      "dnp": false,
+      "schrot": 0,
+      "uuid": "95f3ef67-88f8-5af0-a996-646e4e4a2fe4",
+      "lcsc": "C17513",
+      "jlc_category": "Basic",
+      "local_fp": "Tester:R_0805_2012Metric"
+    },
+    {
+      "ref": "R39",
+      "sym": "R",
+      "value": "1k",
+      "pins": {
+        "1": "ISO5V_RAW",
+        "2": "AGND"
+      },
+      "fp": "Resistor_SMD:R_0805_2012Metric",
+      "pcb": [
+        22,
+        6,
+        90
+      ],
+      "sch": [
+        188,
+        108
+      ],
+      "page": "root",
+      "mpn": "0805W8F1001T5E",
+      "maker": "UNI-ROYAL",
+      "note": "1% | JLC: Basic; same 1%, 100ppm/K, 125mW, 150V rating",
+      "dnp": false,
+      "schrot": 0,
+      "uuid": "57a5eff6-c0ca-55db-b72a-adf3d0a34e9a",
+      "lcsc": "C17513",
+      "jlc_category": "Basic",
+      "local_fp": "Tester:R_0805_2012Metric"
+    },
+    {
+      "ref": "R40",
+      "sym": "R",
+      "value": "1k",
+      "pins": {
+        "1": "ISO5V_RAW",
+        "2": "AGND"
+      },
+      "fp": "Resistor_SMD:R_0805_2012Metric",
+      "pcb": [
+        26,
+        6,
+        90
+      ],
+      "sch": [
+        230,
+        108
+      ],
+      "page": "root",
+      "mpn": "0805W8F1001T5E",
+      "maker": "UNI-ROYAL",
+      "note": "1% | JLC: Basic; same 1%, 100ppm/K, 125mW, 150V rating",
+      "dnp": false,
+      "schrot": 0,
+      "uuid": "0b5b2618-5b7d-5164-a1cd-5427f456a2f2",
+      "lcsc": "C17513",
+      "jlc_category": "Basic",
+      "local_fp": "Tester:R_0805_2012Metric"
+    },
+    {
+      "ref": "R41",
+      "sym": "R",
+      "value": "1k",
+      "pins": {
+        "1": "ISO5V_RAW",
+        "2": "AGND"
+      },
+      "fp": "Resistor_SMD:R_0805_2012Metric",
+      "pcb": [
+        30,
+        6,
+        90
+      ],
+      "sch": [
+        272,
+        108
+      ],
+      "page": "root",
+      "mpn": "0805W8F1001T5E",
+      "maker": "UNI-ROYAL",
+      "note": "1% | JLC: Basic; same 1%, 100ppm/K, 125mW, 150V rating",
+      "dnp": false,
+      "schrot": 0,
+      "uuid": "7933487b-10d6-55a0-be35-dcd922156cd9",
+      "lcsc": "C17513",
+      "jlc_category": "Basic",
+      "local_fp": "Tester:R_0805_2012Metric"
+    },
+    {
+      "ref": "R42",
+      "sym": "R",
+      "value": "1k",
+      "pins": {
+        "1": "ISO5V_RAW",
+        "2": "AGND"
+      },
+      "fp": "Resistor_SMD:R_0805_2012Metric",
+      "pcb": [
+        34,
+        6,
+        90
+      ],
+      "sch": [
+        314,
+        108
+      ],
+      "page": "root",
+      "mpn": "0805W8F1001T5E",
+      "maker": "UNI-ROYAL",
+      "note": "1% | JLC: Basic; same 1%, 100ppm/K, 125mW, 150V rating",
+      "dnp": false,
+      "schrot": 0,
+      "uuid": "c8eca99b-f785-5722-ba44-e0cf7b11d653",
+      "lcsc": "C17513",
+      "jlc_category": "Basic",
+      "local_fp": "Tester:R_0805_2012Metric"
+    },
+    {
+      "ref": "R43",
+      "sym": "R",
+      "value": "1k",
+      "pins": {
+        "1": "ISO5V_RAW",
+        "2": "AGND"
+      },
+      "fp": "Resistor_SMD:R_0805_2012Metric",
+      "pcb": [
+        38,
+        6,
+        90
+      ],
+      "sch": [
+        356,
+        108
+      ],
+      "page": "root",
+      "mpn": "0805W8F1001T5E",
+      "maker": "UNI-ROYAL",
+      "note": "1% | JLC: Basic; same 1%, 100ppm/K, 125mW, 150V rating",
+      "dnp": false,
+      "schrot": 0,
+      "uuid": "8d22f2b4-bc32-5e3a-b28c-fd3560d3ff3b",
+      "lcsc": "C17513",
+      "jlc_category": "Basic",
+      "local_fp": "Tester:R_0805_2012Metric"
+    },
+    {
+      "ref": "R44",
+      "sym": "R",
+      "value": "4.7k",
+      "pins": {
+        "1": "A3V3",
+        "2": "SDA_ISO"
+      },
+      "fp": "Resistor_SMD:R_0805_2012Metric",
+      "pcb": [
+        64,
+        6,
+        0
+      ],
+      "sch": [
+        270,
+        150
+      ],
+      "page": "root",
+      "mpn": "0805W8F4701T5E",
+      "maker": "UNI-ROYAL",
+      "note": "1% | JLC: Basic; same 1%, 100ppm/K, 125mW, 150V rating",
+      "dnp": false,
+      "schrot": 0,
+      "uuid": "1d5f1ad8-f352-5bc8-8531-92e2d9567132",
+      "lcsc": "C17673",
+      "jlc_category": "Basic",
+      "local_fp": "Tester:R_0805_2012Metric"
+    },
+    {
+      "ref": "R45",
+      "sym": "R",
+      "value": "4.7k",
+      "pins": {
+        "1": "A3V3",
+        "2": "SCL_ISO"
+      },
+      "fp": "Resistor_SMD:R_0805_2012Metric",
+      "pcb": [
+        64,
+        10,
+        0
+      ],
+      "sch": [
+        270,
+        169
+      ],
+      "page": "root",
+      "mpn": "0805W8F4701T5E",
+      "maker": "UNI-ROYAL",
+      "note": "1% | JLC: Basic; same 1%, 100ppm/K, 125mW, 150V rating",
+      "dnp": false,
+      "schrot": 0,
+      "uuid": "8a147458-8a48-56de-8cc9-e42b90e0fae5",
+      "lcsc": "C17673",
+      "jlc_category": "Basic",
+      "local_fp": "Tester:R_0805_2012Metric"
+    },
+    {
+      "ref": "R46",
+      "sym": "R",
+      "value": "4.7k",
+      "pins": {
+        "1": "HOST3V3",
+        "2": "SDA_HOST"
+      },
+      "fp": "Resistor_SMD:R_0805_2012Metric",
+      "pcb": [
+        6,
+        25,
+        0
+      ],
+      "sch": [
+        40,
+        135
+      ],
+      "page": "root",
+      "mpn": "0805W8F4701T5E",
+      "maker": "UNI-ROYAL",
+      "note": "1% | JLC: Basic; same 1%, 100ppm/K, 125mW, 150V rating",
+      "dnp": true,
+      "schrot": 0,
+      "uuid": "82a0e72e-e0ea-5f6c-bcc6-26ca2fd5f2ee",
+      "lcsc": "C17673",
+      "jlc_category": "Basic",
+      "local_fp": "Tester:R_0805_2012Metric"
+    },
+    {
+      "ref": "R47",
+      "sym": "R",
+      "value": "4.7k",
+      "pins": {
+        "1": "HOST3V3",
+        "2": "SCL_HOST"
+      },
+      "fp": "Resistor_SMD:R_0805_2012Metric",
+      "pcb": [
+        6,
+        29,
+        0
+      ],
+      "sch": [
+        40,
+        154
+      ],
+      "page": "root",
+      "mpn": "0805W8F4701T5E",
+      "maker": "UNI-ROYAL",
+      "note": "1% | JLC: Basic; same 1%, 100ppm/K, 125mW, 150V rating",
+      "dnp": true,
+      "schrot": 0,
+      "uuid": "0eedaa35-421d-5859-b74a-0bf2b2c28042",
+      "lcsc": "C17673",
+      "jlc_category": "Basic",
+      "local_fp": "Tester:R_0805_2012Metric"
+    },
+    {
+      "ref": "R48",
+      "sym": "R",
+      "value": "1k",
+      "pins": {
+        "1": "A3V3",
+        "2": "AGND"
+      },
+      "fp": "Resistor_SMD:R_0805_2012Metric",
+      "pcb": [
+        56,
+        10,
+        0
+      ],
+      "sch": [
+        333,
+        165
+      ],
+      "page": "root",
+      "mpn": "0805W8F1001T5E",
+      "maker": "UNI-ROYAL",
+      "note": "1% | JLC: Basic; same 1%, 100ppm/K, 125mW, 150V rating",
+      "dnp": false,
+      "schrot": 0,
+      "uuid": "145e1290-0f49-5e07-bded-5794ea126a9f",
+      "lcsc": "C17513",
+      "jlc_category": "Basic",
+      "local_fp": "Tester:R_0805_2012Metric"
+    },
+    {
+      "ref": "C16",
+      "sym": "C",
+      "value": "10u",
+      "pins": {
+        "1": "USB5V_F",
+        "2": "USB_GND"
+      },
+      "fp": "Capacitor_SMD:C_0805_2012Metric",
+      "pcb": [
+        4,
+        10,
+        90
+      ],
+      "sch": [
+        75,
+        77
+      ],
+      "page": "root",
+      "mpn": "CL21A106KAYNNNE",
+      "maker": "Samsung Electro-Mechanics",
+      "note": "Use specified capacitance, voltage and dielectric | JLC: Basic; 10uF, 10%, X5R; voltage rating increased to 25V",
+      "dnp": false,
+      "schrot": 0,
+      "uuid": "6e2fdf64-1a0e-58a5-852a-18b14c1a318c",
+      "lcsc": "C15850",
+      "jlc_category": "Basic",
+      "local_fp": "Tester:C_0805_2012Metric"
+    },
+    {
+      "ref": "C17",
+      "sym": "C",
+      "value": "100n",
+      "pins": {
+        "1": "USB5V_F",
+        "2": "USB_GND"
+      },
+      "fp": "Capacitor_SMD:C_0805_2012Metric",
+      "pcb": [
+        4,
+        15,
+        90
+      ],
+      "sch": [
+        75,
+        91
+      ],
+      "page": "root",
+      "mpn": "CC0805KRX7R9BB104",
+      "maker": "Yageo",
+      "note": "Use specified capacitance, voltage and dielectric | JLC: Basic; 100nF, 10%, 50V, X7R preserved",
+      "dnp": false,
+      "schrot": 0,
+      "uuid": "6c5d84b4-8d47-5556-a212-ec56a76eb39b",
+      "lcsc": "C49678",
+      "jlc_category": "Basic",
+      "local_fp": "Tester:C_0805_2012Metric"
+    },
+    {
+      "ref": "C18",
+      "sym": "C",
+      "value": "10u",
+      "pins": {
+        "1": "P3V3",
+        "2": "USB_GND"
+      },
+      "fp": "Capacitor_SMD:C_0805_2012Metric",
+      "pcb": [
+        10,
+        21,
+        0
+      ],
+      "sch": [
+        124,
+        105
+      ],
+      "page": "root",
+      "mpn": "CL21A106KAYNNNE",
+      "maker": "Samsung Electro-Mechanics",
+      "note": "Use specified capacitance, voltage and dielectric | JLC: Basic; 10uF, 10%, X5R; voltage rating increased to 25V",
+      "dnp": false,
+      "schrot": 0,
+      "uuid": "6f269f2e-02a4-51e6-b78f-3e97d9b8e196",
+      "lcsc": "C15850",
+      "jlc_category": "Basic",
+      "local_fp": "Tester:C_0805_2012Metric"
+    },
+    {
+      "ref": "C19",
+      "sym": "C",
+      "value": "100n",
+      "pins": {
+        "1": "P3V3",
+        "2": "USB_GND"
+      },
+      "fp": "Capacitor_SMD:C_0805_2012Metric",
+      "pcb": [
+        10,
+        24,
+        0
+      ],
+      "sch": [
+        124,
+        119
+      ],
+      "page": "root",
+      "mpn": "CC0805KRX7R9BB104",
+      "maker": "Yageo",
+      "note": "Use specified capacitance, voltage and dielectric | JLC: Basic; 100nF, 10%, 50V, X7R preserved",
+      "dnp": false,
+      "schrot": 0,
+      "uuid": "82ee9395-3655-5a6b-91cc-78b27375d966",
+      "lcsc": "C49678",
+      "jlc_category": "Basic",
+      "local_fp": "Tester:C_0805_2012Metric"
+    },
+    {
+      "ref": "C20",
+      "sym": "C",
+      "value": "10u",
+      "pins": {
+        "1": "ISO5V_RAW",
+        "2": "AGND"
+      },
+      "fp": "Capacitor_SMD:C_0805_2012Metric",
+      "pcb": [
+        25,
+        17,
+        90
+      ],
+      "sch": [
+        225,
+        64
+      ],
+      "page": "root",
+      "mpn": "CL21A106KAYNNNE",
+      "maker": "Samsung Electro-Mechanics",
+      "note": "Use specified capacitance, voltage and dielectric | JLC: Basic; 10uF, 10%, X5R; voltage rating increased to 25V",
+      "dnp": false,
+      "schrot": 0,
+      "uuid": "13c264bf-afbb-5cfc-9ee7-29175cab8f48",
+      "lcsc": "C15850",
+      "jlc_category": "Basic",
+      "local_fp": "Tester:C_0805_2012Metric"
+    },
+    {
+      "ref": "C21",
+      "sym": "C",
+      "value": "100n",
+      "pins": {
+        "1": "ISO5V_RAW",
+        "2": "AGND"
+      },
+      "fp": "Capacitor_SMD:C_0805_2012Metric",
+      "pcb": [
+        25,
+        22,
+        90
+      ],
+      "sch": [
+        225,
+        78
+      ],
+      "page": "root",
+      "mpn": "CC0805KRX7R9BB104",
+      "maker": "Yageo",
+      "note": "Use specified capacitance, voltage and dielectric | JLC: Basic; 100nF, 10%, 50V, X7R preserved",
+      "dnp": false,
+      "schrot": 0,
+      "uuid": "512b5d31-e68e-5719-8ecf-8037067295d9",
+      "lcsc": "C49678",
+      "jlc_category": "Basic",
+      "local_fp": "Tester:C_0805_2012Metric"
+    },
+    {
+      "ref": "C22",
+      "sym": "C",
+      "value": "10u",
+      "pins": {
+        "1": "A3V3",
+        "2": "AGND"
+      },
+      "fp": "Capacitor_SMD:C_0805_2012Metric",
+      "pcb": [
+        35,
+        10,
+        90
+      ],
+      "sch": [
+        292,
+        64
+      ],
+      "page": "root",
+      "mpn": "CL21A106KAYNNNE",
+      "maker": "Samsung Electro-Mechanics",
+      "note": "Use specified capacitance, voltage and dielectric | JLC: Basic; 10uF, 10%, X5R; voltage rating increased to 25V",
+      "dnp": false,
+      "schrot": 0,
+      "uuid": "9af4d4e2-c877-5136-9ef0-abbb45ad9d10",
+      "lcsc": "C15850",
+      "jlc_category": "Basic",
+      "local_fp": "Tester:C_0805_2012Metric"
+    },
+    {
+      "ref": "C23",
+      "sym": "C",
+      "value": "100n",
+      "pins": {
+        "1": "A3V3",
+        "2": "AGND"
+      },
+      "fp": "Capacitor_SMD:C_0805_2012Metric",
+      "pcb": [
+        35,
+        15,
+        90
+      ],
+      "sch": [
+        292,
+        78
+      ],
+      "page": "root",
+      "mpn": "CC0805KRX7R9BB104",
+      "maker": "Yageo",
+      "note": "Use specified capacitance, voltage and dielectric | JLC: Basic; 100nF, 10%, 50V, X7R preserved",
+      "dnp": false,
+      "schrot": 0,
+      "uuid": "4a1932ca-fe21-59ba-a46e-5fa8c13eeb8d",
+      "lcsc": "C49678",
+      "jlc_category": "Basic",
+      "local_fp": "Tester:C_0805_2012Metric"
+    },
+    {
+      "ref": "C24",
+      "sym": "C",
+      "value": "100n",
+      "pins": {
+        "1": "HOST3V3",
+        "2": "USB_GND"
+      },
+      "fp": "Capacitor_SMD:C_0805_2012Metric",
+      "pcb": [
+        10,
+        28,
+        90
+      ],
+      "sch": [
+        115,
+        154
+      ],
+      "page": "root",
+      "mpn": "CC0805KRX7R9BB104",
+      "maker": "Yageo",
+      "note": "Use specified capacitance, voltage and dielectric | JLC: Basic; 100nF, 10%, 50V, X7R preserved",
+      "dnp": false,
+      "schrot": 0,
+      "uuid": "eb8e3aac-edc7-5312-bc86-9bfa7fe51e15",
+      "lcsc": "C49678",
+      "jlc_category": "Basic",
+      "local_fp": "Tester:C_0805_2012Metric"
+    },
+    {
+      "ref": "C25",
+      "sym": "C",
+      "value": "100n",
+      "pins": {
+        "1": "A3V3",
+        "2": "AGND"
+      },
+      "fp": "Capacitor_SMD:C_0805_2012Metric",
+      "pcb": [
+        24,
+        28,
+        90
+      ],
+      "sch": [
+        216,
+        155
+      ],
+      "page": "root",
+      "mpn": "CC0805KRX7R9BB104",
+      "maker": "Yageo",
+      "note": "Use specified capacitance, voltage and dielectric | JLC: Basic; 100nF, 10%, 50V, X7R preserved",
+      "dnp": false,
+      "schrot": 0,
+      "uuid": "10e49ab1-cfb7-50ab-b1c4-200ca696e5ed",
+      "lcsc": "C49678",
+      "jlc_category": "Basic",
+      "local_fp": "Tester:C_0805_2012Metric"
+    },
+    {
+      "ref": "C26",
+      "sym": "C",
+      "value": "470p",
+      "pins": {
+        "1": "VBIAS",
+        "2": "AGND"
+      },
+      "fp": "Capacitor_SMD:C_0805_2012Metric",
+      "pcb": [
+        48,
+        14,
+        0
+      ],
+      "sch": [
+        332,
+        83
+      ],
+      "page": "root",
+      "mpn": "0805B471K500NT",
+      "maker": "Fenghua",
+      "note": "470pF +/-10%, 50V X7R; Rev D candidate model bounds total input capacitance at 1nF",
+      "dnp": false,
+      "schrot": 0,
+      "uuid": "67d93477-f479-58e3-bc6d-a51f6d4becd6",
+      "lcsc": "C1743",
+      "jlc_category": "Basic",
+      "local_fp": "Tester:C_0805_2012Metric"
+    },
+    {
+      "ref": "TP13",
+      "sym": "TP",
+      "value": "USB5V",
+      "pins": {
+        "1": "USB5V"
+      },
+      "fp": "TestPoint:TestPoint_Pad_D1.5mm",
+      "pcb": [
+        6,
+        50.5,
+        0
+      ],
+      "sch": [
+        30,
+        189
+      ],
+      "page": "root",
+      "mpn": "",
+      "maker": "",
+      "note": "",
+      "dnp": false,
+      "schrot": 0,
+      "uuid": "b1144010-3768-5afd-b40c-0bb4e4d6ae99",
+      "local_fp": "Tester:TestPoint_Pad_D1.5mm"
+    },
+    {
+      "ref": "TP14",
+      "sym": "TP",
+      "value": "USB_GND",
+      "pins": {
+        "1": "USB_GND"
+      },
+      "fp": "TestPoint:TestPoint_Pad_D1.5mm",
+      "pcb": [
+        6,
+        53,
+        0
+      ],
+      "sch": [
+        65,
+        189
+      ],
+      "page": "root",
+      "mpn": "",
+      "maker": "",
+      "note": "",
+      "dnp": false,
+      "schrot": 0,
+      "uuid": "1c237427-18b0-5829-9b23-160a4e588a34",
+      "local_fp": "Tester:TestPoint_Pad_D1.5mm"
+    },
+    {
+      "ref": "TP15",
+      "sym": "TP",
+      "value": "HOST3V3",
+      "pins": {
+        "1": "HOST3V3"
+      },
+      "fp": "TestPoint:TestPoint_Pad_D1.5mm",
+      "pcb": [
+        12.5,
+        34,
+        0
+      ],
+      "sch": [
+        100,
+        189
+      ],
+      "page": "root",
+      "mpn": "",
+      "maker": "",
+      "note": "",
+      "dnp": false,
+      "schrot": 0,
+      "uuid": "dd6e57f4-9741-53f7-a949-3e8f5670fe08",
+      "local_fp": "Tester:TestPoint_Pad_D1.5mm"
+    },
+    {
+      "ref": "TP16",
+      "sym": "TP",
+      "value": "P3V3",
+      "pins": {
+        "1": "P3V3"
+      },
+      "fp": "TestPoint:TestPoint_Pad_D1.5mm",
+      "pcb": [
+        14,
+        4,
+        0
+      ],
+      "sch": [
+        135,
+        189
+      ],
+      "page": "root",
+      "mpn": "",
+      "maker": "",
+      "note": "",
+      "dnp": false,
+      "schrot": 0,
+      "uuid": "8575a972-a61f-5565-8c7b-a2b62a459c99",
+      "local_fp": "Tester:TestPoint_Pad_D1.5mm"
+    },
+    {
+      "ref": "TP17",
+      "sym": "TP",
+      "value": "ISO5V_RAW",
+      "pins": {
+        "1": "ISO5V_RAW"
+      },
+      "fp": "TestPoint:TestPoint_Pad_D1.5mm",
+      "pcb": [
+        24.7,
+        10,
+        0
+      ],
+      "sch": [
+        170,
+        189
+      ],
+      "page": "root",
+      "mpn": "",
+      "maker": "",
+      "note": "",
+      "dnp": false,
+      "schrot": 0,
+      "uuid": "fa48decc-468c-51d4-a13f-8b8a1290661e",
+      "local_fp": "Tester:TestPoint_Pad_D1.5mm"
+    },
+    {
+      "ref": "TP18",
+      "sym": "TP",
+      "value": "A3V3",
+      "pins": {
+        "1": "A3V3"
+      },
+      "fp": "TestPoint:TestPoint_Pad_D1.5mm",
+      "pcb": [
+        40,
+        10,
+        0
+      ],
+      "sch": [
+        205,
+        189
+      ],
+      "page": "root",
+      "mpn": "",
+      "maker": "",
+      "note": "",
+      "dnp": false,
+      "schrot": 0,
+      "uuid": "8e4fda0e-90b4-5aec-8f3b-a5a8f576372e",
+      "local_fp": "Tester:TestPoint_Pad_D1.5mm"
+    },
+    {
+      "ref": "TP19",
+      "sym": "TP",
+      "value": "AGND",
+      "pins": {
+        "1": "AGND"
+      },
+      "fp": "TestPoint:TestPoint_Pad_D1.5mm",
+      "pcb": [
+        77,
+        10,
+        0
+      ],
+      "sch": [
+        240,
+        189
+      ],
+      "page": "root",
+      "mpn": "",
+      "maker": "",
+      "note": "",
+      "dnp": false,
+      "schrot": 0,
+      "uuid": "8eb22163-be2b-5e08-b1cc-65b1e33f2acb",
+      "local_fp": "Tester:TestPoint_Pad_D1.5mm"
+    },
+    {
+      "ref": "TP20",
+      "sym": "TP",
+      "value": "VBIAS",
+      "pins": {
+        "1": "VBIAS"
+      },
+      "fp": "TestPoint:TestPoint_Pad_D1.5mm",
+      "pcb": [
+        55,
+        14,
+        0
+      ],
+      "sch": [
+        275,
+        189
+      ],
+      "page": "root",
+      "mpn": "",
+      "maker": "",
+      "note": "",
+      "dnp": false,
+      "schrot": 0,
+      "uuid": "962193a7-6a02-5bb5-be03-297f35efff18",
+      "local_fp": "Tester:TestPoint_Pad_D1.5mm"
+    },
+    {
+      "ref": "TP21",
+      "sym": "TP",
+      "value": "SDA_ISO",
+      "pins": {
+        "1": "SDA_ISO"
+      },
+      "fp": "TestPoint:TestPoint_Pad_D1.5mm",
+      "pcb": [
+        80,
+        16,
+        0
+      ],
+      "sch": [
+        310,
+        189
+      ],
+      "page": "root",
+      "mpn": "",
+      "maker": "",
+      "note": "",
+      "dnp": false,
+      "schrot": 0,
+      "uuid": "40a7f6f1-9d54-5098-92ef-d34ce17c861f",
+      "local_fp": "Tester:TestPoint_Pad_D1.5mm"
+    },
+    {
+      "ref": "TP22",
+      "sym": "TP",
+      "value": "SCL_ISO",
+      "pins": {
+        "1": "SCL_ISO"
+      },
+      "fp": "TestPoint:TestPoint_Pad_D1.5mm",
+      "pcb": [
+        80,
+        23,
+        0
+      ],
+      "sch": [
+        345,
+        189
+      ],
+      "page": "root",
+      "mpn": "",
+      "maker": "",
+      "note": "",
+      "dnp": false,
+      "schrot": 0,
+      "uuid": "932d946f-7ab7-5cbd-95cd-16e720c996da",
+      "local_fp": "Tester:TestPoint_Pad_D1.5mm"
+    },
+    {
+      "ref": "#FLG1",
+      "sym": "FLAG",
+      "value": "USB5V",
+      "pins": {
+        "1": "USB5V"
+      },
+      "fp": "",
+      "pcb": null,
+      "sch": [
+        35,
+        210
+      ],
+      "page": "root",
+      "mpn": "",
+      "maker": "",
+      "note": "",
+      "dnp": false,
+      "schrot": 0,
+      "uuid": "c0bc33e6-2010-5aeb-8012-1672bb5c53f7",
+      "local_fp": ""
+    },
+    {
+      "ref": "#FLG2",
+      "sym": "FLAG",
+      "value": "USB5V_F",
+      "pins": {
+        "1": "USB5V_F"
+      },
+      "fp": "",
+      "pcb": null,
+      "sch": [
+        85,
+        210
+      ],
+      "page": "root",
+      "mpn": "",
+      "maker": "",
+      "note": "",
+      "dnp": false,
+      "schrot": 0,
+      "uuid": "e984f4a8-25ef-5403-9609-d320a3153e31",
+      "local_fp": ""
+    },
+    {
+      "ref": "#FLG3",
+      "sym": "FLAG",
+      "value": "USB_GND",
+      "pins": {
+        "1": "USB_GND"
+      },
+      "fp": "",
+      "pcb": null,
+      "sch": [
+        135,
+        210
+      ],
+      "page": "root",
+      "mpn": "",
+      "maker": "",
+      "note": "",
+      "dnp": false,
+      "schrot": 0,
+      "uuid": "5f787637-a346-55ff-b009-cbd45297997e",
+      "local_fp": ""
+    },
+    {
+      "ref": "#FLG4",
+      "sym": "FLAG",
+      "value": "HOST3V3",
+      "pins": {
+        "1": "HOST3V3"
+      },
+      "fp": "",
+      "pcb": null,
+      "sch": [
+        185,
+        210
+      ],
+      "page": "root",
+      "mpn": "",
+      "maker": "",
+      "note": "",
+      "dnp": false,
+      "schrot": 0,
+      "uuid": "c66ed363-7774-549f-86a7-b947c04ba4ae",
+      "local_fp": ""
+    },
+    {
+      "ref": "U8",
+      "sym": "ADS1115",
+      "value": "ADS1115IDGSR",
+      "pins": {
+        "1": "SCL_ISO",
+        "2": null,
+        "3": "AGND",
+        "4": "REF_ADC",
+        "5": "AGND",
+        "6": "AGND",
+        "7": "AGND",
+        "8": "A3V3",
+        "9": "SDA_ISO",
+        "10": "SCL_ISO"
+      },
+      "fp": "Package_SO:TSSOP-10_3x3mm_P0.5mm",
+      "pcb": [
+        62,
+        20,
+        0
+      ],
+      "sch": [
+        355,
+        130
+      ],
+      "page": "root",
+      "mpn": "ADS1115IDGSR",
+      "maker": "Texas Instruments",
+      "note": "Independent reference monitor at 0x4B, AIN0. Same PGA and conversion timing as input banks; unused inputs tied to AGND.",
+      "dnp": false,
+      "schrot": 0,
+      "uuid": "5ba56f03-c46e-5a4c-9efb-78e21369d142",
+      "lcsc": "C37593",
+      "jlc_category": "Extended",
+      "local_fp": "Tester:TSSOP-10_3x3mm_P0.5mm"
+    },
+    {
+      "ref": "R49",
+      "sym": "R",
+      "value": "4.7k",
+      "pins": {
+        "1": "VBIAS",
+        "2": "REF_ADC"
+      },
+      "fp": "Resistor_SMD:R_0805_2012Metric",
+      "pcb": [
+        60,
+        14,
+        0
+      ],
+      "sch": [
+        270,
+        210
+      ],
+      "page": "root",
+      "mpn": "0805W8F4701T5E",
+      "maker": "UNI-ROYAL",
+      "note": "1% | JLC: Basic; same 1%, 100ppm/K, 125mW, 150V rating",
+      "dnp": false,
+      "schrot": 0,
+      "uuid": "77ee72fd-cd2d-5d1f-85bf-35a559dc4635",
+      "lcsc": "C17673",
+      "jlc_category": "Basic",
+      "local_fp": "Tester:R_0805_2012Metric"
+    },
+    {
+      "ref": "C27",
+      "sym": "C",
+      "value": "100n",
+      "pins": {
+        "1": "A3V3",
+        "2": "AGND"
+      },
+      "fp": "Capacitor_SMD:C_0805_2012Metric",
+      "pcb": [
+        67,
+        20,
+        90
+      ],
+      "sch": [
+        355,
+        161
+      ],
+      "page": "root",
+      "mpn": "CC0805KRX7R9BB104",
+      "maker": "Yageo",
+      "note": "Use specified capacitance, voltage and dielectric | JLC: Basic; 100nF, 10%, 50V, X7R preserved",
+      "dnp": false,
+      "schrot": 0,
+      "uuid": "b9eeb351-5447-5ddf-b7b0-dc715920516d",
+      "lcsc": "C49678",
+      "jlc_category": "Basic",
+      "local_fp": "Tester:C_0805_2012Metric"
+    },
+    {
+      "ref": "C28",
+      "sym": "C",
+      "value": "470p",
+      "pins": {
+        "1": "REF_ADC",
+        "2": "AGND"
+      },
+      "fp": "Capacitor_SMD:C_0805_2012Metric",
+      "pcb": [
+        65,
+        14,
+        0
+      ],
+      "sch": [
+        332,
+        210
+      ],
+      "page": "root",
+      "mpn": "0805B471K500NT",
+      "maker": "Fenghua",
+      "note": "470pF +/-10%, 50V X7R; Rev D candidate model bounds total input capacitance at 1nF",
+      "dnp": false,
+      "schrot": 0,
+      "uuid": "2e4b0187-efca-50b7-a705-c69215efb8d0",
+      "lcsc": "C1743",
+      "jlc_category": "Basic",
+      "local_fp": "Tester:C_0805_2012Metric"
+    }
+  ]
+}

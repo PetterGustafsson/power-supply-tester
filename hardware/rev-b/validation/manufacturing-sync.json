@@ -1,0 +1,9 @@
+{
+  "status": "PASS",
+  "revision": "B",
+  "purchasing_metadata_footprints": 116,
+  "pcb_run_input_sha256": "25b56cb525250fa6510623bf6b5750e494f6656cf7e365b561555fb74002081f",
+  "pcb_after_sha256": "937a579b79b98c4ebae025e0e0ced9c3974ec9adf549f6ffd6467b51675622c3",
+  "exporter_geometry_unchanged": true,
+  "meaning": "Rev B circuit/layout changes checked separately against Rev A; manufacturing files freshly regenerated from Rev B."
+}

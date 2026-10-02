@@ -1,0 +1,4162 @@
+{
+  "scope": {
+    "nominal_voltage_V": 12,
+    "intended_measurement_V": [
+      0,
+      18
+    ],
+    "dc_miswire_design_limit_V": 48,
+    "input_count": 12,
+    "input_scope": "One DC source on any pair; other terminals open. Reversed polarity allowed. Multiple rails are reported as ambiguous.",
+    "power": "USB 5V and host 3V3 through J4 from the existing Waveshare module",
+    "display": "Waveshare ESP32-S3-LCD-1.28 via five-wire harness; module mechanically separate",
+    "isolation": "Functional isolation of all measurement electronics from USB; not mains/CAT rated",
+    "accuracy": "Design target +/-0.15V around 12V at room temperature after per-channel calibration; not a measured guarantee",
+    "board_mm": [
+      90,
+      80
+    ],
+    "layers": 2,
+    "thickness_mm": 1.6,
+    "calibration_required": true,
+    "bench_verified": false
+  },
+  "channels": [
+    {
+      "pin": 1,
+      "bank": 0,
+      "adc": "U1",
+      "address": 72,
+      "mux": 0,
+      "series": [
+        "R1",
+        "R2"
+      ],
+      "bias": "R3",
+      "switch": "U4",
+      "s_pin": 3,
+      "d_pin": 2,
+      "adc_pin": 4,
+      "clamp": "D1",
+      "startup": "R46",
+      "filter": "C1",
+      "testpoint": "TP1"
+    },
+    {
+      "pin": 2,
+      "bank": 0,
+      "adc": "U1",
+      "address": 72,
+      "mux": 1,
+      "series": [
+        "R4",
+        "R5"
+      ],
+      "bias": "R6",
+      "switch": "U4",
+      "s_pin": 14,
+      "d_pin": 15,
+      "adc_pin": 5,
+      "clamp": "D2",
+      "startup": "R47",
+      "filter": "C2",
+      "testpoint": "TP2"
+    },
+    {
+      "pin": 3,
+      "bank": 0,
+      "adc": "U1",
+      "address": 72,
+      "mux": 2,
+      "series": [
+        "R7",
+        "R8"
+      ],
+      "bias": "R9",
+      "switch": "U4",
+      "s_pin": 11,
+      "d_pin": 10,
+      "adc_pin": 6,
+      "clamp": "D3",
+      "startup": "R48",
+      "filter": "C3",
+      "testpoint": "TP3"
+    },
+    {
+      "pin": 4,
+      "bank": 0,
+      "adc": "U1",
+      "address": 72,
+      "mux": 3,
+      "series": [
+        "R10",
+        "R11"
+      ],
+      "bias": "R12",
+      "switch": "U4",
+      "s_pin": 6,
+      "d_pin": 7,
+      "adc_pin": 7,
+      "clamp": "D4",
+      "startup": "R49",
+      "filter": "C4",
+      "testpoint": "TP4"
+    },
+    {
+      "pin": 5,
+      "bank": 1,
+      "adc": "U2",
+      "address": 73,
+      "mux": 0,
+      "series": [
+        "R13",
+        "R14"
+      ],
+      "bias": "R15",
+      "switch": "U5",
+      "s_pin": 3,
+      "d_pin": 2,
+      "adc_pin": 4,
+      "clamp": "D5",
+      "startup": "R50",
+      "filter": "C5",
+      "testpoint": "TP5"
+    },
+    {
+      "pin": 6,
+      "bank": 1,
+      "adc": "U2",
+      "address": 73,
+      "mux": 1,
+      "series": [
+        "R16",
+        "R17"
+      ],
+      "bias": "R18",
+      "switch": "U5",
+      "s_pin": 14,
+      "d_pin": 15,
+      "adc_pin": 5,
+      "clamp": "D6",
+      "startup": "R51",
+      "filter": "C6",
+      "testpoint": "TP6"
+    },
+    {
+      "pin": 7,
+      "bank": 1,
+      "adc": "U2",
+      "address": 73,
+      "mux": 2,
+      "series": [
+        "R19",
+        "R20"
+      ],
+      "bias": "R21",
+      "switch": "U5",
+      "s_pin": 11,
+      "d_pin": 10,
+      "adc_pin": 6,
+      "clamp": "D7",
+      "startup": "R52",
+      "filter": "C7",
+      "testpoint": "TP7"
+    },
+    {
+      "pin": 8,
+      "bank": 1,
+      "adc": "U2",
+      "address": 73,
+      "mux": 3,
+      "series": [
+        "R22",
+        "R23"
+      ],
+      "bias": "R24",
+      "switch": "U5",
+      "s_pin": 6,
+      "d_pin": 7,
+      "adc_pin": 7,
+      "clamp": "D8",
+      "startup": "R53",
+      "filter": "C8",
+      "testpoint": "TP8"
+    },
+    {
+      "pin": 9,
+      "bank": 2,
+      "adc": "U3",
+      "address": 74,
+      "mux": 0,
+      "series": [
+        "R25",
+        "R26"
+      ],
+      "bias": "R27",
+      "switch": "U6",
+      "s_pin": 3,
+      "d_pin": 2,
+      "adc_pin": 4,
+      "clamp": "D9",
+      "startup": "R54",
+      "filter": "C9",
+      "testpoint": "TP9"
+    },
+    {
+      "pin": 10,
+      "bank": 2,
+      "adc": "U3",
+      "address": 74,
+      "mux": 1,
+      "series": [
+        "R28",
+        "R29"
+      ],
+      "bias": "R30",
+      "switch": "U6",
+      "s_pin": 14,
+      "d_pin": 15,
+      "adc_pin": 5,
+      "clamp": "D10",
+      "startup": "R55",
+      "filter": "C10",
+      "testpoint": "TP10"
+    },
+    {
+      "pin": 11,
+      "bank": 2,
+      "adc": "U3",
+      "address": 74,
+      "mux": 2,
+      "series": [
+        "R31",
+        "R32"
+      ],
+      "bias": "R33",
+      "switch": "U6",
+      "s_pin": 11,
+      "d_pin": 10,
+      "adc_pin": 6,
+      "clamp": "D11",
+      "startup": "R56",
+      "filter": "C11",
+      "testpoint": "TP11"
+    },
+    {
+      "pin": 12,
+      "bank": 2,
+      "adc": "U3",
+      "address": 74,
+      "mux": 3,
+      "series": [
+        "R34",
+        "R35"
+      ],
+      "bias": "R36",
+      "switch": "U6",
+      "s_pin": 6,
+      "d_pin": 7,
+      "adc_pin": 7,
+      "clamp": "D12",
+      "startup": "R57",
+      "filter": "C12",
+      "testpoint": "TP12"
+    }
+  ],
+  "parts": [
+    {
+      "ref": "J1",
+      "sym": "CONN4",
+      "value": "INPUTS 1-4",
+      "pins": {
+        "1": "P1",
+        "2": "P2",
+        "3": "P3",
+        "4": "P4"
+      },
+      "fp": "TerminalBlock_Phoenix:TerminalBlock_Phoenix_PT-1,5-4-3.5-H_1x04_P3.50mm_Horizontal",
+      "pcb": [
+        24.75,
+        72,
+        0
+      ],
+      "sch": [
+        30,
+        92
+      ],
+      "page": "bank1",
+      "mpn": "1984633",
+      "maker": "Phoenix Contact",
+      "note": "PT 1,5/4-3,5-H; 1984633 verified against Phoenix Contact product page, 3.5mm pitch",
+      "dnp": false,
+      "schrot": 0,
+      "uuid": "0a728d89-4e86-5294-9d93-3922e2429414",
+      "local_fp": "Tester:TerminalBlock_Phoenix_PT-1,5-4-3.5-H_1x04_P3.50mm_Horizontal"
+    },
+    {
+      "ref": "R1",
+      "sym": "R",
+      "value": "165k",
+      "pins": {
+        "1": "P1",
+        "2": "MID1"
+      },
+      "fp": "Resistor_SMD:R_0805_2012Metric",
+      "pcb": [
+        22.5,
+        65,
+        90
+      ],
+      "sch": [
+        78,
+        40
+      ],
+      "page": "bank1",
+      "mpn": "RT0805BRD07165KL",
+      "maker": "Yageo",
+      "note": "0.1%, 25 ppm/K",
+      "dnp": false,
+      "schrot": 0,
+      "uuid": "f54cceb9-3669-5dc6-8d7d-1e020ff1a478",
+      "local_fp": "Tester:R_0805_2012Metric"
+    },
+    {
+      "ref": "R2",
+      "sym": "R",
+      "value": "165k",
+      "pins": {
+        "1": "MID1",
+        "2": "S1"
+      },
+      "fp": "Resistor_SMD:R_0805_2012Metric",
+      "pcb": [
+        22.5,
+        60,
+        90
+      ],
+      "sch": [
+        115,
+        40
+      ],
+      "page": "bank1",
+      "mpn": "RT0805BRD07165KL",
+      "maker": "Yageo",
+      "note": "0.1%, 25 ppm/K",
+      "dnp": false,
+      "schrot": 0,
+      "uuid": "53eac444-adae-53ad-9133-2eb000f5f1b6",
+      "local_fp": "Tester:R_0805_2012Metric"
+    },
+    {
+      "ref": "D1",
+      "sym": "DZ",
+      "value": "12V clamp",
+      "pins": {
+        "1": "S1",
+        "2": "AGND"
+      },
+      "fp": "Diode_SMD:D_SOD-123F",
+      "pcb": [
+        22.5,
+        54,
+        90
+      ],
+      "sch": [
+        151,
+        40
+      ],
+      "page": "bank1",
+      "mpn": "BZT52H-C12,115",
+      "maker": "Nexperia",
+      "note": "Clamp is before power-off switch; not an ADC rail clamp",
+      "dnp": false,
+      "schrot": 0,
+      "uuid": "257e13fa-59ee-540a-ba2a-5e776b458d55",
+      "local_fp": "Tester:D_SOD-123F"
+    },
+    {
+      "ref": "R3",
+      "sym": "R",
+      "value": "10k",
+      "pins": {
+        "1": "A1",
+        "2": "VBIAS"
+      },
+      "fp": "Resistor_SMD:R_0805_2012Metric",
+      "pcb": [
+        22.5,
+        37,
+        90
+      ],
+      "sch": [
+        151,
+        53
+      ],
+      "page": "bank1",
+      "mpn": "RT0805BRD0710KL",
+      "maker": "Yageo",
+      "note": "0.1%, 25 ppm/K",
+      "dnp": false,
+      "schrot": 0,
+      "uuid": "f19739ad-2626-5260-90f8-74ea633007e2",
+      "local_fp": "Tester:R_0805_2012Metric"
+    },
+    {
+      "ref": "R46",
+      "sym": "R",
+      "value": "100k",
+      "pins": {
+        "1": "S1",
+        "2": "AGND"
+      },
+      "fp": "Resistor_SMD:R_0805_2012Metric",
+      "pcb": [
+        22.5,
+        50,
+        0
+      ],
+      "sch": [
+        115,
+        53
+      ],
+      "page": "bank1",
+      "mpn": "RT0805BRD07100KL",
+      "maker": "Yageo",
+      "note": "0.1%, 25 ppm/K",
+      "dnp": false,
+      "schrot": 0,
+      "uuid": "309ed01c-59f1-5b23-84d4-0ea2c2b5122c",
+      "local_fp": "Tester:R_0805_2012Metric"
+    },
+    {
+      "ref": "C1",
+      "sym": "C",
+      "value": "1n",
+      "pins": {
+        "1": "A1",
+        "2": "AGND"
+      },
+      "fp": "Capacitor_SMD:C_0805_2012Metric",
+      "pcb": [
+        22.5,
+        32,
+        90
+      ],
+      "sch": [
+        191,
+        53
+      ],
+      "page": "bank1",
+      "mpn": "GRM2165C1H102JA01D",
+      "maker": "Murata",
+      "note": "Use specified capacitance, voltage and dielectric",
+      "dnp": false,
+      "schrot": 0,
+      "uuid": "0c99f334-43bc-59a4-a3c9-dcecf564f12b",
+      "local_fp": "Tester:C_0805_2012Metric"
+    },
+    {
+      "ref": "TP1",
+      "sym": "TP",
+      "value": "A1",
+      "pins": {
+        "1": "A1"
+      },
+      "fp": "TestPoint:TestPoint_Pad_D1.5mm",
+      "pcb": [
+        22.5,
+        40.5,
+        0
+      ],
+      "sch": [
+        192,
+        40
+      ],
+      "page": "bank1",
+      "mpn": "",
+      "maker": "",
+      "note": "",
+      "dnp": false,
+      "schrot": 0,
+      "uuid": "3b823af7-398e-526a-b657-bcdb630b4fd9",
+      "local_fp": "Tester:TestPoint_Pad_D1.5mm"
+    },
+    {
+      "ref": "R4",
+      "sym": "R",
+      "value": "165k",
+      "pins": {
+        "1": "P2",
+        "2": "MID2"
+      },
+      "fp": "Resistor_SMD:R_0805_2012Metric",
+      "pcb": [
+        27.5,
+        65,
+        90
+      ],
+      "sch": [
+        78,
+        78
+      ],
+      "page": "bank1",
+      "mpn": "RT0805BRD07165KL",
+      "maker": "Yageo",
+      "note": "0.1%, 25 ppm/K",
+      "dnp": false,
+      "schrot": 0,
+      "uuid": "1e94c2e4-cdc3-5072-a411-4b2caaa2f223",
+      "local_fp": "Tester:R_0805_2012Metric"
+    },
+    {
+      "ref": "R5",
+      "sym": "R",
+      "value": "165k",
+      "pins": {
+        "1": "MID2",
+        "2": "S2"
+      },
+      "fp": "Resistor_SMD:R_0805_2012Metric",
+      "pcb": [
+        27.5,
+        60,
+        90
+      ],
+      "sch": [
+        115,
+        78
+      ],
+      "page": "bank1",
+      "mpn": "RT0805BRD07165KL",
+      "maker": "Yageo",
+      "note": "0.1%, 25 ppm/K",
+      "dnp": false,
+      "schrot": 0,
+      "uuid": "71c69ed7-7d35-5eb1-a845-b8896f59b4da",
+      "local_fp": "Tester:R_0805_2012Metric"
+    },
+    {
+      "ref": "D2",
+      "sym": "DZ",
+      "value": "12V clamp",
+      "pins": {
+        "1": "S2",
+        "2": "AGND"
+      },
+      "fp": "Diode_SMD:D_SOD-123F",
+      "pcb": [
+        27.5,
+        54,
+        90
+      ],
+      "sch": [
+        151,
+        78
+      ],
+      "page": "bank1",
+      "mpn": "BZT52H-C12,115",
+      "maker": "Nexperia",
+      "note": "Clamp is before power-off switch; not an ADC rail clamp",
+      "dnp": false,
+      "schrot": 0,
+      "uuid": "4468d10d-3d8a-528b-b741-52bcd56ccc2b",
+      "local_fp": "Tester:D_SOD-123F"
+    },
+    {
+      "ref": "R6",
+      "sym": "R",
+      "value": "10k",
+      "pins": {
+        "1": "A2",
+        "2": "VBIAS"
+      },
+      "fp": "Resistor_SMD:R_0805_2012Metric",
+      "pcb": [
+        27.5,
+        37,
+        90
+      ],
+      "sch": [
+        151,
+        91
+      ],
+      "page": "bank1",
+      "mpn": "RT0805BRD0710KL",
+      "maker": "Yageo",
+      "note": "0.1%, 25 ppm/K",
+      "dnp": false,
+      "schrot": 0,
+      "uuid": "ae71ffc6-129b-5e5c-a9c6-125bf800e922",
+      "local_fp": "Tester:R_0805_2012Metric"
+    },
+    {
+      "ref": "R47",
+      "sym": "R",
+      "value": "100k",
+      "pins": {
+        "1": "S2",
+        "2": "AGND"
+      },
+      "fp": "Resistor_SMD:R_0805_2012Metric",
+      "pcb": [
+        27.5,
+        50,
+        0
+      ],
+      "sch": [
+        115,
+        91
+      ],
+      "page": "bank1",
+      "mpn": "RT0805BRD07100KL",
+      "maker": "Yageo",
+      "note": "0.1%, 25 ppm/K",
+      "dnp": false,
+      "schrot": 0,
+      "uuid": "6025b01a-1733-5073-9ffb-476973169b0c",
+      "local_fp": "Tester:R_0805_2012Metric"
+    },
+    {
+      "ref": "C2",
+      "sym": "C",
+      "value": "1n",
+      "pins": {
+        "1": "A2",
+        "2": "AGND"
+      },
+      "fp": "Capacitor_SMD:C_0805_2012Metric",
+      "pcb": [
+        27.5,
+        32,
+        90
+      ],
+      "sch": [
+        191,
+        91
+      ],
+      "page": "bank1",
+      "mpn": "GRM2165C1H102JA01D",
+      "maker": "Murata",
+      "note": "Use specified capacitance, voltage and dielectric",
+      "dnp": false,
+      "schrot": 0,
+      "uuid": "9e3dc8f1-91fe-5658-8525-22ca5f586957",
+      "local_fp": "Tester:C_0805_2012Metric"
+    },
+    {
+      "ref": "TP2",
+      "sym": "TP",
+      "value": "A2",
+      "pins": {
+        "1": "A2"
+      },
+      "fp": "TestPoint:TestPoint_Pad_D1.5mm",
+      "pcb": [
+        27.5,
+        40.5,
+        0
+      ],
+      "sch": [
+        192,
+        78
+      ],
+      "page": "bank1",
+      "mpn": "",
+      "maker": "",
+      "note": "",
+      "dnp": false,
+      "schrot": 0,
+      "uuid": "ec704979-c48f-58a8-9cb4-c2be09715f0b",
+      "local_fp": "Tester:TestPoint_Pad_D1.5mm"
+    },
+    {
+      "ref": "R7",
+      "sym": "R",
+      "value": "165k",
+      "pins": {
+        "1": "P3",
+        "2": "MID3"
+      },
+      "fp": "Resistor_SMD:R_0805_2012Metric",
+      "pcb": [
+        32.5,
+        65,
+        90
+      ],
+      "sch": [
+        78,
+        116
+      ],
+      "page": "bank1",
+      "mpn": "RT0805BRD07165KL",
+      "maker": "Yageo",
+      "note": "0.1%, 25 ppm/K",
+      "dnp": false,
+      "schrot": 0,
+      "uuid": "05aee326-a5b4-515a-9b18-d2dea77d594f",
+      "local_fp": "Tester:R_0805_2012Metric"
+    },
+    {
+      "ref": "R8",
+      "sym": "R",
+      "value": "165k",
+      "pins": {
+        "1": "MID3",
+        "2": "S3"
+      },
+      "fp": "Resistor_SMD:R_0805_2012Metric",
+      "pcb": [
+        32.5,
+        60,
+        90
+      ],
+      "sch": [
+        115,
+        116
+      ],
+      "page": "bank1",
+      "mpn": "RT0805BRD07165KL",
+      "maker": "Yageo",
+      "note": "0.1%, 25 ppm/K",
+      "dnp": false,
+      "schrot": 0,
+      "uuid": "16e35aa5-4c16-5d76-b50c-150e3cd09d84",
+      "local_fp": "Tester:R_0805_2012Metric"
+    },
+    {
+      "ref": "D3",
+      "sym": "DZ",
+      "value": "12V clamp",
+      "pins": {
+        "1": "S3",
+        "2": "AGND"
+      },
+      "fp": "Diode_SMD:D_SOD-123F",
+      "pcb": [
+        32.5,
+        54,
+        90
+      ],
+      "sch": [
+        151,
+        116
+      ],
+      "page": "bank1",
+      "mpn": "BZT52H-C12,115",
+      "maker": "Nexperia",
+      "note": "Clamp is before power-off switch; not an ADC rail clamp",
+      "dnp": false,
+      "schrot": 0,
+      "uuid": "e7259997-53ae-5bc0-bc34-d8d2da72cdac",
+      "local_fp": "Tester:D_SOD-123F"
+    },
+    {
+      "ref": "R9",
+      "sym": "R",
+      "value": "10k",
+      "pins": {
+        "1": "A3",
+        "2": "VBIAS"
+      },
+      "fp": "Resistor_SMD:R_0805_2012Metric",
+      "pcb": [
+        32.5,
+        37,
+        90
+      ],
+      "sch": [
+        151,
+        129
+      ],
+      "page": "bank1",
+      "mpn": "RT0805BRD0710KL",
+      "maker": "Yageo",
+      "note": "0.1%, 25 ppm/K",
+      "dnp": false,
+      "schrot": 0,
+      "uuid": "b729b962-ed1b-5239-9857-6c35b2ef59b6",
+      "local_fp": "Tester:R_0805_2012Metric"
+    },
+    {
+      "ref": "R48",
+      "sym": "R",
+      "value": "100k",
+      "pins": {
+        "1": "S3",
+        "2": "AGND"
+      },
+      "fp": "Resistor_SMD:R_0805_2012Metric",
+      "pcb": [
+        32.5,
+        50,
+        0
+      ],
+      "sch": [
+        115,
+        129
+      ],
+      "page": "bank1",
+      "mpn": "RT0805BRD07100KL",
+      "maker": "Yageo",
+      "note": "0.1%, 25 ppm/K",
+      "dnp": false,
+      "schrot": 0,
+      "uuid": "e573fbd1-4348-5fb9-92f0-f0567214f3be",
+      "local_fp": "Tester:R_0805_2012Metric"
+    },
+    {
+      "ref": "C3",
+      "sym": "C",
+      "value": "1n",
+      "pins": {
+        "1": "A3",
+        "2": "AGND"
+      },
+      "fp": "Capacitor_SMD:C_0805_2012Metric",
+      "pcb": [
+        32.5,
+        32,
+        90
+      ],
+      "sch": [
+        191,
+        129
+      ],
+      "page": "bank1",
+      "mpn": "GRM2165C1H102JA01D",
+      "maker": "Murata",
+      "note": "Use specified capacitance, voltage and dielectric",
+      "dnp": false,
+      "schrot": 0,
+      "uuid": "daf25630-9c57-56f5-8dd7-6240580a142c",
+      "local_fp": "Tester:C_0805_2012Metric"
+    },
+    {
+      "ref": "TP3",
+      "sym": "TP",
+      "value": "A3",
+      "pins": {
+        "1": "A3"
+      },
+      "fp": "TestPoint:TestPoint_Pad_D1.5mm",
+      "pcb": [
+        32.5,
+        40.5,
+        0
+      ],
+      "sch": [
+        192,
+        116
+      ],
+      "page": "bank1",
+      "mpn": "",
+      "maker": "",
+      "note": "",
+      "dnp": false,
+      "schrot": 0,
+      "uuid": "f4f46eba-89a9-547f-8627-88fba773b261",
+      "local_fp": "Tester:TestPoint_Pad_D1.5mm"
+    },
+    {
+      "ref": "R10",
+      "sym": "R",
+      "value": "165k",
+      "pins": {
+        "1": "P4",
+        "2": "MID4"
+      },
+      "fp": "Resistor_SMD:R_0805_2012Metric",
+      "pcb": [
+        37.5,
+        65,
+        90
+      ],
+      "sch": [
+        78,
+        154
+      ],
+      "page": "bank1",
+      "mpn": "RT0805BRD07165KL",
+      "maker": "Yageo",
+      "note": "0.1%, 25 ppm/K",
+      "dnp": false,
+      "schrot": 0,
+      "uuid": "fed2dd6d-d180-5d44-aa13-083dd46c7c75",
+      "local_fp": "Tester:R_0805_2012Metric"
+    },
+    {
+      "ref": "R11",
+      "sym": "R",
+      "value": "165k",
+      "pins": {
+        "1": "MID4",
+        "2": "S4"
+      },
+      "fp": "Resistor_SMD:R_0805_2012Metric",
+      "pcb": [
+        37.5,
+        60,
+        90
+      ],
+      "sch": [
+        115,
+        154
+      ],
+      "page": "bank1",
+      "mpn": "RT0805BRD07165KL",
+      "maker": "Yageo",
+      "note": "0.1%, 25 ppm/K",
+      "dnp": false,
+      "schrot": 0,
+      "uuid": "d3f486d3-9b78-52c7-9c27-d21c474027dc",
+      "local_fp": "Tester:R_0805_2012Metric"
+    },
+    {
+      "ref": "D4",
+      "sym": "DZ",
+      "value": "12V clamp",
+      "pins": {
+        "1": "S4",
+        "2": "AGND"
+      },
+      "fp": "Diode_SMD:D_SOD-123F",
+      "pcb": [
+        37.5,
+        54,
+        90
+      ],
+      "sch": [
+        151,
+        154
+      ],
+      "page": "bank1",
+      "mpn": "BZT52H-C12,115",
+      "maker": "Nexperia",
+      "note": "Clamp is before power-off switch; not an ADC rail clamp",
+      "dnp": false,
+      "schrot": 0,
+      "uuid": "745df9c3-d42f-55af-afaa-74406de58908",
+      "local_fp": "Tester:D_SOD-123F"
+    },
+    {
+      "ref": "R12",
+      "sym": "R",
+      "value": "10k",
+      "pins": {
+        "1": "A4",
+        "2": "VBIAS"
+      },
+      "fp": "Resistor_SMD:R_0805_2012Metric",
+      "pcb": [
+        37.5,
+        37,
+        90
+      ],
+      "sch": [
+        151,
+        167
+      ],
+      "page": "bank1",
+      "mpn": "RT0805BRD0710KL",
+      "maker": "Yageo",
+      "note": "0.1%, 25 ppm/K",
+      "dnp": false,
+      "schrot": 0,
+      "uuid": "ff946ffa-e741-5c75-b585-1b350fbc8874",
+      "local_fp": "Tester:R_0805_2012Metric"
+    },
+    {
+      "ref": "R49",
+      "sym": "R",
+      "value": "100k",
+      "pins": {
+        "1": "S4",
+        "2": "AGND"
+      },
+      "fp": "Resistor_SMD:R_0805_2012Metric",
+      "pcb": [
+        37.5,
+        50,
+        0
+      ],
+      "sch": [
+        115,
+        167
+      ],
+      "page": "bank1",
+      "mpn": "RT0805BRD07100KL",
+      "maker": "Yageo",
+      "note": "0.1%, 25 ppm/K",
+      "dnp": false,
+      "schrot": 0,
+      "uuid": "c8d1148c-3727-5a82-b742-421a0d742a8b",
+      "local_fp": "Tester:R_0805_2012Metric"
+    },
+    {
+      "ref": "C4",
+      "sym": "C",
+      "value": "1n",
+      "pins": {
+        "1": "A4",
+        "2": "AGND"
+      },
+      "fp": "Capacitor_SMD:C_0805_2012Metric",
+      "pcb": [
+        37.5,
+        32,
+        90
+      ],
+      "sch": [
+        191,
+        167
+      ],
+      "page": "bank1",
+      "mpn": "GRM2165C1H102JA01D",
+      "maker": "Murata",
+      "note": "Use specified capacitance, voltage and dielectric",
+      "dnp": false,
+      "schrot": 0,
+      "uuid": "8ea5e224-9ae4-528a-ba74-8d2c23fa85a4",
+      "local_fp": "Tester:C_0805_2012Metric"
+    },
+    {
+      "ref": "TP4",
+      "sym": "TP",
+      "value": "A4",
+      "pins": {
+        "1": "A4"
+      },
+      "fp": "TestPoint:TestPoint_Pad_D1.5mm",
+      "pcb": [
+        37.5,
+        40.5,
+        0
+      ],
+      "sch": [
+        192,
+        154
+      ],
+      "page": "bank1",
+      "mpn": "",
+      "maker": "",
+      "note": "",
+      "dnp": false,
+      "schrot": 0,
+      "uuid": "184e62bb-b202-576e-ad91-6986c08a7c55",
+      "local_fp": "Tester:TestPoint_Pad_D1.5mm"
+    },
+    {
+      "ref": "U1",
+      "sym": "ADS1115",
+      "value": "ADS1115IDGSR",
+      "pins": {
+        "8": "A3V3",
+        "3": "AGND",
+        "9": "SDA_ISO",
+        "10": "SCL_ISO",
+        "2": null,
+        "1": "AGND",
+        "4": "A1",
+        "5": "A2",
+        "6": "A3",
+        "7": "A4"
+      },
+      "fp": "Package_SO:TSSOP-10_3x3mm_P0.5mm",
+      "pcb": [
+        30,
+        25,
+        0
+      ],
+      "sch": [
+        334,
+        88
+      ],
+      "page": "bank1",
+      "mpn": "ADS1115IDGSR",
+      "maker": "Texas Instruments",
+      "note": "ADDR=GND/3V3/SDA for 0x48/0x49/0x4A",
+      "dnp": false,
+      "schrot": 0,
+      "uuid": "557695c5-a51e-5115-962b-a650aa5cdfbd",
+      "local_fp": "Tester:TSSOP-10_3x3mm_P0.5mm"
+    },
+    {
+      "ref": "U4",
+      "sym": "ADG4612",
+      "value": "ADG4612BRUZ",
+      "pins": {
+        "13": "ISO5V",
+        "4": "AGND",
+        "5": "AGND",
+        "12": null,
+        "1": "SENSE_EN",
+        "16": "SENSE_EN",
+        "9": "SENSE_EN",
+        "8": "SENSE_EN",
+        "3": "S1",
+        "2": "A1",
+        "14": "S2",
+        "15": "A2",
+        "11": "S3",
+        "10": "A3",
+        "6": "S4",
+        "7": "A4"
+      },
+      "fp": "Package_SO:TSSOP-16_4.4x5mm_P0.65mm",
+      "pcb": [
+        30,
+        45.5,
+        0
+      ],
+      "sch": [
+        261,
+        91
+      ],
+      "page": "bank1",
+      "mpn": "ADG4612BRUZ",
+      "maker": "Analog Devices",
+      "note": "TSSOP-16; powered from isolated 5V; enable from 3.08V supervisor",
+      "dnp": false,
+      "schrot": 0,
+      "uuid": "2be6a9e2-325f-5a2f-90bc-44a566d24909",
+      "local_fp": "Tester:TSSOP-16_4.4x5mm_P0.65mm"
+    },
+    {
+      "ref": "C13",
+      "sym": "C",
+      "value": "100n",
+      "pins": {
+        "1": "A3V3",
+        "2": "AGND"
+      },
+      "fp": "Capacitor_SMD:C_0805_2012Metric",
+      "pcb": [
+        35,
+        25,
+        90
+      ],
+      "sch": [
+        330,
+        130
+      ],
+      "page": "bank1",
+      "mpn": "GRM21BR71H104KA01L",
+      "maker": "Murata",
+      "note": "Use specified capacitance, voltage and dielectric",
+      "dnp": false,
+      "schrot": 0,
+      "uuid": "64a6ec77-d896-5e6a-ba11-180daa26c0e8",
+      "local_fp": "Tester:C_0805_2012Metric"
+    },
+    {
+      "ref": "C16",
+      "sym": "C",
+      "value": "100n",
+      "pins": {
+        "1": "ISO5V",
+        "2": "AGND"
+      },
+      "fp": "Capacitor_SMD:C_0805_2012Metric",
+      "pcb": [
+        36,
+        46,
+        90
+      ],
+      "sch": [
+        260,
+        135
+      ],
+      "page": "bank1",
+      "mpn": "GRM21BR71H104KA01L",
+      "maker": "Murata",
+      "note": "Use specified capacitance, voltage and dielectric",
+      "dnp": false,
+      "schrot": 0,
+      "uuid": "eded5cec-b9cd-56ac-9000-25b9f71598dc",
+      "local_fp": "Tester:C_0805_2012Metric"
+    },
+    {
+      "ref": "J2",
+      "sym": "CONN4",
+      "value": "INPUTS 5-8",
+      "pins": {
+        "1": "P5",
+        "2": "P6",
+        "3": "P7",
+        "4": "P8"
+      },
+      "fp": "TerminalBlock_Phoenix:TerminalBlock_Phoenix_PT-1,5-4-3.5-H_1x04_P3.50mm_Horizontal",
+      "pcb": [
+        46.75,
+        72,
+        0
+      ],
+      "sch": [
+        30,
+        92
+      ],
+      "page": "bank2",
+      "mpn": "1984633",
+      "maker": "Phoenix Contact",
+      "note": "PT 1,5/4-3,5-H; 1984633 verified against Phoenix Contact product page, 3.5mm pitch",
+      "dnp": false,
+      "schrot": 0,
+      "uuid": "ad9ad8e1-fc30-5ded-be17-8b2d8a591b5b",
+      "local_fp": "Tester:TerminalBlock_Phoenix_PT-1,5-4-3.5-H_1x04_P3.50mm_Horizontal"
+    },
+    {
+      "ref": "R13",
+      "sym": "R",
+      "value": "165k",
+      "pins": {
+        "1": "P5",
+        "2": "MID5"
+      },
+      "fp": "Resistor_SMD:R_0805_2012Metric",
+      "pcb": [
+        44.5,
+        65,
+        90
+      ],
+      "sch": [
+        78,
+        40
+      ],
+      "page": "bank2",
+      "mpn": "RT0805BRD07165KL",
+      "maker": "Yageo",
+      "note": "0.1%, 25 ppm/K",
+      "dnp": false,
+      "schrot": 0,
+      "uuid": "b8fb4c27-054e-52e2-a2ef-e0cf44e61d40",
+      "local_fp": "Tester:R_0805_2012Metric"
+    },
+    {
+      "ref": "R14",
+      "sym": "R",
+      "value": "165k",
+      "pins": {
+        "1": "MID5",
+        "2": "S5"
+      },
+      "fp": "Resistor_SMD:R_0805_2012Metric",
+      "pcb": [
+        44.5,
+        60,
+        90
+      ],
+      "sch": [
+        115,
+        40
+      ],
+      "page": "bank2",
+      "mpn": "RT0805BRD07165KL",
+      "maker": "Yageo",
+      "note": "0.1%, 25 ppm/K",
+      "dnp": false,
+      "schrot": 0,
+      "uuid": "8c28509c-d75e-53a3-935d-1012f36ce0dd",
+      "local_fp": "Tester:R_0805_2012Metric"
+    },
+    {
+      "ref": "D5",
+      "sym": "DZ",
+      "value": "12V clamp",
+      "pins": {
+        "1": "S5",
+        "2": "AGND"
+      },
+      "fp": "Diode_SMD:D_SOD-123F",
+      "pcb": [
+        44.5,
+        54,
+        90
+      ],
+      "sch": [
+        151,
+        40
+      ],
+      "page": "bank2",
+      "mpn": "BZT52H-C12,115",
+      "maker": "Nexperia",
+      "note": "Clamp is before power-off switch; not an ADC rail clamp",
+      "dnp": false,
+      "schrot": 0,
+      "uuid": "da1ace5e-0959-5ed6-970b-59b36e692931",
+      "local_fp": "Tester:D_SOD-123F"
+    },
+    {
+      "ref": "R15",
+      "sym": "R",
+      "value": "10k",
+      "pins": {
+        "1": "A5",
+        "2": "VBIAS"
+      },
+      "fp": "Resistor_SMD:R_0805_2012Metric",
+      "pcb": [
+        44.5,
+        37,
+        90
+      ],
+      "sch": [
+        151,
+        53
+      ],
+      "page": "bank2",
+      "mpn": "RT0805BRD0710KL",
+      "maker": "Yageo",
+      "note": "0.1%, 25 ppm/K",
+      "dnp": false,
+      "schrot": 0,
+      "uuid": "c8353548-be69-560b-a44c-fc0484a411f8",
+      "local_fp": "Tester:R_0805_2012Metric"
+    },
+    {
+      "ref": "R50",
+      "sym": "R",
+      "value": "100k",
+      "pins": {
+        "1": "S5",
+        "2": "AGND"
+      },
+      "fp": "Resistor_SMD:R_0805_2012Metric",
+      "pcb": [
+        44.5,
+        50,
+        0
+      ],
+      "sch": [
+        115,
+        53
+      ],
+      "page": "bank2",
+      "mpn": "RT0805BRD07100KL",
+      "maker": "Yageo",
+      "note": "0.1%, 25 ppm/K",
+      "dnp": false,
+      "schrot": 0,
+      "uuid": "02b64818-4d41-572c-a989-a67291620b30",
+      "local_fp": "Tester:R_0805_2012Metric"
+    },
+    {
+      "ref": "C5",
+      "sym": "C",
+      "value": "1n",
+      "pins": {
+        "1": "A5",
+        "2": "AGND"
+      },
+      "fp": "Capacitor_SMD:C_0805_2012Metric",
+      "pcb": [
+        44.5,
+        32,
+        90
+      ],
+      "sch": [
+        191,
+        53
+      ],
+      "page": "bank2",
+      "mpn": "GRM2165C1H102JA01D",
+      "maker": "Murata",
+      "note": "Use specified capacitance, voltage and dielectric",
+      "dnp": false,
+      "schrot": 0,
+      "uuid": "2c0f2308-5a20-5a0c-85ab-28eab4009f1c",
+      "local_fp": "Tester:C_0805_2012Metric"
+    },
+    {
+      "ref": "TP5",
+      "sym": "TP",
+      "value": "A5",
+      "pins": {
+        "1": "A5"
+      },
+      "fp": "TestPoint:TestPoint_Pad_D1.5mm",
+      "pcb": [
+        44.5,
+        40.5,
+        0
+      ],
+      "sch": [
+        192,
+        40
+      ],
+      "page": "bank2",
+      "mpn": "",
+      "maker": "",
+      "note": "",
+      "dnp": false,
+      "schrot": 0,
+      "uuid": "c49960d1-c864-5e13-8b09-6f0b06dccb77",
+      "local_fp": "Tester:TestPoint_Pad_D1.5mm"
+    },
+    {
+      "ref": "R16",
+      "sym": "R",
+      "value": "165k",
+      "pins": {
+        "1": "P6",
+        "2": "MID6"
+      },
+      "fp": "Resistor_SMD:R_0805_2012Metric",
+      "pcb": [
+        49.5,
+        65,
+        90
+      ],
+      "sch": [
+        78,
+        78
+      ],
+      "page": "bank2",
+      "mpn": "RT0805BRD07165KL",
+      "maker": "Yageo",
+      "note": "0.1%, 25 ppm/K",
+      "dnp": false,
+      "schrot": 0,
+      "uuid": "dcf57c9e-d13b-553a-894b-807767dd6957",
+      "local_fp": "Tester:R_0805_2012Metric"
+    },
+    {
+      "ref": "R17",
+      "sym": "R",
+      "value": "165k",
+      "pins": {
+        "1": "MID6",
+        "2": "S6"
+      },
+      "fp": "Resistor_SMD:R_0805_2012Metric",
+      "pcb": [
+        49.5,
+        60,
+        90
+      ],
+      "sch": [
+        115,
+        78
+      ],
+      "page": "bank2",
+      "mpn": "RT0805BRD07165KL",
+      "maker": "Yageo",
+      "note": "0.1%, 25 ppm/K",
+      "dnp": false,
+      "schrot": 0,
+      "uuid": "e49a1d21-ead6-55f3-a854-0b4ce6c1dd62",
+      "local_fp": "Tester:R_0805_2012Metric"
+    },
+    {
+      "ref": "D6",
+      "sym": "DZ",
+      "value": "12V clamp",
+      "pins": {
+        "1": "S6",
+        "2": "AGND"
+      },
+      "fp": "Diode_SMD:D_SOD-123F",
+      "pcb": [
+        49.5,
+        54,
+        90
+      ],
+      "sch": [
+        151,
+        78
+      ],
+      "page": "bank2",
+      "mpn": "BZT52H-C12,115",
+      "maker": "Nexperia",
+      "note": "Clamp is before power-off switch; not an ADC rail clamp",
+      "dnp": false,
+      "schrot": 0,
+      "uuid": "3c1b0215-5874-599f-8c73-69d05e2030a3",
+      "local_fp": "Tester:D_SOD-123F"
+    },
+    {
+      "ref": "R18",
+      "sym": "R",
+      "value": "10k",
+      "pins": {
+        "1": "A6",
+        "2": "VBIAS"
+      },
+      "fp": "Resistor_SMD:R_0805_2012Metric",
+      "pcb": [
+        49.5,
+        37,
+        90
+      ],
+      "sch": [
+        151,
+        91
+      ],
+      "page": "bank2",
+      "mpn": "RT0805BRD0710KL",
+      "maker": "Yageo",
+      "note": "0.1%, 25 ppm/K",
+      "dnp": false,
+      "schrot": 0,
+      "uuid": "83e2c6ca-de29-582a-9ae7-9faf73626dc1",
+      "local_fp": "Tester:R_0805_2012Metric"
+    },
+    {
+      "ref": "R51",
+      "sym": "R",
+      "value": "100k",
+      "pins": {
+        "1": "S6",
+        "2": "AGND"
+      },
+      "fp": "Resistor_SMD:R_0805_2012Metric",
+      "pcb": [
+        49.5,
+        50,
+        0
+      ],
+      "sch": [
+        115,
+        91
+      ],
+      "page": "bank2",
+      "mpn": "RT0805BRD07100KL",
+      "maker": "Yageo",
+      "note": "0.1%, 25 ppm/K",
+      "dnp": false,
+      "schrot": 0,
+      "uuid": "1f051a56-f2fc-5e6d-a7b4-d30403dbdae3",
+      "local_fp": "Tester:R_0805_2012Metric"
+    },
+    {
+      "ref": "C6",
+      "sym": "C",
+      "value": "1n",
+      "pins": {
+        "1": "A6",
+        "2": "AGND"
+      },
+      "fp": "Capacitor_SMD:C_0805_2012Metric",
+      "pcb": [
+        49.5,
+        32,
+        90
+      ],
+      "sch": [
+        191,
+        91
+      ],
+      "page": "bank2",
+      "mpn": "GRM2165C1H102JA01D",
+      "maker": "Murata",
+      "note": "Use specified capacitance, voltage and dielectric",
+      "dnp": false,
+      "schrot": 0,
+      "uuid": "14612702-d557-5858-953e-2fb7940fcfe2",
+      "local_fp": "Tester:C_0805_2012Metric"
+    },
+    {
+      "ref": "TP6",
+      "sym": "TP",
+      "value": "A6",
+      "pins": {
+        "1": "A6"
+      },
+      "fp": "TestPoint:TestPoint_Pad_D1.5mm",
+      "pcb": [
+        49.5,
+        40.5,
+        0
+      ],
+      "sch": [
+        192,
+        78
+      ],
+      "page": "bank2",
+      "mpn": "",
+      "maker": "",
+      "note": "",
+      "dnp": false,
+      "schrot": 0,
+      "uuid": "73390eb5-5848-595e-9706-ae1169f8f10b",
+      "local_fp": "Tester:TestPoint_Pad_D1.5mm"
+    },
+    {
+      "ref": "R19",
+      "sym": "R",
+      "value": "165k",
+      "pins": {
+        "1": "P7",
+        "2": "MID7"
+      },
+      "fp": "Resistor_SMD:R_0805_2012Metric",
+      "pcb": [
+        54.5,
+        65,
+        90
+      ],
+      "sch": [
+        78,
+        116
+      ],
+      "page": "bank2",
+      "mpn": "RT0805BRD07165KL",
+      "maker": "Yageo",
+      "note": "0.1%, 25 ppm/K",
+      "dnp": false,
+      "schrot": 0,
+      "uuid": "7c59cae3-9fd6-5750-92f8-87b4a9fffef6",
+      "local_fp": "Tester:R_0805_2012Metric"
+    },
+    {
+      "ref": "R20",
+      "sym": "R",
+      "value": "165k",
+      "pins": {
+        "1": "MID7",
+        "2": "S7"
+      },
+      "fp": "Resistor_SMD:R_0805_2012Metric",
+      "pcb": [
+        54.5,
+        60,
+        90
+      ],
+      "sch": [
+        115,
+        116
+      ],
+      "page": "bank2",
+      "mpn": "RT0805BRD07165KL",
+      "maker": "Yageo",
+      "note": "0.1%, 25 ppm/K",
+      "dnp": false,
+      "schrot": 0,
+      "uuid": "c864d5fb-dbe5-571f-83c8-d2f9e0d48cce",
+      "local_fp": "Tester:R_0805_2012Metric"
+    },
+    {
+      "ref": "D7",
+      "sym": "DZ",
+      "value": "12V clamp",
+      "pins": {
+        "1": "S7",
+        "2": "AGND"
+      },
+      "fp": "Diode_SMD:D_SOD-123F",
+      "pcb": [
+        54.5,
+        54,
+        90
+      ],
+      "sch": [
+        151,
+        116
+      ],
+      "page": "bank2",
+      "mpn": "BZT52H-C12,115",
+      "maker": "Nexperia",
+      "note": "Clamp is before power-off switch; not an ADC rail clamp",
+      "dnp": false,
+      "schrot": 0,
+      "uuid": "d3fcfb44-6c72-50fd-89da-21fc09389fb5",
+      "local_fp": "Tester:D_SOD-123F"
+    },
+    {
+      "ref": "R21",
+      "sym": "R",
+      "value": "10k",
+      "pins": {
+        "1": "A7",
+        "2": "VBIAS"
+      },
+      "fp": "Resistor_SMD:R_0805_2012Metric",
+      "pcb": [
+        54.5,
+        37,
+        90
+      ],
+      "sch": [
+        151,
+        129
+      ],
+      "page": "bank2",
+      "mpn": "RT0805BRD0710KL",
+      "maker": "Yageo",
+      "note": "0.1%, 25 ppm/K",
+      "dnp": false,
+      "schrot": 0,
+      "uuid": "07cacaa7-9b79-5bd0-bb7e-d6657ab73e3b",
+      "local_fp": "Tester:R_0805_2012Metric"
+    },
+    {
+      "ref": "R52",
+      "sym": "R",
+      "value": "100k",
+      "pins": {
+        "1": "S7",
+        "2": "AGND"
+      },
+      "fp": "Resistor_SMD:R_0805_2012Metric",
+      "pcb": [
+        54.5,
+        50,
+        0
+      ],
+      "sch": [
+        115,
+        129
+      ],
+      "page": "bank2",
+      "mpn": "RT0805BRD07100KL",
+      "maker": "Yageo",
+      "note": "0.1%, 25 ppm/K",
+      "dnp": false,
+      "schrot": 0,
+      "uuid": "d2817dab-28a1-592d-a9e8-6881e28af1cd",
+      "local_fp": "Tester:R_0805_2012Metric"
+    },
+    {
+      "ref": "C7",
+      "sym": "C",
+      "value": "1n",
+      "pins": {
+        "1": "A7",
+        "2": "AGND"
+      },
+      "fp": "Capacitor_SMD:C_0805_2012Metric",
+      "pcb": [
+        54.5,
+        32,
+        90
+      ],
+      "sch": [
+        191,
+        129
+      ],
+      "page": "bank2",
+      "mpn": "GRM2165C1H102JA01D",
+      "maker": "Murata",
+      "note": "Use specified capacitance, voltage and dielectric",
+      "dnp": false,
+      "schrot": 0,
+      "uuid": "8b6949ba-9c06-5b5a-ae37-7f0a1ea68285",
+      "local_fp": "Tester:C_0805_2012Metric"
+    },
+    {
+      "ref": "TP7",
+      "sym": "TP",
+      "value": "A7",
+      "pins": {
+        "1": "A7"
+      },
+      "fp": "TestPoint:TestPoint_Pad_D1.5mm",
+      "pcb": [
+        54.5,
+        40.5,
+        0
+      ],
+      "sch": [
+        192,
+        116
+      ],
+      "page": "bank2",
+      "mpn": "",
+      "maker": "",
+      "note": "",
+      "dnp": false,
+      "schrot": 0,
+      "uuid": "4245a9e6-0a90-59ac-b768-8984a5bd5aa8",
+      "local_fp": "Tester:TestPoint_Pad_D1.5mm"
+    },
+    {
+      "ref": "R22",
+      "sym": "R",
+      "value": "165k",
+      "pins": {
+        "1": "P8",
+        "2": "MID8"
+      },
+      "fp": "Resistor_SMD:R_0805_2012Metric",
+      "pcb": [
+        59.5,
+        65,
+        90
+      ],
+      "sch": [
+        78,
+        154
+      ],
+      "page": "bank2",
+      "mpn": "RT0805BRD07165KL",
+      "maker": "Yageo",
+      "note": "0.1%, 25 ppm/K",
+      "dnp": false,
+      "schrot": 0,
+      "uuid": "8428c317-bf90-598e-b54a-14c445148dc7",
+      "local_fp": "Tester:R_0805_2012Metric"
+    },
+    {
+      "ref": "R23",
+      "sym": "R",
+      "value": "165k",
+      "pins": {
+        "1": "MID8",
+        "2": "S8"
+      },
+      "fp": "Resistor_SMD:R_0805_2012Metric",
+      "pcb": [
+        59.5,
+        60,
+        90
+      ],
+      "sch": [
+        115,
+        154
+      ],
+      "page": "bank2",
+      "mpn": "RT0805BRD07165KL",
+      "maker": "Yageo",
+      "note": "0.1%, 25 ppm/K",
+      "dnp": false,
+      "schrot": 0,
+      "uuid": "d6c2a013-9d44-5b72-a198-3ff792596bbb",
+      "local_fp": "Tester:R_0805_2012Metric"
+    },
+    {
+      "ref": "D8",
+      "sym": "DZ",
+      "value": "12V clamp",
+      "pins": {
+        "1": "S8",
+        "2": "AGND"
+      },
+      "fp": "Diode_SMD:D_SOD-123F",
+      "pcb": [
+        59.5,
+        54,
+        90
+      ],
+      "sch": [
+        151,
+        154
+      ],
+      "page": "bank2",
+      "mpn": "BZT52H-C12,115",
+      "maker": "Nexperia",
+      "note": "Clamp is before power-off switch; not an ADC rail clamp",
+      "dnp": false,
+      "schrot": 0,
+      "uuid": "67736810-906b-507f-91c4-23dd021b8cdd",
+      "local_fp": "Tester:D_SOD-123F"
+    },
+    {
+      "ref": "R24",
+      "sym": "R",
+      "value": "10k",
+      "pins": {
+        "1": "A8",
+        "2": "VBIAS"
+      },
+      "fp": "Resistor_SMD:R_0805_2012Metric",
+      "pcb": [
+        59.5,
+        37,
+        90
+      ],
+      "sch": [
+        151,
+        167
+      ],
+      "page": "bank2",
+      "mpn": "RT0805BRD0710KL",
+      "maker": "Yageo",
+      "note": "0.1%, 25 ppm/K",
+      "dnp": false,
+      "schrot": 0,
+      "uuid": "9e4e5bb4-fc5d-58f0-a073-71998875270e",
+      "local_fp": "Tester:R_0805_2012Metric"
+    },
+    {
+      "ref": "R53",
+      "sym": "R",
+      "value": "100k",
+      "pins": {
+        "1": "S8",
+        "2": "AGND"
+      },
+      "fp": "Resistor_SMD:R_0805_2012Metric",
+      "pcb": [
+        59.5,
+        50,
+        0
+      ],
+      "sch": [
+        115,
+        167
+      ],
+      "page": "bank2",
+      "mpn": "RT0805BRD07100KL",
+      "maker": "Yageo",
+      "note": "0.1%, 25 ppm/K",
+      "dnp": false,
+      "schrot": 0,
+      "uuid": "360ade26-fd18-52a7-a327-6b0c7314caf8",
+      "local_fp": "Tester:R_0805_2012Metric"
+    },
+    {
+      "ref": "C8",
+      "sym": "C",
+      "value": "1n",
+      "pins": {
+        "1": "A8",
+        "2": "AGND"
+      },
+      "fp": "Capacitor_SMD:C_0805_2012Metric",
+      "pcb": [
+        59.5,
+        32,
+        90
+      ],
+      "sch": [
+        191,
+        167
+      ],
+      "page": "bank2",
+      "mpn": "GRM2165C1H102JA01D",
+      "maker": "Murata",
+      "note": "Use specified capacitance, voltage and dielectric",
+      "dnp": false,
+      "schrot": 0,
+      "uuid": "ab5c8113-1cbf-59ff-be18-868df1e3632e",
+      "local_fp": "Tester:C_0805_2012Metric"
+    },
+    {
+      "ref": "TP8",
+      "sym": "TP",
+      "value": "A8",
+      "pins": {
+        "1": "A8"
+      },
+      "fp": "TestPoint:TestPoint_Pad_D1.5mm",
+      "pcb": [
+        59.5,
+        40.5,
+        0
+      ],
+      "sch": [
+        192,
+        154
+      ],
+      "page": "bank2",
+      "mpn": "",
+      "maker": "",
+      "note": "",
+      "dnp": false,
+      "schrot": 0,
+      "uuid": "c1c88771-02aa-52ef-a834-f1e64ccbb50a",
+      "local_fp": "Tester:TestPoint_Pad_D1.5mm"
+    },
+    {
+      "ref": "U2",
+      "sym": "ADS1115",
+      "value": "ADS1115IDGSR",
+      "pins": {
+        "8": "A3V3",
+        "3": "AGND",
+        "9": "SDA_ISO",
+        "10": "SCL_ISO",
+        "2": null,
+        "1": "A3V3",
+        "4": "A5",
+        "5": "A6",
+        "6": "A7",
+        "7": "A8"
+      },
+      "fp": "Package_SO:TSSOP-10_3x3mm_P0.5mm",
+      "pcb": [
+        52,
+        25,
+        0
+      ],
+      "sch": [
+        334,
+        88
+      ],
+      "page": "bank2",
+      "mpn": "ADS1115IDGSR",
+      "maker": "Texas Instruments",
+      "note": "ADDR=GND/3V3/SDA for 0x48/0x49/0x4A",
+      "dnp": false,
+      "schrot": 0,
+      "uuid": "07293443-761b-5278-8f05-b217d23a1c9b",
+      "local_fp": "Tester:TSSOP-10_3x3mm_P0.5mm"
+    },
+    {
+      "ref": "U5",
+      "sym": "ADG4612",
+      "value": "ADG4612BRUZ",
+      "pins": {
+        "13": "ISO5V",
+        "4": "AGND",
+        "5": "AGND",
+        "12": null,
+        "1": "SENSE_EN",
+        "16": "SENSE_EN",
+        "9": "SENSE_EN",
+        "8": "SENSE_EN",
+        "3": "S5",
+        "2": "A5",
+        "14": "S6",
+        "15": "A6",
+        "11": "S7",
+        "10": "A7",
+        "6": "S8",
+        "7": "A8"
+      },
+      "fp": "Package_SO:TSSOP-16_4.4x5mm_P0.65mm",
+      "pcb": [
+        52,
+        45.5,
+        0
+      ],
+      "sch": [
+        261,
+        91
+      ],
+      "page": "bank2",
+      "mpn": "ADG4612BRUZ",
+      "maker": "Analog Devices",
+      "note": "TSSOP-16; powered from isolated 5V; enable from 3.08V supervisor",
+      "dnp": false,
+      "schrot": 0,
+      "uuid": "431ea1ba-4b82-5b70-9bc5-588d4b923175",
+      "local_fp": "Tester:TSSOP-16_4.4x5mm_P0.65mm"
+    },
+    {
+      "ref": "C14",
+      "sym": "C",
+      "value": "100n",
+      "pins": {
+        "1": "A3V3",
+        "2": "AGND"
+      },
+      "fp": "Capacitor_SMD:C_0805_2012Metric",
+      "pcb": [
+        57,
+        25,
+        90
+      ],
+      "sch": [
+        330,
+        130
+      ],
+      "page": "bank2",
+      "mpn": "GRM21BR71H104KA01L",
+      "maker": "Murata",
+      "note": "Use specified capacitance, voltage and dielectric",
+      "dnp": false,
+      "schrot": 0,
+      "uuid": "0263fe56-b413-5e8c-8031-6c3a7ddcb958",
+      "local_fp": "Tester:C_0805_2012Metric"
+    },
+    {
+      "ref": "C17",
+      "sym": "C",
+      "value": "100n",
+      "pins": {
+        "1": "ISO5V",
+        "2": "AGND"
+      },
+      "fp": "Capacitor_SMD:C_0805_2012Metric",
+      "pcb": [
+        58,
+        46,
+        90
+      ],
+      "sch": [
+        260,
+        135
+      ],
+      "page": "bank2",
+      "mpn": "GRM21BR71H104KA01L",
+      "maker": "Murata",
+      "note": "Use specified capacitance, voltage and dielectric",
+      "dnp": false,
+      "schrot": 0,
+      "uuid": "f16bd9d0-12db-5682-a5ec-232469269843",
+      "local_fp": "Tester:C_0805_2012Metric"
+    },
+    {
+      "ref": "J3",
+      "sym": "CONN4",
+      "value": "INPUTS 9-12",
+      "pins": {
+        "1": "P9",
+        "2": "P10",
+        "3": "P11",
+        "4": "P12"
+      },
+      "fp": "TerminalBlock_Phoenix:TerminalBlock_Phoenix_PT-1,5-4-3.5-H_1x04_P3.50mm_Horizontal",
+      "pcb": [
+        68.75,
+        72,
+        0
+      ],
+      "sch": [
+        30,
+        92
+      ],
+      "page": "bank3",
+      "mpn": "1984633",
+      "maker": "Phoenix Contact",
+      "note": "PT 1,5/4-3,5-H; 1984633 verified against Phoenix Contact product page, 3.5mm pitch",
+      "dnp": false,
+      "schrot": 0,
+      "uuid": "b2194162-eda1-5c0b-b5f3-2e1ca6566efa",
+      "local_fp": "Tester:TerminalBlock_Phoenix_PT-1,5-4-3.5-H_1x04_P3.50mm_Horizontal"
+    },
+    {
+      "ref": "R25",
+      "sym": "R",
+      "value": "165k",
+      "pins": {
+        "1": "P9",
+        "2": "MID9"
+      },
+      "fp": "Resistor_SMD:R_0805_2012Metric",
+      "pcb": [
+        66.5,
+        65,
+        90
+      ],
+      "sch": [
+        78,
+        40
+      ],
+      "page": "bank3",
+      "mpn": "RT0805BRD07165KL",
+      "maker": "Yageo",
+      "note": "0.1%, 25 ppm/K",
+      "dnp": false,
+      "schrot": 0,
+      "uuid": "436eab85-981b-54e2-99ba-d94ce914ace7",
+      "local_fp": "Tester:R_0805_2012Metric"
+    },
+    {
+      "ref": "R26",
+      "sym": "R",
+      "value": "165k",
+      "pins": {
+        "1": "MID9",
+        "2": "S9"
+      },
+      "fp": "Resistor_SMD:R_0805_2012Metric",
+      "pcb": [
+        66.5,
+        60,
+        90
+      ],
+      "sch": [
+        115,
+        40
+      ],
+      "page": "bank3",
+      "mpn": "RT0805BRD07165KL",
+      "maker": "Yageo",
+      "note": "0.1%, 25 ppm/K",
+      "dnp": false,
+      "schrot": 0,
+      "uuid": "d5fc7c1b-724b-5141-94fb-852e2da6b03a",
+      "local_fp": "Tester:R_0805_2012Metric"
+    },
+    {
+      "ref": "D9",
+      "sym": "DZ",
+      "value": "12V clamp",
+      "pins": {
+        "1": "S9",
+        "2": "AGND"
+      },
+      "fp": "Diode_SMD:D_SOD-123F",
+      "pcb": [
+        66.5,
+        54,
+        90
+      ],
+      "sch": [
+        151,
+        40
+      ],
+      "page": "bank3",
+      "mpn": "BZT52H-C12,115",
+      "maker": "Nexperia",
+      "note": "Clamp is before power-off switch; not an ADC rail clamp",
+      "dnp": false,
+      "schrot": 0,
+      "uuid": "682fcfad-5ccd-5097-abb6-0a6e1c666083",
+      "local_fp": "Tester:D_SOD-123F"
+    },
+    {
+      "ref": "R27",
+      "sym": "R",
+      "value": "10k",
+      "pins": {
+        "1": "A9",
+        "2": "VBIAS"
+      },
+      "fp": "Resistor_SMD:R_0805_2012Metric",
+      "pcb": [
+        66.5,
+        37,
+        90
+      ],
+      "sch": [
+        151,
+        53
+      ],
+      "page": "bank3",
+      "mpn": "RT0805BRD0710KL",
+      "maker": "Yageo",
+      "note": "0.1%, 25 ppm/K",
+      "dnp": false,
+      "schrot": 0,
+      "uuid": "42043804-f7f9-55e8-a4ec-538489888f67",
+      "local_fp": "Tester:R_0805_2012Metric"
+    },
+    {
+      "ref": "R54",
+      "sym": "R",
+      "value": "100k",
+      "pins": {
+        "1": "S9",
+        "2": "AGND"
+      },
+      "fp": "Resistor_SMD:R_0805_2012Metric",
+      "pcb": [
+        66.5,
+        50,
+        0
+      ],
+      "sch": [
+        115,
+        53
+      ],
+      "page": "bank3",
+      "mpn": "RT0805BRD07100KL",
+      "maker": "Yageo",
+      "note": "0.1%, 25 ppm/K",
+      "dnp": false,
+      "schrot": 0,
+      "uuid": "866d462c-714f-510f-abf2-77e055bfd15c",
+      "local_fp": "Tester:R_0805_2012Metric"
+    },
+    {
+      "ref": "C9",
+      "sym": "C",
+      "value": "1n",
+      "pins": {
+        "1": "A9",
+        "2": "AGND"
+      },
+      "fp": "Capacitor_SMD:C_0805_2012Metric",
+      "pcb": [
+        66.5,
+        32,
+        90
+      ],
+      "sch": [
+        191,
+        53
+      ],
+      "page": "bank3",
+      "mpn": "GRM2165C1H102JA01D",
+      "maker": "Murata",
+      "note": "Use specified capacitance, voltage and dielectric",
+      "dnp": false,
+      "schrot": 0,
+      "uuid": "ebb2213f-d473-5653-b912-76a3811cef64",
+      "local_fp": "Tester:C_0805_2012Metric"
+    },
+    {
+      "ref": "TP9",
+      "sym": "TP",
+      "value": "A9",
+      "pins": {
+        "1": "A9"
+      },
+      "fp": "TestPoint:TestPoint_Pad_D1.5mm",
+      "pcb": [
+        66.5,
+        40.5,
+        0
+      ],
+      "sch": [
+        192,
+        40
+      ],
+      "page": "bank3",
+      "mpn": "",
+      "maker": "",
+      "note": "",
+      "dnp": false,
+      "schrot": 0,
+      "uuid": "cdff7bd0-8e36-5856-b915-728c93a35476",
+      "local_fp": "Tester:TestPoint_Pad_D1.5mm"
+    },
+    {
+      "ref": "R28",
+      "sym": "R",
+      "value": "165k",
+      "pins": {
+        "1": "P10",
+        "2": "MID10"
+      },
+      "fp": "Resistor_SMD:R_0805_2012Metric",
+      "pcb": [
+        71.5,
+        65,
+        90
+      ],
+      "sch": [
+        78,
+        78
+      ],
+      "page": "bank3",
+      "mpn": "RT0805BRD07165KL",
+      "maker": "Yageo",
+      "note": "0.1%, 25 ppm/K",
+      "dnp": false,
+      "schrot": 0,
+      "uuid": "9f00faa4-082b-53f7-ad7c-7ae8c043d38e",
+      "local_fp": "Tester:R_0805_2012Metric"
+    },
+    {
+      "ref": "R29",
+      "sym": "R",
+      "value": "165k",
+      "pins": {
+        "1": "MID10",
+        "2": "S10"
+      },
+      "fp": "Resistor_SMD:R_0805_2012Metric",
+      "pcb": [
+        71.5,
+        60,
+        90
+      ],
+      "sch": [
+        115,
+        78
+      ],
+      "page": "bank3",
+      "mpn": "RT0805BRD07165KL",
+      "maker": "Yageo",
+      "note": "0.1%, 25 ppm/K",
+      "dnp": false,
+      "schrot": 0,
+      "uuid": "94da67e0-ea17-5fec-902f-e2b0c7ba1a3a",
+      "local_fp": "Tester:R_0805_2012Metric"
+    },
+    {
+      "ref": "D10",
+      "sym": "DZ",
+      "value": "12V clamp",
+      "pins": {
+        "1": "S10",
+        "2": "AGND"
+      },
+      "fp": "Diode_SMD:D_SOD-123F",
+      "pcb": [
+        71.5,
+        54,
+        90
+      ],
+      "sch": [
+        151,
+        78
+      ],
+      "page": "bank3",
+      "mpn": "BZT52H-C12,115",
+      "maker": "Nexperia",
+      "note": "Clamp is before power-off switch; not an ADC rail clamp",
+      "dnp": false,
+      "schrot": 0,
+      "uuid": "64d3f22c-6c0c-529c-9a0e-07437b66e399",
+      "local_fp": "Tester:D_SOD-123F"
+    },
+    {
+      "ref": "R30",
+      "sym": "R",
+      "value": "10k",
+      "pins": {
+        "1": "A10",
+        "2": "VBIAS"
+      },
+      "fp": "Resistor_SMD:R_0805_2012Metric",
+      "pcb": [
+        71.5,
+        37,
+        90
+      ],
+      "sch": [
+        151,
+        91
+      ],
+      "page": "bank3",
+      "mpn": "RT0805BRD0710KL",
+      "maker": "Yageo",
+      "note": "0.1%, 25 ppm/K",
+      "dnp": false,
+      "schrot": 0,
+      "uuid": "7fc3dc71-9231-543d-871f-e834b1c2a121",
+      "local_fp": "Tester:R_0805_2012Metric"
+    },
+    {
+      "ref": "R55",
+      "sym": "R",
+      "value": "100k",
+      "pins": {
+        "1": "S10",
+        "2": "AGND"
+      },
+      "fp": "Resistor_SMD:R_0805_2012Metric",
+      "pcb": [
+        71.5,
+        50,
+        0
+      ],
+      "sch": [
+        115,
+        91
+      ],
+      "page": "bank3",
+      "mpn": "RT0805BRD07100KL",
+      "maker": "Yageo",
+      "note": "0.1%, 25 ppm/K",
+      "dnp": false,
+      "schrot": 0,
+      "uuid": "749e38c4-00a0-5361-904c-879ce04ea6f4",
+      "local_fp": "Tester:R_0805_2012Metric"
+    },
+    {
+      "ref": "C10",
+      "sym": "C",
+      "value": "1n",
+      "pins": {
+        "1": "A10",
+        "2": "AGND"
+      },
+      "fp": "Capacitor_SMD:C_0805_2012Metric",
+      "pcb": [
+        71.5,
+        32,
+        90
+      ],
+      "sch": [
+        191,
+        91
+      ],
+      "page": "bank3",
+      "mpn": "GRM2165C1H102JA01D",
+      "maker": "Murata",
+      "note": "Use specified capacitance, voltage and dielectric",
+      "dnp": false,
+      "schrot": 0,
+      "uuid": "d5bc9e6e-bbba-514a-97d2-119ed54c9ab3",
+      "local_fp": "Tester:C_0805_2012Metric"
+    },
+    {
+      "ref": "TP10",
+      "sym": "TP",
+      "value": "A10",
+      "pins": {
+        "1": "A10"
+      },
+      "fp": "TestPoint:TestPoint_Pad_D1.5mm",
+      "pcb": [
+        71.5,
+        40.5,
+        0
+      ],
+      "sch": [
+        192,
+        78
+      ],
+      "page": "bank3",
+      "mpn": "",
+      "maker": "",
+      "note": "",
+      "dnp": false,
+      "schrot": 0,
+      "uuid": "64b821de-ab31-5719-8c07-71971acb774d",
+      "local_fp": "Tester:TestPoint_Pad_D1.5mm"
+    },
+    {
+      "ref": "R31",
+      "sym": "R",
+      "value": "165k",
+      "pins": {
+        "1": "P11",
+        "2": "MID11"
+      },
+      "fp": "Resistor_SMD:R_0805_2012Metric",
+      "pcb": [
+        76.5,
+        65,
+        90
+      ],
+      "sch": [
+        78,
+        116
+      ],
+      "page": "bank3",
+      "mpn": "RT0805BRD07165KL",
+      "maker": "Yageo",
+      "note": "0.1%, 25 ppm/K",
+      "dnp": false,
+      "schrot": 0,
+      "uuid": "811af255-7afa-52dc-a197-413dbbeb35f7",
+      "local_fp": "Tester:R_0805_2012Metric"
+    },
+    {
+      "ref": "R32",
+      "sym": "R",
+      "value": "165k",
+      "pins": {
+        "1": "MID11",
+        "2": "S11"
+      },
+      "fp": "Resistor_SMD:R_0805_2012Metric",
+      "pcb": [
+        76.5,
+        60,
+        90
+      ],
+      "sch": [
+        115,
+        116
+      ],
+      "page": "bank3",
+      "mpn": "RT0805BRD07165KL",
+      "maker": "Yageo",
+      "note": "0.1%, 25 ppm/K",
+      "dnp": false,
+      "schrot": 0,
+      "uuid": "958907d0-2646-5f38-af09-f9d68fbcef5b",
+      "local_fp": "Tester:R_0805_2012Metric"
+    },
+    {
+      "ref": "D11",
+      "sym": "DZ",
+      "value": "12V clamp",
+      "pins": {
+        "1": "S11",
+        "2": "AGND"
+      },
+      "fp": "Diode_SMD:D_SOD-123F",
+      "pcb": [
+        76.5,
+        54,
+        90
+      ],
+      "sch": [
+        151,
+        116
+      ],
+      "page": "bank3",
+      "mpn": "BZT52H-C12,115",
+      "maker": "Nexperia",
+      "note": "Clamp is before power-off switch; not an ADC rail clamp",
+      "dnp": false,
+      "schrot": 0,
+      "uuid": "9ea9d277-db4d-5b3e-9d5d-ec483ad277ad",
+      "local_fp": "Tester:D_SOD-123F"
+    },
+    {
+      "ref": "R33",
+      "sym": "R",
+      "value": "10k",
+      "pins": {
+        "1": "A11",
+        "2": "VBIAS"
+      },
+      "fp": "Resistor_SMD:R_0805_2012Metric",
+      "pcb": [
+        76.5,
+        37,
+        90
+      ],
+      "sch": [
+        151,
+        129
+      ],
+      "page": "bank3",
+      "mpn": "RT0805BRD0710KL",
+      "maker": "Yageo",
+      "note": "0.1%, 25 ppm/K",
+      "dnp": false,
+      "schrot": 0,
+      "uuid": "e00c1ae8-4781-5456-99a2-a35beab78b51",
+      "local_fp": "Tester:R_0805_2012Metric"
+    },
+    {
+      "ref": "R56",
+      "sym": "R",
+      "value": "100k",
+      "pins": {
+        "1": "S11",
+        "2": "AGND"
+      },
+      "fp": "Resistor_SMD:R_0805_2012Metric",
+      "pcb": [
+        76.5,
+        50,
+        0
+      ],
+      "sch": [
+        115,
+        129
+      ],
+      "page": "bank3",
+      "mpn": "RT0805BRD07100KL",
+      "maker": "Yageo",
+      "note": "0.1%, 25 ppm/K",
+      "dnp": false,
+      "schrot": 0,
+      "uuid": "0b688db9-3b5d-5e1b-93a0-6bdd54ab00fb",
+      "local_fp": "Tester:R_0805_2012Metric"
+    },
+    {
+      "ref": "C11",
+      "sym": "C",
+      "value": "1n",
+      "pins": {
+        "1": "A11",
+        "2": "AGND"
+      },
+      "fp": "Capacitor_SMD:C_0805_2012Metric",
+      "pcb": [
+        76.5,
+        32,
+        90
+      ],
+      "sch": [
+        191,
+        129
+      ],
+      "page": "bank3",
+      "mpn": "GRM2165C1H102JA01D",
+      "maker": "Murata",
+      "note": "Use specified capacitance, voltage and dielectric",
+      "dnp": false,
+      "schrot": 0,
+      "uuid": "144ecbd3-3fbf-593b-aefc-9d1c15d23e3f",
+      "local_fp": "Tester:C_0805_2012Metric"
+    },
+    {
+      "ref": "TP11",
+      "sym": "TP",
+      "value": "A11",
+      "pins": {
+        "1": "A11"
+      },
+      "fp": "TestPoint:TestPoint_Pad_D1.5mm",
+      "pcb": [
+        76.5,
+        40.5,
+        0
+      ],
+      "sch": [
+        192,
+        116
+      ],
+      "page": "bank3",
+      "mpn": "",
+      "maker": "",
+      "note": "",
+      "dnp": false,
+      "schrot": 0,
+      "uuid": "4ed7cf4d-e68f-5356-be69-87dd7efd5a10",
+      "local_fp": "Tester:TestPoint_Pad_D1.5mm"
+    },
+    {
+      "ref": "R34",
+      "sym": "R",
+      "value": "165k",
+      "pins": {
+        "1": "P12",
+        "2": "MID12"
+      },
+      "fp": "Resistor_SMD:R_0805_2012Metric",
+      "pcb": [
+        81.5,
+        65,
+        90
+      ],
+      "sch": [
+        78,
+        154
+      ],
+      "page": "bank3",
+      "mpn": "RT0805BRD07165KL",
+      "maker": "Yageo",
+      "note": "0.1%, 25 ppm/K",
+      "dnp": false,
+      "schrot": 0,
+      "uuid": "4cde8ffd-6ca1-52d2-a3bd-9dee6c3c319f",
+      "local_fp": "Tester:R_0805_2012Metric"
+    },
+    {
+      "ref": "R35",
+      "sym": "R",
+      "value": "165k",
+      "pins": {
+        "1": "MID12",
+        "2": "S12"
+      },
+      "fp": "Resistor_SMD:R_0805_2012Metric",
+      "pcb": [
+        81.5,
+        60,
+        90
+      ],
+      "sch": [
+        115,
+        154
+      ],
+      "page": "bank3",
+      "mpn": "RT0805BRD07165KL",
+      "maker": "Yageo",
+      "note": "0.1%, 25 ppm/K",
+      "dnp": false,
+      "schrot": 0,
+      "uuid": "71b77746-c410-5663-8484-b7e1281eacd6",
+      "local_fp": "Tester:R_0805_2012Metric"
+    },
+    {
+      "ref": "D12",
+      "sym": "DZ",
+      "value": "12V clamp",
+      "pins": {
+        "1": "S12",
+        "2": "AGND"
+      },
+      "fp": "Diode_SMD:D_SOD-123F",
+      "pcb": [
+        81.5,
+        54,
+        90
+      ],
+      "sch": [
+        151,
+        154
+      ],
+      "page": "bank3",
+      "mpn": "BZT52H-C12,115",
+      "maker": "Nexperia",
+      "note": "Clamp is before power-off switch; not an ADC rail clamp",
+      "dnp": false,
+      "schrot": 0,
+      "uuid": "ef8bb87a-6ab8-5730-9f9b-fadd5bc516aa",
+      "local_fp": "Tester:D_SOD-123F"
+    },
+    {
+      "ref": "R36",
+      "sym": "R",
+      "value": "10k",
+      "pins": {
+        "1": "A12",
+        "2": "VBIAS"
+      },
+      "fp": "Resistor_SMD:R_0805_2012Metric",
+      "pcb": [
+        81.5,
+        37,
+        90
+      ],
+      "sch": [
+        151,
+        167
+      ],
+      "page": "bank3",
+      "mpn": "RT0805BRD0710KL",
+      "maker": "Yageo",
+      "note": "0.1%, 25 ppm/K",
+      "dnp": false,
+      "schrot": 0,
+      "uuid": "dbbdb750-2b17-56e9-8b9f-c3ec423e6b33",
+      "local_fp": "Tester:R_0805_2012Metric"
+    },
+    {
+      "ref": "R57",
+      "sym": "R",
+      "value": "100k",
+      "pins": {
+        "1": "S12",
+        "2": "AGND"
+      },
+      "fp": "Resistor_SMD:R_0805_2012Metric",
+      "pcb": [
+        81.5,
+        50,
+        0
+      ],
+      "sch": [
+        115,
+        167
+      ],
+      "page": "bank3",
+      "mpn": "RT0805BRD07100KL",
+      "maker": "Yageo",
+      "note": "0.1%, 25 ppm/K",
+      "dnp": false,
+      "schrot": 0,
+      "uuid": "31850ef5-51b9-5731-a112-353d93fb24f3",
+      "local_fp": "Tester:R_0805_2012Metric"
+    },
+    {
+      "ref": "C12",
+      "sym": "C",
+      "value": "1n",
+      "pins": {
+        "1": "A12",
+        "2": "AGND"
+      },
+      "fp": "Capacitor_SMD:C_0805_2012Metric",
+      "pcb": [
+        81.5,
+        32,
+        90
+      ],
+      "sch": [
+        191,
+        167
+      ],
+      "page": "bank3",
+      "mpn": "GRM2165C1H102JA01D",
+      "maker": "Murata",
+      "note": "Use specified capacitance, voltage and dielectric",
+      "dnp": false,
+      "schrot": 0,
+      "uuid": "2d476a0a-f7c6-51af-a7b3-9f7400fe31f1",
+      "local_fp": "Tester:C_0805_2012Metric"
+    },
+    {
+      "ref": "TP12",
+      "sym": "TP",
+      "value": "A12",
+      "pins": {
+        "1": "A12"
+      },
+      "fp": "TestPoint:TestPoint_Pad_D1.5mm",
+      "pcb": [
+        81.5,
+        40.5,
+        0
+      ],
+      "sch": [
+        192,
+        154
+      ],
+      "page": "bank3",
+      "mpn": "",
+      "maker": "",
+      "note": "",
+      "dnp": false,
+      "schrot": 0,
+      "uuid": "ddd12602-cb2e-53b9-8098-038183d73b0d",
+      "local_fp": "Tester:TestPoint_Pad_D1.5mm"
+    },
+    {
+      "ref": "U3",
+      "sym": "ADS1115",
+      "value": "ADS1115IDGSR",
+      "pins": {
+        "8": "A3V3",
+        "3": "AGND",
+        "9": "SDA_ISO",
+        "10": "SCL_ISO",
+        "2": null,
+        "1": "SDA_ISO",
+        "4": "A9",
+        "5": "A10",
+        "6": "A11",
+        "7": "A12"
+      },
+      "fp": "Package_SO:TSSOP-10_3x3mm_P0.5mm",
+      "pcb": [
+        74,
+        25,
+        0
+      ],
+      "sch": [
+        334,
+        88
+      ],
+      "page": "bank3",
+      "mpn": "ADS1115IDGSR",
+      "maker": "Texas Instruments",
+      "note": "ADDR=GND/3V3/SDA for 0x48/0x49/0x4A",
+      "dnp": false,
+      "schrot": 0,
+      "uuid": "47c473dd-602b-558a-bcda-bb4d5bc17e64",
+      "local_fp": "Tester:TSSOP-10_3x3mm_P0.5mm"
+    },
+    {
+      "ref": "U6",
+      "sym": "ADG4612",
+      "value": "ADG4612BRUZ",
+      "pins": {
+        "13": "ISO5V",
+        "4": "AGND",
+        "5": "AGND",
+        "12": null,
+        "1": "SENSE_EN",
+        "16": "SENSE_EN",
+        "9": "SENSE_EN",
+        "8": "SENSE_EN",
+        "3": "S9",
+        "2": "A9",
+        "14": "S10",
+        "15": "A10",
+        "11": "S11",
+        "10": "A11",
+        "6": "S12",
+        "7": "A12"
+      },
+      "fp": "Package_SO:TSSOP-16_4.4x5mm_P0.65mm",
+      "pcb": [
+        74,
+        45.5,
+        0
+      ],
+      "sch": [
+        261,
+        91
+      ],
+      "page": "bank3",
+      "mpn": "ADG4612BRUZ",
+      "maker": "Analog Devices",
+      "note": "TSSOP-16; powered from isolated 5V; enable from 3.08V supervisor",
+      "dnp": false,
+      "schrot": 0,
+      "uuid": "0ccc817a-aca3-5fc3-95ef-a7b381558367",
+      "local_fp": "Tester:TSSOP-16_4.4x5mm_P0.65mm"
+    },
+    {
+      "ref": "C15",
+      "sym": "C",
+      "value": "100n",
+      "pins": {
+        "1": "A3V3",
+        "2": "AGND"
+      },
+      "fp": "Capacitor_SMD:C_0805_2012Metric",
+      "pcb": [
+        79,
+        25,
+        90
+      ],
+      "sch": [
+        330,
+        130
+      ],
+      "page": "bank3",
+      "mpn": "GRM21BR71H104KA01L",
+      "maker": "Murata",
+      "note": "Use specified capacitance, voltage and dielectric",
+      "dnp": false,
+      "schrot": 0,
+      "uuid": "e7de040b-0bfd-5a1e-9dba-31749740399f",
+      "local_fp": "Tester:C_0805_2012Metric"
+    },
+    {
+      "ref": "C18",
+      "sym": "C",
+      "value": "100n",
+      "pins": {
+        "1": "ISO5V",
+        "2": "AGND"
+      },
+      "fp": "Capacitor_SMD:C_0805_2012Metric",
+      "pcb": [
+        80,
+        46,
+        90
+      ],
+      "sch": [
+        260,
+        135
+      ],
+      "page": "bank3",
+      "mpn": "GRM21BR71H104KA01L",
+      "maker": "Murata",
+      "note": "Use specified capacitance, voltage and dielectric",
+      "dnp": false,
+      "schrot": 0,
+      "uuid": "34ad9233-75d4-5c13-a498-a81c841d12ba",
+      "local_fp": "Tester:C_0805_2012Metric"
+    },
+    {
+      "ref": "J4",
+      "sym": "CONN5",
+      "value": "DISPLAY HARNESS",
+      "pins": {
+        "1": "USB5V",
+        "2": "USB_GND",
+        "3": "HOST3V3",
+        "4": "SDA_HOST",
+        "5": "SCL_HOST"
+      },
+      "fp": "Connector_JST:JST_XH_B5B-XH-A_1x05_P2.50mm_Vertical",
+      "pcb": [
+        6,
+        55,
+        90
+      ],
+      "sch": [
+        35,
+        45
+      ],
+      "page": "root",
+      "mpn": "B5B-XH-A(LF)(SN)",
+      "maker": "JST",
+      "note": "1=5V,2=GND,3=3V3,4=GPIO6 SDA,5=GPIO7 SCL. USB supplies both boards; no battery-only operation guaranteed.",
+      "dnp": false,
+      "schrot": 0,
+      "uuid": "1a5a9a44-7460-5b3e-9354-c36686698e63",
+      "local_fp": "Tester:JST_XH_B5B-XH-A_1x05_P2.50mm_Vertical"
+    },
+    {
+      "ref": "U7",
+      "sym": "R05C05TE05S",
+      "value": "R05C05TE05S-R",
+      "pins": {
+        "1": "USB_GND",
+        "2": "USB_GND",
+        "3": "USB5V_F",
+        "4": "USB5V_F",
+        "5": "USB_GND",
+        "6": "USB_GND",
+        "7": "USB_GND",
+        "8": "USB_GND",
+        "9": "AGND",
+        "10": null,
+        "11": "AGND",
+        "12": "AGND",
+        "13": "ISO5V",
+        "14": "ISO5V",
+        "15": "AGND",
+        "16": "AGND"
+      },
+      "fp": "Tester:R05C05TE05S",
+      "pcb": [
+        16,
+        11,
+        0
+      ],
+      "sch": [
+        137,
+        47
+      ],
+      "page": "root",
+      "mpn": "R05C05TE05S-R",
+      "maker": "RECOM",
+      "note": "Mandatory local 10uF+100nF at input and output; SGNDIN/OUT tied to their own return",
+      "dnp": false,
+      "schrot": 0,
+      "uuid": "6cc32eb8-4329-5a56-993c-615168036975",
+      "local_fp": "Tester:R05C05TE05S"
+    },
+    {
+      "ref": "U8",
+      "sym": "ISO1640B",
+      "value": "ISO1640BDR",
+      "pins": {
+        "1": "HOST3V3",
+        "2": "SDA_HOST",
+        "3": "SCL_HOST",
+        "4": "USB_GND",
+        "5": "AGND",
+        "6": "SCL_ISO",
+        "7": "SDA_ISO",
+        "8": "A3V3"
+      },
+      "fp": "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm",
+      "pcb": [
+        16,
+        29,
+        0
+      ],
+      "sch": [
+        137,
+        124
+      ],
+      "page": "root",
+      "mpn": "ISO1640BDR",
+      "maker": "Texas Instruments",
+      "note": "B suffix is the 8-pin device; do not substitute ISO1640DW",
+      "dnp": false,
+      "schrot": 0,
+      "uuid": "f83b10d5-eb8c-5ff7-80d4-1246e169318d",
+      "local_fp": "Tester:SOIC-8_3.9x4.9mm_P1.27mm"
+    },
+    {
+      "ref": "U9",
+      "sym": "TLV75533",
+      "value": "TLV75533PDBVR",
+      "pins": {
+        "1": "ISO5V",
+        "2": "AGND",
+        "3": "ISO5V",
+        "4": null,
+        "5": "A3V3"
+      },
+      "fp": "Package_TO_SOT_SMD:SOT-23-5",
+      "pcb": [
+        33,
+        10,
+        0
+      ],
+      "sch": [
+        224,
+        44
+      ],
+      "page": "root",
+      "mpn": "TLV75533PDBVR",
+      "maker": "Texas Instruments",
+      "note": "",
+      "dnp": false,
+      "schrot": 0,
+      "uuid": "2d59f65a-ce6e-5fd8-9adb-db362a3c5740",
+      "local_fp": "Tester:SOT-23-5"
+    },
+    {
+      "ref": "U10",
+      "sym": "OPA320",
+      "value": "OPA320AIDBVR",
+      "pins": {
+        "1": "VBIAS",
+        "2": "AGND",
+        "3": "BIAS_SET",
+        "4": "VBIAS",
+        "5": "A3V3"
+      },
+      "fp": "Package_TO_SOT_SMD:SOT-23-5",
+      "pcb": [
+        54,
+        11,
+        0
+      ],
+      "sch": [
+        221,
+        116
+      ],
+      "page": "root",
+      "mpn": "OPA320AIDBVR",
+      "maker": "Texas Instruments",
+      "note": "Unity gain reference buffer. No large output capacitor directly on the buffer.",
+      "dnp": false,
+      "schrot": 0,
+      "uuid": "4b898501-6462-558f-bde5-9f49405e8654",
+      "local_fp": "Tester:SOT-23-5"
+    },
+    {
+      "ref": "U11",
+      "sym": "TLV809EA30",
+      "value": "TLV809EA30DBZR",
+      "pins": {
+        "1": "AGND",
+        "2": "SENSE_EN",
+        "3": "A3V3"
+      },
+      "fp": "Package_TO_SOT_SMD:SOT-23",
+      "pcb": [
+        73,
+        10,
+        0
+      ],
+      "sch": [
+        318,
+        115
+      ],
+      "page": "root",
+      "mpn": "TLV809EA30DBZR",
+      "maker": "Texas Instruments",
+      "note": "3.08V falling threshold, 200ms release delay, push-pull; default pinout GND=1 RESET=2 VDD=3",
+      "dnp": false,
+      "schrot": 0,
+      "uuid": "1702701d-aabf-5ce8-9242-9df23ffe7820",
+      "local_fp": "Tester:SOT-23"
+    },
+    {
+      "ref": "D13",
+      "sym": "D",
+      "value": "Reverse protection",
+      "pins": {
+        "1": "ISO5V",
+        "2": "A3V3"
+      },
+      "fp": "Diode_SMD:Nexperia_CFP3_SOD-123W",
+      "pcb": [
+        33,
+        15,
+        0
+      ],
+      "sch": [
+        223,
+        82
+      ],
+      "page": "root",
+      "mpn": "PMEG2010ER,115",
+      "maker": "Nexperia",
+      "note": "Schottky OUT-to-IN reverse-current protection for U9; cathode to ISO5V",
+      "dnp": false,
+      "schrot": 0,
+      "uuid": "0afe3897-be07-5447-982e-ee92c4d38bd4",
+      "local_fp": "Tester:Nexperia_CFP3_SOD-123W"
+    },
+    {
+      "ref": "R37",
+      "sym": "R",
+      "value": "10k",
+      "pins": {
+        "1": "A3V3",
+        "2": "BIAS_SET"
+      },
+      "fp": "Resistor_SMD:R_0805_2012Metric",
+      "pcb": [
+        46,
+        7,
+        0
+      ],
+      "sch": [
+        192,
+        86
+      ],
+      "page": "root",
+      "mpn": "RT0805BRD0710KL",
+      "maker": "Yageo",
+      "note": "0.1%, 25 ppm/K",
+      "dnp": false,
+      "schrot": 0,
+      "uuid": "c4bc65ca-c2c4-53fe-83b2-24cee1dd0a50",
+      "local_fp": "Tester:R_0805_2012Metric"
+    },
+    {
+      "ref": "R38",
+      "sym": "R",
+      "value": "10k",
+      "pins": {
+        "1": "BIAS_SET",
+        "2": "AGND"
+      },
+      "fp": "Resistor_SMD:R_0805_2012Metric",
+      "pcb": [
+        46,
+        12,
+        0
+      ],
+      "sch": [
+        192,
+        97
+      ],
+      "page": "root",
+      "mpn": "RT0805BRD0710KL",
+      "maker": "Yageo",
+      "note": "0.1%, 25 ppm/K",
+      "dnp": false,
+      "schrot": 0,
+      "uuid": "0fef1078-9d23-5093-9661-0a506f151fac",
+      "local_fp": "Tester:R_0805_2012Metric"
+    },
+    {
+      "ref": "R39",
+      "sym": "R",
+      "value": "220R",
+      "pins": {
+        "1": "VBIAS",
+        "2": "AGND"
+      },
+      "fp": "Resistor_SMD:R_0805_2012Metric",
+      "pcb": [
+        54,
+        18,
+        0
+      ],
+      "sch": [
+        221,
+        150
+      ],
+      "page": "root",
+      "mpn": "RC0805FR-07220RL",
+      "maker": "Yageo",
+      "note": "1%",
+      "dnp": false,
+      "schrot": 0,
+      "uuid": "fa1ce1d2-9ba6-5794-8066-4210eeb8649c",
+      "local_fp": "Tester:R_0805_2012Metric"
+    },
+    {
+      "ref": "R40",
+      "sym": "R",
+      "value": "100k",
+      "pins": {
+        "1": "SENSE_EN",
+        "2": "AGND"
+      },
+      "fp": "Resistor_SMD:R_0805_2012Metric",
+      "pcb": [
+        72,
+        17,
+        0
+      ],
+      "sch": [
+        318,
+        143
+      ],
+      "page": "root",
+      "mpn": "RC0805FR-07100KL",
+      "maker": "Yageo",
+      "note": "1%",
+      "dnp": false,
+      "schrot": 0,
+      "uuid": "dd385a21-8934-5f5c-a530-a3b8a04708e8",
+      "local_fp": "Tester:R_0805_2012Metric"
+    },
+    {
+      "ref": "R41",
+      "sym": "R",
+      "value": "4.7k",
+      "pins": {
+        "1": "A3V3",
+        "2": "SDA_ISO"
+      },
+      "fp": "Resistor_SMD:R_0805_2012Metric",
+      "pcb": [
+        80,
+        6,
+        0
+      ],
+      "sch": [
+        276,
+        165
+      ],
+      "page": "root",
+      "mpn": "RC0805FR-074K7L",
+      "maker": "Yageo",
+      "note": "1%",
+      "dnp": false,
+      "schrot": 0,
+      "uuid": "afd6c810-6cf5-5ca0-87c1-58bf3d00d348",
+      "local_fp": "Tester:R_0805_2012Metric"
+    },
+    {
+      "ref": "R42",
+      "sym": "R",
+      "value": "4.7k",
+      "pins": {
+        "1": "A3V3",
+        "2": "SCL_ISO"
+      },
+      "fp": "Resistor_SMD:R_0805_2012Metric",
+      "pcb": [
+        80,
+        11,
+        0
+      ],
+      "sch": [
+        276,
+        178
+      ],
+      "page": "root",
+      "mpn": "RC0805FR-074K7L",
+      "maker": "Yageo",
+      "note": "1%",
+      "dnp": false,
+      "schrot": 0,
+      "uuid": "051898b7-3172-5709-8d49-206e66917aa0",
+      "local_fp": "Tester:R_0805_2012Metric"
+    },
+    {
+      "ref": "R43",
+      "sym": "R",
+      "value": "4.7k",
+      "pins": {
+        "1": "HOST3V3",
+        "2": "SDA_HOST"
+      },
+      "fp": "Resistor_SMD:R_0805_2012Metric",
+      "pcb": [
+        6,
+        24,
+        0
+      ],
+      "sch": [
+        50,
+        134
+      ],
+      "page": "root",
+      "mpn": "RC0805FR-074K7L",
+      "maker": "Yageo",
+      "note": "1%",
+      "dnp": true,
+      "schrot": 0,
+      "uuid": "15ae6ab4-273c-5b87-9f5a-bca3f80ce952",
+      "local_fp": "Tester:R_0805_2012Metric"
+    },
+    {
+      "ref": "R44",
+      "sym": "R",
+      "value": "4.7k",
+      "pins": {
+        "1": "HOST3V3",
+        "2": "SCL_HOST"
+      },
+      "fp": "Resistor_SMD:R_0805_2012Metric",
+      "pcb": [
+        6,
+        29,
+        0
+      ],
+      "sch": [
+        50,
+        149
+      ],
+      "page": "root",
+      "mpn": "RC0805FR-074K7L",
+      "maker": "Yageo",
+      "note": "1%",
+      "dnp": true,
+      "schrot": 0,
+      "uuid": "effff05b-3428-5635-9b58-5f0d7ace3a0c",
+      "local_fp": "Tester:R_0805_2012Metric"
+    },
+    {
+      "ref": "R45",
+      "sym": "R",
+      "value": "1k",
+      "pins": {
+        "1": "A3V3",
+        "2": "AGND"
+      },
+      "fp": "Resistor_SMD:R_0805_2012Metric",
+      "pcb": [
+        65,
+        17,
+        0
+      ],
+      "sch": [
+        318,
+        163
+      ],
+      "page": "root",
+      "mpn": "RC0805FR-071KL",
+      "maker": "Yageo",
+      "note": "1%",
+      "dnp": false,
+      "schrot": 0,
+      "uuid": "295937c7-52bd-56b9-8cf1-4304988f47c3",
+      "local_fp": "Tester:R_0805_2012Metric"
+    },
+    {
+      "ref": "F1",
+      "sym": "FUSE",
+      "value": "250mA PTC",
+      "pins": {
+        "1": "USB5V",
+        "2": "USB5V_F"
+      },
+      "fp": "Fuse:Fuse_1206_3216Metric",
+      "pcb": [
+        6,
+        8,
+        90
+      ],
+      "sch": [
+        65,
+        45
+      ],
+      "page": "root",
+      "mpn": "1206L025/24YR",
+      "maker": "Littelfuse",
+      "note": "5V supply only, slow resettable overcurrent protection",
+      "dnp": false,
+      "schrot": 0,
+      "uuid": "8793c4da-3d83-57cb-af64-14de1bdf2f24",
+      "local_fp": "Tester:Fuse_1206_3216Metric"
+    },
+    {
+      "ref": "C19",
+      "sym": "C",
+      "value": "10u",
+      "pins": {
+        "1": "USB5V_F",
+        "2": "USB_GND"
+      },
+      "fp": "Capacitor_SMD:C_0805_2012Metric",
+      "pcb": [
+        6,
+        14,
+        90
+      ],
+      "sch": [
+        80,
+        65
+      ],
+      "page": "root",
+      "mpn": "GRM21BR61A106KE19L",
+      "maker": "Murata",
+      "note": "Use specified capacitance, voltage and dielectric",
+      "dnp": false,
+      "schrot": 0,
+      "uuid": "9472cd08-b23b-5ec7-8f89-479771461f25",
+      "local_fp": "Tester:C_0805_2012Metric"
+    },
+    {
+      "ref": "C20",
+      "sym": "C",
+      "value": "100n",
+      "pins": {
+        "1": "USB5V_F",
+        "2": "USB_GND"
+      },
+      "fp": "Capacitor_SMD:C_0805_2012Metric",
+      "pcb": [
+        6,
+        18,
+        90
+      ],
+      "sch": [
+        80,
+        77
+      ],
+      "page": "root",
+      "mpn": "GRM21BR71H104KA01L",
+      "maker": "Murata",
+      "note": "Use specified capacitance, voltage and dielectric",
+      "dnp": false,
+      "schrot": 0,
+      "uuid": "40cf702a-0050-5a03-a5bc-1c335cf193e4",
+      "local_fp": "Tester:C_0805_2012Metric"
+    },
+    {
+      "ref": "C21",
+      "sym": "C",
+      "value": "10u",
+      "pins": {
+        "1": "ISO5V",
+        "2": "AGND"
+      },
+      "fp": "Capacitor_SMD:C_0805_2012Metric",
+      "pcb": [
+        26,
+        10,
+        90
+      ],
+      "sch": [
+        175,
+        45
+      ],
+      "page": "root",
+      "mpn": "GRM21BR61A106KE19L",
+      "maker": "Murata",
+      "note": "Use specified capacitance, voltage and dielectric",
+      "dnp": false,
+      "schrot": 0,
+      "uuid": "012773c1-e809-5e60-8086-bcde4462f68b",
+      "local_fp": "Tester:C_0805_2012Metric"
+    },
+    {
+      "ref": "C22",
+      "sym": "C",
+      "value": "100n",
+      "pins": {
+        "1": "ISO5V",
+        "2": "AGND"
+      },
+      "fp": "Capacitor_SMD:C_0805_2012Metric",
+      "pcb": [
+        26,
+        15,
+        90
+      ],
+      "sch": [
+        175,
+        58
+      ],
+      "page": "root",
+      "mpn": "GRM21BR71H104KA01L",
+      "maker": "Murata",
+      "note": "Use specified capacitance, voltage and dielectric",
+      "dnp": false,
+      "schrot": 0,
+      "uuid": "107ab86b-0a66-5d68-a1fa-6ad0cd7dbfb0",
+      "local_fp": "Tester:C_0805_2012Metric"
+    },
+    {
+      "ref": "C23",
+      "sym": "C",
+      "value": "1u",
+      "pins": {
+        "1": "ISO5V",
+        "2": "AGND"
+      },
+      "fp": "Capacitor_SMD:C_0805_2012Metric",
+      "pcb": [
+        32,
+        5,
+        0
+      ],
+      "sch": [
+        223,
+        69
+      ],
+      "page": "root",
+      "mpn": "GRM21BR71E105KA99L",
+      "maker": "Murata",
+      "note": "Use specified capacitance, voltage and dielectric",
+      "dnp": false,
+      "schrot": 0,
+      "uuid": "bd3190d7-cacb-5a11-bb7e-5669000e3618",
+      "local_fp": "Tester:C_0805_2012Metric"
+    },
+    {
+      "ref": "C24",
+      "sym": "C",
+      "value": "22u",
+      "pins": {
+        "1": "A3V3",
+        "2": "AGND"
+      },
+      "fp": "Capacitor_SMD:C_0805_2012Metric",
+      "pcb": [
+        38,
+        10,
+        90
+      ],
+      "sch": [
+        259,
+        45
+      ],
+      "page": "root",
+      "mpn": "GRM21BR61A226ME44L",
+      "maker": "Murata",
+      "note": "Use specified capacitance, voltage and dielectric",
+      "dnp": false,
+      "schrot": 0,
+      "uuid": "467864f9-bee0-5139-ad18-afcfb82b1d91",
+      "local_fp": "Tester:C_0805_2012Metric"
+    },
+    {
+      "ref": "C25",
+      "sym": "C",
+      "value": "100n",
+      "pins": {
+        "1": "A3V3",
+        "2": "AGND"
+      },
+      "fp": "Capacitor_SMD:C_0805_2012Metric",
+      "pcb": [
+        38,
+        15,
+        90
+      ],
+      "sch": [
+        259,
+        58
+      ],
+      "page": "root",
+      "mpn": "GRM21BR71H104KA01L",
+      "maker": "Murata",
+      "note": "Use specified capacitance, voltage and dielectric",
+      "dnp": false,
+      "schrot": 0,
+      "uuid": "abe2d6b5-7219-5c66-bcf1-5fbc87ea7646",
+      "local_fp": "Tester:C_0805_2012Metric"
+    },
+    {
+      "ref": "C26",
+      "sym": "C",
+      "value": "100n",
+      "pins": {
+        "1": "HOST3V3",
+        "2": "USB_GND"
+      },
+      "fp": "Capacitor_SMD:C_0805_2012Metric",
+      "pcb": [
+        7,
+        35,
+        90
+      ],
+      "sch": [
+        98,
+        160
+      ],
+      "page": "root",
+      "mpn": "GRM21BR71H104KA01L",
+      "maker": "Murata",
+      "note": "Use specified capacitance, voltage and dielectric",
+      "dnp": false,
+      "schrot": 0,
+      "uuid": "7dc9712b-76ba-542b-ad34-2b3de104ced0",
+      "local_fp": "Tester:C_0805_2012Metric"
+    },
+    {
+      "ref": "C27",
+      "sym": "C",
+      "value": "100n",
+      "pins": {
+        "1": "A3V3",
+        "2": "AGND"
+      },
+      "fp": "Capacitor_SMD:C_0805_2012Metric",
+      "pcb": [
+        22,
+        25,
+        90
+      ],
+      "sch": [
+        176,
+        136
+      ],
+      "page": "root",
+      "mpn": "GRM21BR71H104KA01L",
+      "maker": "Murata",
+      "note": "Use specified capacitance, voltage and dielectric",
+      "dnp": false,
+      "schrot": 0,
+      "uuid": "d9f4d89f-4139-5804-ad9d-9a3e36ba7aa9",
+      "local_fp": "Tester:C_0805_2012Metric"
+    },
+    {
+      "ref": "C28",
+      "sym": "C",
+      "value": "1n",
+      "pins": {
+        "1": "BIAS_SET",
+        "2": "AGND"
+      },
+      "fp": "Capacitor_SMD:C_0805_2012Metric",
+      "pcb": [
+        45,
+        18,
+        0
+      ],
+      "sch": [
+        193,
+        150
+      ],
+      "page": "root",
+      "mpn": "GRM2165C1H102JA01D",
+      "maker": "Murata",
+      "note": "Use specified capacitance, voltage and dielectric",
+      "dnp": false,
+      "schrot": 0,
+      "uuid": "341c2745-d449-5977-887a-b01c4c2e7cbc",
+      "local_fp": "Tester:C_0805_2012Metric"
+    },
+    {
+      "ref": "C29",
+      "sym": "C",
+      "value": "100n",
+      "pins": {
+        "1": "A3V3",
+        "2": "AGND"
+      },
+      "fp": "Capacitor_SMD:C_0805_2012Metric",
+      "pcb": [
+        59,
+        11,
+        90
+      ],
+      "sch": [
+        265,
+        128
+      ],
+      "page": "root",
+      "mpn": "GRM21BR71H104KA01L",
+      "maker": "Murata",
+      "note": "Use specified capacitance, voltage and dielectric",
+      "dnp": false,
+      "schrot": 0,
+      "uuid": "e3414638-6712-502d-9951-31b4369ceb66",
+      "local_fp": "Tester:C_0805_2012Metric"
+    },
+    {
+      "ref": "C30",
+      "sym": "C",
+      "value": "100n",
+      "pins": {
+        "1": "A3V3",
+        "2": "AGND"
+      },
+      "fp": "Capacitor_SMD:C_0805_2012Metric",
+      "pcb": [
+        67,
+        10,
+        90
+      ],
+      "sch": [
+        365,
+        138
+      ],
+      "page": "root",
+      "mpn": "GRM21BR71H104KA01L",
+      "maker": "Murata",
+      "note": "Use specified capacitance, voltage and dielectric",
+      "dnp": false,
+      "schrot": 0,
+      "uuid": "8b5f245d-cf71-5f9b-a190-bdb7719faaa2",
+      "local_fp": "Tester:C_0805_2012Metric"
+    },
+    {
+      "ref": "TP13",
+      "sym": "TP",
+      "value": "USB5V",
+      "pins": {
+        "1": "USB5V"
+      },
+      "fp": "TestPoint:TestPoint_Pad_D1.5mm",
+      "pcb": [
+        6,
+        62,
+        0
+      ],
+      "sch": [
+        30,
+        184
+      ],
+      "page": "root",
+      "mpn": "",
+      "maker": "",
+      "note": "",
+      "dnp": false,
+      "schrot": 0,
+      "uuid": "be22f949-b2ec-5058-924b-c6987b63291f",
+      "local_fp": "Tester:TestPoint_Pad_D1.5mm"
+    },
+    {
+      "ref": "TP14",
+      "sym": "TP",
+      "value": "USB_GND",
+      "pins": {
+        "1": "USB_GND"
+      },
+      "fp": "TestPoint:TestPoint_Pad_D1.5mm",
+      "pcb": [
+        6,
+        66,
+        0
+      ],
+      "sch": [
+        60,
+        184
+      ],
+      "page": "root",
+      "mpn": "",
+      "maker": "",
+      "note": "",
+      "dnp": false,
+      "schrot": 0,
+      "uuid": "b18b07cc-be81-553e-a157-5eb5ab567499",
+      "local_fp": "Tester:TestPoint_Pad_D1.5mm"
+    },
+    {
+      "ref": "TP15",
+      "sym": "TP",
+      "value": "HOST3V3",
+      "pins": {
+        "1": "HOST3V3"
+      },
+      "fp": "TestPoint:TestPoint_Pad_D1.5mm",
+      "pcb": [
+        6,
+        39,
+        0
+      ],
+      "sch": [
+        90,
+        184
+      ],
+      "page": "root",
+      "mpn": "",
+      "maker": "",
+      "note": "",
+      "dnp": false,
+      "schrot": 0,
+      "uuid": "38ac62eb-2f60-5c6a-ab91-df4755f8603c",
+      "local_fp": "Tester:TestPoint_Pad_D1.5mm"
+    },
+    {
+      "ref": "TP16",
+      "sym": "TP",
+      "value": "ISO5V",
+      "pins": {
+        "1": "ISO5V"
+      },
+      "fp": "TestPoint:TestPoint_Pad_D1.5mm",
+      "pcb": [
+        26,
+        5,
+        0
+      ],
+      "sch": [
+        120,
+        184
+      ],
+      "page": "root",
+      "mpn": "",
+      "maker": "",
+      "note": "",
+      "dnp": false,
+      "schrot": 0,
+      "uuid": "dc202143-e6a8-540f-b4e4-6c2c25038869",
+      "local_fp": "Tester:TestPoint_Pad_D1.5mm"
+    },
+    {
+      "ref": "TP17",
+      "sym": "TP",
+      "value": "A3V3",
+      "pins": {
+        "1": "A3V3"
+      },
+      "fp": "TestPoint:TestPoint_Pad_D1.5mm",
+      "pcb": [
+        38,
+        5,
+        0
+      ],
+      "sch": [
+        150,
+        184
+      ],
+      "page": "root",
+      "mpn": "",
+      "maker": "",
+      "note": "",
+      "dnp": false,
+      "schrot": 0,
+      "uuid": "c55c8e24-bac6-57c4-8672-772b3222ddfb",
+      "local_fp": "Tester:TestPoint_Pad_D1.5mm"
+    },
+    {
+      "ref": "TP18",
+      "sym": "TP",
+      "value": "AGND",
+      "pins": {
+        "1": "AGND"
+      },
+      "fp": "TestPoint:TestPoint_Pad_D1.5mm",
+      "pcb": [
+        85,
+        18,
+        0
+      ],
+      "sch": [
+        180,
+        184
+      ],
+      "page": "root",
+      "mpn": "",
+      "maker": "",
+      "note": "",
+      "dnp": false,
+      "schrot": 0,
+      "uuid": "3170105c-4041-57d8-a53a-ff26f07ef519",
+      "local_fp": "Tester:TestPoint_Pad_D1.5mm"
+    },
+    {
+      "ref": "TP19",
+      "sym": "TP",
+      "value": "VBIAS",
+      "pins": {
+        "1": "VBIAS"
+      },
+      "fp": "TestPoint:TestPoint_Pad_D1.5mm",
+      "pcb": [
+        60,
+        18,
+        0
+      ],
+      "sch": [
+        210,
+        184
+      ],
+      "page": "root",
+      "mpn": "",
+      "maker": "",
+      "note": "",
+      "dnp": false,
+      "schrot": 0,
+      "uuid": "1236fa16-0c3d-50f2-acbb-2d838408525c",
+      "local_fp": "Tester:TestPoint_Pad_D1.5mm"
+    },
+    {
+      "ref": "TP20",
+      "sym": "TP",
+      "value": "SENSE_EN",
+      "pins": {
+        "1": "SENSE_EN"
+      },
+      "fp": "TestPoint:TestPoint_Pad_D1.5mm",
+      "pcb": [
+        78,
+        18,
+        0
+      ],
+      "sch": [
+        240,
+        184
+      ],
+      "page": "root",
+      "mpn": "",
+      "maker": "",
+      "note": "",
+      "dnp": false,
+      "schrot": 0,
+      "uuid": "4afb27f5-3d5e-552b-a180-af732ce7afee",
+      "local_fp": "Tester:TestPoint_Pad_D1.5mm"
+    },
+    {
+      "ref": "TP21",
+      "sym": "TP",
+      "value": "SDA_ISO",
+      "pins": {
+        "1": "SDA_ISO"
+      },
+      "fp": "TestPoint:TestPoint_Pad_D1.5mm",
+      "pcb": [
+        85,
+        25,
+        0
+      ],
+      "sch": [
+        270,
+        184
+      ],
+      "page": "root",
+      "mpn": "",
+      "maker": "",
+      "note": "",
+      "dnp": false,
+      "schrot": 0,
+      "uuid": "2418a4c6-3ce6-5785-805d-f5c5fa3f9918",
+      "local_fp": "Tester:TestPoint_Pad_D1.5mm"
+    },
+    {
+      "ref": "TP22",
+      "sym": "TP",
+      "value": "SCL_ISO",
+      "pins": {
+        "1": "SCL_ISO"
+      },
+      "fp": "TestPoint:TestPoint_Pad_D1.5mm",
+      "pcb": [
+        85,
+        29,
+        0
+      ],
+      "sch": [
+        300,
+        184
+      ],
+      "page": "root",
+      "mpn": "",
+      "maker": "",
+      "note": "",
+      "dnp": false,
+      "schrot": 0,
+      "uuid": "8d947957-6478-5159-a88b-25986d792baf",
+      "local_fp": "Tester:TestPoint_Pad_D1.5mm"
+    },
+    {
+      "ref": "#FLG1",
+      "sym": "FLAG",
+      "value": "USB5V",
+      "pins": {
+        "1": "USB5V"
+      },
+      "fp": "",
+      "pcb": null,
+      "sch": [
+        35,
+        205
+      ],
+      "page": "root",
+      "mpn": "",
+      "maker": "",
+      "note": "",
+      "dnp": false,
+      "schrot": 0,
+      "uuid": "96c93ae2-79e8-5d76-b3fd-8fe4bd688b83",
+      "local_fp": ""
+    },
+    {
+      "ref": "#FLG2",
+      "sym": "FLAG",
+      "value": "USB5V_F",
+      "pins": {
+        "1": "USB5V_F"
+      },
+      "fp": "",
+      "pcb": null,
+      "sch": [
+        85,
+        205
+      ],
+      "page": "root",
+      "mpn": "",
+      "maker": "",
+      "note": "",
+      "dnp": false,
+      "schrot": 0,
+      "uuid": "6f1ad1cb-de07-531e-92c6-d5fa2d13557e",
+      "local_fp": ""
+    },
+    {
+      "ref": "#FLG3",
+      "sym": "FLAG",
+      "value": "USB_GND",
+      "pins": {
+        "1": "USB_GND"
+      },
+      "fp": "",
+      "pcb": null,
+      "sch": [
+        135,
+        205
+      ],
+      "page": "root",
+      "mpn": "",
+      "maker": "",
+      "note": "",
+      "dnp": false,
+      "schrot": 0,
+      "uuid": "5d42ff09-b2ea-507e-acf7-ae318a7f7a2e",
+      "local_fp": ""
+    },
+    {
+      "ref": "#FLG4",
+      "sym": "FLAG",
+      "value": "HOST3V3",
+      "pins": {
+        "1": "HOST3V3"
+      },
+      "fp": "",
+      "pcb": null,
+      "sch": [
+        185,
+        205
+      ],
+      "page": "root",
+      "mpn": "",
+      "maker": "",
+      "note": "",
+      "dnp": false,
+      "schrot": 0,
+      "uuid": "9df3c5d9-6766-5aa5-af8f-9c8e96c9a9aa",
+      "local_fp": ""
+    }
+  ]
+}

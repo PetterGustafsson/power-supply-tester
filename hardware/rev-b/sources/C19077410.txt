@@ -1,0 +1,386 @@
+BZT52C2V0 THRU BZT52C75                                                                                                          宏嘉诚科技
+                                                                                                                                 www.ichjc.com
+SURFACE MOUNT ZENER DIODES
+
+
+                        SOD-123 SURFACE MOUNT SILICON ZENER DIODES
+   Features
+•Low Zener Impedance                                                                                           Zener Diode
+•Power Dissipation of 350mW                                                                                    2.0 to 75 Volts
+•High Stability and High Reliability                                                                         Power Dissipation
+•Meets MSL level 1, per J-STD-020, LF maximum peak of 260℃                                                     350 Milliwatts
+   Applications
+  Zener diode is generally used as reference voltage sources in regulated power                                                SOD-123
+  supplies or as protective diode in overvoltage protection circuits.
+
+   Mechanical Data
+•Case: SOD-123
+ Molding compound meets UL 94V-0 flammability rating, RoHS-compliant,
+ halogen-free
+•Terminals: Solder plated, solderable per MIL-STD-750,Method 2026
+•Polarity: Cathode line denotes the cathode end
+
+   Function Diagram
+
+
+
+                                                          XXXX
+
+
+
+   Maximum Ratings (Ta=25℃ Unless otherwise specified)
+
+                       PARAMETER                            SYMBOL             UNIT                                VALUE
+
+                    Power Dissipation                             PD           mW                                        350
+
+                Forward Voltage @ IF=10mA                         VF             V                                       0.9
+
+                  Storage Temperature                            Tstg           ℃                                 -55 ~+150
+
+                  Junction Temperature                            Tj            ℃                                 -55 ~+150
+
+                Typical Thermal Resistance                       RθJ-A         ℃ /W                                      357
+
+
+   Electrical Parameter
+
+    SYMBOL                                      PARAMETER                                                          I
+
+                                                                                                             IF
+          VZ                             Reverse zener voltage @ IZT
+
+          IZT                                  Reverse current
+
+          ZZT                       Maximum Zener Impedance @ IZT
+
+          IZK                                  Reverse Current                                       VZ VR                               V
+                                                                                                                   IR     VF
+          ZZK                       Maximum Zener Impedance @ IZK                                                  IZT
+          IR                            Reverse leakage current @ VR
+
+          VR                                   Reverse voltage
+
+          IF                                   Forward current
+
+          VF                                 Forward voltage @ IF
+
+
+Rev:2.1                                                    Zhuhai Hongjiacheng Technology co., Ltd                                           1 of 4
+BZT52C2V0 THRU BZT52C75                                                                                                 宏嘉诚科技
+                                                                                                                        www.ichjc.com
+SURFACE MOUNT ZENER DIODES
+
+
+  Electrical Characteristics (Ta=25℃ Unless otherwise noted)
+
+                                 Nominal Zener Voltage                  Zener Impedance          Leakage Current            Typical
+                                                                                                                         Temperature
+     Type                                                                                                                 coefficent
+               Marking              VZ(V)                 IZT   ZZT@IZT         ZZK@IZK    IZK          IR@VR            @ IZTC(mV/℃ )
+    Number
+
+                         Min.       Nom.      Max.       (mA)             (Ω)             (mA)   IR(μA)         VR(V)    Min.     Max.
+
+   BZT52C2V0     WY      1.80        2.0      2.15        5       150            600      1.0     100            1.0     -3.5       0
+
+   BZT52C2V4     WX      2.28        2.4      2.52        5       100            600      1.0     50             1.0     -3.5       0
+
+   BZT52C2V7     W1      2.57        2.7      2.84        5       100            600      1.0     20             1.0     -3.5       0
+
+   BZT52C3V0     W2      2.85        3.0      3.15        5        95            600      1.0     10             1.0     -3.5       0
+
+   BZT52C3V3     W3      3.14        3.3      3.47        5        95            600      1.0      5             1.0     -3.5       0
+
+   BZT52C3V6     W4      3.42        3.6      3.78        5        90            600      1.0      5             1.0     -3.5       0
+
+   BZT52C3V9     W5      3.71        3.9      4.10        5        90            600      1.0      3             1.0     -3.5       0
+
+   BZT52C4V3     W6      4.09        4.3      4.52        5        90            600      1.0      3             1.0     -3.5       0
+
+   BZT52C4V7     W7      4.47        4.7      4.94        5        80            500      1.0      3             2.0     -3.5      0.2
+
+   BZT52C5V1     W8      4.85        5.1      5.36        5        60            480      1.0      2             2.0     -2.7      1.2
+
+   BZT52C5V6     W9      5.32        5.6      5.88        5        40            400      1.0      1             2.0     -2.0      2.5
+
+   BZT52C6V2     WA      5.89        6.2      6.51        5        10            150      1.0      3             4.0     0.4       3.7
+
+   BZT52C6V8     WB      6.46        6.8      7.14        5        15             80      1.0      2             4.0     1.2       4.5
+
+   BZT52C7V5     WC      7.13        7.5      7.88        5        15             80      1.0      1             5.0     2.5       5.3
+
+   BZT52C8V2     WD      7.79        8.2      8.61        5        15             80      1.0     0.7            5.0     3.2       6.2
+
+   BZT52C9V1     WE      8.65        9.1      9.56        5        15            100      1.0     0.5            6.0     3.8       7.0
+
+    BZT52C10     WF      9.50        10       10.50       5        20            150      1.0     0.2            7.0     4.5       8.0
+
+    BZT52C11     WG      10.45       11       11.55       5        20            150      1.0     0.1            8.0     5.4       9.0
+
+    BZT52C12     WH      11.40       12       12.60       5        25            150      1.0     0.1            8.0     6.0      10.0
+
+    BZT52C13     WI      12.35       13       13.65       5        30            170      1.0     0.1            8.0     7.0      11.0
+
+    BZT52C15     WJ      14.25       15       15.75       5        30            200      1.0     0.1           10.5     9.2      13.0
+
+    BZT52C16     WK      15.20       16       16.80       5        40            200      1.0     0.1           11.2     10.4     14.0
+
+    BZT52C18     WL      17.10       18       18.90       5        45            225      1.0     0.1           12.6     12.4     16.0
+
+    BZT52C20     WM      19.00       20       21.00       5        55            225      1.0     0.1           14.0     14.4     18.0
+
+    BZT52C22     WN      20.90       22       23.10       5        55            250      1.0     0.1           15.4     16.4     20.0
+
+    BZT52C24     WO      22.80       24       25.20       5        70            250      1.0     0.1           16.8     18.4     22.0
+
+    BZT52C27     WP      25.65       27       28.35       2        80            300      0.5     0.1           18.9     21.4     25.3
+
+    BZT52C30     WQ      28.50       30       31.50       2        80            300      0.5     0.1           21.0     24.4     29.4
+
+    BZT52C33     WR      31.35       33       34.65       2        80            325      0.5     0.1           23.1     27.4     33.4
+
+    BZT52C36     WS      34.20       36       37.80       2        90            350      0.5     0.1           25.2     30.4     37.4
+
+    BZT52C39     WT      37.05       39       40.95       2       130            350      0.5     0.1           27.3     33.4     41.2
+
+    BZT52C43     WU      40.85       43       45.15       5       100            700      1.0     0.1           32.0     10.0     12.0
+
+    BZT52C47     WV      44.65       47       49.35       5       100            750      1.0     0.1           35.0     10.0     12.0
+
+    BZT52C51     WW      48.45       51       53.55       5       100            750      1.0     0.1           38.0     10.0     12.0
+
+    BZT52C56     XW      52.0        56       60.0        5       135            700      1.0     0.1           39.0     10.0     12.0
+
+    BZT52C62     6E      58.0        62       66.0        5       200            1000     1.0     0.2           47.0     10.0     12.0
+
+    BZT52C68     6F      64.0        68       72.0        5       250            1000     1.0     0.2           52.0     10.0     12.0
+
+    BZT52C75     6H      70.0        75       79.0        5       300            1000     1.0     0.2            57      10.0     12.0
+
+
+Rev:2.1                                         Zhuhai Hongjiacheng Technology co., Ltd                                            2 of 4
+BZT52C2V0 THRU BZT52C75                                                                                                                                                                                                                                         宏嘉诚科技
+                                                                                                                                                                                                                                                                www.ichjc.com
+SURFACE MOUNT ZENER DIODES
+
+  Ratings And Characteristics Curves (Ta=25℃ Unless otherwise specified)
+
+                             100                                                                                                                                                     100
+                                                    T a =25℃                                                                                                                                            T a =25℃
+                                                    Pulsed                                                                                                                                              Pulsed
+                                                                                                                               P D =500mW
+
+
+
+
+                                                                                                                                                                                                                                                 P D =500mW
+
+
+
+
+                                                                                                                                                                ZenerCurrentIZ(mA)
+    ZenerCurrentIZ(mA)
+
+
+
+
+                                    10                                                                                                                                                    10
+                                                   2.4
+
+
+
+
+                                                                             4.7
+
+                                                                                    5.1
+                                                                                          5.6
+                                                                                                 6.2
+
+                                                                                                       6.8
+
+
+
+                                                                                                                      8.2
+
+                                                                                                                               9.1
+                                                                                                                7.5
+
+
+
+
+                                                                                                                                         10
+
+
+
+
+                                                                                                                                                                                                                                                                39
+                                                                                                                                                                                               11
+                                                                                                                                                                                               12
+                                                                                                                                                                                               13
+                                                                                                                                                                                               15
+                                                                                                                                                                                                              16
+                                                                                                                                                                                                                   18
+                                                                                                                                                                                                                   20
+                                                                                                                                                                                                                   22
+                                                                                                                                                                                                                            24
+
+
+                                                                                                                                                                                                                                       27
+
+                                                                                                                                                                                                                                            30
+
+                                                                                                                                                                                                                                                  33
+
+
+                                                                                                                                                                                                                                                           36
+
+
+
+
+                                                                                                                                                                                                                                                                            43
+                                          1                                                                                                                                                    1
+
+
+                                 0.5                                                                                                                                                    0.5
+                                              1          2         3            4         5           6          7         8        9       10       11                                    10                15       20          25        30        35        40          45              50
+                                                                               ZenerVoltageVZ(V)                                                                                                                        ZenerVoltageVZ(V)
+
+                                                     Fig. 1 Zener Characteristics(Vz Up to 10V)                                                                                                            Fig.2 Zener Characteristics(11V to 43V)
+
+
+
+                                      40                                                                                                                                                100
+                                                   TypicalT a Values                                                                                                                                                                                    Pulsed
+                                                   ForBZT52CXXXSeries
+                                      35
+                                                                                                                                                                                               10
+                                      30
+     TemperatureCoeﬀcientθVZ (mV/℃)
+
+
+
+
+                                      25                                                                                                                                                        1
+                                                                                                                                                                 LeakagecurrentIR(μA)
+
+
+
+
+                                      20
+                                                                                                                Vz@IzT                                                                     0.1
+                                      15
+
+
+                                      10                                                                                                                                              0.01
+
+
+                                          5                                                                                                                                                                          T a =100℃
+                                                                                                                                                                                     1E-3
+                                          0
+                                                                                                                                                                                                                     T a =25℃
+
+                                          -5                                                                                                                                        1E-4
+                                               0        4        8         12        16          20        24        28     32      36      40      44                                              0        5       10      15        20        25        30    35          40             45
+
+                                                                                NominalZenerVoltageVZ(V)                                                                                                               NominalZenerVoltageVZ(V)
+
+
+                                                               Fig.3 Temperature Coefficients                                                                                                                      Fig.4 Typical Leakage Current
+
+
+
+                        1000                                                                                                                                                     1000
+                                                                                                                                         T a =25℃                                                                                                                     T a =25℃
+                                                                                                                                         f=1MHz                                                                                                                       I Z(AC)= 0.1I Z(DC)
+                                                                                                                                                                                                                                                                      f=1kHz
+                                                                                                                                                                                                        I Z =1mA
+
+                                                                                              0VBias
+                                                                                                                                                                 DynamicImpedanceZZT(Ω)
+
+
+
+
+                              100                                                                                                                                                     100
+    CapacitanceC(pF)
+
+
+
+
+                                                                                                                                                                                                        I Z =5mA
+                                                                                                                          1VBias
+
+                                                                       BiasAt
+                                                                       50%Of V ZNom
+                                     10                                                                                                                                                        10
+
+
+
+
+                                          1                                                                                                                                                     1
+                                               1                                                      10                                            100                                             1                                       10                                          100
+
+                                                                              NominalZenerVoltageVZ(V)                                                                                                                 NominalZenerVoltageVZ(V)
+
+
+                                                                       Fig.3Typical Capacitance                                                                                                 Fig.4 Effect of Zener Voltage on Zener Impedance
+
+
+
+Rev:2.1                                                                                                                                 Zhuhai Hongjiacheng Technology co., Ltd                                                                                                              3 of 4
+BZT52C2V0 THRU BZT52C75                                                                                                    宏嘉诚科技
+                                                                                                                           www.ichjc.com
+SURFACE MOUNT ZENER DIODES
+
+   Ordering Information
+
+     PACKAGE    PACKAGE CODE      UNIT WEIGHT(g)          REEL(pcs)           BOX(pcs)           CARTON(pcs)               DELIVERY MODE
+
+     SOD-123         R1               0.012                  3000              45000                      180000                 7''
+
+
+  Package Outline Dimensions (SOD-123)
+
+                                                                                                          Dimensions
+
+                                                                    Symbol             Millimeters                          Inches
+
+                                                                                 Min.           Max.               Min.              Max.
+           C                              E                           A          3.55            3.85              0.140             0.152
+
+                                                                      B          2.55            2.85              0.100             0.112
+
+                          B                                           C          1.40            1.80              0.055             0.071
+                          A                                           D          0.95            1.35              0.140             0.152
+
+                                                                      E          0.51            0.71              0.037             0.053
+
+           D                                                          F            -             0.15                  -             0.006
+                                      H
+                                                                      G          0.15            0.45              0.006             0.008
+                                                 θ
+                          F                                           H          0.08            0.25              0.003             0.010
+               G
+                                                                      θ            -                 8°                -               8°
+
+
+   Suggested Pad Layout
+
+                                                                                                          Dimensions
+
+                J             K           J                         Symbol             Millimeters                          Inches
+
+                                                                                 Min.           Max.               Min.              Max.
+
+          M                                                           J          0.91                -             0.036               -
+
+                                                                      K            -             2.36                  -             0.092
+
+                                                                      M          1.22                -             0.048               -
+
+
+
+
+Rev:2.1                                       Zhuhai Hongjiacheng Technology co., Ltd                                                      4 of 4
+

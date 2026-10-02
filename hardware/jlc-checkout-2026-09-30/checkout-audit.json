@@ -1,0 +1,72 @@
+{
+  "date": "2026-09-30",
+  "status": "At checkout; not submitted; not paid",
+  "pcb_reference": "Y26-4411061A",
+  "assembly_reference": "SMT026093064404-4411061A",
+  "source_pcb_file_no": "e1a33a869b2943c78cd5314f05202e22",
+  "pcb_quantity": 5,
+  "assembled_quantity": 2,
+  "assembly_service": "Standard, top only",
+  "pcb_finish": "ENIG",
+  "pcb_color": "Green",
+  "pcb_thickness_mm": 1.6,
+  "board_dimensions_mm": [
+    90,
+    80
+  ],
+  "jlc_manufacturing_dimensions_with_rails_mm": [
+    90,
+    90
+  ],
+  "component_types_confirmed": 24,
+  "shortages": 0,
+  "fitted_parts_per_board": 114,
+  "U7": {
+    "part": "MIE1W0505BGLVH-3R-Z",
+    "code": "C22419841",
+    "selected": true,
+    "xray_included": true,
+    "total_for_2_usd": 3.8716
+  },
+  "U4_U5_U6": {
+    "part": "ADG4612BRUZ-REEL7",
+    "code": "C207399",
+    "stock_observed": 41,
+    "quantity": 6,
+    "unit_usd": 5.7243,
+    "total_usd": 34.3458,
+    "reason": "Same chip/package; cheaper C657391 showed zero stock and could not be used for an immediately available order."
+  },
+  "jlc_viewer_corrections": {
+    "U1_U2_U3": "Rotated 90 degrees clockwise from imported placement; pin 1 now upper left, all ten leads aligned.",
+    "U9_U10_U11": "Rotated 180 degrees from imported placement; pin 1 now upper left.",
+    "others": "No viewer changes; U7 pin 1 lower left, U8/U4-U6 pin 1 upper left; D1-D12 cathode bottom, D13 cathode left."
+  },
+  "placement_warning": "Corrections were saved in JLC by advancing to Quote & Order. The archived CPL is the original uploaded file and DOES NOT include the viewer corrections. Do not reupload it over the corrected order without repeating orientation verification. Final JLC DFM placement review remains required.",
+  "manual_placement_confirmation": true,
+  "automatic_confirmation_disabled": true,
+  "checkout_mode": "Review Before Payment",
+  "quote_usd": {
+    "pcb": 21.5,
+    "assembly": 153.65,
+    "components_included_in_assembly": 75.48,
+    "merchandise": 175.15,
+    "shipping": 37.4,
+    "customs_duties_and_taxes": 65.8,
+    "grand_total": 278.35
+  },
+  "shipping": "UPS Express Saver (DDP), 2-4 business days in transit",
+  "shipping_comparison_total_usd": {
+    "UPS_DDP": 278.35,
+    "DHL_DDP": 281.23,
+    "FedEx_DDP": 303.62
+  },
+  "economy_shipping": "Unavailable: Global Standard Direct Line requires order value below $59.",
+  "coupons": "No coupon entry/selector shown before Submit Order; no discount assumed.",
+  "build_time": "PCB 24 hours; assembly 4-5 days; holiday closure Oct 1-4 shown by JLC; do not treat transit time as delivery promise.",
+  "exclusions": [
+    "Separate Waveshare ESP32-S3-LCD-1.28 controller/display module and harness",
+    "Physical bring-up and calibration"
+  ],
+  "file_name_warning": "Order still has ADG-PREORDER in uploaded filename, but selected actual ADG parts are stocked C207399. Old Y25 bare PCB and Y24 Rev J order were not selected for checkout."
+}

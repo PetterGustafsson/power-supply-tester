@@ -1,0 +1,32 @@
+2026-09-30 11:47:55.763 INFO   Freerouting v2.2.4 (build-date: 2026-05-13)
+WARNING: Final field userProfileSettings in class app.freerouting.settings.GlobalSettings has been mutated reflectively by class com.google.gson.internal.bind.ReflectiveTypeAdapterFactory$2 in unnamed module @5bb21b69 (file:/Users/petter/Documents/rpi%20hat/tmp/p3_2l/tools/freerouting-2.2.4.jar)
+WARNING: Use --enable-final-field-mutation=ALL-UNNAMED to avoid a warning
+WARNING: Mutating final fields will be blocked in a future release unless final field mutation is enabled
+2026-09-30 11:47:55.792 WARN   Couldn't get screen resolution. If you are running in a headless environment, disable the GUI by setting gui.enabled to false.
+2026-09-30 11:47:55.885 WARN   Analytics tracking: first delivery failure in this window - /v1/analytics/identify - UnknownHostException: api.freerouting.app. Further failures will be aggregated and reported every 60 minutes. → Action: DNS resolution failed. Verify that this host has network access and that api.freerouting.app is reachable (try: nslookup api.freerouting.app).
+2026-09-30 11:47:56.874 WARN   Failed to check for new version
+2026-09-30 11:47:57.031 WARN   DSN file 'tester12v-final.dsn' was loaded with 1 warning(s).
+2026-09-30 11:47:57.276 INFO   [A63505\5B45E9] Job 'A63505\5B45E9' started at 2026-09-30T18:47:57.276074Z.
+2026-09-30 11:49:16.501 WARN   Polyline: must contain at least 2 different points
+2026-09-30 11:49:16.502 ERROR  Error during routing passes
+java.lang.NullPointerException: Cannot invoke "Object.equals(Object)" because "from_corner" is null
+	at app.freerouting.board.RoutingBoard.insert_forced_trace_polyline(RoutingBoard.java:603)
+	at app.freerouting.autoroute.InsertFoundConnectionAlgo.insert_trace(InsertFoundConnectionAlgo.java:143)
+	at app.freerouting.autoroute.InsertFoundConnectionAlgo.get_instance(InsertFoundConnectionAlgo.java:64)
+	at app.freerouting.autoroute.AutorouteEngine.autoroute_connection(AutorouteEngine.java:241)
+	at app.freerouting.autoroute.BatchAutorouter.autoroute_item(BatchAutorouter.java:1104)
+	at app.freerouting.autoroute.BatchAutorouter.autoroute_pass(BatchAutorouter.java:451)
+	at app.freerouting.autoroute.BatchAutorouter.runBatchLoop(BatchAutorouter.java:744)
+	at app.freerouting.management.RoutingJobSchedulerActionThread.thread_action(RoutingJobSchedulerActionThread.java:114)
+	at app.freerouting.core.StoppableThread.run(StoppableThread.java:22)
+2026-09-30 11:49:16.502 ERROR  Error during routing passes
+java.lang.NullPointerException: Cannot invoke "Object.equals(Object)" because "from_corner" is null
+	at app.freerouting.board.RoutingBoard.insert_forced_trace_polyline(RoutingBoard.java:603)
+	at app.freerouting.autoroute.InsertFoundConnectionAlgo.insert_trace(InsertFoundConnectionAlgo.java:143)
+	at app.freerouting.autoroute.InsertFoundConnectionAlgo.get_instance(InsertFoundConnectionAlgo.java:64)
+	at app.freerouting.autoroute.AutorouteEngine.autoroute_connection(AutorouteEngine.java:241)
+	at app.freerouting.autoroute.BatchAutorouter.autoroute_item(BatchAutorouter.java:1104)
+	at app.freerouting.autoroute.BatchAutorouter.autoroute_pass(BatchAutorouter.java:451)
+	at app.freerouting.autoroute.BatchAutorouter.runBatchLoop(BatchAutorouter.java:744)
+	at app.freerouting.management.RoutingJobSchedulerActionThread.thread_action(RoutingJobSchedulerActionThread.java:114)
+	at app.freerouting.core.StoppableThread.run(StoppableThread.java:22)

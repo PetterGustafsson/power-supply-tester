@@ -1,0 +1,32 @@
+REV D2 — FABRICATION COLOUR AND WIRING LABELS
+
+PCB: 86 x 62 mm, 2-layer FR4, 1.6 mm nominal thickness.
+SOLDER MASK: BLACK on both sides.
+SILKSCREEN: WHITE on both sides.
+Select these colours explicitly in the JLC order form. The copper/mask/silk
+Gerber files alone do not select the fabrication colour. The KiCad stackup and
+Gerber job metadata also specify black mask and white legend.
+
+J4 is the 5-way JST XH, 2.50 mm pitch ESP32 harness connector.
+Use a matching keyed 5-way JST XH plug/cable; do not substitute a 2.54 mm housing.
+With components facing you, text upright and terminals along the bottom edge,
+J4 is at the left and PIN 1 IS AT ITS LOWER END (toward the mounting hole).
+The PCB labels are printed beside the corresponding pin row on both sides.
+
+J4 PIN   PCB LABEL   CONNECT TO WAVESHARE ESP32-S3-LCD-1.28
+  1      1 5V        VSYS (USB-derived 5 V)
+  2      2 GND       GND
+  3      3 3V3       3V3
+  4      4 SDA6      GPIO6 (I2C SDA)
+  5      5 SCL7      GPIO7 (I2C SCL)
+
+The larger back-side legend expands the ESP32 GPIO names.
+Pin 1 is also the square solder pad. Plug mating-face and wire-entry views
+are mirrored: identify each cavity by which numbered PCB pin it mates with,
+not by assuming left/right from a loose connector. Check continuity from each
+J4 pad to the corresponding ESP32 connection before applying USB power.
+Never connect the 12 V supply under test to this 5 V harness.
+
+D2 changes labels and solder-mask/silkscreen colours only. The circuit, copper,
+component placement and Rev D firmware are unchanged from D1. Outward-facing
+J1-J3 terminals are retained. This package does not alter an open JLC order.

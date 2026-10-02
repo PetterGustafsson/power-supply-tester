@@ -1,0 +1,117 @@
+Reference,Value,Manufacturer,MPN,Footprint,Populate,Notes,LCSC,JLC Category
+J1,INPUTS 1-4,Phoenix Contact,1984633,"Tester:TerminalBlock_Phoenix_PT-1,5-4-3.5-H_1x04_P3.50mm_Horizontal",YES,"PT 1,5/4-3,5-H; 1984633 verified against Phoenix Contact product page, 3.5mm pitch",C5144867,Extended
+R1,165k,Yageo,RT0805BRD07165KL,Tester:R_0805_2012Metric,YES,"0.1%, 25 ppm/K",C865215,Extended
+R2,165k,Yageo,RT0805BRD07165KL,Tester:R_0805_2012Metric,YES,"0.1%, 25 ppm/K",C865215,Extended
+D1,12V clamp,hongjiacheng,BZT52C12,Tester:D_SOD-123,YES,Clamp is before power-off switch; not an ADC rail clamp,C19077410,Promotional Extended
+R3,10k,Yageo,RT0805BRD0710KL,Tester:R_0805_2012Metric,YES,"0.1%, 25 ppm/K",C110775,Extended
+R46,100k,Yageo,RT0805BRD07100KL,Tester:R_0805_2012Metric,YES,"0.1%, 25 ppm/K",C122537,Extended
+C1,470p,Fenghua,0805B471K500NT,Tester:C_0805_2012Metric,YES,"470pF +/-10%, 50V X7R; Rev B filter requalified in behavioral shutdown model at 600pF",C1743,Basic
+R4,165k,Yageo,RT0805BRD07165KL,Tester:R_0805_2012Metric,YES,"0.1%, 25 ppm/K",C865215,Extended
+R5,165k,Yageo,RT0805BRD07165KL,Tester:R_0805_2012Metric,YES,"0.1%, 25 ppm/K",C865215,Extended
+D2,12V clamp,hongjiacheng,BZT52C12,Tester:D_SOD-123,YES,Clamp is before power-off switch; not an ADC rail clamp,C19077410,Promotional Extended
+R6,10k,Yageo,RT0805BRD0710KL,Tester:R_0805_2012Metric,YES,"0.1%, 25 ppm/K",C110775,Extended
+R47,100k,Yageo,RT0805BRD07100KL,Tester:R_0805_2012Metric,YES,"0.1%, 25 ppm/K",C122537,Extended
+C2,470p,Fenghua,0805B471K500NT,Tester:C_0805_2012Metric,YES,"470pF +/-10%, 50V X7R; Rev B filter requalified in behavioral shutdown model at 600pF",C1743,Basic
+R7,165k,Yageo,RT0805BRD07165KL,Tester:R_0805_2012Metric,YES,"0.1%, 25 ppm/K",C865215,Extended
+R8,165k,Yageo,RT0805BRD07165KL,Tester:R_0805_2012Metric,YES,"0.1%, 25 ppm/K",C865215,Extended
+D3,12V clamp,hongjiacheng,BZT52C12,Tester:D_SOD-123,YES,Clamp is before power-off switch; not an ADC rail clamp,C19077410,Promotional Extended
+R9,10k,Yageo,RT0805BRD0710KL,Tester:R_0805_2012Metric,YES,"0.1%, 25 ppm/K",C110775,Extended
+R48,100k,Yageo,RT0805BRD07100KL,Tester:R_0805_2012Metric,YES,"0.1%, 25 ppm/K",C122537,Extended
+C3,470p,Fenghua,0805B471K500NT,Tester:C_0805_2012Metric,YES,"470pF +/-10%, 50V X7R; Rev B filter requalified in behavioral shutdown model at 600pF",C1743,Basic
+R10,165k,Yageo,RT0805BRD07165KL,Tester:R_0805_2012Metric,YES,"0.1%, 25 ppm/K",C865215,Extended
+R11,165k,Yageo,RT0805BRD07165KL,Tester:R_0805_2012Metric,YES,"0.1%, 25 ppm/K",C865215,Extended
+D4,12V clamp,hongjiacheng,BZT52C12,Tester:D_SOD-123,YES,Clamp is before power-off switch; not an ADC rail clamp,C19077410,Promotional Extended
+R12,10k,Yageo,RT0805BRD0710KL,Tester:R_0805_2012Metric,YES,"0.1%, 25 ppm/K",C110775,Extended
+R49,100k,Yageo,RT0805BRD07100KL,Tester:R_0805_2012Metric,YES,"0.1%, 25 ppm/K",C122537,Extended
+C4,470p,Fenghua,0805B471K500NT,Tester:C_0805_2012Metric,YES,"470pF +/-10%, 50V X7R; Rev B filter requalified in behavioral shutdown model at 600pF",C1743,Basic
+U1,ADS1115IDGSR,Texas Instruments,ADS1115IDGSR,Tester:TSSOP-10_3x3mm_P0.5mm,YES,ADDR=GND/3V3/SDA for 0x48/0x49/0x4A,C37593,Extended
+U4,ADG4612BRUZ,Analog Devices,ADG4612BRUZ-REEL7,Tester:TSSOP-16_4.4x5mm_P0.65mm,YES,"TSSOP-16; powered from isolated 5V; enable from 3.08V supervisor | JLC: In-stock tape-and-reel packaging; same silicon, pinout and TSSOP-16",C207399,Extended
+C13,100n,Yageo,CC0805KRX7R9BB104,Tester:C_0805_2012Metric,YES,"Use specified capacitance, voltage and dielectric | JLC: Basic; 100nF, 10%, 50V, X7R preserved",C49678,Basic
+C16,100n,Yageo,CC0805KRX7R9BB104,Tester:C_0805_2012Metric,YES,"Use specified capacitance, voltage and dielectric | JLC: Basic; 100nF, 10%, 50V, X7R preserved",C49678,Basic
+J2,INPUTS 5-8,Phoenix Contact,1984633,"Tester:TerminalBlock_Phoenix_PT-1,5-4-3.5-H_1x04_P3.50mm_Horizontal",YES,"PT 1,5/4-3,5-H; 1984633 verified against Phoenix Contact product page, 3.5mm pitch",C5144867,Extended
+R13,165k,Yageo,RT0805BRD07165KL,Tester:R_0805_2012Metric,YES,"0.1%, 25 ppm/K",C865215,Extended
+R14,165k,Yageo,RT0805BRD07165KL,Tester:R_0805_2012Metric,YES,"0.1%, 25 ppm/K",C865215,Extended
+D5,12V clamp,hongjiacheng,BZT52C12,Tester:D_SOD-123,YES,Clamp is before power-off switch; not an ADC rail clamp,C19077410,Promotional Extended
+R15,10k,Yageo,RT0805BRD0710KL,Tester:R_0805_2012Metric,YES,"0.1%, 25 ppm/K",C110775,Extended
+R50,100k,Yageo,RT0805BRD07100KL,Tester:R_0805_2012Metric,YES,"0.1%, 25 ppm/K",C122537,Extended
+C5,470p,Fenghua,0805B471K500NT,Tester:C_0805_2012Metric,YES,"470pF +/-10%, 50V X7R; Rev B filter requalified in behavioral shutdown model at 600pF",C1743,Basic
+R16,165k,Yageo,RT0805BRD07165KL,Tester:R_0805_2012Metric,YES,"0.1%, 25 ppm/K",C865215,Extended
+R17,165k,Yageo,RT0805BRD07165KL,Tester:R_0805_2012Metric,YES,"0.1%, 25 ppm/K",C865215,Extended
+D6,12V clamp,hongjiacheng,BZT52C12,Tester:D_SOD-123,YES,Clamp is before power-off switch; not an ADC rail clamp,C19077410,Promotional Extended
+R18,10k,Yageo,RT0805BRD0710KL,Tester:R_0805_2012Metric,YES,"0.1%, 25 ppm/K",C110775,Extended
+R51,100k,Yageo,RT0805BRD07100KL,Tester:R_0805_2012Metric,YES,"0.1%, 25 ppm/K",C122537,Extended
+C6,470p,Fenghua,0805B471K500NT,Tester:C_0805_2012Metric,YES,"470pF +/-10%, 50V X7R; Rev B filter requalified in behavioral shutdown model at 600pF",C1743,Basic
+R19,165k,Yageo,RT0805BRD07165KL,Tester:R_0805_2012Metric,YES,"0.1%, 25 ppm/K",C865215,Extended
+R20,165k,Yageo,RT0805BRD07165KL,Tester:R_0805_2012Metric,YES,"0.1%, 25 ppm/K",C865215,Extended
+D7,12V clamp,hongjiacheng,BZT52C12,Tester:D_SOD-123,YES,Clamp is before power-off switch; not an ADC rail clamp,C19077410,Promotional Extended
+R21,10k,Yageo,RT0805BRD0710KL,Tester:R_0805_2012Metric,YES,"0.1%, 25 ppm/K",C110775,Extended
+R52,100k,Yageo,RT0805BRD07100KL,Tester:R_0805_2012Metric,YES,"0.1%, 25 ppm/K",C122537,Extended
+C7,470p,Fenghua,0805B471K500NT,Tester:C_0805_2012Metric,YES,"470pF +/-10%, 50V X7R; Rev B filter requalified in behavioral shutdown model at 600pF",C1743,Basic
+R22,165k,Yageo,RT0805BRD07165KL,Tester:R_0805_2012Metric,YES,"0.1%, 25 ppm/K",C865215,Extended
+R23,165k,Yageo,RT0805BRD07165KL,Tester:R_0805_2012Metric,YES,"0.1%, 25 ppm/K",C865215,Extended
+D8,12V clamp,hongjiacheng,BZT52C12,Tester:D_SOD-123,YES,Clamp is before power-off switch; not an ADC rail clamp,C19077410,Promotional Extended
+R24,10k,Yageo,RT0805BRD0710KL,Tester:R_0805_2012Metric,YES,"0.1%, 25 ppm/K",C110775,Extended
+R53,100k,Yageo,RT0805BRD07100KL,Tester:R_0805_2012Metric,YES,"0.1%, 25 ppm/K",C122537,Extended
+C8,470p,Fenghua,0805B471K500NT,Tester:C_0805_2012Metric,YES,"470pF +/-10%, 50V X7R; Rev B filter requalified in behavioral shutdown model at 600pF",C1743,Basic
+U2,ADS1115IDGSR,Texas Instruments,ADS1115IDGSR,Tester:TSSOP-10_3x3mm_P0.5mm,YES,ADDR=GND/3V3/SDA for 0x48/0x49/0x4A,C37593,Extended
+U5,ADG4612BRUZ,Analog Devices,ADG4612BRUZ-REEL7,Tester:TSSOP-16_4.4x5mm_P0.65mm,YES,"TSSOP-16; powered from isolated 5V; enable from 3.08V supervisor | JLC: In-stock tape-and-reel packaging; same silicon, pinout and TSSOP-16",C207399,Extended
+C14,100n,Yageo,CC0805KRX7R9BB104,Tester:C_0805_2012Metric,YES,"Use specified capacitance, voltage and dielectric | JLC: Basic; 100nF, 10%, 50V, X7R preserved",C49678,Basic
+C17,100n,Yageo,CC0805KRX7R9BB104,Tester:C_0805_2012Metric,YES,"Use specified capacitance, voltage and dielectric | JLC: Basic; 100nF, 10%, 50V, X7R preserved",C49678,Basic
+J3,INPUTS 9-12,Phoenix Contact,1984633,"Tester:TerminalBlock_Phoenix_PT-1,5-4-3.5-H_1x04_P3.50mm_Horizontal",YES,"PT 1,5/4-3,5-H; 1984633 verified against Phoenix Contact product page, 3.5mm pitch",C5144867,Extended
+R25,165k,Yageo,RT0805BRD07165KL,Tester:R_0805_2012Metric,YES,"0.1%, 25 ppm/K",C865215,Extended
+R26,165k,Yageo,RT0805BRD07165KL,Tester:R_0805_2012Metric,YES,"0.1%, 25 ppm/K",C865215,Extended
+D9,12V clamp,hongjiacheng,BZT52C12,Tester:D_SOD-123,YES,Clamp is before power-off switch; not an ADC rail clamp,C19077410,Promotional Extended
+R27,10k,Yageo,RT0805BRD0710KL,Tester:R_0805_2012Metric,YES,"0.1%, 25 ppm/K",C110775,Extended
+R54,100k,Yageo,RT0805BRD07100KL,Tester:R_0805_2012Metric,YES,"0.1%, 25 ppm/K",C122537,Extended
+C9,470p,Fenghua,0805B471K500NT,Tester:C_0805_2012Metric,YES,"470pF +/-10%, 50V X7R; Rev B filter requalified in behavioral shutdown model at 600pF",C1743,Basic
+R28,165k,Yageo,RT0805BRD07165KL,Tester:R_0805_2012Metric,YES,"0.1%, 25 ppm/K",C865215,Extended
+R29,165k,Yageo,RT0805BRD07165KL,Tester:R_0805_2012Metric,YES,"0.1%, 25 ppm/K",C865215,Extended
+D10,12V clamp,hongjiacheng,BZT52C12,Tester:D_SOD-123,YES,Clamp is before power-off switch; not an ADC rail clamp,C19077410,Promotional Extended
+R30,10k,Yageo,RT0805BRD0710KL,Tester:R_0805_2012Metric,YES,"0.1%, 25 ppm/K",C110775,Extended
+R55,100k,Yageo,RT0805BRD07100KL,Tester:R_0805_2012Metric,YES,"0.1%, 25 ppm/K",C122537,Extended
+C10,470p,Fenghua,0805B471K500NT,Tester:C_0805_2012Metric,YES,"470pF +/-10%, 50V X7R; Rev B filter requalified in behavioral shutdown model at 600pF",C1743,Basic
+R31,165k,Yageo,RT0805BRD07165KL,Tester:R_0805_2012Metric,YES,"0.1%, 25 ppm/K",C865215,Extended
+R32,165k,Yageo,RT0805BRD07165KL,Tester:R_0805_2012Metric,YES,"0.1%, 25 ppm/K",C865215,Extended
+D11,12V clamp,hongjiacheng,BZT52C12,Tester:D_SOD-123,YES,Clamp is before power-off switch; not an ADC rail clamp,C19077410,Promotional Extended
+R33,10k,Yageo,RT0805BRD0710KL,Tester:R_0805_2012Metric,YES,"0.1%, 25 ppm/K",C110775,Extended
+R56,100k,Yageo,RT0805BRD07100KL,Tester:R_0805_2012Metric,YES,"0.1%, 25 ppm/K",C122537,Extended
+C11,470p,Fenghua,0805B471K500NT,Tester:C_0805_2012Metric,YES,"470pF +/-10%, 50V X7R; Rev B filter requalified in behavioral shutdown model at 600pF",C1743,Basic
+R34,165k,Yageo,RT0805BRD07165KL,Tester:R_0805_2012Metric,YES,"0.1%, 25 ppm/K",C865215,Extended
+R35,165k,Yageo,RT0805BRD07165KL,Tester:R_0805_2012Metric,YES,"0.1%, 25 ppm/K",C865215,Extended
+D12,12V clamp,hongjiacheng,BZT52C12,Tester:D_SOD-123,YES,Clamp is before power-off switch; not an ADC rail clamp,C19077410,Promotional Extended
+R36,10k,Yageo,RT0805BRD0710KL,Tester:R_0805_2012Metric,YES,"0.1%, 25 ppm/K",C110775,Extended
+R57,100k,Yageo,RT0805BRD07100KL,Tester:R_0805_2012Metric,YES,"0.1%, 25 ppm/K",C122537,Extended
+C12,470p,Fenghua,0805B471K500NT,Tester:C_0805_2012Metric,YES,"470pF +/-10%, 50V X7R; Rev B filter requalified in behavioral shutdown model at 600pF",C1743,Basic
+U3,ADS1115IDGSR,Texas Instruments,ADS1115IDGSR,Tester:TSSOP-10_3x3mm_P0.5mm,YES,ADDR=GND/3V3/SDA for 0x48/0x49/0x4A,C37593,Extended
+U6,ADG4612BRUZ,Analog Devices,ADG4612BRUZ-REEL7,Tester:TSSOP-16_4.4x5mm_P0.65mm,YES,"TSSOP-16; powered from isolated 5V; enable from 3.08V supervisor | JLC: In-stock tape-and-reel packaging; same silicon, pinout and TSSOP-16",C207399,Extended
+C15,100n,Yageo,CC0805KRX7R9BB104,Tester:C_0805_2012Metric,YES,"Use specified capacitance, voltage and dielectric | JLC: Basic; 100nF, 10%, 50V, X7R preserved",C49678,Basic
+C18,100n,Yageo,CC0805KRX7R9BB104,Tester:C_0805_2012Metric,YES,"Use specified capacitance, voltage and dielectric | JLC: Basic; 100nF, 10%, 50V, X7R preserved",C49678,Basic
+J4,DISPLAY HARNESS,JST,B5B-XH-A(LF)(SN),Tester:JST_XH_B5B-XH-A_1x05_P2.50mm_Vertical,YES,"1=5V,2=GND,3=3V3,4=GPIO6 SDA,5=GPIO7 SCL. USB supplies both boards; no battery-only operation guaranteed.",C157991,Extended
+U7,MIE1W0505BGLVH-3R-Z,MPS,MIE1W0505BGLVH-3R-Z,Tester:MIE1W0505BGLVH,YES,"Regulated isolated 5V, no minimum load. EN=VIN; VSEL=VOUT. Input 10uF+100nF, output 22uF+100nF. VIN at U7 must be 4.5-5.5V.",C22419841,Extended
+U8,ISO1640BDR,Texas Instruments,ISO1640BDR,Tester:SOIC-8_3.9x4.9mm_P1.27mm,YES,B suffix is the 8-pin device; do not substitute ISO1640DW,C5122339,Extended
+U9,TLV75533PDBVR,Texas Instruments,TLV75533PDBVR,Tester:SOT-23-5,YES,,C404027,Extended
+U10,OPA320AIDBVR,Texas Instruments,OPA320AIDBVR,Tester:SOT-23-5,YES,Unity gain reference buffer. No large output capacitor directly on the buffer.,C92494,Extended
+U11,TLV809EA30DBZR,Texas Instruments,TLV809EA30DBZR,Tester:SOT-23,YES,"3.08V falling threshold, 200ms release delay, push-pull; default pinout GND=1 RESET=2 VDD=3",C2860914,Extended
+D13,Reverse protection,Nexperia,"PMEG2010ER,115",Tester:Nexperia_CFP3_SOD-123W,YES,Schottky OUT-to-IN reverse-current protection for U9; cathode to ISO5V,C82288,Extended
+R37,10k,Yageo,RT0805BRD0710KL,Tester:R_0805_2012Metric,YES,"0.1%, 25 ppm/K",C110775,Extended
+R38,10k,Yageo,RT0805BRD0710KL,Tester:R_0805_2012Metric,YES,"0.1%, 25 ppm/K",C110775,Extended
+R39,220R,UNI-ROYAL,0805W8F2200T5E,Tester:R_0805_2012Metric,YES,"1% | JLC: Basic; same 1%, 100ppm/K, 125mW, 150V rating",C17557,Basic
+R40,100k,UNI-ROYAL,0805W8F1003T5E,Tester:R_0805_2012Metric,YES,"1% | JLC: Basic; same 1%, 100ppm/K, 125mW, 150V rating",C149504,Basic
+R41,4.7k,UNI-ROYAL,0805W8F4701T5E,Tester:R_0805_2012Metric,YES,"1% | JLC: Basic; same 1%, 100ppm/K, 125mW, 150V rating",C17673,Basic
+R42,4.7k,UNI-ROYAL,0805W8F4701T5E,Tester:R_0805_2012Metric,YES,"1% | JLC: Basic; same 1%, 100ppm/K, 125mW, 150V rating",C17673,Basic
+R43,4.7k,UNI-ROYAL,0805W8F4701T5E,Tester:R_0805_2012Metric,NO,"1% | JLC: Basic; same 1%, 100ppm/K, 125mW, 150V rating",C17673,Basic
+R44,4.7k,UNI-ROYAL,0805W8F4701T5E,Tester:R_0805_2012Metric,NO,"1% | JLC: Basic; same 1%, 100ppm/K, 125mW, 150V rating",C17673,Basic
+R45,1k,UNI-ROYAL,0805W8F1001T5E,Tester:R_0805_2012Metric,YES,"1% | JLC: Basic; same 1%, 100ppm/K, 125mW, 150V rating",C17513,Basic
+F1,250mA PTC,Littelfuse,1206L025/24YR,Tester:Fuse_1206_3216Metric,YES,"5V supply only, slow resettable overcurrent protection",C3762322,Extended
+C19,10u,Samsung Electro-Mechanics,CL21A106KAYNNNE,Tester:C_0805_2012Metric,YES,"Use specified capacitance, voltage and dielectric | JLC: Basic; 10uF, 10%, X5R; voltage rating increased to 25V",C15850,Basic
+C20,100n,Yageo,CC0805KRX7R9BB104,Tester:C_0805_2012Metric,YES,"Use specified capacitance, voltage and dielectric | JLC: Basic; 100nF, 10%, 50V, X7R preserved",C49678,Basic
+C21,22u,Samsung Electro-Mechanics,CL21A226MAQNNNE,Tester:C_0805_2012Metric,YES,"Use specified capacitance, voltage and dielectric | JLC: Basic; 22uF, 20%, X5R; 25V. NRND but deep JLC stock for prototype; requalify for production",C45783,Basic
+C22,100n,Yageo,CC0805KRX7R9BB104,Tester:C_0805_2012Metric,YES,"Use specified capacitance, voltage and dielectric | JLC: Basic; 100nF, 10%, 50V, X7R preserved",C49678,Basic
+C23,1u,Samsung Electro-Mechanics,CL21B105KBFNNNE,Tester:C_0805_2012Metric,YES,"Use specified capacitance, voltage and dielectric | JLC: Basic; 1uF, 10%, X7R; voltage rating increased to 50V",C28323,Basic
+C24,22u,Samsung Electro-Mechanics,CL21A226MAQNNNE,Tester:C_0805_2012Metric,YES,"Use specified capacitance, voltage and dielectric | JLC: Basic; 22uF, 20%, X5R; 25V. NRND but deep JLC stock for prototype; requalify for production",C45783,Basic
+C25,100n,Yageo,CC0805KRX7R9BB104,Tester:C_0805_2012Metric,YES,"Use specified capacitance, voltage and dielectric | JLC: Basic; 100nF, 10%, 50V, X7R preserved",C49678,Basic
+C26,100n,Yageo,CC0805KRX7R9BB104,Tester:C_0805_2012Metric,YES,"Use specified capacitance, voltage and dielectric | JLC: Basic; 100nF, 10%, 50V, X7R preserved",C49678,Basic
+C27,100n,Yageo,CC0805KRX7R9BB104,Tester:C_0805_2012Metric,YES,"Use specified capacitance, voltage and dielectric | JLC: Basic; 100nF, 10%, 50V, X7R preserved",C49678,Basic
+C28,470p,Fenghua,0805B471K500NT,Tester:C_0805_2012Metric,YES,"470pF +/-10%, 50V X7R; Rev B filter requalified in behavioral shutdown model at 600pF",C1743,Basic
+C29,100n,Yageo,CC0805KRX7R9BB104,Tester:C_0805_2012Metric,YES,"Use specified capacitance, voltage and dielectric | JLC: Basic; 100nF, 10%, 50V, X7R preserved",C49678,Basic
+C30,100n,Yageo,CC0805KRX7R9BB104,Tester:C_0805_2012Metric,YES,"Use specified capacitance, voltage and dielectric | JLC: Basic; 100nF, 10%, 50V, X7R preserved",C49678,Basic

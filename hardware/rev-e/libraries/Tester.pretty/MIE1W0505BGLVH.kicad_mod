@@ -1,0 +1,281 @@
+(footprint "MIE1W0505BGLVH"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "MPS MIE1W0505BGLVH LGA12 4x5mm; Rev1.0 p16 lands; pin1 upper left")
+	(property "Reference" "U7"
+		(at 0 -3.5 0)
+		(layer "F.Fab")
+		(uuid "2056a93b-41fa-446c-94ab-85da9b9fa3b3")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.12)
+			)
+		)
+	)
+	(property "Value" "MIE1W0505BGLVH"
+		(at 0 3.5 0)
+		(layer "F.Fab")
+		(uuid "68aa5007-811f-4679-8c3a-a34d9fa6d3b2")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.12)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "6e4c3429-134d-45fe-b399-6abab07d3cad")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "18ca0d07-40f7-4901-a301-0baaf133773e")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_circle
+		(center -1.5 -1.2)
+		(end -1.3 -1.2)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "3daa044d-0c6f-42b0-8674-217464842be1")
+	)
+	(fp_rect
+		(start -2.25 -2.75)
+		(end 2.25 2.75)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "a861eeed-2100-407a-8d2c-259c87016dd0")
+	)
+	(fp_rect
+		(start -2 -2.5)
+		(end 2 2.5)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "e57f6615-0076-4deb-b843-31358e8b3b55")
+	)
+	(pad "1" smd rect
+		(at -1.6375 -2.0875)
+		(size 0.575 0.675)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "3b12a3d5-483a-4272-9361-c96e6c5f8e40")
+	)
+	(pad "2" smd rect
+		(at -1.6375 2.0875)
+		(size 0.575 0.675)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "4f1fd2c4-e546-41be-a350-93e4ece32e4e")
+	)
+	(pad "3" smd custom
+		(at -0.825 2.0875)
+		(size 0.1 0.1)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(options
+			(clearance outline)
+			(anchor rect)
+		)
+		(primitives
+			(gr_poly
+				(pts
+					(xy -0.225 0.3375) (xy 0.075 0.3375) (xy 0.075 0.2125) (xy 0.225 0.2125) (xy 0.225 -0.3375) (xy -0.225 -0.3375)
+				)
+				(width 0)
+				(fill yes)
+			)
+		)
+		(uuid "4b656953-d9fb-49aa-b929-f03345caeeeb")
+	)
+	(pad "4" smd custom
+		(at -0.375 2.0875)
+		(size 0.1 0.1)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(options
+			(clearance outline)
+			(anchor rect)
+		)
+		(primitives
+			(gr_poly
+				(pts
+					(xy 0.225 0.3375) (xy -0.075 0.3375) (xy -0.075 0.2125) (xy -0.225 0.2125) (xy -0.225 -0.3375)
+					(xy 0.225 -0.3375)
+				)
+				(width 0)
+				(fill yes)
+			)
+		)
+		(uuid "b74c4dd1-f495-4f08-a47b-7a9d24e01f24")
+	)
+	(pad "5" smd custom
+		(at 0.375 2.0875)
+		(size 0.1 0.1)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(options
+			(clearance outline)
+			(anchor rect)
+		)
+		(primitives
+			(gr_poly
+				(pts
+					(xy -0.225 0.3375) (xy 0.075 0.3375) (xy 0.075 0.2125) (xy 0.225 0.2125) (xy 0.225 -0.3375) (xy -0.225 -0.3375)
+				)
+				(width 0)
+				(fill yes)
+			)
+		)
+		(uuid "c77b3c8b-5295-4732-be55-9dcb5b4b02b5")
+	)
+	(pad "6" smd custom
+		(at 0.825 2.0875)
+		(size 0.1 0.1)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(options
+			(clearance outline)
+			(anchor rect)
+		)
+		(primitives
+			(gr_poly
+				(pts
+					(xy 0.225 0.3375) (xy -0.075 0.3375) (xy -0.075 0.2125) (xy -0.225 0.2125) (xy -0.225 -0.3375)
+					(xy 0.225 -0.3375)
+				)
+				(width 0)
+				(fill yes)
+			)
+		)
+		(uuid "d8373aec-6b3f-48ab-9956-013e1390add8")
+	)
+	(pad "7" smd rect
+		(at 1.6375 2.0875)
+		(size 0.575 0.675)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "11b17382-022f-45a6-986a-314723cbfd44")
+	)
+	(pad "8" smd rect
+		(at 1.6375 -2.0875)
+		(size 0.575 0.675)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "74af0be1-195a-4654-b9c6-49ecd5966d80")
+	)
+	(pad "9" smd custom
+		(at 0.825 -2.0875)
+		(size 0.1 0.1)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(options
+			(clearance outline)
+			(anchor rect)
+		)
+		(primitives
+			(gr_poly
+				(pts
+					(xy 0.225 -0.3375) (xy -0.075 -0.3375) (xy -0.075 -0.2125) (xy -0.225 -0.2125) (xy -0.225 0.3375)
+					(xy 0.225 0.3375)
+				)
+				(width 0)
+				(fill yes)
+			)
+		)
+		(uuid "a4a2adcd-6e32-4f7a-8f80-99ac180379f4")
+	)
+	(pad "10" smd custom
+		(at 0.375 -2.0875)
+		(size 0.1 0.1)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(options
+			(clearance outline)
+			(anchor rect)
+		)
+		(primitives
+			(gr_poly
+				(pts
+					(xy -0.225 -0.3375) (xy 0.075 -0.3375) (xy 0.075 -0.2125) (xy 0.225 -0.2125) (xy 0.225 0.3375)
+					(xy -0.225 0.3375)
+				)
+				(width 0)
+				(fill yes)
+			)
+		)
+		(uuid "399e5f85-760f-4d62-baf5-359ce6939862")
+	)
+	(pad "11" smd custom
+		(at -0.375 -2.0875)
+		(size 0.1 0.1)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(options
+			(clearance outline)
+			(anchor rect)
+		)
+		(primitives
+			(gr_poly
+				(pts
+					(xy 0.225 -0.3375) (xy -0.075 -0.3375) (xy -0.075 -0.2125) (xy -0.225 -0.2125) (xy -0.225 0.3375)
+					(xy 0.225 0.3375)
+				)
+				(width 0)
+				(fill yes)
+			)
+		)
+		(uuid "8c93a943-f18e-4287-9f1d-af1c5346a314")
+	)
+	(pad "12" smd custom
+		(at -0.825 -2.0875)
+		(size 0.1 0.1)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(options
+			(clearance outline)
+			(anchor rect)
+		)
+		(primitives
+			(gr_poly
+				(pts
+					(xy -0.225 -0.3375) (xy 0.075 -0.3375) (xy 0.075 -0.2125) (xy 0.225 -0.2125) (xy 0.225 0.3375)
+					(xy -0.225 0.3375)
+				)
+				(width 0)
+				(fill yes)
+			)
+		)
+		(uuid "d810b01c-d35c-463c-a281-7bc50919dc8c")
+	)
+	(embedded_fonts no)
+	(model "${KIPRJMOD}/libraries/3d/MIE1W0505BGLVH.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

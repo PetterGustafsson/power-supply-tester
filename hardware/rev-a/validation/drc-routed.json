@@ -1,0 +1,545 @@
+{
+    "$schema": "https://schemas.kicad.org/drc.v1.json",
+    "coordinate_units": "mm",
+    "date": "2026-09-30T11:45:54-0700",
+    "kicad_version": "9.0.6",
+    "schematic_parity": [
+        {
+            "description": "Footprint attributes don't match symbol: 'Exclude from bill of materials' settings differ.",
+            "items": [
+                {
+                    "description": "Footprint TP13",
+                    "pos": {
+                        "x": 6.0,
+                        "y": 62.0
+                    },
+                    "uuid": "5b2daabd-5297-446e-8a05-7cb68108da40"
+                }
+            ],
+            "severity": "warning",
+            "type": "footprint_symbol_mismatch"
+        },
+        {
+            "description": "Footprint attributes don't match symbol: 'Exclude from bill of materials' settings differ.",
+            "items": [
+                {
+                    "description": "Footprint TP14",
+                    "pos": {
+                        "x": 6.0,
+                        "y": 66.0
+                    },
+                    "uuid": "ff59b078-8cd5-4dcc-a195-265647700206"
+                }
+            ],
+            "severity": "warning",
+            "type": "footprint_symbol_mismatch"
+        },
+        {
+            "description": "Footprint attributes don't match symbol: 'Exclude from bill of materials' settings differ.",
+            "items": [
+                {
+                    "description": "Footprint TP15",
+                    "pos": {
+                        "x": 6.0,
+                        "y": 39.0
+                    },
+                    "uuid": "60c2ad88-9284-482a-9015-7ef71a315a12"
+                }
+            ],
+            "severity": "warning",
+            "type": "footprint_symbol_mismatch"
+        },
+        {
+            "description": "Footprint attributes don't match symbol: 'Exclude from bill of materials' settings differ.",
+            "items": [
+                {
+                    "description": "Footprint TP16",
+                    "pos": {
+                        "x": 26.0,
+                        "y": 5.0
+                    },
+                    "uuid": "10aaba20-91e0-4bbb-a7a3-a59d74a7f494"
+                }
+            ],
+            "severity": "warning",
+            "type": "footprint_symbol_mismatch"
+        },
+        {
+            "description": "Footprint attributes don't match symbol: 'Exclude from bill of materials' settings differ.",
+            "items": [
+                {
+                    "description": "Footprint TP17",
+                    "pos": {
+                        "x": 38.0,
+                        "y": 5.0
+                    },
+                    "uuid": "ec231694-82e6-4cb8-abc5-c888d1617473"
+                }
+            ],
+            "severity": "warning",
+            "type": "footprint_symbol_mismatch"
+        },
+        {
+            "description": "Footprint attributes don't match symbol: 'Exclude from bill of materials' settings differ.",
+            "items": [
+                {
+                    "description": "Footprint TP18",
+                    "pos": {
+                        "x": 85.0,
+                        "y": 18.0
+                    },
+                    "uuid": "5ff79faf-9428-4fcb-823c-85956dc8fad5"
+                }
+            ],
+            "severity": "warning",
+            "type": "footprint_symbol_mismatch"
+        },
+        {
+            "description": "Footprint attributes don't match symbol: 'Exclude from bill of materials' settings differ.",
+            "items": [
+                {
+                    "description": "Footprint TP19",
+                    "pos": {
+                        "x": 60.0,
+                        "y": 18.0
+                    },
+                    "uuid": "cb4de41d-e911-4091-83f8-1e9eb4332744"
+                }
+            ],
+            "severity": "warning",
+            "type": "footprint_symbol_mismatch"
+        },
+        {
+            "description": "Footprint attributes don't match symbol: 'Exclude from bill of materials' settings differ.",
+            "items": [
+                {
+                    "description": "Footprint TP20",
+                    "pos": {
+                        "x": 78.0,
+                        "y": 18.0
+                    },
+                    "uuid": "afede869-86c1-4614-a4fa-4611ab499c34"
+                }
+            ],
+            "severity": "warning",
+            "type": "footprint_symbol_mismatch"
+        },
+        {
+            "description": "Footprint attributes don't match symbol: 'Exclude from bill of materials' settings differ.",
+            "items": [
+                {
+                    "description": "Footprint TP21",
+                    "pos": {
+                        "x": 85.0,
+                        "y": 25.0
+                    },
+                    "uuid": "048f32fb-655b-41ce-a396-0987f68ca4a1"
+                }
+            ],
+            "severity": "warning",
+            "type": "footprint_symbol_mismatch"
+        },
+        {
+            "description": "Footprint attributes don't match symbol: 'Exclude from bill of materials' settings differ.",
+            "items": [
+                {
+                    "description": "Footprint TP22",
+                    "pos": {
+                        "x": 85.0,
+                        "y": 29.0
+                    },
+                    "uuid": "a66c6661-4cdf-4768-acf0-9e662dcb1868"
+                }
+            ],
+            "severity": "warning",
+            "type": "footprint_symbol_mismatch"
+        },
+        {
+            "description": "Pad missing net given by schematic (unconnected-(U7-DNC-Pad10)).",
+            "items": [
+                {
+                    "description": "Pad 10 [<no net>] of U7 on F.Cu",
+                    "pos": {
+                        "x": 20.7,
+                        "y": 14.175
+                    },
+                    "uuid": "211e3553-e768-4df5-acb6-c3507763181b"
+                }
+            ],
+            "severity": "warning",
+            "type": "net_conflict"
+        },
+        {
+            "description": "Pad missing net given by schematic (unconnected-(U9-NC-Pad4)).",
+            "items": [
+                {
+                    "description": "Pad 4 [<no net>] of U9 on F.Cu",
+                    "pos": {
+                        "x": 34.1375,
+                        "y": 10.95
+                    },
+                    "uuid": "24c91674-0390-4430-9516-900a9316457f"
+                }
+            ],
+            "severity": "warning",
+            "type": "net_conflict"
+        },
+        {
+            "description": "Footprint attributes don't match symbol: 'Exclude from bill of materials' settings differ.",
+            "items": [
+                {
+                    "description": "Footprint TP1",
+                    "pos": {
+                        "x": 22.5,
+                        "y": 40.5
+                    },
+                    "uuid": "ab7ee472-3724-4d32-acf4-ae46fef36e34"
+                }
+            ],
+            "severity": "warning",
+            "type": "footprint_symbol_mismatch"
+        },
+        {
+            "description": "Footprint attributes don't match symbol: 'Exclude from bill of materials' settings differ.",
+            "items": [
+                {
+                    "description": "Footprint TP2",
+                    "pos": {
+                        "x": 27.5,
+                        "y": 40.5
+                    },
+                    "uuid": "e326cfc0-685d-405b-a443-54d6f84825a4"
+                }
+            ],
+            "severity": "warning",
+            "type": "footprint_symbol_mismatch"
+        },
+        {
+            "description": "Footprint attributes don't match symbol: 'Exclude from bill of materials' settings differ.",
+            "items": [
+                {
+                    "description": "Footprint TP3",
+                    "pos": {
+                        "x": 32.5,
+                        "y": 40.5
+                    },
+                    "uuid": "06750b86-59a2-41b0-b0f4-5717836dabb3"
+                }
+            ],
+            "severity": "warning",
+            "type": "footprint_symbol_mismatch"
+        },
+        {
+            "description": "Footprint attributes don't match symbol: 'Exclude from bill of materials' settings differ.",
+            "items": [
+                {
+                    "description": "Footprint TP4",
+                    "pos": {
+                        "x": 37.5,
+                        "y": 40.5
+                    },
+                    "uuid": "d42fb852-aa5c-45e4-9617-35fec86b0a00"
+                }
+            ],
+            "severity": "warning",
+            "type": "footprint_symbol_mismatch"
+        },
+        {
+            "description": "Pad missing net given by schematic (unconnected-(U1-ALERT_RDY-Pad2)).",
+            "items": [
+                {
+                    "description": "Pad 2 [<no net>] of U1 on F.Cu",
+                    "pos": {
+                        "x": 27.85,
+                        "y": 24.5
+                    },
+                    "uuid": "491f0573-9810-4375-845f-b54da1bfc945"
+                }
+            ],
+            "severity": "warning",
+            "type": "net_conflict"
+        },
+        {
+            "description": "Pad missing net given by schematic (unconnected-(U4-NC-Pad12)).",
+            "items": [
+                {
+                    "description": "Pad 12 [<no net>] of U4 on F.Cu",
+                    "pos": {
+                        "x": 32.8625,
+                        "y": 45.825
+                    },
+                    "uuid": "6dd0445b-f757-4dfe-ae8f-87bf739c9de1"
+                }
+            ],
+            "severity": "warning",
+            "type": "net_conflict"
+        },
+        {
+            "description": "Footprint attributes don't match symbol: 'Exclude from bill of materials' settings differ.",
+            "items": [
+                {
+                    "description": "Footprint TP5",
+                    "pos": {
+                        "x": 44.5,
+                        "y": 40.5
+                    },
+                    "uuid": "20e2d35f-7da2-4551-aba5-5e9d08d16f7f"
+                }
+            ],
+            "severity": "warning",
+            "type": "footprint_symbol_mismatch"
+        },
+        {
+            "description": "Footprint attributes don't match symbol: 'Exclude from bill of materials' settings differ.",
+            "items": [
+                {
+                    "description": "Footprint TP6",
+                    "pos": {
+                        "x": 49.5,
+                        "y": 40.5
+                    },
+                    "uuid": "e53d4620-a349-445c-a529-f373831678c5"
+                }
+            ],
+            "severity": "warning",
+            "type": "footprint_symbol_mismatch"
+        },
+        {
+            "description": "Footprint attributes don't match symbol: 'Exclude from bill of materials' settings differ.",
+            "items": [
+                {
+                    "description": "Footprint TP7",
+                    "pos": {
+                        "x": 54.5,
+                        "y": 40.5
+                    },
+                    "uuid": "39aaa50f-430a-43ef-b646-292ab023dc52"
+                }
+            ],
+            "severity": "warning",
+            "type": "footprint_symbol_mismatch"
+        },
+        {
+            "description": "Footprint attributes don't match symbol: 'Exclude from bill of materials' settings differ.",
+            "items": [
+                {
+                    "description": "Footprint TP8",
+                    "pos": {
+                        "x": 59.5,
+                        "y": 40.5
+                    },
+                    "uuid": "d8311316-7608-4686-988d-5212fcbcd8cf"
+                }
+            ],
+            "severity": "warning",
+            "type": "footprint_symbol_mismatch"
+        },
+        {
+            "description": "Pad missing net given by schematic (unconnected-(U2-ALERT_RDY-Pad2)).",
+            "items": [
+                {
+                    "description": "Pad 2 [<no net>] of U2 on F.Cu",
+                    "pos": {
+                        "x": 49.85,
+                        "y": 24.5
+                    },
+                    "uuid": "74a65ba2-3c65-429e-b598-b702c1f0cae5"
+                }
+            ],
+            "severity": "warning",
+            "type": "net_conflict"
+        },
+        {
+            "description": "Pad missing net given by schematic (unconnected-(U5-NC-Pad12)).",
+            "items": [
+                {
+                    "description": "Pad 12 [<no net>] of U5 on F.Cu",
+                    "pos": {
+                        "x": 54.8625,
+                        "y": 45.825
+                    },
+                    "uuid": "d905f16a-eae2-4954-8e69-1b7d322ee8f4"
+                }
+            ],
+            "severity": "warning",
+            "type": "net_conflict"
+        },
+        {
+            "description": "Footprint attributes don't match symbol: 'Exclude from bill of materials' settings differ.",
+            "items": [
+                {
+                    "description": "Footprint TP9",
+                    "pos": {
+                        "x": 66.5,
+                        "y": 40.5
+                    },
+                    "uuid": "04c94b48-ddb3-4fad-acbb-9df7e6297507"
+                }
+            ],
+            "severity": "warning",
+            "type": "footprint_symbol_mismatch"
+        },
+        {
+            "description": "Footprint attributes don't match symbol: 'Exclude from bill of materials' settings differ.",
+            "items": [
+                {
+                    "description": "Footprint TP10",
+                    "pos": {
+                        "x": 71.5,
+                        "y": 40.5
+                    },
+                    "uuid": "f7111a9e-1cda-4136-bd41-e315690d7fb1"
+                }
+            ],
+            "severity": "warning",
+            "type": "footprint_symbol_mismatch"
+        },
+        {
+            "description": "Footprint attributes don't match symbol: 'Exclude from bill of materials' settings differ.",
+            "items": [
+                {
+                    "description": "Footprint TP11",
+                    "pos": {
+                        "x": 76.5,
+                        "y": 40.5
+                    },
+                    "uuid": "bcd35aae-efd5-4474-b788-4a889644f52c"
+                }
+            ],
+            "severity": "warning",
+            "type": "footprint_symbol_mismatch"
+        },
+        {
+            "description": "Footprint attributes don't match symbol: 'Exclude from bill of materials' settings differ.",
+            "items": [
+                {
+                    "description": "Footprint TP12",
+                    "pos": {
+                        "x": 81.5,
+                        "y": 40.5
+                    },
+                    "uuid": "abfcc8d1-6f74-417e-973d-d68fa53329f6"
+                }
+            ],
+            "severity": "warning",
+            "type": "footprint_symbol_mismatch"
+        },
+        {
+            "description": "Pad missing net given by schematic (unconnected-(U3-ALERT_RDY-Pad2)).",
+            "items": [
+                {
+                    "description": "Pad 2 [<no net>] of U3 on F.Cu",
+                    "pos": {
+                        "x": 71.85,
+                        "y": 24.5
+                    },
+                    "uuid": "cee845bb-07bd-4652-94eb-f434d6974b1b"
+                }
+            ],
+            "severity": "warning",
+            "type": "net_conflict"
+        },
+        {
+            "description": "Pad missing net given by schematic (unconnected-(U6-NC-Pad12)).",
+            "items": [
+                {
+                    "description": "Pad 12 [<no net>] of U6 on F.Cu",
+                    "pos": {
+                        "x": 76.8625,
+                        "y": 45.825
+                    },
+                    "uuid": "83da5971-5105-42ca-92c2-ad43637b9094"
+                }
+            ],
+            "severity": "warning",
+            "type": "net_conflict"
+        },
+        {
+            "description": "Extra footprint",
+            "items": [
+                {
+                    "description": "Footprint H1",
+                    "pos": {
+                        "x": 3.0,
+                        "y": 3.0
+                    },
+                    "uuid": "49dc4f6b-0625-4684-a7c2-02aa0fda58e0"
+                }
+            ],
+            "severity": "warning",
+            "type": "extra_footprint"
+        },
+        {
+            "description": "Extra footprint",
+            "items": [
+                {
+                    "description": "Footprint H2",
+                    "pos": {
+                        "x": 87.0,
+                        "y": 3.0
+                    },
+                    "uuid": "64a3e8ad-0602-41e0-af52-82d2435142db"
+                }
+            ],
+            "severity": "warning",
+            "type": "extra_footprint"
+        },
+        {
+            "description": "Extra footprint",
+            "items": [
+                {
+                    "description": "Footprint H4",
+                    "pos": {
+                        "x": 87.0,
+                        "y": 77.0
+                    },
+                    "uuid": "6aaf35c4-f758-4dfd-99e5-0a8419ab1127"
+                }
+            ],
+            "severity": "warning",
+            "type": "extra_footprint"
+        },
+        {
+            "description": "Extra footprint",
+            "items": [
+                {
+                    "description": "Footprint H3",
+                    "pos": {
+                        "x": 3.0,
+                        "y": 77.0
+                    },
+                    "uuid": "7f3b5d68-4e61-4bd6-a989-f806843791fb"
+                }
+            ],
+            "severity": "warning",
+            "type": "extra_footprint"
+        }
+    ],
+    "source": "tester12v.kicad_pcb",
+    "unconnected_items": [
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Track [A4] on F.Cu, length 0.5397 mm",
+                    "pos": {
+                        "x": 31.8703,
+                        "y": 37.0
+                    },
+                    "uuid": "00650ff1-ee34-4b06-9da1-2b826af6cc62"
+                },
+                {
+                    "description": "Pad 7 [A4] of U4 on F.Cu",
+                    "pos": {
+                        "x": 27.1375,
+                        "y": 47.125
+                    },
+                    "uuid": "e8977968-59d2-4bbc-8f1e-4e0ed736ebbb"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        }
+    ],
+    "violations": []
+}

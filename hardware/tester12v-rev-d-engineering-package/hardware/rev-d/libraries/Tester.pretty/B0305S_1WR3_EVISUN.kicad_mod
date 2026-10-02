@@ -1,0 +1,218 @@
+(footprint "B0305S_1WR3_EVISUN"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "EVISUN B_S-1WR3 V1.0 p4. Pin1=-VIN,2=+VIN,3=-VOUT,4=+VOUT; pin1 origin; 1mm drills; 2.54mm pitch.")
+	(property "Reference" ""
+		(at 3.81 -6.2 0)
+		(layer "F.SilkS")
+		(uuid "5d5256d0-adcf-43ce-8fa5-f1c306a29af3")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" ""
+		(at 3.81 2.5 0)
+		(layer "F.Fab")
+		(uuid "59b1b0db-3ced-4a81-b67f-bfbd2259f8d4")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "0090ccbf-406a-430a-b27e-bfcda8526ea2")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "0a4d7f2b-86e6-43b3-b54c-61aef901d6d5")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start -2.13 -5.2)
+		(end 9.75 -5.2)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "f7d3eaa3-eb91-49ba-b582-fd0b7a477217")
+	)
+	(fp_line
+		(start -2.13 1.1)
+		(end -2.13 -5.2)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "8f06a0ba-6f77-4601-819b-501a4563d182")
+	)
+	(fp_line
+		(start -1.3 0.9)
+		(end -1.3 -0.2)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "f36f7ea4-c048-45da-8617-fbd6e3c1c751")
+	)
+	(fp_line
+		(start 9.75 -5.2)
+		(end 9.75 1.1)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "161df598-0974-4766-bc2e-096a0c6a9ab6")
+	)
+	(fp_line
+		(start 9.75 1.1)
+		(end -2.13 1.1)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "3fca99fb-f86d-43ea-9fec-2736ece925c4")
+	)
+	(fp_line
+		(start -2.53 -5.6)
+		(end 10.15 -5.6)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "43be6240-4e50-4157-ba83-aea17b5f9da3")
+	)
+	(fp_line
+		(start -2.53 1.6)
+		(end -2.53 -5.6)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "056d7d55-ff9e-4d47-9c25-e855bd27c76f")
+	)
+	(fp_line
+		(start 10.15 -5.6)
+		(end 10.15 1.6)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "a1824815-f070-4844-a192-6808a0e6f82f")
+	)
+	(fp_line
+		(start 10.15 1.6)
+		(end -2.53 1.6)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "3dd7e8e7-0617-4d05-8318-70fa40015cb6")
+	)
+	(fp_line
+		(start -2.029999 -5.1)
+		(end 9.65 -5.1)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "1edb3b45-b08a-496a-93b1-37c7d8b2f6fd")
+	)
+	(fp_line
+		(start -2.029999 0.9)
+		(end -2.029999 -5.1)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "62101175-8c2c-4c05-8e1d-d93f83d89134")
+	)
+	(fp_line
+		(start 9.65 -5.1)
+		(end 9.65 0.9)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "4a96d897-e1ed-499e-8b26-a6ef16eb685f")
+	)
+	(fp_line
+		(start 9.65 0.9)
+		(end -2.029999 0.9)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "27aaf44f-e69b-4f4d-9996-b129523f5767")
+	)
+	(pad "1" thru_hole rect
+		(at 0 0)
+		(size 1.7 1.7)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(thermal_bridge_angle 45)
+		(uuid "a1489ce3-2180-4177-8d98-b0546fdc7570")
+	)
+	(pad "2" thru_hole circle
+		(at 2.54 0)
+		(size 1.7 1.7)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "4eb13e58-d56c-4d15-aecc-1791978f6c0a")
+	)
+	(pad "3" thru_hole circle
+		(at 5.08 0)
+		(size 1.7 1.7)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "4695d876-d566-4413-81f5-452a393acf21")
+	)
+	(pad "4" thru_hole circle
+		(at 7.62 0)
+		(size 1.7 1.7)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "7f70c30f-b67c-45d5-b3c0-4c1f74682135")
+	)
+	(embedded_fonts no)
+)

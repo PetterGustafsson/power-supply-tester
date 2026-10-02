@@ -1,0 +1,576 @@
+{
+  "status": "PASS_NORMAL_SLEW_MODEL",
+  "cases": [
+    {
+      "case": "0V-pair-1us",
+      "fall_us": 1.0,
+      "min_ADC_V": 0.0,
+      "max_ADC_above_rail_V": 0.629751293,
+      "within_absolute_voltage_limits": false
+    },
+    {
+      "case": "0V-pair-10us",
+      "fall_us": 10.0,
+      "min_ADC_V": 0.0,
+      "max_ADC_above_rail_V": 0.485555799,
+      "within_absolute_voltage_limits": false
+    },
+    {
+      "case": "0V-pair-100us",
+      "fall_us": 100.0,
+      "min_ADC_V": 0.0,
+      "max_ADC_above_rail_V": 0.10486171,
+      "within_absolute_voltage_limits": true
+    },
+    {
+      "case": "0V-pair-1000us",
+      "fall_us": 1000.0,
+      "min_ADC_V": 0.0,
+      "max_ADC_above_rail_V": 0.0105074305,
+      "within_absolute_voltage_limits": true
+    },
+    {
+      "case": "0V-positive_single-1us",
+      "fall_us": 1.0,
+      "min_ADC_V": 0.0,
+      "max_ADC_above_rail_V": 0.629482947,
+      "within_absolute_voltage_limits": false
+    },
+    {
+      "case": "0V-positive_single-10us",
+      "fall_us": 10.0,
+      "min_ADC_V": 0.0,
+      "max_ADC_above_rail_V": 0.485291572,
+      "within_absolute_voltage_limits": false
+    },
+    {
+      "case": "0V-positive_single-100us",
+      "fall_us": 100.0,
+      "min_ADC_V": 0.0,
+      "max_ADC_above_rail_V": 0.104762184,
+      "within_absolute_voltage_limits": true
+    },
+    {
+      "case": "0V-positive_single-1000us",
+      "fall_us": 1000.0,
+      "min_ADC_V": 0.0,
+      "max_ADC_above_rail_V": 0.010497379,
+      "within_absolute_voltage_limits": true
+    },
+    {
+      "case": "0V-negative_single-1us",
+      "fall_us": 1.0,
+      "min_ADC_V": 0.0,
+      "max_ADC_above_rail_V": 0.629482947,
+      "within_absolute_voltage_limits": false
+    },
+    {
+      "case": "0V-negative_single-10us",
+      "fall_us": 10.0,
+      "min_ADC_V": 0.0,
+      "max_ADC_above_rail_V": 0.485291572,
+      "within_absolute_voltage_limits": false
+    },
+    {
+      "case": "0V-negative_single-100us",
+      "fall_us": 100.0,
+      "min_ADC_V": 0.0,
+      "max_ADC_above_rail_V": 0.104762184,
+      "within_absolute_voltage_limits": true
+    },
+    {
+      "case": "0V-negative_single-1000us",
+      "fall_us": 1000.0,
+      "min_ADC_V": 0.0,
+      "max_ADC_above_rail_V": 0.010497379,
+      "within_absolute_voltage_limits": true
+    },
+    {
+      "case": "0V-eleven_positive-1us",
+      "fall_us": 1.0,
+      "min_ADC_V": 0.0,
+      "max_ADC_above_rail_V": 0.629751293,
+      "within_absolute_voltage_limits": false
+    },
+    {
+      "case": "0V-eleven_positive-10us",
+      "fall_us": 10.0,
+      "min_ADC_V": 0.0,
+      "max_ADC_above_rail_V": 0.485555799,
+      "within_absolute_voltage_limits": false
+    },
+    {
+      "case": "0V-eleven_positive-100us",
+      "fall_us": 100.0,
+      "min_ADC_V": 0.0,
+      "max_ADC_above_rail_V": 0.10486171,
+      "within_absolute_voltage_limits": true
+    },
+    {
+      "case": "0V-eleven_positive-1000us",
+      "fall_us": 1000.0,
+      "min_ADC_V": 0.0,
+      "max_ADC_above_rail_V": 0.0105074305,
+      "within_absolute_voltage_limits": true
+    },
+    {
+      "case": "0V-eleven_return-1us",
+      "fall_us": 1.0,
+      "min_ADC_V": 0.0,
+      "max_ADC_above_rail_V": 0.629751293,
+      "within_absolute_voltage_limits": false
+    },
+    {
+      "case": "0V-eleven_return-10us",
+      "fall_us": 10.0,
+      "min_ADC_V": 0.0,
+      "max_ADC_above_rail_V": 0.485555799,
+      "within_absolute_voltage_limits": false
+    },
+    {
+      "case": "0V-eleven_return-100us",
+      "fall_us": 100.0,
+      "min_ADC_V": 0.0,
+      "max_ADC_above_rail_V": 0.10486171,
+      "within_absolute_voltage_limits": true
+    },
+    {
+      "case": "0V-eleven_return-1000us",
+      "fall_us": 1000.0,
+      "min_ADC_V": 0.0,
+      "max_ADC_above_rail_V": 0.0105074305,
+      "within_absolute_voltage_limits": true
+    },
+    {
+      "case": "12V-pair-1us",
+      "fall_us": 1.0,
+      "min_ADC_V": -0.0143504436,
+      "max_ADC_above_rail_V": 0.644101734,
+      "within_absolute_voltage_limits": false
+    },
+    {
+      "case": "12V-pair-10us",
+      "fall_us": 10.0,
+      "min_ADC_V": -0.0143504436,
+      "max_ADC_above_rail_V": 0.49990624,
+      "within_absolute_voltage_limits": false
+    },
+    {
+      "case": "12V-pair-100us",
+      "fall_us": 100.0,
+      "min_ADC_V": -0.0143504436,
+      "max_ADC_above_rail_V": 0.119212153,
+      "within_absolute_voltage_limits": true
+    },
+    {
+      "case": "12V-pair-1000us",
+      "fall_us": 1000.0,
+      "min_ADC_V": -0.0143504436,
+      "max_ADC_above_rail_V": 0.0248578741,
+      "within_absolute_voltage_limits": true
+    },
+    {
+      "case": "12V-positive_single-1us",
+      "fall_us": 1.0,
+      "min_ADC_V": 0.00501536331,
+      "max_ADC_above_rail_V": 0.661653936,
+      "within_absolute_voltage_limits": false
+    },
+    {
+      "case": "12V-positive_single-10us",
+      "fall_us": 10.0,
+      "min_ADC_V": 0.00501536331,
+      "max_ADC_above_rail_V": 0.517631593,
+      "within_absolute_voltage_limits": false
+    },
+    {
+      "case": "12V-positive_single-100us",
+      "fall_us": 100.0,
+      "min_ADC_V": 0.00501536331,
+      "max_ADC_above_rail_V": 0.138143393,
+      "within_absolute_voltage_limits": true
+    },
+    {
+      "case": "12V-positive_single-1000us",
+      "fall_us": 1000.0,
+      "min_ADC_V": 0.00501536331,
+      "max_ADC_above_rail_V": 0.0441692577,
+      "within_absolute_voltage_limits": true
+    },
+    {
+      "case": "12V-negative_single-1us",
+      "fall_us": 1.0,
+      "min_ADC_V": -0.033704255,
+      "max_ADC_above_rail_V": 0.62446759,
+      "within_absolute_voltage_limits": false
+    },
+    {
+      "case": "12V-negative_single-10us",
+      "fall_us": 10.0,
+      "min_ADC_V": -0.033704255,
+      "max_ADC_above_rail_V": 0.480276209,
+      "within_absolute_voltage_limits": false
+    },
+    {
+      "case": "12V-negative_single-100us",
+      "fall_us": 100.0,
+      "min_ADC_V": -0.033704255,
+      "max_ADC_above_rail_V": 0.0997468206,
+      "within_absolute_voltage_limits": true
+    },
+    {
+      "case": "12V-negative_single-1000us",
+      "fall_us": 1000.0,
+      "min_ADC_V": -0.033704255,
+      "max_ADC_above_rail_V": 0.00548201567,
+      "within_absolute_voltage_limits": true
+    },
+    {
+      "case": "12V-eleven_positive-1us",
+      "fall_us": 1.0,
+      "min_ADC_V": -0.0263091466,
+      "max_ADC_above_rail_V": 0.632143031,
+      "within_absolute_voltage_limits": false
+    },
+    {
+      "case": "12V-eleven_positive-10us",
+      "fall_us": 10.0,
+      "min_ADC_V": -0.0263091466,
+      "max_ADC_above_rail_V": 0.487947537,
+      "within_absolute_voltage_limits": false
+    },
+    {
+      "case": "12V-eleven_positive-100us",
+      "fall_us": 100.0,
+      "min_ADC_V": -0.0263091466,
+      "max_ADC_above_rail_V": 0.10725345,
+      "within_absolute_voltage_limits": true
+    },
+    {
+      "case": "12V-eleven_positive-1000us",
+      "fall_us": 1000.0,
+      "min_ADC_V": -0.0263091466,
+      "max_ADC_above_rail_V": 0.0128991711,
+      "within_absolute_voltage_limits": true
+    },
+    {
+      "case": "12V-eleven_return-1us",
+      "fall_us": 1.0,
+      "min_ADC_V": -0.0023917406,
+      "max_ADC_above_rail_V": 0.656060437,
+      "within_absolute_voltage_limits": false
+    },
+    {
+      "case": "12V-eleven_return-10us",
+      "fall_us": 10.0,
+      "min_ADC_V": -0.0023917406,
+      "max_ADC_above_rail_V": 0.511864943,
+      "within_absolute_voltage_limits": false
+    },
+    {
+      "case": "12V-eleven_return-100us",
+      "fall_us": 100.0,
+      "min_ADC_V": -0.0023917406,
+      "max_ADC_above_rail_V": 0.131170856,
+      "within_absolute_voltage_limits": true
+    },
+    {
+      "case": "12V-eleven_return-1000us",
+      "fall_us": 1000.0,
+      "min_ADC_V": -0.0023917406,
+      "max_ADC_above_rail_V": 0.036816577,
+      "within_absolute_voltage_limits": true
+    },
+    {
+      "case": "18V-pair-1us",
+      "fall_us": 1.0,
+      "min_ADC_V": -0.0215256654,
+      "max_ADC_above_rail_V": 0.651276955,
+      "within_absolute_voltage_limits": false
+    },
+    {
+      "case": "18V-pair-10us",
+      "fall_us": 10.0,
+      "min_ADC_V": -0.0215256654,
+      "max_ADC_above_rail_V": 0.507081462,
+      "within_absolute_voltage_limits": false
+    },
+    {
+      "case": "18V-pair-100us",
+      "fall_us": 100.0,
+      "min_ADC_V": -0.0215256654,
+      "max_ADC_above_rail_V": 0.126387375,
+      "within_absolute_voltage_limits": true
+    },
+    {
+      "case": "18V-pair-1000us",
+      "fall_us": 1000.0,
+      "min_ADC_V": -0.0215256654,
+      "max_ADC_above_rail_V": 0.0320330959,
+      "within_absolute_voltage_limits": true
+    },
+    {
+      "case": "18V-positive_single-1us",
+      "fall_us": 1.0,
+      "min_ADC_V": 0.00752304496,
+      "max_ADC_above_rail_V": 0.678506061,
+      "within_absolute_voltage_limits": false
+    },
+    {
+      "case": "18V-positive_single-10us",
+      "fall_us": 10.0,
+      "min_ADC_V": 0.00752304496,
+      "max_ADC_above_rail_V": 0.534483721,
+      "within_absolute_voltage_limits": false
+    },
+    {
+      "case": "18V-positive_single-100us",
+      "fall_us": 100.0,
+      "min_ADC_V": 0.00752304496,
+      "max_ADC_above_rail_V": 0.15499552,
+      "within_absolute_voltage_limits": true
+    },
+    {
+      "case": "18V-positive_single-1000us",
+      "fall_us": 1000.0,
+      "min_ADC_V": 0.00752304496,
+      "max_ADC_above_rail_V": 0.0610213852,
+      "within_absolute_voltage_limits": true
+    },
+    {
+      "case": "18V-negative_single-1us",
+      "fall_us": 1.0,
+      "min_ADC_V": -0.0505563826,
+      "max_ADC_above_rail_V": 0.621959911,
+      "within_absolute_voltage_limits": false
+    },
+    {
+      "case": "18V-negative_single-10us",
+      "fall_us": 10.0,
+      "min_ADC_V": -0.0505563826,
+      "max_ADC_above_rail_V": 0.477768527,
+      "within_absolute_voltage_limits": false
+    },
+    {
+      "case": "18V-negative_single-100us",
+      "fall_us": 100.0,
+      "min_ADC_V": -0.0505563826,
+      "max_ADC_above_rail_V": 0.0972391389,
+      "within_absolute_voltage_limits": true
+    },
+    {
+      "case": "18V-negative_single-1000us",
+      "fall_us": 1000.0,
+      "min_ADC_V": -0.0505563826,
+      "max_ADC_above_rail_V": 0.00297433401,
+      "within_absolute_voltage_limits": true
+    },
+    {
+      "case": "18V-eleven_positive-1us",
+      "fall_us": 1.0,
+      "min_ADC_V": -0.0394637199,
+      "max_ADC_above_rail_V": 0.633338901,
+      "within_absolute_voltage_limits": false
+    },
+    {
+      "case": "18V-eleven_positive-10us",
+      "fall_us": 10.0,
+      "min_ADC_V": -0.0394637199,
+      "max_ADC_above_rail_V": 0.489143407,
+      "within_absolute_voltage_limits": false
+    },
+    {
+      "case": "18V-eleven_positive-100us",
+      "fall_us": 100.0,
+      "min_ADC_V": -0.0394637199,
+      "max_ADC_above_rail_V": 0.10844932,
+      "within_absolute_voltage_limits": true
+    },
+    {
+      "case": "18V-eleven_positive-1000us",
+      "fall_us": 1000.0,
+      "min_ADC_V": -0.0394637199,
+      "max_ADC_above_rail_V": 0.0140950414,
+      "within_absolute_voltage_limits": true
+    },
+    {
+      "case": "18V-eleven_return-1us",
+      "fall_us": 1.0,
+      "min_ADC_V": -0.0035876109,
+      "max_ADC_above_rail_V": 0.66921501,
+      "within_absolute_voltage_limits": false
+    },
+    {
+      "case": "18V-eleven_return-10us",
+      "fall_us": 10.0,
+      "min_ADC_V": -0.0035876109,
+      "max_ADC_above_rail_V": 0.525019516,
+      "within_absolute_voltage_limits": false
+    },
+    {
+      "case": "18V-eleven_return-100us",
+      "fall_us": 100.0,
+      "min_ADC_V": -0.0035876109,
+      "max_ADC_above_rail_V": 0.144325429,
+      "within_absolute_voltage_limits": true
+    },
+    {
+      "case": "18V-eleven_return-1000us",
+      "fall_us": 1000.0,
+      "min_ADC_V": -0.0035876109,
+      "max_ADC_above_rail_V": 0.0499711503,
+      "within_absolute_voltage_limits": true
+    },
+    {
+      "case": "48V-pair-1us",
+      "fall_us": 1.0,
+      "min_ADC_V": -0.0574017744,
+      "max_ADC_above_rail_V": 0.687153064,
+      "within_absolute_voltage_limits": false
+    },
+    {
+      "case": "48V-pair-10us",
+      "fall_us": 10.0,
+      "min_ADC_V": -0.0574017744,
+      "max_ADC_above_rail_V": 0.542957571,
+      "within_absolute_voltage_limits": false
+    },
+    {
+      "case": "48V-pair-100us",
+      "fall_us": 100.0,
+      "min_ADC_V": -0.0574017744,
+      "max_ADC_above_rail_V": 0.162263484,
+      "within_absolute_voltage_limits": true
+    },
+    {
+      "case": "48V-pair-1000us",
+      "fall_us": 1000.0,
+      "min_ADC_V": -0.0574017744,
+      "max_ADC_above_rail_V": 0.0679092048,
+      "within_absolute_voltage_limits": true
+    },
+    {
+      "case": "48V-positive_single-1us",
+      "fall_us": 1.0,
+      "min_ADC_V": 0.0200614532,
+      "max_ADC_above_rail_V": 0.762766684,
+      "within_absolute_voltage_limits": false
+    },
+    {
+      "case": "48V-positive_single-10us",
+      "fall_us": 10.0,
+      "min_ADC_V": 0.0200614532,
+      "max_ADC_above_rail_V": 0.618744358,
+      "within_absolute_voltage_limits": false
+    },
+    {
+      "case": "48V-positive_single-100us",
+      "fall_us": 100.0,
+      "min_ADC_V": 0.0200614532,
+      "max_ADC_above_rail_V": 0.239256158,
+      "within_absolute_voltage_limits": true
+    },
+    {
+      "case": "48V-positive_single-1000us",
+      "fall_us": 1000.0,
+      "min_ADC_V": 0.0200614532,
+      "max_ADC_above_rail_V": 0.145282023,
+      "within_absolute_voltage_limits": true
+    },
+    {
+      "case": "48V-negative_single-1us",
+      "fall_us": 1.0,
+      "min_ADC_V": -0.13481702,
+      "max_ADC_above_rail_V": 0.609421516,
+      "within_absolute_voltage_limits": false
+    },
+    {
+      "case": "48V-negative_single-10us",
+      "fall_us": 10.0,
+      "min_ADC_V": -0.13481702,
+      "max_ADC_above_rail_V": 0.465230119,
+      "within_absolute_voltage_limits": false
+    },
+    {
+      "case": "48V-negative_single-100us",
+      "fall_us": 100.0,
+      "min_ADC_V": -0.13481702,
+      "max_ADC_above_rail_V": 0.0847007306,
+      "within_absolute_voltage_limits": true
+    },
+    {
+      "case": "48V-negative_single-1000us",
+      "fall_us": 1000.0,
+      "min_ADC_V": -0.13481702,
+      "max_ADC_above_rail_V": -0.00956407429,
+      "within_absolute_voltage_limits": true
+    },
+    {
+      "case": "48V-eleven_positive-1us",
+      "fall_us": 1.0,
+      "min_ADC_V": -0.105236586,
+      "max_ADC_above_rail_V": 0.639318252,
+      "within_absolute_voltage_limits": false
+    },
+    {
+      "case": "48V-eleven_positive-10us",
+      "fall_us": 10.0,
+      "min_ADC_V": -0.105236586,
+      "max_ADC_above_rail_V": 0.495122759,
+      "within_absolute_voltage_limits": false
+    },
+    {
+      "case": "48V-eleven_positive-100us",
+      "fall_us": 100.0,
+      "min_ADC_V": -0.105236586,
+      "max_ADC_above_rail_V": 0.114428672,
+      "within_absolute_voltage_limits": true
+    },
+    {
+      "case": "48V-eleven_positive-1000us",
+      "fall_us": 1000.0,
+      "min_ADC_V": -0.105236586,
+      "max_ADC_above_rail_V": 0.0200743929,
+      "within_absolute_voltage_limits": true
+    },
+    {
+      "case": "48V-eleven_return-1us",
+      "fall_us": 1.0,
+      "min_ADC_V": -0.00956696239,
+      "max_ADC_above_rail_V": 0.734987876,
+      "within_absolute_voltage_limits": false
+    },
+    {
+      "case": "48V-eleven_return-10us",
+      "fall_us": 10.0,
+      "min_ADC_V": -0.00956696239,
+      "max_ADC_above_rail_V": 0.590792383,
+      "within_absolute_voltage_limits": false
+    },
+    {
+      "case": "48V-eleven_return-100us",
+      "fall_us": 100.0,
+      "min_ADC_V": -0.00956696239,
+      "max_ADC_above_rail_V": 0.210098296,
+      "within_absolute_voltage_limits": true
+    },
+    {
+      "case": "48V-eleven_return-1000us",
+      "fall_us": 1000.0,
+      "min_ADC_V": -0.00956696239,
+      "max_ADC_above_rail_V": 0.115744017,
+      "within_absolute_voltage_limits": true
+    }
+  ],
+  "normal_slew_cases": 40,
+  "normal_slew_all_pass": true,
+  "normal_max_ADC_above_rail_V": 0.239256158,
+  "normal_min_ADC_V": -0.13481702,
+  "assumptions": [
+    "1nF is a conservative assumed envelope for each fitted 470pF capacitor and node parasitics; not measured.",
+    "Minimum 2M series and maximum 4.7k/bias resistor tolerance used.",
+    "100us is the deliberately fast normal rail-collapse model; bulk output capacitor and load should make USB removal slower. Must be measured.",
+    "1us and 10us cases represent abnormal forced rail collapse, not USB removal; failures remain reported.",
+    "No claim of ADC behavior below operating voltage, ESD immunity, 48V survival or physical qualification."
+  ]
+}

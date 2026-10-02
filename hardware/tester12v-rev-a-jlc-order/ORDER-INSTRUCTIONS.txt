@@ -1,0 +1,76 @@
+12 V TESTER REV A — OPTIMIZED JLC ORDER FILES
+Prepared 2026-09-30. Target: 2 assembled prototype boards.
+
+EXTRACT THIS OUTER BUNDLE FIRST.
+Upload its three main files separately in the JLC ordering flow:
+  1. PCB-Gerbers.zip — upload as the bare PCB fabrication data.
+  2. BOM.csv — upload as the assembly bill of materials.
+  3. CPL.csv — upload as the component placement file.
+Do not upload the outer tester12v-rev-a-jlc-order.zip as a Gerber file.
+
+SOURCING REQUIRED BEFORE RELEASING THE ASSEMBLY ORDER
+U7 / RECOM R05C05TE05S-R / C5338283 had zero stock in the 2026-09-30
+JLC check. Its preorder delivery time is unconfirmed. Confirm procurement
+with JLC before payment/release. U7 must be fitted for normal operation;
+do not accept an automatically omitted or generic substitute converter.
+The other 23 unique part types showed sufficient nominal stock for two
+boards at that check. Recheck availability including JLC's attrition
+quantity when matching parts. Nothing is reserved or ordered.
+
+BOARD OPTIONS
+  Dimensions: 90 x 80 mm (from the supplied closed outline)
+  Two layers, FR-4, 1.6 mm, 1 oz outer copper, ENIG
+  Green solder mask, white silkscreen, supplied via-mask openings
+  Separate plated and nonplated drills; four 2.7 mm mounting holes
+  Request manufacturer DFM and bare-board electrical testing
+  Set assembled quantity to 2; choose bare-board quantity in the quote
+  Assembly: top side, 110 SMD parts plus 4 through-hole connectors per PCB
+  Economic assembly is the cost preference if offered for the matched parts
+  and required through-hole service. Confirm the final service and quote.
+
+PART MATCHING
+  Primary BOM: 24 unique JLC codes, 114 fitted components per board.
+  Match using the exact LCSC Part # column. Do not replace protected/precision
+  components with similar names or looser tolerances to obtain stock.
+  U4-U6 use stocked ADG4612BRUZ-REEL7 / C207399 in TSSOP-16.
+  U8 is ISO1640BDR / C5122339, the 8-pin B version.
+  R43/R44 are DNP: absent from BOM/CPL, with no stencil apertures.
+  Test pads and mounting holes are not purchased components.
+  J1-J4 are included in BOM/CPL and require through-hole assembly.
+  The display/controller module and five-wire harness are separate purchases.
+
+PLACEMENT REVIEW
+  CPL units: mm. Top side. X right, Y up, same origin as the Gerbers.
+  Negative Y coordinates are intentional. Do not mirror or scale.
+  J1-J4 coordinates use the F.Fab body centre, not pin 1.
+  Check the JLC assembly preview against reference/assembly.pdf, particularly
+  IC pin 1, D1-D13 cathodes and connector orientation. Rotations are native
+  KiCad rotations; JLC-library corrections have not been checked in an order.
+  Review its part matching, placement and DFM results before payment.
+
+REFERENCE FILES
+  reference/assembly.pdf — actual native PCB assembly locations/pin numbers
+  reference/schematic.pdf — current native schematic
+  reference/front-paste.gtp — stencil with DNP apertures suppressed
+  reference/bom-detailed.csv and bom-grouped.csv — engineering records
+  reference/*-checks.json — file consistency evidence
+  reference/manufacturing-sync.json — original/new physical-data comparison
+  SHA256SUMS.txt — archive content checksums
+
+ONE PRIMARY BOM IS INCLUDED
+The optional cheaper, preorder-only switch variant is kept in the complete
+engineering package, not this handoff. Do not mix BOM variants. This handoff
+uses the previously selected balance of stocked parts and Basic-part fees.
+
+CHECKS AND LIMITATIONS
+  BOM, native schematic, native PCB purchasing fields and CPL agree.
+  114 distinct placements; R43/R44 excluded; no duplicate designators.
+  ERC: 0 violations. DRC: 0 violations, 0 unrouted nets, 0 schematic mismatches.
+  All 356 numbered PCB pads agree with the native schematic netlist.
+  All Gerber, drill and stencil drawing commands match the prior validated
+  design after excluding timestamps. Circuit and routing are unchanged.
+  This remains an unbuilt prototype. Physical bring-up, power sequencing,
+  calibration and all 132 input-pair checks remain required after delivery.
+
+The full editable design, firmware and bench procedure are in
+tester12v-rev-a-complete.zip. Read hardware/rev-a/README.md there.

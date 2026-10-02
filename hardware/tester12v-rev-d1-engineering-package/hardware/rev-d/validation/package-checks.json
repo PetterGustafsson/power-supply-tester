@@ -1,0 +1,17 @@
+{
+  "status": "PASS_ENGINEERING_PACKAGE_CHECKS",
+  "revision": "D1",
+  "board_sha256": "8011bb7de01c3e9c8dff803290bc248e6e59a395053c04083f9b75a73a5895ee",
+  "fitted_components": 89,
+  "bom_skus": 15,
+  "basic_components": 75,
+  "gerber_outline_mm": [
+    86,
+    62
+  ],
+  "physical_validation": false,
+  "jlc_placement_review": false,
+  "jlc_checkout_created": false,
+  "abnormal_forced_rail_collapse_failures": 40,
+  "note": "Normal-slew model passed; forced 1/10us rail-short cases exceed ADC absolute voltage window. Read REPORT.md. Package is not approval to place an order."
+}

@@ -1,0 +1,67 @@
+{
+  "status": "PASS",
+  "prepared_date": "2026-09-30",
+  "circuit_revision": "B",
+  "sourcing_variant": "ADG4612BRUZ C657391 preorder",
+  "upload_files": {
+    "gerbers": "tester12v-REV-B-ADG-PREORDER-Gerbers.zip",
+    "bom": "tester12v-REV-B-ADG-PREORDER-BOM.csv",
+    "cpl": "tester12v-REV-B-ADG-PREORDER-CPL.csv"
+  },
+  "unique_bom_rows": 24,
+  "fitted_parts_per_board": 114,
+  "cpl_rows": 114,
+  "bom_cpl_reference_sets_identical": true,
+  "bom_changed_references": [
+    "U4",
+    "U5",
+    "U6"
+  ],
+  "bom_changed_fields": [
+    "Comment",
+    "LCSC Part #",
+    "Manufacturer Part Number"
+  ],
+  "bom_all_other_rows_unchanged": true,
+  "u7_populated": true,
+  "u7_part": "MIE1W0505BGLVH-3R-Z",
+  "u7_lcsc": "C22419841",
+  "dnp_excluded": [
+    "R43",
+    "R44"
+  ],
+  "cpl_byte_identical_to_released_rev_b": true,
+  "gerber_and_drill_files_byte_identical_to_released_rev_b": true,
+  "fabrication_zip_notes_updated": true,
+  "fabrication_member_sha256": {
+    "tester12v-B_Cu.gbl": "b9f2ace0a23c0d59b33ffabafa97ebf5c98aa0894220054d3db3530cd01b5ddf",
+    "tester12v-B_Mask.gbs": "c76dd90ef3ccd2ee773620699d47f13c2ee0def4f03624dd3795063333418cad",
+    "tester12v-B_Silkscreen.gbo": "998cd82dde0189f237286b59ebe3aff3da4827c970a68419a9fbf54403dc0d0e",
+    "tester12v-Edge_Cuts.gm1": "d8f9ef8cb7f8e26c23e7989fc2db7f87b8b38298b355af656d57f9f001cc978f",
+    "tester12v-F_Cu.gtl": "1ec26eb21b47eedcab30cf608f34cf20fa95d9ca8d1a9747764635d2653b5752",
+    "tester12v-F_Mask.gts": "9f3bb79d2c7bd92e6cc09c2498dbf1d27d86de7517ab4dac705714a0ef8f4486",
+    "tester12v-F_Silkscreen.gto": "18e77d8fb0e9481465503322d3cc5d32638e4f04f3192d76b19bb53ffc702928",
+    "tester12v-NPTH.drl": "8120578ec9dc921f876f9be720a722d02d3093f9995c31cc75d95e496302aa9e",
+    "tester12v-PTH.drl": "9307f497fb4b45ccecb5bde3ce9c612d0735cce89cc59fb0310e6bc364932039"
+  },
+  "board_sha256": "937a579b79b98c4ebae025e0e0ced9c3974ec9adf549f6ffd6467b51675622c3",
+  "schematic_netlist_sha256": "5d23f6731a809327484e104560c1b38b43e1ab0e6285afeba6a05a326f2f72f8",
+  "existing_erc_violations": 0,
+  "existing_drc_violations": 0,
+  "existing_unconnected_items": 0,
+  "existing_schematic_parity_errors": 0,
+  "existing_pad_nets_compared": 352,
+  "procurement": {
+    "confirmed": false,
+    "lookup_date": "2026-09-30",
+    "source": "https://jlcpcb.com/partdetail/AnalogDevices-ADG4612BRUZ/C657391",
+    "lcsc_part": "C657391",
+    "observed_stock": 0,
+    "estimated_price_usd_each": 2.7916,
+    "estimated_procurement_days": 9,
+    "observed_minimum_order": 4,
+    "nominal_fitted_quantity_for_two_boards": 6,
+    "attrition_quantity": "Must be confirmed by JLC"
+  },
+  "limitations": "Packaging/file consistency checks only. Prior circuit tests reused for identical silicon and PCB. JLC matching, placement, DFM, procurement and physical first-article testing remain."
+}

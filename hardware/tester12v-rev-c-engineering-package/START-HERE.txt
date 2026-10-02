@@ -1,0 +1,5 @@
+Read hardware/rev-c/README.md and validation/REPORT.md.
+One USB cable to the Waveshare module powers the tester.
+Engineering prototype only: JLC placement/DFM and physical tests remain.
+Use Rev C BOM/Gerbers/CPL together. Do not use old Rev B firmware.
+Native CPL angles require JLC viewer review. No order has been placed.

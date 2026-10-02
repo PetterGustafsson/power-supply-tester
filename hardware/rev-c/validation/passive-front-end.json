@@ -1,0 +1,26 @@
+{
+  "status": "PASS_CALCULATION_ONLY",
+  "nominal_attenuation": 426.531914893617,
+  "adc_FSR_V": 1.024,
+  "input_referred_LSB_V": 0.013329122340425532,
+  "nominal_bias_V": 0.5789473684210527,
+  "ordered_pairs": 132,
+  "nominal_cases": 1320,
+  "nominal_max_error_V": 0.0490306410334469,
+  "nominal_max_error_0_to_18V": 0.01838649038751683,
+  "calibrated_sensitivity_trials": 6000,
+  "calibrated_12V_max_error_V": 0.04883661519486182,
+  "wrong_polarity_or_pair": 0,
+  "unpowered_48V_single_terminal_bound_V": 0.1348879233640085,
+  "series_resistor_max_power_W": 0.0005935720844811754,
+  "pair_loading_12V_uA": 2.9929665286576546,
+  "per_channel_leakage_change_10nA_input_error_V": 0.02,
+  "limitations": [
+    "Not a transistor-level ADS1115 model; input impedance is typical only.",
+    "500 seeded 1% resistor/ADC sensitivity sets, not a proof of all corners.",
+    "Offset/gain are calibrated at 3.3V before supply sweep; firmware must implement bias normalization.",
+    "No physical tests, PCB leakage, EMC/ESD, hot plug or transient verification included in this report.",
+    "48V is an off-state calculation, not an operating or survival rating.",
+    "Ground-referenced 0V/12V calibration uses isolated analog ground only; final instrument is floating."
+  ]
+}

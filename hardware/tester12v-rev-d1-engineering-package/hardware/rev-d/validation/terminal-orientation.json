@@ -1,0 +1,10 @@
+{
+  "revision": "D1",
+  "status": "PASS",
+  "input_pad_locations_and_nets_preserved": true,
+  "routed_tracks_preserved": true,
+  "terminal_rotation_degrees": 180,
+  "wire_entry_direction": "board +Y toward lower edge at Y=62 mm",
+  "input_labels": "1 through 12 remain left-to-right; physical connector contacts 4,3,2,1 within each block",
+  "previous_board_sha256": "1b98f84aa3881a7d2a4f1b833a2bb97fe68492b8cd50743aa0bdec0107ea88d1"
+}

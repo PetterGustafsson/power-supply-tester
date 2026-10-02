@@ -1,0 +1,29 @@
+{
+    "$schema": "https://schemas.kicad.org/erc.v1.json",
+    "coordinate_units": "mm",
+    "date": "2026-09-30T19:30:43-0700",
+    "kicad_version": "9.0.6",
+    "sheets": [
+        {
+            "path": "/",
+            "uuid_path": "/b8eeeb35-3a50-5b4b-b5b2-c101f0e06d37",
+            "violations": []
+        },
+        {
+            "path": "/Inputs 1-4/",
+            "uuid_path": "/b8eeeb35-3a50-5b4b-b5b2-c101f0e06d37/7f1ce0d6-7e76-502e-8bb3-7ea2e3c13942",
+            "violations": []
+        },
+        {
+            "path": "/Inputs 5-8/",
+            "uuid_path": "/b8eeeb35-3a50-5b4b-b5b2-c101f0e06d37/fd62d520-8f2c-5f66-9632-b763d98afe1d",
+            "violations": []
+        },
+        {
+            "path": "/Inputs 9-12/",
+            "uuid_path": "/b8eeeb35-3a50-5b4b-b5b2-c101f0e06d37/4e05dabd-367f-58ff-954c-40bb376a3404",
+            "violations": []
+        }
+    ],
+    "source": "tester12v.kicad_sch"
+}

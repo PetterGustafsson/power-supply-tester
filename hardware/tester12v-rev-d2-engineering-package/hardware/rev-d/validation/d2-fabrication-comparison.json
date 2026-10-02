@@ -1,0 +1,6 @@
+{
+  "status": "PASS",
+  "comparison": "D2 versus archived D1 package; export timestamps ignored",
+  "unchanged_copper_mask_outline_drill_files": 7,
+  "bom_and_cpl_unchanged": true
+}

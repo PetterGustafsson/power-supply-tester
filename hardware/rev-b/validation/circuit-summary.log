@@ -1,0 +1,36 @@
+{
+  "status": "PASS",
+  "scope": "Pre-fabrication models only; no assembled PCB tested",
+  "exported_netlist_cases": 1188,
+  "ordered_pin_pairs": 132,
+  "voltages_tested_V": [
+    0,
+    3.3,
+    5,
+    9,
+    12,
+    15,
+    18,
+    24,
+    48
+  ],
+  "nominal_12V_max_loading_error_V": 0.026786622942946536,
+  "ADC_extrema_through_48V": [
+    0.8548283204440922,
+    2.1388797057084408
+  ],
+  "resistor_corner_cases": 64,
+  "resistor_corner_max_error_12V_V": 0.03451135182852738,
+  "sensitivity_trials": 20000,
+  "sensitivity_uncalibrated_max_abs_error_V": 0.3903750000000006,
+  "sensitivity_uncalibrated_99_percent_abs_error_V": 0.25982499999999753,
+  "off_state_ADC_leakage_bound_V": 0.03792,
+  "worst_165k_power_at_48V_W": 0.0035013992971950915,
+  "startup_source_bound_18V_V": 2.0972134925623296,
+  "filter_time_constant_s": 4.1581769436997315e-06,
+  "limitations": [
+    "ADC impedance and offset sweep bounds are assumptions, not guaranteed limits.",
+    "Steady-state linear models exclude PCB leakage, EMI and nonlinear fault behavior.",
+    "Calibration and bench verification remain required. 48V is a DC miswire design target."
+  ]
+}

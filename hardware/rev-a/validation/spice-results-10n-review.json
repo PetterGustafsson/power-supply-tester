@@ -1,0 +1,122 @@
+{
+  "engine": "ngspice 44.2",
+  "model": "Behavioral, not vendor-validated",
+  "cases": [
+    {
+      "case": "0V-100us",
+      "rail_fall_s": 0.0001,
+      "applied_V": 0,
+      "adc_above_rail_max_V": 1.4365773526799999,
+      "adc_min_V": 0.0656629288,
+      "settled_reported_V": 0.0,
+      "within_ADC_absolute_voltage_window": false
+    },
+    {
+      "case": "0V-2000us",
+      "rail_fall_s": 0.002,
+      "applied_V": 0,
+      "adc_above_rail_max_V": 0.33221137,
+      "adc_min_V": 0.0656629288,
+      "settled_reported_V": 0.0,
+      "within_ADC_absolute_voltage_window": false
+    },
+    {
+      "case": "0V-20000us",
+      "rail_fall_s": 0.02,
+      "applied_V": 0,
+      "adc_above_rail_max_V": 0.0656668078,
+      "adc_min_V": 0.0656629288,
+      "settled_reported_V": 0.0,
+      "within_ADC_absolute_voltage_window": true
+    },
+    {
+      "case": "12V-100us",
+      "rail_fall_s": 0.0001,
+      "applied_V": 12,
+      "adc_above_rail_max_V": 1.52674443,
+      "adc_min_V": 0.0656629254,
+      "settled_reported_V": 11.972931476000001,
+      "within_ADC_absolute_voltage_window": false
+    },
+    {
+      "case": "12V-2000us",
+      "rail_fall_s": 0.002,
+      "applied_V": 12,
+      "adc_above_rail_max_V": 0.333659839,
+      "adc_min_V": 0.0656629254,
+      "settled_reported_V": 11.972931476000001,
+      "within_ADC_absolute_voltage_window": false
+    },
+    {
+      "case": "12V-20000us",
+      "rail_fall_s": 0.02,
+      "applied_V": 12,
+      "adc_above_rail_max_V": 0.0656668055,
+      "adc_min_V": 0.0656629254,
+      "settled_reported_V": 11.972931476000001,
+      "within_ADC_absolute_voltage_window": true
+    },
+    {
+      "case": "18V-100us",
+      "rail_fall_s": 0.0001,
+      "applied_V": 18,
+      "adc_above_rail_max_V": 1.57620988,
+      "adc_min_V": 0.0656629259,
+      "settled_reported_V": 17.95939796,
+      "within_ADC_absolute_voltage_window": false
+    },
+    {
+      "case": "18V-2000us",
+      "rail_fall_s": 0.002,
+      "applied_V": 18,
+      "adc_above_rail_max_V": 0.333250478109,
+      "adc_min_V": 0.0656629259,
+      "settled_reported_V": 17.95939796,
+      "within_ADC_absolute_voltage_window": false
+    },
+    {
+      "case": "18V-20000us",
+      "rail_fall_s": 0.02,
+      "applied_V": 18,
+      "adc_above_rail_max_V": 0.065666825,
+      "adc_min_V": 0.0656629259,
+      "settled_reported_V": 17.95939796,
+      "within_ADC_absolute_voltage_window": true
+    },
+    {
+      "case": "48V-100us",
+      "rail_fall_s": 0.0001,
+      "applied_V": 48,
+      "adc_above_rail_max_V": 1.75427293,
+      "adc_min_V": 0.0656629294,
+      "settled_reported_V": 41.47696321439998,
+      "within_ADC_absolute_voltage_window": false
+    },
+    {
+      "case": "48V-2000us",
+      "rail_fall_s": 0.002,
+      "applied_V": 48,
+      "adc_above_rail_max_V": 0.33266044,
+      "adc_min_V": 0.0656629294,
+      "settled_reported_V": 41.47696321439998,
+      "within_ADC_absolute_voltage_window": false
+    },
+    {
+      "case": "48V-20000us",
+      "rail_fall_s": 0.02,
+      "applied_V": 48,
+      "adc_above_rail_max_V": 0.065666861,
+      "adc_min_V": 0.0656629294,
+      "settled_reported_V": 41.47696321439998,
+      "within_ADC_absolute_voltage_window": true
+    }
+  ],
+  "normal_shutdown_pass": false,
+  "assumptions": [
+    "Ideal LDO with 0.2V dropout, no output-capacitor hold-up credit.",
+    "Buffer disconnects below 1.8V; partial-supply IC behavior is not specified by this model.",
+    "12nF input capacitors stress +20% tolerance; source clamps use a generic diode model.",
+    "Switch leakage 38uA when supply >1V, 3uA below; transition is an explicit modeling assumption.",
+    "A 0.1ms collapse is an extra stress case, not a guaranteed operating condition."
+  ]
+}

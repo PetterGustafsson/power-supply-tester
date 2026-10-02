@@ -1,0 +1,117 @@
+Reference,Value,Manufacturer,MPN,Footprint,Populate,Notes
+J1,INPUTS 1-4,Phoenix Contact,1984633,"Tester:TerminalBlock_Phoenix_PT-1,5-4-3.5-H_1x04_P3.50mm_Horizontal",YES,"PT 1,5/4-3,5-H; 1984633 verified against Phoenix Contact product page, 3.5mm pitch"
+R1,165k,Yageo,RT0805BRD07165KL,Tester:R_0805_2012Metric,YES,"0.1%, 25 ppm/K"
+R2,165k,Yageo,RT0805BRD07165KL,Tester:R_0805_2012Metric,YES,"0.1%, 25 ppm/K"
+D1,12V clamp,Nexperia,"BZT52H-C12,115",Tester:D_SOD-123F,YES,Clamp is before power-off switch; not an ADC rail clamp
+R3,10k,Yageo,RT0805BRD0710KL,Tester:R_0805_2012Metric,YES,"0.1%, 25 ppm/K"
+R46,100k,Yageo,RT0805BRD07100KL,Tester:R_0805_2012Metric,YES,"0.1%, 25 ppm/K"
+C1,1n,Murata,GRM2165C1H102JA01D,Tester:C_0805_2012Metric,YES,"Use specified capacitance, voltage and dielectric"
+R4,165k,Yageo,RT0805BRD07165KL,Tester:R_0805_2012Metric,YES,"0.1%, 25 ppm/K"
+R5,165k,Yageo,RT0805BRD07165KL,Tester:R_0805_2012Metric,YES,"0.1%, 25 ppm/K"
+D2,12V clamp,Nexperia,"BZT52H-C12,115",Tester:D_SOD-123F,YES,Clamp is before power-off switch; not an ADC rail clamp
+R6,10k,Yageo,RT0805BRD0710KL,Tester:R_0805_2012Metric,YES,"0.1%, 25 ppm/K"
+R47,100k,Yageo,RT0805BRD07100KL,Tester:R_0805_2012Metric,YES,"0.1%, 25 ppm/K"
+C2,1n,Murata,GRM2165C1H102JA01D,Tester:C_0805_2012Metric,YES,"Use specified capacitance, voltage and dielectric"
+R7,165k,Yageo,RT0805BRD07165KL,Tester:R_0805_2012Metric,YES,"0.1%, 25 ppm/K"
+R8,165k,Yageo,RT0805BRD07165KL,Tester:R_0805_2012Metric,YES,"0.1%, 25 ppm/K"
+D3,12V clamp,Nexperia,"BZT52H-C12,115",Tester:D_SOD-123F,YES,Clamp is before power-off switch; not an ADC rail clamp
+R9,10k,Yageo,RT0805BRD0710KL,Tester:R_0805_2012Metric,YES,"0.1%, 25 ppm/K"
+R48,100k,Yageo,RT0805BRD07100KL,Tester:R_0805_2012Metric,YES,"0.1%, 25 ppm/K"
+C3,1n,Murata,GRM2165C1H102JA01D,Tester:C_0805_2012Metric,YES,"Use specified capacitance, voltage and dielectric"
+R10,165k,Yageo,RT0805BRD07165KL,Tester:R_0805_2012Metric,YES,"0.1%, 25 ppm/K"
+R11,165k,Yageo,RT0805BRD07165KL,Tester:R_0805_2012Metric,YES,"0.1%, 25 ppm/K"
+D4,12V clamp,Nexperia,"BZT52H-C12,115",Tester:D_SOD-123F,YES,Clamp is before power-off switch; not an ADC rail clamp
+R12,10k,Yageo,RT0805BRD0710KL,Tester:R_0805_2012Metric,YES,"0.1%, 25 ppm/K"
+R49,100k,Yageo,RT0805BRD07100KL,Tester:R_0805_2012Metric,YES,"0.1%, 25 ppm/K"
+C4,1n,Murata,GRM2165C1H102JA01D,Tester:C_0805_2012Metric,YES,"Use specified capacitance, voltage and dielectric"
+U1,ADS1115IDGSR,Texas Instruments,ADS1115IDGSR,Tester:TSSOP-10_3x3mm_P0.5mm,YES,ADDR=GND/3V3/SDA for 0x48/0x49/0x4A
+U4,ADG4612BRUZ,Analog Devices,ADG4612BRUZ,Tester:TSSOP-16_4.4x5mm_P0.65mm,YES,TSSOP-16; powered from isolated 5V; enable from 3.08V supervisor
+C13,100n,Murata,GRM21BR71H104KA01L,Tester:C_0805_2012Metric,YES,"Use specified capacitance, voltage and dielectric"
+C16,100n,Murata,GRM21BR71H104KA01L,Tester:C_0805_2012Metric,YES,"Use specified capacitance, voltage and dielectric"
+J2,INPUTS 5-8,Phoenix Contact,1984633,"Tester:TerminalBlock_Phoenix_PT-1,5-4-3.5-H_1x04_P3.50mm_Horizontal",YES,"PT 1,5/4-3,5-H; 1984633 verified against Phoenix Contact product page, 3.5mm pitch"
+R13,165k,Yageo,RT0805BRD07165KL,Tester:R_0805_2012Metric,YES,"0.1%, 25 ppm/K"
+R14,165k,Yageo,RT0805BRD07165KL,Tester:R_0805_2012Metric,YES,"0.1%, 25 ppm/K"
+D5,12V clamp,Nexperia,"BZT52H-C12,115",Tester:D_SOD-123F,YES,Clamp is before power-off switch; not an ADC rail clamp
+R15,10k,Yageo,RT0805BRD0710KL,Tester:R_0805_2012Metric,YES,"0.1%, 25 ppm/K"
+R50,100k,Yageo,RT0805BRD07100KL,Tester:R_0805_2012Metric,YES,"0.1%, 25 ppm/K"
+C5,1n,Murata,GRM2165C1H102JA01D,Tester:C_0805_2012Metric,YES,"Use specified capacitance, voltage and dielectric"
+R16,165k,Yageo,RT0805BRD07165KL,Tester:R_0805_2012Metric,YES,"0.1%, 25 ppm/K"
+R17,165k,Yageo,RT0805BRD07165KL,Tester:R_0805_2012Metric,YES,"0.1%, 25 ppm/K"
+D6,12V clamp,Nexperia,"BZT52H-C12,115",Tester:D_SOD-123F,YES,Clamp is before power-off switch; not an ADC rail clamp
+R18,10k,Yageo,RT0805BRD0710KL,Tester:R_0805_2012Metric,YES,"0.1%, 25 ppm/K"
+R51,100k,Yageo,RT0805BRD07100KL,Tester:R_0805_2012Metric,YES,"0.1%, 25 ppm/K"
+C6,1n,Murata,GRM2165C1H102JA01D,Tester:C_0805_2012Metric,YES,"Use specified capacitance, voltage and dielectric"
+R19,165k,Yageo,RT0805BRD07165KL,Tester:R_0805_2012Metric,YES,"0.1%, 25 ppm/K"
+R20,165k,Yageo,RT0805BRD07165KL,Tester:R_0805_2012Metric,YES,"0.1%, 25 ppm/K"
+D7,12V clamp,Nexperia,"BZT52H-C12,115",Tester:D_SOD-123F,YES,Clamp is before power-off switch; not an ADC rail clamp
+R21,10k,Yageo,RT0805BRD0710KL,Tester:R_0805_2012Metric,YES,"0.1%, 25 ppm/K"
+R52,100k,Yageo,RT0805BRD07100KL,Tester:R_0805_2012Metric,YES,"0.1%, 25 ppm/K"
+C7,1n,Murata,GRM2165C1H102JA01D,Tester:C_0805_2012Metric,YES,"Use specified capacitance, voltage and dielectric"
+R22,165k,Yageo,RT0805BRD07165KL,Tester:R_0805_2012Metric,YES,"0.1%, 25 ppm/K"
+R23,165k,Yageo,RT0805BRD07165KL,Tester:R_0805_2012Metric,YES,"0.1%, 25 ppm/K"
+D8,12V clamp,Nexperia,"BZT52H-C12,115",Tester:D_SOD-123F,YES,Clamp is before power-off switch; not an ADC rail clamp
+R24,10k,Yageo,RT0805BRD0710KL,Tester:R_0805_2012Metric,YES,"0.1%, 25 ppm/K"
+R53,100k,Yageo,RT0805BRD07100KL,Tester:R_0805_2012Metric,YES,"0.1%, 25 ppm/K"
+C8,1n,Murata,GRM2165C1H102JA01D,Tester:C_0805_2012Metric,YES,"Use specified capacitance, voltage and dielectric"
+U2,ADS1115IDGSR,Texas Instruments,ADS1115IDGSR,Tester:TSSOP-10_3x3mm_P0.5mm,YES,ADDR=GND/3V3/SDA for 0x48/0x49/0x4A
+U5,ADG4612BRUZ,Analog Devices,ADG4612BRUZ,Tester:TSSOP-16_4.4x5mm_P0.65mm,YES,TSSOP-16; powered from isolated 5V; enable from 3.08V supervisor
+C14,100n,Murata,GRM21BR71H104KA01L,Tester:C_0805_2012Metric,YES,"Use specified capacitance, voltage and dielectric"
+C17,100n,Murata,GRM21BR71H104KA01L,Tester:C_0805_2012Metric,YES,"Use specified capacitance, voltage and dielectric"
+J3,INPUTS 9-12,Phoenix Contact,1984633,"Tester:TerminalBlock_Phoenix_PT-1,5-4-3.5-H_1x04_P3.50mm_Horizontal",YES,"PT 1,5/4-3,5-H; 1984633 verified against Phoenix Contact product page, 3.5mm pitch"
+R25,165k,Yageo,RT0805BRD07165KL,Tester:R_0805_2012Metric,YES,"0.1%, 25 ppm/K"
+R26,165k,Yageo,RT0805BRD07165KL,Tester:R_0805_2012Metric,YES,"0.1%, 25 ppm/K"
+D9,12V clamp,Nexperia,"BZT52H-C12,115",Tester:D_SOD-123F,YES,Clamp is before power-off switch; not an ADC rail clamp
+R27,10k,Yageo,RT0805BRD0710KL,Tester:R_0805_2012Metric,YES,"0.1%, 25 ppm/K"
+R54,100k,Yageo,RT0805BRD07100KL,Tester:R_0805_2012Metric,YES,"0.1%, 25 ppm/K"
+C9,1n,Murata,GRM2165C1H102JA01D,Tester:C_0805_2012Metric,YES,"Use specified capacitance, voltage and dielectric"
+R28,165k,Yageo,RT0805BRD07165KL,Tester:R_0805_2012Metric,YES,"0.1%, 25 ppm/K"
+R29,165k,Yageo,RT0805BRD07165KL,Tester:R_0805_2012Metric,YES,"0.1%, 25 ppm/K"
+D10,12V clamp,Nexperia,"BZT52H-C12,115",Tester:D_SOD-123F,YES,Clamp is before power-off switch; not an ADC rail clamp
+R30,10k,Yageo,RT0805BRD0710KL,Tester:R_0805_2012Metric,YES,"0.1%, 25 ppm/K"
+R55,100k,Yageo,RT0805BRD07100KL,Tester:R_0805_2012Metric,YES,"0.1%, 25 ppm/K"
+C10,1n,Murata,GRM2165C1H102JA01D,Tester:C_0805_2012Metric,YES,"Use specified capacitance, voltage and dielectric"
+R31,165k,Yageo,RT0805BRD07165KL,Tester:R_0805_2012Metric,YES,"0.1%, 25 ppm/K"
+R32,165k,Yageo,RT0805BRD07165KL,Tester:R_0805_2012Metric,YES,"0.1%, 25 ppm/K"
+D11,12V clamp,Nexperia,"BZT52H-C12,115",Tester:D_SOD-123F,YES,Clamp is before power-off switch; not an ADC rail clamp
+R33,10k,Yageo,RT0805BRD0710KL,Tester:R_0805_2012Metric,YES,"0.1%, 25 ppm/K"
+R56,100k,Yageo,RT0805BRD07100KL,Tester:R_0805_2012Metric,YES,"0.1%, 25 ppm/K"
+C11,1n,Murata,GRM2165C1H102JA01D,Tester:C_0805_2012Metric,YES,"Use specified capacitance, voltage and dielectric"
+R34,165k,Yageo,RT0805BRD07165KL,Tester:R_0805_2012Metric,YES,"0.1%, 25 ppm/K"
+R35,165k,Yageo,RT0805BRD07165KL,Tester:R_0805_2012Metric,YES,"0.1%, 25 ppm/K"
+D12,12V clamp,Nexperia,"BZT52H-C12,115",Tester:D_SOD-123F,YES,Clamp is before power-off switch; not an ADC rail clamp
+R36,10k,Yageo,RT0805BRD0710KL,Tester:R_0805_2012Metric,YES,"0.1%, 25 ppm/K"
+R57,100k,Yageo,RT0805BRD07100KL,Tester:R_0805_2012Metric,YES,"0.1%, 25 ppm/K"
+C12,1n,Murata,GRM2165C1H102JA01D,Tester:C_0805_2012Metric,YES,"Use specified capacitance, voltage and dielectric"
+U3,ADS1115IDGSR,Texas Instruments,ADS1115IDGSR,Tester:TSSOP-10_3x3mm_P0.5mm,YES,ADDR=GND/3V3/SDA for 0x48/0x49/0x4A
+U6,ADG4612BRUZ,Analog Devices,ADG4612BRUZ,Tester:TSSOP-16_4.4x5mm_P0.65mm,YES,TSSOP-16; powered from isolated 5V; enable from 3.08V supervisor
+C15,100n,Murata,GRM21BR71H104KA01L,Tester:C_0805_2012Metric,YES,"Use specified capacitance, voltage and dielectric"
+C18,100n,Murata,GRM21BR71H104KA01L,Tester:C_0805_2012Metric,YES,"Use specified capacitance, voltage and dielectric"
+J4,DISPLAY HARNESS,JST,B5B-XH-A(LF)(SN),Tester:JST_XH_B5B-XH-A_1x05_P2.50mm_Vertical,YES,"1=5V,2=GND,3=3V3,4=GPIO6 SDA,5=GPIO7 SCL. USB supplies both boards; no battery-only operation guaranteed."
+U7,R05C05TE05S-R,RECOM,R05C05TE05S-R,Tester:R05C05TE05S,YES,Mandatory local 10uF+100nF at input and output; SGNDIN/OUT tied to their own return
+U8,ISO1640BDR,Texas Instruments,ISO1640BDR,Tester:SOIC-8_3.9x4.9mm_P1.27mm,YES,B suffix is the 8-pin device; do not substitute ISO1640DW
+U9,TLV75533PDBVR,Texas Instruments,TLV75533PDBVR,Tester:SOT-23-5,YES,
+U10,OPA320AIDBVR,Texas Instruments,OPA320AIDBVR,Tester:SOT-23-5,YES,Unity gain reference buffer. No large output capacitor directly on the buffer.
+U11,TLV809EA30DBZR,Texas Instruments,TLV809EA30DBZR,Tester:SOT-23,YES,"3.08V falling threshold, 200ms release delay, push-pull; default pinout GND=1 RESET=2 VDD=3"
+D13,Reverse protection,Nexperia,"PMEG2010ER,115",Tester:Nexperia_CFP3_SOD-123W,YES,Schottky OUT-to-IN reverse-current protection for U9; cathode to ISO5V
+R37,10k,Yageo,RT0805BRD0710KL,Tester:R_0805_2012Metric,YES,"0.1%, 25 ppm/K"
+R38,10k,Yageo,RT0805BRD0710KL,Tester:R_0805_2012Metric,YES,"0.1%, 25 ppm/K"
+R39,220R,Yageo,RC0805FR-07220RL,Tester:R_0805_2012Metric,YES,1%
+R40,100k,Yageo,RC0805FR-07100KL,Tester:R_0805_2012Metric,YES,1%
+R41,4.7k,Yageo,RC0805FR-074K7L,Tester:R_0805_2012Metric,YES,1%
+R42,4.7k,Yageo,RC0805FR-074K7L,Tester:R_0805_2012Metric,YES,1%
+R43,4.7k,Yageo,RC0805FR-074K7L,Tester:R_0805_2012Metric,NO,1%
+R44,4.7k,Yageo,RC0805FR-074K7L,Tester:R_0805_2012Metric,NO,1%
+R45,1k,Yageo,RC0805FR-071KL,Tester:R_0805_2012Metric,YES,1%
+F1,250mA PTC,Littelfuse,1206L025/24YR,Tester:Fuse_1206_3216Metric,YES,"5V supply only, slow resettable overcurrent protection"
+C19,10u,Murata,GRM21BR61A106KE19L,Tester:C_0805_2012Metric,YES,"Use specified capacitance, voltage and dielectric"
+C20,100n,Murata,GRM21BR71H104KA01L,Tester:C_0805_2012Metric,YES,"Use specified capacitance, voltage and dielectric"
+C21,10u,Murata,GRM21BR61A106KE19L,Tester:C_0805_2012Metric,YES,"Use specified capacitance, voltage and dielectric"
+C22,100n,Murata,GRM21BR71H104KA01L,Tester:C_0805_2012Metric,YES,"Use specified capacitance, voltage and dielectric"
+C23,1u,Murata,GRM21BR71E105KA99L,Tester:C_0805_2012Metric,YES,"Use specified capacitance, voltage and dielectric"
+C24,22u,Murata,GRM21BR61A226ME44L,Tester:C_0805_2012Metric,YES,"Use specified capacitance, voltage and dielectric"
+C25,100n,Murata,GRM21BR71H104KA01L,Tester:C_0805_2012Metric,YES,"Use specified capacitance, voltage and dielectric"
+C26,100n,Murata,GRM21BR71H104KA01L,Tester:C_0805_2012Metric,YES,"Use specified capacitance, voltage and dielectric"
+C27,100n,Murata,GRM21BR71H104KA01L,Tester:C_0805_2012Metric,YES,"Use specified capacitance, voltage and dielectric"
+C28,1n,Murata,GRM2165C1H102JA01D,Tester:C_0805_2012Metric,YES,"Use specified capacitance, voltage and dielectric"
+C29,100n,Murata,GRM21BR71H104KA01L,Tester:C_0805_2012Metric,YES,"Use specified capacitance, voltage and dielectric"
+C30,100n,Murata,GRM21BR71H104KA01L,Tester:C_0805_2012Metric,YES,"Use specified capacitance, voltage and dielectric"

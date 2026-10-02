@@ -1,0 +1,57 @@
+{
+    "$schema": "https://schemas.kicad.org/drc.v1.json",
+    "coordinate_units": "mm",
+    "date": "2026-09-30T11:58:29-0700",
+    "kicad_version": "9.0.6",
+    "schematic_parity": [],
+    "source": "tester12v.kicad_pcb",
+    "unconnected_items": [
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Track [A3V3] on F.Cu, length 2.9440 mm",
+                    "pos": {
+                        "x": 36.972,
+                        "y": 14.922
+                    },
+                    "uuid": "9353ccf0-0d36-4fd8-8ebc-f1232e36181d"
+                },
+                {
+                    "description": "Pad 2 [A3V3] of D13 on F.Cu",
+                    "pos": {
+                        "x": 34.4,
+                        "y": 15.0
+                    },
+                    "uuid": "57cc279b-77d8-4f4a-915f-4d09fc44f1f1"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Pad 1 [ISO5V] of D13 on F.Cu",
+                    "pos": {
+                        "x": 31.6,
+                        "y": 15.0
+                    },
+                    "uuid": "0e9876a7-7217-4a15-bee3-dfbfeeaf8b18"
+                },
+                {
+                    "description": "Track [ISO5V] on B.Cu, length 25.1971 mm",
+                    "pos": {
+                        "x": 27.8615,
+                        "y": 16.2364
+                    },
+                    "uuid": "d9acfc18-929b-4859-96f3-528aba533b68"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        }
+    ],
+    "violations": []
+}

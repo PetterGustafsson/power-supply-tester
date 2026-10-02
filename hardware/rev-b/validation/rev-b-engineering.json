@@ -1,0 +1,39 @@
+{
+  "status": "PASS",
+  "module_pin_and_5V_strap_checked": true,
+  "module_land_source": "MPS Rev1.0 p16; local coordinates and joined land halves in apply_rev_b.py",
+  "module_required_input_V": [
+    4.5,
+    5.5
+  ],
+  "conservative_output_window_V": [
+    4.6000000000000005,
+    5.3999999999999995
+  ],
+  "LDO_max_operating_input_V": 5.5,
+  "output_design_allocation_A": 0.035,
+  "module_capacity_A": 0.2,
+  "filter_C_max_tolerance_temperature_F": 5.945500000000001e-10,
+  "transient_test_C_F": 6e-10,
+  "filter_nominal_pole_Hz": 38275.173290313964,
+  "old_filter_nominal_pole_Hz": 17989.331446447562,
+  "zener_leakage_datasheet_A": 1e-07,
+  "zener_power_bound_48V_W": 0.0018345618345618345,
+  "zener_rating_W": 0.35,
+  "firmware_source_sha256": {
+    "Debug.h": "e0776deeca7efa7fef911663b5ba01716a561584a2eab5fbce58e9adc066709e",
+    "DEV_Config.h": "7c8b1f12507ec83301fb5a3b972b33d7319d600741934eda88e711092e1058b8",
+    "LCD_1in28.h": "edc2d438f5d555ce14edf73151fe3bb1322a351987f0c47c17b8e59063ed138d",
+    "DEV_Config.cpp": "3064ca0b66f077c09c4b5a86fc006130e2bf1ae4802a7ab8a81ffd2c11b4bd52",
+    "README.md": "81324a4b67c8892c3c23854bb2e8386f588ddda4a769d8a1b11241517f293f6f",
+    "Measurement.h": "8962f49b67bc901326e4177cef2dda5043f91a65c708b286c2ee0789ec73abc0",
+    "Tester12V.ino": "651b2b12fce7c71f818820c712aa87c21bf296fca4d2c872e82fdde7cdaca7d1",
+    "LCD_1in28.cpp": "9ae4866f6cefb74236f97a85a82e4be16270874c01c25f4d5a583e9b60ac1db3"
+  },
+  "limitations": [
+    "35mA output allocation includes margin; USB input current and PTC/cable/VSYS drop must be measured.",
+    "MPS switching ripple, EMI, real MLCC effective capacitance and startup are not simulated with vendor models.",
+    "Filter bandwidth increases about 2.13x; white-noise contribution could rise about 1.46x. Verify 60-second noise and calibrated DC accuracy.",
+    "100nA zener leakage limit is at 8V and 25C. Temperature and flux leakage need hardware qualification."
+  ]
+}

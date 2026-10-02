@@ -1,0 +1,21 @@
+2026-10-01 09:17:10.496 [main] INFO  Freerouting v2.0.1 (build-date: 2024-11-14)
+WARNING: Final field userId in class app.freerouting.settings.UserProfileSettings has been mutated reflectively by class com.google.gson.internal.bind.ReflectiveTypeAdapterFactory$2 in unnamed module @4abdb505 (file:/private/tmp/tester-freerouting-2.0.1.jar)
+WARNING: Use --enable-final-field-mutation=ALL-UNNAMED to avoid a warning
+WARNING: Mutating final fields will be blocked in a future release unless final field mutation is enabled
+2026-10-01 09:17:10.544 [main] INFO  Settings were loaded from freerouting.json
+2026-10-01 09:17:11.839 [main] INFO  Opening 'tester12v.dsn'...
+2026-10-01 09:17:11.931 [ForkJoinPool.commonPool-worker-1] INFO  New version available: v2.4.1
+2026-10-01 09:17:19.681 [main] WARN  Multi-threaded route optimization is broken and it is known to generate clearance violations. It is highly recommended to use the single-threaded route optimization instead by setting the number of threads to 1 with the '-mt 1' command line argument.
+2026-10-01 09:17:19.690 [Thread-11] INFO  Starting auto-routing...
+2026-10-01 09:17:21.804 [Thread-11] INFO  Auto-router pass #1 on board '0658c16d3b1517fbc00a0b8e0ee31d6f' was completed in 2.04 seconds
+2026-10-01 09:17:23.332 [Thread-11] INFO  Auto-router pass #2 on board '879e97ebbc3c3602ed4a096ceee71009' was completed in 1.50 seconds
+2026-10-01 09:17:24.048 [Thread-11] INFO  Auto-router pass #3 on board '3d2620a21cbfd79e7abe10fcff23eff4' was completed in 0.69 seconds
+2026-10-01 09:17:24.961 [Thread-11] INFO  Auto-router pass #4 on board 'd5c14c5c31fd4e4fe709f1a31eb873d9' was completed in 0.89 seconds
+2026-10-01 09:17:25.583 [Thread-11] INFO  Auto-router pass #5 on board '205275bc004a15095be021ee893d1b23' was completed in 0.58 seconds
+2026-10-01 09:17:25.725 [Thread-11] INFO  Auto-router pass #6 on board '7edad98ee1f53359acfa46e017fde761' was completed in 0.12 seconds
+2026-10-01 09:17:25.752 [Thread-11] INFO  Auto-router pass #7 on board '2b8a7dd36c6d01557ec9a43e651cba46' was completed in 0.01 seconds
+2026-10-01 09:17:25.755 [Thread-11] INFO  Auto-routing was completed in 6.06 seconds.
+2026-10-01 09:17:25.859 [Thread-11] INFO  Starting route optimization on 9 threads...
+2026-10-01 09:17:25.861 [Thread-11] INFO  Route optimization was completed in 0.00 seconds.
+after autoroute: 2 traces not 45 degree
+2026-10-01 09:17:25.913 [Thread-11] INFO  Saving 'tester12v-routed.ses'...

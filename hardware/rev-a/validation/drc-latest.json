@@ -1,0 +1,96 @@
+{
+    "$schema": "https://schemas.kicad.org/drc.v1.json",
+    "coordinate_units": "mm",
+    "date": "2026-09-30T11:53:43-0700",
+    "kicad_version": "9.0.6",
+    "schematic_parity": [],
+    "source": "tester12v.kicad_pcb",
+    "unconnected_items": [
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Pad 4 [A1] of U1 on F.Cu",
+                    "pos": {
+                        "x": 27.85,
+                        "y": 25.5
+                    },
+                    "uuid": "242c30c2-12d1-4c66-992d-65c6768c552c"
+                },
+                {
+                    "description": "Track [A1] on F.Cu, length 1.9861 mm",
+                    "pos": {
+                        "x": 22.5,
+                        "y": 32.95
+                    },
+                    "uuid": "9b2d8b70-bab6-4579-9889-a61c5689c749"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Track [SENSE_EN] on F.Cu, length 5.7250 mm",
+                    "pos": {
+                        "x": 27.1375,
+                        "y": 47.775
+                    },
+                    "uuid": "aea417fe-26da-4f23-b320-4966da1e61eb"
+                },
+                {
+                    "description": "Track [SENSE_EN] on F.Cu, length 5.7250 mm",
+                    "pos": {
+                        "x": 49.1375,
+                        "y": 47.775
+                    },
+                    "uuid": "a1090c0b-a37e-418c-9dcd-5933adbfedd5"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "Track [SENSE_EN] on F.Cu, length 1.2326 mm",
+                    "pos": {
+                        "x": 70.2659,
+                        "y": 42.3534
+                    },
+                    "uuid": "02987c64-528d-4090-9acd-225940adfcee"
+                },
+                {
+                    "description": "Track [SENSE_EN] on F.Cu, length 5.7250 mm",
+                    "pos": {
+                        "x": 49.1375,
+                        "y": 43.225
+                    },
+                    "uuid": "c6998914-72aa-47f4-9ac8-0aac6705db21"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        }
+    ],
+    "violations": [
+        {
+            "description": "Via is not connected or connected on only one layer",
+            "items": [
+                {
+                    "description": "Via [A4] on F.Cu - B.Cu",
+                    "pos": {
+                        "x": 28.95,
+                        "y": 47.125
+                    },
+                    "uuid": "16d0dd49-9e72-4e2f-aed9-637c8d3ca834"
+                }
+            ],
+            "severity": "warning",
+            "type": "via_dangling"
+        }
+    ]
+}

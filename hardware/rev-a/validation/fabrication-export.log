@@ -1,0 +1,16 @@
+Plotted to 'hardware/rev-a/manufacturing/gerbers/tester12v-F_Cu.gtl'.
+Plotted to 'hardware/rev-a/manufacturing/gerbers/tester12v-B_Cu.gbl'.
+Plotted to 'hardware/rev-a/manufacturing/gerbers/tester12v-F_Silkscreen.gto'.
+Plotted to 'hardware/rev-a/manufacturing/gerbers/tester12v-B_Silkscreen.gbo'.
+Plotted to 'hardware/rev-a/manufacturing/gerbers/tester12v-F_Mask.gts'.
+Plotted to 'hardware/rev-a/manufacturing/gerbers/tester12v-B_Mask.gbs'.
+Plotted to 'hardware/rev-a/manufacturing/gerbers/tester12v-Edge_Cuts.gm1'.
+Created file 'hardware/rev-a/manufacturing/gerbers/tester12v-PTH.drl'
+Created file 'hardware/rev-a/manufacturing/gerbers/tester12v-NPTH.drl'
+Created file 'hardware/rev-a/manufacturing/gerbers/tester12v-PTH-drl_map.pdf'.
+Created file 'hardware/rev-a/manufacturing/gerbers/tester12v-NPTH-drl_map.pdf'.
+Done.
+Wrote position data to 'hardware/rev-a/manufacturing/placements-smd.csv'.
+Plotted to 'hardware/rev-a/manufacturing/stencil/tester12v-F_Paste.gtp'.
+Plotted to 'hardware/rev-a/previews/assembly.pdf'.
+Done.

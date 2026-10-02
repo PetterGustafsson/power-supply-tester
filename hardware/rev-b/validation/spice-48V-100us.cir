@@ -1,0 +1,137 @@
+Tester Rev B startup/shutdown 48V-100us
+Vfive ISO5V 0 PWL(0 0 10m 5 400m 5 0.4001 0 440m 0)
+Bvdd A3V3 0 V=min(3.3,max(v(ISO5V)-0.2,0))
+Rtop A3V3 BIAS_SET 10k
+Rbottom BIAS_SET 0 10k
+Cref BIAS_SET 0 600p
+Bbuffer BUF 0 V=min(max(v(BIAS_SET),0),max(v(A3V3)-0.03,0))
+Bbufen BE 0 V=(v(A3V3)>1.8 ? 3.3 : 0)
+Sbuffer BUF VBIAS BE 0 BUFSW
+.model BUFSW SW(Ron=1 Roff=1e12 Vt=2 Vh=0)
+Rbleed VBIAS 0 220
+VDUT P1 P12 48
+.model PROTECT D(Is=1e-10 N=1.5 BV=12 IBV=5m)
+.model INPUTSW SW(Ron=17 Roff=1e12 Vt=2 Vh=0)
+.options reltol=1e-5 abstol=1e-12 method=gear
+R1 P1 MID1 165k
+R2 MID1 S1 165k
+R3 A1 VBIAS 10k
+R4 P2 MID2 165k
+R5 MID2 S2 165k
+R6 A2 VBIAS 10k
+R7 P3 MID3 165k
+R8 MID3 S3 165k
+R9 A3 VBIAS 10k
+R10 P4 MID4 165k
+R11 MID4 S4 165k
+R12 A4 VBIAS 10k
+R13 P5 MID5 165k
+R14 MID5 S5 165k
+R15 A5 VBIAS 10k
+R16 P6 MID6 165k
+R17 MID6 S6 165k
+R18 A6 VBIAS 10k
+R19 P7 MID7 165k
+R20 MID7 S7 165k
+R21 A7 VBIAS 10k
+R22 P8 MID8 165k
+R23 MID8 S8 165k
+R24 A8 VBIAS 10k
+R25 P9 MID9 165k
+R26 MID9 S9 165k
+R27 A9 VBIAS 10k
+R28 P10 MID10 165k
+R29 MID10 S10 165k
+R30 A10 VBIAS 10k
+R31 P11 MID11 165k
+R32 MID11 S11 165k
+R33 A11 VBIAS 10k
+R34 P12 MID12 165k
+R35 MID12 S12 165k
+R36 A12 VBIAS 10k
+R46 S1 0 100k
+R47 S2 0 100k
+R48 S3 0 100k
+R49 S4 0 100k
+R50 S5 0 100k
+R51 S6 0 100k
+R52 S7 0 100k
+R53 S8 0 100k
+R54 S9 0 100k
+R55 S10 0 100k
+R56 S11 0 100k
+R57 S12 0 100k
+Dz1 0 S1 PROTECT
+Ben1 EN1 0 V=(time>0.210 && v(A3V3)>3.08 && v(S1)<v(ISO5V)+1 ? 3.3 : 0)
+Sin1 S1 A1 EN1 0 INPUTSW
+Cfilter1 A1 0 600p
+Radc1 A1 0 4.285714meg
+Bleak1 0 A1 I=(v(EN1)>2 ? 0 : (v(ISO5V)>1 ? 38u : 3u))
+Dz2 0 S2 PROTECT
+Ben2 EN2 0 V=(time>0.210 && v(A3V3)>3.08 && v(S2)<v(ISO5V)+1 ? 3.3 : 0)
+Sin2 S2 A2 EN2 0 INPUTSW
+Cfilter2 A2 0 600p
+Radc2 A2 0 4.285714meg
+Bleak2 0 A2 I=(v(EN2)>2 ? 0 : (v(ISO5V)>1 ? 38u : 3u))
+Dz3 0 S3 PROTECT
+Ben3 EN3 0 V=(time>0.210 && v(A3V3)>3.08 && v(S3)<v(ISO5V)+1 ? 3.3 : 0)
+Sin3 S3 A3 EN3 0 INPUTSW
+Cfilter3 A3 0 600p
+Radc3 A3 0 4.285714meg
+Bleak3 0 A3 I=(v(EN3)>2 ? 0 : (v(ISO5V)>1 ? 38u : 3u))
+Dz4 0 S4 PROTECT
+Ben4 EN4 0 V=(time>0.210 && v(A3V3)>3.08 && v(S4)<v(ISO5V)+1 ? 3.3 : 0)
+Sin4 S4 A4 EN4 0 INPUTSW
+Cfilter4 A4 0 600p
+Radc4 A4 0 4.285714meg
+Bleak4 0 A4 I=(v(EN4)>2 ? 0 : (v(ISO5V)>1 ? 38u : 3u))
+Dz5 0 S5 PROTECT
+Ben5 EN5 0 V=(time>0.210 && v(A3V3)>3.08 && v(S5)<v(ISO5V)+1 ? 3.3 : 0)
+Sin5 S5 A5 EN5 0 INPUTSW
+Cfilter5 A5 0 600p
+Radc5 A5 0 4.285714meg
+Bleak5 0 A5 I=(v(EN5)>2 ? 0 : (v(ISO5V)>1 ? 38u : 3u))
+Dz6 0 S6 PROTECT
+Ben6 EN6 0 V=(time>0.210 && v(A3V3)>3.08 && v(S6)<v(ISO5V)+1 ? 3.3 : 0)
+Sin6 S6 A6 EN6 0 INPUTSW
+Cfilter6 A6 0 600p
+Radc6 A6 0 4.285714meg
+Bleak6 0 A6 I=(v(EN6)>2 ? 0 : (v(ISO5V)>1 ? 38u : 3u))
+Dz7 0 S7 PROTECT
+Ben7 EN7 0 V=(time>0.210 && v(A3V3)>3.08 && v(S7)<v(ISO5V)+1 ? 3.3 : 0)
+Sin7 S7 A7 EN7 0 INPUTSW
+Cfilter7 A7 0 600p
+Radc7 A7 0 4.285714meg
+Bleak7 0 A7 I=(v(EN7)>2 ? 0 : (v(ISO5V)>1 ? 38u : 3u))
+Dz8 0 S8 PROTECT
+Ben8 EN8 0 V=(time>0.210 && v(A3V3)>3.08 && v(S8)<v(ISO5V)+1 ? 3.3 : 0)
+Sin8 S8 A8 EN8 0 INPUTSW
+Cfilter8 A8 0 600p
+Radc8 A8 0 4.285714meg
+Bleak8 0 A8 I=(v(EN8)>2 ? 0 : (v(ISO5V)>1 ? 38u : 3u))
+Dz9 0 S9 PROTECT
+Ben9 EN9 0 V=(time>0.210 && v(A3V3)>3.08 && v(S9)<v(ISO5V)+1 ? 3.3 : 0)
+Sin9 S9 A9 EN9 0 INPUTSW
+Cfilter9 A9 0 600p
+Radc9 A9 0 4.285714meg
+Bleak9 0 A9 I=(v(EN9)>2 ? 0 : (v(ISO5V)>1 ? 38u : 3u))
+Dz10 0 S10 PROTECT
+Ben10 EN10 0 V=(time>0.210 && v(A3V3)>3.08 && v(S10)<v(ISO5V)+1 ? 3.3 : 0)
+Sin10 S10 A10 EN10 0 INPUTSW
+Cfilter10 A10 0 600p
+Radc10 A10 0 4.285714meg
+Bleak10 0 A10 I=(v(EN10)>2 ? 0 : (v(ISO5V)>1 ? 38u : 3u))
+Dz11 0 S11 PROTECT
+Ben11 EN11 0 V=(time>0.210 && v(A3V3)>3.08 && v(S11)<v(ISO5V)+1 ? 3.3 : 0)
+Sin11 S11 A11 EN11 0 INPUTSW
+Cfilter11 A11 0 600p
+Radc11 A11 0 4.285714meg
+Bleak11 0 A11 I=(v(EN11)>2 ? 0 : (v(ISO5V)>1 ? 38u : 3u))
+Dz12 0 S12 PROTECT
+Ben12 EN12 0 V=(time>0.210 && v(A3V3)>3.08 && v(S12)<v(ISO5V)+1 ? 3.3 : 0)
+Sin12 S12 A12 EN12 0 INPUTSW
+Cfilter12 A12 0 600p
+Radc12 A12 0 4.285714meg
+Bleak12 0 A12 I=(v(EN12)>2 ? 0 : (v(ISO5V)>1 ? 38u : 3u))
+.tran 10u 440m 0 10u
+.end

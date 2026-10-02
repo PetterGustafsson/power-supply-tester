@@ -1,0 +1,35 @@
+{
+  "status": "PASS_CALCULATION_AND_FIRMWARE",
+  "assignments": 531441,
+  "live_assignments": 523250,
+  "nominal_cases": 1594323,
+  "nominal_voltages_V": [
+    9,
+    12,
+    18
+  ],
+  "nominal_max_error_V": 0.008296966552734375,
+  "nominal_ADC_min_V": 0.5369695855556389,
+  "nominal_ADC_max_V": 0.6140278198862843,
+  "sensitivity_cases": 270000,
+  "sensitivity_max_error_V": 0.04770469665527344,
+  "wrong_pin_classifications": 0,
+  "direct_nodal_solver_crosscheck": true,
+  "required_extra_parts": [
+    "U8",
+    "R49",
+    "C27",
+    "C28"
+  ],
+  "maximum_nominal_12V_source_loading_uA": 17.957799171945926,
+  "firmware_header_sha256": "31e11ec43b4f306aefbd3bb6a509e6f50c3fdf928c6ff3f71aa393cfb5844244",
+  "limitations": [
+    "One common low-impedance DC supply; at least one connection to each pole is required.",
+    "All-source-off, all-open and only-one-pole-connected states are deliberately indistinguishable.",
+    "This does not prove that two pins are physically connected or that a supply is faulty.",
+    "Full-assignment identification targets 9-18V; low-voltage crowded assignments may be ambiguous.",
+    "ADC input impedance, gain, offset and quantization model is not a vendor transistor-level model.",
+    "300 seeded resistor/ADC sensitivity sets; calibration at 3.3V then rail sweep, not all component corners.",
+    "No physical leakage, EMI, temperature, USB startup or calibration-noise qualification."
+  ]
+}

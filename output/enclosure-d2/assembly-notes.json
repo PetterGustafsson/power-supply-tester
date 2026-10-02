@@ -1,0 +1,41 @@
+{
+  "pcb_source": "hardware/rev-d/tester12v.kicad_pcb",
+  "pcb_mm": [
+    86,
+    62,
+    1.6
+  ],
+  "display_source": "Waveshare official STEP and mechanical PDF",
+  "display_drawing_board_mm": [
+    36.5,
+    39.5
+  ],
+  "display_mesh_bounds_mm": [
+    [
+      -18.261850357055664,
+      18.261438369750977
+    ],
+    [
+      -21.120054244995117,
+      18.39171028137207
+    ],
+    [
+      -7.100001811981201,
+      0.8000000715255737
+    ]
+  ],
+  "active_display_diameter_mm": 32.4,
+  "suggested_outer_case_mm": [
+    96,
+    76,
+    42
+  ],
+  "case_size_status": "provisional planning envelope; wall, plugs, mounts, antenna and USB access need detailed design",
+  "wire_diameter_mm": 0.84,
+  "wire_geometry": "illustrative custom harness, not a production cable drawing",
+  "display_rotation_degrees": 180,
+  "usb_direction": "rear, away from screw terminals",
+  "screen_source": "output/silk-colors-clean-preview.png; latest connector UI from chat 01a0ae0d-bb99-7d81-8145-319294c614de",
+  "screen": "existing artwork used unchanged; preview counter-rotated to remain upright; firmware not modified; simulated 5/12/24 V readings, not a hardware range validation",
+  "no_manufacturing_files_modified": true
+}

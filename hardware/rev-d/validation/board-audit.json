@@ -1,0 +1,19 @@
+{
+  "status": "PASS",
+  "physical_pad_nets_compared": 259,
+  "passive_model_topology_matches_exported_netlist": true,
+  "outward_terminals_and_left_to_right_inputs_checked": true,
+  "j4_silkscreen_mapping_checked": true,
+  "raw_input_paths_checked": 12,
+  "only_isolation_boundary_components": [
+    "U6",
+    "U7"
+  ],
+  "layers": 2,
+  "thickness_mm": 1.6,
+  "tracks": 592,
+  "vias": 27,
+  "minimum_track_width_mm": 0.2,
+  "board_sha256": "3b42eb5357a07355b095cfb20fbd8990def34dc454e6bbaee1a527b505f991d6",
+  "schematic_netlist_sha256": "848733e9f6e2a55be4bea7ae71b73376b23e2492a9e08a03acbf59dd59cec25b"
+}

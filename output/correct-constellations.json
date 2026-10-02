@@ -1,0 +1,89 @@
+{
+  "simulated": true,
+  "view": "male plug mating face, main key up",
+  "fps": 20,
+  "seconds_per_rail": 3,
+  "scenarios": [
+    {
+      "name": "Single pair",
+      "return": [
+        5
+      ],
+      "rails": [
+        [
+          3.3,
+          [
+            1
+          ]
+        ]
+      ]
+    },
+    {
+      "name": "Shared 5 V",
+      "return": [
+        5,
+        6
+      ],
+      "rails": [
+        [
+          5,
+          [
+            1,
+            2,
+            3
+          ]
+        ]
+      ]
+    },
+    {
+      "name": "Shared 12 V",
+      "return": [
+        3,
+        4,
+        5
+      ],
+      "rails": [
+        [
+          12,
+          [
+            8,
+            9,
+            10,
+            12
+          ]
+        ]
+      ]
+    },
+    {
+      "name": "Three voltage rails",
+      "return": [
+        5,
+        6
+      ],
+      "rails": [
+        [
+          5,
+          [
+            1,
+            2
+          ]
+        ],
+        [
+          12,
+          [
+            8,
+            9
+          ]
+        ],
+        [
+          24,
+          [
+            10,
+            12
+          ]
+        ]
+      ]
+    }
+  ],
+  "meaning": "Green is an assumed expected-map match. Particle speed is illustrative, not measured current."
+}

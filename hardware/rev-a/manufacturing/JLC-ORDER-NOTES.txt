@@ -1,0 +1,49 @@
+12 V tester Rev A — JLC sourcing update, 2026-09-30
+
+HOLD POINT: U7 / R05C05TE05S-R / C5338283 had zero JLC stock.
+Its displayed preorder estimate was USD 10.4867 each, MOQ 1, with no
+displayed lead time. Confirm sourcing and delivery before releasing PCBA.
+No components have been reserved or purchased.
+
+Primary upload files:
+  tester12v-rev-a-fabrication.zip — bare PCB Gerbers and drills
+  jlc-bom.csv — 24 exact JLC codes, 114 fitted components per PCB
+  jlc-cpl.csv — matching 114 placements, including through-hole J1-J4
+
+R43 and R44 are intentionally omitted. Test pads and mounting holes are
+not purchased components. J1-J4 require through-hole assembly. Confirm
+assembly-service eligibility and final matching in the JLC order system.
+
+CPL coordinates are millimetres, X right and Y up, with the same origin
+as the Gerbers (negative Y is intentional). SMT coordinates use native
+KiCad footprint centres. J1-J4 use the centre of the F.Fab body outline.
+Rotations are native KiCad rotations, not verified JLC-library corrections.
+Check JLC's placement preview against previews/assembly.pdf before payment,
+especially U1-U11, diode polarity and connector pin 1/orientation.
+
+Primary BOM uses stocked ADG4612BRUZ-REEL7 / C207399 (41 in stock at check).
+Optional jlc-bom-preorder-switches.csv instead uses ADG4612BRUZ / C657391
+for U4-U6 only: same silicon/package, but zero stock, MOQ 4, estimated
+nine-day lead time and USD 2.7916 each. This could save USD 23.72 on the
+six fitted switches versus the stocked reel option, before attrition.
+Choose one BOM. Do not load both. Preorder delivery/price are unconfirmed.
+
+Eight Basic part types avoid approximately USD 24.56 in Economic PCBA
+loading fees. Standard PCBA also charges loading for Basic parts.
+The nominal two-board fitted parts cost is USD 93.16 at displayed 1+ prices,
+including a USD 20.97 converter preorder estimate. Economic extended loading
+allowance is USD 49.12. These are NOT checkout totals. PCB, setup, placement,
+attrition/spares, MOQ overhead, shipping, taxes, display and harness are extra.
+Use the JLC order's actual attrition and quantity-price calculation.
+
+23 of 24 part types had sufficient displayed stock for nominal quantities.
+Stock and pricing can change. See ../sourcing/JLC-BOM-review.xlsx for details.
+C24 / C45783 is manufacturer NRND with deep JLC stock; selected for this
+small prototype run. Review lifecycle again before ongoing production.
+
+Circuit values, pin nets, packages and PCB copper are unchanged. Computer
+checks pass; real hardware remains unbuilt and requires the README's
+bring-up, power-sequencing and calibration tests. No 100% success guarantee.
+
+JLC source: https://jlcpcb.com/parts
+Fee schedule: https://jlcpcb.com/help/article/pcb-assembly-price

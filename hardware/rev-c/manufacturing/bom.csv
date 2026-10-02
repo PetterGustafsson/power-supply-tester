@@ -1,0 +1,88 @@
+Reference,Value,Manufacturer,MPN,Footprint,Populate,Notes,LCSC,JLC Category
+J1,INPUTS 1-4,Ningbo Xinlaiya Elec.,XY350V-3.5-4P,Tester:XY350V_3.5_4P,YES,"C557656; 3.5mm pitch, 0.8mm square pins, 1.4mm drill. 14x6.9mm body.",C557656,Extended
+R1,1M,UNI-ROYAL,0805W8F1004T5E,Tester:R_0805_2012Metric,YES,1%,C17514,Basic
+R2,1M,UNI-ROYAL,0805W8F1004T5E,Tester:R_0805_2012Metric,YES,1%,C17514,Basic
+R3,4.7k,UNI-ROYAL,0805W8F4701T5E,Tester:R_0805_2012Metric,YES,"1% | JLC: Basic; same 1%, 100ppm/K, 125mW, 150V rating",C17673,Basic
+C1,470p,Fenghua,0805B471K500NT,Tester:C_0805_2012Metric,YES,"470pF +/-10%, 50V X7R; Rev C candidate model bounds total input capacitance at 600pF",C1743,Basic
+R4,1M,UNI-ROYAL,0805W8F1004T5E,Tester:R_0805_2012Metric,YES,1%,C17514,Basic
+R5,1M,UNI-ROYAL,0805W8F1004T5E,Tester:R_0805_2012Metric,YES,1%,C17514,Basic
+R6,4.7k,UNI-ROYAL,0805W8F4701T5E,Tester:R_0805_2012Metric,YES,"1% | JLC: Basic; same 1%, 100ppm/K, 125mW, 150V rating",C17673,Basic
+C2,470p,Fenghua,0805B471K500NT,Tester:C_0805_2012Metric,YES,"470pF +/-10%, 50V X7R; Rev C candidate model bounds total input capacitance at 600pF",C1743,Basic
+R7,1M,UNI-ROYAL,0805W8F1004T5E,Tester:R_0805_2012Metric,YES,1%,C17514,Basic
+R8,1M,UNI-ROYAL,0805W8F1004T5E,Tester:R_0805_2012Metric,YES,1%,C17514,Basic
+R9,4.7k,UNI-ROYAL,0805W8F4701T5E,Tester:R_0805_2012Metric,YES,"1% | JLC: Basic; same 1%, 100ppm/K, 125mW, 150V rating",C17673,Basic
+C3,470p,Fenghua,0805B471K500NT,Tester:C_0805_2012Metric,YES,"470pF +/-10%, 50V X7R; Rev C candidate model bounds total input capacitance at 600pF",C1743,Basic
+R10,1M,UNI-ROYAL,0805W8F1004T5E,Tester:R_0805_2012Metric,YES,1%,C17514,Basic
+R11,1M,UNI-ROYAL,0805W8F1004T5E,Tester:R_0805_2012Metric,YES,1%,C17514,Basic
+R12,4.7k,UNI-ROYAL,0805W8F4701T5E,Tester:R_0805_2012Metric,YES,"1% | JLC: Basic; same 1%, 100ppm/K, 125mW, 150V rating",C17673,Basic
+C4,470p,Fenghua,0805B471K500NT,Tester:C_0805_2012Metric,YES,"470pF +/-10%, 50V X7R; Rev C candidate model bounds total input capacitance at 600pF",C1743,Basic
+U1,ADS1115IDGSR,Texas Instruments,ADS1115IDGSR,Tester:TSSOP-10_3x3mm_P0.5mm,YES,"PGA +/-1.024V, nominal attenuation 426.5319. Rev C calibration/firmware required.",C37593,Extended
+C13,100n,Yageo,CC0805KRX7R9BB104,Tester:C_0805_2012Metric,YES,"Use specified capacitance, voltage and dielectric | JLC: Basic; 100nF, 10%, 50V, X7R preserved",C49678,Basic
+J2,INPUTS 5-8,Ningbo Xinlaiya Elec.,XY350V-3.5-4P,Tester:XY350V_3.5_4P,YES,"C557656; 3.5mm pitch, 0.8mm square pins, 1.4mm drill. 14x6.9mm body.",C557656,Extended
+R13,1M,UNI-ROYAL,0805W8F1004T5E,Tester:R_0805_2012Metric,YES,1%,C17514,Basic
+R14,1M,UNI-ROYAL,0805W8F1004T5E,Tester:R_0805_2012Metric,YES,1%,C17514,Basic
+R15,4.7k,UNI-ROYAL,0805W8F4701T5E,Tester:R_0805_2012Metric,YES,"1% | JLC: Basic; same 1%, 100ppm/K, 125mW, 150V rating",C17673,Basic
+C5,470p,Fenghua,0805B471K500NT,Tester:C_0805_2012Metric,YES,"470pF +/-10%, 50V X7R; Rev C candidate model bounds total input capacitance at 600pF",C1743,Basic
+R16,1M,UNI-ROYAL,0805W8F1004T5E,Tester:R_0805_2012Metric,YES,1%,C17514,Basic
+R17,1M,UNI-ROYAL,0805W8F1004T5E,Tester:R_0805_2012Metric,YES,1%,C17514,Basic
+R18,4.7k,UNI-ROYAL,0805W8F4701T5E,Tester:R_0805_2012Metric,YES,"1% | JLC: Basic; same 1%, 100ppm/K, 125mW, 150V rating",C17673,Basic
+C6,470p,Fenghua,0805B471K500NT,Tester:C_0805_2012Metric,YES,"470pF +/-10%, 50V X7R; Rev C candidate model bounds total input capacitance at 600pF",C1743,Basic
+R19,1M,UNI-ROYAL,0805W8F1004T5E,Tester:R_0805_2012Metric,YES,1%,C17514,Basic
+R20,1M,UNI-ROYAL,0805W8F1004T5E,Tester:R_0805_2012Metric,YES,1%,C17514,Basic
+R21,4.7k,UNI-ROYAL,0805W8F4701T5E,Tester:R_0805_2012Metric,YES,"1% | JLC: Basic; same 1%, 100ppm/K, 125mW, 150V rating",C17673,Basic
+C7,470p,Fenghua,0805B471K500NT,Tester:C_0805_2012Metric,YES,"470pF +/-10%, 50V X7R; Rev C candidate model bounds total input capacitance at 600pF",C1743,Basic
+R22,1M,UNI-ROYAL,0805W8F1004T5E,Tester:R_0805_2012Metric,YES,1%,C17514,Basic
+R23,1M,UNI-ROYAL,0805W8F1004T5E,Tester:R_0805_2012Metric,YES,1%,C17514,Basic
+R24,4.7k,UNI-ROYAL,0805W8F4701T5E,Tester:R_0805_2012Metric,YES,"1% | JLC: Basic; same 1%, 100ppm/K, 125mW, 150V rating",C17673,Basic
+C8,470p,Fenghua,0805B471K500NT,Tester:C_0805_2012Metric,YES,"470pF +/-10%, 50V X7R; Rev C candidate model bounds total input capacitance at 600pF",C1743,Basic
+U2,ADS1115IDGSR,Texas Instruments,ADS1115IDGSR,Tester:TSSOP-10_3x3mm_P0.5mm,YES,"PGA +/-1.024V, nominal attenuation 426.5319. Rev C calibration/firmware required.",C37593,Extended
+C14,100n,Yageo,CC0805KRX7R9BB104,Tester:C_0805_2012Metric,YES,"Use specified capacitance, voltage and dielectric | JLC: Basic; 100nF, 10%, 50V, X7R preserved",C49678,Basic
+J3,INPUTS 9-12,Ningbo Xinlaiya Elec.,XY350V-3.5-4P,Tester:XY350V_3.5_4P,YES,"C557656; 3.5mm pitch, 0.8mm square pins, 1.4mm drill. 14x6.9mm body.",C557656,Extended
+R25,1M,UNI-ROYAL,0805W8F1004T5E,Tester:R_0805_2012Metric,YES,1%,C17514,Basic
+R26,1M,UNI-ROYAL,0805W8F1004T5E,Tester:R_0805_2012Metric,YES,1%,C17514,Basic
+R27,4.7k,UNI-ROYAL,0805W8F4701T5E,Tester:R_0805_2012Metric,YES,"1% | JLC: Basic; same 1%, 100ppm/K, 125mW, 150V rating",C17673,Basic
+C9,470p,Fenghua,0805B471K500NT,Tester:C_0805_2012Metric,YES,"470pF +/-10%, 50V X7R; Rev C candidate model bounds total input capacitance at 600pF",C1743,Basic
+R28,1M,UNI-ROYAL,0805W8F1004T5E,Tester:R_0805_2012Metric,YES,1%,C17514,Basic
+R29,1M,UNI-ROYAL,0805W8F1004T5E,Tester:R_0805_2012Metric,YES,1%,C17514,Basic
+R30,4.7k,UNI-ROYAL,0805W8F4701T5E,Tester:R_0805_2012Metric,YES,"1% | JLC: Basic; same 1%, 100ppm/K, 125mW, 150V rating",C17673,Basic
+C10,470p,Fenghua,0805B471K500NT,Tester:C_0805_2012Metric,YES,"470pF +/-10%, 50V X7R; Rev C candidate model bounds total input capacitance at 600pF",C1743,Basic
+R31,1M,UNI-ROYAL,0805W8F1004T5E,Tester:R_0805_2012Metric,YES,1%,C17514,Basic
+R32,1M,UNI-ROYAL,0805W8F1004T5E,Tester:R_0805_2012Metric,YES,1%,C17514,Basic
+R33,4.7k,UNI-ROYAL,0805W8F4701T5E,Tester:R_0805_2012Metric,YES,"1% | JLC: Basic; same 1%, 100ppm/K, 125mW, 150V rating",C17673,Basic
+C11,470p,Fenghua,0805B471K500NT,Tester:C_0805_2012Metric,YES,"470pF +/-10%, 50V X7R; Rev C candidate model bounds total input capacitance at 600pF",C1743,Basic
+R34,1M,UNI-ROYAL,0805W8F1004T5E,Tester:R_0805_2012Metric,YES,1%,C17514,Basic
+R35,1M,UNI-ROYAL,0805W8F1004T5E,Tester:R_0805_2012Metric,YES,1%,C17514,Basic
+R36,4.7k,UNI-ROYAL,0805W8F4701T5E,Tester:R_0805_2012Metric,YES,"1% | JLC: Basic; same 1%, 100ppm/K, 125mW, 150V rating",C17673,Basic
+C12,470p,Fenghua,0805B471K500NT,Tester:C_0805_2012Metric,YES,"470pF +/-10%, 50V X7R; Rev C candidate model bounds total input capacitance at 600pF",C1743,Basic
+U3,ADS1115IDGSR,Texas Instruments,ADS1115IDGSR,Tester:TSSOP-10_3x3mm_P0.5mm,YES,"PGA +/-1.024V, nominal attenuation 426.5319. Rev C calibration/firmware required.",C37593,Extended
+C15,100n,Yageo,CC0805KRX7R9BB104,Tester:C_0805_2012Metric,YES,"Use specified capacitance, voltage and dielectric | JLC: Basic; 100nF, 10%, 50V, X7R preserved",C49678,Basic
+J4,DISPLAY HARNESS,JST,B5B-XH-A(LF)(SN),Tester:JST_XH_B5B-XH-A_1x05_P2.50mm_Vertical,YES,"1=VSYS/5V,2=GND,3=3V3,4=GPIO6 SDA,5=GPIO7 SCL. One USB cable to Waveshare powers both boards.",C157991,Extended
+U4,TLV75533PDBVR,Texas Instruments,TLV75533PDBVR,Tester:SOT-23-5,YES,Primary 3.3V preregulator avoids 4.5V minimum requirement at USB-fed isolated converter. 500mA rating.,C404027,Extended
+U5,TPS70933DBVR,Texas Instruments,TPS70933DBVR,Tester:SOT-23-5,YES,"30V VIN withstands unregulated converter output. EN intentionally floating, internally enabled; do not tie to VIN. Integrated reverse-current blocking.",C89347,Extended
+U6,ISO1640BDR,Texas Instruments,ISO1640BDR,Tester:SOIC-8_3.9x4.9mm_P1.27mm,YES,"Functional isolation, 100kHz I2C. Non-isolated host pullups on Waveshare.",C5122339,Extended
+U7,B0305S-1WR3,EVISUN,B0305S-1WR3,Tester:B0305S_1WR3_EVISUN,YES,"C7465186 exact manufacturer. 3.3V input, 5V unregulated output; 20mA minimum output load supplied by five 1k resistors. Through-hole, JLC Economic eligible.",C7465186,Extended
+D1,LDO reverse protection,Nexperia,"PMEG2010ER,115",Tester:Nexperia_CFP3_SOD-123W,YES,OUT-to-IN reverse-current protection for U4; cathode to USB5V_F,C82288,Extended
+F1,250mA PTC,Littelfuse,1206L025/24YR,Tester:Fuse_1206_3216Metric,YES,USB power path only; not a DUT fuse,C3762322,Extended
+R37,4.7k,UNI-ROYAL,0805W8F4701T5E,Tester:R_0805_2012Metric,YES,"1% | JLC: Basic; same 1%, 100ppm/K, 125mW, 150V rating",C17673,Basic
+R38,1k,UNI-ROYAL,0805W8F1001T5E,Tester:R_0805_2012Metric,YES,"1% | JLC: Basic; same 1%, 100ppm/K, 125mW, 150V rating",C17513,Basic
+R39,1k,UNI-ROYAL,0805W8F1001T5E,Tester:R_0805_2012Metric,YES,"1% | JLC: Basic; same 1%, 100ppm/K, 125mW, 150V rating",C17513,Basic
+R40,1k,UNI-ROYAL,0805W8F1001T5E,Tester:R_0805_2012Metric,YES,"1% | JLC: Basic; same 1%, 100ppm/K, 125mW, 150V rating",C17513,Basic
+R41,1k,UNI-ROYAL,0805W8F1001T5E,Tester:R_0805_2012Metric,YES,"1% | JLC: Basic; same 1%, 100ppm/K, 125mW, 150V rating",C17513,Basic
+R42,1k,UNI-ROYAL,0805W8F1001T5E,Tester:R_0805_2012Metric,YES,"1% | JLC: Basic; same 1%, 100ppm/K, 125mW, 150V rating",C17513,Basic
+R43,1k,UNI-ROYAL,0805W8F1001T5E,Tester:R_0805_2012Metric,YES,"1% | JLC: Basic; same 1%, 100ppm/K, 125mW, 150V rating",C17513,Basic
+R44,4.7k,UNI-ROYAL,0805W8F4701T5E,Tester:R_0805_2012Metric,YES,"1% | JLC: Basic; same 1%, 100ppm/K, 125mW, 150V rating",C17673,Basic
+R45,4.7k,UNI-ROYAL,0805W8F4701T5E,Tester:R_0805_2012Metric,YES,"1% | JLC: Basic; same 1%, 100ppm/K, 125mW, 150V rating",C17673,Basic
+R46,4.7k,UNI-ROYAL,0805W8F4701T5E,Tester:R_0805_2012Metric,NO,"1% | JLC: Basic; same 1%, 100ppm/K, 125mW, 150V rating",C17673,Basic
+R47,4.7k,UNI-ROYAL,0805W8F4701T5E,Tester:R_0805_2012Metric,NO,"1% | JLC: Basic; same 1%, 100ppm/K, 125mW, 150V rating",C17673,Basic
+R48,1k,UNI-ROYAL,0805W8F1001T5E,Tester:R_0805_2012Metric,YES,"1% | JLC: Basic; same 1%, 100ppm/K, 125mW, 150V rating",C17513,Basic
+C16,10u,Samsung Electro-Mechanics,CL21A106KAYNNNE,Tester:C_0805_2012Metric,YES,"Use specified capacitance, voltage and dielectric | JLC: Basic; 10uF, 10%, X5R; voltage rating increased to 25V",C15850,Basic
+C17,100n,Yageo,CC0805KRX7R9BB104,Tester:C_0805_2012Metric,YES,"Use specified capacitance, voltage and dielectric | JLC: Basic; 100nF, 10%, 50V, X7R preserved",C49678,Basic
+C18,10u,Samsung Electro-Mechanics,CL21A106KAYNNNE,Tester:C_0805_2012Metric,YES,"Use specified capacitance, voltage and dielectric | JLC: Basic; 10uF, 10%, X5R; voltage rating increased to 25V",C15850,Basic
+C19,100n,Yageo,CC0805KRX7R9BB104,Tester:C_0805_2012Metric,YES,"Use specified capacitance, voltage and dielectric | JLC: Basic; 100nF, 10%, 50V, X7R preserved",C49678,Basic
+C20,10u,Samsung Electro-Mechanics,CL21A106KAYNNNE,Tester:C_0805_2012Metric,YES,"Use specified capacitance, voltage and dielectric | JLC: Basic; 10uF, 10%, X5R; voltage rating increased to 25V",C15850,Basic
+C21,100n,Yageo,CC0805KRX7R9BB104,Tester:C_0805_2012Metric,YES,"Use specified capacitance, voltage and dielectric | JLC: Basic; 100nF, 10%, 50V, X7R preserved",C49678,Basic
+C22,10u,Samsung Electro-Mechanics,CL21A106KAYNNNE,Tester:C_0805_2012Metric,YES,"Use specified capacitance, voltage and dielectric | JLC: Basic; 10uF, 10%, X5R; voltage rating increased to 25V",C15850,Basic
+C23,100n,Yageo,CC0805KRX7R9BB104,Tester:C_0805_2012Metric,YES,"Use specified capacitance, voltage and dielectric | JLC: Basic; 100nF, 10%, 50V, X7R preserved",C49678,Basic
+C24,100n,Yageo,CC0805KRX7R9BB104,Tester:C_0805_2012Metric,YES,"Use specified capacitance, voltage and dielectric | JLC: Basic; 100nF, 10%, 50V, X7R preserved",C49678,Basic
+C25,100n,Yageo,CC0805KRX7R9BB104,Tester:C_0805_2012Metric,YES,"Use specified capacitance, voltage and dielectric | JLC: Basic; 100nF, 10%, 50V, X7R preserved",C49678,Basic
+C26,470p,Fenghua,0805B471K500NT,Tester:C_0805_2012Metric,YES,"470pF +/-10%, 50V X7R; Rev C candidate model bounds total input capacitance at 600pF",C1743,Basic

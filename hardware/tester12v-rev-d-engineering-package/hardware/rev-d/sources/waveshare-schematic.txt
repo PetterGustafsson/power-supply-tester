@@ -1,0 +1,248 @@
+                           1                                                                   2                                                                             3                                                               4                                                  5                                                                          6
+
+
+
+                                                                                                          BAT                                                                                                   POWER                                                                                                         LCD
+                       KEY
+                                                                                                                                                                    VBAT         P1
+                                                                                          U1
+                                                                                                                                                                                  1
+                                                                        C1                                                                                                        2
+                                                                               VSYS1                                 2                                                                                                                                                                                                                                         LCD1
+                                                                                           VIN            PMID                                                                                                                                                                                LEDK
+                                                                                                                                 C3                GND
+                                                                        1uF                                                                                         GND                                                                                                                                                                      GND      1
+                                                                                                                                                                                                                                                                                                    R1                                                           GND
+                                                                                                                     3          47uF                                                                                                                                                                10R                                      LEDK     2                        3V3
+                                                                                                          PGND                      L1                                                                                                                                                                                                                           LEDK
+                                                                                     9                                                               C8             VBAT                              VBAT                        U3                            3V3                                                                          3V3      3
+                                 Key2                                                      STAT                                                                                                                                                                                         LCD_BL                                                                   LEDA
+                                                                 GND                                                                                                                                                         1                            5                                                                                  3V3      4
+A          R9                                                                                                                                                                                                                      VIN       VOUT                                                                                                                VDD                 C9      A
+                       RESET                                                         8                               5                              10uF                                        C10    C11                   2                                                          R2                                                   GND      5
+    3V3                                             GND                                    ISET             SW                                                        R4                                                           GND                                                                                                                           GND                 100nF
+                                                                                                                                                                                                                             3                            4         C？                                                                       GND      6
+
+
+
+
+                                                                 R3
+           10K                                                                                                                                                                                                                     CE             NC                                    1K          Q1                                                           GND
+                               C38         100nF                                     7                               6                                                100K                    2.2uF 2.2uF                                                                                                                                    LCD_DC   7
+                                                                                           AGND            BATS                                          VBAT                                                                                                       2.2uF                                                                                        D/C
+                               Key1                                                                                                                                                                                               ME6217C33M5G                                                                                               LCD_CS   8
+
+
+
+
+                                                                 160K
+                                                                                                                                                                                                                                                                                                                                                                 CS
+           R10 10KGPIO0                                                             10                               11                                              BAT_ADC                                                                                                            R6                                                   LCD_CLK 9                         GND
+    3V3                                             GND                                    AGND           AGND                                                                                                                                                                                      DMG1012T-7                                                   SCL
+                                                                                                                                                                                                       GND                                                                              10K                                                  LCD_DIN 10
+                                                                                                                                                                                                                                                                                                                                                                 SDA
+                               C42         100nF                                                                                                                                                                                                                GND                                                                          LCD_RST 11
+                                                                                                                                                                      R7              C13                                                                                                                                                                        RESET
+                                                                                          ETA6096                                                                                                                                                                                                                                            GND     12
+                                                                                                                                                                      100K            100nF                                                                                                                                                                      GND
+
+                                                                                                                                                                                                                                                                                                GND
+                                                                 GND                     R3 160k 82k 66k
+                                                                                            1A 2A 2.5A                                                                    GND
+
+
+                                                            IMU                                                          U4                                           3V3                                                                                                                                             GPIO_OUT
+                                                                                                                                QMI8658C
+
+                                                                                                                                                                                                                            FLASH
+                                                                                                        GND      1                                             2
+                                                                                                                          SDO/SAO                    SDx
+                                                                                                        IMU_SDA 14                                             3
+                 3V3                                                                                                      SDA                        SCx                                                                                                                                 H1                                                           H2
+                                                                                                        IMU_SCL 13
+                                                                                                        3V3     12        SCL                                                                                                                                                  GPIO36                              GPIO46                    GND                         GND
+                                                                                                                          CS                                   10                                                                                                                         1      2                                                        1      2
+                                                                                                                                                      NC                                                                                                                       GPIO35                              GPIO45                    VSYS                        3V3
+                                                                                                        IMU_INT1 4                                             11                                                                                                                         3      4                                                        3      4
+                                                                                                                          INT1                        NC                                                                                                      C12   2.2uF      GPIO34                              GPIO42                    GPIO6                       BOOT
+                                                                                                        IMU_INT2 9                                                                                                                               GND                                      5      6                                                        5      6
+
+
+
+
+                                                                                                                                     VDDIO
+                     R11 4.7k IMU_SCL                                                                                     INT2                                                                                               U6                                                GPIO33                              GPIO41                    GPIO7                       RUN
+                                                                                                                                                                                                                                                                                          7      8                                                        7      8
+
+
+
+
+                                                                                                                                     VDD
+
+
+                                                                                                                                             GND
+                                                                                                                                             GND
+                     R13 4.7k IMU_SDA                                                                                                                                                                   SPICS0          1                             8        VDD_SPI         GPIO21                              GPIO40                    GPIO8                       GPIO0
+                                                                                                                                                                                                                                 CS      VCC                                              9     10                                                        9     10
+                                                                                                                                                                                                        SPIQ            2                             7        SPIHD           GPIO18                              GPIO39                    GPIO9                       GPIO1
+                                                                                                                                                                                                                                 DO     HOLD                                              11    12                                                        11    12
+                                                                                                                                                                                                        SPIWP           3                             6        SPICLK          GPIO17                              GPIO38                    GPIO10                      GPIO2
+                                                                                                                                                                                                                                 WP      CLK                                              13    14                                                        13    14
+
+                                                                                                                                                                    FLASH
+B                                                                                                                                                                                                       GND             4                             5        SPID            GPIO16                              GPIO37                    GPIO11                      GPIO3               B
+
+
+
+
+                                                                                                                                 8
+                                                                                                                                 5
+
+                                                                                                                                             6
+                                                                                                                                             7
+                                                                                                                                         3V3                                                                                     GND      DI                                              15    16                                                        15    16
+                                                                                                                                                                                                                                                                               GPIO15                              VSYS                      GPIO12                      GPIO4
+                                                                                                                                                                                                                                                                                          17    18                                                        17    18
+                                                                                                                          3V3                         GND                                                                    W25Q128JVSIQ                                      GPIO14                              GND                       GPIO13                      GPIO5
+                                                                                                                                 C18         C19                                                                                                                                          19    20                                                        19    20
+
+                                                                                                                                 100nF 100nF
+                                                                                                                  GND
+
+
+
+                IMU_SDA        GPIO6
+                                                                                                                                                                                                                                                 D2       LESD8LH5.0CT5G                                                  GND
+                IMU_SCL        GPIO7                                                                                                                                                                                                    C2
+                                                                                                                                                                                                                   GND                                                   GND
+
+
+
+
+                                                                                                                                                                                                                                                                                                                          0
+                                                                              U7                                                                                                                                    MTB                 2.2uF
+                                                                                                                                                                                                             GND                                                                              3V3         1                                  16
+                                                      LNA_IN             1                                                      56           3V3                                                                  A1/B12                              D1 MBR230LSFT1G                                              VIO             RI
+
+
+
+
+                                                                                                                                                                                                                                                                                                                          EP
+                IMU_INT1       GPIO47                                          LNA_IN                           VDDA                                                                                         GND                                                                              GND         2                                  15
+                                                      VDD3V3             2                                                      55                                                                                 A4/B9               VBUS                 VSYS                                                   GND            CTS
+                IMU_INT2       GPIO48                                          VDD3P3                           VDDA                                                                                        VBUS                                                                              VBUS        3                                  14
+                                                                         3                                                      54         XTALP                                                                   B8                                                                                              VDD5           DSR
+                                                                               VDD3P3                         XTAL_P                                                                                        SBU2                                                                              UTXD        4                                  13 RTS
+                                                      RESET              4                                                      53         XTALN                                                                      A5               R5    5.1K                                                                  TXD            RTS
+                LCD_DC         GPIO8                                           CHIP_PU                        XTAL_N                                                                                         CC1                                                                              URXD        5                                  12 DTR
+                                                      GPIO0              5                                                      52           GPIO46                                                                B7                    USB_N                                                                     RXD        DTRTNOW
+                LCD_CS         GPIO9                                           GPIO0                           GPIO46                                                                                        DN2                                                                              3V3         6                                  11
+                                                      GPIO1              6                                                      51           GPIO45                                                                   A6                 USB_P                                                                     V3             DCD
+                LCD_CLK        GPIO10                                          GPIO1                           GPIO45                                                                                         DP1                                                                             USBD_P      7                                  10
+                                                      GPIO2              7                                                      50          UTXD                                                                      A7                 USB_N                                                                     UD+           ACT#
+                LCD_DIN        GPIO11                                          GPIO2                           U0RXD                                                                                         DN1                                                                              USBD_N      8                                  9 VBUS
+                                                      GPIO3              8                                                      49          URXD                                                                   B6                    USB_P                                                                     UD-           VBUS
+                                                                               GPIO3                           U0TXD                                                                                          DP2
+                                                      GPIO4              9                                                      48           GPIO42                                                                   A8
+                LCD_RST        GPIO12                                          GPIO4                            MTMS                                                                                        SBU1                                                                                              U8
+                                                      GPIO5             10                                                      47           GPIO41                                                                B5                  R8   5.1K                                                              CH343P
+                LCD_BL         GPIO40                                          GPIO5                             MTDI                                                                                        CC2                                              GND
+                                                      GPIO6             11                                                      46            3V3                                                                 A9/B4                  VBUS
+                                                                               GPIO6                      VDD3P3_CPU                                                                                        VBUS
+                                                      GPIO7             12                                                      45           GPIO40                                                               A12/B1
+                BAT_ADC        GPIO1                                           GPIO7                            MTDO                                                                                         GND
+                                                      GPIO8             13                                                      44           GPIO39
+                BOOT           GPIO0                                           GPIO8                            MTCK
+C                                                     GPIO9             14                                                      43           GPIO38                                                   Type_C1                                                                                                                                                                                C
+                RUN            RESET                                           GPIO9                           GPIO38
+                                                      GPIO10            15                                                      42           GPIO37                                                                                                                                                                                     U9
+                                                                               GPIO10                          GPIO37
+                                                      GPIO11            16                                                      41           GPIO36                                                                                                                                                                         RTS     1                 6        RESET
+                                                                               GPIO11                          GPIO36                                                                                                                                                                                                                         E C
+                                                      GPIO12            17                                                      40           GPIO35                                                                                                                                      VBUS
+                                                                               GPIO12                          GPIO35
+                                                      GPIO13            18                                                      39           GPIO34
+                                                                               GPIO13                          GPIO34
+                                                      GPIO14            19                                                      38           GPIO33                                                              close to ENDPOINT                                                      C14
+                                                                               GPIO14                          GPIO33
+                                                      3V3               20                                                      37           GPIO47                                                                                                                                                   C17                   DTR     2                 5         RTS
+                                           RF-50Ω
+                                                      GPIO15            21
+                                                                               VDD3P3_RTC                   SPICLK_P
+                                                                                                                                36           GPIO48                                                      USB_P R16                  0RUSBD_P
+                                                                                                                                                                                                                                                                                                                                              B B
+                                              i                                XTAL_32K_P                   SPICLK_N
+                                                      GPIO16            22                                                      35           SPID                                                        USB_N R17                  0RUSBD_N                                            100nF         10uF 0402
+                                                                               XTAL_32K_N                        SPID
+                                                      GPIO17            23                                                      34           SPIQ
+                                                                               GPIO17                            SPIQ
+          J1                                          GPIO18            24                                                      33           SPICLK                                                                                                                                                                         GPIO0   3                 4         DTR
+                                                      GPIO19            25
+                                                                               GPIO18                         SPICLK
+                                                                                                                                32           SPICS0                                                                                                   GND
+                                                                                                                                                                                                                                                                                                                                              C E
+                                                                               GPIO19                          SPICS0
+                                                      GPIO20            26                                                      31           SPIWP                                                                 D3                                                                     GND
+                                                                               GPIO20                           SPIWP                                                                                                       LESD8LH5.0CT5G
+                          L2                          GPIO21            27                                                      30           SPIHD
+                                                                               GPIO21                           SPIHD
+                                 LNA_IN                                 28                                                      29           VDD_SPI
+                                                                                                   EP
+
+
+
+
+                                                                                                                                                                                                                                                                                    Type-C TO UART
+                                                                               SPICS1                        VDD_SPI                                                                                                                                   GND
+                                                                                                                                                                                                                 D4
+                 L3      C20         C21                                      ESP32-S3R2                                                                                                                                    LESD8LH5.0CT5G
+                                                                                                   57
+
+
+
+
+                 NC      NC
+
+                                                                                                   GND
+                   GND          GND
+                  C29
+                  NC
+                                                    3V3
+
+                                                                                                                                                                                                                            XTAL
+                                                                                               3V3            3V3         3V3                      GPIO45
+                                                                         VDD3V3
+               GND                                    C4    C5
+                                                                                   IND2    2nH      C25           C22      C23       C24
+
+
+                                                                                                                                                                                                                                                                                                                            W
+                                                                                                                                                            R18
+                                                      1uF   10uF 0402 C26
+                                                                      100nF                         100nF         100nF 100pF 1uF                           10K
+D                                                                                                                                                                                                                            C27                                                                                                                                                             D
+                                                                                                                                                                                                                                              XTALP                                                                                     aveshare
+                                                    GND
+                                                                                                                                                                                                                                       3
+
+
+
+
+                                                                                               GND            GND GND                                    3V3                                                                 15pF            X1
+                                                                                                                                                                                                                                2              4 GND
+                                                                                                                                                                                                             GND
+                                                                                                                                                                                                                             C28
+                                                                                                                                                                                                                                             40MHz
+                                                                                                                                                                                                                                              XTALN                                             ESP32-S3-LCD-1.28
+                                                                                                                                                                                                                                       1
+
+
+
+
+                                                                                                                                                                                                                             15pF
+
+
+
+
+                           1                                                                   2                                                                             3                                                               4                                                  5                                                                          6
+

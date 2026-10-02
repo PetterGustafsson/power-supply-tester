@@ -1,0 +1,1 @@
+PASS: 1188 exported-netlist cases, 132 independent pin permutations, ADC fault/NaN, multi-rail, unbalanced source and voltage-window checks.

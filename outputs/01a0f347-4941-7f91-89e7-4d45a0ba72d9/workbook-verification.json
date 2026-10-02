@@ -1,0 +1,34 @@
+{
+  "totals": {
+    "parts": 93.15880000000003,
+    "fees": 49.12,
+    "short": 1,
+    "fit": 114
+  },
+  "sensitivity": "PASS",
+  "errors": {
+    "recordCount": 1,
+    "truncated": false,
+    "metadata": {
+      "revision": "o6n6zi",
+      "target": {
+        "id": "wb/ymrr38",
+        "beforeLines": 0,
+        "afterLines": 0
+      },
+      "kind": {
+        "requested": "match",
+        "tokens": [
+          "match"
+        ]
+      },
+      "include": {
+        "tokens": []
+      },
+      "exclude": {
+        "tokens": []
+      },
+      "notices": []
+    }
+  }
+}

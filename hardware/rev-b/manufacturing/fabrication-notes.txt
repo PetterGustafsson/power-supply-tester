@@ -1,0 +1,55 @@
+TESTER12V REV B — FIRST PROTOTYPE
+Date: 2026-09-30
+
+Bare PCB specification:
+  Size: 90.00 x 80.00 mm, rectangular, as Edge_Cuts Gerber
+  Material: FR-4
+  Copper layers: 2
+  Finished thickness: 1.6 mm
+  Copper: 1 oz finished outer copper
+  Finish: ENIG
+  Solder mask: green, both sides
+  Legend: white, as supplied (front content; back may be empty)
+  Minimum track/netclass clearance: 0.20/0.20 mm
+  Through vias: 0.60 mm land, 0.30 mm finished drill
+  Via tenting: follow supplied solder-mask layers
+  NPTH: four 2.70 mm mounting holes, use separate NPTH drill file
+  PTH: use separate PTH drill file; do not merge mounting holes as plated
+  Request electrical net testing and manufacturer DFM review
+  Do not scale, mirror, or move individual layers
+  No controlled impedance or castellations
+
+The fabrication ZIP contains bare-board copper, mask, legend, profile,
+and separate PTH/NPTH drill data. It does not order an assembled PCB.
+Use the included board outline as the dimensional authority.
+
+Assembly information in the complete design package:
+  jlc-bom.csv / jlc-cpl.csv: primary optimized JLC upload pair, 114 components
+  Exact JLC library codes match the native schematic and PCB purchasing fields.
+  ../../tester12v-rev-b-jlc-order.zip (at hardware/): concise order bundle
+  Extract that bundle; upload PCB-Gerbers.zip, BOM.csv and CPL.csv separately.
+  Read ORDER-INSTRUCTIONS.txt before releasing assembly.
+  bom.csv / bom-grouped.csv: exact component MPNs and population flags
+  placements-smd.csv: KiCad coordinates, mm, top side; Y is negative
+  previews/assembly.pdf: references, connector/IC pin numbers, diode marks
+  stencil/tester12v-F_Paste.gtp: front paste layer
+  114 populated parts total: 110 SMD and 4 through-hole connectors
+  R43/R44 DO NOT POPULATE. The supplied stencil omits their apertures.
+  If re-exporting paste directly from the native PCB, suppress DNP pads
+  using scripts/plot_stencil.py or the assembler's stencil editor.
+  Test points and mounting holes require no purchased components.
+  J1-J4 are omitted from placements-smd.csv but included in jlc-cpl.csv.
+  They require through-hole assembly. Confirm hand/wave service in the quote.
+  Confirm the assembler's rotation convention and pin-1 orientation in
+  its placement preview, especially U7, U8, U10, U11 and D13.
+  No unreviewed substitutions of IC suffix, resistor tolerance, or capacitance.
+
+U7 is the stocked MPS MIE1W0505BGLVH-3R-Z / C22419841 in LGA-12.
+All 24 selected types showed stock on 2026-09-30. Recheck attrition stock,
+exact matching, LGA lands/paste and placement before assembly release.
+Use the matching Rev B BOM and CPL with these Rev B Gerbers.
+
+This is a computer-checked, unbuilt prototype. The first-article procedure,
+calibration, USB supply/harness checks, and power sequencing measurements
+in README.md and validation/REPORT.md remain required. No electrical
+performance, high-voltage safety, environmental or EMC rating is certified.

@@ -1,0 +1,2512 @@
+stderr Warning: can't find the initialization file spinit.
+stdout ******
+stdout ** ngspice-44.2 shared library
+stdout ******
+stdout Note: No compatibility mode selected!
+stdout Circuit: 0v-pair-1us
+stdout Doing analysis at TEMP = 27.000000 and TNOM = 27.000000
+stdout Using SPARSE 1.3 as Direct Linear Solver
+stdout Initial Transient Solution
+stdout --------------------------
+stdout Node                                   Voltage
+stdout ----                                   -------
+stdout a3v3                                         0
+stdout vbias                                        0
+stdout p1                                           0
+stdout p12                                          0
+stdout mid1                                         0
+stdout a1                                           0
+stdout p2                                           0
+stdout mid2                                         0
+stdout a2                                           0
+stdout p3                                           0
+stdout mid3                                         0
+stdout a3                                           0
+stdout p4                                           0
+stdout mid4                                         0
+stdout a4                                           0
+stdout p5                                           0
+stdout mid5                                         0
+stdout a5                                           0
+stdout p6                                           0
+stdout mid6                                         0
+stdout a6                                           0
+stdout p7                                           0
+stdout mid7                                         0
+stdout a7                                           0
+stdout p8                                           0
+stdout mid8                                         0
+stdout a8                                           0
+stdout p9                                           0
+stdout mid9                                         0
+stdout a9                                           0
+stdout p10                                          0
+stdout mid10                                        0
+stdout a10                                          0
+stdout p11                                          0
+stdout mid11                                        0
+stdout a11                                          0
+stdout mid12                                        0
+stdout a12                                          0
+stdout vdut#branch                                  0
+stdout vdd#branch                                   0
+ Reference value :  0.00000e+00
+ Reference value :  1.27085e-03
+ Reference value :  2.55745e-03
+ Reference value :  4.32135e-03
+ Reference value :  8.23255e-03
+stdout No. of Data Rows : 120032
+stdout Note: No compatibility mode selected!
+stdout Circuit: 0v-pair-10us
+stdout Doing analysis at TEMP = 27.000000 and TNOM = 27.000000
+stdout Using SPARSE 1.3 as Direct Linear Solver
+stdout Initial Transient Solution
+stdout --------------------------
+stdout Node                                   Voltage
+stdout ----                                   -------
+stdout a3v3                                         0
+stdout vbias                                        0
+stdout p1                                           0
+stdout p12                                          0
+stdout mid1                                         0
+stdout a1                                           0
+stdout p2                                           0
+stdout mid2                                         0
+stdout a2                                           0
+stdout p3                                           0
+stdout mid3                                         0
+stdout a3                                           0
+stdout p4                                           0
+stdout mid4                                         0
+stdout a4                                           0
+stdout p5                                           0
+stdout mid5                                         0
+stdout a5                                           0
+stdout p6                                           0
+stdout mid6                                         0
+stdout a6                                           0
+stdout p7                                           0
+stdout mid7                                         0
+stdout a7                                           0
+stdout p8                                           0
+stdout mid8                                         0
+stdout a8                                           0
+stdout p9                                           0
+stdout mid9                                         0
+stdout a9                                           0
+stdout p10                                          0
+stdout mid10                                        0
+stdout a10                                          0
+stdout p11                                          0
+stdout mid11                                        0
+stdout a11                                          0
+stdout mid12                                        0
+stdout a12                                          0
+stdout vdut#branch                                  0
+stdout vdd#branch                                   0
+ Reference value :  0.00000e+00
+ Reference value :  3.90655e-03
+ Reference value :  7.81985e-03
+ Reference value :  1.17278e-02
+stdout No. of Data Rows : 120029
+stdout Note: No compatibility mode selected!
+stdout Circuit: 0v-pair-100us
+stdout Doing analysis at TEMP = 27.000000 and TNOM = 27.000000
+stdout Using SPARSE 1.3 as Direct Linear Solver
+stdout Initial Transient Solution
+stdout --------------------------
+stdout Node                                   Voltage
+stdout ----                                   -------
+stdout a3v3                                         0
+stdout vbias                                        0
+stdout p1                                           0
+stdout p12                                          0
+stdout mid1                                         0
+stdout a1                                           0
+stdout p2                                           0
+stdout mid2                                         0
+stdout a2                                           0
+stdout p3                                           0
+stdout mid3                                         0
+stdout a3                                           0
+stdout p4                                           0
+stdout mid4                                         0
+stdout a4                                           0
+stdout p5                                           0
+stdout mid5                                         0
+stdout a5                                           0
+stdout p6                                           0
+stdout mid6                                         0
+stdout a6                                           0
+stdout p7                                           0
+stdout mid7                                         0
+stdout a7                                           0
+stdout p8                                           0
+stdout mid8                                         0
+stdout a8                                           0
+stdout p9                                           0
+stdout mid9                                         0
+stdout a9                                           0
+stdout p10                                          0
+stdout mid10                                        0
+stdout a10                                          0
+stdout p11                                          0
+stdout mid11                                        0
+stdout a11                                          0
+stdout mid12                                        0
+stdout a12                                          0
+stdout vdut#branch                                  0
+stdout vdd#branch                                   0
+ Reference value :  4.76272e-04
+ Reference value :  4.40015e-03
+ Reference value :  8.34575e-03
+stdout No. of Data Rows : 120029
+stdout Note: No compatibility mode selected!
+stdout Circuit: 0v-pair-1000us
+stdout Doing analysis at TEMP = 27.000000 and TNOM = 27.000000
+stdout Using SPARSE 1.3 as Direct Linear Solver
+stdout Initial Transient Solution
+stdout --------------------------
+stdout Node                                   Voltage
+stdout ----                                   -------
+stdout a3v3                                         0
+stdout vbias                                        0
+stdout p1                                           0
+stdout p12                                          0
+stdout mid1                                         0
+stdout a1                                           0
+stdout p2                                           0
+stdout mid2                                         0
+stdout a2                                           0
+stdout p3                                           0
+stdout mid3                                         0
+stdout a3                                           0
+stdout p4                                           0
+stdout mid4                                         0
+stdout a4                                           0
+stdout p5                                           0
+stdout mid5                                         0
+stdout a5                                           0
+stdout p6                                           0
+stdout mid6                                         0
+stdout a6                                           0
+stdout p7                                           0
+stdout mid7                                         0
+stdout a7                                           0
+stdout p8                                           0
+stdout mid8                                         0
+stdout a8                                           0
+stdout p9                                           0
+stdout mid9                                         0
+stdout a9                                           0
+stdout p10                                          0
+stdout mid10                                        0
+stdout a10                                          0
+stdout p11                                          0
+stdout mid11                                        0
+stdout a11                                          0
+stdout mid12                                        0
+stdout a12                                          0
+stdout vdut#branch                                  0
+stdout vdd#branch                                   0
+ Reference value :  0.00000e+00
+ Reference value :  3.89175e-03
+ Reference value :  7.80035e-03
+ Reference value :  1.16754e-02
+stdout No. of Data Rows : 120029
+stdout Note: No compatibility mode selected!
+stdout Circuit: 0v-positive_single-1us
+stdout Doing analysis at TEMP = 27.000000 and TNOM = 27.000000
+stdout Using SPARSE 1.3 as Direct Linear Solver
+stdout Initial Transient Solution
+stdout --------------------------
+stdout Node                                   Voltage
+stdout ----                                   -------
+stdout a3v3                                         0
+stdout vbias                                        0
+stdout p1                                           0
+stdout mid1                                         0
+stdout a1                                           0
+stdout p2                                           0
+stdout mid2                                         0
+stdout a2                                           0
+stdout p3                                           0
+stdout mid3                                         0
+stdout a3                                           0
+stdout p4                                           0
+stdout mid4                                         0
+stdout a4                                           0
+stdout p5                                           0
+stdout mid5                                         0
+stdout a5                                           0
+stdout p6                                           0
+stdout mid6                                         0
+stdout a6                                           0
+stdout p7                                           0
+stdout mid7                                         0
+stdout a7                                           0
+stdout p8                                           0
+stdout mid8                                         0
+stdout a8                                           0
+stdout p9                                           0
+stdout mid9                                         0
+stdout a9                                           0
+stdout p10                                          0
+stdout mid10                                        0
+stdout a10                                          0
+stdout p11                                          0
+stdout mid11                                        0
+stdout a11                                          0
+stdout p12                                          0
+stdout mid12                                        0
+stdout a12                                          0
+stdout vdut#branch                                  0
+stdout vdd#branch                                   0
+ Reference value :  6.48972e-04
+ Reference value :  4.69715e-03
+ Reference value :  8.75145e-03
+stdout No. of Data Rows : 120032
+stdout Note: No compatibility mode selected!
+stdout Circuit: 0v-positive_single-10us
+stdout Doing analysis at TEMP = 27.000000 and TNOM = 27.000000
+stdout Using SPARSE 1.3 as Direct Linear Solver
+stdout Initial Transient Solution
+stdout --------------------------
+stdout Node                                   Voltage
+stdout ----                                   -------
+stdout a3v3                                         0
+stdout vbias                                        0
+stdout p1                                           0
+stdout mid1                                         0
+stdout a1                                           0
+stdout p2                                           0
+stdout mid2                                         0
+stdout a2                                           0
+stdout p3                                           0
+stdout mid3                                         0
+stdout a3                                           0
+stdout p4                                           0
+stdout mid4                                         0
+stdout a4                                           0
+stdout p5                                           0
+stdout mid5                                         0
+stdout a5                                           0
+stdout p6                                           0
+stdout mid6                                         0
+stdout a6                                           0
+stdout p7                                           0
+stdout mid7                                         0
+stdout a7                                           0
+stdout p8                                           0
+stdout mid8                                         0
+stdout a8                                           0
+stdout p9                                           0
+stdout mid9                                         0
+stdout a9                                           0
+stdout p10                                          0
+stdout mid10                                        0
+stdout a10                                          0
+stdout p11                                          0
+stdout mid11                                        0
+stdout a11                                          0
+stdout p12                                          0
+stdout mid12                                        0
+stdout a12                                          0
+stdout vdut#branch                                  0
+stdout vdd#branch                                   0
+ Reference value :  0.00000e+00
+ Reference value :  4.00825e-03
+ Reference value :  8.07575e-03
+stdout No. of Data Rows : 120029
+stdout Note: No compatibility mode selected!
+stdout Circuit: 0v-positive_single-100us
+stdout Doing analysis at TEMP = 27.000000 and TNOM = 27.000000
+stdout Using SPARSE 1.3 as Direct Linear Solver
+stdout Initial Transient Solution
+stdout --------------------------
+stdout Node                                   Voltage
+stdout ----                                   -------
+stdout a3v3                                         0
+stdout vbias                                        0
+stdout p1                                           0
+stdout mid1                                         0
+stdout a1                                           0
+stdout p2                                           0
+stdout mid2                                         0
+stdout a2                                           0
+stdout p3                                           0
+stdout mid3                                         0
+stdout a3                                           0
+stdout p4                                           0
+stdout mid4                                         0
+stdout a4                                           0
+stdout p5                                           0
+stdout mid5                                         0
+stdout a5                                           0
+stdout p6                                           0
+stdout mid6                                         0
+stdout a6                                           0
+stdout p7                                           0
+stdout mid7                                         0
+stdout a7                                           0
+stdout p8                                           0
+stdout mid8                                         0
+stdout a8                                           0
+stdout p9                                           0
+stdout mid9                                         0
+stdout a9                                           0
+stdout p10                                          0
+stdout mid10                                        0
+stdout a10                                          0
+stdout p11                                          0
+stdout mid11                                        0
+stdout a11                                          0
+stdout p12                                          0
+stdout mid12                                        0
+stdout a12                                          0
+stdout vdut#branch                                  0
+stdout vdd#branch                                   0
+ Reference value :  0.00000e+00
+ Reference value :  4.00855e-03
+ Reference value :  8.08125e-03
+stdout No. of Data Rows : 120029
+stdout Note: No compatibility mode selected!
+stdout Circuit: 0v-positive_single-1000us
+stdout Doing analysis at TEMP = 27.000000 and TNOM = 27.000000
+stdout Using SPARSE 1.3 as Direct Linear Solver
+stdout Initial Transient Solution
+stdout --------------------------
+stdout Node                                   Voltage
+stdout ----                                   -------
+stdout a3v3                                         0
+stdout vbias                                        0
+stdout p1                                           0
+stdout mid1                                         0
+stdout a1                                           0
+stdout p2                                           0
+stdout mid2                                         0
+stdout a2                                           0
+stdout p3                                           0
+stdout mid3                                         0
+stdout a3                                           0
+stdout p4                                           0
+stdout mid4                                         0
+stdout a4                                           0
+stdout p5                                           0
+stdout mid5                                         0
+stdout a5                                           0
+stdout p6                                           0
+stdout mid6                                         0
+stdout a6                                           0
+stdout p7                                           0
+stdout mid7                                         0
+stdout a7                                           0
+stdout p8                                           0
+stdout mid8                                         0
+stdout a8                                           0
+stdout p9                                           0
+stdout mid9                                         0
+stdout a9                                           0
+stdout p10                                          0
+stdout mid10                                        0
+stdout a10                                          0
+stdout p11                                          0
+stdout mid11                                        0
+stdout a11                                          0
+stdout p12                                          0
+stdout mid12                                        0
+stdout a12                                          0
+stdout vdut#branch                                  0
+stdout vdd#branch                                   0
+ Reference value :  0.00000e+00
+ Reference value :  4.04165e-03
+ Reference value :  8.09855e-03
+stdout No. of Data Rows : 120029
+stdout Note: No compatibility mode selected!
+stdout Circuit: 0v-negative_single-1us
+stdout Doing analysis at TEMP = 27.000000 and TNOM = 27.000000
+stdout Using SPARSE 1.3 as Direct Linear Solver
+stdout Initial Transient Solution
+stdout --------------------------
+stdout Node                                   Voltage
+stdout ----                                   -------
+stdout a3v3                                         0
+stdout vbias                                        0
+stdout p1                                           0
+stdout mid1                                         0
+stdout a1                                           0
+stdout p2                                           0
+stdout mid2                                         0
+stdout a2                                           0
+stdout p3                                           0
+stdout mid3                                         0
+stdout a3                                           0
+stdout p4                                           0
+stdout mid4                                         0
+stdout a4                                           0
+stdout p5                                           0
+stdout mid5                                         0
+stdout a5                                           0
+stdout p6                                           0
+stdout mid6                                         0
+stdout a6                                           0
+stdout p7                                           0
+stdout mid7                                         0
+stdout a7                                           0
+stdout p8                                           0
+stdout mid8                                         0
+stdout a8                                           0
+stdout p9                                           0
+stdout mid9                                         0
+stdout a9                                           0
+stdout p10                                          0
+stdout mid10                                        0
+stdout a10                                          0
+stdout p11                                          0
+stdout mid11                                        0
+stdout a11                                          0
+stdout p12                                          0
+stdout mid12                                        0
+stdout a12                                          0
+stdout vdut#branch                                  0
+stdout vdd#branch                                   0
+ Reference value :  0.00000e+00
+ Reference value :  4.02505e-03
+ Reference value :  8.08825e-03
+stdout No. of Data Rows : 120032
+stdout Note: No compatibility mode selected!
+stdout Circuit: 0v-negative_single-10us
+stdout Doing analysis at TEMP = 27.000000 and TNOM = 27.000000
+stdout Using SPARSE 1.3 as Direct Linear Solver
+stdout Initial Transient Solution
+stdout --------------------------
+stdout Node                                   Voltage
+stdout ----                                   -------
+stdout a3v3                                         0
+stdout vbias                                        0
+stdout p1                                           0
+stdout mid1                                         0
+stdout a1                                           0
+stdout p2                                           0
+stdout mid2                                         0
+stdout a2                                           0
+stdout p3                                           0
+stdout mid3                                         0
+stdout a3                                           0
+stdout p4                                           0
+stdout mid4                                         0
+stdout a4                                           0
+stdout p5                                           0
+stdout mid5                                         0
+stdout a5                                           0
+stdout p6                                           0
+stdout mid6                                         0
+stdout a6                                           0
+stdout p7                                           0
+stdout mid7                                         0
+stdout a7                                           0
+stdout p8                                           0
+stdout mid8                                         0
+stdout a8                                           0
+stdout p9                                           0
+stdout mid9                                         0
+stdout a9                                           0
+stdout p10                                          0
+stdout mid10                                        0
+stdout a10                                          0
+stdout p11                                          0
+stdout mid11                                        0
+stdout a11                                          0
+stdout p12                                          0
+stdout mid12                                        0
+stdout a12                                          0
+stdout vdut#branch                                  0
+stdout vdd#branch                                   0
+ Reference value :  0.00000e+00
+ Reference value :  4.06895e-03
+ Reference value :  8.15295e-03
+stdout No. of Data Rows : 120029
+stdout Note: No compatibility mode selected!
+stdout Circuit: 0v-negative_single-100us
+stdout Doing analysis at TEMP = 27.000000 and TNOM = 27.000000
+stdout Using SPARSE 1.3 as Direct Linear Solver
+stdout Initial Transient Solution
+stdout --------------------------
+stdout Node                                   Voltage
+stdout ----                                   -------
+stdout a3v3                                         0
+stdout vbias                                        0
+stdout p1                                           0
+stdout mid1                                         0
+stdout a1                                           0
+stdout p2                                           0
+stdout mid2                                         0
+stdout a2                                           0
+stdout p3                                           0
+stdout mid3                                         0
+stdout a3                                           0
+stdout p4                                           0
+stdout mid4                                         0
+stdout a4                                           0
+stdout p5                                           0
+stdout mid5                                         0
+stdout a5                                           0
+stdout p6                                           0
+stdout mid6                                         0
+stdout a6                                           0
+stdout p7                                           0
+stdout mid7                                         0
+stdout a7                                           0
+stdout p8                                           0
+stdout mid8                                         0
+stdout a8                                           0
+stdout p9                                           0
+stdout mid9                                         0
+stdout a9                                           0
+stdout p10                                          0
+stdout mid10                                        0
+stdout a10                                          0
+stdout p11                                          0
+stdout mid11                                        0
+stdout a11                                          0
+stdout p12                                          0
+stdout mid12                                        0
+stdout a12                                          0
+stdout vdut#branch                                  0
+stdout vdd#branch                                   0
+ Reference value :  0.00000e+00
+ Reference value :  4.05215e-03
+ Reference value :  8.14675e-03
+stdout No. of Data Rows : 120029
+stdout Note: No compatibility mode selected!
+stdout Circuit: 0v-negative_single-1000us
+stdout Doing analysis at TEMP = 27.000000 and TNOM = 27.000000
+stdout Using SPARSE 1.3 as Direct Linear Solver
+stdout Initial Transient Solution
+stdout --------------------------
+stdout Node                                   Voltage
+stdout ----                                   -------
+stdout a3v3                                         0
+stdout vbias                                        0
+stdout p1                                           0
+stdout mid1                                         0
+stdout a1                                           0
+stdout p2                                           0
+stdout mid2                                         0
+stdout a2                                           0
+stdout p3                                           0
+stdout mid3                                         0
+stdout a3                                           0
+stdout p4                                           0
+stdout mid4                                         0
+stdout a4                                           0
+stdout p5                                           0
+stdout mid5                                         0
+stdout a5                                           0
+stdout p6                                           0
+stdout mid6                                         0
+stdout a6                                           0
+stdout p7                                           0
+stdout mid7                                         0
+stdout a7                                           0
+stdout p8                                           0
+stdout mid8                                         0
+stdout a8                                           0
+stdout p9                                           0
+stdout mid9                                         0
+stdout a9                                           0
+stdout p10                                          0
+stdout mid10                                        0
+stdout a10                                          0
+stdout p11                                          0
+stdout mid11                                        0
+stdout a11                                          0
+stdout p12                                          0
+stdout mid12                                        0
+stdout a12                                          0
+stdout vdut#branch                                  0
+stdout vdd#branch                                   0
+ Reference value :  0.00000e+00
+ Reference value :  3.99945e-03
+ Reference value :  8.03415e-03
+ Reference value :  1.15506e-02
+stdout No. of Data Rows : 120029
+stdout Note: No compatibility mode selected!
+stdout Circuit: 12v-pair-1us
+stdout Doing analysis at TEMP = 27.000000 and TNOM = 27.000000
+stdout Using SPARSE 1.3 as Direct Linear Solver
+stdout Initial Transient Solution
+stdout --------------------------
+stdout Node                                   Voltage
+stdout ----                                   -------
+stdout a3v3                                         0
+stdout vbias                             -2.92595e-19
+stdout p1                                           6
+stdout p12                                         -6
+stdout mid1                                   3.00718
+stdout a1                                   0.0143504
+stdout p2                                -2.92595e-19
+stdout mid2                              -2.92595e-19
+stdout a2                                -2.92595e-19
+stdout p3                                -2.92595e-19
+stdout mid3                              -2.92595e-19
+stdout a3                                -2.92595e-19
+stdout p4                                -2.92595e-19
+stdout mid4                              -2.92595e-19
+stdout a4                                -2.92595e-19
+stdout p5                                -2.92595e-19
+stdout mid5                              -2.92595e-19
+stdout a5                                -2.92595e-19
+stdout p6                                -2.92595e-19
+stdout mid6                              -2.92595e-19
+stdout a6                                -2.92595e-19
+stdout p7                                -2.92595e-19
+stdout mid7                              -2.92595e-19
+stdout a7                                -2.92595e-19
+stdout p8                                -2.92595e-19
+stdout mid8                              -2.92595e-19
+stdout a8                                -2.92595e-19
+stdout p9                                -2.92595e-19
+stdout mid9                              -2.92595e-19
+stdout a9                                -2.92595e-19
+stdout p10                               -2.92595e-19
+stdout mid10                             -2.92595e-19
+stdout a10                               -2.92595e-19
+stdout p11                               -2.92595e-19
+stdout mid11                             -2.92595e-19
+stdout a11                               -2.92595e-19
+stdout mid12                                 -3.00718
+stdout a12                                 -0.0143504
+stdout vdut#branch                       -3.02306e-06
+stdout vdd#branch                        -6.16378e-23
+ Reference value :  4.76672e-04
+ Reference value :  4.33025e-03
+ Reference value :  8.21825e-03
+stdout No. of Data Rows : 120032
+stdout Note: No compatibility mode selected!
+stdout Circuit: 12v-pair-10us
+stdout Doing analysis at TEMP = 27.000000 and TNOM = 27.000000
+stdout Using SPARSE 1.3 as Direct Linear Solver
+stdout Initial Transient Solution
+stdout --------------------------
+stdout Node                                   Voltage
+stdout ----                                   -------
+stdout a3v3                                         0
+stdout vbias                             -2.92595e-19
+stdout p1                                           6
+stdout p12                                         -6
+stdout mid1                                   3.00718
+stdout a1                                   0.0143504
+stdout p2                                -2.92595e-19
+stdout mid2                              -2.92595e-19
+stdout a2                                -2.92595e-19
+stdout p3                                -2.92595e-19
+stdout mid3                              -2.92595e-19
+stdout a3                                -2.92595e-19
+stdout p4                                -2.92595e-19
+stdout mid4                              -2.92595e-19
+stdout a4                                -2.92595e-19
+stdout p5                                -2.92595e-19
+stdout mid5                              -2.92595e-19
+stdout a5                                -2.92595e-19
+stdout p6                                -2.92595e-19
+stdout mid6                              -2.92595e-19
+stdout a6                                -2.92595e-19
+stdout p7                                -2.92595e-19
+stdout mid7                              -2.92595e-19
+stdout a7                                -2.92595e-19
+stdout p8                                -2.92595e-19
+stdout mid8                              -2.92595e-19
+stdout a8                                -2.92595e-19
+stdout p9                                -2.92595e-19
+stdout mid9                              -2.92595e-19
+stdout a9                                -2.92595e-19
+stdout p10                               -2.92595e-19
+stdout mid10                             -2.92595e-19
+stdout a10                               -2.92595e-19
+stdout p11                               -2.92595e-19
+stdout mid11                             -2.92595e-19
+stdout a11                               -2.92595e-19
+stdout mid12                                 -3.00718
+stdout a12                                 -0.0143504
+stdout vdut#branch                       -3.02306e-06
+stdout vdd#branch                        -6.16378e-23
+ Reference value :  0.00000e+00
+ Reference value :  3.87085e-03
+ Reference value :  7.76565e-03
+ Reference value :  1.16485e-02
+stdout No. of Data Rows : 120029
+stdout Note: No compatibility mode selected!
+stdout Circuit: 12v-pair-100us
+stdout Doing analysis at TEMP = 27.000000 and TNOM = 27.000000
+stdout Using SPARSE 1.3 as Direct Linear Solver
+stdout Initial Transient Solution
+stdout --------------------------
+stdout Node                                   Voltage
+stdout ----                                   -------
+stdout a3v3                                         0
+stdout vbias                             -2.92595e-19
+stdout p1                                           6
+stdout p12                                         -6
+stdout mid1                                   3.00718
+stdout a1                                   0.0143504
+stdout p2                                -2.92595e-19
+stdout mid2                              -2.92595e-19
+stdout a2                                -2.92595e-19
+stdout p3                                -2.92595e-19
+stdout mid3                              -2.92595e-19
+stdout a3                                -2.92595e-19
+stdout p4                                -2.92595e-19
+stdout mid4                              -2.92595e-19
+stdout a4                                -2.92595e-19
+stdout p5                                -2.92595e-19
+stdout mid5                              -2.92595e-19
+stdout a5                                -2.92595e-19
+stdout p6                                -2.92595e-19
+stdout mid6                              -2.92595e-19
+stdout a6                                -2.92595e-19
+stdout p7                                -2.92595e-19
+stdout mid7                              -2.92595e-19
+stdout a7                                -2.92595e-19
+stdout p8                                -2.92595e-19
+stdout mid8                              -2.92595e-19
+stdout a8                                -2.92595e-19
+stdout p9                                -2.92595e-19
+stdout mid9                              -2.92595e-19
+stdout a9                                -2.92595e-19
+stdout p10                               -2.92595e-19
+stdout mid10                             -2.92595e-19
+stdout a10                               -2.92595e-19
+stdout p11                               -2.92595e-19
+stdout mid11                             -2.92595e-19
+stdout a11                               -2.92595e-19
+stdout mid12                                 -3.00718
+stdout a12                                 -0.0143504
+stdout vdut#branch                       -3.02306e-06
+stdout vdd#branch                        -6.16378e-23
+ Reference value :  5.70772e-04
+ Reference value :  4.47415e-03
+ Reference value :  8.39585e-03
+stdout No. of Data Rows : 120029
+stdout Note: No compatibility mode selected!
+stdout Circuit: 12v-pair-1000us
+stdout Doing analysis at TEMP = 27.000000 and TNOM = 27.000000
+stdout Using SPARSE 1.3 as Direct Linear Solver
+stdout Initial Transient Solution
+stdout --------------------------
+stdout Node                                   Voltage
+stdout ----                                   -------
+stdout a3v3                                         0
+stdout vbias                             -2.92595e-19
+stdout p1                                           6
+stdout p12                                         -6
+stdout mid1                                   3.00718
+stdout a1                                   0.0143504
+stdout p2                                -2.92595e-19
+stdout mid2                              -2.92595e-19
+stdout a2                                -2.92595e-19
+stdout p3                                -2.92595e-19
+stdout mid3                              -2.92595e-19
+stdout a3                                -2.92595e-19
+stdout p4                                -2.92595e-19
+stdout mid4                              -2.92595e-19
+stdout a4                                -2.92595e-19
+stdout p5                                -2.92595e-19
+stdout mid5                              -2.92595e-19
+stdout a5                                -2.92595e-19
+stdout p6                                -2.92595e-19
+stdout mid6                              -2.92595e-19
+stdout a6                                -2.92595e-19
+stdout p7                                -2.92595e-19
+stdout mid7                              -2.92595e-19
+stdout a7                                -2.92595e-19
+stdout p8                                -2.92595e-19
+stdout mid8                              -2.92595e-19
+stdout a8                                -2.92595e-19
+stdout p9                                -2.92595e-19
+stdout mid9                              -2.92595e-19
+stdout a9                                -2.92595e-19
+stdout p10                               -2.92595e-19
+stdout mid10                             -2.92595e-19
+stdout a10                               -2.92595e-19
+stdout p11                               -2.92595e-19
+stdout mid11                             -2.92595e-19
+stdout a11                               -2.92595e-19
+stdout mid12                                 -3.00718
+stdout a12                                 -0.0143504
+stdout vdut#branch                       -3.02306e-06
+stdout vdd#branch                        -6.16378e-23
+ Reference value :  0.00000e+00
+ Reference value :  3.87325e-03
+ Reference value :  7.81955e-03
+ Reference value :  1.17090e-02
+stdout No. of Data Rows : 120029
+stdout Note: No compatibility mode selected!
+stdout Circuit: 12v-positive_single-1us
+stdout Doing analysis at TEMP = 27.000000 and TNOM = 27.000000
+stdout Using SPARSE 1.3 as Direct Linear Solver
+stdout Initial Transient Solution
+stdout --------------------------
+stdout Node                                   Voltage
+stdout ----                                   -------
+stdout a3v3                                         0
+stdout vbias                               0.00503313
+stdout p1                                          12
+stdout mid1                                   6.01686
+stdout a1                                    0.033722
+stdout p2                                  0.00503313
+stdout mid2                                0.00503313
+stdout a2                                  0.00503313
+stdout p3                                  0.00503313
+stdout mid3                                0.00503313
+stdout a3                                  0.00503313
+stdout p4                                  0.00503313
+stdout mid4                                0.00503313
+stdout a4                                  0.00503313
+stdout p5                                  0.00503313
+stdout mid5                                0.00503313
+stdout a5                                  0.00503313
+stdout p6                                  0.00503313
+stdout mid6                                0.00503313
+stdout a6                                  0.00503313
+stdout p7                                  0.00503313
+stdout mid7                                0.00503313
+stdout a7                                  0.00503313
+stdout p8                                  0.00503313
+stdout mid8                                0.00503313
+stdout a8                                  0.00503313
+stdout p9                                  0.00503313
+stdout mid9                                0.00503313
+stdout a9                                  0.00503313
+stdout p10                                 0.00503313
+stdout mid10                               0.00503313
+stdout a10                                 0.00503313
+stdout p11                                 0.00503313
+stdout mid11                               0.00503313
+stdout a11                                 0.00503313
+stdout p12                                 0.00503313
+stdout mid12                               0.00503313
+stdout a12                                 0.00503313
+stdout vdut#branch                       -6.04357e-06
+stdout vdd#branch                         1.06028e-06
+ Reference value :  6.57128e-04
+ Reference value :  4.69385e-03
+ Reference value :  8.75195e-03
+stdout No. of Data Rows : 120020
+stdout Note: No compatibility mode selected!
+stdout Circuit: 12v-positive_single-10us
+stdout Doing analysis at TEMP = 27.000000 and TNOM = 27.000000
+stdout Using SPARSE 1.3 as Direct Linear Solver
+stdout Initial Transient Solution
+stdout --------------------------
+stdout Node                                   Voltage
+stdout ----                                   -------
+stdout a3v3                                         0
+stdout vbias                               0.00503313
+stdout p1                                          12
+stdout mid1                                   6.01686
+stdout a1                                    0.033722
+stdout p2                                  0.00503313
+stdout mid2                                0.00503313
+stdout a2                                  0.00503313
+stdout p3                                  0.00503313
+stdout mid3                                0.00503313
+stdout a3                                  0.00503313
+stdout p4                                  0.00503313
+stdout mid4                                0.00503313
+stdout a4                                  0.00503313
+stdout p5                                  0.00503313
+stdout mid5                                0.00503313
+stdout a5                                  0.00503313
+stdout p6                                  0.00503313
+stdout mid6                                0.00503313
+stdout a6                                  0.00503313
+stdout p7                                  0.00503313
+stdout mid7                                0.00503313
+stdout a7                                  0.00503313
+stdout p8                                  0.00503313
+stdout mid8                                0.00503313
+stdout a8                                  0.00503313
+stdout p9                                  0.00503313
+stdout mid9                                0.00503313
+stdout a9                                  0.00503313
+stdout p10                                 0.00503313
+stdout mid10                               0.00503313
+stdout a10                                 0.00503313
+stdout p11                                 0.00503313
+stdout mid11                               0.00503313
+stdout a11                                 0.00503313
+stdout p12                                 0.00503313
+stdout mid12                               0.00503313
+stdout a12                                 0.00503313
+stdout vdut#branch                       -6.04357e-06
+stdout vdd#branch                         1.06028e-06
+ Reference value :  0.00000e+00
+ Reference value :  4.03325e-03
+ Reference value :  8.08835e-03
+stdout No. of Data Rows : 120017
+stdout Note: No compatibility mode selected!
+stdout Circuit: 12v-positive_single-100us
+stdout Doing analysis at TEMP = 27.000000 and TNOM = 27.000000
+stdout Using SPARSE 1.3 as Direct Linear Solver
+stdout Initial Transient Solution
+stdout --------------------------
+stdout Node                                   Voltage
+stdout ----                                   -------
+stdout a3v3                                         0
+stdout vbias                               0.00503313
+stdout p1                                          12
+stdout mid1                                   6.01686
+stdout a1                                    0.033722
+stdout p2                                  0.00503313
+stdout mid2                                0.00503313
+stdout a2                                  0.00503313
+stdout p3                                  0.00503313
+stdout mid3                                0.00503313
+stdout a3                                  0.00503313
+stdout p4                                  0.00503313
+stdout mid4                                0.00503313
+stdout a4                                  0.00503313
+stdout p5                                  0.00503313
+stdout mid5                                0.00503313
+stdout a5                                  0.00503313
+stdout p6                                  0.00503313
+stdout mid6                                0.00503313
+stdout a6                                  0.00503313
+stdout p7                                  0.00503313
+stdout mid7                                0.00503313
+stdout a7                                  0.00503313
+stdout p8                                  0.00503313
+stdout mid8                                0.00503313
+stdout a8                                  0.00503313
+stdout p9                                  0.00503313
+stdout mid9                                0.00503313
+stdout a9                                  0.00503313
+stdout p10                                 0.00503313
+stdout mid10                               0.00503313
+stdout a10                                 0.00503313
+stdout p11                                 0.00503313
+stdout mid11                               0.00503313
+stdout a11                                 0.00503313
+stdout p12                                 0.00503313
+stdout mid12                               0.00503313
+stdout a12                                 0.00503313
+stdout vdut#branch                       -6.04357e-06
+stdout vdd#branch                         1.06028e-06
+ Reference value :  0.00000e+00
+ Reference value :  4.04375e-03
+ Reference value :  8.09615e-03
+stdout No. of Data Rows : 120017
+stdout Note: No compatibility mode selected!
+stdout Circuit: 12v-positive_single-1000us
+stdout Doing analysis at TEMP = 27.000000 and TNOM = 27.000000
+stdout Using SPARSE 1.3 as Direct Linear Solver
+stdout Initial Transient Solution
+stdout --------------------------
+stdout Node                                   Voltage
+stdout ----                                   -------
+stdout a3v3                                         0
+stdout vbias                               0.00503313
+stdout p1                                          12
+stdout mid1                                   6.01686
+stdout a1                                    0.033722
+stdout p2                                  0.00503313
+stdout mid2                                0.00503313
+stdout a2                                  0.00503313
+stdout p3                                  0.00503313
+stdout mid3                                0.00503313
+stdout a3                                  0.00503313
+stdout p4                                  0.00503313
+stdout mid4                                0.00503313
+stdout a4                                  0.00503313
+stdout p5                                  0.00503313
+stdout mid5                                0.00503313
+stdout a5                                  0.00503313
+stdout p6                                  0.00503313
+stdout mid6                                0.00503313
+stdout a6                                  0.00503313
+stdout p7                                  0.00503313
+stdout mid7                                0.00503313
+stdout a7                                  0.00503313
+stdout p8                                  0.00503313
+stdout mid8                                0.00503313
+stdout a8                                  0.00503313
+stdout p9                                  0.00503313
+stdout mid9                                0.00503313
+stdout a9                                  0.00503313
+stdout p10                                 0.00503313
+stdout mid10                               0.00503313
+stdout a10                                 0.00503313
+stdout p11                                 0.00503313
+stdout mid11                               0.00503313
+stdout a11                                 0.00503313
+stdout p12                                 0.00503313
+stdout mid12                               0.00503313
+stdout a12                                 0.00503313
+stdout vdut#branch                       -6.04357e-06
+stdout vdd#branch                         1.06028e-06
+ Reference value :  0.00000e+00
+ Reference value :  4.05415e-03
+ Reference value :  8.10945e-03
+stdout No. of Data Rows : 120017
+stdout Note: No compatibility mode selected!
+stdout Circuit: 12v-negative_single-1us
+stdout Doing analysis at TEMP = 27.000000 and TNOM = 27.000000
+stdout Using SPARSE 1.3 as Direct Linear Solver
+stdout Initial Transient Solution
+stdout --------------------------
+stdout Node                                   Voltage
+stdout ----                                   -------
+stdout a3v3                                         0
+stdout vbias                              -0.00503313
+stdout p1                                         -12
+stdout mid1                                  -6.01686
+stdout a1                                   -0.033722
+stdout p2                                 -0.00503313
+stdout mid2                               -0.00503313
+stdout a2                                 -0.00503313
+stdout p3                                 -0.00503313
+stdout mid3                               -0.00503313
+stdout a3                                 -0.00503313
+stdout p4                                 -0.00503313
+stdout mid4                               -0.00503313
+stdout a4                                 -0.00503313
+stdout p5                                 -0.00503313
+stdout mid5                               -0.00503313
+stdout a5                                 -0.00503313
+stdout p6                                 -0.00503313
+stdout mid6                               -0.00503313
+stdout a6                                 -0.00503313
+stdout p7                                 -0.00503313
+stdout mid7                               -0.00503313
+stdout a7                                 -0.00503313
+stdout p8                                 -0.00503313
+stdout mid8                               -0.00503313
+stdout a8                                 -0.00503313
+stdout p9                                 -0.00503313
+stdout mid9                               -0.00503313
+stdout a9                                 -0.00503313
+stdout p10                                -0.00503313
+stdout mid10                              -0.00503313
+stdout a10                                -0.00503313
+stdout p11                                -0.00503313
+stdout mid11                              -0.00503313
+stdout a11                                -0.00503313
+stdout p12                                -0.00503313
+stdout mid12                              -0.00503313
+stdout a12                                -0.00503313
+stdout vdut#branch                        6.04357e-06
+stdout vdd#branch                        -1.06028e-06
+ Reference value :  0.00000e+00
+ Reference value :  4.06275e-03
+ Reference value :  8.10645e-03
+stdout No. of Data Rows : 120020
+stdout Note: No compatibility mode selected!
+stdout Circuit: 12v-negative_single-10us
+stdout Doing analysis at TEMP = 27.000000 and TNOM = 27.000000
+stdout Using SPARSE 1.3 as Direct Linear Solver
+stdout Initial Transient Solution
+stdout --------------------------
+stdout Node                                   Voltage
+stdout ----                                   -------
+stdout a3v3                                         0
+stdout vbias                              -0.00503313
+stdout p1                                         -12
+stdout mid1                                  -6.01686
+stdout a1                                   -0.033722
+stdout p2                                 -0.00503313
+stdout mid2                               -0.00503313
+stdout a2                                 -0.00503313
+stdout p3                                 -0.00503313
+stdout mid3                               -0.00503313
+stdout a3                                 -0.00503313
+stdout p4                                 -0.00503313
+stdout mid4                               -0.00503313
+stdout a4                                 -0.00503313
+stdout p5                                 -0.00503313
+stdout mid5                               -0.00503313
+stdout a5                                 -0.00503313
+stdout p6                                 -0.00503313
+stdout mid6                               -0.00503313
+stdout a6                                 -0.00503313
+stdout p7                                 -0.00503313
+stdout mid7                               -0.00503313
+stdout a7                                 -0.00503313
+stdout p8                                 -0.00503313
+stdout mid8                               -0.00503313
+stdout a8                                 -0.00503313
+stdout p9                                 -0.00503313
+stdout mid9                               -0.00503313
+stdout a9                                 -0.00503313
+stdout p10                                -0.00503313
+stdout mid10                              -0.00503313
+stdout a10                                -0.00503313
+stdout p11                                -0.00503313
+stdout mid11                              -0.00503313
+stdout a11                                -0.00503313
+stdout p12                                -0.00503313
+stdout mid12                              -0.00503313
+stdout a12                                -0.00503313
+stdout vdut#branch                        6.04357e-06
+stdout vdd#branch                        -1.06028e-06
+ Reference value :  0.00000e+00
+ Reference value :  4.00135e-03
+ Reference value :  8.01985e-03
+stdout No. of Data Rows : 120017
+stdout Note: No compatibility mode selected!
+stdout Circuit: 12v-negative_single-100us
+stdout Doing analysis at TEMP = 27.000000 and TNOM = 27.000000
+stdout Using SPARSE 1.3 as Direct Linear Solver
+stdout Initial Transient Solution
+stdout --------------------------
+stdout Node                                   Voltage
+stdout ----                                   -------
+stdout a3v3                                         0
+stdout vbias                              -0.00503313
+stdout p1                                         -12
+stdout mid1                                  -6.01686
+stdout a1                                   -0.033722
+stdout p2                                 -0.00503313
+stdout mid2                               -0.00503313
+stdout a2                                 -0.00503313
+stdout p3                                 -0.00503313
+stdout mid3                               -0.00503313
+stdout a3                                 -0.00503313
+stdout p4                                 -0.00503313
+stdout mid4                               -0.00503313
+stdout a4                                 -0.00503313
+stdout p5                                 -0.00503313
+stdout mid5                               -0.00503313
+stdout a5                                 -0.00503313
+stdout p6                                 -0.00503313
+stdout mid6                               -0.00503313
+stdout a6                                 -0.00503313
+stdout p7                                 -0.00503313
+stdout mid7                               -0.00503313
+stdout a7                                 -0.00503313
+stdout p8                                 -0.00503313
+stdout mid8                               -0.00503313
+stdout a8                                 -0.00503313
+stdout p9                                 -0.00503313
+stdout mid9                               -0.00503313
+stdout a9                                 -0.00503313
+stdout p10                                -0.00503313
+stdout mid10                              -0.00503313
+stdout a10                                -0.00503313
+stdout p11                                -0.00503313
+stdout mid11                              -0.00503313
+stdout a11                                -0.00503313
+stdout p12                                -0.00503313
+stdout mid12                              -0.00503313
+stdout a12                                -0.00503313
+stdout vdut#branch                        6.04357e-06
+stdout vdd#branch                        -1.06028e-06
+ Reference value :  0.00000e+00
+ Reference value :  4.02705e-03
+ Reference value :  8.06045e-03
+stdout No. of Data Rows : 120017
+stdout Note: No compatibility mode selected!
+stdout Circuit: 12v-negative_single-1000us
+stdout Doing analysis at TEMP = 27.000000 and TNOM = 27.000000
+stdout Using SPARSE 1.3 as Direct Linear Solver
+stdout Initial Transient Solution
+stdout --------------------------
+stdout Node                                   Voltage
+stdout ----                                   -------
+stdout a3v3                                         0
+stdout vbias                              -0.00503313
+stdout p1                                         -12
+stdout mid1                                  -6.01686
+stdout a1                                   -0.033722
+stdout p2                                 -0.00503313
+stdout mid2                               -0.00503313
+stdout a2                                 -0.00503313
+stdout p3                                 -0.00503313
+stdout mid3                               -0.00503313
+stdout a3                                 -0.00503313
+stdout p4                                 -0.00503313
+stdout mid4                               -0.00503313
+stdout a4                                 -0.00503313
+stdout p5                                 -0.00503313
+stdout mid5                               -0.00503313
+stdout a5                                 -0.00503313
+stdout p6                                 -0.00503313
+stdout mid6                               -0.00503313
+stdout a6                                 -0.00503313
+stdout p7                                 -0.00503313
+stdout mid7                               -0.00503313
+stdout a7                                 -0.00503313
+stdout p8                                 -0.00503313
+stdout mid8                               -0.00503313
+stdout a8                                 -0.00503313
+stdout p9                                 -0.00503313
+stdout mid9                               -0.00503313
+stdout a9                                 -0.00503313
+stdout p10                                -0.00503313
+stdout mid10                              -0.00503313
+stdout a10                                -0.00503313
+stdout p11                                -0.00503313
+stdout mid11                              -0.00503313
+stdout a11                                -0.00503313
+stdout p12                                -0.00503313
+stdout mid12                              -0.00503313
+stdout a12                                -0.00503313
+stdout vdut#branch                        6.04357e-06
+stdout vdd#branch                        -1.06028e-06
+ Reference value :  0.00000e+00
+ Reference value :  4.02575e-03
+ Reference value :  8.04745e-03
+stdout No. of Data Rows : 120017
+stdout Note: No compatibility mode selected!
+stdout Circuit: 18v-pair-1us
+stdout Doing analysis at TEMP = 27.000000 and TNOM = 27.000000
+stdout Using SPARSE 1.3 as Direct Linear Solver
+stdout Initial Transient Solution
+stdout --------------------------
+stdout Node                                   Voltage
+stdout ----                                   -------
+stdout a3v3                                         0
+stdout vbias                             -1.11053e-18
+stdout p1                                           9
+stdout p12                                         -9
+stdout mid1                                   4.51076
+stdout a1                                   0.0215257
+stdout p2                                -1.11053e-18
+stdout mid2                              -1.11053e-18
+stdout a2                                -1.11053e-18
+stdout p3                                -1.11053e-18
+stdout mid3                              -1.11053e-18
+stdout a3                                -1.11053e-18
+stdout p4                                -1.11053e-18
+stdout mid4                              -1.11053e-18
+stdout a4                                -1.11053e-18
+stdout p5                                -1.11053e-18
+stdout mid5                              -1.11053e-18
+stdout a5                                -1.11053e-18
+stdout p6                                -1.11053e-18
+stdout mid6                              -1.11053e-18
+stdout a6                                -1.11053e-18
+stdout p7                                -1.11053e-18
+stdout mid7                              -1.11053e-18
+stdout a7                                -1.11053e-18
+stdout p8                                -1.11053e-18
+stdout mid8                              -1.11053e-18
+stdout a8                                -1.11053e-18
+stdout p9                                -1.11053e-18
+stdout mid9                              -1.11053e-18
+stdout a9                                -1.11053e-18
+stdout p10                               -1.11053e-18
+stdout mid10                             -1.11053e-18
+stdout a10                               -1.11053e-18
+stdout p11                               -1.11053e-18
+stdout mid11                             -1.11053e-18
+stdout a11                               -1.11053e-18
+stdout mid12                                 -4.51076
+stdout a12                                 -0.0215257
+stdout vdut#branch                       -4.53458e-06
+stdout vdd#branch                        -2.33944e-22
+ Reference value :  0.00000e+00
+ Reference value :  3.87205e-03
+ Reference value :  7.76265e-03
+ Reference value :  1.16376e-02
+stdout No. of Data Rows : 120032
+stdout Note: No compatibility mode selected!
+stdout Circuit: 18v-pair-10us
+stdout Doing analysis at TEMP = 27.000000 and TNOM = 27.000000
+stdout Using SPARSE 1.3 as Direct Linear Solver
+stdout Initial Transient Solution
+stdout --------------------------
+stdout Node                                   Voltage
+stdout ----                                   -------
+stdout a3v3                                         0
+stdout vbias                             -1.11053e-18
+stdout p1                                           9
+stdout p12                                         -9
+stdout mid1                                   4.51076
+stdout a1                                   0.0215257
+stdout p2                                -1.11053e-18
+stdout mid2                              -1.11053e-18
+stdout a2                                -1.11053e-18
+stdout p3                                -1.11053e-18
+stdout mid3                              -1.11053e-18
+stdout a3                                -1.11053e-18
+stdout p4                                -1.11053e-18
+stdout mid4                              -1.11053e-18
+stdout a4                                -1.11053e-18
+stdout p5                                -1.11053e-18
+stdout mid5                              -1.11053e-18
+stdout a5                                -1.11053e-18
+stdout p6                                -1.11053e-18
+stdout mid6                              -1.11053e-18
+stdout a6                                -1.11053e-18
+stdout p7                                -1.11053e-18
+stdout mid7                              -1.11053e-18
+stdout a7                                -1.11053e-18
+stdout p8                                -1.11053e-18
+stdout mid8                              -1.11053e-18
+stdout a8                                -1.11053e-18
+stdout p9                                -1.11053e-18
+stdout mid9                              -1.11053e-18
+stdout a9                                -1.11053e-18
+stdout p10                               -1.11053e-18
+stdout mid10                             -1.11053e-18
+stdout a10                               -1.11053e-18
+stdout p11                               -1.11053e-18
+stdout mid11                             -1.11053e-18
+stdout a11                               -1.11053e-18
+stdout mid12                                 -4.51076
+stdout a12                                 -0.0215257
+stdout vdut#branch                       -4.53458e-06
+stdout vdd#branch                        -2.33944e-22
+ Reference value :  5.92372e-04
+ Reference value :  4.46825e-03
+ Reference value :  8.38195e-03
+stdout No. of Data Rows : 120029
+stdout Note: No compatibility mode selected!
+stdout Circuit: 18v-pair-100us
+stdout Doing analysis at TEMP = 27.000000 and TNOM = 27.000000
+stdout Using SPARSE 1.3 as Direct Linear Solver
+stdout Initial Transient Solution
+stdout --------------------------
+stdout Node                                   Voltage
+stdout ----                                   -------
+stdout a3v3                                         0
+stdout vbias                             -1.11053e-18
+stdout p1                                           9
+stdout p12                                         -9
+stdout mid1                                   4.51076
+stdout a1                                   0.0215257
+stdout p2                                -1.11053e-18
+stdout mid2                              -1.11053e-18
+stdout a2                                -1.11053e-18
+stdout p3                                -1.11053e-18
+stdout mid3                              -1.11053e-18
+stdout a3                                -1.11053e-18
+stdout p4                                -1.11053e-18
+stdout mid4                              -1.11053e-18
+stdout a4                                -1.11053e-18
+stdout p5                                -1.11053e-18
+stdout mid5                              -1.11053e-18
+stdout a5                                -1.11053e-18
+stdout p6                                -1.11053e-18
+stdout mid6                              -1.11053e-18
+stdout a6                                -1.11053e-18
+stdout p7                                -1.11053e-18
+stdout mid7                              -1.11053e-18
+stdout a7                                -1.11053e-18
+stdout p8                                -1.11053e-18
+stdout mid8                              -1.11053e-18
+stdout a8                                -1.11053e-18
+stdout p9                                -1.11053e-18
+stdout mid9                              -1.11053e-18
+stdout a9                                -1.11053e-18
+stdout p10                               -1.11053e-18
+stdout mid10                             -1.11053e-18
+stdout a10                               -1.11053e-18
+stdout p11                               -1.11053e-18
+stdout mid11                             -1.11053e-18
+stdout a11                               -1.11053e-18
+stdout mid12                                 -4.51076
+stdout a12                                 -0.0215257
+stdout vdut#branch                       -4.53458e-06
+stdout vdd#branch                        -2.33944e-22
+ Reference value :  0.00000e+00
+ Reference value :  3.85575e-03
+ Reference value :  7.76745e-03
+ Reference value :  1.16558e-02
+stdout No. of Data Rows : 120029
+stdout Note: No compatibility mode selected!
+stdout Circuit: 18v-pair-1000us
+stdout Doing analysis at TEMP = 27.000000 and TNOM = 27.000000
+stdout Using SPARSE 1.3 as Direct Linear Solver
+stdout Initial Transient Solution
+stdout --------------------------
+stdout Node                                   Voltage
+stdout ----                                   -------
+stdout a3v3                                         0
+stdout vbias                             -1.11053e-18
+stdout p1                                           9
+stdout p12                                         -9
+stdout mid1                                   4.51076
+stdout a1                                   0.0215257
+stdout p2                                -1.11053e-18
+stdout mid2                              -1.11053e-18
+stdout a2                                -1.11053e-18
+stdout p3                                -1.11053e-18
+stdout mid3                              -1.11053e-18
+stdout a3                                -1.11053e-18
+stdout p4                                -1.11053e-18
+stdout mid4                              -1.11053e-18
+stdout a4                                -1.11053e-18
+stdout p5                                -1.11053e-18
+stdout mid5                              -1.11053e-18
+stdout a5                                -1.11053e-18
+stdout p6                                -1.11053e-18
+stdout mid6                              -1.11053e-18
+stdout a6                                -1.11053e-18
+stdout p7                                -1.11053e-18
+stdout mid7                              -1.11053e-18
+stdout a7                                -1.11053e-18
+stdout p8                                -1.11053e-18
+stdout mid8                              -1.11053e-18
+stdout a8                                -1.11053e-18
+stdout p9                                -1.11053e-18
+stdout mid9                              -1.11053e-18
+stdout a9                                -1.11053e-18
+stdout p10                               -1.11053e-18
+stdout mid10                             -1.11053e-18
+stdout a10                               -1.11053e-18
+stdout p11                               -1.11053e-18
+stdout mid11                             -1.11053e-18
+stdout a11                               -1.11053e-18
+stdout mid12                                 -4.51076
+stdout a12                                 -0.0215257
+stdout vdut#branch                       -4.53458e-06
+stdout vdd#branch                        -2.33944e-22
+ Reference value :  5.24572e-04
+ Reference value :  4.37955e-03
+ Reference value :  8.20165e-03
+stdout No. of Data Rows : 120029
+stdout Note: No compatibility mode selected!
+stdout Circuit: 18v-positive_single-1us
+stdout Doing analysis at TEMP = 27.000000 and TNOM = 27.000000
+stdout Using SPARSE 1.3 as Direct Linear Solver
+stdout Initial Transient Solution
+stdout --------------------------
+stdout Node                                   Voltage
+stdout ----                                   -------
+stdout a3v3                                         0
+stdout vbias                                0.0075497
+stdout p1                                          18
+stdout mid1                                   9.02529
+stdout a1                                    0.050583
+stdout p2                                   0.0075497
+stdout mid2                                 0.0075497
+stdout a2                                   0.0075497
+stdout p3                                   0.0075497
+stdout mid3                                 0.0075497
+stdout a3                                   0.0075497
+stdout p4                                   0.0075497
+stdout mid4                                 0.0075497
+stdout a4                                   0.0075497
+stdout p5                                   0.0075497
+stdout mid5                                 0.0075497
+stdout a5                                   0.0075497
+stdout p6                                   0.0075497
+stdout mid6                                 0.0075497
+stdout a6                                   0.0075497
+stdout p7                                   0.0075497
+stdout mid7                                 0.0075497
+stdout a7                                   0.0075497
+stdout p8                                   0.0075497
+stdout mid8                                 0.0075497
+stdout a8                                   0.0075497
+stdout p9                                   0.0075497
+stdout mid9                                 0.0075497
+stdout a9                                   0.0075497
+stdout p10                                  0.0075497
+stdout mid10                                0.0075497
+stdout a10                                  0.0075497
+stdout p11                                  0.0075497
+stdout mid11                                0.0075497
+stdout a11                                  0.0075497
+stdout p12                                  0.0075497
+stdout mid12                                0.0075497
+stdout a12                                  0.0075497
+stdout vdut#branch                       -9.06536e-06
+stdout vdd#branch                         1.59041e-06
+ Reference value :  0.00000e+00
+ Reference value :  4.02045e-03
+ Reference value :  8.06505e-03
+stdout No. of Data Rows : 120020
+stdout Note: No compatibility mode selected!
+stdout Circuit: 18v-positive_single-10us
+stdout Doing analysis at TEMP = 27.000000 and TNOM = 27.000000
+stdout Using SPARSE 1.3 as Direct Linear Solver
+stdout Initial Transient Solution
+stdout --------------------------
+stdout Node                                   Voltage
+stdout ----                                   -------
+stdout a3v3                                         0
+stdout vbias                                0.0075497
+stdout p1                                          18
+stdout mid1                                   9.02529
+stdout a1                                    0.050583
+stdout p2                                   0.0075497
+stdout mid2                                 0.0075497
+stdout a2                                   0.0075497
+stdout p3                                   0.0075497
+stdout mid3                                 0.0075497
+stdout a3                                   0.0075497
+stdout p4                                   0.0075497
+stdout mid4                                 0.0075497
+stdout a4                                   0.0075497
+stdout p5                                   0.0075497
+stdout mid5                                 0.0075497
+stdout a5                                   0.0075497
+stdout p6                                   0.0075497
+stdout mid6                                 0.0075497
+stdout a6                                   0.0075497
+stdout p7                                   0.0075497
+stdout mid7                                 0.0075497
+stdout a7                                   0.0075497
+stdout p8                                   0.0075497
+stdout mid8                                 0.0075497
+stdout a8                                   0.0075497
+stdout p9                                   0.0075497
+stdout mid9                                 0.0075497
+stdout a9                                   0.0075497
+stdout p10                                  0.0075497
+stdout mid10                                0.0075497
+stdout a10                                  0.0075497
+stdout p11                                  0.0075497
+stdout mid11                                0.0075497
+stdout a11                                  0.0075497
+stdout p12                                  0.0075497
+stdout mid12                                0.0075497
+stdout a12                                  0.0075497
+stdout vdut#branch                       -9.06536e-06
+stdout vdd#branch                         1.59041e-06
+ Reference value :  0.00000e+00
+ Reference value :  4.02495e-03
+ Reference value :  8.05985e-03
+stdout No. of Data Rows : 120017
+stdout Note: No compatibility mode selected!
+stdout Circuit: 18v-positive_single-100us
+stdout Doing analysis at TEMP = 27.000000 and TNOM = 27.000000
+stdout Using SPARSE 1.3 as Direct Linear Solver
+stdout Initial Transient Solution
+stdout --------------------------
+stdout Node                                   Voltage
+stdout ----                                   -------
+stdout a3v3                                         0
+stdout vbias                                0.0075497
+stdout p1                                          18
+stdout mid1                                   9.02529
+stdout a1                                    0.050583
+stdout p2                                   0.0075497
+stdout mid2                                 0.0075497
+stdout a2                                   0.0075497
+stdout p3                                   0.0075497
+stdout mid3                                 0.0075497
+stdout a3                                   0.0075497
+stdout p4                                   0.0075497
+stdout mid4                                 0.0075497
+stdout a4                                   0.0075497
+stdout p5                                   0.0075497
+stdout mid5                                 0.0075497
+stdout a5                                   0.0075497
+stdout p6                                   0.0075497
+stdout mid6                                 0.0075497
+stdout a6                                   0.0075497
+stdout p7                                   0.0075497
+stdout mid7                                 0.0075497
+stdout a7                                   0.0075497
+stdout p8                                   0.0075497
+stdout mid8                                 0.0075497
+stdout a8                                   0.0075497
+stdout p9                                   0.0075497
+stdout mid9                                 0.0075497
+stdout a9                                   0.0075497
+stdout p10                                  0.0075497
+stdout mid10                                0.0075497
+stdout a10                                  0.0075497
+stdout p11                                  0.0075497
+stdout mid11                                0.0075497
+stdout a11                                  0.0075497
+stdout p12                                  0.0075497
+stdout mid12                                0.0075497
+stdout a12                                  0.0075497
+stdout vdut#branch                       -9.06536e-06
+stdout vdd#branch                         1.59041e-06
+ Reference value :  0.00000e+00
+ Reference value :  4.02765e-03
+ Reference value :  8.07405e-03
+stdout No. of Data Rows : 120017
+stdout Note: No compatibility mode selected!
+stdout Circuit: 18v-positive_single-1000us
+stdout Doing analysis at TEMP = 27.000000 and TNOM = 27.000000
+stdout Using SPARSE 1.3 as Direct Linear Solver
+stdout Initial Transient Solution
+stdout --------------------------
+stdout Node                                   Voltage
+stdout ----                                   -------
+stdout a3v3                                         0
+stdout vbias                                0.0075497
+stdout p1                                          18
+stdout mid1                                   9.02529
+stdout a1                                    0.050583
+stdout p2                                   0.0075497
+stdout mid2                                 0.0075497
+stdout a2                                   0.0075497
+stdout p3                                   0.0075497
+stdout mid3                                 0.0075497
+stdout a3                                   0.0075497
+stdout p4                                   0.0075497
+stdout mid4                                 0.0075497
+stdout a4                                   0.0075497
+stdout p5                                   0.0075497
+stdout mid5                                 0.0075497
+stdout a5                                   0.0075497
+stdout p6                                   0.0075497
+stdout mid6                                 0.0075497
+stdout a6                                   0.0075497
+stdout p7                                   0.0075497
+stdout mid7                                 0.0075497
+stdout a7                                   0.0075497
+stdout p8                                   0.0075497
+stdout mid8                                 0.0075497
+stdout a8                                   0.0075497
+stdout p9                                   0.0075497
+stdout mid9                                 0.0075497
+stdout a9                                   0.0075497
+stdout p10                                  0.0075497
+stdout mid10                                0.0075497
+stdout a10                                  0.0075497
+stdout p11                                  0.0075497
+stdout mid11                                0.0075497
+stdout a11                                  0.0075497
+stdout p12                                  0.0075497
+stdout mid12                                0.0075497
+stdout a12                                  0.0075497
+stdout vdut#branch                       -9.06536e-06
+stdout vdd#branch                         1.59041e-06
+ Reference value :  0.00000e+00
+ Reference value :  4.01115e-03
+ Reference value :  8.08025e-03
+stdout No. of Data Rows : 120017
+stdout Note: No compatibility mode selected!
+stdout Circuit: 18v-negative_single-1us
+stdout Doing analysis at TEMP = 27.000000 and TNOM = 27.000000
+stdout Using SPARSE 1.3 as Direct Linear Solver
+stdout Initial Transient Solution
+stdout --------------------------
+stdout Node                                   Voltage
+stdout ----                                   -------
+stdout a3v3                                         0
+stdout vbias                               -0.0075497
+stdout p1                                         -18
+stdout mid1                                  -9.02529
+stdout a1                                   -0.050583
+stdout p2                                  -0.0075497
+stdout mid2                                -0.0075497
+stdout a2                                  -0.0075497
+stdout p3                                  -0.0075497
+stdout mid3                                -0.0075497
+stdout a3                                  -0.0075497
+stdout p4                                  -0.0075497
+stdout mid4                                -0.0075497
+stdout a4                                  -0.0075497
+stdout p5                                  -0.0075497
+stdout mid5                                -0.0075497
+stdout a5                                  -0.0075497
+stdout p6                                  -0.0075497
+stdout mid6                                -0.0075497
+stdout a6                                  -0.0075497
+stdout p7                                  -0.0075497
+stdout mid7                                -0.0075497
+stdout a7                                  -0.0075497
+stdout p8                                  -0.0075497
+stdout mid8                                -0.0075497
+stdout a8                                  -0.0075497
+stdout p9                                  -0.0075497
+stdout mid9                                -0.0075497
+stdout a9                                  -0.0075497
+stdout p10                                 -0.0075497
+stdout mid10                               -0.0075497
+stdout a10                                 -0.0075497
+stdout p11                                 -0.0075497
+stdout mid11                               -0.0075497
+stdout a11                                 -0.0075497
+stdout p12                                 -0.0075497
+stdout mid12                               -0.0075497
+stdout a12                                 -0.0075497
+stdout vdut#branch                        9.06536e-06
+stdout vdd#branch                        -1.59041e-06
+ Reference value :  0.00000e+00
+ Reference value :  4.03895e-03
+ Reference value :  8.11525e-03
+stdout No. of Data Rows : 120020
+stdout Note: No compatibility mode selected!
+stdout Circuit: 18v-negative_single-10us
+stdout Doing analysis at TEMP = 27.000000 and TNOM = 27.000000
+stdout Using SPARSE 1.3 as Direct Linear Solver
+stdout Initial Transient Solution
+stdout --------------------------
+stdout Node                                   Voltage
+stdout ----                                   -------
+stdout a3v3                                         0
+stdout vbias                               -0.0075497
+stdout p1                                         -18
+stdout mid1                                  -9.02529
+stdout a1                                   -0.050583
+stdout p2                                  -0.0075497
+stdout mid2                                -0.0075497
+stdout a2                                  -0.0075497
+stdout p3                                  -0.0075497
+stdout mid3                                -0.0075497
+stdout a3                                  -0.0075497
+stdout p4                                  -0.0075497
+stdout mid4                                -0.0075497
+stdout a4                                  -0.0075497
+stdout p5                                  -0.0075497
+stdout mid5                                -0.0075497
+stdout a5                                  -0.0075497
+stdout p6                                  -0.0075497
+stdout mid6                                -0.0075497
+stdout a6                                  -0.0075497
+stdout p7                                  -0.0075497
+stdout mid7                                -0.0075497
+stdout a7                                  -0.0075497
+stdout p8                                  -0.0075497
+stdout mid8                                -0.0075497
+stdout a8                                  -0.0075497
+stdout p9                                  -0.0075497
+stdout mid9                                -0.0075497
+stdout a9                                  -0.0075497
+stdout p10                                 -0.0075497
+stdout mid10                               -0.0075497
+stdout a10                                 -0.0075497
+stdout p11                                 -0.0075497
+stdout mid11                               -0.0075497
+stdout a11                                 -0.0075497
+stdout p12                                 -0.0075497
+stdout mid12                               -0.0075497
+stdout a12                                 -0.0075497
+stdout vdut#branch                        9.06536e-06
+stdout vdd#branch                        -1.59041e-06
+ Reference value :  0.00000e+00
+ Reference value :  3.99075e-03
+ Reference value :  8.06965e-03
+stdout No. of Data Rows : 120017
+stdout Note: No compatibility mode selected!
+stdout Circuit: 18v-negative_single-100us
+stdout Doing analysis at TEMP = 27.000000 and TNOM = 27.000000
+stdout Using SPARSE 1.3 as Direct Linear Solver
+stdout Initial Transient Solution
+stdout --------------------------
+stdout Node                                   Voltage
+stdout ----                                   -------
+stdout a3v3                                         0
+stdout vbias                               -0.0075497
+stdout p1                                         -18
+stdout mid1                                  -9.02529
+stdout a1                                   -0.050583
+stdout p2                                  -0.0075497
+stdout mid2                                -0.0075497
+stdout a2                                  -0.0075497
+stdout p3                                  -0.0075497
+stdout mid3                                -0.0075497
+stdout a3                                  -0.0075497
+stdout p4                                  -0.0075497
+stdout mid4                                -0.0075497
+stdout a4                                  -0.0075497
+stdout p5                                  -0.0075497
+stdout mid5                                -0.0075497
+stdout a5                                  -0.0075497
+stdout p6                                  -0.0075497
+stdout mid6                                -0.0075497
+stdout a6                                  -0.0075497
+stdout p7                                  -0.0075497
+stdout mid7                                -0.0075497
+stdout a7                                  -0.0075497
+stdout p8                                  -0.0075497
+stdout mid8                                -0.0075497
+stdout a8                                  -0.0075497
+stdout p9                                  -0.0075497
+stdout mid9                                -0.0075497
+stdout a9                                  -0.0075497
+stdout p10                                 -0.0075497
+stdout mid10                               -0.0075497
+stdout a10                                 -0.0075497
+stdout p11                                 -0.0075497
+stdout mid11                               -0.0075497
+stdout a11                                 -0.0075497
+stdout p12                                 -0.0075497
+stdout mid12                               -0.0075497
+stdout a12                                 -0.0075497
+stdout vdut#branch                        9.06536e-06
+stdout vdd#branch                        -1.59041e-06
+ Reference value :  0.00000e+00
+ Reference value :  4.02045e-03
+ Reference value :  8.08095e-03
+stdout No. of Data Rows : 120017
+stdout Note: No compatibility mode selected!
+stdout Circuit: 18v-negative_single-1000us
+stdout Doing analysis at TEMP = 27.000000 and TNOM = 27.000000
+stdout Using SPARSE 1.3 as Direct Linear Solver
+stdout Initial Transient Solution
+stdout --------------------------
+stdout Node                                   Voltage
+stdout ----                                   -------
+stdout a3v3                                         0
+stdout vbias                               -0.0075497
+stdout p1                                         -18
+stdout mid1                                  -9.02529
+stdout a1                                   -0.050583
+stdout p2                                  -0.0075497
+stdout mid2                                -0.0075497
+stdout a2                                  -0.0075497
+stdout p3                                  -0.0075497
+stdout mid3                                -0.0075497
+stdout a3                                  -0.0075497
+stdout p4                                  -0.0075497
+stdout mid4                                -0.0075497
+stdout a4                                  -0.0075497
+stdout p5                                  -0.0075497
+stdout mid5                                -0.0075497
+stdout a5                                  -0.0075497
+stdout p6                                  -0.0075497
+stdout mid6                                -0.0075497
+stdout a6                                  -0.0075497
+stdout p7                                  -0.0075497
+stdout mid7                                -0.0075497
+stdout a7                                  -0.0075497
+stdout p8                                  -0.0075497
+stdout mid8                                -0.0075497
+stdout a8                                  -0.0075497
+stdout p9                                  -0.0075497
+stdout mid9                                -0.0075497
+stdout a9                                  -0.0075497
+stdout p10                                 -0.0075497
+stdout mid10                               -0.0075497
+stdout a10                                 -0.0075497
+stdout p11                                 -0.0075497
+stdout mid11                               -0.0075497
+stdout a11                                 -0.0075497
+stdout p12                                 -0.0075497
+stdout mid12                               -0.0075497
+stdout a12                                 -0.0075497
+stdout vdut#branch                        9.06536e-06
+stdout vdd#branch                        -1.59041e-06
+ Reference value :  0.00000e+00
+ Reference value :  4.00805e-03
+ Reference value :  8.04865e-03
+stdout No. of Data Rows : 120017
+stdout Note: No compatibility mode selected!
+stdout Circuit: 48v-pair-1us
+stdout Doing analysis at TEMP = 27.000000 and TNOM = 27.000000
+stdout Using SPARSE 1.3 as Direct Linear Solver
+stdout Initial Transient Solution
+stdout --------------------------
+stdout Node                                   Voltage
+stdout ----                                   -------
+stdout a3v3                                         0
+stdout vbias                             -1.17038e-18
+stdout p1                                          24
+stdout p12                                        -24
+stdout mid1                                   12.0287
+stdout a1                                   0.0574018
+stdout p2                                -1.17038e-18
+stdout mid2                              -1.17038e-18
+stdout a2                                -1.17038e-18
+stdout p3                                -1.17038e-18
+stdout mid3                              -1.17038e-18
+stdout a3                                -1.17038e-18
+stdout p4                                -1.17038e-18
+stdout mid4                              -1.17038e-18
+stdout a4                                -1.17038e-18
+stdout p5                                -1.17038e-18
+stdout mid5                              -1.17038e-18
+stdout a5                                -1.17038e-18
+stdout p6                                -1.17038e-18
+stdout mid6                              -1.17038e-18
+stdout a6                                -1.17038e-18
+stdout p7                                -1.17038e-18
+stdout mid7                              -1.17038e-18
+stdout a7                                -1.17038e-18
+stdout p8                                -1.17038e-18
+stdout mid8                              -1.17038e-18
+stdout a8                                -1.17038e-18
+stdout p9                                -1.17038e-18
+stdout mid9                              -1.17038e-18
+stdout a9                                -1.17038e-18
+stdout p10                               -1.17038e-18
+stdout mid10                             -1.17038e-18
+stdout a10                               -1.17038e-18
+stdout p11                               -1.17038e-18
+stdout mid11                             -1.17038e-18
+stdout a11                               -1.17038e-18
+stdout mid12                                 -12.0287
+stdout a12                                 -0.0574018
+stdout vdut#branch                       -1.20922e-05
+stdout vdd#branch                        -2.46551e-22
+ Reference value :  0.00000e+00
+ Reference value :  3.89945e-03
+ Reference value :  7.81495e-03
+ Reference value :  1.17401e-02
+stdout No. of Data Rows : 120032
+stdout Note: No compatibility mode selected!
+stdout Circuit: 48v-pair-10us
+stdout Doing analysis at TEMP = 27.000000 and TNOM = 27.000000
+stdout Using SPARSE 1.3 as Direct Linear Solver
+stdout Initial Transient Solution
+stdout --------------------------
+stdout Node                                   Voltage
+stdout ----                                   -------
+stdout a3v3                                         0
+stdout vbias                             -1.17038e-18
+stdout p1                                          24
+stdout p12                                        -24
+stdout mid1                                   12.0287
+stdout a1                                   0.0574018
+stdout p2                                -1.17038e-18
+stdout mid2                              -1.17038e-18
+stdout a2                                -1.17038e-18
+stdout p3                                -1.17038e-18
+stdout mid3                              -1.17038e-18
+stdout a3                                -1.17038e-18
+stdout p4                                -1.17038e-18
+stdout mid4                              -1.17038e-18
+stdout a4                                -1.17038e-18
+stdout p5                                -1.17038e-18
+stdout mid5                              -1.17038e-18
+stdout a5                                -1.17038e-18
+stdout p6                                -1.17038e-18
+stdout mid6                              -1.17038e-18
+stdout a6                                -1.17038e-18
+stdout p7                                -1.17038e-18
+stdout mid7                              -1.17038e-18
+stdout a7                                -1.17038e-18
+stdout p8                                -1.17038e-18
+stdout mid8                              -1.17038e-18
+stdout a8                                -1.17038e-18
+stdout p9                                -1.17038e-18
+stdout mid9                              -1.17038e-18
+stdout a9                                -1.17038e-18
+stdout p10                               -1.17038e-18
+stdout mid10                             -1.17038e-18
+stdout a10                               -1.17038e-18
+stdout p11                               -1.17038e-18
+stdout mid11                             -1.17038e-18
+stdout a11                               -1.17038e-18
+stdout mid12                                 -12.0287
+stdout a12                                 -0.0574018
+stdout vdut#branch                       -1.20922e-05
+stdout vdd#branch                        -2.46551e-22
+ Reference value :  6.58472e-04
+ Reference value :  4.54215e-03
+ Reference value :  8.44755e-03
+stdout No. of Data Rows : 120029
+stdout Note: No compatibility mode selected!
+stdout Circuit: 48v-pair-100us
+stdout Doing analysis at TEMP = 27.000000 and TNOM = 27.000000
+stdout Using SPARSE 1.3 as Direct Linear Solver
+stdout Initial Transient Solution
+stdout --------------------------
+stdout Node                                   Voltage
+stdout ----                                   -------
+stdout a3v3                                         0
+stdout vbias                             -1.17038e-18
+stdout p1                                          24
+stdout p12                                        -24
+stdout mid1                                   12.0287
+stdout a1                                   0.0574018
+stdout p2                                -1.17038e-18
+stdout mid2                              -1.17038e-18
+stdout a2                                -1.17038e-18
+stdout p3                                -1.17038e-18
+stdout mid3                              -1.17038e-18
+stdout a3                                -1.17038e-18
+stdout p4                                -1.17038e-18
+stdout mid4                              -1.17038e-18
+stdout a4                                -1.17038e-18
+stdout p5                                -1.17038e-18
+stdout mid5                              -1.17038e-18
+stdout a5                                -1.17038e-18
+stdout p6                                -1.17038e-18
+stdout mid6                              -1.17038e-18
+stdout a6                                -1.17038e-18
+stdout p7                                -1.17038e-18
+stdout mid7                              -1.17038e-18
+stdout a7                                -1.17038e-18
+stdout p8                                -1.17038e-18
+stdout mid8                              -1.17038e-18
+stdout a8                                -1.17038e-18
+stdout p9                                -1.17038e-18
+stdout mid9                              -1.17038e-18
+stdout a9                                -1.17038e-18
+stdout p10                               -1.17038e-18
+stdout mid10                             -1.17038e-18
+stdout a10                               -1.17038e-18
+stdout p11                               -1.17038e-18
+stdout mid11                             -1.17038e-18
+stdout a11                               -1.17038e-18
+stdout mid12                                 -12.0287
+stdout a12                                 -0.0574018
+stdout vdut#branch                       -1.20922e-05
+stdout vdd#branch                        -2.46551e-22
+ Reference value :  0.00000e+00
+ Reference value :  3.84765e-03
+ Reference value :  7.68535e-03
+ Reference value :  1.15541e-02
+stdout No. of Data Rows : 120029
+stdout Note: No compatibility mode selected!
+stdout Circuit: 48v-pair-1000us
+stdout Doing analysis at TEMP = 27.000000 and TNOM = 27.000000
+stdout Using SPARSE 1.3 as Direct Linear Solver
+stdout Initial Transient Solution
+stdout --------------------------
+stdout Node                                   Voltage
+stdout ----                                   -------
+stdout a3v3                                         0
+stdout vbias                             -1.17038e-18
+stdout p1                                          24
+stdout p12                                        -24
+stdout mid1                                   12.0287
+stdout a1                                   0.0574018
+stdout p2                                -1.17038e-18
+stdout mid2                              -1.17038e-18
+stdout a2                                -1.17038e-18
+stdout p3                                -1.17038e-18
+stdout mid3                              -1.17038e-18
+stdout a3                                -1.17038e-18
+stdout p4                                -1.17038e-18
+stdout mid4                              -1.17038e-18
+stdout a4                                -1.17038e-18
+stdout p5                                -1.17038e-18
+stdout mid5                              -1.17038e-18
+stdout a5                                -1.17038e-18
+stdout p6                                -1.17038e-18
+stdout mid6                              -1.17038e-18
+stdout a6                                -1.17038e-18
+stdout p7                                -1.17038e-18
+stdout mid7                              -1.17038e-18
+stdout a7                                -1.17038e-18
+stdout p8                                -1.17038e-18
+stdout mid8                              -1.17038e-18
+stdout a8                                -1.17038e-18
+stdout p9                                -1.17038e-18
+stdout mid9                              -1.17038e-18
+stdout a9                                -1.17038e-18
+stdout p10                               -1.17038e-18
+stdout mid10                             -1.17038e-18
+stdout a10                               -1.17038e-18
+stdout p11                               -1.17038e-18
+stdout mid11                             -1.17038e-18
+stdout a11                               -1.17038e-18
+stdout mid12                                 -12.0287
+stdout a12                                 -0.0574018
+stdout vdut#branch                       -1.20922e-05
+stdout vdd#branch                        -2.46551e-22
+ Reference value :  4.45072e-04
+ Reference value :  4.34235e-03
+ Reference value :  8.21695e-03
+stdout No. of Data Rows : 120029
+stdout Note: No compatibility mode selected!
+stdout Circuit: 48v-positive_single-1us
+stdout Doing analysis at TEMP = 27.000000 and TNOM = 27.000000
+stdout Using SPARSE 1.3 as Direct Linear Solver
+stdout Initial Transient Solution
+stdout --------------------------
+stdout Node                                   Voltage
+stdout ----                                   -------
+stdout a3v3                                         0
+stdout vbias                                0.0201325
+stdout p1                                          48
+stdout mid1                                   24.0674
+stdout a1                                    0.134888
+stdout p2                                   0.0201325
+stdout mid2                                 0.0201325
+stdout a2                                   0.0201325
+stdout p3                                   0.0201325
+stdout mid3                                 0.0201325
+stdout a3                                   0.0201325
+stdout p4                                   0.0201325
+stdout mid4                                 0.0201325
+stdout a4                                   0.0201325
+stdout p5                                   0.0201325
+stdout mid5                                 0.0201325
+stdout a5                                   0.0201325
+stdout p6                                   0.0201325
+stdout mid6                                 0.0201325
+stdout a6                                   0.0201325
+stdout p7                                   0.0201325
+stdout mid7                                 0.0201325
+stdout a7                                   0.0201325
+stdout p8                                   0.0201325
+stdout mid8                                 0.0201325
+stdout a8                                   0.0201325
+stdout p9                                   0.0201325
+stdout mid9                                 0.0201325
+stdout a9                                   0.0201325
+stdout p10                                  0.0201325
+stdout mid10                                0.0201325
+stdout a10                                  0.0201325
+stdout p11                                  0.0201325
+stdout mid11                                0.0201325
+stdout a11                                  0.0201325
+stdout p12                                  0.0201325
+stdout mid12                                0.0201325
+stdout a12                                  0.0201325
+stdout vdut#branch                       -2.41743e-05
+stdout vdd#branch                         4.24111e-06
+ Reference value :  0.00000e+00
+ Reference value :  4.00575e-03
+ Reference value :  8.06295e-03
+stdout No. of Data Rows : 120020
+stdout Note: No compatibility mode selected!
+stdout Circuit: 48v-positive_single-10us
+stdout Doing analysis at TEMP = 27.000000 and TNOM = 27.000000
+stdout Using SPARSE 1.3 as Direct Linear Solver
+stdout Initial Transient Solution
+stdout --------------------------
+stdout Node                                   Voltage
+stdout ----                                   -------
+stdout a3v3                                         0
+stdout vbias                                0.0201325
+stdout p1                                          48
+stdout mid1                                   24.0674
+stdout a1                                    0.134888
+stdout p2                                   0.0201325
+stdout mid2                                 0.0201325
+stdout a2                                   0.0201325
+stdout p3                                   0.0201325
+stdout mid3                                 0.0201325
+stdout a3                                   0.0201325
+stdout p4                                   0.0201325
+stdout mid4                                 0.0201325
+stdout a4                                   0.0201325
+stdout p5                                   0.0201325
+stdout mid5                                 0.0201325
+stdout a5                                   0.0201325
+stdout p6                                   0.0201325
+stdout mid6                                 0.0201325
+stdout a6                                   0.0201325
+stdout p7                                   0.0201325
+stdout mid7                                 0.0201325
+stdout a7                                   0.0201325
+stdout p8                                   0.0201325
+stdout mid8                                 0.0201325
+stdout a8                                   0.0201325
+stdout p9                                   0.0201325
+stdout mid9                                 0.0201325
+stdout a9                                   0.0201325
+stdout p10                                  0.0201325
+stdout mid10                                0.0201325
+stdout a10                                  0.0201325
+stdout p11                                  0.0201325
+stdout mid11                                0.0201325
+stdout a11                                  0.0201325
+stdout p12                                  0.0201325
+stdout mid12                                0.0201325
+stdout a12                                  0.0201325
+stdout vdut#branch                       -2.41743e-05
+stdout vdd#branch                         4.24111e-06
+ Reference value :  0.00000e+00
+ Reference value :  4.03185e-03
+ Reference value :  8.09265e-03
+stdout No. of Data Rows : 120017
+stdout Note: No compatibility mode selected!
+stdout Circuit: 48v-positive_single-100us
+stdout Doing analysis at TEMP = 27.000000 and TNOM = 27.000000
+stdout Using SPARSE 1.3 as Direct Linear Solver
+stdout Initial Transient Solution
+stdout --------------------------
+stdout Node                                   Voltage
+stdout ----                                   -------
+stdout a3v3                                         0
+stdout vbias                                0.0201325
+stdout p1                                          48
+stdout mid1                                   24.0674
+stdout a1                                    0.134888
+stdout p2                                   0.0201325
+stdout mid2                                 0.0201325
+stdout a2                                   0.0201325
+stdout p3                                   0.0201325
+stdout mid3                                 0.0201325
+stdout a3                                   0.0201325
+stdout p4                                   0.0201325
+stdout mid4                                 0.0201325
+stdout a4                                   0.0201325
+stdout p5                                   0.0201325
+stdout mid5                                 0.0201325
+stdout a5                                   0.0201325
+stdout p6                                   0.0201325
+stdout mid6                                 0.0201325
+stdout a6                                   0.0201325
+stdout p7                                   0.0201325
+stdout mid7                                 0.0201325
+stdout a7                                   0.0201325
+stdout p8                                   0.0201325
+stdout mid8                                 0.0201325
+stdout a8                                   0.0201325
+stdout p9                                   0.0201325
+stdout mid9                                 0.0201325
+stdout a9                                   0.0201325
+stdout p10                                  0.0201325
+stdout mid10                                0.0201325
+stdout a10                                  0.0201325
+stdout p11                                  0.0201325
+stdout mid11                                0.0201325
+stdout a11                                  0.0201325
+stdout p12                                  0.0201325
+stdout mid12                                0.0201325
+stdout a12                                  0.0201325
+stdout vdut#branch                       -2.41743e-05
+stdout vdd#branch                         4.24111e-06
+ Reference value :  0.00000e+00
+ Reference value :  4.04905e-03
+ Reference value :  8.12135e-03
+stdout No. of Data Rows : 120017
+stdout Note: No compatibility mode selected!
+stdout Circuit: 48v-positive_single-1000us
+stdout Doing analysis at TEMP = 27.000000 and TNOM = 27.000000
+stdout Using SPARSE 1.3 as Direct Linear Solver
+stdout Initial Transient Solution
+stdout --------------------------
+stdout Node                                   Voltage
+stdout ----                                   -------
+stdout a3v3                                         0
+stdout vbias                                0.0201325
+stdout p1                                          48
+stdout mid1                                   24.0674
+stdout a1                                    0.134888
+stdout p2                                   0.0201325
+stdout mid2                                 0.0201325
+stdout a2                                   0.0201325
+stdout p3                                   0.0201325
+stdout mid3                                 0.0201325
+stdout a3                                   0.0201325
+stdout p4                                   0.0201325
+stdout mid4                                 0.0201325
+stdout a4                                   0.0201325
+stdout p5                                   0.0201325
+stdout mid5                                 0.0201325
+stdout a5                                   0.0201325
+stdout p6                                   0.0201325
+stdout mid6                                 0.0201325
+stdout a6                                   0.0201325
+stdout p7                                   0.0201325
+stdout mid7                                 0.0201325
+stdout a7                                   0.0201325
+stdout p8                                   0.0201325
+stdout mid8                                 0.0201325
+stdout a8                                   0.0201325
+stdout p9                                   0.0201325
+stdout mid9                                 0.0201325
+stdout a9                                   0.0201325
+stdout p10                                  0.0201325
+stdout mid10                                0.0201325
+stdout a10                                  0.0201325
+stdout p11                                  0.0201325
+stdout mid11                                0.0201325
+stdout a11                                  0.0201325
+stdout p12                                  0.0201325
+stdout mid12                                0.0201325
+stdout a12                                  0.0201325
+stdout vdut#branch                       -2.41743e-05
+stdout vdd#branch                         4.24111e-06
+ Reference value :  0.00000e+00
+ Reference value :  4.02035e-03
+ Reference value :  8.07065e-03
+stdout No. of Data Rows : 120017
+stdout Note: No compatibility mode selected!
+stdout Circuit: 48v-negative_single-1us
+stdout Doing analysis at TEMP = 27.000000 and TNOM = 27.000000
+stdout Using SPARSE 1.3 as Direct Linear Solver
+stdout Initial Transient Solution
+stdout --------------------------
+stdout Node                                   Voltage
+stdout ----                                   -------
+stdout a3v3                                         0
+stdout vbias                               -0.0201325
+stdout p1                                         -48
+stdout mid1                                  -24.0674
+stdout a1                                   -0.134888
+stdout p2                                  -0.0201325
+stdout mid2                                -0.0201325
+stdout a2                                  -0.0201325
+stdout p3                                  -0.0201325
+stdout mid3                                -0.0201325
+stdout a3                                  -0.0201325
+stdout p4                                  -0.0201325
+stdout mid4                                -0.0201325
+stdout a4                                  -0.0201325
+stdout p5                                  -0.0201325
+stdout mid5                                -0.0201325
+stdout a5                                  -0.0201325
+stdout p6                                  -0.0201325
+stdout mid6                                -0.0201325
+stdout a6                                  -0.0201325
+stdout p7                                  -0.0201325
+stdout mid7                                -0.0201325
+stdout a7                                  -0.0201325
+stdout p8                                  -0.0201325
+stdout mid8                                -0.0201325
+stdout a8                                  -0.0201325
+stdout p9                                  -0.0201325
+stdout mid9                                -0.0201325
+stdout a9                                  -0.0201325
+stdout p10                                 -0.0201325
+stdout mid10                               -0.0201325
+stdout a10                                 -0.0201325
+stdout p11                                 -0.0201325
+stdout mid11                               -0.0201325
+stdout a11                                 -0.0201325
+stdout p12                                 -0.0201325
+stdout mid12                               -0.0201325
+stdout a12                                 -0.0201325
+stdout vdut#branch                        2.41743e-05
+stdout vdd#branch                        -4.24111e-06
+ Reference value :  0.00000e+00
+ Reference value :  4.04185e-03
+ Reference value :  8.11305e-03
+stdout No. of Data Rows : 120020
+stdout Note: No compatibility mode selected!
+stdout Circuit: 48v-negative_single-10us
+stdout Doing analysis at TEMP = 27.000000 and TNOM = 27.000000
+stdout Using SPARSE 1.3 as Direct Linear Solver
+stdout Initial Transient Solution
+stdout --------------------------
+stdout Node                                   Voltage
+stdout ----                                   -------
+stdout a3v3                                         0
+stdout vbias                               -0.0201325
+stdout p1                                         -48
+stdout mid1                                  -24.0674
+stdout a1                                   -0.134888
+stdout p2                                  -0.0201325
+stdout mid2                                -0.0201325
+stdout a2                                  -0.0201325
+stdout p3                                  -0.0201325
+stdout mid3                                -0.0201325
+stdout a3                                  -0.0201325
+stdout p4                                  -0.0201325
+stdout mid4                                -0.0201325
+stdout a4                                  -0.0201325
+stdout p5                                  -0.0201325
+stdout mid5                                -0.0201325
+stdout a5                                  -0.0201325
+stdout p6                                  -0.0201325
+stdout mid6                                -0.0201325
+stdout a6                                  -0.0201325
+stdout p7                                  -0.0201325
+stdout mid7                                -0.0201325
+stdout a7                                  -0.0201325
+stdout p8                                  -0.0201325
+stdout mid8                                -0.0201325
+stdout a8                                  -0.0201325
+stdout p9                                  -0.0201325
+stdout mid9                                -0.0201325
+stdout a9                                  -0.0201325
+stdout p10                                 -0.0201325
+stdout mid10                               -0.0201325
+stdout a10                                 -0.0201325
+stdout p11                                 -0.0201325
+stdout mid11                               -0.0201325
+stdout a11                                 -0.0201325
+stdout p12                                 -0.0201325
+stdout mid12                               -0.0201325
+stdout a12                                 -0.0201325
+stdout vdut#branch                        2.41743e-05
+stdout vdd#branch                        -4.24111e-06
+ Reference value :  0.00000e+00
+ Reference value :  4.01225e-03
+ Reference value :  8.03685e-03
+stdout No. of Data Rows : 120017
+stdout Note: No compatibility mode selected!
+stdout Circuit: 48v-negative_single-100us
+stdout Doing analysis at TEMP = 27.000000 and TNOM = 27.000000
+stdout Using SPARSE 1.3 as Direct Linear Solver
+stdout Initial Transient Solution
+stdout --------------------------
+stdout Node                                   Voltage
+stdout ----                                   -------
+stdout a3v3                                         0
+stdout vbias                               -0.0201325
+stdout p1                                         -48
+stdout mid1                                  -24.0674
+stdout a1                                   -0.134888
+stdout p2                                  -0.0201325
+stdout mid2                                -0.0201325
+stdout a2                                  -0.0201325
+stdout p3                                  -0.0201325
+stdout mid3                                -0.0201325
+stdout a3                                  -0.0201325
+stdout p4                                  -0.0201325
+stdout mid4                                -0.0201325
+stdout a4                                  -0.0201325
+stdout p5                                  -0.0201325
+stdout mid5                                -0.0201325
+stdout a5                                  -0.0201325
+stdout p6                                  -0.0201325
+stdout mid6                                -0.0201325
+stdout a6                                  -0.0201325
+stdout p7                                  -0.0201325
+stdout mid7                                -0.0201325
+stdout a7                                  -0.0201325
+stdout p8                                  -0.0201325
+stdout mid8                                -0.0201325
+stdout a8                                  -0.0201325
+stdout p9                                  -0.0201325
+stdout mid9                                -0.0201325
+stdout a9                                  -0.0201325
+stdout p10                                 -0.0201325
+stdout mid10                               -0.0201325
+stdout a10                                 -0.0201325
+stdout p11                                 -0.0201325
+stdout mid11                               -0.0201325
+stdout a11                                 -0.0201325
+stdout p12                                 -0.0201325
+stdout mid12                               -0.0201325
+stdout a12                                 -0.0201325
+stdout vdut#branch                        2.41743e-05
+stdout vdd#branch                        -4.24111e-06
+ Reference value :  0.00000e+00
+ Reference value :  3.99225e-03
+ Reference value :  8.03595e-03
+stdout No. of Data Rows : 120017
+stdout Note: No compatibility mode selected!
+stdout Circuit: 48v-negative_single-1000us
+stdout Doing analysis at TEMP = 27.000000 and TNOM = 27.000000
+stdout Using SPARSE 1.3 as Direct Linear Solver
+stdout Initial Transient Solution
+stdout --------------------------
+stdout Node                                   Voltage
+stdout ----                                   -------
+stdout a3v3                                         0
+stdout vbias                               -0.0201325
+stdout p1                                         -48
+stdout mid1                                  -24.0674
+stdout a1                                   -0.134888
+stdout p2                                  -0.0201325
+stdout mid2                                -0.0201325
+stdout a2                                  -0.0201325
+stdout p3                                  -0.0201325
+stdout mid3                                -0.0201325
+stdout a3                                  -0.0201325
+stdout p4                                  -0.0201325
+stdout mid4                                -0.0201325
+stdout a4                                  -0.0201325
+stdout p5                                  -0.0201325
+stdout mid5                                -0.0201325
+stdout a5                                  -0.0201325
+stdout p6                                  -0.0201325
+stdout mid6                                -0.0201325
+stdout a6                                  -0.0201325
+stdout p7                                  -0.0201325
+stdout mid7                                -0.0201325
+stdout a7                                  -0.0201325
+stdout p8                                  -0.0201325
+stdout mid8                                -0.0201325
+stdout a8                                  -0.0201325
+stdout p9                                  -0.0201325
+stdout mid9                                -0.0201325
+stdout a9                                  -0.0201325
+stdout p10                                 -0.0201325
+stdout mid10                               -0.0201325
+stdout a10                                 -0.0201325
+stdout p11                                 -0.0201325
+stdout mid11                               -0.0201325
+stdout a11                                 -0.0201325
+stdout p12                                 -0.0201325
+stdout mid12                               -0.0201325
+stdout a12                                 -0.0201325
+stdout vdut#branch                        2.41743e-05
+stdout vdd#branch                        -4.24111e-06
+ Reference value :  0.00000e+00
+ Reference value :  4.01145e-03
+ Reference value :  8.05035e-03
+ Reference value :  1.08838e-02
+stdout No. of Data Rows : 120017

@@ -1,0 +1,1 @@
+PASS: 3564 ordered-pair/voltage/bias cases; multiple sources, acquisition failure, invalid baseline, NaN and legacy gain rejected.

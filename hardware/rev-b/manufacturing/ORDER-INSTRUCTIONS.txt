@@ -1,0 +1,67 @@
+12 V TESTER REV B - JLC PROTOTYPE ORDER
+Prepared 2026-09-30. Target: 2 assembled boards.
+
+EXTRACT THIS OUTER ZIP FIRST. Upload the three files separately:
+  PCB-Gerbers.zip: bare PCB fabrication data
+  BOM.csv: assembly bill of materials
+  CPL.csv: component placement file
+Use all three from this Rev B bundle. Do not mix with Rev A files.
+
+PCB: 90 x 80 mm, 2 layers, FR-4, 1.6 mm, 1 oz copper, ENIG,
+green mask, white silkscreen. Four 2.7 mm nonplated mounting holes.
+Request bare-board electrical testing and manufacturer DFM.
+Assembly: top side, 110 SMD parts plus 4 through-hole connectors per PCB.
+Set assembled quantity to 2 (the previous JLC export was set to 5).
+Use Economic assembly if offered for this BOM and through-hole service.
+
+PART MATCHING
+24 exact JLC codes: 9 Basic, 1 Promotional Extended, 14 Extended.
+114 fitted parts per PCB. All selected types showed stock for 2 and 5
+boards. Recheck live stock including attrition; nothing is reserved.
+U7 MUST be MIE1W0505BGLVH-3R-Z / C22419841, LGA-12 4x5mm.
+  It replaces the unavailable RECOM converter and uses different copper.
+  EN (8) tied to VIN (9/10); VSEL (7) tied to VOUT (5/6) for 5 V.
+  Ask JLC to confirm its LGA paste/land fit and pin-1 orientation in DFM.
+U4-U6: ADG4612BRUZ-REEL7 / C207399. Power-off protection is required.
+U8: ISO1640BDR / C5122339, 8-pin version.
+D1-D12: BZT52C12 / C19077410, SOD-123, cathode pin 1.
+C1-C12/C28: 470pF / C1743. C21/C24: 22uF / C45783.
+R43/R44: DNP, absent from BOM/CPL and stencil. Do not populate.
+J1-J4: included; require through-hole assembly.
+Display/controller Waveshare ESP32-S3-LCD-1.28 and harness are separate.
+
+PLACEMENT
+CPL is mm, top side, X right / Y up, same origin as Gerbers.
+Negative Y is intentional. Do not mirror or scale.
+J1-J4 use F.Fab body centre, not pin-1 origin.
+U7 is at X=16, Y=-11, native KiCad rotation +90 degrees. Its pin 1
+is at X=13.9125, Y=-12.6375. Check that physical pin location against
+JLC's library placement; rotation numbers alone are not sufficient.
+Compare every polarized part and connector with reference/assembly.pdf.
+JLC-specific rotations have not been confirmed in an uploaded order.
+Resolve JLC matching/DFM/placement feedback before payment.
+
+ESTIMATE FOR TWO ASSEMBLED BOARDS
+Nominal fitted parts: USD 75.7572 at displayed 1+ prices.
+Economic Extended loading allowance: USD 42.98 (14 x 3.07).
+These are not a checkout quote. Volume tiers/attrition affect totals.
+PCB, setup, stencil, placement, THT labor, tax and shipping are extra.
+U7 LGA may need X-ray; current allowance USD 1.64 each.
+Basic/Promotional fee treatment applies to Economic, not Standard.
+
+REFERENCE FILES
+assembly.pdf, schematic.pdf, front-paste.gtp, detailed/grouped BOM,
+engineering/release checks and checksums are included as references.
+Only one BOM is included for upload. The cheaper unavailable switch
+preorder alternative is only in the complete engineering package.
+
+VALIDATION
+ERC/DRC: zero violations, zero unconnected items, zero parity errors.
+352 numbered PCB pad nets match the schematic. 1,188 DC/pin cases,
+64 resistor corners, 20,000 sensitivity trials, 12 behavioral power
+transients and firmware host tests pass. None is a physical board test.
+First article still needs current-limited bring-up, supply/noise/power
+sequencing checks, 12-channel calibration and all 132 ordered pairs.
+
+Full design, firmware and procedure: tester12v-rev-b-complete.zip.
+Read hardware/rev-b/README.md and validation/REPORT.md in that package.

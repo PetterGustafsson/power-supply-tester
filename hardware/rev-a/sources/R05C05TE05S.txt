@@ -1,0 +1,368 @@
+                                     •     Compact 10.35 x 7.5mm SMD package
+Features                             •     Low profile (2.5mm)
+                                     •     3kVDC/1min isolation                                                DC/DC Converter
+                                     •     Low EMI emissions
+Regulated                            •     Ultra-wide temperature range -40°C to +125°C
+Converters                           •     Fully automated, high-reliability design
+                                                                                                               RxxC05TExxS
+                                     •     Semi-regulated 5V output
+
+Description
+The R05C05TE05S is a low cost, low profile, 0.5W SMD isolated DC/DC single output converter with               0.5 Watt
+4.5-5.5V input range and a semi-regulated 5V output. There is no minimum load requirement which
+is ideal for applications which switch into very light load operation modes. The device is also able to        16-Pin SOIC
+deliver a 600mW for applications requiring additional power for short peak operation modes. Standard
+isolation is 3kVDC/1min, and the operating temperature is from -40°C up to +125°C with derating.
+The fully-automated design which is equipped with short-circuit, over-current, and over-temperature
+                                                                                                               Single Output
+protection ensures the highest reliability in applications such as communication, current sensing, and
+COM port isolation.
+
+
+Selection Guide
+Part                               Input               Output              Output                 Efficiency
+Number                        Voltage Range            Voltage             Power                    typ. (1)
+                                   [VDC]                [VDC]               [W]                       [%]                O
+                                                                                                                             M
+                                                                                                                                 C O N V ER
+                                                                                                                                              T                 O
+                                                                                                                                                                    M
+                                                                                                                                                                        CO NVE R
+                                                                                                                                                                                   T
+                                                                                                                     C                                      C
+
+
+
+
+                                                                                                                                                                                   E
+                                                                                                                                              E
+R05C05TE05S                       4.5-5.5                 5                 0.5                        53
+
+
+
+
+                                                                                                                                                       RE
+                                                                                                                RE
+
+
+
+
+                                                                                                                                                                                       R
+                                                                                                                                                  R
+
+
+
+
+                                                                                                                                                                                       S
+                                                                                                                                                  S
+                                                                                                                     RoHS 2 +                               REACH
+                                                                                                                      compliant                                         compliant
+                                                                                                                             10 from 10
+
+
+
+
+                                                                                                                                                       CO
+                                                                                                                CO
+
+
+
+
+                                                                                                                                                                                       TS
+                                                                                                                                                  TS
+                                                                                                                 M                                      M
+
+
+
+
+                                                                                                                                                                                   C
+                                                                                                                                              C
+                                                                                                                     PL                                     P
+
+                               Notes:
+                                                                                                                                              U                 LIA           U
+                                                                                                                             IA N       D                                   D
+                                                                                                                                  T PRO                             N T PRO
+
+
+
+
+                                   Note1: nom. VIN= 5VDC, VOUT= 5VDC, full load
+                                                                                                               IEC/EN62368-1 3rd Edition certified
+                                                                                                               CB Report
+
+Model Numbering
+
+                                    R__C05TE__ S-__
+           nom. Input Voltage                                                     Packaging (2)
+         nom. Output Voltage                                                      Single Output
+
+   Notes:
+       Note2: add suffix “-R” for standard tape and reel packaging
+   		         add suffix “-CT” for bag packaging for more details refer to “PACKAGING INFORMATION”
+
+
+
+
+Specifications (measured @ Ta= 25°C, nom. Vin, full load and after warm-up unless otherwise stated)
+ABSOLUTE MAXIMUM RATINGS (3)
+Parameter                                           Condition              Min.          Typ.         Max.
+                                                     +VIN to -VIN         -0.3VDC                     6VDC
+Absolute Maximum Voltage                       +VIN to -VIN or SGNDIN     -0.3VDC                     6VDC
+                                              +VOUT to -VOUT or SGNDOUT   -0.3VDC                     6VDC
+Operating IC Junction Temperature (TJ )                                                              +150°C
+Lead Temperature                                                                                     +260°C
+Storage Temperature (TSTO )                                                -65°C                     +150°C
+
+       Notes:
+           Note3: Stresses beyond those listed under absolute maximum ratings can cause permanent
+       		         damage to the device. (Values are at non-operating)
+
+
+www.recom-power.com                                                       REV.: 4/2024                                                                                                      ECO-1
+                                                                                                              RxxC05TExxS
+DC/DC Converter                                                                                                                                                        Series
+Specifications (measured @ Ta= 25°C, nom. Vin, full load and after warm-up unless otherwise stated)
+BASIC CHARACTERISTICS
+Parameter                                                                                   Condition                                      Min.               Typ.               Max.
+Input Voltage Range                                                                                                                       4.5VDC              5VDC               5.5VDC
+                                                                                            DC-DC ON                                                        3.28VDC
+Under Voltage Lockout (UVLO)
+                                                                                            DC-DC OFF                                                       2.88VDC
+Under Voltage Lockout Hysteresis                                                                                                                             190mV
+                                                                                            POUT= 0.5W                                                       240mA
+Input Current Range
+                                                                                            POUT= 0.6W                                                       255mA
+Quiescent Current                                                                                                                                             7mA
+Minimum Load                                                                                                                                   0%
+Internal Operating Frequency                                                                                                                                 30MHz
+Output Ripple Voltage                                                                                                                                       50mVp-p           100mVp-p
+ Typical Application Circuit
+
+                                      +Vin                                     +Vout
+             +Vin                                                                                           +Vout             Input and Output Capacitors*
+                        C1     C2                                                      C3      C4
+                                                                                                                                    C1               C2        C3           C4
+                                       -Vin                                    -Vout
+              -Vin                                                                                          -Vout                 10µF              0.1µF     10µF        0.1µF
+                                                                                                                               *these capacitors are mandatory for stable operation
+                                    SGNDIN                                     SGNDOUT
+
+
+
+
+  Efficiency vs. Load
+
+                                                               100
+                                                                90
+                                                                80
+                                                                70
+                                              Efficiency [%]
+
+
+
+
+                                                                60
+                                                                50
+                                                                40
+                                                                30
+                                                                20                                                       4.5Vin
+                                                                                                                         5Vin
+                                                                10                                                       5.5Vin
+                                                                 0
+                                                                     0    10   20      30      40    50      60     70   80    90        100
+                                                                                              Output Load [%]
+
+
+
+
+REGULATION
+Parameter                                                                  Condition                                                 Min.                   Typ.                 Max.
+Output Voltage Accuracy                                          VIN= 4.5-5.5VDC, load= 0A                                                                  ±1.5%
+Line Regulation                                                VIN= 4.5-5.5VDC, load= 0.12A                                                                 ±0.5%
+Load Regulation                                                          0% - 100% load                                                                     1.0%
+
+www.recom-power.com                                                                          REV.: 4/2024                                                                             ECO-2
+                                                                                                            RxxC05TExxS
+DC/DC Converter                                                                                                                                                  Series
+Specifications (measured @ Ta= 25°C, nom. Vin, full load and after warm-up unless otherwise stated)
+PROTECTIONS
+Parameter                                                                         Condition                                                                                 Values
+Short Circuit Protection (SCP)                                                                                                                            continuous , hiccup mode
+Over Current Protection                                                                                                                                         220mA, hiccup mode
+Over Temperature Protection                                                                                                                        automatic restart after cool down
+                                                                           IC junction temperature                                                                          +160°C
+Thermal Shutdown
+                                                                                  hysteresis                                                                                 +20°C
+                                                                              tested for 1second                                                                            3.6kVDC
+Isolation Voltage
+                                                                              rated for 1 minute                                                                             3kVDC
+Isolation Resistance                                                         VISO= 500VDC, 25°C                                                                          50GΩ typ.
+Isolation Capacitance                                                                                                                                                       7pF typ.
+Isolation Grade                                                             according to 62368-1                                                                          functional
+External Clearance                                                                                                                                                           >8mm
+External Creepage                                                                                                                                                            >8mm
+
+
+
+
+ENVIRONMENTAL
+Parameter                                                                    Condition                                                                                       Value
+Operating Temperature Range                            @ natural convection 0.1m/s                                            with derating                        -40°C to +125°C
+                                                        human-body model (HBM), ANSI/ESDA/JEDEC JS-001                                                                       ±6.0kV
+ESD
+                                                         charged-device model (CDM), JEDEC JESD22-C101                                                                       ±2.0kV
+Moisture Sensitive Level                                                 MSL peak temp.                   (5)
+                                                                                                                                                            Level 3, 260°C, 168hrs
+                                                                           junction to TAMB                                                                                63.8K/W
+                                                                        junction to case (top)                                                                             21.4K/W
+Thermal Impedance (6)
+                                                                      junction to case (bottom)                                                                            37.2K/W
+                                                                          junction to board                                                                                38.5K/W
+             Notes:
+                 Note5: The Moisture Sensitivity Level rating according to the JEDEC industry standard classifications, and peak solder temperature
+                 Note6: Tested with 54.0 x 85.6mm 2 layer PCB with 105µm copper
+
+
+ Peak Load Capability
+                                                                                                                              Thermal Derating (6)
+            Pout [W]
+                                                                                                         600
+                                                                                                                        Peak Load Capability
+              Pp                                                                                         500
+                                                                                     Output Power [mW]
+
+
+
+
+                                                                                                         400
+
+            Pnom
+                                                                                                         300
+
+
+                                                                                                         200
+               0                                         Time [s]
+                           t1        t2                                                                  100
+
+
+                    Pnom = nom. output power (0.5W)     [W]                                                0
+                    PP = peak output power (≤0.6W)      [W]                                                 -40   -20     0       20    40    60     80   100     120 140
+                                                                                                                                                                    125
+                    t1 = peak time set (60s max.)       [s]                                                                    Ambient Temperature [°C]
+                    t2 = recovery time (min. 3 x t1)    [s]
+
+
+www.recom-power.com                                                         REV.: 4/2024                                                                                      ECO-3
+                                                                                             RxxC05TExxS
+DC/DC Converter                                                                                                                                         Series
+Specifications (measured @ Ta= 25°C, nom. Vin, full load and after warm-up unless otherwise stated)
+SAFETY AND CERTIFICATIONS
+Certificate Type (Safety)                                                                   Report Number                                                      Standard
+Information Technology Equipment, General Requirements for Safety (CB Scheme)               DK-139515-A1-UL                                   IEC62368-1:2018, 3rd Edition
+Information Technology Equipment, General Requirements for Safety                           S20230116152501                        EN IEC 62368-1:2020 + A11:2020
+RoHS2                                                                                                                                RoHS 2011/65/EU + AM2015/863
+
+
+
+
+DIMENSION AND PHYSICAL CHARACTERISTICS
+Parameter                                                                       Type                                                                               Value
+Dimension (LxWxH)                                                                                                                                   10.35 x 7.5 x 2.50mm
+Weight                                                                                                                                                           0.1g typ.
+
+
+ Dimension Drawing (mm)
+
+                                  10.35 ±0.10
+                                                                                              Pin Information
+                                                                                                 Pad #           Function
+                                                                                                   1,2              -VIN
+                                                                                                   3,4              +VIN
+                                                                                                 5,6,7,8          SGNDIN
+                                                                7.5 ±0.10
+
+
+
+
+                                                                                                9,11,12           SGNDOUT
+                                                                                                   10       DNC (do not connect)
+                                                                                                 13,14             +VOUT
+                                                                                                 15,16             -VOUT
+                                                                                              Tolerances:   x.x= ±0.1mm
+                                                                                                            x.xx= ±0.05mm
+
+
+
+
+                          7x 1.27 = 8.89 BSC
+                                                                2.50 ±0.15
+
+
+
+
+                    1 2 3 4 5 6 7 8                                                          0°-8°
+                                                                                                                                   0.20±0.1
+                                                                                 0.25
+
+
+
+
+                                                                                                         1.27
+                                                                10.3 ±0.30
+
+
+
+
+                                                                                                         0.40
+                                                                                                         1.40
+
+                   16 15 14 13 12 11 10 9
+
+
+                             16x 0.41±0.10
+
+
+www.recom-power.com                                                          REV.: 4/2024                                                                           ECO-4
+                                                                                                                                  RxxC05TExxS
+  DC/DC Converter                                                                                                                                                                                           Series
+   Specifications (measured @ Ta= 25°C, nom. Vin, full load and after warm-up unless otherwise stated)
+
+       Footprint Details
+                                                                                                            Top View
+                                                                       16x 0.61                                      14x 1.27
+
+
+
+                                                                         16x 1.90        16                                                   9
+
+
+
+
+                                                                                                                                                        9.40
+                                                                                         1                                                    8
+
+
+
+
+   PACKAGING INFORMATION
+   Parameter                                                                                                      Type                                                                                                        Value
+                                                                                                      reel (diameter + width)                                                                      Ø177.8 + 24.4mm height
+   Packaging Dimension (LxWxH)                                                                         tape and reel (carton)                                                                       260.0 x 240.0 x 60.0mm
+                                                                                                  moisture barrier bag (“-CT”)                                                                        100.0 x 100.0 x 30mm
+   Tape Width                                                                                                                                                                                                                 24mm
+                                                                                                            tape and reel                                                                                                    500pcs
+   Packaging Quantity
+                                                                                                  moisture barrier bag (“-CT”)                                                                                                 10pcs
+   Storage Temperature Range                                                                                                                                                                                   -65°C to +150°C
+
+
+
+
+The product information and specifications may be subject to changes even without prior written notice.The product has been designed for various applications; its suitability lies in the responsibility of each customer. The products
+ are not authorized for use in safety-critical applications without RECOM’s explicit written consent. A safety-critical application is an application where a failure may reasonably be expected to endanger or cause loss of life, inflict
+      bodily harm or damage property. The applicant shall indemnify and hold harmless RECOM, its affiliated companies and its representatives against any damage claims in connection with the unauthorized use of RECOM
+                                                                                               products in such safety-critical applications.
+
+  www.recom-power.com                                                                                       REV.: 4/2024                                                                                                       ECO-5
+

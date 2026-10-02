@@ -1,0 +1,10 @@
+REV D2: BLACK BOARD, WHITE J4 WIRING LABELS, OUTWARD TERMINALS
+Read hardware/rev-d/README.md and validation/REPORT.md.
+The rev-d source folder contains D2 hardware; matching firmware remains Rev D.
+Select BLACK solder mask and WHITE silkscreen in the JLC order. See manufacturing/fabrication-settings.txt.
+One USB cable to the Waveshare module powers the tester.
+J4 pins: 1=5V/VSYS, 2=GND, 3=3V3, 4=SDA/GPIO6, 5=SCL/GPIO7.
+Engineering prototype only: JLC placement/DFM and physical tests remain.
+Use the enclosed D2 Gerbers/BOM/CPL together. Do not mix earlier downloads.
+J1-J3 wire openings toward lower board edge, screws facing up. Inputs 1-12 still left-to-right.
+Native CPL angles require JLC viewer review. No order has been placed by this update.

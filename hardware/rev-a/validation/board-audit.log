@@ -1,0 +1,16 @@
+{
+  "status": "PASS",
+  "physical_pad_nets_compared": 356,
+  "raw_input_paths_checked": 12,
+  "only_isolation_boundary_components": [
+    "U7",
+    "U8"
+  ],
+  "layers": 2,
+  "thickness_mm": 1.6,
+  "tracks": 927,
+  "vias": 61,
+  "minimum_track_width_mm": 0.2,
+  "board_sha256": "885fefa2ecadbf35ab674bcdc5141cc5e6061406cc44aefea95a61bf268ce7e5",
+  "schematic_netlist_sha256": "6b6a965d5e6d08bfec5e2938e500e38a61e3ee3d934255be2cf443e958d026c7"
+}

@@ -1,0 +1,25 @@
+{
+  "status": "PASS",
+  "order_archive_sha256": "577f3f241f397039ba0bad6c17bc3e5913ca0bf29b6c41d7e4546f7ec6937009",
+  "order_archive_entries": 13,
+  "primary_bom": "BOM.csv",
+  "matching_cpl": "CPL.csv",
+  "fabrication_archive": "PCB-Gerbers.zip",
+  "reference_count": 114,
+  "alternate_BOM_excluded": true,
+  "source_file_hashes": {
+    "PCB-Gerbers.zip": "5d4c407a20098fd5a9717680dde93036070e9c313d304cc59aad2ef8617306e7",
+    "BOM.csv": "3c16fdf6fc2ea8832567ea8f27468cc81e0d7ebb77d497d6d6b52cf8dea0ec0a",
+    "CPL.csv": "42d202ae0e8f6bd86fdd19e7d40b590c68c9e82e68f936c83d9368499d1319d3",
+    "ORDER-INSTRUCTIONS.txt": "4257e4961689701516c05a18f3e38ae8e8b738ac791c8f2636ddac15af8bdc0f",
+    "reference/assembly.pdf": "5236ba8908465a3d3ed9ef70d7adb91231f3494da84d14c9af3adc7350e3d606",
+    "reference/schematic.pdf": "a31171daea97450ad70f9618d2e9ac7b67cc1c8c5bab3be5b2aabfabc51f7440",
+    "reference/front-paste.gtp": "760010edccb7b5a6ee57b9f272a2d5b549db2cea67b008cba344deaa529b4428",
+    "reference/bom-detailed.csv": "42969a59d39a09de4c82cedcfbbc34adc7ac197b504da5cceb9d6e7583c07fe9",
+    "reference/bom-grouped.csv": "32b2516e306bd17dbfdef02f4e110268eb3f36e1edadd972ce4527856c577006",
+    "reference/manufacturing-sync.json": "68f33938175a2fdef91c5a41543440f49381610049b69dfb02a459761cf2b4f2",
+    "reference/jlc-sourcing-checks.json": "fce9855ccd25265b0939cdb119e02fd194ea7188acd9a58d37a03822afd85a4a",
+    "reference/release-checks.json": "48e3fa29b409158489f80773290c46103d03562f269e4be7ec9038caf57c10c0"
+  },
+  "procurement_status": "HOLD: U7 / C5338283 preorder delivery and price unconfirmed"
+}

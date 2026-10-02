@@ -1,0 +1,14 @@
+LATEST ENGINEERING DESIGN: REV D2 — BLACK BOARD WITH ESP32 WIRING LABELS
+
+Editable D2 design and matching manufacturing exports: hardware/rev-d/
+Complete package: hardware/tester12v-rev-d2-engineering-package.zip
+Matching firmware: firmware/Tester12VRevD/
+
+Read hardware/rev-d/README.md and validation/REPORT.md.
+JLC placement/DFM review and physical prototype tests remain.
+J1-J3: wire openings toward the lower board edge; screws accessible from above.
+J4: numbered labels on both sides; full ESP32 wiring key on the back.
+JLC colour selection: BLACK solder mask, WHITE silkscreen, both sides.
+Input labels remain 1-12 left-to-right. Uses unchanged Rev D firmware.
+This mechanical update has not modified or submitted an order in JLC.
+Use enclosed D2 Gerbers/BOM/CPL together; do not mix with earlier downloads.

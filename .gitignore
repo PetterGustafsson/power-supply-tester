@@ -1,0 +1,17 @@
+firmware/.venv/
+firmware/build/
+firmware/vendor/
+
+# Local tools, caches, and editor state
+.DS_Store
+__pycache__/
+*.py[cod]
+.venv/
+node_modules/
+build/
+*.kicad_prl
+*.lck
+*.blend1
+
+# Intermediate animation frames; retained scripts regenerate these
+output/*-frames/

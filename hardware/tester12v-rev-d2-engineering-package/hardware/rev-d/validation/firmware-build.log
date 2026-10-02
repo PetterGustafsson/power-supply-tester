@@ -1,0 +1,4 @@
+Command: ['/Applications/Arduino IDE.app/Contents/Resources/app/lib/backend/resources/arduino-cli', 'compile', '--fqbn', 'esp32:esp32:esp32s3:FlashSize=16M,PSRAM=enabled,CDCOnBoot=default,PartitionScheme=app3M_fat9M_16MB', '--build-path', '/private/tmp/tester12vd-build', '--output-dir', '/Users/petter/Documents/ChatGPT/Power supply tester/firmware/Tester12VRevD/build', '/Users/petter/Documents/ChatGPT/Power supply tester/firmware/Tester12VRevD']
+Exit code: 0
+Sketch uses 392401 bytes (12%) of program storage space. Maximum is 3145728 bytes.
+Global variables use 139404 bytes (42%) of dynamic memory, leaving 188276 bytes for local variables. Maximum is 327680 bytes.

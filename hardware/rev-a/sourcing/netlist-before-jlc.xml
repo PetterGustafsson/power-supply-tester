@@ -1,0 +1,3619 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="E">
+  <design>
+    <source>/Users/petter/Documents/ChatGPT/Power supply tester/hardware/rev-a/tester12v.kicad_sch</source>
+    <date>2026-09-30T12:06:45-0700</date>
+    <tool>Eeschema 9.0.6</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title>12 V universal pin-voltage tester - power and controller</title>
+        <company>Power supply tester</company>
+        <rev>A</rev>
+        <date>2026-09-30</date>
+        <source>tester12v.kicad_sch</source>
+        <comment number="1" value="12 V nominal DC | USB-powered measurement only"/>
+        <comment number="2" value="Prototype: bench validation required"/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="2" name="/Inputs 1-4/" tstamps="/f24fa8a7-1b01-5111-a288-269f766bcc27/">
+      <title_block>
+        <title>Inputs 1-4: protected sensing and ADC</title>
+        <company>Power supply tester</company>
+        <rev>A</rev>
+        <date>2026-09-30</date>
+        <source>bank1.kicad_sch</source>
+        <comment number="1" value="12 V nominal DC | USB-powered measurement only"/>
+        <comment number="2" value="Prototype: bench validation required"/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="3" name="/Inputs 5-8/" tstamps="/5fac0619-425f-5cae-a389-68b23809ba48/">
+      <title_block>
+        <title>Inputs 5-8: protected sensing and ADC</title>
+        <company>Power supply tester</company>
+        <rev>A</rev>
+        <date>2026-09-30</date>
+        <source>bank2.kicad_sch</source>
+        <comment number="1" value="12 V nominal DC | USB-powered measurement only"/>
+        <comment number="2" value="Prototype: bench validation required"/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="4" name="/Inputs 9-12/" tstamps="/18f7569b-7276-58d0-8470-35ff049f460f/">
+      <title_block>
+        <title>Inputs 9-12: protected sensing and ADC</title>
+        <company>Power supply tester</company>
+        <rev>A</rev>
+        <date>2026-09-30</date>
+        <source>bank3.kicad_sch</source>
+        <comment number="1" value="12 V nominal DC | USB-powered measurement only"/>
+        <comment number="2" value="Prototype: bench validation required"/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="C19">
+      <value>10u</value>
+      <footprint>Tester:C_0805_2012Metric</footprint>
+      <fields>
+        <field name="MPN">GRM21BR61A106KE19L</field>
+        <field name="Manufacturer">Murata</field>
+        <field name="Notes">Use specified capacitance, voltage and dielectric</field>
+        <field name="Footprint">Tester:C_0805_2012Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Tester" part="C" description=""/>
+      <property name="MPN" value="GRM21BR61A106KE19L"/>
+      <property name="Manufacturer" value="Murata"/>
+      <property name="Notes" value="Use specified capacitance, voltage and dielectric"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="tester12v.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>9472cd08-b23b-5ec7-8f89-479771461f25</tstamps>
+    </comp>
+    <comp ref="C20">
+      <value>100n</value>
+      <footprint>Tester:C_0805_2012Metric</footprint>
+      <fields>
+        <field name="MPN">GRM21BR71H104KA01L</field>
+        <field name="Manufacturer">Murata</field>
+        <field name="Notes">Use specified capacitance, voltage and dielectric</field>
+        <field name="Footprint">Tester:C_0805_2012Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Tester" part="C" description=""/>
+      <property name="MPN" value="GRM21BR71H104KA01L"/>
+      <property name="Manufacturer" value="Murata"/>
+      <property name="Notes" value="Use specified capacitance, voltage and dielectric"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="tester12v.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>40cf702a-0050-5a03-a5bc-1c335cf193e4</tstamps>
+    </comp>
+    <comp ref="C21">
+      <value>10u</value>
+      <footprint>Tester:C_0805_2012Metric</footprint>
+      <fields>
+        <field name="MPN">GRM21BR61A106KE19L</field>
+        <field name="Manufacturer">Murata</field>
+        <field name="Notes">Use specified capacitance, voltage and dielectric</field>
+        <field name="Footprint">Tester:C_0805_2012Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Tester" part="C" description=""/>
+      <property name="MPN" value="GRM21BR61A106KE19L"/>
+      <property name="Manufacturer" value="Murata"/>
+      <property name="Notes" value="Use specified capacitance, voltage and dielectric"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="tester12v.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>012773c1-e809-5e60-8086-bcde4462f68b</tstamps>
+    </comp>
+    <comp ref="C22">
+      <value>100n</value>
+      <footprint>Tester:C_0805_2012Metric</footprint>
+      <fields>
+        <field name="MPN">GRM21BR71H104KA01L</field>
+        <field name="Manufacturer">Murata</field>
+        <field name="Notes">Use specified capacitance, voltage and dielectric</field>
+        <field name="Footprint">Tester:C_0805_2012Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Tester" part="C" description=""/>
+      <property name="MPN" value="GRM21BR71H104KA01L"/>
+      <property name="Manufacturer" value="Murata"/>
+      <property name="Notes" value="Use specified capacitance, voltage and dielectric"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="tester12v.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>107ab86b-0a66-5d68-a1fa-6ad0cd7dbfb0</tstamps>
+    </comp>
+    <comp ref="C23">
+      <value>1u</value>
+      <footprint>Tester:C_0805_2012Metric</footprint>
+      <fields>
+        <field name="MPN">GRM21BR71E105KA99L</field>
+        <field name="Manufacturer">Murata</field>
+        <field name="Notes">Use specified capacitance, voltage and dielectric</field>
+        <field name="Footprint">Tester:C_0805_2012Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Tester" part="C" description=""/>
+      <property name="MPN" value="GRM21BR71E105KA99L"/>
+      <property name="Manufacturer" value="Murata"/>
+      <property name="Notes" value="Use specified capacitance, voltage and dielectric"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="tester12v.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>bd3190d7-cacb-5a11-bb7e-5669000e3618</tstamps>
+    </comp>
+    <comp ref="C24">
+      <value>22u</value>
+      <footprint>Tester:C_0805_2012Metric</footprint>
+      <fields>
+        <field name="MPN">GRM21BR61A226ME44L</field>
+        <field name="Manufacturer">Murata</field>
+        <field name="Notes">Use specified capacitance, voltage and dielectric</field>
+        <field name="Footprint">Tester:C_0805_2012Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Tester" part="C" description=""/>
+      <property name="MPN" value="GRM21BR61A226ME44L"/>
+      <property name="Manufacturer" value="Murata"/>
+      <property name="Notes" value="Use specified capacitance, voltage and dielectric"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="tester12v.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>467864f9-bee0-5139-ad18-afcfb82b1d91</tstamps>
+    </comp>
+    <comp ref="C25">
+      <value>100n</value>
+      <footprint>Tester:C_0805_2012Metric</footprint>
+      <fields>
+        <field name="MPN">GRM21BR71H104KA01L</field>
+        <field name="Manufacturer">Murata</field>
+        <field name="Notes">Use specified capacitance, voltage and dielectric</field>
+        <field name="Footprint">Tester:C_0805_2012Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Tester" part="C" description=""/>
+      <property name="MPN" value="GRM21BR71H104KA01L"/>
+      <property name="Manufacturer" value="Murata"/>
+      <property name="Notes" value="Use specified capacitance, voltage and dielectric"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="tester12v.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>abe2d6b5-7219-5c66-bcf1-5fbc87ea7646</tstamps>
+    </comp>
+    <comp ref="C26">
+      <value>100n</value>
+      <footprint>Tester:C_0805_2012Metric</footprint>
+      <fields>
+        <field name="MPN">GRM21BR71H104KA01L</field>
+        <field name="Manufacturer">Murata</field>
+        <field name="Notes">Use specified capacitance, voltage and dielectric</field>
+        <field name="Footprint">Tester:C_0805_2012Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Tester" part="C" description=""/>
+      <property name="MPN" value="GRM21BR71H104KA01L"/>
+      <property name="Manufacturer" value="Murata"/>
+      <property name="Notes" value="Use specified capacitance, voltage and dielectric"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="tester12v.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>7dc9712b-76ba-542b-ad34-2b3de104ced0</tstamps>
+    </comp>
+    <comp ref="C27">
+      <value>100n</value>
+      <footprint>Tester:C_0805_2012Metric</footprint>
+      <fields>
+        <field name="MPN">GRM21BR71H104KA01L</field>
+        <field name="Manufacturer">Murata</field>
+        <field name="Notes">Use specified capacitance, voltage and dielectric</field>
+        <field name="Footprint">Tester:C_0805_2012Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Tester" part="C" description=""/>
+      <property name="MPN" value="GRM21BR71H104KA01L"/>
+      <property name="Manufacturer" value="Murata"/>
+      <property name="Notes" value="Use specified capacitance, voltage and dielectric"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="tester12v.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>d9f4d89f-4139-5804-ad9d-9a3e36ba7aa9</tstamps>
+    </comp>
+    <comp ref="C28">
+      <value>1n</value>
+      <footprint>Tester:C_0805_2012Metric</footprint>
+      <fields>
+        <field name="MPN">GRM2165C1H102JA01D</field>
+        <field name="Manufacturer">Murata</field>
+        <field name="Notes">Use specified capacitance, voltage and dielectric</field>
+        <field name="Footprint">Tester:C_0805_2012Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Tester" part="C" description=""/>
+      <property name="MPN" value="GRM2165C1H102JA01D"/>
+      <property name="Manufacturer" value="Murata"/>
+      <property name="Notes" value="Use specified capacitance, voltage and dielectric"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="tester12v.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>341c2745-d449-5977-887a-b01c4c2e7cbc</tstamps>
+    </comp>
+    <comp ref="C29">
+      <value>100n</value>
+      <footprint>Tester:C_0805_2012Metric</footprint>
+      <fields>
+        <field name="MPN">GRM21BR71H104KA01L</field>
+        <field name="Manufacturer">Murata</field>
+        <field name="Notes">Use specified capacitance, voltage and dielectric</field>
+        <field name="Footprint">Tester:C_0805_2012Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Tester" part="C" description=""/>
+      <property name="MPN" value="GRM21BR71H104KA01L"/>
+      <property name="Manufacturer" value="Murata"/>
+      <property name="Notes" value="Use specified capacitance, voltage and dielectric"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="tester12v.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>e3414638-6712-502d-9951-31b4369ceb66</tstamps>
+    </comp>
+    <comp ref="C30">
+      <value>100n</value>
+      <footprint>Tester:C_0805_2012Metric</footprint>
+      <fields>
+        <field name="MPN">GRM21BR71H104KA01L</field>
+        <field name="Manufacturer">Murata</field>
+        <field name="Notes">Use specified capacitance, voltage and dielectric</field>
+        <field name="Footprint">Tester:C_0805_2012Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Tester" part="C" description=""/>
+      <property name="MPN" value="GRM21BR71H104KA01L"/>
+      <property name="Manufacturer" value="Murata"/>
+      <property name="Notes" value="Use specified capacitance, voltage and dielectric"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="tester12v.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>8b5f245d-cf71-5f9b-a190-bdb7719faaa2</tstamps>
+    </comp>
+    <comp ref="D13">
+      <value>Reverse protection</value>
+      <footprint>Tester:Nexperia_CFP3_SOD-123W</footprint>
+      <fields>
+        <field name="MPN">PMEG2010ER,115</field>
+        <field name="Manufacturer">Nexperia</field>
+        <field name="Notes">Schottky OUT-to-IN reverse-current protection for U9; cathode to ISO5V</field>
+        <field name="Footprint">Tester:Nexperia_CFP3_SOD-123W</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Tester" part="D" description=""/>
+      <property name="MPN" value="PMEG2010ER,115"/>
+      <property name="Manufacturer" value="Nexperia"/>
+      <property name="Notes" value="Schottky OUT-to-IN reverse-current protection for U9; cathode to ISO5V"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="tester12v.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>0afe3897-be07-5447-982e-ee92c4d38bd4</tstamps>
+    </comp>
+    <comp ref="F1">
+      <value>250mA PTC</value>
+      <footprint>Tester:Fuse_1206_3216Metric</footprint>
+      <fields>
+        <field name="MPN">1206L025/24YR</field>
+        <field name="Manufacturer">Littelfuse</field>
+        <field name="Notes">5V supply only, slow resettable overcurrent protection</field>
+        <field name="Footprint">Tester:Fuse_1206_3216Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Tester" part="FUSE" description=""/>
+      <property name="MPN" value="1206L025/24YR"/>
+      <property name="Manufacturer" value="Littelfuse"/>
+      <property name="Notes" value="5V supply only, slow resettable overcurrent protection"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="tester12v.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>8793c4da-3d83-57cb-af64-14de1bdf2f24</tstamps>
+    </comp>
+    <comp ref="J4">
+      <value>DISPLAY HARNESS</value>
+      <footprint>Tester:JST_XH_B5B-XH-A_1x05_P2.50mm_Vertical</footprint>
+      <fields>
+        <field name="MPN">B5B-XH-A(LF)(SN)</field>
+        <field name="Manufacturer">JST</field>
+        <field name="Notes">1=5V,2=GND,3=3V3,4=GPIO6 SDA,5=GPIO7 SCL. USB supplies both boards; no battery-only operation guaranteed.</field>
+        <field name="Footprint">Tester:JST_XH_B5B-XH-A_1x05_P2.50mm_Vertical</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Tester" part="CONN5" description=""/>
+      <property name="MPN" value="B5B-XH-A(LF)(SN)"/>
+      <property name="Manufacturer" value="JST"/>
+      <property name="Notes" value="1=5V,2=GND,3=3V3,4=GPIO6 SDA,5=GPIO7 SCL. USB supplies both boards; no battery-only operation guaranteed."/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="tester12v.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>1a5a9a44-7460-5b3e-9354-c36686698e63</tstamps>
+    </comp>
+    <comp ref="R37">
+      <value>10k</value>
+      <footprint>Tester:R_0805_2012Metric</footprint>
+      <fields>
+        <field name="MPN">RT0805BRD0710KL</field>
+        <field name="Manufacturer">Yageo</field>
+        <field name="Notes">0.1%, 25 ppm/K</field>
+        <field name="Footprint">Tester:R_0805_2012Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Tester" part="R" description=""/>
+      <property name="MPN" value="RT0805BRD0710KL"/>
+      <property name="Manufacturer" value="Yageo"/>
+      <property name="Notes" value="0.1%, 25 ppm/K"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="tester12v.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>c4bc65ca-c2c4-53fe-83b2-24cee1dd0a50</tstamps>
+    </comp>
+    <comp ref="R38">
+      <value>10k</value>
+      <footprint>Tester:R_0805_2012Metric</footprint>
+      <fields>
+        <field name="MPN">RT0805BRD0710KL</field>
+        <field name="Manufacturer">Yageo</field>
+        <field name="Notes">0.1%, 25 ppm/K</field>
+        <field name="Footprint">Tester:R_0805_2012Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Tester" part="R" description=""/>
+      <property name="MPN" value="RT0805BRD0710KL"/>
+      <property name="Manufacturer" value="Yageo"/>
+      <property name="Notes" value="0.1%, 25 ppm/K"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="tester12v.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>0fef1078-9d23-5093-9661-0a506f151fac</tstamps>
+    </comp>
+    <comp ref="R39">
+      <value>220R</value>
+      <footprint>Tester:R_0805_2012Metric</footprint>
+      <fields>
+        <field name="MPN">RC0805FR-07220RL</field>
+        <field name="Manufacturer">Yageo</field>
+        <field name="Notes">1%</field>
+        <field name="Footprint">Tester:R_0805_2012Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Tester" part="R" description=""/>
+      <property name="MPN" value="RC0805FR-07220RL"/>
+      <property name="Manufacturer" value="Yageo"/>
+      <property name="Notes" value="1%"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="tester12v.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>fa1ce1d2-9ba6-5794-8066-4210eeb8649c</tstamps>
+    </comp>
+    <comp ref="R40">
+      <value>100k</value>
+      <footprint>Tester:R_0805_2012Metric</footprint>
+      <fields>
+        <field name="MPN">RC0805FR-07100KL</field>
+        <field name="Manufacturer">Yageo</field>
+        <field name="Notes">1%</field>
+        <field name="Footprint">Tester:R_0805_2012Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Tester" part="R" description=""/>
+      <property name="MPN" value="RC0805FR-07100KL"/>
+      <property name="Manufacturer" value="Yageo"/>
+      <property name="Notes" value="1%"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="tester12v.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>dd385a21-8934-5f5c-a530-a3b8a04708e8</tstamps>
+    </comp>
+    <comp ref="R41">
+      <value>4.7k</value>
+      <footprint>Tester:R_0805_2012Metric</footprint>
+      <fields>
+        <field name="MPN">RC0805FR-074K7L</field>
+        <field name="Manufacturer">Yageo</field>
+        <field name="Notes">1%</field>
+        <field name="Footprint">Tester:R_0805_2012Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Tester" part="R" description=""/>
+      <property name="MPN" value="RC0805FR-074K7L"/>
+      <property name="Manufacturer" value="Yageo"/>
+      <property name="Notes" value="1%"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="tester12v.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>afd6c810-6cf5-5ca0-87c1-58bf3d00d348</tstamps>
+    </comp>
+    <comp ref="R42">
+      <value>4.7k</value>
+      <footprint>Tester:R_0805_2012Metric</footprint>
+      <fields>
+        <field name="MPN">RC0805FR-074K7L</field>
+        <field name="Manufacturer">Yageo</field>
+        <field name="Notes">1%</field>
+        <field name="Footprint">Tester:R_0805_2012Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Tester" part="R" description=""/>
+      <property name="MPN" value="RC0805FR-074K7L"/>
+      <property name="Manufacturer" value="Yageo"/>
+      <property name="Notes" value="1%"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="tester12v.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>051898b7-3172-5709-8d49-206e66917aa0</tstamps>
+    </comp>
+    <comp ref="R43">
+      <value>4.7k</value>
+      <footprint>Tester:R_0805_2012Metric</footprint>
+      <fields>
+        <field name="MPN">RC0805FR-074K7L</field>
+        <field name="Manufacturer">Yageo</field>
+        <field name="Notes">1%</field>
+        <field name="Footprint">Tester:R_0805_2012Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Tester" part="R" description=""/>
+      <property name="MPN" value="RC0805FR-074K7L"/>
+      <property name="Manufacturer" value="Yageo"/>
+      <property name="Notes" value="1%"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="tester12v.kicad_sch"/>
+      <property name="dnp"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>15ae6ab4-273c-5b87-9f5a-bca3f80ce952</tstamps>
+    </comp>
+    <comp ref="R44">
+      <value>4.7k</value>
+      <footprint>Tester:R_0805_2012Metric</footprint>
+      <fields>
+        <field name="MPN">RC0805FR-074K7L</field>
+        <field name="Manufacturer">Yageo</field>
+        <field name="Notes">1%</field>
+        <field name="Footprint">Tester:R_0805_2012Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Tester" part="R" description=""/>
+      <property name="MPN" value="RC0805FR-074K7L"/>
+      <property name="Manufacturer" value="Yageo"/>
+      <property name="Notes" value="1%"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="tester12v.kicad_sch"/>
+      <property name="dnp"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>effff05b-3428-5635-9b58-5f0d7ace3a0c</tstamps>
+    </comp>
+    <comp ref="R45">
+      <value>1k</value>
+      <footprint>Tester:R_0805_2012Metric</footprint>
+      <fields>
+        <field name="MPN">RC0805FR-071KL</field>
+        <field name="Manufacturer">Yageo</field>
+        <field name="Notes">1%</field>
+        <field name="Footprint">Tester:R_0805_2012Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Tester" part="R" description=""/>
+      <property name="MPN" value="RC0805FR-071KL"/>
+      <property name="Manufacturer" value="Yageo"/>
+      <property name="Notes" value="1%"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="tester12v.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>295937c7-52bd-56b9-8cf1-4304988f47c3</tstamps>
+    </comp>
+    <comp ref="TP13">
+      <value>USB5V</value>
+      <footprint>Tester:TestPoint_Pad_D1.5mm</footprint>
+      <fields>
+        <field name="MPN"/>
+        <field name="Manufacturer"/>
+        <field name="Notes"/>
+        <field name="Footprint">Tester:TestPoint_Pad_D1.5mm</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Tester" part="TP" description=""/>
+      <property name="MPN" value=""/>
+      <property name="Manufacturer" value=""/>
+      <property name="Notes" value=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="tester12v.kicad_sch"/>
+      <property name="exclude_from_bom"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>be22f949-b2ec-5058-924b-c6987b63291f</tstamps>
+    </comp>
+    <comp ref="TP14">
+      <value>USB_GND</value>
+      <footprint>Tester:TestPoint_Pad_D1.5mm</footprint>
+      <fields>
+        <field name="MPN"/>
+        <field name="Manufacturer"/>
+        <field name="Notes"/>
+        <field name="Footprint">Tester:TestPoint_Pad_D1.5mm</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Tester" part="TP" description=""/>
+      <property name="MPN" value=""/>
+      <property name="Manufacturer" value=""/>
+      <property name="Notes" value=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="tester12v.kicad_sch"/>
+      <property name="exclude_from_bom"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>b18b07cc-be81-553e-a157-5eb5ab567499</tstamps>
+    </comp>
+    <comp ref="TP15">
+      <value>HOST3V3</value>
+      <footprint>Tester:TestPoint_Pad_D1.5mm</footprint>
+      <fields>
+        <field name="MPN"/>
+        <field name="Manufacturer"/>
+        <field name="Notes"/>
+        <field name="Footprint">Tester:TestPoint_Pad_D1.5mm</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Tester" part="TP" description=""/>
+      <property name="MPN" value=""/>
+      <property name="Manufacturer" value=""/>
+      <property name="Notes" value=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="tester12v.kicad_sch"/>
+      <property name="exclude_from_bom"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>38ac62eb-2f60-5c6a-ab91-df4755f8603c</tstamps>
+    </comp>
+    <comp ref="TP16">
+      <value>ISO5V</value>
+      <footprint>Tester:TestPoint_Pad_D1.5mm</footprint>
+      <fields>
+        <field name="MPN"/>
+        <field name="Manufacturer"/>
+        <field name="Notes"/>
+        <field name="Footprint">Tester:TestPoint_Pad_D1.5mm</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Tester" part="TP" description=""/>
+      <property name="MPN" value=""/>
+      <property name="Manufacturer" value=""/>
+      <property name="Notes" value=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="tester12v.kicad_sch"/>
+      <property name="exclude_from_bom"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>dc202143-e6a8-540f-b4e4-6c2c25038869</tstamps>
+    </comp>
+    <comp ref="TP17">
+      <value>A3V3</value>
+      <footprint>Tester:TestPoint_Pad_D1.5mm</footprint>
+      <fields>
+        <field name="MPN"/>
+        <field name="Manufacturer"/>
+        <field name="Notes"/>
+        <field name="Footprint">Tester:TestPoint_Pad_D1.5mm</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Tester" part="TP" description=""/>
+      <property name="MPN" value=""/>
+      <property name="Manufacturer" value=""/>
+      <property name="Notes" value=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="tester12v.kicad_sch"/>
+      <property name="exclude_from_bom"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>c55c8e24-bac6-57c4-8672-772b3222ddfb</tstamps>
+    </comp>
+    <comp ref="TP18">
+      <value>AGND</value>
+      <footprint>Tester:TestPoint_Pad_D1.5mm</footprint>
+      <fields>
+        <field name="MPN"/>
+        <field name="Manufacturer"/>
+        <field name="Notes"/>
+        <field name="Footprint">Tester:TestPoint_Pad_D1.5mm</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Tester" part="TP" description=""/>
+      <property name="MPN" value=""/>
+      <property name="Manufacturer" value=""/>
+      <property name="Notes" value=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="tester12v.kicad_sch"/>
+      <property name="exclude_from_bom"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>3170105c-4041-57d8-a53a-ff26f07ef519</tstamps>
+    </comp>
+    <comp ref="TP19">
+      <value>VBIAS</value>
+      <footprint>Tester:TestPoint_Pad_D1.5mm</footprint>
+      <fields>
+        <field name="MPN"/>
+        <field name="Manufacturer"/>
+        <field name="Notes"/>
+        <field name="Footprint">Tester:TestPoint_Pad_D1.5mm</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Tester" part="TP" description=""/>
+      <property name="MPN" value=""/>
+      <property name="Manufacturer" value=""/>
+      <property name="Notes" value=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="tester12v.kicad_sch"/>
+      <property name="exclude_from_bom"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>1236fa16-0c3d-50f2-acbb-2d838408525c</tstamps>
+    </comp>
+    <comp ref="TP20">
+      <value>SENSE_EN</value>
+      <footprint>Tester:TestPoint_Pad_D1.5mm</footprint>
+      <fields>
+        <field name="MPN"/>
+        <field name="Manufacturer"/>
+        <field name="Notes"/>
+        <field name="Footprint">Tester:TestPoint_Pad_D1.5mm</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Tester" part="TP" description=""/>
+      <property name="MPN" value=""/>
+      <property name="Manufacturer" value=""/>
+      <property name="Notes" value=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="tester12v.kicad_sch"/>
+      <property name="exclude_from_bom"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>4afb27f5-3d5e-552b-a180-af732ce7afee</tstamps>
+    </comp>
+    <comp ref="TP21">
+      <value>SDA_ISO</value>
+      <footprint>Tester:TestPoint_Pad_D1.5mm</footprint>
+      <fields>
+        <field name="MPN"/>
+        <field name="Manufacturer"/>
+        <field name="Notes"/>
+        <field name="Footprint">Tester:TestPoint_Pad_D1.5mm</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Tester" part="TP" description=""/>
+      <property name="MPN" value=""/>
+      <property name="Manufacturer" value=""/>
+      <property name="Notes" value=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="tester12v.kicad_sch"/>
+      <property name="exclude_from_bom"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>2418a4c6-3ce6-5785-805d-f5c5fa3f9918</tstamps>
+    </comp>
+    <comp ref="TP22">
+      <value>SCL_ISO</value>
+      <footprint>Tester:TestPoint_Pad_D1.5mm</footprint>
+      <fields>
+        <field name="MPN"/>
+        <field name="Manufacturer"/>
+        <field name="Notes"/>
+        <field name="Footprint">Tester:TestPoint_Pad_D1.5mm</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Tester" part="TP" description=""/>
+      <property name="MPN" value=""/>
+      <property name="Manufacturer" value=""/>
+      <property name="Notes" value=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="tester12v.kicad_sch"/>
+      <property name="exclude_from_bom"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>8d947957-6478-5159-a88b-25986d792baf</tstamps>
+    </comp>
+    <comp ref="U7">
+      <value>R05C05TE05S-R</value>
+      <footprint>Tester:R05C05TE05S</footprint>
+      <fields>
+        <field name="MPN">R05C05TE05S-R</field>
+        <field name="Manufacturer">RECOM</field>
+        <field name="Notes">Mandatory local 10uF+100nF at input and output; SGNDIN/OUT tied to their own return</field>
+        <field name="Footprint">Tester:R05C05TE05S</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Tester" part="R05C05TE05S" description=""/>
+      <property name="MPN" value="R05C05TE05S-R"/>
+      <property name="Manufacturer" value="RECOM"/>
+      <property name="Notes" value="Mandatory local 10uF+100nF at input and output; SGNDIN/OUT tied to their own return"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="tester12v.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>6cc32eb8-4329-5a56-993c-615168036975</tstamps>
+    </comp>
+    <comp ref="U8">
+      <value>ISO1640BDR</value>
+      <footprint>Tester:SOIC-8_3.9x4.9mm_P1.27mm</footprint>
+      <fields>
+        <field name="MPN">ISO1640BDR</field>
+        <field name="Manufacturer">Texas Instruments</field>
+        <field name="Notes">B suffix is the 8-pin device; do not substitute ISO1640DW</field>
+        <field name="Footprint">Tester:SOIC-8_3.9x4.9mm_P1.27mm</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Tester" part="ISO1640B" description=""/>
+      <property name="MPN" value="ISO1640BDR"/>
+      <property name="Manufacturer" value="Texas Instruments"/>
+      <property name="Notes" value="B suffix is the 8-pin device; do not substitute ISO1640DW"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="tester12v.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>f83b10d5-eb8c-5ff7-80d4-1246e169318d</tstamps>
+    </comp>
+    <comp ref="U9">
+      <value>TLV75533PDBVR</value>
+      <footprint>Tester:SOT-23-5</footprint>
+      <fields>
+        <field name="MPN">TLV75533PDBVR</field>
+        <field name="Manufacturer">Texas Instruments</field>
+        <field name="Notes"/>
+        <field name="Footprint">Tester:SOT-23-5</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Tester" part="TLV75533" description=""/>
+      <property name="MPN" value="TLV75533PDBVR"/>
+      <property name="Manufacturer" value="Texas Instruments"/>
+      <property name="Notes" value=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="tester12v.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>2d59f65a-ce6e-5fd8-9adb-db362a3c5740</tstamps>
+    </comp>
+    <comp ref="U10">
+      <value>OPA320AIDBVR</value>
+      <footprint>Tester:SOT-23-5</footprint>
+      <fields>
+        <field name="MPN">OPA320AIDBVR</field>
+        <field name="Manufacturer">Texas Instruments</field>
+        <field name="Notes">Unity gain reference buffer. No large output capacitor directly on the buffer.</field>
+        <field name="Footprint">Tester:SOT-23-5</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Tester" part="OPA320" description=""/>
+      <property name="MPN" value="OPA320AIDBVR"/>
+      <property name="Manufacturer" value="Texas Instruments"/>
+      <property name="Notes" value="Unity gain reference buffer. No large output capacitor directly on the buffer."/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="tester12v.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>4b898501-6462-558f-bde5-9f49405e8654</tstamps>
+    </comp>
+    <comp ref="U11">
+      <value>TLV809EA30DBZR</value>
+      <footprint>Tester:SOT-23</footprint>
+      <fields>
+        <field name="MPN">TLV809EA30DBZR</field>
+        <field name="Manufacturer">Texas Instruments</field>
+        <field name="Notes">3.08V falling threshold, 200ms release delay, push-pull; default pinout GND=1 RESET=2 VDD=3</field>
+        <field name="Footprint">Tester:SOT-23</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Tester" part="TLV809EA30" description=""/>
+      <property name="MPN" value="TLV809EA30DBZR"/>
+      <property name="Manufacturer" value="Texas Instruments"/>
+      <property name="Notes" value="3.08V falling threshold, 200ms release delay, push-pull; default pinout GND=1 RESET=2 VDD=3"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="tester12v.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>1702701d-aabf-5ce8-9242-9df23ffe7820</tstamps>
+    </comp>
+    <comp ref="C1">
+      <value>1n</value>
+      <footprint>Tester:C_0805_2012Metric</footprint>
+      <fields>
+        <field name="MPN">GRM2165C1H102JA01D</field>
+        <field name="Manufacturer">Murata</field>
+        <field name="Notes">Use specified capacitance, voltage and dielectric</field>
+        <field name="Footprint">Tester:C_0805_2012Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Tester" part="C" description=""/>
+      <property name="MPN" value="GRM2165C1H102JA01D"/>
+      <property name="Manufacturer" value="Murata"/>
+      <property name="Notes" value="Use specified capacitance, voltage and dielectric"/>
+      <property name="Sheetname" value="Inputs 1-4"/>
+      <property name="Sheetfile" value="bank1.kicad_sch"/>
+      <sheetpath names="/Inputs 1-4/" tstamps="/f24fa8a7-1b01-5111-a288-269f766bcc27/"/>
+      <tstamps>0c99f334-43bc-59a4-a3c9-dcecf564f12b</tstamps>
+    </comp>
+    <comp ref="C2">
+      <value>1n</value>
+      <footprint>Tester:C_0805_2012Metric</footprint>
+      <fields>
+        <field name="MPN">GRM2165C1H102JA01D</field>
+        <field name="Manufacturer">Murata</field>
+        <field name="Notes">Use specified capacitance, voltage and dielectric</field>
+        <field name="Footprint">Tester:C_0805_2012Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Tester" part="C" description=""/>
+      <property name="MPN" value="GRM2165C1H102JA01D"/>
+      <property name="Manufacturer" value="Murata"/>
+      <property name="Notes" value="Use specified capacitance, voltage and dielectric"/>
+      <property name="Sheetname" value="Inputs 1-4"/>
+      <property name="Sheetfile" value="bank1.kicad_sch"/>
+      <sheetpath names="/Inputs 1-4/" tstamps="/f24fa8a7-1b01-5111-a288-269f766bcc27/"/>
+      <tstamps>9e3dc8f1-91fe-5658-8525-22ca5f586957</tstamps>
+    </comp>
+    <comp ref="C3">
+      <value>1n</value>
+      <footprint>Tester:C_0805_2012Metric</footprint>
+      <fields>
+        <field name="MPN">GRM2165C1H102JA01D</field>
+        <field name="Manufacturer">Murata</field>
+        <field name="Notes">Use specified capacitance, voltage and dielectric</field>
+        <field name="Footprint">Tester:C_0805_2012Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Tester" part="C" description=""/>
+      <property name="MPN" value="GRM2165C1H102JA01D"/>
+      <property name="Manufacturer" value="Murata"/>
+      <property name="Notes" value="Use specified capacitance, voltage and dielectric"/>
+      <property name="Sheetname" value="Inputs 1-4"/>
+      <property name="Sheetfile" value="bank1.kicad_sch"/>
+      <sheetpath names="/Inputs 1-4/" tstamps="/f24fa8a7-1b01-5111-a288-269f766bcc27/"/>
+      <tstamps>daf25630-9c57-56f5-8dd7-6240580a142c</tstamps>
+    </comp>
+    <comp ref="C4">
+      <value>1n</value>
+      <footprint>Tester:C_0805_2012Metric</footprint>
+      <fields>
+        <field name="MPN">GRM2165C1H102JA01D</field>
+        <field name="Manufacturer">Murata</field>
+        <field name="Notes">Use specified capacitance, voltage and dielectric</field>
+        <field name="Footprint">Tester:C_0805_2012Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Tester" part="C" description=""/>
+      <property name="MPN" value="GRM2165C1H102JA01D"/>
+      <property name="Manufacturer" value="Murata"/>
+      <property name="Notes" value="Use specified capacitance, voltage and dielectric"/>
+      <property name="Sheetname" value="Inputs 1-4"/>
+      <property name="Sheetfile" value="bank1.kicad_sch"/>
+      <sheetpath names="/Inputs 1-4/" tstamps="/f24fa8a7-1b01-5111-a288-269f766bcc27/"/>
+      <tstamps>8ea5e224-9ae4-528a-ba74-8d2c23fa85a4</tstamps>
+    </comp>
+    <comp ref="C13">
+      <value>100n</value>
+      <footprint>Tester:C_0805_2012Metric</footprint>
+      <fields>
+        <field name="MPN">GRM21BR71H104KA01L</field>
+        <field name="Manufacturer">Murata</field>
+        <field name="Notes">Use specified capacitance, voltage and dielectric</field>
+        <field name="Footprint">Tester:C_0805_2012Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Tester" part="C" description=""/>
+      <property name="MPN" value="GRM21BR71H104KA01L"/>
+      <property name="Manufacturer" value="Murata"/>
+      <property name="Notes" value="Use specified capacitance, voltage and dielectric"/>
+      <property name="Sheetname" value="Inputs 1-4"/>
+      <property name="Sheetfile" value="bank1.kicad_sch"/>
+      <sheetpath names="/Inputs 1-4/" tstamps="/f24fa8a7-1b01-5111-a288-269f766bcc27/"/>
+      <tstamps>64a6ec77-d896-5e6a-ba11-180daa26c0e8</tstamps>
+    </comp>
+    <comp ref="C16">
+      <value>100n</value>
+      <footprint>Tester:C_0805_2012Metric</footprint>
+      <fields>
+        <field name="MPN">GRM21BR71H104KA01L</field>
+        <field name="Manufacturer">Murata</field>
+        <field name="Notes">Use specified capacitance, voltage and dielectric</field>
+        <field name="Footprint">Tester:C_0805_2012Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Tester" part="C" description=""/>
+      <property name="MPN" value="GRM21BR71H104KA01L"/>
+      <property name="Manufacturer" value="Murata"/>
+      <property name="Notes" value="Use specified capacitance, voltage and dielectric"/>
+      <property name="Sheetname" value="Inputs 1-4"/>
+      <property name="Sheetfile" value="bank1.kicad_sch"/>
+      <sheetpath names="/Inputs 1-4/" tstamps="/f24fa8a7-1b01-5111-a288-269f766bcc27/"/>
+      <tstamps>eded5cec-b9cd-56ac-9000-25b9f71598dc</tstamps>
+    </comp>
+    <comp ref="D1">
+      <value>12V clamp</value>
+      <footprint>Tester:D_SOD-123F</footprint>
+      <fields>
+        <field name="MPN">BZT52H-C12,115</field>
+        <field name="Manufacturer">Nexperia</field>
+        <field name="Notes">Clamp is before power-off switch; not an ADC rail clamp</field>
+        <field name="Footprint">Tester:D_SOD-123F</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Tester" part="DZ" description=""/>
+      <property name="MPN" value="BZT52H-C12,115"/>
+      <property name="Manufacturer" value="Nexperia"/>
+      <property name="Notes" value="Clamp is before power-off switch; not an ADC rail clamp"/>
+      <property name="Sheetname" value="Inputs 1-4"/>
+      <property name="Sheetfile" value="bank1.kicad_sch"/>
+      <sheetpath names="/Inputs 1-4/" tstamps="/f24fa8a7-1b01-5111-a288-269f766bcc27/"/>
+      <tstamps>257e13fa-59ee-540a-ba2a-5e776b458d55</tstamps>
+    </comp>
+    <comp ref="D2">
+      <value>12V clamp</value>
+      <footprint>Tester:D_SOD-123F</footprint>
+      <fields>
+        <field name="MPN">BZT52H-C12,115</field>
+        <field name="Manufacturer">Nexperia</field>
+        <field name="Notes">Clamp is before power-off switch; not an ADC rail clamp</field>
+        <field name="Footprint">Tester:D_SOD-123F</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Tester" part="DZ" description=""/>
+      <property name="MPN" value="BZT52H-C12,115"/>
+      <property name="Manufacturer" value="Nexperia"/>
+      <property name="Notes" value="Clamp is before power-off switch; not an ADC rail clamp"/>
+      <property name="Sheetname" value="Inputs 1-4"/>
+      <property name="Sheetfile" value="bank1.kicad_sch"/>
+      <sheetpath names="/Inputs 1-4/" tstamps="/f24fa8a7-1b01-5111-a288-269f766bcc27/"/>
+      <tstamps>4468d10d-3d8a-528b-b741-52bcd56ccc2b</tstamps>
+    </comp>
+    <comp ref="D3">
+      <value>12V clamp</value>
+      <footprint>Tester:D_SOD-123F</footprint>
+      <fields>
+        <field name="MPN">BZT52H-C12,115</field>
+        <field name="Manufacturer">Nexperia</field>
+        <field name="Notes">Clamp is before power-off switch; not an ADC rail clamp</field>
+        <field name="Footprint">Tester:D_SOD-123F</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Tester" part="DZ" description=""/>
+      <property name="MPN" value="BZT52H-C12,115"/>
+      <property name="Manufacturer" value="Nexperia"/>
+      <property name="Notes" value="Clamp is before power-off switch; not an ADC rail clamp"/>
+      <property name="Sheetname" value="Inputs 1-4"/>
+      <property name="Sheetfile" value="bank1.kicad_sch"/>
+      <sheetpath names="/Inputs 1-4/" tstamps="/f24fa8a7-1b01-5111-a288-269f766bcc27/"/>
+      <tstamps>e7259997-53ae-5bc0-bc34-d8d2da72cdac</tstamps>
+    </comp>
+    <comp ref="D4">
+      <value>12V clamp</value>
+      <footprint>Tester:D_SOD-123F</footprint>
+      <fields>
+        <field name="MPN">BZT52H-C12,115</field>
+        <field name="Manufacturer">Nexperia</field>
+        <field name="Notes">Clamp is before power-off switch; not an ADC rail clamp</field>
+        <field name="Footprint">Tester:D_SOD-123F</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Tester" part="DZ" description=""/>
+      <property name="MPN" value="BZT52H-C12,115"/>
+      <property name="Manufacturer" value="Nexperia"/>
+      <property name="Notes" value="Clamp is before power-off switch; not an ADC rail clamp"/>
+      <property name="Sheetname" value="Inputs 1-4"/>
+      <property name="Sheetfile" value="bank1.kicad_sch"/>
+      <sheetpath names="/Inputs 1-4/" tstamps="/f24fa8a7-1b01-5111-a288-269f766bcc27/"/>
+      <tstamps>745df9c3-d42f-55af-afaa-74406de58908</tstamps>
+    </comp>
+    <comp ref="J1">
+      <value>INPUTS 1-4</value>
+      <footprint>Tester:TerminalBlock_Phoenix_PT-1,5-4-3.5-H_1x04_P3.50mm_Horizontal</footprint>
+      <fields>
+        <field name="MPN">1984633</field>
+        <field name="Manufacturer">Phoenix Contact</field>
+        <field name="Notes">PT 1,5/4-3,5-H; 1984633 verified against Phoenix Contact product page, 3.5mm pitch</field>
+        <field name="Footprint">Tester:TerminalBlock_Phoenix_PT-1,5-4-3.5-H_1x04_P3.50mm_Horizontal</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Tester" part="CONN4" description=""/>
+      <property name="MPN" value="1984633"/>
+      <property name="Manufacturer" value="Phoenix Contact"/>
+      <property name="Notes" value="PT 1,5/4-3,5-H; 1984633 verified against Phoenix Contact product page, 3.5mm pitch"/>
+      <property name="Sheetname" value="Inputs 1-4"/>
+      <property name="Sheetfile" value="bank1.kicad_sch"/>
+      <sheetpath names="/Inputs 1-4/" tstamps="/f24fa8a7-1b01-5111-a288-269f766bcc27/"/>
+      <tstamps>0a728d89-4e86-5294-9d93-3922e2429414</tstamps>
+    </comp>
+    <comp ref="R1">
+      <value>165k</value>
+      <footprint>Tester:R_0805_2012Metric</footprint>
+      <fields>
+        <field name="MPN">RT0805BRD07165KL</field>
+        <field name="Manufacturer">Yageo</field>
+        <field name="Notes">0.1%, 25 ppm/K</field>
+        <field name="Footprint">Tester:R_0805_2012Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Tester" part="R" description=""/>
+      <property name="MPN" value="RT0805BRD07165KL"/>
+      <property name="Manufacturer" value="Yageo"/>
+      <property name="Notes" value="0.1%, 25 ppm/K"/>
+      <property name="Sheetname" value="Inputs 1-4"/>
+      <property name="Sheetfile" value="bank1.kicad_sch"/>
+      <sheetpath names="/Inputs 1-4/" tstamps="/f24fa8a7-1b01-5111-a288-269f766bcc27/"/>
+      <tstamps>f54cceb9-3669-5dc6-8d7d-1e020ff1a478</tstamps>
+    </comp>
+    <comp ref="R2">
+      <value>165k</value>
+      <footprint>Tester:R_0805_2012Metric</footprint>
+      <fields>
+        <field name="MPN">RT0805BRD07165KL</field>
+        <field name="Manufacturer">Yageo</field>
+        <field name="Notes">0.1%, 25 ppm/K</field>
+        <field name="Footprint">Tester:R_0805_2012Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Tester" part="R" description=""/>
+      <property name="MPN" value="RT0805BRD07165KL"/>
+      <property name="Manufacturer" value="Yageo"/>
+      <property name="Notes" value="0.1%, 25 ppm/K"/>
+      <property name="Sheetname" value="Inputs 1-4"/>
+      <property name="Sheetfile" value="bank1.kicad_sch"/>
+      <sheetpath names="/Inputs 1-4/" tstamps="/f24fa8a7-1b01-5111-a288-269f766bcc27/"/>
+      <tstamps>53eac444-adae-53ad-9133-2eb000f5f1b6</tstamps>
+    </comp>
+    <comp ref="R3">
+      <value>10k</value>
+      <footprint>Tester:R_0805_2012Metric</footprint>
+      <fields>
+        <field name="MPN">RT0805BRD0710KL</field>
+        <field name="Manufacturer">Yageo</field>
+        <field name="Notes">0.1%, 25 ppm/K</field>
+        <field name="Footprint">Tester:R_0805_2012Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Tester" part="R" description=""/>
+      <property name="MPN" value="RT0805BRD0710KL"/>
+      <property name="Manufacturer" value="Yageo"/>
+      <property name="Notes" value="0.1%, 25 ppm/K"/>
+      <property name="Sheetname" value="Inputs 1-4"/>
+      <property name="Sheetfile" value="bank1.kicad_sch"/>
+      <sheetpath names="/Inputs 1-4/" tstamps="/f24fa8a7-1b01-5111-a288-269f766bcc27/"/>
+      <tstamps>f19739ad-2626-5260-90f8-74ea633007e2</tstamps>
+    </comp>
+    <comp ref="R4">
+      <value>165k</value>
+      <footprint>Tester:R_0805_2012Metric</footprint>
+      <fields>
+        <field name="MPN">RT0805BRD07165KL</field>
+        <field name="Manufacturer">Yageo</field>
+        <field name="Notes">0.1%, 25 ppm/K</field>
+        <field name="Footprint">Tester:R_0805_2012Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Tester" part="R" description=""/>
+      <property name="MPN" value="RT0805BRD07165KL"/>
+      <property name="Manufacturer" value="Yageo"/>
+      <property name="Notes" value="0.1%, 25 ppm/K"/>
+      <property name="Sheetname" value="Inputs 1-4"/>
+      <property name="Sheetfile" value="bank1.kicad_sch"/>
+      <sheetpath names="/Inputs 1-4/" tstamps="/f24fa8a7-1b01-5111-a288-269f766bcc27/"/>
+      <tstamps>1e94c2e4-cdc3-5072-a411-4b2caaa2f223</tstamps>
+    </comp>
+    <comp ref="R5">
+      <value>165k</value>
+      <footprint>Tester:R_0805_2012Metric</footprint>
+      <fields>
+        <field name="MPN">RT0805BRD07165KL</field>
+        <field name="Manufacturer">Yageo</field>
+        <field name="Notes">0.1%, 25 ppm/K</field>
+        <field name="Footprint">Tester:R_0805_2012Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Tester" part="R" description=""/>
+      <property name="MPN" value="RT0805BRD07165KL"/>
+      <property name="Manufacturer" value="Yageo"/>
+      <property name="Notes" value="0.1%, 25 ppm/K"/>
+      <property name="Sheetname" value="Inputs 1-4"/>
+      <property name="Sheetfile" value="bank1.kicad_sch"/>
+      <sheetpath names="/Inputs 1-4/" tstamps="/f24fa8a7-1b01-5111-a288-269f766bcc27/"/>
+      <tstamps>71c69ed7-7d35-5eb1-a845-b8896f59b4da</tstamps>
+    </comp>
+    <comp ref="R6">
+      <value>10k</value>
+      <footprint>Tester:R_0805_2012Metric</footprint>
+      <fields>
+        <field name="MPN">RT0805BRD0710KL</field>
+        <field name="Manufacturer">Yageo</field>
+        <field name="Notes">0.1%, 25 ppm/K</field>
+        <field name="Footprint">Tester:R_0805_2012Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Tester" part="R" description=""/>
+      <property name="MPN" value="RT0805BRD0710KL"/>
+      <property name="Manufacturer" value="Yageo"/>
+      <property name="Notes" value="0.1%, 25 ppm/K"/>
+      <property name="Sheetname" value="Inputs 1-4"/>
+      <property name="Sheetfile" value="bank1.kicad_sch"/>
+      <sheetpath names="/Inputs 1-4/" tstamps="/f24fa8a7-1b01-5111-a288-269f766bcc27/"/>
+      <tstamps>ae71ffc6-129b-5e5c-a9c6-125bf800e922</tstamps>
+    </comp>
+    <comp ref="R7">
+      <value>165k</value>
+      <footprint>Tester:R_0805_2012Metric</footprint>
+      <fields>
+        <field name="MPN">RT0805BRD07165KL</field>
+        <field name="Manufacturer">Yageo</field>
+        <field name="Notes">0.1%, 25 ppm/K</field>
+        <field name="Footprint">Tester:R_0805_2012Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Tester" part="R" description=""/>
+      <property name="MPN" value="RT0805BRD07165KL"/>
+      <property name="Manufacturer" value="Yageo"/>
+      <property name="Notes" value="0.1%, 25 ppm/K"/>
+      <property name="Sheetname" value="Inputs 1-4"/>
+      <property name="Sheetfile" value="bank1.kicad_sch"/>
+      <sheetpath names="/Inputs 1-4/" tstamps="/f24fa8a7-1b01-5111-a288-269f766bcc27/"/>
+      <tstamps>05aee326-a5b4-515a-9b18-d2dea77d594f</tstamps>
+    </comp>
+    <comp ref="R8">
+      <value>165k</value>
+      <footprint>Tester:R_0805_2012Metric</footprint>
+      <fields>
+        <field name="MPN">RT0805BRD07165KL</field>
+        <field name="Manufacturer">Yageo</field>
+        <field name="Notes">0.1%, 25 ppm/K</field>
+        <field name="Footprint">Tester:R_0805_2012Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Tester" part="R" description=""/>
+      <property name="MPN" value="RT0805BRD07165KL"/>
+      <property name="Manufacturer" value="Yageo"/>
+      <property name="Notes" value="0.1%, 25 ppm/K"/>
+      <property name="Sheetname" value="Inputs 1-4"/>
+      <property name="Sheetfile" value="bank1.kicad_sch"/>
+      <sheetpath names="/Inputs 1-4/" tstamps="/f24fa8a7-1b01-5111-a288-269f766bcc27/"/>
+      <tstamps>16e35aa5-4c16-5d76-b50c-150e3cd09d84</tstamps>
+    </comp>
+    <comp ref="R9">
+      <value>10k</value>
+      <footprint>Tester:R_0805_2012Metric</footprint>
+      <fields>
+        <field name="MPN">RT0805BRD0710KL</field>
+        <field name="Manufacturer">Yageo</field>
+        <field name="Notes">0.1%, 25 ppm/K</field>
+        <field name="Footprint">Tester:R_0805_2012Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Tester" part="R" description=""/>
+      <property name="MPN" value="RT0805BRD0710KL"/>
+      <property name="Manufacturer" value="Yageo"/>
+      <property name="Notes" value="0.1%, 25 ppm/K"/>
+      <property name="Sheetname" value="Inputs 1-4"/>
+      <property name="Sheetfile" value="bank1.kicad_sch"/>
+      <sheetpath names="/Inputs 1-4/" tstamps="/f24fa8a7-1b01-5111-a288-269f766bcc27/"/>
+      <tstamps>b729b962-ed1b-5239-9857-6c35b2ef59b6</tstamps>
+    </comp>
+    <comp ref="R10">
+      <value>165k</value>
+      <footprint>Tester:R_0805_2012Metric</footprint>
+      <fields>
+        <field name="MPN">RT0805BRD07165KL</field>
+        <field name="Manufacturer">Yageo</field>
+        <field name="Notes">0.1%, 25 ppm/K</field>
+        <field name="Footprint">Tester:R_0805_2012Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Tester" part="R" description=""/>
+      <property name="MPN" value="RT0805BRD07165KL"/>
+      <property name="Manufacturer" value="Yageo"/>
+      <property name="Notes" value="0.1%, 25 ppm/K"/>
+      <property name="Sheetname" value="Inputs 1-4"/>
+      <property name="Sheetfile" value="bank1.kicad_sch"/>
+      <sheetpath names="/Inputs 1-4/" tstamps="/f24fa8a7-1b01-5111-a288-269f766bcc27/"/>
+      <tstamps>fed2dd6d-d180-5d44-aa13-083dd46c7c75</tstamps>
+    </comp>
+    <comp ref="R11">
+      <value>165k</value>
+      <footprint>Tester:R_0805_2012Metric</footprint>
+      <fields>
+        <field name="MPN">RT0805BRD07165KL</field>
+        <field name="Manufacturer">Yageo</field>
+        <field name="Notes">0.1%, 25 ppm/K</field>
+        <field name="Footprint">Tester:R_0805_2012Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Tester" part="R" description=""/>
+      <property name="MPN" value="RT0805BRD07165KL"/>
+      <property name="Manufacturer" value="Yageo"/>
+      <property name="Notes" value="0.1%, 25 ppm/K"/>
+      <property name="Sheetname" value="Inputs 1-4"/>
+      <property name="Sheetfile" value="bank1.kicad_sch"/>
+      <sheetpath names="/Inputs 1-4/" tstamps="/f24fa8a7-1b01-5111-a288-269f766bcc27/"/>
+      <tstamps>d3f486d3-9b78-52c7-9c27-d21c474027dc</tstamps>
+    </comp>
+    <comp ref="R12">
+      <value>10k</value>
+      <footprint>Tester:R_0805_2012Metric</footprint>
+      <fields>
+        <field name="MPN">RT0805BRD0710KL</field>
+        <field name="Manufacturer">Yageo</field>
+        <field name="Notes">0.1%, 25 ppm/K</field>
+        <field name="Footprint">Tester:R_0805_2012Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Tester" part="R" description=""/>
+      <property name="MPN" value="RT0805BRD0710KL"/>
+      <property name="Manufacturer" value="Yageo"/>
+      <property name="Notes" value="0.1%, 25 ppm/K"/>
+      <property name="Sheetname" value="Inputs 1-4"/>
+      <property name="Sheetfile" value="bank1.kicad_sch"/>
+      <sheetpath names="/Inputs 1-4/" tstamps="/f24fa8a7-1b01-5111-a288-269f766bcc27/"/>
+      <tstamps>ff946ffa-e741-5c75-b585-1b350fbc8874</tstamps>
+    </comp>
+    <comp ref="R46">
+      <value>100k</value>
+      <footprint>Tester:R_0805_2012Metric</footprint>
+      <fields>
+        <field name="MPN">RT0805BRD07100KL</field>
+        <field name="Manufacturer">Yageo</field>
+        <field name="Notes">0.1%, 25 ppm/K</field>
+        <field name="Footprint">Tester:R_0805_2012Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Tester" part="R" description=""/>
+      <property name="MPN" value="RT0805BRD07100KL"/>
+      <property name="Manufacturer" value="Yageo"/>
+      <property name="Notes" value="0.1%, 25 ppm/K"/>
+      <property name="Sheetname" value="Inputs 1-4"/>
+      <property name="Sheetfile" value="bank1.kicad_sch"/>
+      <sheetpath names="/Inputs 1-4/" tstamps="/f24fa8a7-1b01-5111-a288-269f766bcc27/"/>
+      <tstamps>309ed01c-59f1-5b23-84d4-0ea2c2b5122c</tstamps>
+    </comp>
+    <comp ref="R47">
+      <value>100k</value>
+      <footprint>Tester:R_0805_2012Metric</footprint>
+      <fields>
+        <field name="MPN">RT0805BRD07100KL</field>
+        <field name="Manufacturer">Yageo</field>
+        <field name="Notes">0.1%, 25 ppm/K</field>
+        <field name="Footprint">Tester:R_0805_2012Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Tester" part="R" description=""/>
+      <property name="MPN" value="RT0805BRD07100KL"/>
+      <property name="Manufacturer" value="Yageo"/>
+      <property name="Notes" value="0.1%, 25 ppm/K"/>
+      <property name="Sheetname" value="Inputs 1-4"/>
+      <property name="Sheetfile" value="bank1.kicad_sch"/>
+      <sheetpath names="/Inputs 1-4/" tstamps="/f24fa8a7-1b01-5111-a288-269f766bcc27/"/>
+      <tstamps>6025b01a-1733-5073-9ffb-476973169b0c</tstamps>
+    </comp>
+    <comp ref="R48">
+      <value>100k</value>
+      <footprint>Tester:R_0805_2012Metric</footprint>
+      <fields>
+        <field name="MPN">RT0805BRD07100KL</field>
+        <field name="Manufacturer">Yageo</field>
+        <field name="Notes">0.1%, 25 ppm/K</field>
+        <field name="Footprint">Tester:R_0805_2012Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Tester" part="R" description=""/>
+      <property name="MPN" value="RT0805BRD07100KL"/>
+      <property name="Manufacturer" value="Yageo"/>
+      <property name="Notes" value="0.1%, 25 ppm/K"/>
+      <property name="Sheetname" value="Inputs 1-4"/>
+      <property name="Sheetfile" value="bank1.kicad_sch"/>
+      <sheetpath names="/Inputs 1-4/" tstamps="/f24fa8a7-1b01-5111-a288-269f766bcc27/"/>
+      <tstamps>e573fbd1-4348-5fb9-92f0-f0567214f3be</tstamps>
+    </comp>
+    <comp ref="R49">
+      <value>100k</value>
+      <footprint>Tester:R_0805_2012Metric</footprint>
+      <fields>
+        <field name="MPN">RT0805BRD07100KL</field>
+        <field name="Manufacturer">Yageo</field>
+        <field name="Notes">0.1%, 25 ppm/K</field>
+        <field name="Footprint">Tester:R_0805_2012Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Tester" part="R" description=""/>
+      <property name="MPN" value="RT0805BRD07100KL"/>
+      <property name="Manufacturer" value="Yageo"/>
+      <property name="Notes" value="0.1%, 25 ppm/K"/>
+      <property name="Sheetname" value="Inputs 1-4"/>
+      <property name="Sheetfile" value="bank1.kicad_sch"/>
+      <sheetpath names="/Inputs 1-4/" tstamps="/f24fa8a7-1b01-5111-a288-269f766bcc27/"/>
+      <tstamps>c8d1148c-3727-5a82-b742-421a0d742a8b</tstamps>
+    </comp>
+    <comp ref="TP1">
+      <value>A1</value>
+      <footprint>Tester:TestPoint_Pad_D1.5mm</footprint>
+      <fields>
+        <field name="MPN"/>
+        <field name="Manufacturer"/>
+        <field name="Notes"/>
+        <field name="Footprint">Tester:TestPoint_Pad_D1.5mm</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Tester" part="TP" description=""/>
+      <property name="MPN" value=""/>
+      <property name="Manufacturer" value=""/>
+      <property name="Notes" value=""/>
+      <property name="Sheetname" value="Inputs 1-4"/>
+      <property name="Sheetfile" value="bank1.kicad_sch"/>
+      <property name="exclude_from_bom"/>
+      <sheetpath names="/Inputs 1-4/" tstamps="/f24fa8a7-1b01-5111-a288-269f766bcc27/"/>
+      <tstamps>3b823af7-398e-526a-b657-bcdb630b4fd9</tstamps>
+    </comp>
+    <comp ref="TP2">
+      <value>A2</value>
+      <footprint>Tester:TestPoint_Pad_D1.5mm</footprint>
+      <fields>
+        <field name="MPN"/>
+        <field name="Manufacturer"/>
+        <field name="Notes"/>
+        <field name="Footprint">Tester:TestPoint_Pad_D1.5mm</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Tester" part="TP" description=""/>
+      <property name="MPN" value=""/>
+      <property name="Manufacturer" value=""/>
+      <property name="Notes" value=""/>
+      <property name="Sheetname" value="Inputs 1-4"/>
+      <property name="Sheetfile" value="bank1.kicad_sch"/>
+      <property name="exclude_from_bom"/>
+      <sheetpath names="/Inputs 1-4/" tstamps="/f24fa8a7-1b01-5111-a288-269f766bcc27/"/>
+      <tstamps>ec704979-c48f-58a8-9cb4-c2be09715f0b</tstamps>
+    </comp>
+    <comp ref="TP3">
+      <value>A3</value>
+      <footprint>Tester:TestPoint_Pad_D1.5mm</footprint>
+      <fields>
+        <field name="MPN"/>
+        <field name="Manufacturer"/>
+        <field name="Notes"/>
+        <field name="Footprint">Tester:TestPoint_Pad_D1.5mm</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Tester" part="TP" description=""/>
+      <property name="MPN" value=""/>
+      <property name="Manufacturer" value=""/>
+      <property name="Notes" value=""/>
+      <property name="Sheetname" value="Inputs 1-4"/>
+      <property name="Sheetfile" value="bank1.kicad_sch"/>
+      <property name="exclude_from_bom"/>
+      <sheetpath names="/Inputs 1-4/" tstamps="/f24fa8a7-1b01-5111-a288-269f766bcc27/"/>
+      <tstamps>f4f46eba-89a9-547f-8627-88fba773b261</tstamps>
+    </comp>
+    <comp ref="TP4">
+      <value>A4</value>
+      <footprint>Tester:TestPoint_Pad_D1.5mm</footprint>
+      <fields>
+        <field name="MPN"/>
+        <field name="Manufacturer"/>
+        <field name="Notes"/>
+        <field name="Footprint">Tester:TestPoint_Pad_D1.5mm</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Tester" part="TP" description=""/>
+      <property name="MPN" value=""/>
+      <property name="Manufacturer" value=""/>
+      <property name="Notes" value=""/>
+      <property name="Sheetname" value="Inputs 1-4"/>
+      <property name="Sheetfile" value="bank1.kicad_sch"/>
+      <property name="exclude_from_bom"/>
+      <sheetpath names="/Inputs 1-4/" tstamps="/f24fa8a7-1b01-5111-a288-269f766bcc27/"/>
+      <tstamps>184e62bb-b202-576e-ad91-6986c08a7c55</tstamps>
+    </comp>
+    <comp ref="U1">
+      <value>ADS1115IDGSR</value>
+      <footprint>Tester:TSSOP-10_3x3mm_P0.5mm</footprint>
+      <fields>
+        <field name="MPN">ADS1115IDGSR</field>
+        <field name="Manufacturer">Texas Instruments</field>
+        <field name="Notes">ADDR=GND/3V3/SDA for 0x48/0x49/0x4A</field>
+        <field name="Footprint">Tester:TSSOP-10_3x3mm_P0.5mm</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Tester" part="ADS1115" description=""/>
+      <property name="MPN" value="ADS1115IDGSR"/>
+      <property name="Manufacturer" value="Texas Instruments"/>
+      <property name="Notes" value="ADDR=GND/3V3/SDA for 0x48/0x49/0x4A"/>
+      <property name="Sheetname" value="Inputs 1-4"/>
+      <property name="Sheetfile" value="bank1.kicad_sch"/>
+      <sheetpath names="/Inputs 1-4/" tstamps="/f24fa8a7-1b01-5111-a288-269f766bcc27/"/>
+      <tstamps>557695c5-a51e-5115-962b-a650aa5cdfbd</tstamps>
+    </comp>
+    <comp ref="U4">
+      <value>ADG4612BRUZ</value>
+      <footprint>Tester:TSSOP-16_4.4x5mm_P0.65mm</footprint>
+      <fields>
+        <field name="MPN">ADG4612BRUZ</field>
+        <field name="Manufacturer">Analog Devices</field>
+        <field name="Notes">TSSOP-16; powered from isolated 5V; enable from 3.08V supervisor</field>
+        <field name="Footprint">Tester:TSSOP-16_4.4x5mm_P0.65mm</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Tester" part="ADG4612" description=""/>
+      <property name="MPN" value="ADG4612BRUZ"/>
+      <property name="Manufacturer" value="Analog Devices"/>
+      <property name="Notes" value="TSSOP-16; powered from isolated 5V; enable from 3.08V supervisor"/>
+      <property name="Sheetname" value="Inputs 1-4"/>
+      <property name="Sheetfile" value="bank1.kicad_sch"/>
+      <sheetpath names="/Inputs 1-4/" tstamps="/f24fa8a7-1b01-5111-a288-269f766bcc27/"/>
+      <tstamps>2be6a9e2-325f-5a2f-90bc-44a566d24909</tstamps>
+    </comp>
+    <comp ref="C5">
+      <value>1n</value>
+      <footprint>Tester:C_0805_2012Metric</footprint>
+      <fields>
+        <field name="MPN">GRM2165C1H102JA01D</field>
+        <field name="Manufacturer">Murata</field>
+        <field name="Notes">Use specified capacitance, voltage and dielectric</field>
+        <field name="Footprint">Tester:C_0805_2012Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Tester" part="C" description=""/>
+      <property name="MPN" value="GRM2165C1H102JA01D"/>
+      <property name="Manufacturer" value="Murata"/>
+      <property name="Notes" value="Use specified capacitance, voltage and dielectric"/>
+      <property name="Sheetname" value="Inputs 5-8"/>
+      <property name="Sheetfile" value="bank2.kicad_sch"/>
+      <sheetpath names="/Inputs 5-8/" tstamps="/5fac0619-425f-5cae-a389-68b23809ba48/"/>
+      <tstamps>2c0f2308-5a20-5a0c-85ab-28eab4009f1c</tstamps>
+    </comp>
+    <comp ref="C6">
+      <value>1n</value>
+      <footprint>Tester:C_0805_2012Metric</footprint>
+      <fields>
+        <field name="MPN">GRM2165C1H102JA01D</field>
+        <field name="Manufacturer">Murata</field>
+        <field name="Notes">Use specified capacitance, voltage and dielectric</field>
+        <field name="Footprint">Tester:C_0805_2012Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Tester" part="C" description=""/>
+      <property name="MPN" value="GRM2165C1H102JA01D"/>
+      <property name="Manufacturer" value="Murata"/>
+      <property name="Notes" value="Use specified capacitance, voltage and dielectric"/>
+      <property name="Sheetname" value="Inputs 5-8"/>
+      <property name="Sheetfile" value="bank2.kicad_sch"/>
+      <sheetpath names="/Inputs 5-8/" tstamps="/5fac0619-425f-5cae-a389-68b23809ba48/"/>
+      <tstamps>14612702-d557-5858-953e-2fb7940fcfe2</tstamps>
+    </comp>
+    <comp ref="C7">
+      <value>1n</value>
+      <footprint>Tester:C_0805_2012Metric</footprint>
+      <fields>
+        <field name="MPN">GRM2165C1H102JA01D</field>
+        <field name="Manufacturer">Murata</field>
+        <field name="Notes">Use specified capacitance, voltage and dielectric</field>
+        <field name="Footprint">Tester:C_0805_2012Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Tester" part="C" description=""/>
+      <property name="MPN" value="GRM2165C1H102JA01D"/>
+      <property name="Manufacturer" value="Murata"/>
+      <property name="Notes" value="Use specified capacitance, voltage and dielectric"/>
+      <property name="Sheetname" value="Inputs 5-8"/>
+      <property name="Sheetfile" value="bank2.kicad_sch"/>
+      <sheetpath names="/Inputs 5-8/" tstamps="/5fac0619-425f-5cae-a389-68b23809ba48/"/>
+      <tstamps>8b6949ba-9c06-5b5a-ae37-7f0a1ea68285</tstamps>
+    </comp>
+    <comp ref="C8">
+      <value>1n</value>
+      <footprint>Tester:C_0805_2012Metric</footprint>
+      <fields>
+        <field name="MPN">GRM2165C1H102JA01D</field>
+        <field name="Manufacturer">Murata</field>
+        <field name="Notes">Use specified capacitance, voltage and dielectric</field>
+        <field name="Footprint">Tester:C_0805_2012Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Tester" part="C" description=""/>
+      <property name="MPN" value="GRM2165C1H102JA01D"/>
+      <property name="Manufacturer" value="Murata"/>
+      <property name="Notes" value="Use specified capacitance, voltage and dielectric"/>
+      <property name="Sheetname" value="Inputs 5-8"/>
+      <property name="Sheetfile" value="bank2.kicad_sch"/>
+      <sheetpath names="/Inputs 5-8/" tstamps="/5fac0619-425f-5cae-a389-68b23809ba48/"/>
+      <tstamps>ab5c8113-1cbf-59ff-be18-868df1e3632e</tstamps>
+    </comp>
+    <comp ref="C14">
+      <value>100n</value>
+      <footprint>Tester:C_0805_2012Metric</footprint>
+      <fields>
+        <field name="MPN">GRM21BR71H104KA01L</field>
+        <field name="Manufacturer">Murata</field>
+        <field name="Notes">Use specified capacitance, voltage and dielectric</field>
+        <field name="Footprint">Tester:C_0805_2012Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Tester" part="C" description=""/>
+      <property name="MPN" value="GRM21BR71H104KA01L"/>
+      <property name="Manufacturer" value="Murata"/>
+      <property name="Notes" value="Use specified capacitance, voltage and dielectric"/>
+      <property name="Sheetname" value="Inputs 5-8"/>
+      <property name="Sheetfile" value="bank2.kicad_sch"/>
+      <sheetpath names="/Inputs 5-8/" tstamps="/5fac0619-425f-5cae-a389-68b23809ba48/"/>
+      <tstamps>0263fe56-b413-5e8c-8031-6c3a7ddcb958</tstamps>
+    </comp>
+    <comp ref="C17">
+      <value>100n</value>
+      <footprint>Tester:C_0805_2012Metric</footprint>
+      <fields>
+        <field name="MPN">GRM21BR71H104KA01L</field>
+        <field name="Manufacturer">Murata</field>
+        <field name="Notes">Use specified capacitance, voltage and dielectric</field>
+        <field name="Footprint">Tester:C_0805_2012Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Tester" part="C" description=""/>
+      <property name="MPN" value="GRM21BR71H104KA01L"/>
+      <property name="Manufacturer" value="Murata"/>
+      <property name="Notes" value="Use specified capacitance, voltage and dielectric"/>
+      <property name="Sheetname" value="Inputs 5-8"/>
+      <property name="Sheetfile" value="bank2.kicad_sch"/>
+      <sheetpath names="/Inputs 5-8/" tstamps="/5fac0619-425f-5cae-a389-68b23809ba48/"/>
+      <tstamps>f16bd9d0-12db-5682-a5ec-232469269843</tstamps>
+    </comp>
+    <comp ref="D5">
+      <value>12V clamp</value>
+      <footprint>Tester:D_SOD-123F</footprint>
+      <fields>
+        <field name="MPN">BZT52H-C12,115</field>
+        <field name="Manufacturer">Nexperia</field>
+        <field name="Notes">Clamp is before power-off switch; not an ADC rail clamp</field>
+        <field name="Footprint">Tester:D_SOD-123F</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Tester" part="DZ" description=""/>
+      <property name="MPN" value="BZT52H-C12,115"/>
+      <property name="Manufacturer" value="Nexperia"/>
+      <property name="Notes" value="Clamp is before power-off switch; not an ADC rail clamp"/>
+      <property name="Sheetname" value="Inputs 5-8"/>
+      <property name="Sheetfile" value="bank2.kicad_sch"/>
+      <sheetpath names="/Inputs 5-8/" tstamps="/5fac0619-425f-5cae-a389-68b23809ba48/"/>
+      <tstamps>da1ace5e-0959-5ed6-970b-59b36e692931</tstamps>
+    </comp>
+    <comp ref="D6">
+      <value>12V clamp</value>
+      <footprint>Tester:D_SOD-123F</footprint>
+      <fields>
+        <field name="MPN">BZT52H-C12,115</field>
+        <field name="Manufacturer">Nexperia</field>
+        <field name="Notes">Clamp is before power-off switch; not an ADC rail clamp</field>
+        <field name="Footprint">Tester:D_SOD-123F</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Tester" part="DZ" description=""/>
+      <property name="MPN" value="BZT52H-C12,115"/>
+      <property name="Manufacturer" value="Nexperia"/>
+      <property name="Notes" value="Clamp is before power-off switch; not an ADC rail clamp"/>
+      <property name="Sheetname" value="Inputs 5-8"/>
+      <property name="Sheetfile" value="bank2.kicad_sch"/>
+      <sheetpath names="/Inputs 5-8/" tstamps="/5fac0619-425f-5cae-a389-68b23809ba48/"/>
+      <tstamps>3c1b0215-5874-599f-8c73-69d05e2030a3</tstamps>
+    </comp>
+    <comp ref="D7">
+      <value>12V clamp</value>
+      <footprint>Tester:D_SOD-123F</footprint>
+      <fields>
+        <field name="MPN">BZT52H-C12,115</field>
+        <field name="Manufacturer">Nexperia</field>
+        <field name="Notes">Clamp is before power-off switch; not an ADC rail clamp</field>
+        <field name="Footprint">Tester:D_SOD-123F</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Tester" part="DZ" description=""/>
+      <property name="MPN" value="BZT52H-C12,115"/>
+      <property name="Manufacturer" value="Nexperia"/>
+      <property name="Notes" value="Clamp is before power-off switch; not an ADC rail clamp"/>
+      <property name="Sheetname" value="Inputs 5-8"/>
+      <property name="Sheetfile" value="bank2.kicad_sch"/>
+      <sheetpath names="/Inputs 5-8/" tstamps="/5fac0619-425f-5cae-a389-68b23809ba48/"/>
+      <tstamps>d3fcfb44-6c72-50fd-89da-21fc09389fb5</tstamps>
+    </comp>
+    <comp ref="D8">
+      <value>12V clamp</value>
+      <footprint>Tester:D_SOD-123F</footprint>
+      <fields>
+        <field name="MPN">BZT52H-C12,115</field>
+        <field name="Manufacturer">Nexperia</field>
+        <field name="Notes">Clamp is before power-off switch; not an ADC rail clamp</field>
+        <field name="Footprint">Tester:D_SOD-123F</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Tester" part="DZ" description=""/>
+      <property name="MPN" value="BZT52H-C12,115"/>
+      <property name="Manufacturer" value="Nexperia"/>
+      <property name="Notes" value="Clamp is before power-off switch; not an ADC rail clamp"/>
+      <property name="Sheetname" value="Inputs 5-8"/>
+      <property name="Sheetfile" value="bank2.kicad_sch"/>
+      <sheetpath names="/Inputs 5-8/" tstamps="/5fac0619-425f-5cae-a389-68b23809ba48/"/>
+      <tstamps>67736810-906b-507f-91c4-23dd021b8cdd</tstamps>
+    </comp>
+    <comp ref="J2">
+      <value>INPUTS 5-8</value>
+      <footprint>Tester:TerminalBlock_Phoenix_PT-1,5-4-3.5-H_1x04_P3.50mm_Horizontal</footprint>
+      <fields>
+        <field name="MPN">1984633</field>
+        <field name="Manufacturer">Phoenix Contact</field>
+        <field name="Notes">PT 1,5/4-3,5-H; 1984633 verified against Phoenix Contact product page, 3.5mm pitch</field>
+        <field name="Footprint">Tester:TerminalBlock_Phoenix_PT-1,5-4-3.5-H_1x04_P3.50mm_Horizontal</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Tester" part="CONN4" description=""/>
+      <property name="MPN" value="1984633"/>
+      <property name="Manufacturer" value="Phoenix Contact"/>
+      <property name="Notes" value="PT 1,5/4-3,5-H; 1984633 verified against Phoenix Contact product page, 3.5mm pitch"/>
+      <property name="Sheetname" value="Inputs 5-8"/>
+      <property name="Sheetfile" value="bank2.kicad_sch"/>
+      <sheetpath names="/Inputs 5-8/" tstamps="/5fac0619-425f-5cae-a389-68b23809ba48/"/>
+      <tstamps>ad9ad8e1-fc30-5ded-be17-8b2d8a591b5b</tstamps>
+    </comp>
+    <comp ref="R13">
+      <value>165k</value>
+      <footprint>Tester:R_0805_2012Metric</footprint>
+      <fields>
+        <field name="MPN">RT0805BRD07165KL</field>
+        <field name="Manufacturer">Yageo</field>
+        <field name="Notes">0.1%, 25 ppm/K</field>
+        <field name="Footprint">Tester:R_0805_2012Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Tester" part="R" description=""/>
+      <property name="MPN" value="RT0805BRD07165KL"/>
+      <property name="Manufacturer" value="Yageo"/>
+      <property name="Notes" value="0.1%, 25 ppm/K"/>
+      <property name="Sheetname" value="Inputs 5-8"/>
+      <property name="Sheetfile" value="bank2.kicad_sch"/>
+      <sheetpath names="/Inputs 5-8/" tstamps="/5fac0619-425f-5cae-a389-68b23809ba48/"/>
+      <tstamps>b8fb4c27-054e-52e2-a2ef-e0cf44e61d40</tstamps>
+    </comp>
+    <comp ref="R14">
+      <value>165k</value>
+      <footprint>Tester:R_0805_2012Metric</footprint>
+      <fields>
+        <field name="MPN">RT0805BRD07165KL</field>
+        <field name="Manufacturer">Yageo</field>
+        <field name="Notes">0.1%, 25 ppm/K</field>
+        <field name="Footprint">Tester:R_0805_2012Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Tester" part="R" description=""/>
+      <property name="MPN" value="RT0805BRD07165KL"/>
+      <property name="Manufacturer" value="Yageo"/>
+      <property name="Notes" value="0.1%, 25 ppm/K"/>
+      <property name="Sheetname" value="Inputs 5-8"/>
+      <property name="Sheetfile" value="bank2.kicad_sch"/>
+      <sheetpath names="/Inputs 5-8/" tstamps="/5fac0619-425f-5cae-a389-68b23809ba48/"/>
+      <tstamps>8c28509c-d75e-53a3-935d-1012f36ce0dd</tstamps>
+    </comp>
+    <comp ref="R15">
+      <value>10k</value>
+      <footprint>Tester:R_0805_2012Metric</footprint>
+      <fields>
+        <field name="MPN">RT0805BRD0710KL</field>
+        <field name="Manufacturer">Yageo</field>
+        <field name="Notes">0.1%, 25 ppm/K</field>
+        <field name="Footprint">Tester:R_0805_2012Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Tester" part="R" description=""/>
+      <property name="MPN" value="RT0805BRD0710KL"/>
+      <property name="Manufacturer" value="Yageo"/>
+      <property name="Notes" value="0.1%, 25 ppm/K"/>
+      <property name="Sheetname" value="Inputs 5-8"/>
+      <property name="Sheetfile" value="bank2.kicad_sch"/>
+      <sheetpath names="/Inputs 5-8/" tstamps="/5fac0619-425f-5cae-a389-68b23809ba48/"/>
+      <tstamps>c8353548-be69-560b-a44c-fc0484a411f8</tstamps>
+    </comp>
+    <comp ref="R16">
+      <value>165k</value>
+      <footprint>Tester:R_0805_2012Metric</footprint>
+      <fields>
+        <field name="MPN">RT0805BRD07165KL</field>
+        <field name="Manufacturer">Yageo</field>
+        <field name="Notes">0.1%, 25 ppm/K</field>
+        <field name="Footprint">Tester:R_0805_2012Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Tester" part="R" description=""/>
+      <property name="MPN" value="RT0805BRD07165KL"/>
+      <property name="Manufacturer" value="Yageo"/>
+      <property name="Notes" value="0.1%, 25 ppm/K"/>
+      <property name="Sheetname" value="Inputs 5-8"/>
+      <property name="Sheetfile" value="bank2.kicad_sch"/>
+      <sheetpath names="/Inputs 5-8/" tstamps="/5fac0619-425f-5cae-a389-68b23809ba48/"/>
+      <tstamps>dcf57c9e-d13b-553a-894b-807767dd6957</tstamps>
+    </comp>
+    <comp ref="R17">
+      <value>165k</value>
+      <footprint>Tester:R_0805_2012Metric</footprint>
+      <fields>
+        <field name="MPN">RT0805BRD07165KL</field>
+        <field name="Manufacturer">Yageo</field>
+        <field name="Notes">0.1%, 25 ppm/K</field>
+        <field name="Footprint">Tester:R_0805_2012Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Tester" part="R" description=""/>
+      <property name="MPN" value="RT0805BRD07165KL"/>
+      <property name="Manufacturer" value="Yageo"/>
+      <property name="Notes" value="0.1%, 25 ppm/K"/>
+      <property name="Sheetname" value="Inputs 5-8"/>
+      <property name="Sheetfile" value="bank2.kicad_sch"/>
+      <sheetpath names="/Inputs 5-8/" tstamps="/5fac0619-425f-5cae-a389-68b23809ba48/"/>
+      <tstamps>e49a1d21-ead6-55f3-a854-0b4ce6c1dd62</tstamps>
+    </comp>
+    <comp ref="R18">
+      <value>10k</value>
+      <footprint>Tester:R_0805_2012Metric</footprint>
+      <fields>
+        <field name="MPN">RT0805BRD0710KL</field>
+        <field name="Manufacturer">Yageo</field>
+        <field name="Notes">0.1%, 25 ppm/K</field>
+        <field name="Footprint">Tester:R_0805_2012Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Tester" part="R" description=""/>
+      <property name="MPN" value="RT0805BRD0710KL"/>
+      <property name="Manufacturer" value="Yageo"/>
+      <property name="Notes" value="0.1%, 25 ppm/K"/>
+      <property name="Sheetname" value="Inputs 5-8"/>
+      <property name="Sheetfile" value="bank2.kicad_sch"/>
+      <sheetpath names="/Inputs 5-8/" tstamps="/5fac0619-425f-5cae-a389-68b23809ba48/"/>
+      <tstamps>83e2c6ca-de29-582a-9ae7-9faf73626dc1</tstamps>
+    </comp>
+    <comp ref="R19">
+      <value>165k</value>
+      <footprint>Tester:R_0805_2012Metric</footprint>
+      <fields>
+        <field name="MPN">RT0805BRD07165KL</field>
+        <field name="Manufacturer">Yageo</field>
+        <field name="Notes">0.1%, 25 ppm/K</field>
+        <field name="Footprint">Tester:R_0805_2012Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Tester" part="R" description=""/>
+      <property name="MPN" value="RT0805BRD07165KL"/>
+      <property name="Manufacturer" value="Yageo"/>
+      <property name="Notes" value="0.1%, 25 ppm/K"/>
+      <property name="Sheetname" value="Inputs 5-8"/>
+      <property name="Sheetfile" value="bank2.kicad_sch"/>
+      <sheetpath names="/Inputs 5-8/" tstamps="/5fac0619-425f-5cae-a389-68b23809ba48/"/>
+      <tstamps>7c59cae3-9fd6-5750-92f8-87b4a9fffef6</tstamps>
+    </comp>
+    <comp ref="R20">
+      <value>165k</value>
+      <footprint>Tester:R_0805_2012Metric</footprint>
+      <fields>
+        <field name="MPN">RT0805BRD07165KL</field>
+        <field name="Manufacturer">Yageo</field>
+        <field name="Notes">0.1%, 25 ppm/K</field>
+        <field name="Footprint">Tester:R_0805_2012Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Tester" part="R" description=""/>
+      <property name="MPN" value="RT0805BRD07165KL"/>
+      <property name="Manufacturer" value="Yageo"/>
+      <property name="Notes" value="0.1%, 25 ppm/K"/>
+      <property name="Sheetname" value="Inputs 5-8"/>
+      <property name="Sheetfile" value="bank2.kicad_sch"/>
+      <sheetpath names="/Inputs 5-8/" tstamps="/5fac0619-425f-5cae-a389-68b23809ba48/"/>
+      <tstamps>c864d5fb-dbe5-571f-83c8-d2f9e0d48cce</tstamps>
+    </comp>
+    <comp ref="R21">
+      <value>10k</value>
+      <footprint>Tester:R_0805_2012Metric</footprint>
+      <fields>
+        <field name="MPN">RT0805BRD0710KL</field>
+        <field name="Manufacturer">Yageo</field>
+        <field name="Notes">0.1%, 25 ppm/K</field>
+        <field name="Footprint">Tester:R_0805_2012Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Tester" part="R" description=""/>
+      <property name="MPN" value="RT0805BRD0710KL"/>
+      <property name="Manufacturer" value="Yageo"/>
+      <property name="Notes" value="0.1%, 25 ppm/K"/>
+      <property name="Sheetname" value="Inputs 5-8"/>
+      <property name="Sheetfile" value="bank2.kicad_sch"/>
+      <sheetpath names="/Inputs 5-8/" tstamps="/5fac0619-425f-5cae-a389-68b23809ba48/"/>
+      <tstamps>07cacaa7-9b79-5bd0-bb7e-d6657ab73e3b</tstamps>
+    </comp>
+    <comp ref="R22">
+      <value>165k</value>
+      <footprint>Tester:R_0805_2012Metric</footprint>
+      <fields>
+        <field name="MPN">RT0805BRD07165KL</field>
+        <field name="Manufacturer">Yageo</field>
+        <field name="Notes">0.1%, 25 ppm/K</field>
+        <field name="Footprint">Tester:R_0805_2012Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Tester" part="R" description=""/>
+      <property name="MPN" value="RT0805BRD07165KL"/>
+      <property name="Manufacturer" value="Yageo"/>
+      <property name="Notes" value="0.1%, 25 ppm/K"/>
+      <property name="Sheetname" value="Inputs 5-8"/>
+      <property name="Sheetfile" value="bank2.kicad_sch"/>
+      <sheetpath names="/Inputs 5-8/" tstamps="/5fac0619-425f-5cae-a389-68b23809ba48/"/>
+      <tstamps>8428c317-bf90-598e-b54a-14c445148dc7</tstamps>
+    </comp>
+    <comp ref="R23">
+      <value>165k</value>
+      <footprint>Tester:R_0805_2012Metric</footprint>
+      <fields>
+        <field name="MPN">RT0805BRD07165KL</field>
+        <field name="Manufacturer">Yageo</field>
+        <field name="Notes">0.1%, 25 ppm/K</field>
+        <field name="Footprint">Tester:R_0805_2012Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Tester" part="R" description=""/>
+      <property name="MPN" value="RT0805BRD07165KL"/>
+      <property name="Manufacturer" value="Yageo"/>
+      <property name="Notes" value="0.1%, 25 ppm/K"/>
+      <property name="Sheetname" value="Inputs 5-8"/>
+      <property name="Sheetfile" value="bank2.kicad_sch"/>
+      <sheetpath names="/Inputs 5-8/" tstamps="/5fac0619-425f-5cae-a389-68b23809ba48/"/>
+      <tstamps>d6c2a013-9d44-5b72-a198-3ff792596bbb</tstamps>
+    </comp>
+    <comp ref="R24">
+      <value>10k</value>
+      <footprint>Tester:R_0805_2012Metric</footprint>
+      <fields>
+        <field name="MPN">RT0805BRD0710KL</field>
+        <field name="Manufacturer">Yageo</field>
+        <field name="Notes">0.1%, 25 ppm/K</field>
+        <field name="Footprint">Tester:R_0805_2012Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Tester" part="R" description=""/>
+      <property name="MPN" value="RT0805BRD0710KL"/>
+      <property name="Manufacturer" value="Yageo"/>
+      <property name="Notes" value="0.1%, 25 ppm/K"/>
+      <property name="Sheetname" value="Inputs 5-8"/>
+      <property name="Sheetfile" value="bank2.kicad_sch"/>
+      <sheetpath names="/Inputs 5-8/" tstamps="/5fac0619-425f-5cae-a389-68b23809ba48/"/>
+      <tstamps>9e4e5bb4-fc5d-58f0-a073-71998875270e</tstamps>
+    </comp>
+    <comp ref="R50">
+      <value>100k</value>
+      <footprint>Tester:R_0805_2012Metric</footprint>
+      <fields>
+        <field name="MPN">RT0805BRD07100KL</field>
+        <field name="Manufacturer">Yageo</field>
+        <field name="Notes">0.1%, 25 ppm/K</field>
+        <field name="Footprint">Tester:R_0805_2012Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Tester" part="R" description=""/>
+      <property name="MPN" value="RT0805BRD07100KL"/>
+      <property name="Manufacturer" value="Yageo"/>
+      <property name="Notes" value="0.1%, 25 ppm/K"/>
+      <property name="Sheetname" value="Inputs 5-8"/>
+      <property name="Sheetfile" value="bank2.kicad_sch"/>
+      <sheetpath names="/Inputs 5-8/" tstamps="/5fac0619-425f-5cae-a389-68b23809ba48/"/>
+      <tstamps>02b64818-4d41-572c-a989-a67291620b30</tstamps>
+    </comp>
+    <comp ref="R51">
+      <value>100k</value>
+      <footprint>Tester:R_0805_2012Metric</footprint>
+      <fields>
+        <field name="MPN">RT0805BRD07100KL</field>
+        <field name="Manufacturer">Yageo</field>
+        <field name="Notes">0.1%, 25 ppm/K</field>
+        <field name="Footprint">Tester:R_0805_2012Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Tester" part="R" description=""/>
+      <property name="MPN" value="RT0805BRD07100KL"/>
+      <property name="Manufacturer" value="Yageo"/>
+      <property name="Notes" value="0.1%, 25 ppm/K"/>
+      <property name="Sheetname" value="Inputs 5-8"/>
+      <property name="Sheetfile" value="bank2.kicad_sch"/>
+      <sheetpath names="/Inputs 5-8/" tstamps="/5fac0619-425f-5cae-a389-68b23809ba48/"/>
+      <tstamps>1f051a56-f2fc-5e6d-a7b4-d30403dbdae3</tstamps>
+    </comp>
+    <comp ref="R52">
+      <value>100k</value>
+      <footprint>Tester:R_0805_2012Metric</footprint>
+      <fields>
+        <field name="MPN">RT0805BRD07100KL</field>
+        <field name="Manufacturer">Yageo</field>
+        <field name="Notes">0.1%, 25 ppm/K</field>
+        <field name="Footprint">Tester:R_0805_2012Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Tester" part="R" description=""/>
+      <property name="MPN" value="RT0805BRD07100KL"/>
+      <property name="Manufacturer" value="Yageo"/>
+      <property name="Notes" value="0.1%, 25 ppm/K"/>
+      <property name="Sheetname" value="Inputs 5-8"/>
+      <property name="Sheetfile" value="bank2.kicad_sch"/>
+      <sheetpath names="/Inputs 5-8/" tstamps="/5fac0619-425f-5cae-a389-68b23809ba48/"/>
+      <tstamps>d2817dab-28a1-592d-a9e8-6881e28af1cd</tstamps>
+    </comp>
+    <comp ref="R53">
+      <value>100k</value>
+      <footprint>Tester:R_0805_2012Metric</footprint>
+      <fields>
+        <field name="MPN">RT0805BRD07100KL</field>
+        <field name="Manufacturer">Yageo</field>
+        <field name="Notes">0.1%, 25 ppm/K</field>
+        <field name="Footprint">Tester:R_0805_2012Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Tester" part="R" description=""/>
+      <property name="MPN" value="RT0805BRD07100KL"/>
+      <property name="Manufacturer" value="Yageo"/>
+      <property name="Notes" value="0.1%, 25 ppm/K"/>
+      <property name="Sheetname" value="Inputs 5-8"/>
+      <property name="Sheetfile" value="bank2.kicad_sch"/>
+      <sheetpath names="/Inputs 5-8/" tstamps="/5fac0619-425f-5cae-a389-68b23809ba48/"/>
+      <tstamps>360ade26-fd18-52a7-a327-6b0c7314caf8</tstamps>
+    </comp>
+    <comp ref="TP5">
+      <value>A5</value>
+      <footprint>Tester:TestPoint_Pad_D1.5mm</footprint>
+      <fields>
+        <field name="MPN"/>
+        <field name="Manufacturer"/>
+        <field name="Notes"/>
+        <field name="Footprint">Tester:TestPoint_Pad_D1.5mm</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Tester" part="TP" description=""/>
+      <property name="MPN" value=""/>
+      <property name="Manufacturer" value=""/>
+      <property name="Notes" value=""/>
+      <property name="Sheetname" value="Inputs 5-8"/>
+      <property name="Sheetfile" value="bank2.kicad_sch"/>
+      <property name="exclude_from_bom"/>
+      <sheetpath names="/Inputs 5-8/" tstamps="/5fac0619-425f-5cae-a389-68b23809ba48/"/>
+      <tstamps>c49960d1-c864-5e13-8b09-6f0b06dccb77</tstamps>
+    </comp>
+    <comp ref="TP6">
+      <value>A6</value>
+      <footprint>Tester:TestPoint_Pad_D1.5mm</footprint>
+      <fields>
+        <field name="MPN"/>
+        <field name="Manufacturer"/>
+        <field name="Notes"/>
+        <field name="Footprint">Tester:TestPoint_Pad_D1.5mm</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Tester" part="TP" description=""/>
+      <property name="MPN" value=""/>
+      <property name="Manufacturer" value=""/>
+      <property name="Notes" value=""/>
+      <property name="Sheetname" value="Inputs 5-8"/>
+      <property name="Sheetfile" value="bank2.kicad_sch"/>
+      <property name="exclude_from_bom"/>
+      <sheetpath names="/Inputs 5-8/" tstamps="/5fac0619-425f-5cae-a389-68b23809ba48/"/>
+      <tstamps>73390eb5-5848-595e-9706-ae1169f8f10b</tstamps>
+    </comp>
+    <comp ref="TP7">
+      <value>A7</value>
+      <footprint>Tester:TestPoint_Pad_D1.5mm</footprint>
+      <fields>
+        <field name="MPN"/>
+        <field name="Manufacturer"/>
+        <field name="Notes"/>
+        <field name="Footprint">Tester:TestPoint_Pad_D1.5mm</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Tester" part="TP" description=""/>
+      <property name="MPN" value=""/>
+      <property name="Manufacturer" value=""/>
+      <property name="Notes" value=""/>
+      <property name="Sheetname" value="Inputs 5-8"/>
+      <property name="Sheetfile" value="bank2.kicad_sch"/>
+      <property name="exclude_from_bom"/>
+      <sheetpath names="/Inputs 5-8/" tstamps="/5fac0619-425f-5cae-a389-68b23809ba48/"/>
+      <tstamps>4245a9e6-0a90-59ac-b768-8984a5bd5aa8</tstamps>
+    </comp>
+    <comp ref="TP8">
+      <value>A8</value>
+      <footprint>Tester:TestPoint_Pad_D1.5mm</footprint>
+      <fields>
+        <field name="MPN"/>
+        <field name="Manufacturer"/>
+        <field name="Notes"/>
+        <field name="Footprint">Tester:TestPoint_Pad_D1.5mm</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Tester" part="TP" description=""/>
+      <property name="MPN" value=""/>
+      <property name="Manufacturer" value=""/>
+      <property name="Notes" value=""/>
+      <property name="Sheetname" value="Inputs 5-8"/>
+      <property name="Sheetfile" value="bank2.kicad_sch"/>
+      <property name="exclude_from_bom"/>
+      <sheetpath names="/Inputs 5-8/" tstamps="/5fac0619-425f-5cae-a389-68b23809ba48/"/>
+      <tstamps>c1c88771-02aa-52ef-a834-f1e64ccbb50a</tstamps>
+    </comp>
+    <comp ref="U2">
+      <value>ADS1115IDGSR</value>
+      <footprint>Tester:TSSOP-10_3x3mm_P0.5mm</footprint>
+      <fields>
+        <field name="MPN">ADS1115IDGSR</field>
+        <field name="Manufacturer">Texas Instruments</field>
+        <field name="Notes">ADDR=GND/3V3/SDA for 0x48/0x49/0x4A</field>
+        <field name="Footprint">Tester:TSSOP-10_3x3mm_P0.5mm</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Tester" part="ADS1115" description=""/>
+      <property name="MPN" value="ADS1115IDGSR"/>
+      <property name="Manufacturer" value="Texas Instruments"/>
+      <property name="Notes" value="ADDR=GND/3V3/SDA for 0x48/0x49/0x4A"/>
+      <property name="Sheetname" value="Inputs 5-8"/>
+      <property name="Sheetfile" value="bank2.kicad_sch"/>
+      <sheetpath names="/Inputs 5-8/" tstamps="/5fac0619-425f-5cae-a389-68b23809ba48/"/>
+      <tstamps>07293443-761b-5278-8f05-b217d23a1c9b</tstamps>
+    </comp>
+    <comp ref="U5">
+      <value>ADG4612BRUZ</value>
+      <footprint>Tester:TSSOP-16_4.4x5mm_P0.65mm</footprint>
+      <fields>
+        <field name="MPN">ADG4612BRUZ</field>
+        <field name="Manufacturer">Analog Devices</field>
+        <field name="Notes">TSSOP-16; powered from isolated 5V; enable from 3.08V supervisor</field>
+        <field name="Footprint">Tester:TSSOP-16_4.4x5mm_P0.65mm</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Tester" part="ADG4612" description=""/>
+      <property name="MPN" value="ADG4612BRUZ"/>
+      <property name="Manufacturer" value="Analog Devices"/>
+      <property name="Notes" value="TSSOP-16; powered from isolated 5V; enable from 3.08V supervisor"/>
+      <property name="Sheetname" value="Inputs 5-8"/>
+      <property name="Sheetfile" value="bank2.kicad_sch"/>
+      <sheetpath names="/Inputs 5-8/" tstamps="/5fac0619-425f-5cae-a389-68b23809ba48/"/>
+      <tstamps>431ea1ba-4b82-5b70-9bc5-588d4b923175</tstamps>
+    </comp>
+    <comp ref="C9">
+      <value>1n</value>
+      <footprint>Tester:C_0805_2012Metric</footprint>
+      <fields>
+        <field name="MPN">GRM2165C1H102JA01D</field>
+        <field name="Manufacturer">Murata</field>
+        <field name="Notes">Use specified capacitance, voltage and dielectric</field>
+        <field name="Footprint">Tester:C_0805_2012Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Tester" part="C" description=""/>
+      <property name="MPN" value="GRM2165C1H102JA01D"/>
+      <property name="Manufacturer" value="Murata"/>
+      <property name="Notes" value="Use specified capacitance, voltage and dielectric"/>
+      <property name="Sheetname" value="Inputs 9-12"/>
+      <property name="Sheetfile" value="bank3.kicad_sch"/>
+      <sheetpath names="/Inputs 9-12/" tstamps="/18f7569b-7276-58d0-8470-35ff049f460f/"/>
+      <tstamps>ebb2213f-d473-5653-b912-76a3811cef64</tstamps>
+    </comp>
+    <comp ref="C10">
+      <value>1n</value>
+      <footprint>Tester:C_0805_2012Metric</footprint>
+      <fields>
+        <field name="MPN">GRM2165C1H102JA01D</field>
+        <field name="Manufacturer">Murata</field>
+        <field name="Notes">Use specified capacitance, voltage and dielectric</field>
+        <field name="Footprint">Tester:C_0805_2012Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Tester" part="C" description=""/>
+      <property name="MPN" value="GRM2165C1H102JA01D"/>
+      <property name="Manufacturer" value="Murata"/>
+      <property name="Notes" value="Use specified capacitance, voltage and dielectric"/>
+      <property name="Sheetname" value="Inputs 9-12"/>
+      <property name="Sheetfile" value="bank3.kicad_sch"/>
+      <sheetpath names="/Inputs 9-12/" tstamps="/18f7569b-7276-58d0-8470-35ff049f460f/"/>
+      <tstamps>d5bc9e6e-bbba-514a-97d2-119ed54c9ab3</tstamps>
+    </comp>
+    <comp ref="C11">
+      <value>1n</value>
+      <footprint>Tester:C_0805_2012Metric</footprint>
+      <fields>
+        <field name="MPN">GRM2165C1H102JA01D</field>
+        <field name="Manufacturer">Murata</field>
+        <field name="Notes">Use specified capacitance, voltage and dielectric</field>
+        <field name="Footprint">Tester:C_0805_2012Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Tester" part="C" description=""/>
+      <property name="MPN" value="GRM2165C1H102JA01D"/>
+      <property name="Manufacturer" value="Murata"/>
+      <property name="Notes" value="Use specified capacitance, voltage and dielectric"/>
+      <property name="Sheetname" value="Inputs 9-12"/>
+      <property name="Sheetfile" value="bank3.kicad_sch"/>
+      <sheetpath names="/Inputs 9-12/" tstamps="/18f7569b-7276-58d0-8470-35ff049f460f/"/>
+      <tstamps>144ecbd3-3fbf-593b-aefc-9d1c15d23e3f</tstamps>
+    </comp>
+    <comp ref="C12">
+      <value>1n</value>
+      <footprint>Tester:C_0805_2012Metric</footprint>
+      <fields>
+        <field name="MPN">GRM2165C1H102JA01D</field>
+        <field name="Manufacturer">Murata</field>
+        <field name="Notes">Use specified capacitance, voltage and dielectric</field>
+        <field name="Footprint">Tester:C_0805_2012Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Tester" part="C" description=""/>
+      <property name="MPN" value="GRM2165C1H102JA01D"/>
+      <property name="Manufacturer" value="Murata"/>
+      <property name="Notes" value="Use specified capacitance, voltage and dielectric"/>
+      <property name="Sheetname" value="Inputs 9-12"/>
+      <property name="Sheetfile" value="bank3.kicad_sch"/>
+      <sheetpath names="/Inputs 9-12/" tstamps="/18f7569b-7276-58d0-8470-35ff049f460f/"/>
+      <tstamps>2d476a0a-f7c6-51af-a7b3-9f7400fe31f1</tstamps>
+    </comp>
+    <comp ref="C15">
+      <value>100n</value>
+      <footprint>Tester:C_0805_2012Metric</footprint>
+      <fields>
+        <field name="MPN">GRM21BR71H104KA01L</field>
+        <field name="Manufacturer">Murata</field>
+        <field name="Notes">Use specified capacitance, voltage and dielectric</field>
+        <field name="Footprint">Tester:C_0805_2012Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Tester" part="C" description=""/>
+      <property name="MPN" value="GRM21BR71H104KA01L"/>
+      <property name="Manufacturer" value="Murata"/>
+      <property name="Notes" value="Use specified capacitance, voltage and dielectric"/>
+      <property name="Sheetname" value="Inputs 9-12"/>
+      <property name="Sheetfile" value="bank3.kicad_sch"/>
+      <sheetpath names="/Inputs 9-12/" tstamps="/18f7569b-7276-58d0-8470-35ff049f460f/"/>
+      <tstamps>e7de040b-0bfd-5a1e-9dba-31749740399f</tstamps>
+    </comp>
+    <comp ref="C18">
+      <value>100n</value>
+      <footprint>Tester:C_0805_2012Metric</footprint>
+      <fields>
+        <field name="MPN">GRM21BR71H104KA01L</field>
+        <field name="Manufacturer">Murata</field>
+        <field name="Notes">Use specified capacitance, voltage and dielectric</field>
+        <field name="Footprint">Tester:C_0805_2012Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Tester" part="C" description=""/>
+      <property name="MPN" value="GRM21BR71H104KA01L"/>
+      <property name="Manufacturer" value="Murata"/>
+      <property name="Notes" value="Use specified capacitance, voltage and dielectric"/>
+      <property name="Sheetname" value="Inputs 9-12"/>
+      <property name="Sheetfile" value="bank3.kicad_sch"/>
+      <sheetpath names="/Inputs 9-12/" tstamps="/18f7569b-7276-58d0-8470-35ff049f460f/"/>
+      <tstamps>34ad9233-75d4-5c13-a498-a81c841d12ba</tstamps>
+    </comp>
+    <comp ref="D9">
+      <value>12V clamp</value>
+      <footprint>Tester:D_SOD-123F</footprint>
+      <fields>
+        <field name="MPN">BZT52H-C12,115</field>
+        <field name="Manufacturer">Nexperia</field>
+        <field name="Notes">Clamp is before power-off switch; not an ADC rail clamp</field>
+        <field name="Footprint">Tester:D_SOD-123F</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Tester" part="DZ" description=""/>
+      <property name="MPN" value="BZT52H-C12,115"/>
+      <property name="Manufacturer" value="Nexperia"/>
+      <property name="Notes" value="Clamp is before power-off switch; not an ADC rail clamp"/>
+      <property name="Sheetname" value="Inputs 9-12"/>
+      <property name="Sheetfile" value="bank3.kicad_sch"/>
+      <sheetpath names="/Inputs 9-12/" tstamps="/18f7569b-7276-58d0-8470-35ff049f460f/"/>
+      <tstamps>682fcfad-5ccd-5097-abb6-0a6e1c666083</tstamps>
+    </comp>
+    <comp ref="D10">
+      <value>12V clamp</value>
+      <footprint>Tester:D_SOD-123F</footprint>
+      <fields>
+        <field name="MPN">BZT52H-C12,115</field>
+        <field name="Manufacturer">Nexperia</field>
+        <field name="Notes">Clamp is before power-off switch; not an ADC rail clamp</field>
+        <field name="Footprint">Tester:D_SOD-123F</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Tester" part="DZ" description=""/>
+      <property name="MPN" value="BZT52H-C12,115"/>
+      <property name="Manufacturer" value="Nexperia"/>
+      <property name="Notes" value="Clamp is before power-off switch; not an ADC rail clamp"/>
+      <property name="Sheetname" value="Inputs 9-12"/>
+      <property name="Sheetfile" value="bank3.kicad_sch"/>
+      <sheetpath names="/Inputs 9-12/" tstamps="/18f7569b-7276-58d0-8470-35ff049f460f/"/>
+      <tstamps>64d3f22c-6c0c-529c-9a0e-07437b66e399</tstamps>
+    </comp>
+    <comp ref="D11">
+      <value>12V clamp</value>
+      <footprint>Tester:D_SOD-123F</footprint>
+      <fields>
+        <field name="MPN">BZT52H-C12,115</field>
+        <field name="Manufacturer">Nexperia</field>
+        <field name="Notes">Clamp is before power-off switch; not an ADC rail clamp</field>
+        <field name="Footprint">Tester:D_SOD-123F</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Tester" part="DZ" description=""/>
+      <property name="MPN" value="BZT52H-C12,115"/>
+      <property name="Manufacturer" value="Nexperia"/>
+      <property name="Notes" value="Clamp is before power-off switch; not an ADC rail clamp"/>
+      <property name="Sheetname" value="Inputs 9-12"/>
+      <property name="Sheetfile" value="bank3.kicad_sch"/>
+      <sheetpath names="/Inputs 9-12/" tstamps="/18f7569b-7276-58d0-8470-35ff049f460f/"/>
+      <tstamps>9ea9d277-db4d-5b3e-9d5d-ec483ad277ad</tstamps>
+    </comp>
+    <comp ref="D12">
+      <value>12V clamp</value>
+      <footprint>Tester:D_SOD-123F</footprint>
+      <fields>
+        <field name="MPN">BZT52H-C12,115</field>
+        <field name="Manufacturer">Nexperia</field>
+        <field name="Notes">Clamp is before power-off switch; not an ADC rail clamp</field>
+        <field name="Footprint">Tester:D_SOD-123F</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Tester" part="DZ" description=""/>
+      <property name="MPN" value="BZT52H-C12,115"/>
+      <property name="Manufacturer" value="Nexperia"/>
+      <property name="Notes" value="Clamp is before power-off switch; not an ADC rail clamp"/>
+      <property name="Sheetname" value="Inputs 9-12"/>
+      <property name="Sheetfile" value="bank3.kicad_sch"/>
+      <sheetpath names="/Inputs 9-12/" tstamps="/18f7569b-7276-58d0-8470-35ff049f460f/"/>
+      <tstamps>ef8bb87a-6ab8-5730-9f9b-fadd5bc516aa</tstamps>
+    </comp>
+    <comp ref="J3">
+      <value>INPUTS 9-12</value>
+      <footprint>Tester:TerminalBlock_Phoenix_PT-1,5-4-3.5-H_1x04_P3.50mm_Horizontal</footprint>
+      <fields>
+        <field name="MPN">1984633</field>
+        <field name="Manufacturer">Phoenix Contact</field>
+        <field name="Notes">PT 1,5/4-3,5-H; 1984633 verified against Phoenix Contact product page, 3.5mm pitch</field>
+        <field name="Footprint">Tester:TerminalBlock_Phoenix_PT-1,5-4-3.5-H_1x04_P3.50mm_Horizontal</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Tester" part="CONN4" description=""/>
+      <property name="MPN" value="1984633"/>
+      <property name="Manufacturer" value="Phoenix Contact"/>
+      <property name="Notes" value="PT 1,5/4-3,5-H; 1984633 verified against Phoenix Contact product page, 3.5mm pitch"/>
+      <property name="Sheetname" value="Inputs 9-12"/>
+      <property name="Sheetfile" value="bank3.kicad_sch"/>
+      <sheetpath names="/Inputs 9-12/" tstamps="/18f7569b-7276-58d0-8470-35ff049f460f/"/>
+      <tstamps>b2194162-eda1-5c0b-b5f3-2e1ca6566efa</tstamps>
+    </comp>
+    <comp ref="R25">
+      <value>165k</value>
+      <footprint>Tester:R_0805_2012Metric</footprint>
+      <fields>
+        <field name="MPN">RT0805BRD07165KL</field>
+        <field name="Manufacturer">Yageo</field>
+        <field name="Notes">0.1%, 25 ppm/K</field>
+        <field name="Footprint">Tester:R_0805_2012Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Tester" part="R" description=""/>
+      <property name="MPN" value="RT0805BRD07165KL"/>
+      <property name="Manufacturer" value="Yageo"/>
+      <property name="Notes" value="0.1%, 25 ppm/K"/>
+      <property name="Sheetname" value="Inputs 9-12"/>
+      <property name="Sheetfile" value="bank3.kicad_sch"/>
+      <sheetpath names="/Inputs 9-12/" tstamps="/18f7569b-7276-58d0-8470-35ff049f460f/"/>
+      <tstamps>436eab85-981b-54e2-99ba-d94ce914ace7</tstamps>
+    </comp>
+    <comp ref="R26">
+      <value>165k</value>
+      <footprint>Tester:R_0805_2012Metric</footprint>
+      <fields>
+        <field name="MPN">RT0805BRD07165KL</field>
+        <field name="Manufacturer">Yageo</field>
+        <field name="Notes">0.1%, 25 ppm/K</field>
+        <field name="Footprint">Tester:R_0805_2012Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Tester" part="R" description=""/>
+      <property name="MPN" value="RT0805BRD07165KL"/>
+      <property name="Manufacturer" value="Yageo"/>
+      <property name="Notes" value="0.1%, 25 ppm/K"/>
+      <property name="Sheetname" value="Inputs 9-12"/>
+      <property name="Sheetfile" value="bank3.kicad_sch"/>
+      <sheetpath names="/Inputs 9-12/" tstamps="/18f7569b-7276-58d0-8470-35ff049f460f/"/>
+      <tstamps>d5fc7c1b-724b-5141-94fb-852e2da6b03a</tstamps>
+    </comp>
+    <comp ref="R27">
+      <value>10k</value>
+      <footprint>Tester:R_0805_2012Metric</footprint>
+      <fields>
+        <field name="MPN">RT0805BRD0710KL</field>
+        <field name="Manufacturer">Yageo</field>
+        <field name="Notes">0.1%, 25 ppm/K</field>
+        <field name="Footprint">Tester:R_0805_2012Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Tester" part="R" description=""/>
+      <property name="MPN" value="RT0805BRD0710KL"/>
+      <property name="Manufacturer" value="Yageo"/>
+      <property name="Notes" value="0.1%, 25 ppm/K"/>
+      <property name="Sheetname" value="Inputs 9-12"/>
+      <property name="Sheetfile" value="bank3.kicad_sch"/>
+      <sheetpath names="/Inputs 9-12/" tstamps="/18f7569b-7276-58d0-8470-35ff049f460f/"/>
+      <tstamps>42043804-f7f9-55e8-a4ec-538489888f67</tstamps>
+    </comp>
+    <comp ref="R28">
+      <value>165k</value>
+      <footprint>Tester:R_0805_2012Metric</footprint>
+      <fields>
+        <field name="MPN">RT0805BRD07165KL</field>
+        <field name="Manufacturer">Yageo</field>
+        <field name="Notes">0.1%, 25 ppm/K</field>
+        <field name="Footprint">Tester:R_0805_2012Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Tester" part="R" description=""/>
+      <property name="MPN" value="RT0805BRD07165KL"/>
+      <property name="Manufacturer" value="Yageo"/>
+      <property name="Notes" value="0.1%, 25 ppm/K"/>
+      <property name="Sheetname" value="Inputs 9-12"/>
+      <property name="Sheetfile" value="bank3.kicad_sch"/>
+      <sheetpath names="/Inputs 9-12/" tstamps="/18f7569b-7276-58d0-8470-35ff049f460f/"/>
+      <tstamps>9f00faa4-082b-53f7-ad7c-7ae8c043d38e</tstamps>
+    </comp>
+    <comp ref="R29">
+      <value>165k</value>
+      <footprint>Tester:R_0805_2012Metric</footprint>
+      <fields>
+        <field name="MPN">RT0805BRD07165KL</field>
+        <field name="Manufacturer">Yageo</field>
+        <field name="Notes">0.1%, 25 ppm/K</field>
+        <field name="Footprint">Tester:R_0805_2012Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Tester" part="R" description=""/>
+      <property name="MPN" value="RT0805BRD07165KL"/>
+      <property name="Manufacturer" value="Yageo"/>
+      <property name="Notes" value="0.1%, 25 ppm/K"/>
+      <property name="Sheetname" value="Inputs 9-12"/>
+      <property name="Sheetfile" value="bank3.kicad_sch"/>
+      <sheetpath names="/Inputs 9-12/" tstamps="/18f7569b-7276-58d0-8470-35ff049f460f/"/>
+      <tstamps>94da67e0-ea17-5fec-902f-e2b0c7ba1a3a</tstamps>
+    </comp>
+    <comp ref="R30">
+      <value>10k</value>
+      <footprint>Tester:R_0805_2012Metric</footprint>
+      <fields>
+        <field name="MPN">RT0805BRD0710KL</field>
+        <field name="Manufacturer">Yageo</field>
+        <field name="Notes">0.1%, 25 ppm/K</field>
+        <field name="Footprint">Tester:R_0805_2012Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Tester" part="R" description=""/>
+      <property name="MPN" value="RT0805BRD0710KL"/>
+      <property name="Manufacturer" value="Yageo"/>
+      <property name="Notes" value="0.1%, 25 ppm/K"/>
+      <property name="Sheetname" value="Inputs 9-12"/>
+      <property name="Sheetfile" value="bank3.kicad_sch"/>
+      <sheetpath names="/Inputs 9-12/" tstamps="/18f7569b-7276-58d0-8470-35ff049f460f/"/>
+      <tstamps>7fc3dc71-9231-543d-871f-e834b1c2a121</tstamps>
+    </comp>
+    <comp ref="R31">
+      <value>165k</value>
+      <footprint>Tester:R_0805_2012Metric</footprint>
+      <fields>
+        <field name="MPN">RT0805BRD07165KL</field>
+        <field name="Manufacturer">Yageo</field>
+        <field name="Notes">0.1%, 25 ppm/K</field>
+        <field name="Footprint">Tester:R_0805_2012Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Tester" part="R" description=""/>
+      <property name="MPN" value="RT0805BRD07165KL"/>
+      <property name="Manufacturer" value="Yageo"/>
+      <property name="Notes" value="0.1%, 25 ppm/K"/>
+      <property name="Sheetname" value="Inputs 9-12"/>
+      <property name="Sheetfile" value="bank3.kicad_sch"/>
+      <sheetpath names="/Inputs 9-12/" tstamps="/18f7569b-7276-58d0-8470-35ff049f460f/"/>
+      <tstamps>811af255-7afa-52dc-a197-413dbbeb35f7</tstamps>
+    </comp>
+    <comp ref="R32">
+      <value>165k</value>
+      <footprint>Tester:R_0805_2012Metric</footprint>
+      <fields>
+        <field name="MPN">RT0805BRD07165KL</field>
+        <field name="Manufacturer">Yageo</field>
+        <field name="Notes">0.1%, 25 ppm/K</field>
+        <field name="Footprint">Tester:R_0805_2012Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Tester" part="R" description=""/>
+      <property name="MPN" value="RT0805BRD07165KL"/>
+      <property name="Manufacturer" value="Yageo"/>
+      <property name="Notes" value="0.1%, 25 ppm/K"/>
+      <property name="Sheetname" value="Inputs 9-12"/>
+      <property name="Sheetfile" value="bank3.kicad_sch"/>
+      <sheetpath names="/Inputs 9-12/" tstamps="/18f7569b-7276-58d0-8470-35ff049f460f/"/>
+      <tstamps>958907d0-2646-5f38-af09-f9d68fbcef5b</tstamps>
+    </comp>
+    <comp ref="R33">
+      <value>10k</value>
+      <footprint>Tester:R_0805_2012Metric</footprint>
+      <fields>
+        <field name="MPN">RT0805BRD0710KL</field>
+        <field name="Manufacturer">Yageo</field>
+        <field name="Notes">0.1%, 25 ppm/K</field>
+        <field name="Footprint">Tester:R_0805_2012Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Tester" part="R" description=""/>
+      <property name="MPN" value="RT0805BRD0710KL"/>
+      <property name="Manufacturer" value="Yageo"/>
+      <property name="Notes" value="0.1%, 25 ppm/K"/>
+      <property name="Sheetname" value="Inputs 9-12"/>
+      <property name="Sheetfile" value="bank3.kicad_sch"/>
+      <sheetpath names="/Inputs 9-12/" tstamps="/18f7569b-7276-58d0-8470-35ff049f460f/"/>
+      <tstamps>e00c1ae8-4781-5456-99a2-a35beab78b51</tstamps>
+    </comp>
+    <comp ref="R34">
+      <value>165k</value>
+      <footprint>Tester:R_0805_2012Metric</footprint>
+      <fields>
+        <field name="MPN">RT0805BRD07165KL</field>
+        <field name="Manufacturer">Yageo</field>
+        <field name="Notes">0.1%, 25 ppm/K</field>
+        <field name="Footprint">Tester:R_0805_2012Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Tester" part="R" description=""/>
+      <property name="MPN" value="RT0805BRD07165KL"/>
+      <property name="Manufacturer" value="Yageo"/>
+      <property name="Notes" value="0.1%, 25 ppm/K"/>
+      <property name="Sheetname" value="Inputs 9-12"/>
+      <property name="Sheetfile" value="bank3.kicad_sch"/>
+      <sheetpath names="/Inputs 9-12/" tstamps="/18f7569b-7276-58d0-8470-35ff049f460f/"/>
+      <tstamps>4cde8ffd-6ca1-52d2-a3bd-9dee6c3c319f</tstamps>
+    </comp>
+    <comp ref="R35">
+      <value>165k</value>
+      <footprint>Tester:R_0805_2012Metric</footprint>
+      <fields>
+        <field name="MPN">RT0805BRD07165KL</field>
+        <field name="Manufacturer">Yageo</field>
+        <field name="Notes">0.1%, 25 ppm/K</field>
+        <field name="Footprint">Tester:R_0805_2012Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Tester" part="R" description=""/>
+      <property name="MPN" value="RT0805BRD07165KL"/>
+      <property name="Manufacturer" value="Yageo"/>
+      <property name="Notes" value="0.1%, 25 ppm/K"/>
+      <property name="Sheetname" value="Inputs 9-12"/>
+      <property name="Sheetfile" value="bank3.kicad_sch"/>
+      <sheetpath names="/Inputs 9-12/" tstamps="/18f7569b-7276-58d0-8470-35ff049f460f/"/>
+      <tstamps>71b77746-c410-5663-8484-b7e1281eacd6</tstamps>
+    </comp>
+    <comp ref="R36">
+      <value>10k</value>
+      <footprint>Tester:R_0805_2012Metric</footprint>
+      <fields>
+        <field name="MPN">RT0805BRD0710KL</field>
+        <field name="Manufacturer">Yageo</field>
+        <field name="Notes">0.1%, 25 ppm/K</field>
+        <field name="Footprint">Tester:R_0805_2012Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Tester" part="R" description=""/>
+      <property name="MPN" value="RT0805BRD0710KL"/>
+      <property name="Manufacturer" value="Yageo"/>
+      <property name="Notes" value="0.1%, 25 ppm/K"/>
+      <property name="Sheetname" value="Inputs 9-12"/>
+      <property name="Sheetfile" value="bank3.kicad_sch"/>
+      <sheetpath names="/Inputs 9-12/" tstamps="/18f7569b-7276-58d0-8470-35ff049f460f/"/>
+      <tstamps>dbbdb750-2b17-56e9-8b9f-c3ec423e6b33</tstamps>
+    </comp>
+    <comp ref="R54">
+      <value>100k</value>
+      <footprint>Tester:R_0805_2012Metric</footprint>
+      <fields>
+        <field name="MPN">RT0805BRD07100KL</field>
+        <field name="Manufacturer">Yageo</field>
+        <field name="Notes">0.1%, 25 ppm/K</field>
+        <field name="Footprint">Tester:R_0805_2012Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Tester" part="R" description=""/>
+      <property name="MPN" value="RT0805BRD07100KL"/>
+      <property name="Manufacturer" value="Yageo"/>
+      <property name="Notes" value="0.1%, 25 ppm/K"/>
+      <property name="Sheetname" value="Inputs 9-12"/>
+      <property name="Sheetfile" value="bank3.kicad_sch"/>
+      <sheetpath names="/Inputs 9-12/" tstamps="/18f7569b-7276-58d0-8470-35ff049f460f/"/>
+      <tstamps>866d462c-714f-510f-abf2-77e055bfd15c</tstamps>
+    </comp>
+    <comp ref="R55">
+      <value>100k</value>
+      <footprint>Tester:R_0805_2012Metric</footprint>
+      <fields>
+        <field name="MPN">RT0805BRD07100KL</field>
+        <field name="Manufacturer">Yageo</field>
+        <field name="Notes">0.1%, 25 ppm/K</field>
+        <field name="Footprint">Tester:R_0805_2012Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Tester" part="R" description=""/>
+      <property name="MPN" value="RT0805BRD07100KL"/>
+      <property name="Manufacturer" value="Yageo"/>
+      <property name="Notes" value="0.1%, 25 ppm/K"/>
+      <property name="Sheetname" value="Inputs 9-12"/>
+      <property name="Sheetfile" value="bank3.kicad_sch"/>
+      <sheetpath names="/Inputs 9-12/" tstamps="/18f7569b-7276-58d0-8470-35ff049f460f/"/>
+      <tstamps>749e38c4-00a0-5361-904c-879ce04ea6f4</tstamps>
+    </comp>
+    <comp ref="R56">
+      <value>100k</value>
+      <footprint>Tester:R_0805_2012Metric</footprint>
+      <fields>
+        <field name="MPN">RT0805BRD07100KL</field>
+        <field name="Manufacturer">Yageo</field>
+        <field name="Notes">0.1%, 25 ppm/K</field>
+        <field name="Footprint">Tester:R_0805_2012Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Tester" part="R" description=""/>
+      <property name="MPN" value="RT0805BRD07100KL"/>
+      <property name="Manufacturer" value="Yageo"/>
+      <property name="Notes" value="0.1%, 25 ppm/K"/>
+      <property name="Sheetname" value="Inputs 9-12"/>
+      <property name="Sheetfile" value="bank3.kicad_sch"/>
+      <sheetpath names="/Inputs 9-12/" tstamps="/18f7569b-7276-58d0-8470-35ff049f460f/"/>
+      <tstamps>0b688db9-3b5d-5e1b-93a0-6bdd54ab00fb</tstamps>
+    </comp>
+    <comp ref="R57">
+      <value>100k</value>
+      <footprint>Tester:R_0805_2012Metric</footprint>
+      <fields>
+        <field name="MPN">RT0805BRD07100KL</field>
+        <field name="Manufacturer">Yageo</field>
+        <field name="Notes">0.1%, 25 ppm/K</field>
+        <field name="Footprint">Tester:R_0805_2012Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Tester" part="R" description=""/>
+      <property name="MPN" value="RT0805BRD07100KL"/>
+      <property name="Manufacturer" value="Yageo"/>
+      <property name="Notes" value="0.1%, 25 ppm/K"/>
+      <property name="Sheetname" value="Inputs 9-12"/>
+      <property name="Sheetfile" value="bank3.kicad_sch"/>
+      <sheetpath names="/Inputs 9-12/" tstamps="/18f7569b-7276-58d0-8470-35ff049f460f/"/>
+      <tstamps>31850ef5-51b9-5731-a112-353d93fb24f3</tstamps>
+    </comp>
+    <comp ref="TP9">
+      <value>A9</value>
+      <footprint>Tester:TestPoint_Pad_D1.5mm</footprint>
+      <fields>
+        <field name="MPN"/>
+        <field name="Manufacturer"/>
+        <field name="Notes"/>
+        <field name="Footprint">Tester:TestPoint_Pad_D1.5mm</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Tester" part="TP" description=""/>
+      <property name="MPN" value=""/>
+      <property name="Manufacturer" value=""/>
+      <property name="Notes" value=""/>
+      <property name="Sheetname" value="Inputs 9-12"/>
+      <property name="Sheetfile" value="bank3.kicad_sch"/>
+      <property name="exclude_from_bom"/>
+      <sheetpath names="/Inputs 9-12/" tstamps="/18f7569b-7276-58d0-8470-35ff049f460f/"/>
+      <tstamps>cdff7bd0-8e36-5856-b915-728c93a35476</tstamps>
+    </comp>
+    <comp ref="TP10">
+      <value>A10</value>
+      <footprint>Tester:TestPoint_Pad_D1.5mm</footprint>
+      <fields>
+        <field name="MPN"/>
+        <field name="Manufacturer"/>
+        <field name="Notes"/>
+        <field name="Footprint">Tester:TestPoint_Pad_D1.5mm</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Tester" part="TP" description=""/>
+      <property name="MPN" value=""/>
+      <property name="Manufacturer" value=""/>
+      <property name="Notes" value=""/>
+      <property name="Sheetname" value="Inputs 9-12"/>
+      <property name="Sheetfile" value="bank3.kicad_sch"/>
+      <property name="exclude_from_bom"/>
+      <sheetpath names="/Inputs 9-12/" tstamps="/18f7569b-7276-58d0-8470-35ff049f460f/"/>
+      <tstamps>64b821de-ab31-5719-8c07-71971acb774d</tstamps>
+    </comp>
+    <comp ref="TP11">
+      <value>A11</value>
+      <footprint>Tester:TestPoint_Pad_D1.5mm</footprint>
+      <fields>
+        <field name="MPN"/>
+        <field name="Manufacturer"/>
+        <field name="Notes"/>
+        <field name="Footprint">Tester:TestPoint_Pad_D1.5mm</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Tester" part="TP" description=""/>
+      <property name="MPN" value=""/>
+      <property name="Manufacturer" value=""/>
+      <property name="Notes" value=""/>
+      <property name="Sheetname" value="Inputs 9-12"/>
+      <property name="Sheetfile" value="bank3.kicad_sch"/>
+      <property name="exclude_from_bom"/>
+      <sheetpath names="/Inputs 9-12/" tstamps="/18f7569b-7276-58d0-8470-35ff049f460f/"/>
+      <tstamps>4ed7cf4d-e68f-5356-be69-87dd7efd5a10</tstamps>
+    </comp>
+    <comp ref="TP12">
+      <value>A12</value>
+      <footprint>Tester:TestPoint_Pad_D1.5mm</footprint>
+      <fields>
+        <field name="MPN"/>
+        <field name="Manufacturer"/>
+        <field name="Notes"/>
+        <field name="Footprint">Tester:TestPoint_Pad_D1.5mm</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Tester" part="TP" description=""/>
+      <property name="MPN" value=""/>
+      <property name="Manufacturer" value=""/>
+      <property name="Notes" value=""/>
+      <property name="Sheetname" value="Inputs 9-12"/>
+      <property name="Sheetfile" value="bank3.kicad_sch"/>
+      <property name="exclude_from_bom"/>
+      <sheetpath names="/Inputs 9-12/" tstamps="/18f7569b-7276-58d0-8470-35ff049f460f/"/>
+      <tstamps>ddd12602-cb2e-53b9-8098-038183d73b0d</tstamps>
+    </comp>
+    <comp ref="U3">
+      <value>ADS1115IDGSR</value>
+      <footprint>Tester:TSSOP-10_3x3mm_P0.5mm</footprint>
+      <fields>
+        <field name="MPN">ADS1115IDGSR</field>
+        <field name="Manufacturer">Texas Instruments</field>
+        <field name="Notes">ADDR=GND/3V3/SDA for 0x48/0x49/0x4A</field>
+        <field name="Footprint">Tester:TSSOP-10_3x3mm_P0.5mm</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Tester" part="ADS1115" description=""/>
+      <property name="MPN" value="ADS1115IDGSR"/>
+      <property name="Manufacturer" value="Texas Instruments"/>
+      <property name="Notes" value="ADDR=GND/3V3/SDA for 0x48/0x49/0x4A"/>
+      <property name="Sheetname" value="Inputs 9-12"/>
+      <property name="Sheetfile" value="bank3.kicad_sch"/>
+      <sheetpath names="/Inputs 9-12/" tstamps="/18f7569b-7276-58d0-8470-35ff049f460f/"/>
+      <tstamps>47c473dd-602b-558a-bcda-bb4d5bc17e64</tstamps>
+    </comp>
+    <comp ref="U6">
+      <value>ADG4612BRUZ</value>
+      <footprint>Tester:TSSOP-16_4.4x5mm_P0.65mm</footprint>
+      <fields>
+        <field name="MPN">ADG4612BRUZ</field>
+        <field name="Manufacturer">Analog Devices</field>
+        <field name="Notes">TSSOP-16; powered from isolated 5V; enable from 3.08V supervisor</field>
+        <field name="Footprint">Tester:TSSOP-16_4.4x5mm_P0.65mm</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Tester" part="ADG4612" description=""/>
+      <property name="MPN" value="ADG4612BRUZ"/>
+      <property name="Manufacturer" value="Analog Devices"/>
+      <property name="Notes" value="TSSOP-16; powered from isolated 5V; enable from 3.08V supervisor"/>
+      <property name="Sheetname" value="Inputs 9-12"/>
+      <property name="Sheetfile" value="bank3.kicad_sch"/>
+      <sheetpath names="/Inputs 9-12/" tstamps="/18f7569b-7276-58d0-8470-35ff049f460f/"/>
+      <tstamps>0ccc817a-aca3-5fc3-95ef-a7b381558367</tstamps>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="Tester" part="ADG4612">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">ADG4612</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="IN1" type="input"/>
+        <pin num="2" name="D1" type="passive"/>
+        <pin num="3" name="S1" type="passive"/>
+        <pin num="4" name="VSS" type="power_in"/>
+        <pin num="5" name="GND" type="power_in"/>
+        <pin num="6" name="S4" type="passive"/>
+        <pin num="7" name="D4" type="passive"/>
+        <pin num="8" name="IN4" type="input"/>
+        <pin num="9" name="IN3" type="input"/>
+        <pin num="10" name="D3" type="passive"/>
+        <pin num="11" name="S3" type="passive"/>
+        <pin num="12" name="NC" type="no_connect"/>
+        <pin num="13" name="VDD" type="power_in"/>
+        <pin num="14" name="S2" type="passive"/>
+        <pin num="15" name="D2" type="passive"/>
+        <pin num="16" name="IN2" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="Tester" part="ADS1115">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">ADS1115</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="ADDR" type="input"/>
+        <pin num="2" name="ALERT_RDY" type="open_collector"/>
+        <pin num="3" name="GND" type="power_in"/>
+        <pin num="4" name="AIN0" type="input"/>
+        <pin num="5" name="AIN1" type="input"/>
+        <pin num="6" name="AIN2" type="input"/>
+        <pin num="7" name="AIN3" type="input"/>
+        <pin num="8" name="VDD" type="power_in"/>
+        <pin num="9" name="SDA" type="bidirectional"/>
+        <pin num="10" name="SCL" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="Tester" part="C">
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Tester" part="CONN4">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">CONN4</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+        <pin num="3" name="3" type="passive"/>
+        <pin num="4" name="4" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Tester" part="CONN5">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">CONN5</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+        <pin num="3" name="3" type="passive"/>
+        <pin num="4" name="4" type="passive"/>
+        <pin num="5" name="5" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Tester" part="D">
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">D</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Tester" part="DZ">
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">DZ</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Tester" part="FUSE">
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">FUSE</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Tester" part="ISO1640B">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">ISO1640B</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="VCC1" type="power_in"/>
+        <pin num="2" name="SDA1" type="bidirectional"/>
+        <pin num="3" name="SCL1" type="bidirectional"/>
+        <pin num="4" name="GND1" type="power_in"/>
+        <pin num="5" name="GND2" type="power_in"/>
+        <pin num="6" name="SCL2" type="bidirectional"/>
+        <pin num="7" name="SDA2" type="bidirectional"/>
+        <pin num="8" name="VCC2" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="Tester" part="OPA320">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">OPA320</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="OUT" type="output"/>
+        <pin num="2" name="VSS" type="power_in"/>
+        <pin num="3" name="IN+" type="input"/>
+        <pin num="4" name="IN-" type="input"/>
+        <pin num="5" name="VDD" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="Tester" part="R">
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Tester" part="R05C05TE05S">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">R05C05TE05S</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="-VIN" type="power_in"/>
+        <pin num="2" name="-VIN" type="passive"/>
+        <pin num="3" name="+VIN" type="power_in"/>
+        <pin num="4" name="+VIN" type="passive"/>
+        <pin num="5" name="SGNDIN" type="passive"/>
+        <pin num="6" name="SGNDIN" type="passive"/>
+        <pin num="7" name="SGNDIN" type="passive"/>
+        <pin num="8" name="SGNDIN" type="passive"/>
+        <pin num="9" name="SGNDOUT" type="passive"/>
+        <pin num="10" name="DNC" type="no_connect"/>
+        <pin num="11" name="SGNDOUT" type="passive"/>
+        <pin num="12" name="SGNDOUT" type="passive"/>
+        <pin num="13" name="+VOUT" type="passive"/>
+        <pin num="14" name="+VOUT" type="power_out"/>
+        <pin num="15" name="-VOUT" type="passive"/>
+        <pin num="16" name="-VOUT" type="power_out"/>
+      </pins>
+    </libpart>
+    <libpart lib="Tester" part="TLV75533">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">TLV75533</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="IN" type="power_in"/>
+        <pin num="2" name="GND" type="power_in"/>
+        <pin num="3" name="EN" type="input"/>
+        <pin num="4" name="NC" type="no_connect"/>
+        <pin num="5" name="OUT" type="power_out"/>
+      </pins>
+    </libpart>
+    <libpart lib="Tester" part="TLV809EA30">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">TLV809EA30</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="GND" type="power_in"/>
+        <pin num="2" name="RESET_N" type="output"/>
+        <pin num="3" name="VDD" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="Tester" part="TP">
+      <fields>
+        <field name="Reference">TP</field>
+        <field name="Value">TP</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="Tester">
+      <uri>/Users/petter/Documents/ChatGPT/Power supply tester/hardware/rev-a/libraries/Tester.kicad_sym</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="A1" class="Default">
+      <node ref="C1" pin="1" pintype="passive"/>
+      <node ref="R3" pin="1" pintype="passive"/>
+      <node ref="TP1" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U1" pin="4" pinfunction="AIN0" pintype="input"/>
+      <node ref="U4" pin="2" pinfunction="D1" pintype="passive"/>
+    </net>
+    <net code="2" name="A2" class="Default">
+      <node ref="C2" pin="1" pintype="passive"/>
+      <node ref="R6" pin="1" pintype="passive"/>
+      <node ref="TP2" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U1" pin="5" pinfunction="AIN1" pintype="input"/>
+      <node ref="U4" pin="15" pinfunction="D2" pintype="passive"/>
+    </net>
+    <net code="3" name="A3" class="Default">
+      <node ref="C3" pin="1" pintype="passive"/>
+      <node ref="R9" pin="1" pintype="passive"/>
+      <node ref="TP3" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U1" pin="6" pinfunction="AIN2" pintype="input"/>
+      <node ref="U4" pin="10" pinfunction="D3" pintype="passive"/>
+    </net>
+    <net code="4" name="A3V3" class="Default">
+      <node ref="C13" pin="1" pintype="passive"/>
+      <node ref="C14" pin="1" pintype="passive"/>
+      <node ref="C15" pin="1" pintype="passive"/>
+      <node ref="C24" pin="1" pintype="passive"/>
+      <node ref="C25" pin="1" pintype="passive"/>
+      <node ref="C27" pin="1" pintype="passive"/>
+      <node ref="C29" pin="1" pintype="passive"/>
+      <node ref="C30" pin="1" pintype="passive"/>
+      <node ref="D13" pin="2" pintype="passive"/>
+      <node ref="R37" pin="1" pintype="passive"/>
+      <node ref="R41" pin="1" pintype="passive"/>
+      <node ref="R42" pin="1" pintype="passive"/>
+      <node ref="R45" pin="1" pintype="passive"/>
+      <node ref="TP17" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U1" pin="8" pinfunction="VDD" pintype="power_in"/>
+      <node ref="U10" pin="5" pinfunction="VDD" pintype="power_in"/>
+      <node ref="U11" pin="3" pinfunction="VDD" pintype="power_in"/>
+      <node ref="U2" pin="1" pinfunction="ADDR" pintype="input"/>
+      <node ref="U2" pin="8" pinfunction="VDD" pintype="power_in"/>
+      <node ref="U3" pin="8" pinfunction="VDD" pintype="power_in"/>
+      <node ref="U8" pin="8" pinfunction="VCC2" pintype="power_in"/>
+      <node ref="U9" pin="5" pinfunction="OUT" pintype="power_out"/>
+    </net>
+    <net code="5" name="A4" class="Default">
+      <node ref="C4" pin="1" pintype="passive"/>
+      <node ref="R12" pin="1" pintype="passive"/>
+      <node ref="TP4" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U1" pin="7" pinfunction="AIN3" pintype="input"/>
+      <node ref="U4" pin="7" pinfunction="D4" pintype="passive"/>
+    </net>
+    <net code="6" name="A5" class="Default">
+      <node ref="C5" pin="1" pintype="passive"/>
+      <node ref="R15" pin="1" pintype="passive"/>
+      <node ref="TP5" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U2" pin="4" pinfunction="AIN0" pintype="input"/>
+      <node ref="U5" pin="2" pinfunction="D1" pintype="passive"/>
+    </net>
+    <net code="7" name="A6" class="Default">
+      <node ref="C6" pin="1" pintype="passive"/>
+      <node ref="R18" pin="1" pintype="passive"/>
+      <node ref="TP6" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U2" pin="5" pinfunction="AIN1" pintype="input"/>
+      <node ref="U5" pin="15" pinfunction="D2" pintype="passive"/>
+    </net>
+    <net code="8" name="A7" class="Default">
+      <node ref="C7" pin="1" pintype="passive"/>
+      <node ref="R21" pin="1" pintype="passive"/>
+      <node ref="TP7" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U2" pin="6" pinfunction="AIN2" pintype="input"/>
+      <node ref="U5" pin="10" pinfunction="D3" pintype="passive"/>
+    </net>
+    <net code="9" name="A8" class="Default">
+      <node ref="C8" pin="1" pintype="passive"/>
+      <node ref="R24" pin="1" pintype="passive"/>
+      <node ref="TP8" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U2" pin="7" pinfunction="AIN3" pintype="input"/>
+      <node ref="U5" pin="7" pinfunction="D4" pintype="passive"/>
+    </net>
+    <net code="10" name="A9" class="Default">
+      <node ref="C9" pin="1" pintype="passive"/>
+      <node ref="R27" pin="1" pintype="passive"/>
+      <node ref="TP9" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U3" pin="4" pinfunction="AIN0" pintype="input"/>
+      <node ref="U6" pin="2" pinfunction="D1" pintype="passive"/>
+    </net>
+    <net code="11" name="A10" class="Default">
+      <node ref="C10" pin="1" pintype="passive"/>
+      <node ref="R30" pin="1" pintype="passive"/>
+      <node ref="TP10" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U3" pin="5" pinfunction="AIN1" pintype="input"/>
+      <node ref="U6" pin="15" pinfunction="D2" pintype="passive"/>
+    </net>
+    <net code="12" name="A11" class="Default">
+      <node ref="C11" pin="1" pintype="passive"/>
+      <node ref="R33" pin="1" pintype="passive"/>
+      <node ref="TP11" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U3" pin="6" pinfunction="AIN2" pintype="input"/>
+      <node ref="U6" pin="10" pinfunction="D3" pintype="passive"/>
+    </net>
+    <net code="13" name="A12" class="Default">
+      <node ref="C12" pin="1" pintype="passive"/>
+      <node ref="R36" pin="1" pintype="passive"/>
+      <node ref="TP12" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U3" pin="7" pinfunction="AIN3" pintype="input"/>
+      <node ref="U6" pin="7" pinfunction="D4" pintype="passive"/>
+    </net>
+    <net code="14" name="AGND" class="Default">
+      <node ref="C1" pin="2" pintype="passive"/>
+      <node ref="C10" pin="2" pintype="passive"/>
+      <node ref="C11" pin="2" pintype="passive"/>
+      <node ref="C12" pin="2" pintype="passive"/>
+      <node ref="C13" pin="2" pintype="passive"/>
+      <node ref="C14" pin="2" pintype="passive"/>
+      <node ref="C15" pin="2" pintype="passive"/>
+      <node ref="C16" pin="2" pintype="passive"/>
+      <node ref="C17" pin="2" pintype="passive"/>
+      <node ref="C18" pin="2" pintype="passive"/>
+      <node ref="C2" pin="2" pintype="passive"/>
+      <node ref="C21" pin="2" pintype="passive"/>
+      <node ref="C22" pin="2" pintype="passive"/>
+      <node ref="C23" pin="2" pintype="passive"/>
+      <node ref="C24" pin="2" pintype="passive"/>
+      <node ref="C25" pin="2" pintype="passive"/>
+      <node ref="C27" pin="2" pintype="passive"/>
+      <node ref="C28" pin="2" pintype="passive"/>
+      <node ref="C29" pin="2" pintype="passive"/>
+      <node ref="C3" pin="2" pintype="passive"/>
+      <node ref="C30" pin="2" pintype="passive"/>
+      <node ref="C4" pin="2" pintype="passive"/>
+      <node ref="C5" pin="2" pintype="passive"/>
+      <node ref="C6" pin="2" pintype="passive"/>
+      <node ref="C7" pin="2" pintype="passive"/>
+      <node ref="C8" pin="2" pintype="passive"/>
+      <node ref="C9" pin="2" pintype="passive"/>
+      <node ref="D1" pin="2" pintype="passive"/>
+      <node ref="D10" pin="2" pintype="passive"/>
+      <node ref="D11" pin="2" pintype="passive"/>
+      <node ref="D12" pin="2" pintype="passive"/>
+      <node ref="D2" pin="2" pintype="passive"/>
+      <node ref="D3" pin="2" pintype="passive"/>
+      <node ref="D4" pin="2" pintype="passive"/>
+      <node ref="D5" pin="2" pintype="passive"/>
+      <node ref="D6" pin="2" pintype="passive"/>
+      <node ref="D7" pin="2" pintype="passive"/>
+      <node ref="D8" pin="2" pintype="passive"/>
+      <node ref="D9" pin="2" pintype="passive"/>
+      <node ref="R38" pin="2" pintype="passive"/>
+      <node ref="R39" pin="2" pintype="passive"/>
+      <node ref="R40" pin="2" pintype="passive"/>
+      <node ref="R45" pin="2" pintype="passive"/>
+      <node ref="R46" pin="2" pintype="passive"/>
+      <node ref="R47" pin="2" pintype="passive"/>
+      <node ref="R48" pin="2" pintype="passive"/>
+      <node ref="R49" pin="2" pintype="passive"/>
+      <node ref="R50" pin="2" pintype="passive"/>
+      <node ref="R51" pin="2" pintype="passive"/>
+      <node ref="R52" pin="2" pintype="passive"/>
+      <node ref="R53" pin="2" pintype="passive"/>
+      <node ref="R54" pin="2" pintype="passive"/>
+      <node ref="R55" pin="2" pintype="passive"/>
+      <node ref="R56" pin="2" pintype="passive"/>
+      <node ref="R57" pin="2" pintype="passive"/>
+      <node ref="TP18" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U1" pin="1" pinfunction="ADDR" pintype="input"/>
+      <node ref="U1" pin="3" pinfunction="GND" pintype="power_in"/>
+      <node ref="U10" pin="2" pinfunction="VSS" pintype="power_in"/>
+      <node ref="U11" pin="1" pinfunction="GND" pintype="power_in"/>
+      <node ref="U2" pin="3" pinfunction="GND" pintype="power_in"/>
+      <node ref="U3" pin="3" pinfunction="GND" pintype="power_in"/>
+      <node ref="U4" pin="4" pinfunction="VSS" pintype="power_in"/>
+      <node ref="U4" pin="5" pinfunction="GND" pintype="power_in"/>
+      <node ref="U5" pin="4" pinfunction="VSS" pintype="power_in"/>
+      <node ref="U5" pin="5" pinfunction="GND" pintype="power_in"/>
+      <node ref="U6" pin="4" pinfunction="VSS" pintype="power_in"/>
+      <node ref="U6" pin="5" pinfunction="GND" pintype="power_in"/>
+      <node ref="U7" pin="11" pinfunction="SGNDOUT" pintype="passive"/>
+      <node ref="U7" pin="12" pinfunction="SGNDOUT" pintype="passive"/>
+      <node ref="U7" pin="15" pinfunction="-VOUT" pintype="passive"/>
+      <node ref="U7" pin="16" pinfunction="-VOUT" pintype="power_out"/>
+      <node ref="U7" pin="9" pinfunction="SGNDOUT" pintype="passive"/>
+      <node ref="U8" pin="5" pinfunction="GND2" pintype="power_in"/>
+      <node ref="U9" pin="2" pinfunction="GND" pintype="power_in"/>
+    </net>
+    <net code="15" name="BIAS_SET" class="Default">
+      <node ref="C28" pin="1" pintype="passive"/>
+      <node ref="R37" pin="2" pintype="passive"/>
+      <node ref="R38" pin="1" pintype="passive"/>
+      <node ref="U10" pin="3" pinfunction="IN+" pintype="input"/>
+    </net>
+    <net code="16" name="HOST3V3" class="Default">
+      <node ref="C26" pin="1" pintype="passive"/>
+      <node ref="J4" pin="3" pinfunction="3" pintype="passive"/>
+      <node ref="R43" pin="1" pintype="passive"/>
+      <node ref="R44" pin="1" pintype="passive"/>
+      <node ref="TP15" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U8" pin="1" pinfunction="VCC1" pintype="power_in"/>
+    </net>
+    <net code="17" name="ISO5V" class="Default">
+      <node ref="C16" pin="1" pintype="passive"/>
+      <node ref="C17" pin="1" pintype="passive"/>
+      <node ref="C18" pin="1" pintype="passive"/>
+      <node ref="C21" pin="1" pintype="passive"/>
+      <node ref="C22" pin="1" pintype="passive"/>
+      <node ref="C23" pin="1" pintype="passive"/>
+      <node ref="D13" pin="1" pintype="passive"/>
+      <node ref="TP16" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U4" pin="13" pinfunction="VDD" pintype="power_in"/>
+      <node ref="U5" pin="13" pinfunction="VDD" pintype="power_in"/>
+      <node ref="U6" pin="13" pinfunction="VDD" pintype="power_in"/>
+      <node ref="U7" pin="13" pinfunction="+VOUT" pintype="passive"/>
+      <node ref="U7" pin="14" pinfunction="+VOUT" pintype="power_out"/>
+      <node ref="U9" pin="1" pinfunction="IN" pintype="power_in"/>
+      <node ref="U9" pin="3" pinfunction="EN" pintype="input"/>
+    </net>
+    <net code="18" name="MID1" class="Default">
+      <node ref="R1" pin="2" pintype="passive"/>
+      <node ref="R2" pin="1" pintype="passive"/>
+    </net>
+    <net code="19" name="MID2" class="Default">
+      <node ref="R4" pin="2" pintype="passive"/>
+      <node ref="R5" pin="1" pintype="passive"/>
+    </net>
+    <net code="20" name="MID3" class="Default">
+      <node ref="R7" pin="2" pintype="passive"/>
+      <node ref="R8" pin="1" pintype="passive"/>
+    </net>
+    <net code="21" name="MID4" class="Default">
+      <node ref="R10" pin="2" pintype="passive"/>
+      <node ref="R11" pin="1" pintype="passive"/>
+    </net>
+    <net code="22" name="MID5" class="Default">
+      <node ref="R13" pin="2" pintype="passive"/>
+      <node ref="R14" pin="1" pintype="passive"/>
+    </net>
+    <net code="23" name="MID6" class="Default">
+      <node ref="R16" pin="2" pintype="passive"/>
+      <node ref="R17" pin="1" pintype="passive"/>
+    </net>
+    <net code="24" name="MID7" class="Default">
+      <node ref="R19" pin="2" pintype="passive"/>
+      <node ref="R20" pin="1" pintype="passive"/>
+    </net>
+    <net code="25" name="MID8" class="Default">
+      <node ref="R22" pin="2" pintype="passive"/>
+      <node ref="R23" pin="1" pintype="passive"/>
+    </net>
+    <net code="26" name="MID9" class="Default">
+      <node ref="R25" pin="2" pintype="passive"/>
+      <node ref="R26" pin="1" pintype="passive"/>
+    </net>
+    <net code="27" name="MID10" class="Default">
+      <node ref="R28" pin="2" pintype="passive"/>
+      <node ref="R29" pin="1" pintype="passive"/>
+    </net>
+    <net code="28" name="MID11" class="Default">
+      <node ref="R31" pin="2" pintype="passive"/>
+      <node ref="R32" pin="1" pintype="passive"/>
+    </net>
+    <net code="29" name="MID12" class="Default">
+      <node ref="R34" pin="2" pintype="passive"/>
+      <node ref="R35" pin="1" pintype="passive"/>
+    </net>
+    <net code="30" name="P1" class="Default">
+      <node ref="J1" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="R1" pin="1" pintype="passive"/>
+    </net>
+    <net code="31" name="P2" class="Default">
+      <node ref="J1" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="R4" pin="1" pintype="passive"/>
+    </net>
+    <net code="32" name="P3" class="Default">
+      <node ref="J1" pin="3" pinfunction="3" pintype="passive"/>
+      <node ref="R7" pin="1" pintype="passive"/>
+    </net>
+    <net code="33" name="P4" class="Default">
+      <node ref="J1" pin="4" pinfunction="4" pintype="passive"/>
+      <node ref="R10" pin="1" pintype="passive"/>
+    </net>
+    <net code="34" name="P5" class="Default">
+      <node ref="J2" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="R13" pin="1" pintype="passive"/>
+    </net>
+    <net code="35" name="P6" class="Default">
+      <node ref="J2" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="R16" pin="1" pintype="passive"/>
+    </net>
+    <net code="36" name="P7" class="Default">
+      <node ref="J2" pin="3" pinfunction="3" pintype="passive"/>
+      <node ref="R19" pin="1" pintype="passive"/>
+    </net>
+    <net code="37" name="P8" class="Default">
+      <node ref="J2" pin="4" pinfunction="4" pintype="passive"/>
+      <node ref="R22" pin="1" pintype="passive"/>
+    </net>
+    <net code="38" name="P9" class="Default">
+      <node ref="J3" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="R25" pin="1" pintype="passive"/>
+    </net>
+    <net code="39" name="P10" class="Default">
+      <node ref="J3" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="R28" pin="1" pintype="passive"/>
+    </net>
+    <net code="40" name="P11" class="Default">
+      <node ref="J3" pin="3" pinfunction="3" pintype="passive"/>
+      <node ref="R31" pin="1" pintype="passive"/>
+    </net>
+    <net code="41" name="P12" class="Default">
+      <node ref="J3" pin="4" pinfunction="4" pintype="passive"/>
+      <node ref="R34" pin="1" pintype="passive"/>
+    </net>
+    <net code="42" name="S1" class="Default">
+      <node ref="D1" pin="1" pintype="passive"/>
+      <node ref="R2" pin="2" pintype="passive"/>
+      <node ref="R46" pin="1" pintype="passive"/>
+      <node ref="U4" pin="3" pinfunction="S1" pintype="passive"/>
+    </net>
+    <net code="43" name="S2" class="Default">
+      <node ref="D2" pin="1" pintype="passive"/>
+      <node ref="R47" pin="1" pintype="passive"/>
+      <node ref="R5" pin="2" pintype="passive"/>
+      <node ref="U4" pin="14" pinfunction="S2" pintype="passive"/>
+    </net>
+    <net code="44" name="S3" class="Default">
+      <node ref="D3" pin="1" pintype="passive"/>
+      <node ref="R48" pin="1" pintype="passive"/>
+      <node ref="R8" pin="2" pintype="passive"/>
+      <node ref="U4" pin="11" pinfunction="S3" pintype="passive"/>
+    </net>
+    <net code="45" name="S4" class="Default">
+      <node ref="D4" pin="1" pintype="passive"/>
+      <node ref="R11" pin="2" pintype="passive"/>
+      <node ref="R49" pin="1" pintype="passive"/>
+      <node ref="U4" pin="6" pinfunction="S4" pintype="passive"/>
+    </net>
+    <net code="46" name="S5" class="Default">
+      <node ref="D5" pin="1" pintype="passive"/>
+      <node ref="R14" pin="2" pintype="passive"/>
+      <node ref="R50" pin="1" pintype="passive"/>
+      <node ref="U5" pin="3" pinfunction="S1" pintype="passive"/>
+    </net>
+    <net code="47" name="S6" class="Default">
+      <node ref="D6" pin="1" pintype="passive"/>
+      <node ref="R17" pin="2" pintype="passive"/>
+      <node ref="R51" pin="1" pintype="passive"/>
+      <node ref="U5" pin="14" pinfunction="S2" pintype="passive"/>
+    </net>
+    <net code="48" name="S7" class="Default">
+      <node ref="D7" pin="1" pintype="passive"/>
+      <node ref="R20" pin="2" pintype="passive"/>
+      <node ref="R52" pin="1" pintype="passive"/>
+      <node ref="U5" pin="11" pinfunction="S3" pintype="passive"/>
+    </net>
+    <net code="49" name="S8" class="Default">
+      <node ref="D8" pin="1" pintype="passive"/>
+      <node ref="R23" pin="2" pintype="passive"/>
+      <node ref="R53" pin="1" pintype="passive"/>
+      <node ref="U5" pin="6" pinfunction="S4" pintype="passive"/>
+    </net>
+    <net code="50" name="S9" class="Default">
+      <node ref="D9" pin="1" pintype="passive"/>
+      <node ref="R26" pin="2" pintype="passive"/>
+      <node ref="R54" pin="1" pintype="passive"/>
+      <node ref="U6" pin="3" pinfunction="S1" pintype="passive"/>
+    </net>
+    <net code="51" name="S10" class="Default">
+      <node ref="D10" pin="1" pintype="passive"/>
+      <node ref="R29" pin="2" pintype="passive"/>
+      <node ref="R55" pin="1" pintype="passive"/>
+      <node ref="U6" pin="14" pinfunction="S2" pintype="passive"/>
+    </net>
+    <net code="52" name="S11" class="Default">
+      <node ref="D11" pin="1" pintype="passive"/>
+      <node ref="R32" pin="2" pintype="passive"/>
+      <node ref="R56" pin="1" pintype="passive"/>
+      <node ref="U6" pin="11" pinfunction="S3" pintype="passive"/>
+    </net>
+    <net code="53" name="S12" class="Default">
+      <node ref="D12" pin="1" pintype="passive"/>
+      <node ref="R35" pin="2" pintype="passive"/>
+      <node ref="R57" pin="1" pintype="passive"/>
+      <node ref="U6" pin="6" pinfunction="S4" pintype="passive"/>
+    </net>
+    <net code="54" name="SCL_HOST" class="Default">
+      <node ref="J4" pin="5" pinfunction="5" pintype="passive"/>
+      <node ref="R44" pin="2" pintype="passive"/>
+      <node ref="U8" pin="3" pinfunction="SCL1" pintype="bidirectional"/>
+    </net>
+    <net code="55" name="SCL_ISO" class="Default">
+      <node ref="R42" pin="2" pintype="passive"/>
+      <node ref="TP22" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U1" pin="10" pinfunction="SCL" pintype="input"/>
+      <node ref="U2" pin="10" pinfunction="SCL" pintype="input"/>
+      <node ref="U3" pin="10" pinfunction="SCL" pintype="input"/>
+      <node ref="U8" pin="6" pinfunction="SCL2" pintype="bidirectional"/>
+    </net>
+    <net code="56" name="SDA_HOST" class="Default">
+      <node ref="J4" pin="4" pinfunction="4" pintype="passive"/>
+      <node ref="R43" pin="2" pintype="passive"/>
+      <node ref="U8" pin="2" pinfunction="SDA1" pintype="bidirectional"/>
+    </net>
+    <net code="57" name="SDA_ISO" class="Default">
+      <node ref="R41" pin="2" pintype="passive"/>
+      <node ref="TP21" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U1" pin="9" pinfunction="SDA" pintype="bidirectional"/>
+      <node ref="U2" pin="9" pinfunction="SDA" pintype="bidirectional"/>
+      <node ref="U3" pin="1" pinfunction="ADDR" pintype="input"/>
+      <node ref="U3" pin="9" pinfunction="SDA" pintype="bidirectional"/>
+      <node ref="U8" pin="7" pinfunction="SDA2" pintype="bidirectional"/>
+    </net>
+    <net code="58" name="SENSE_EN" class="Default">
+      <node ref="R40" pin="1" pintype="passive"/>
+      <node ref="TP20" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U11" pin="2" pinfunction="RESET_N" pintype="output"/>
+      <node ref="U4" pin="1" pinfunction="IN1" pintype="input"/>
+      <node ref="U4" pin="16" pinfunction="IN2" pintype="input"/>
+      <node ref="U4" pin="8" pinfunction="IN4" pintype="input"/>
+      <node ref="U4" pin="9" pinfunction="IN3" pintype="input"/>
+      <node ref="U5" pin="1" pinfunction="IN1" pintype="input"/>
+      <node ref="U5" pin="16" pinfunction="IN2" pintype="input"/>
+      <node ref="U5" pin="8" pinfunction="IN4" pintype="input"/>
+      <node ref="U5" pin="9" pinfunction="IN3" pintype="input"/>
+      <node ref="U6" pin="1" pinfunction="IN1" pintype="input"/>
+      <node ref="U6" pin="16" pinfunction="IN2" pintype="input"/>
+      <node ref="U6" pin="8" pinfunction="IN4" pintype="input"/>
+      <node ref="U6" pin="9" pinfunction="IN3" pintype="input"/>
+    </net>
+    <net code="59" name="USB5V" class="Default">
+      <node ref="F1" pin="1" pintype="passive"/>
+      <node ref="J4" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="TP13" pin="1" pinfunction="1" pintype="passive"/>
+    </net>
+    <net code="60" name="USB5V_F" class="Default">
+      <node ref="C19" pin="1" pintype="passive"/>
+      <node ref="C20" pin="1" pintype="passive"/>
+      <node ref="F1" pin="2" pintype="passive"/>
+      <node ref="U7" pin="3" pinfunction="+VIN" pintype="power_in"/>
+      <node ref="U7" pin="4" pinfunction="+VIN" pintype="passive"/>
+    </net>
+    <net code="61" name="USB_GND" class="Default">
+      <node ref="C19" pin="2" pintype="passive"/>
+      <node ref="C20" pin="2" pintype="passive"/>
+      <node ref="C26" pin="2" pintype="passive"/>
+      <node ref="J4" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="TP14" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U7" pin="1" pinfunction="-VIN" pintype="power_in"/>
+      <node ref="U7" pin="2" pinfunction="-VIN" pintype="passive"/>
+      <node ref="U7" pin="5" pinfunction="SGNDIN" pintype="passive"/>
+      <node ref="U7" pin="6" pinfunction="SGNDIN" pintype="passive"/>
+      <node ref="U7" pin="7" pinfunction="SGNDIN" pintype="passive"/>
+      <node ref="U7" pin="8" pinfunction="SGNDIN" pintype="passive"/>
+      <node ref="U8" pin="4" pinfunction="GND1" pintype="power_in"/>
+    </net>
+    <net code="62" name="VBIAS" class="Default">
+      <node ref="R12" pin="2" pintype="passive"/>
+      <node ref="R15" pin="2" pintype="passive"/>
+      <node ref="R18" pin="2" pintype="passive"/>
+      <node ref="R21" pin="2" pintype="passive"/>
+      <node ref="R24" pin="2" pintype="passive"/>
+      <node ref="R27" pin="2" pintype="passive"/>
+      <node ref="R3" pin="2" pintype="passive"/>
+      <node ref="R30" pin="2" pintype="passive"/>
+      <node ref="R33" pin="2" pintype="passive"/>
+      <node ref="R36" pin="2" pintype="passive"/>
+      <node ref="R39" pin="1" pintype="passive"/>
+      <node ref="R6" pin="2" pintype="passive"/>
+      <node ref="R9" pin="2" pintype="passive"/>
+      <node ref="TP19" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U10" pin="1" pinfunction="OUT" pintype="output"/>
+      <node ref="U10" pin="4" pinfunction="IN-" pintype="input"/>
+    </net>
+    <net code="63" name="unconnected-(U1-ALERT_RDY-Pad2)" class="Default">
+      <node ref="U1" pin="2" pinfunction="ALERT_RDY" pintype="open_collector+no_connect"/>
+    </net>
+    <net code="64" name="unconnected-(U2-ALERT_RDY-Pad2)" class="Default">
+      <node ref="U2" pin="2" pinfunction="ALERT_RDY" pintype="open_collector+no_connect"/>
+    </net>
+    <net code="65" name="unconnected-(U3-ALERT_RDY-Pad2)" class="Default">
+      <node ref="U3" pin="2" pinfunction="ALERT_RDY" pintype="open_collector+no_connect"/>
+    </net>
+    <net code="66" name="unconnected-(U4-NC-Pad12)" class="Default">
+      <node ref="U4" pin="12" pinfunction="NC" pintype="no_connect"/>
+    </net>
+    <net code="67" name="unconnected-(U5-NC-Pad12)" class="Default">
+      <node ref="U5" pin="12" pinfunction="NC" pintype="no_connect"/>
+    </net>
+    <net code="68" name="unconnected-(U6-NC-Pad12)" class="Default">
+      <node ref="U6" pin="12" pinfunction="NC" pintype="no_connect"/>
+    </net>
+    <net code="69" name="unconnected-(U7-DNC-Pad10)" class="Default">
+      <node ref="U7" pin="10" pinfunction="DNC" pintype="no_connect"/>
+    </net>
+    <net code="70" name="unconnected-(U9-NC-Pad4)" class="Default">
+      <node ref="U9" pin="4" pinfunction="NC" pintype="no_connect"/>
+    </net>
+  </nets>
+</export>

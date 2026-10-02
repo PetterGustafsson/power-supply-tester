@@ -1,0 +1,18 @@
+{
+  "status": "PASS",
+  "jlc_bom_unique_parts": 24,
+  "populated_references": 114,
+  "DNP_excluded": [
+    "R43",
+    "R44"
+  ],
+  "jlc_cpl_positions_verified": 114,
+  "native_MPN_and_LCSC_match": true,
+  "netlist_connectivity_unchanged": true,
+  "native_PCB_purchasing_fields_match": true,
+  "physical_PCB_unchanged": true,
+  "manufacturing_drawing_commands_unchanged": true,
+  "workbook_has_no_error_cells": true,
+  "procurement_status": "HOLD: U7 / C5338283 preorder delivery and price unconfirmed",
+  "limitations": "File checks do not verify JLC library rotations, vendor DFM or assembled hardware."
+}

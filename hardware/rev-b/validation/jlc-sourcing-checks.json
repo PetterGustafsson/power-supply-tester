@@ -1,0 +1,22 @@
+{
+  "status": "PASS",
+  "revision": "B",
+  "jlc_bom_unique_parts": 24,
+  "populated_references": 114,
+  "DNP_excluded": [
+    "R43",
+    "R44"
+  ],
+  "jlc_cpl_positions_verified": 114,
+  "native_MPN_and_LCSC_match": true,
+  "non_U7_connectivity_unchanged": true,
+  "native_PCB_purchasing_fields_match": true,
+  "approved_revision_deltas_checked": true,
+  "manufacturing_regenerated_from_revision": "B",
+  "workbook_has_no_error_cells": true,
+  "basic_skus": 9,
+  "promotional_extended_skus": 1,
+  "extended_skus": 14,
+  "procurement_status": "All 24 types in stock at lookup; JLC matching, attrition, placement and DFM still required",
+  "limitations": "File checks do not verify JLC library rotations, vendor DFM or assembled hardware."
+}

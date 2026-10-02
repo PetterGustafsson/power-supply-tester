@@ -1,0 +1,286 @@
+{
+  "status": "PASS",
+  "changes": [
+    {
+      "ref": "D1",
+      "field": "fp",
+      "before": "Diode_SMD:D_SOD-123F",
+      "after": "Diode_SMD:D_SOD-123"
+    },
+    {
+      "ref": "C1",
+      "field": "value",
+      "before": "1n",
+      "after": "470p"
+    },
+    {
+      "ref": "D2",
+      "field": "fp",
+      "before": "Diode_SMD:D_SOD-123F",
+      "after": "Diode_SMD:D_SOD-123"
+    },
+    {
+      "ref": "C2",
+      "field": "value",
+      "before": "1n",
+      "after": "470p"
+    },
+    {
+      "ref": "D3",
+      "field": "fp",
+      "before": "Diode_SMD:D_SOD-123F",
+      "after": "Diode_SMD:D_SOD-123"
+    },
+    {
+      "ref": "C3",
+      "field": "value",
+      "before": "1n",
+      "after": "470p"
+    },
+    {
+      "ref": "D4",
+      "field": "fp",
+      "before": "Diode_SMD:D_SOD-123F",
+      "after": "Diode_SMD:D_SOD-123"
+    },
+    {
+      "ref": "C4",
+      "field": "value",
+      "before": "1n",
+      "after": "470p"
+    },
+    {
+      "ref": "D5",
+      "field": "fp",
+      "before": "Diode_SMD:D_SOD-123F",
+      "after": "Diode_SMD:D_SOD-123"
+    },
+    {
+      "ref": "C5",
+      "field": "value",
+      "before": "1n",
+      "after": "470p"
+    },
+    {
+      "ref": "D6",
+      "field": "fp",
+      "before": "Diode_SMD:D_SOD-123F",
+      "after": "Diode_SMD:D_SOD-123"
+    },
+    {
+      "ref": "C6",
+      "field": "value",
+      "before": "1n",
+      "after": "470p"
+    },
+    {
+      "ref": "D7",
+      "field": "fp",
+      "before": "Diode_SMD:D_SOD-123F",
+      "after": "Diode_SMD:D_SOD-123"
+    },
+    {
+      "ref": "C7",
+      "field": "value",
+      "before": "1n",
+      "after": "470p"
+    },
+    {
+      "ref": "D8",
+      "field": "fp",
+      "before": "Diode_SMD:D_SOD-123F",
+      "after": "Diode_SMD:D_SOD-123"
+    },
+    {
+      "ref": "C8",
+      "field": "value",
+      "before": "1n",
+      "after": "470p"
+    },
+    {
+      "ref": "D9",
+      "field": "fp",
+      "before": "Diode_SMD:D_SOD-123F",
+      "after": "Diode_SMD:D_SOD-123"
+    },
+    {
+      "ref": "C9",
+      "field": "value",
+      "before": "1n",
+      "after": "470p"
+    },
+    {
+      "ref": "D10",
+      "field": "fp",
+      "before": "Diode_SMD:D_SOD-123F",
+      "after": "Diode_SMD:D_SOD-123"
+    },
+    {
+      "ref": "C10",
+      "field": "value",
+      "before": "1n",
+      "after": "470p"
+    },
+    {
+      "ref": "D11",
+      "field": "fp",
+      "before": "Diode_SMD:D_SOD-123F",
+      "after": "Diode_SMD:D_SOD-123"
+    },
+    {
+      "ref": "C11",
+      "field": "value",
+      "before": "1n",
+      "after": "470p"
+    },
+    {
+      "ref": "D12",
+      "field": "fp",
+      "before": "Diode_SMD:D_SOD-123F",
+      "after": "Diode_SMD:D_SOD-123"
+    },
+    {
+      "ref": "C12",
+      "field": "value",
+      "before": "1n",
+      "after": "470p"
+    },
+    {
+      "ref": "U7",
+      "field": "sym",
+      "before": "R05C05TE05S",
+      "after": "MIE1W0505BGLVH"
+    },
+    {
+      "ref": "U7",
+      "field": "value",
+      "before": "R05C05TE05S-R",
+      "after": "MIE1W0505BGLVH-3R-Z"
+    },
+    {
+      "ref": "U7",
+      "field": "pins",
+      "before": {
+        "1": "USB_GND",
+        "2": "USB_GND",
+        "3": "USB5V_F",
+        "4": "USB5V_F",
+        "5": "USB_GND",
+        "6": "USB_GND",
+        "7": "USB_GND",
+        "8": "USB_GND",
+        "9": "AGND",
+        "10": null,
+        "11": "AGND",
+        "12": "AGND",
+        "13": "ISO5V",
+        "14": "ISO5V",
+        "15": "AGND",
+        "16": "AGND"
+      },
+      "after": {
+        "1": "USB_GND",
+        "11": "USB_GND",
+        "12": "USB_GND",
+        "9": "USB5V_F",
+        "10": "USB5V_F",
+        "8": "USB5V_F",
+        "2": "AGND",
+        "3": "AGND",
+        "4": "AGND",
+        "5": "ISO5V",
+        "6": "ISO5V",
+        "7": "ISO5V"
+      }
+    },
+    {
+      "ref": "U7",
+      "field": "fp",
+      "before": "Tester:R05C05TE05S",
+      "after": "Tester:MIE1W0505BGLVH"
+    },
+    {
+      "ref": "U7",
+      "field": "pcb",
+      "before": [
+        16,
+        11,
+        0
+      ],
+      "after": [
+        16,
+        11,
+        90
+      ]
+    },
+    {
+      "ref": "C19",
+      "field": "pcb",
+      "before": [
+        6,
+        14,
+        90
+      ],
+      "after": [
+        9.9,
+        11,
+        -90
+      ]
+    },
+    {
+      "ref": "C20",
+      "field": "pcb",
+      "before": [
+        6,
+        18,
+        90
+      ],
+      "after": [
+        12.2,
+        11,
+        -90
+      ]
+    },
+    {
+      "ref": "C21",
+      "field": "value",
+      "before": "10u",
+      "after": "22u"
+    },
+    {
+      "ref": "C21",
+      "field": "pcb",
+      "before": [
+        26,
+        10,
+        90
+      ],
+      "after": [
+        22.1,
+        11,
+        -90
+      ]
+    },
+    {
+      "ref": "C22",
+      "field": "pcb",
+      "before": [
+        26,
+        15,
+        90
+      ],
+      "after": [
+        19.8,
+        11,
+        -90
+      ]
+    },
+    {
+      "ref": "C28",
+      "field": "value",
+      "before": "1n",
+      "after": "470p"
+    }
+  ],
+  "unlisted_changes_rejected": true
+}

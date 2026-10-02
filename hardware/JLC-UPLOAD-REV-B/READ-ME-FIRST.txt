@@ -1,0 +1,32 @@
+MATCHED REV B UPLOAD FILES - 2026-09-30
+
+Start a fresh JLC quote/upload, or replace ALL THREE files in the draft:
+1. tester12v-REV-B-Gerbers.zip - PCB fabrication upload
+2. tester12v-REV-B-BOM.csv - assembly BOM upload
+3. tester12v-REV-B-CPL.csv - assembly placement upload
+
+Do not reuse the generically named PCB-Gerbers.zip or PCB-Gerbers (1).zip
+currently in Downloads: both match the older Rev A board.
+The Downloads/BOM.csv matches Rev B, making those downloads a mixed set.
+This observation does not establish which files are loaded in a JLC draft.
+
+REVISION IDENTIFIERS
+REV B: U7=MIE1W0505BGLVH-3R-Z, JLC C22419841, LGA-12 4x5mm.
+U7 CPL: X=16.0000, Y=-11.0000, Top, native rotation=90 degrees.
+REV A: U7=R05C05TE05S-R, JLC C5338283, SOIC-16.
+Rev B Gerber silkscreen says REV B. U7 uses the small LGA footprint.
+
+U7 must be selected and fitted. It is NOT DNP. If JLC has the correct U7
+but does not show it placed, check the matched part and assembly checkbox,
+then the uploaded CPL. Lack of a 3D body alone does not prove omission.
+Confirm pin 1 in the placement preview (X=13.9125, Y=-12.6375).
+R43/R44 are the only DNP BOM components.
+
+24 BOM types: 9 Basic, 1 Promotional Extended, 14 Extended.
+JLC may display Promotional Extended within the Extended category.
+Thus many Extended entries are expected even with the correct Rev B files.
+Promotional Extended has zero Economic feeder fee at the checked schedule.
+
+All three files are byte-identical to the matching files in the released
+Rev B order bundle; only their filenames changed for clarity.
+No JLC order was changed or placed. Review matching and DFM before payment.

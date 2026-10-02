@@ -1,0 +1,36 @@
+REV D1 — J1, J2, J3 ASSEMBLY ORIENTATION
+
+Part: XINYA / Ningbo Xinlaiya XY350V-3.5-4P, JLC/LCSC C557656.
+Install all three terminal blocks on the top side.
+WIRE ENTRY OPENINGS FACE THE LOWER BOARD EDGE, labelled inputs 1 through 12.
+SCREW HEADS FACE UP, accessible from above the PCB.
+Do not mount with wire openings facing the components in the board interior.
+
+Board coordinates: X increases right, Y increases down.
+Board outline: X=0..86 mm, Y=0..62 mm.
+Terminal body centres: J1=(32,52), J2=(52,52), J3=(72,52) mm.
+Wire entry direction: +Y, toward the Y=62 mm edge.
+Body edge on entry side: Y=55.45 mm. Body height: 8.6 mm above PCB.
+Native KiCad CPL rotation: 180 degrees for each terminal.
+JLC library zero angles may differ; the required physical facing direction
+above takes precedence over a numeric rotation or a mismounted 3D model.
+
+Input labels stay in ascending order left-to-right when viewed from above:
+J1: 1,2,3,4; J2: 5,6,7,8; J3: 9,10,11,12.
+Library contact numbers within each block are 4,3,2,1 left-to-right.
+The square contact-1 pads are J1=(37.25,52), J2=(57.25,52), J3=(77.25,52).
+Those pads carry P4, P8, P12 respectively.
+The manufacturer drawing does not number contacts; contact 1 is our CAD datum.
+
+References: previews/assembly.pdf, previews/pcb-3d.png, sources/XY350V.pdf,
+pin-map.csv and manufacturing/pin1-review.csv.
+Manufacturer product page:
+https://www.xinyaelectronic.com/product/xy350v-35-xy350v-396
+JLC part page:
+https://jlcpcb.com/partdetail/Ningbo_Xinlaiya_Elec-XY350V_3_54P/C557656
+
+The supplied Rev D JLC screenshot appears to show the connector model on its
+side (screw heads toward the edge, wire openings upward). A 180-degree rotation
+in the PCB plane does not fix a tilted 3D library model. The assembler must
+confirm screws up and wire entry outward from the part drawing and this note.
+No JLC placement approval is implied by this engineering package.

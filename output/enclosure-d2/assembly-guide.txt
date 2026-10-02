@@ -1,0 +1,57 @@
+ENCLOSURE PLANNING — REV D2 ASSEMBLY
+
+These renders combine the actual Rev D2 KiCad board geometry with the official
+Waveshare ESP32-S3-LCD-1.28 STEP model. The non-touch display module contains
+the ESP32; a separate ESP32 board is not shown or required by this architecture.
+The screen content is the latest connector UI artwork from the other project
+chat: output/silk-colors-clean-preview.png, copied unchanged into
+sources/display-connector-ui.png and packed into the new Blender files.
+It uses violet, amber and coral voltage groups, molded pin numerals and cyan G,
+with no black plates behind the voltage labels. The 5/12/24 V values are simulated
+artwork, not live readings or validation of the Rev D2 measurement range.
+
+FILES
+board-and-display-usb-rear-connector-ui.png / .blend: open assembly with a proposed five-wire harness.
+lid-mounted-layout-usb-rear-connector-ui.png / .blend: display above the PCB in a proposed lid position.
+The display module is rotated 180 degrees so USB points toward the rear, away
+from the screw terminals. The illustrative screen remains upright; firmware
+display rotation will need to match this mounting orientation. Firmware was not
+modified for these assembly views. Earlier files preserve the previous views.
+
+DIMENSIONS
+Main PCB: 86 x 62 x 1.6 mm.
+PCB mounting holes: 2.7 mm diameter, at (3,3), (83,3), (3,59), (83,59) mm
+relative to the board's top-left corner in the PCB editor.
+Display PCB: 36.5 mm wide x 39.5 mm overall, including the USB tab.
+Visible LCD active area: 32.4 mm diameter. This is not a finished cutout dimension.
+Official model overall thickness including rear connectors: approximately 7.9 mm.
+Starting external enclosure envelope: 96 x 76 x 42 mm, provisional.
+
+MECHANICAL STATUS
+PCB components and display body are source CAD. Wires, mating-plug envelopes,
+USB plug, standoffs and case outline are illustrative planning geometry.
+There is no finished enclosure, mounting system, strain relief or cutout design.
+The enclosure envelope has not been fit-checked against purchased plugs or parts.
+Allow access to terminal wire entries and the screws from above, and leave room
+for wire bends behind the display and for its USB-C plug. The pictured straight
+USB plug and cable are generic; their dimensions vary between cables.
+The display has no screw mounting holes; use a bezel/cradle and rear retainer
+that support the module without loading the glass. Provide access to its buttons.
+The display-side header pitch is 1.27 mm. The tester-side J4 pitch is 2.5 mm;
+the five-wire link is a custom harness, not a matching connector at both ends.
+
+WIRE FUNCTIONS — VERIFY PIN ORIENTATION BEFORE ASSEMBLING A CABLE
+J4 pin 1: USB5V -> display VSYS (red in the concept).
+J4 pin 2: USB_GND -> display GND (black).
+J4 pin 3: HOST3V3 -> display 3V3 (orange).
+J4 pin 4: SDA_HOST -> display GPIO6 (yellow).
+J4 pin 5: SCL_HOST -> display GPIO7 (blue).
+Wire colors are a proposed convention. The render is not a cable fabrication drawing.
+
+SOURCES
+Main PCB: hardware/rev-d/tester12v.kicad_pcb
+PCB SHA-256: 3b42eb5357a07355b095cfb20fbd8990def34dc454e6bbaee1a527b505f991d6
+https://docs.waveshare.com/ESP32-S3-LCD-1.28/Resources-And-Documents
+https://files.waveshare.com/wiki/ESP32-S3-LCD-1.28/ESP32-S3-LCD-1.28.zip
+Vendor STEP and dimensional PDF are retained in the sources directory.
+No PCB or manufacturing files were changed to produce these views.
