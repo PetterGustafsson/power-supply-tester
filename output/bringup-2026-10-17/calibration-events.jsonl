@@ -1,0 +1,20 @@
+{"at_utc": "2026-10-18T05:41:09.486583+00:00", "kind": "boot", "text": "ESP-ROM:esp32s3-20210327"}
+{"at_utc": "2026-10-18T05:41:10.736654+00:00", "kind": "boot", "text": "TESTER12V Rev D: real ADC input; + and - indicate relative polarity only"}
+{"at_utc": "2026-10-18T05:41:20.050298+00:00", "kind": "command", "text": "cal0 1"}
+{"at_utc": "2026-10-18T05:41:24.018256+00:00", "kind": "ack", "text": "CAL_LOW_SAVED pin=1; apply known +12V relative to AGND, then calv 1 12.000"}
+{"at_utc": "2026-10-18T06:06:11.355298+00:00", "kind": "disconnect", "text": "[Errno 6] Device not configured"}
+{"at_utc": "2026-10-18T06:24:07.114356+00:00", "kind": "boot", "text": "ESP-ROM:esp32s3-20210327"}
+{"at_utc": "2026-10-18T06:24:08.364721+00:00", "kind": "boot", "text": "TESTER12V Rev D: real ADC input; + and - indicate relative polarity only"}
+{"at_utc": "2026-10-18T06:31:33.189180+00:00", "kind": "command", "text": "cal0 1"}
+{"at_utc": "2026-10-18T06:31:37.267467+00:00", "kind": "ack", "text": "CAL_LOW_SAVED pin=1; apply known +12V relative to AGND, then calv 1 12.000"}
+{"at_utc": "2026-10-18T06:33:44.855616+00:00", "kind": "command", "text": "calv 1 12.03"}
+{"at_utc": "2026-10-18T06:33:49.199502+00:00", "kind": "ack", "text": "CAL_SAVED pin=1 gain=427.7196350 mask=001"}
+{"at_utc": "2026-10-18T06:37:59.421504+00:00", "kind": "disconnect", "text": "[Errno 6] Device not configured"}
+{"at_utc": "2026-10-19T03:50:55.866578+00:00", "kind": "boot", "text": "ESP-ROM:esp32s3-20210327"}
+{"at_utc": "2026-10-19T03:50:57.116761+00:00", "kind": "boot", "text": "TESTER12V Rev D: real ADC input; + and - indicate relative polarity only"}
+{"at_utc": "2026-10-19T04:05:17.044074+00:00", "kind": "boot", "text": "ESP-ROM:esp32s3-20210327"}
+{"at_utc": "2026-10-19T04:05:18.294266+00:00", "kind": "boot", "text": "TESTER12V Rev D: real ADC input; + and - indicate relative polarity only"}
+{"at_utc": "2026-10-19T04:06:36.173522+00:00", "kind": "command", "text": "cal0 2"}
+{"at_utc": "2026-10-19T04:06:40.302916+00:00", "kind": "ack", "text": "CAL_LOW_SAVED pin=2; apply known +12V relative to AGND, then calv 2 12.000"}
+{"at_utc": "2026-10-19T04:11:09.969106+00:00", "kind": "command", "text": "calv 2 11.98"}
+{"at_utc": "2026-10-19T04:11:13.945661+00:00", "kind": "ack", "text": "CAL_SAVED pin=2 gain=427.1662292 mask=003"}

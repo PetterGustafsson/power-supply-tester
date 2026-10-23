@@ -1,0 +1,6 @@
+{
+  "name": "power-supply-tester-artwork",
+  "private": true,
+  "description": "SVG rasterization helpers for the tester display artwork",
+  "dependencies": { "sharp": "0.35.5" }
+}

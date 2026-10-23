@@ -1,0 +1,143 @@
+{
+  "prepared_at": "2026-10-19T20:55:37.960121+00:00",
+  "compile_exit_code": 0,
+  "core_version": "3.3.7",
+  "fqbn": "esp32:esp32:esp32s3:FlashSize=16M,PSRAM=enabled,CDCOnBoot=default,PartitionScheme=app3M_fat9M_16MB",
+  "flashed": true,
+  "shared_gain_applied": true,
+  "source_pin": 1,
+  "source_gain_from_prior_record": 427.9315796,
+  "source_reference_meter_V": 11.98,
+  "source_sha256": {
+    "CalibrationBatch.h": "1fb632bf64b07be83c1ffe07d395bd79819d5489e33c02d0e492ea1695229915",
+    "DEV_Config.cpp": "3064ca0b66f077c09c4b5a86fc006130e2bf1ae4802a7ab8a81ffd2c11b4bd52",
+    "DEV_Config.h": "670e4474e3e5b24e8b298e6bb9be0597eeb058fa4ed99e5446ced59d15c25ecf",
+    "Debug.h": "3b9c7b8aaea9dacd124fabbecb390db0cafca4c80755743709935edd467fb9c0",
+    "LCD_1in28.cpp": "dce921beacd90a2862ad7eb6c8730f716a045868901038a0f6a141c7f959cc4f",
+    "LCD_1in28.h": "79b78afc637a699f7ee1aeeb4af09db83c542845f7d68840f787211df50b2bb1",
+    "Measurement.h": "31e11ec43b4f306aefbd3bb6a509e6f50c3fdf928c6ff3f71aa393cfb5844244",
+    "Tester12VRevD.ino": "53472cd96ddd58eff4f2fa9653dfd263c5afddb3e6cbe4459b23a569f593cd95"
+  },
+  "binary_sha256": {
+    "Tester12VRevD.ino.bin": "60a7c0972d9aa41eb4689af3f162a11f4632b7d16741bca8e1b851c96867cafe",
+    "Tester12VRevD.ino.bootloader.bin": "5403ba8cdf81cbb47f2debe13c0f5ff5903540075ccaf3fac65f0ee68213cb7d",
+    "Tester12VRevD.ino.merged.bin": "15485ab469aa7448a853ef7d5119a751a3c02153d45943273ea41277920f0321",
+    "Tester12VRevD.ino.partitions.bin": "ace02503447d0f470692e65fa76002f2d77a92dc81cd3813d8aa66718d716da9"
+  },
+  "tests": {
+    "ui_tests_passed": 27,
+    "actual_command_parser": "Passed, including copying only from a measured source, retaining baseline ratios and persisting copied mask."
+  },
+  "blocker": null,
+  "flash_completed_at": "2026-10-19T20:58:22.067679+00:00",
+  "flash_scope": "Application only at 0x10000; 393808 bytes. Settings/boot sectors preserved.",
+  "flash_hash_verified": true,
+  "backup_sha256": "5ef18a515688fff76d3d905ae66a0cec558618d8d1bd52ba63cb562cd494ca8a",
+  "device_acknowledgement": "CAL_COPIED source=1 gain=427.9315796 mask=FFF copied_mask=FFE",
+  "copied_mask": "FFE",
+  "measured_gain_source_pin": 1,
+  "live_validation": {
+    "samples": [
+      {
+        "sequence": 124,
+        "fresh": false,
+        "adc_fault": true,
+        "device_ready": true,
+        "device_state": "Check wiring"
+      },
+      {
+        "sequence": 125,
+        "fresh": false,
+        "adc_fault": true,
+        "device_ready": true,
+        "device_state": "Check wiring"
+      },
+      {
+        "sequence": 126,
+        "fresh": false,
+        "adc_fault": true,
+        "device_ready": true,
+        "device_state": "Check wiring"
+      },
+      {
+        "sequence": 127,
+        "fresh": false,
+        "adc_fault": true,
+        "device_ready": true,
+        "device_state": "Check wiring"
+      },
+      {
+        "sequence": 128,
+        "fresh": false,
+        "adc_fault": true,
+        "device_ready": true,
+        "device_state": "Check wiring"
+      },
+      {
+        "sequence": 129,
+        "fresh": false,
+        "adc_fault": true,
+        "device_ready": true,
+        "device_state": "Check wiring"
+      },
+      {
+        "sequence": 130,
+        "fresh": false,
+        "adc_fault": true,
+        "device_ready": true,
+        "device_state": "Check wiring"
+      },
+      {
+        "sequence": 131,
+        "fresh": false,
+        "adc_fault": true,
+        "device_ready": true,
+        "device_state": "Check wiring"
+      },
+      {
+        "sequence": 133,
+        "fresh": false,
+        "adc_fault": true,
+        "device_ready": true,
+        "device_state": "Check wiring"
+      },
+      {
+        "sequence": 134,
+        "fresh": false,
+        "adc_fault": true,
+        "device_ready": true,
+        "device_state": "Check wiring"
+      },
+      {
+        "sequence": 135,
+        "fresh": false,
+        "adc_fault": true,
+        "device_ready": true,
+        "device_state": "Check wiring"
+      },
+      {
+        "sequence": 136,
+        "fresh": false,
+        "adc_fault": true,
+        "device_ready": true,
+        "device_state": "Check wiring"
+      }
+    ],
+    "all_fresh": false,
+    "adc_faults": 12
+  },
+  "actual_sketch_integration": "Passed: real four-ADC acquisition, per-channel calibration, copied gain, persisted flag on setup, classification, faults and LCD notice.",
+  "browser_validation": "Live supply test page, correct INP1/INP2 diagram and selectors; Swap reverses and restores both pin instructions; no browser errors.",
+  "physical_supply_checks_recorded": 0,
+  "transient_note": "Live acquisition has intermittently reported changing/unstable inputs (state 2), with valid scans between them. Host now distinguishes unstable scans from ADC faults (state 4). Physical supply verification remains pending a steady wired pair and operator meter reference.",
+  "final_live_status": {
+    "phase": "test",
+    "fresh": false,
+    "adc_fault": false,
+    "unstable": true,
+    "device_ready": true,
+    "device_state": "Check wiring",
+    "copied_mask": 4094,
+    "error": null
+  }
+}

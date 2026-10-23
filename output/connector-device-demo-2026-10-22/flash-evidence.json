@@ -1,0 +1,49 @@
+{
+  "result": "Flashed and booted on connected Rev D ESP32-S3 tester",
+  "device_port": "/dev/cu.usbmodem58760426031",
+  "asset_address": "0x610000",
+  "asset_bytes": 8678820,
+  "asset_sha256": "11d0e8f9fd7b9ced41f737e3872d641e443cf91e3baa0db09b6117258d7d5b6d",
+  "asset_flash_hash_verified": true,
+  "app_address": "0x10000",
+  "app_bytes": 363152,
+  "app_sha256": "31784e8be3ad7403cad029993d57918b1c123ec1db1f6ccfbc26e4f648f30b03",
+  "app_flash_hash_verified": true,
+  "calibration_nvs_address": "0x9000",
+  "calibration_nvs_bytes": 20480,
+  "calibration_nvs_sha256": "8a5341d1f106b87f235d344573af6b65abea7f1d83bea8387a4c41e6df13667e",
+  "calibration_nvs_unchanged": true,
+  "previous_live_app_sha256": "05568f0facc8d4ba8aafc6b6567fd95f4702d85fa23b815d5078475efa3c1ac5",
+  "source_fps": 50,
+  "observed_fps_by_mode": {
+    "helix": [
+      49.5,
+      50.0
+    ],
+    "storm": [
+      49.4,
+      49.0,
+      49.2
+    ],
+    "idle": [
+      48.3
+    ],
+    "full": [
+      46.8,
+      47.0,
+      46.8,
+      47.3,
+      46.8,
+      47.0,
+      48.4
+    ]
+  },
+  "final_mode": "full",
+  "voltage_and_pin_states": "simulated art; not live measurements",
+  "serial_commands": [
+    "full",
+    "idle",
+    "helix",
+    "storm"
+  ]
+}

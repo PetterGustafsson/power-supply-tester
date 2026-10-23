@@ -1,0 +1,12 @@
+{
+  "acknowledgement": "CAL_LOW_SAVED pin=1; apply known +12V relative to AGND, then calv 1 12.000",
+  "recorded_at_utc": "2026-10-18T06:31:37.267443+00:00",
+  "confirmed_setup": "PSU positive connected to INP1 and negative to AGND; user reports negligible voltage on multimeter after instruction to enable output at 0.00 V",
+  "meter_reading_verbatim": "negligable voltage",
+  "meter_numeric_value_supplied": false,
+  "console_session": 13330,
+  "console_pid": 81726,
+  "persistent": false,
+  "valid_only_while_current_ESP32_session_remains_running": true,
+  "next_step": "Without moving leads, apply approximately +12 V and report the actual multimeter reading between INP1 and AGND before calv 1"
+}

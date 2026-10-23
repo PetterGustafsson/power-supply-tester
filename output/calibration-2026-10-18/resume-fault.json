@@ -1,0 +1,38 @@
+{
+  "pid": 53020,
+  "port": "/dev/cu.usbmodem58760426031",
+  "pending_pin": null,
+  "pending_low_point_valid": false,
+  "console_closed": false,
+  "last_ack": null,
+  "sample": {
+    "sequence": 4891,
+    "valid": 0,
+    "raw_V": [
+      NaN,
+      NaN,
+      NaN,
+      NaN,
+      NaN,
+      NaN,
+      NaN,
+      NaN,
+      NaN,
+      NaN,
+      NaN,
+      NaN
+    ],
+    "reference_V": [
+      NaN,
+      NaN,
+      NaN,
+      NaN
+    ],
+    "state": 4,
+    "positive_mask": 0,
+    "return_mask": 0,
+    "unknown_mask": 4095,
+    "supply_V": 0.0
+  },
+  "updated_at_utc": "2026-10-19T03:54:00.150811+00:00"
+}

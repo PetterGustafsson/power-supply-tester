@@ -1,0 +1,10 @@
+{
+  "kind": "local_calibration_ui",
+  "pid": 85992,
+  "port": "/dev/cu.usbmodem58760426031",
+  "url": "http://127.0.0.1:8765",
+  "ui_state_file": "output/calibration-ui/pass.json",
+  "service": "Detached process launched by tools/calibration-ui/launch.py",
+  "firmware_application_sha256": "05568f0facc8d4ba8aafc6b6567fd95f4702d85fa23b815d5078475efa3c1ac5",
+  "note": "Direct illustrative negative-to-positive electron animation installed and hash verified. PSRAM cache active; actual ESP32 off-screen render times: one pair 46267 us, eleven routes 58610 us. Saved baseline and FFF/FFE masks verified. USB subsequently disconnected; local UI remains running and will reconnect automatically. ADC averaging remains free of display work."
+}

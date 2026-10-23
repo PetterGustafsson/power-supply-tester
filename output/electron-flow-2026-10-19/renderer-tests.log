@@ -1,0 +1,1 @@
+PASS: production renderer; all 531441 route assignments, negative-to-positive endpoints, protected labels, cached/fresh equality and cache fallback; proportional antialiased fonts, circular placement, animation, bounds and inactive-state clearing.

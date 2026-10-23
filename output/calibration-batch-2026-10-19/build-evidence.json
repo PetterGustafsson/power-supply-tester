@@ -1,0 +1,307 @@
+{
+  "prepared_at": "2026-10-19T20:20:53.407341+00:00",
+  "fqbn": "esp32:esp32:esp32s3:FlashSize=16M,PSRAM=enabled,CDCOnBoot=default,PartitionScheme=app3M_fat9M_16MB",
+  "core_version": "3.3.7",
+  "compile_exit_code": 0,
+  "flashed": true,
+  "source_sha256": {
+    "CalibrationBatch.h": "1fb632bf64b07be83c1ffe07d395bd79819d5489e33c02d0e492ea1695229915",
+    "DEV_Config.cpp": "3064ca0b66f077c09c4b5a86fc006130e2bf1ae4802a7ab8a81ffd2c11b4bd52",
+    "DEV_Config.h": "670e4474e3e5b24e8b298e6bb9be0597eeb058fa4ed99e5446ced59d15c25ecf",
+    "Debug.h": "3b9c7b8aaea9dacd124fabbecb390db0cafca4c80755743709935edd467fb9c0",
+    "LCD_1in28.cpp": "dce921beacd90a2862ad7eb6c8730f716a045868901038a0f6a141c7f959cc4f",
+    "LCD_1in28.h": "79b78afc637a699f7ee1aeeb4af09db83c542845f7d68840f787211df50b2bb1",
+    "Measurement.h": "31e11ec43b4f306aefbd3bb6a509e6f50c3fdf928c6ff3f71aa393cfb5844244",
+    "Tester12VRevD.ino": "cc5b4834bfd084c4603ac77048ecb973efc263803e154ab06e6b490cf662518f"
+  },
+  "binary_sha256": {
+    "Tester12VRevD.ino.bin": "c13765403d65a2c9b3e96f59c4e2dc2d8872ef0a15ff22738564e1fc81f6ef84",
+    "Tester12VRevD.ino.bootloader.bin": "5403ba8cdf81cbb47f2debe13c0f5ff5903540075ccaf3fac65f0ee68213cb7d",
+    "Tester12VRevD.ino.merged.bin": "8742aa2e1e587403d6379b7aacf317f7bbe671c6a23932c2d92668d0ab57f6ef",
+    "Tester12VRevD.ino.partitions.bin": "ace02503447d0f470692e65fa76002f2d77a92dc81cd3813d8aa66718d716da9"
+  },
+  "tests": {
+    "ui_tests_passed": 20,
+    "firmware_command_parser": "Passed all twelve low points before high points, NVS round-trip and capture guards"
+  },
+  "backup_status": "Current settings and boot sectors backed up before application flash.",
+  "blocker": null,
+  "rollback_application": "/Users/petter/Documents/ChatGPT/Power supply tester/firmware/Tester12VRevD/build/Tester12VRevD.ino.bin",
+  "flash_completed_at": "2026-10-19T20:30:22.624289+00:00",
+  "flash_scope": "Application only: 0x10000, 393328 bytes. Settings/partition/boot sectors not erased.",
+  "flash_hash_verified": true,
+  "backup_sha256": "3a8690451bc6a91f600f1a5716143b29bfc285d4d8ab2ffbb2f72413741aef29",
+  "device_acknowledgement": "CAL_STATUS protocol=2 batch=6633B2B2 low_mask=000 done_mask=000 mask=003 zero=1",
+  "live_validation": {
+    "samples": [
+      {
+        "sequence": 32,
+        "connected": true,
+        "device_ready": true,
+        "fresh": true,
+        "valid_streak": 33,
+        "adc_fault": false,
+        "error": null,
+        "raw_V": 0.574895,
+        "signal_mV": -1.2929999999999886
+      },
+      {
+        "sequence": 33,
+        "connected": true,
+        "device_ready": true,
+        "fresh": true,
+        "valid_streak": 34,
+        "adc_fault": false,
+        "error": null,
+        "raw_V": 0.574891,
+        "signal_mV": -1.2999999999999678
+      },
+      {
+        "sequence": 34,
+        "connected": true,
+        "device_ready": true,
+        "fresh": true,
+        "valid_streak": 35,
+        "adc_fault": false,
+        "error": null,
+        "raw_V": 0.574895,
+        "signal_mV": -1.2959999999999638
+      },
+      {
+        "sequence": 35,
+        "connected": true,
+        "device_ready": true,
+        "fresh": true,
+        "valid_streak": 36,
+        "adc_fault": false,
+        "error": null,
+        "raw_V": 0.574902,
+        "signal_mV": -1.3050000000000006
+      },
+      {
+        "sequence": 36,
+        "connected": true,
+        "device_ready": true,
+        "fresh": true,
+        "valid_streak": 37,
+        "adc_fault": false,
+        "error": null,
+        "raw_V": 0.574863,
+        "signal_mV": -1.2969999999999926
+      },
+      {
+        "sequence": 38,
+        "connected": true,
+        "device_ready": true,
+        "fresh": true,
+        "valid_streak": 39,
+        "adc_fault": false,
+        "error": null,
+        "raw_V": 0.574875,
+        "signal_mV": -1.2929999999999886
+      },
+      {
+        "sequence": 39,
+        "connected": true,
+        "device_ready": true,
+        "fresh": true,
+        "valid_streak": 40,
+        "adc_fault": false,
+        "error": null,
+        "raw_V": 0.574867,
+        "signal_mV": -1.2929999999999886
+      },
+      {
+        "sequence": 40,
+        "connected": true,
+        "device_ready": true,
+        "fresh": true,
+        "valid_streak": 41,
+        "adc_fault": false,
+        "error": null,
+        "raw_V": 0.574879,
+        "signal_mV": -1.3009999999999966
+      },
+      {
+        "sequence": 41,
+        "connected": true,
+        "device_ready": true,
+        "fresh": true,
+        "valid_streak": 42,
+        "adc_fault": false,
+        "error": null,
+        "raw_V": 0.574879,
+        "signal_mV": -1.3009999999999966
+      },
+      {
+        "sequence": 42,
+        "connected": true,
+        "device_ready": true,
+        "fresh": true,
+        "valid_streak": 43,
+        "adc_fault": false,
+        "error": null,
+        "raw_V": 0.574898,
+        "signal_mV": -1.3009999999999966
+      },
+      {
+        "sequence": 43,
+        "connected": true,
+        "device_ready": true,
+        "fresh": true,
+        "valid_streak": 44,
+        "adc_fault": false,
+        "error": null,
+        "raw_V": 0.574891,
+        "signal_mV": -1.2889999999999846
+      },
+      {
+        "sequence": 44,
+        "connected": true,
+        "device_ready": true,
+        "fresh": true,
+        "valid_streak": 45,
+        "adc_fault": false,
+        "error": null,
+        "raw_V": 0.574887,
+        "signal_mV": -1.2889999999999846
+      },
+      {
+        "sequence": 45,
+        "connected": true,
+        "device_ready": true,
+        "fresh": true,
+        "valid_streak": 46,
+        "adc_fault": false,
+        "error": null,
+        "raw_V": 0.574867,
+        "signal_mV": -1.2849999999999806
+      },
+      {
+        "sequence": 46,
+        "connected": true,
+        "device_ready": true,
+        "fresh": true,
+        "valid_streak": 47,
+        "adc_fault": false,
+        "error": null,
+        "raw_V": 0.574867,
+        "signal_mV": -1.2889999999999846
+      },
+      {
+        "sequence": 47,
+        "connected": true,
+        "device_ready": true,
+        "fresh": true,
+        "valid_streak": 48,
+        "adc_fault": false,
+        "error": null,
+        "raw_V": 0.574898,
+        "signal_mV": -1.2900000000000134
+      },
+      {
+        "sequence": 48,
+        "connected": true,
+        "device_ready": true,
+        "fresh": true,
+        "valid_streak": 49,
+        "adc_fault": false,
+        "error": null,
+        "raw_V": 0.574887,
+        "signal_mV": -1.3009999999999966
+      },
+      {
+        "sequence": 49,
+        "connected": true,
+        "device_ready": true,
+        "fresh": true,
+        "valid_streak": 50,
+        "adc_fault": false,
+        "error": null,
+        "raw_V": 0.574898,
+        "signal_mV": -1.2969999999999926
+      },
+      {
+        "sequence": 50,
+        "connected": true,
+        "device_ready": true,
+        "fresh": true,
+        "valid_streak": 51,
+        "adc_fault": false,
+        "error": null,
+        "raw_V": 0.574895,
+        "signal_mV": -1.3079999999999758
+      },
+      {
+        "sequence": 51,
+        "connected": true,
+        "device_ready": true,
+        "fresh": true,
+        "valid_streak": 52,
+        "adc_fault": false,
+        "error": null,
+        "raw_V": 0.574895,
+        "signal_mV": -1.3119999999999798
+      },
+      {
+        "sequence": 52,
+        "connected": true,
+        "device_ready": true,
+        "fresh": true,
+        "valid_streak": 53,
+        "adc_fault": false,
+        "error": null,
+        "raw_V": 0.574895,
+        "signal_mV": -1.2959999999999638
+      },
+      {
+        "sequence": 53,
+        "connected": true,
+        "device_ready": true,
+        "fresh": true,
+        "valid_streak": 54,
+        "adc_fault": false,
+        "error": null,
+        "raw_V": 0.574898,
+        "signal_mV": -1.2860000000000094
+      },
+      {
+        "sequence": 54,
+        "connected": true,
+        "device_ready": true,
+        "fresh": true,
+        "valid_streak": 55,
+        "adc_fault": false,
+        "error": null,
+        "raw_V": 0.574895,
+        "signal_mV": -1.2999999999999678
+      },
+      {
+        "sequence": 55,
+        "connected": true,
+        "device_ready": true,
+        "fresh": true,
+        "valid_streak": 56,
+        "adc_fault": false,
+        "error": null,
+        "raw_V": 0.574902,
+        "signal_mV": -1.2929999999999886
+      },
+      {
+        "sequence": 56,
+        "connected": true,
+        "device_ready": true,
+        "fresh": true,
+        "valid_streak": 57,
+        "adc_fault": false,
+        "error": null,
+        "raw_V": 0.574895,
+        "signal_mV": -1.2959999999999638
+      }
+    ],
+    "unique_sequences": 24,
+    "all_fresh": true,
+    "all_ready": true,
+    "adc_fault_count": 0
+  }
+}

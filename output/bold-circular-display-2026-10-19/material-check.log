@@ -1,0 +1,1 @@
+PASS: source artwork hash unchanged. Pixels outside declared text/contact regions match original RGB565 artwork in every render. No surface washes or extra border.

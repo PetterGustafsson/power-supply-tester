@@ -72,7 +72,7 @@ for frame in range(60):
     E.ElementTree(root).write(D/f'{frame:02}.svg',encoding='unicode')
 
 renderer = """
-const sharp=require('/Users/petter/.cache/codex-runtimes/codex-primary-runtime/dependencies/node/node_modules/sharp');
+const sharp=require('sharp');
 (async()=>{for(let i=0;i<60;i++){let n=String(i).padStart(2,'0');await sharp(process.argv[1]+'/'+n+'.svg').resize(480,480).flatten({background:'#12191f'}).png().toFile(process.argv[1]+'/'+n+'.png');}})().catch(e=>{console.error(e);process.exit(1)});
 """
 subprocess.run(['node','-e',renderer,str(D)],check=True)

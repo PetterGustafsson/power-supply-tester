@@ -1,5 +1,15 @@
 # Connector display firmware
 
+## Current prototype: Rev D2 / I15, October 23, 2026
+
+Use [Tester12VRevD](Tester12VRevD/) for the working measurement firmware and
+[releases/d2-live-2026-10-23](releases/d2-live-2026-10-23/) for the exact installed
+application, optical asset, boot data and checksums. The operator confirmed
+approximately 1–2 seconds on cable reconnection and a steady powered screen.
+See [the current build guide](../docs/BUILD.md) for compilation and restoration.
+
+The sections below preserve the earlier Rev A and standalone display demos.
+
 The live voltage-measurement firmware for the actual 12 V Rev A PCB is now in
 `Tester12V/`. Its wiring, calibration and first-article procedure are in
 [`../hardware/rev-a/README.md`](../hardware/rev-a/README.md). The

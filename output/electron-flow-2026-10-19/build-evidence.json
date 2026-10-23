@@ -1,0 +1,124 @@
+{
+  "prepared_at": "2026-10-19T22:30:17.020740+00:00",
+  "compile_exit_code": 0,
+  "flashed": true,
+  "blocker": null,
+  "fqbn": "esp32:esp32:esp32s3:FlashSize=16M,PSRAM=enabled,CDCOnBoot=default,PartitionScheme=app3M_fat9M_16MB",
+  "core_version": "3.3.7",
+  "source_sha256": {
+    "CalibrationBatch.h": "1fb632bf64b07be83c1ffe07d395bd79819d5489e33c02d0e492ea1695229915",
+    "ConnectorBackdrop.h": "1b8c3d4417465d35eaa667351921225cf5d872e9f2d18ea299a15bfa9f3f7208",
+    "DEV_Config.cpp": "3064ca0b66f077c09c4b5a86fc006130e2bf1ae4802a7ab8a81ffd2c11b4bd52",
+    "DEV_Config.h": "670e4474e3e5b24e8b298e6bb9be0597eeb058fa4ed99e5446ced59d15c25ecf",
+    "Debug.h": "3b9c7b8aaea9dacd124fabbecb390db0cafca4c80755743709935edd467fb9c0",
+    "DisplayFont.h": "02bc9f4e43562adc3948e64100caca5cffa8ce50aed50db601bb1304b3d02481",
+    "DisplayGraphics.h": "f9f33ccdda2cba1adfc1e108a97c104ff3d9e535bb62d3c6e18f044247b88a49",
+    "ElectronPaths.h": "3d515cec72e38e1257c98d9e24f6f458e29e3d90f42b5062a44d04915f7aec39",
+    "LCD_1in28.cpp": "dce921beacd90a2862ad7eb6c8730f716a045868901038a0f6a141c7f959cc4f",
+    "LCD_1in28.h": "79b78afc637a699f7ee1aeeb4af09db83c542845f7d68840f787211df50b2bb1",
+    "Measurement.h": "31e11ec43b4f306aefbd3bb6a509e6f50c3fdf928c6ff3f71aa393cfb5844244",
+    "Tester12VRevD.ino": "ffd5b587b837a224e7e95a6215041878dd4eaef7cec95eb1924b4bea8adf0609"
+  },
+  "binary_sha256": {
+    "Tester12VRevD.ino.bin": "05568f0facc8d4ba8aafc6b6567fd95f4702d85fa23b815d5078475efa3c1ac5",
+    "Tester12VRevD.ino.bootloader.bin": "5403ba8cdf81cbb47f2debe13c0f5ff5903540075ccaf3fac65f0ee68213cb7d",
+    "Tester12VRevD.ino.merged.bin": "b7e35c6a1b9009675d50e16058e9d546c2077a3f81ad700c9fb64414d14994b8",
+    "Tester12VRevD.ino.partitions.bin": "ace02503447d0f470692e65fa76002f2d77a92dc81cd3813d8aa66718d716da9"
+  },
+  "application_bytes": 582688,
+  "tests": {
+    "renderer": "PASS: all 531441 assignments, direction, cache equivalence, no-cache fallback, protected labels and state clearing",
+    "actual_sketch_integration": "PASS: acquisition, calibration, quiet batches, off-screen benchmarks never transferred to LCD",
+    "path_generation": "Byte-for-byte reproducible"
+  },
+  "measurement_math_changed": false,
+  "animation": {
+    "direction": "negative to positive, illustrative only",
+    "cycle_ms": 4200,
+    "max_routes": 11,
+    "flash_path_and_stencil_bytes": 6272,
+    "psram_cache_bytes": 115200,
+    "cache_fallback": "Full render if no PSRAM cache",
+    "previous_observed_frame_interval_ms": 710,
+    "preview_frame_duration_ms": 600
+  },
+  "calibration_before": {
+    "device_mask": 4095,
+    "copied_mask": 4094
+  },
+  "device_benchmark": {
+    "source": "Actual connected ESP32 micros() timers, explicitly labelled off-screen fixtures; no physical voltage stimulus",
+    "fixtures": [
+      {
+        "fixture": "one_pair",
+        "routes": 1,
+        "render_us": 46267
+      },
+      {
+        "fixture": "eleven_routes",
+        "routes": 11,
+        "render_us": 58610
+      }
+    ],
+    "real_display_timings": [
+      {
+        "render_us": 194419,
+        "transfer_us": 15252,
+        "cached": true,
+        "base_rebuilds": 1
+      },
+      {
+        "render_us": 4192,
+        "transfer_us": 15251,
+        "cached": true,
+        "base_rebuilds": 2
+      },
+      {
+        "render_us": 221129,
+        "transfer_us": 15260,
+        "cached": true,
+        "base_rebuilds": 4
+      },
+      {
+        "render_us": 4196,
+        "transfer_us": 15245,
+        "cached": true,
+        "base_rebuilds": 6
+      }
+    ],
+    "observed_post_install_frame_interval_s": null,
+    "note": "USB disconnected after successful boot verification, before a durable host cadence capture; previous baseline is recorded separately."
+  },
+  "settings_backup": {
+    "bytes": 65536,
+    "sha256": "feea0f25721f38519d8c1b62e2cae2721a5da5302ddafb521d61d7f0005714af",
+    "matches_previous_backup": true
+  },
+  "installed_at": "2026-10-19T22:33:36.061227+00:00",
+  "flash": {
+    "address": "0x10000",
+    "scope": "application only",
+    "bytes": 582688,
+    "hash_verified": true,
+    "exit_code": 0
+  },
+  "live_validation": {
+    "startup_and_saved_calibration_verified": true,
+    "flow_startup_marker_observed": true,
+    "cache_enabled": true,
+    "quiet_sampling_marker_observed": true,
+    "calibration_status": "CAL_STATUS protocol=2 batch=6633B2B2 low_mask=007 done_mask=000 mask=FFF zero=1 copied_mask=FFE",
+    "latest_connected": false,
+    "latest_device_ready": false,
+    "latest_device_state": "Waiting for data",
+    "valid_frames": 27,
+    "invalid_frames": 3,
+    "state_counts": {
+      "0": 20,
+      "2": 3,
+      "1": 7
+    },
+    "physical_display_image_verified": false,
+    "note": "Flash, boot markers, saved calibration and MCU timings verified over USB. USB subsequently disappeared from the host; local service remains running for automatic reconnect. Animation previews and timing fixtures do not constitute a physical powered-pair test."
+  }
+}

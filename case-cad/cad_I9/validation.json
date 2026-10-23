@@ -1,0 +1,1037 @@
+{
+ "step": {
+  "I9_base": {
+   "solids": 1,
+   "valid": true,
+   "free_edges": 0,
+   "volume_cm3": 43.27,
+   "faces": 270,
+   "surface_types": [
+    "BSPLINE",
+    "CONE",
+    "CYLINDER",
+    "PLANE"
+   ]
+  },
+  "I9_top": {
+   "solids": 1,
+   "valid": true,
+   "free_edges": 0,
+   "volume_cm3": 68.855,
+   "faces": 227,
+   "surface_types": [
+    "BSPLINE",
+    "CONE",
+    "CYLINDER",
+    "PLANE",
+    "SPHERE",
+    "TORUS"
+   ]
+  },
+  "I9_crown": {
+   "solids": 1,
+   "valid": true,
+   "free_edges": 0,
+   "volume_cm3": 0.829,
+   "faces": 9,
+   "surface_types": [
+    "CONE",
+    "CYLINDER",
+    "PLANE",
+    "TORUS"
+   ]
+  },
+  "I9_retainer": {
+   "solids": 1,
+   "valid": true,
+   "free_edges": 0,
+   "volume_cm3": 1.156,
+   "faces": 42,
+   "surface_types": [
+    "CONE",
+    "CYLINDER",
+    "PLANE"
+   ]
+  }
+ },
+ "assembly": {
+  "solids": 371,
+  "labels": [
+   "printed_parts",
+   "I9_base",
+   "I9_top",
+   "I9_crown",
+   "I9_retainer",
+   "reference_bodies_NOT_PRINTED",
+   "REF_PCB_RevD2_board",
+   "REF_PCB_J1_XY350V_4p",
+   "REF_PCB_J2_XY350V_4p",
+   "REF_PCB_J3_XY350V_4p",
+   "REF_PCB_J4_JST_XH5",
+   "REF_PCB_tall_part",
+   "REF_PCB_SMD_parts",
+   "REF_display_ESP32-S3-LCD-1_28",
+   "REF_USB_male_90deg_overmold",
+   "REF_USB_flat_cable_51mm",
+   "REF_USB_female_overmold",
+   "REF_cable_12pin_7mm",
+   "REF_harness_5x_breadboard_pins_0_64sq",
+   "REF_harness_5x_1pin_housing_d1_2",
+   "REF_harness_5_wires_to_J4",
+   "REF_J4_XH5_plug",
+   "REF_grommet_foot_x4",
+   "REF_screw_M2_5x12_shell_x4",
+   "REF_screw_M2_5x12_PCB_x4",
+   "REF_cable_12pin_7mm_external",
+   "REF_HR10A-10P-12S_73__female_plug",
+   "REF_cable_12pin_conductors_x12",
+   "REF_ferrule_pins_0_314in_x12",
+   "REF_ferrule_collars_green_x12",
+   "REF_ferrule_strand_ends_x12",
+   "REF_zip_tie_2_5mm_centre",
+   "REF_USB_male_plug_tip"
+  ]
+ },
+ "interference_mm3": {
+  "I9_base x I9_top": 0.0,
+  "I9_base x I9_crown": 0.0,
+  "I9_base x I9_retainer": 0.0,
+  "I9_top x I9_crown": 6.547,
+  "I9_top x I9_retainer": 28.647,
+  "I9_crown x I9_retainer": 0.0,
+  "I9_top x REF_USB_female_overmold": 8.424,
+  "I9_top x REF_cable_12pin_7mm": 8.8,
+  "I9_top x REF_screw_M2.5x12_shell_x4": 63.617,
+  "REF_USB_male_90deg_overmold x REF_USB_flat_cable_51mm": 1.7,
+  "REF_USB_flat_cable_51mm x REF_USB_female_overmold": 1.7,
+  "REF_cable_12pin_7mm x REF_cable_12pin_conductors_x12": 95.452,
+  "REF_cable_12pin_7mm x REF_zip_tie_2.5mm_centre": 0.111,
+  "REF_harness_5x_breadboard_pins_0.64sq x REF_harness_5x_1pin_housing_d1.2": 17.408,
+  "REF_cable_12pin_conductors_x12 x REF_ferrule_collars_green_x12": 40.702,
+  "REF_ferrule_pins_0.314in_x12 x REF_ferrule_collars_green_x12": 9.123,
+  "REF_ferrule_pins_0.314in_x12 x REF_ferrule_strand_ends_x12": 0.489
+ },
+ "min_distance_mm": {
+  "I9_top - REF_USB_male_90deg_overmold": 1.0,
+  "I9_top - REF_USB_flat_cable_51mm": 2.2,
+  "I9_base - REF_USB_flat_cable_51mm": 0.43,
+  "I9_retainer - REF_USB_male_90deg_overmold": 4.22,
+  "I9_base - REF_USB_female_overmold": 0.1,
+  "I9_base - REF_cable_12pin_7mm": 0.0,
+  "I9_top - REF_cable_12pin_7mm": 0.0,
+  "I9_top - REF_harness_5x_1pin_housing_d1.2": 2.58,
+  "I9_base - REF_cable_12pin_conductors_x12": 0.08,
+  "I9_top - REF_cable_12pin_conductors_x12": 6.99,
+  "I9_top - REF_ferrule_collars_green_x12": 10.04,
+  "I9_top - REF_harness_5_wires_to_J4": 2.78,
+  "I9_retainer - REF_harness_5x_1pin_housing_d1.2": 0.99,
+  "I9_retainer - REF_harness_5_wires_to_J4": 9.08,
+  "I9_retainer - REF_harness_5x_breadboard_pins_0.64sq": 1.27,
+  "I9_base - REF_harness_5_wires_to_J4": 16.13,
+  "REF_harness_5_wires_to_J4 - REF_USB_male_90deg_overmold": 10.42,
+  "REF_harness_5_wires_to_J4 - REF_USB_flat_cable_51mm": 3.13,
+  "REF_harness_5x_1pin_housing_d1.2 - REF_USB_male_90deg_overmold": 23.82,
+  "REF_harness_5x_1pin_housing_d1.2 - REF_USB_flat_cable_51mm": 14.8,
+  "I9_base - REF_grommet_foot_x4": 0.0,
+  "I9_base - REF_cable_12pin_7mm_external": 15.15,
+  "I9_top - REF_cable_12pin_7mm_external": 15.15,
+  "I9_base - REF_HR10A-10P-12S(73)_female_plug": 112.36,
+  "I9_top - REF_HR10A-10P-12S(73)_female_plug": 112.37,
+  "REF_grommet_foot_x4 - REF_cable_12pin_7mm_external": 45.13,
+  "I9_top - REF_grommet_foot_x4": 1.85,
+  "I9_base - REF_screw_M2.5x12_shell_x4": 0.0,
+  "I9_top - REF_screw_M2.5x12_shell_x4": 0.0,
+  "REF_screw_M2.5x12_shell_x4 - REF_grommet_foot_x4": 0.25,
+  "I9_base - I9_top": 0.25,
+  "I9_base - I9_crown": 40.041,
+  "I9_base - I9_retainer": 32.663,
+  "I9_top - I9_crown": 0.0,
+  "I9_top - I9_retainer": 0.0,
+  "I9_crown - I9_retainer": 3.4
+ },
+ "overhangs_print_orientation": {
+  "I9_base": {
+   "steep_overhang_mm2": 433.4,
+   "horizontal_downfacing_mm2": 68.6,
+   "regions": [
+    {
+     "area_mm2": 212.8,
+     "bbox": [
+      [
+       -8.9,
+       25.6,
+       16.1
+      ],
+      [
+       8.9,
+       34.1,
+       24.6
+      ]
+     ]
+    },
+    {
+     "area_mm2": 59.4,
+     "bbox": [
+      [
+       -42.0,
+       -48.0,
+       -0.0
+      ],
+      [
+       42.0,
+       -47.5,
+       0.5
+      ]
+     ]
+    },
+    {
+     "area_mm2": 59.4,
+     "bbox": [
+      [
+       -42.0,
+       47.5,
+       -0.0
+      ],
+      [
+       42.0,
+       48.0,
+       0.5
+      ]
+     ]
+    },
+    {
+     "area_mm2": 50.9,
+     "bbox": [
+      [
+       -54.0,
+       -36.0,
+       -0.0
+      ],
+      [
+       -53.5,
+       36.0,
+       0.5
+      ]
+     ]
+    },
+    {
+     "area_mm2": 50.9,
+     "bbox": [
+      [
+       53.5,
+       -36.0,
+       -0.0
+      ],
+      [
+       54.0,
+       36.0,
+       0.5
+      ]
+     ]
+    },
+    {
+     "area_mm2": 14.1,
+     "bbox": [
+      [
+       -49.2,
+       -41.1,
+       8.0
+      ],
+      [
+       -43.7,
+       -35.6,
+       8.0
+      ]
+     ]
+    },
+    {
+     "area_mm2": 14.1,
+     "bbox": [
+      [
+       43.7,
+       -41.1,
+       8.0
+      ],
+      [
+       49.2,
+       -35.6,
+       8.0
+      ]
+     ]
+    },
+    {
+     "area_mm2": 14.1,
+     "bbox": [
+      [
+       -49.2,
+       35.6,
+       8.0
+      ],
+      [
+       -43.7,
+       41.1,
+       8.0
+      ]
+     ]
+    },
+    {
+     "area_mm2": 14.1,
+     "bbox": [
+      [
+       43.7,
+       35.6,
+       8.0
+      ],
+      [
+       49.2,
+       41.1,
+       8.0
+      ]
+     ]
+    },
+    {
+     "area_mm2": 6.0,
+     "bbox": [
+      [
+       3.7,
+       -20.1,
+       6.0
+      ],
+      [
+       5.7,
+       -17.1,
+       6.0
+      ]
+     ]
+    },
+    {
+     "area_mm2": 6.0,
+     "bbox": [
+      [
+       -5.7,
+       -20.1,
+       6.0
+      ],
+      [
+       -3.7,
+       -17.1,
+       6.0
+      ]
+     ]
+    }
+   ]
+  },
+  "I9_top": {
+   "steep_overhang_mm2": 994.5,
+   "horizontal_downfacing_mm2": 7096.9,
+   "regions": [
+    {
+     "area_mm2": 7243.7,
+     "bbox": [
+      [
+       -51.1,
+       -45.1,
+       33.1
+      ],
+      [
+       51.1,
+       45.1,
+       39.1
+      ]
+     ]
+    },
+    {
+     "area_mm2": 418.0,
+     "bbox": [
+      [
+       -6.4,
+       28.2,
+       26.8
+      ],
+      [
+       6.4,
+       44.4,
+       26.8
+      ]
+     ]
+    },
+    {
+     "area_mm2": 53.2,
+     "bbox": [
+      [
+       -7.4,
+       44.4,
+       26.9
+      ],
+      [
+       7.4,
+       48.0,
+       27.9
+      ]
+     ]
+    },
+    {
+     "area_mm2": 52.5,
+     "bbox": [
+      [
+       -9.2,
+       -26.4,
+       39.8
+      ],
+      [
+       9.2,
+       -22.4,
+       43.2
+      ]
+     ]
+    },
+    {
+     "area_mm2": 50.9,
+     "bbox": [
+      [
+       -54.0,
+       -36.0,
+       -0.0
+      ],
+      [
+       -53.5,
+       36.0,
+       0.5
+      ]
+     ]
+    },
+    {
+     "area_mm2": 50.9,
+     "bbox": [
+      [
+       53.5,
+       -36.0,
+       -0.0
+      ],
+      [
+       54.0,
+       36.0,
+       0.5
+      ]
+     ]
+    },
+    {
+     "area_mm2": 47.3,
+     "bbox": [
+      [
+       -8.9,
+       28.2,
+       24.0
+      ],
+      [
+       -6.4,
+       48.0,
+       24.0
+      ]
+     ]
+    },
+    {
+     "area_mm2": 47.3,
+     "bbox": [
+      [
+       6.4,
+       28.2,
+       24.0
+      ],
+      [
+       8.9,
+       48.0,
+       24.0
+      ]
+     ]
+    },
+    {
+     "area_mm2": 37.6,
+     "bbox": [
+      [
+       -50.0,
+       -42.0,
+       4.5
+      ],
+      [
+       -42.8,
+       -34.8,
+       4.5
+      ]
+     ]
+    },
+    {
+     "area_mm2": 37.6,
+     "bbox": [
+      [
+       -50.0,
+       34.8,
+       4.5
+      ],
+      [
+       -42.8,
+       42.0,
+       4.5
+      ]
+     ]
+    },
+    {
+     "area_mm2": 37.6,
+     "bbox": [
+      [
+       42.8,
+       -42.0,
+       4.5
+      ],
+      [
+       50.0,
+       -34.8,
+       4.5
+      ]
+     ]
+    },
+    {
+     "area_mm2": 37.6,
+     "bbox": [
+      [
+       42.8,
+       34.8,
+       4.5
+      ],
+      [
+       50.0,
+       42.0,
+       4.5
+      ]
+     ]
+    }
+   ]
+  },
+  "I9_crown": {
+   "steep_overhang_mm2": 13.9,
+   "horizontal_downfacing_mm2": 0.0,
+   "regions": [
+    {
+     "area_mm2": 13.9,
+     "bbox": [
+      [
+       -20.2,
+       -20.2,
+       0.1
+      ],
+      [
+       20.2,
+       20.2,
+       0.1
+      ]
+     ]
+    }
+   ]
+  },
+  "I9_retainer": {
+   "steep_overhang_mm2": 0.0,
+   "horizontal_downfacing_mm2": 0.0,
+   "regions": []
+  }
+ },
+ "outer_skin_deviation_vs_SDF_mm": {
+  "all_max": 6.74,
+  "all_p95": 1.56,
+  "all_mean": 0.202,
+  "above_deck_max": 6.74,
+  "above_deck_p95": 4.8,
+  "worst_point": [
+   -1.1,
+   26.1,
+   48.8
+  ]
+ },
+ "skins_mm": {
+  "tab_channel_to_outer": 1.06,
+  "plug_window_to_outer": 2.7,
+  "pipe_wall": 1.85
+ },
+ "retainer_reliefs": [
+  {
+   "deg": [
+    -114.3,
+    -60.5
+   ],
+   "depth": 3.55
+  },
+  {
+   "deg": [
+    -59.4,
+    -54.9
+   ],
+   "depth": 0.69
+  },
+  {
+   "deg": [
+    -48.2,
+    -36.2
+   ],
+   "depth": 0.81
+  },
+  {
+   "deg": [
+    29.3,
+    55.2
+   ],
+   "depth": 2.85
+  },
+  {
+   "deg": [
+    77.7,
+    102.3
+   ],
+   "depth": 1.35
+  },
+  {
+   "deg": [
+    116.7,
+    150.7
+   ],
+   "depth": 2.85
+  }
+ ],
+ "housing_radial_gap_to_sleeve_mm": 1.069,
+ "retainer_vs_vendor_parts": {
+  "min_distance_any_part": 0.35,
+  "nearest5_module_frame_bbox": [
+   [
+    0.35,
+    [
+     11.1,
+     12.37,
+     -11.93,
+     -11.66,
+     -3.86,
+     -3.4
+    ]
+   ],
+   [
+    0.385,
+    [
+     -2.9,
+     2.9,
+     14.79,
+     16.79,
+     -4.4,
+     -3.4
+    ]
+   ],
+   [
+    0.4,
+    [
+     7.77,
+     8.07,
+     -15.03,
+     -14.97,
+     -3.7,
+     -3.4
+    ]
+   ],
+   [
+    0.403,
+    [
+     7.77,
+     8.07,
+     -15.52,
+     -15.03,
+     -3.71,
+     -3.4
+    ]
+   ],
+   [
+    0.441,
+    [
+     11.18,
+     12.3,
+     -11.66,
+     -9.37,
+     -3.85,
+     -3.43
+    ]
+   ]
+  ],
+  "antenna": {
+   "name": "C3-001 (2.4 GHz ceramic chip antenna)",
+   "module_frame": {
+    "name": "C3-001 (2.4 GHz ceramic chip antenna)",
+    "x0": -2.9,
+    "x1": 2.9,
+    "u0": 14.79,
+    "u1": 16.79,
+    "a0": -4.4,
+    "a1": -3.4
+   },
+   "world_centre": [
+    0.0,
+    4.6,
+    67.04
+   ],
+   "retainer_distance": 0.385
+  },
+  "window_new_u": [
+   -7.12,
+   7.48
+  ],
+  "window_new_x": "> +11.25",
+  "window_old": {
+   "u": [
+    -8.82,
+    9.18
+   ],
+   "x": "< -11.25 (to the sleeve wall)"
+  }
+ },
+ "HR10A_plug": {
+  "cable_len_outside_mm": 126.0,
+  "plug_front": [
+   62.1,
+   -198.6,
+   5.3
+  ],
+  "plug_axis": [
+   -0.55,
+   0.835,
+   -0.0
+  ],
+  "model": "derived from Hirose HR10A-10P-12P.stp + socket insert",
+  "A": 43.0,
+  "dB": 14.7,
+  "dC": 9.5,
+  "cable_od": 7.0
+ },
+ "screws_I6": {
+  "all_8": "M2.5 x 12 plastic thread-forming, flat(pan)-head d 4.5 x 1.7 (assumed)",
+  "shell": {
+   "counterbore": "d5.5 x 8.0 from below",
+   "clearance": 3.5,
+   "base_floor_under_head": 2.5,
+   "top_pilot": "d2.0 x 10.5 from z 11.0",
+   "engagement": 9.0,
+   "engagement_xd": 3.6,
+   "tip_to_pilot_bottom": 1.5,
+   "top_boss_wall": 2.6,
+   "base_column_wall_low": 1.75,
+   "base_column_wall_ext_inner": 1.6,
+   "base_column_wall_ext_outer_min": 1.6,
+   "screw_xy": [
+    46.41,
+    38.36
+   ]
+  },
+  "pcb": {
+   "pilot": "d2.0 x 12.0 from z 14.0",
+   "engagement": 10.4,
+   "engagement_xd": 4.16,
+   "tip_to_pilot_bottom": 1.6,
+   "standoff_wall": 2.0
+  },
+  "grommet": {
+   "hip_d": 5.5,
+   "hip_l": 8.0,
+   "flange_d": 9.5,
+   "flange_t": 2.0,
+   "bore_d": 5.0,
+   "protrusion_below_base": 2.0,
+   "head_recess_below_counterbore_floor": 1.7
+  }
+ },
+ "clearance_mesh_fcl_mm": {
+  "I9_top_world - REF_PCB_J3_XY350V_4p": 15.6,
+  "I9_top_world - REF_PCB_RevD2_board": 2.258,
+  "I9_top_world - REF_PCB_J2_XY350V_4p": 15.415,
+  "I9_top_world - REF_PCB_SMD_parts": 10.443,
+  "I9_top_world - REF_PCB_J4_JST_XH5": 12.25,
+  "I9_top_world - REF_PCB_J1_XY350V_4p": 15.411,
+  "I9_top_world - REF_PCB_tall_part": 13.849,
+  "I9_base_world - REF_PCB_J3_XY350V_4p": 2.842,
+  "I9_base_world - REF_PCB_RevD2_board": 0.012,
+  "I9_base_world - REF_PCB_J2_XY350V_4p": 4.1,
+  "I9_base_world - REF_PCB_SMD_parts": 2.258,
+  "I9_base_world - REF_PCB_J4_JST_XH5": 7.737,
+  "I9_base_world - REF_PCB_J1_XY350V_4p": 4.1,
+  "I9_base_world - REF_PCB_tall_part": 9.215,
+  "REF_cable_12pin_conductors_x12 - I9_top_world": 6.993,
+  "REF_cable_12pin_conductors_x12 - I9_base_world": 0.084,
+  "REF_cable_12pin_conductors_x12 - I9_retainer_world": 25.453,
+  "REF_cable_12pin_conductors_x12 - REF_PCB_J3_XY350V_4p": 6.995,
+  "REF_cable_12pin_conductors_x12 - REF_PCB_RevD2_board": 1.722,
+  "REF_cable_12pin_conductors_x12 - REF_PCB_J2_XY350V_4p": 7.002,
+  "REF_cable_12pin_conductors_x12 - REF_PCB_SMD_parts": 6.502,
+  "REF_cable_12pin_conductors_x12 - REF_PCB_J4_JST_XH5": 21.758,
+  "REF_cable_12pin_conductors_x12 - REF_PCB_J1_XY350V_4p": 7.013,
+  "REF_cable_12pin_conductors_x12 - REF_PCB_tall_part": 16.256,
+  "REF_ferrule_pins_0.314in_x12 - I9_top_world": 14.367,
+  "REF_ferrule_pins_0.314in_x12 - I9_base_world": 4.293,
+  "REF_ferrule_pins_0.314in_x12 - I9_retainer_world": 22.114,
+  "REF_ferrule_pins_0.314in_x12 - REF_PCB_J3_XY350V_4p": 0.0,
+  "REF_ferrule_pins_0.314in_x12 - REF_PCB_RevD2_board": 1.812,
+  "REF_ferrule_pins_0.314in_x12 - REF_PCB_J2_XY350V_4p": 0.0,
+  "REF_ferrule_pins_0.314in_x12 - REF_PCB_SMD_parts": 4.68,
+  "REF_ferrule_pins_0.314in_x12 - REF_PCB_J4_JST_XH5": 16.836,
+  "REF_ferrule_pins_0.314in_x12 - REF_PCB_J1_XY350V_4p": 0.0,
+  "REF_ferrule_pins_0.314in_x12 - REF_PCB_tall_part": 31.735,
+  "REF_ferrule_collars_green_x12 - I9_top_world": 10.042,
+  "REF_ferrule_collars_green_x12 - I9_base_world": 3.513,
+  "REF_ferrule_collars_green_x12 - I9_retainer_world": 22.847,
+  "REF_ferrule_collars_green_x12 - REF_PCB_J3_XY350V_4p": 2.01,
+  "REF_ferrule_collars_green_x12 - REF_PCB_RevD2_board": 1.044,
+  "REF_ferrule_collars_green_x12 - REF_PCB_J2_XY350V_4p": 2.01,
+  "REF_ferrule_collars_green_x12 - REF_PCB_SMD_parts": 12.486,
+  "REF_ferrule_collars_green_x12 - REF_PCB_J4_JST_XH5": 18.525,
+  "REF_ferrule_collars_green_x12 - REF_PCB_J1_XY350V_4p": 2.01,
+  "REF_ferrule_collars_green_x12 - REF_PCB_tall_part": 39.657,
+  "REF_harness_5x_1pin_housing_d1.2 - I9_top_world": 2.584,
+  "REF_harness_5x_1pin_housing_d1.2 - I9_base_world": 26.328,
+  "REF_harness_5x_1pin_housing_d1.2 - I9_retainer_world": 0.985,
+  "REF_harness_5x_1pin_housing_d1.2 - REF_PCB_J3_XY350V_4p": 30.827,
+  "REF_harness_5x_1pin_housing_d1.2 - REF_PCB_RevD2_board": 30.003,
+  "REF_harness_5x_1pin_housing_d1.2 - REF_PCB_J2_XY350V_4p": 29.827,
+  "REF_harness_5x_1pin_housing_d1.2 - REF_PCB_SMD_parts": 28.79,
+  "REF_harness_5x_1pin_housing_d1.2 - REF_PCB_J4_JST_XH5": 52.566,
+  "REF_harness_5x_1pin_housing_d1.2 - REF_PCB_J1_XY350V_4p": 34.821,
+  "REF_harness_5x_1pin_housing_d1.2 - REF_PCB_tall_part": 40.173,
+  "REF_harness_5_wires_to_J4 - I9_top_world": 2.784,
+  "REF_harness_5_wires_to_J4 - I9_base_world": 16.129,
+  "REF_harness_5_wires_to_J4 - I9_retainer_world": 9.078,
+  "REF_harness_5_wires_to_J4 - REF_PCB_J3_XY350V_4p": 29.203,
+  "REF_harness_5_wires_to_J4 - REF_PCB_RevD2_board": 11.013,
+  "REF_harness_5_wires_to_J4 - REF_PCB_J2_XY350V_4p": 19.132,
+  "REF_harness_5_wires_to_J4 - REF_PCB_SMD_parts": 12.103,
+  "REF_harness_5_wires_to_J4 - REF_PCB_J4_JST_XH5": 4.238,
+  "REF_harness_5_wires_to_J4 - REF_PCB_J1_XY350V_4p": 15.238,
+  "REF_harness_5_wires_to_J4 - REF_PCB_tall_part": 16.802,
+  "REF_J4_XH5_plug - I9_top_world": 12.25,
+  "REF_J4_XH5_plug - I9_base_world": 11.457,
+  "REF_J4_XH5_plug - I9_retainer_world": 25.799,
+  "REF_J4_XH5_plug - REF_PCB_J3_XY350V_4p": 55.61,
+  "REF_J4_XH5_plug - REF_PCB_RevD2_board": 7.013,
+  "REF_J4_XH5_plug - REF_PCB_J2_XY350V_4p": 35.616,
+  "REF_J4_XH5_plug - REF_PCB_SMD_parts": 7.332,
+  "REF_J4_XH5_plug - REF_PCB_J4_JST_XH5": 0.0,
+  "REF_J4_XH5_plug - REF_PCB_J1_XY350V_4p": 15.637,
+  "REF_J4_XH5_plug - REF_PCB_tall_part": 15.749,
+  "REF_USB_male_plug_tip - I9_top_world": 2.901,
+  "REF_USB_male_plug_tip - I9_base_world": 34.046,
+  "REF_USB_male_plug_tip - I9_retainer_world": 3.335,
+  "REF_USB_male_plug_tip - REF_PCB_J3_XY350V_4p": 25.945,
+  "REF_USB_male_plug_tip - REF_PCB_RevD2_board": 26.451,
+  "REF_USB_male_plug_tip - REF_PCB_J2_XY350V_4p": 18.09,
+  "REF_USB_male_plug_tip - REF_PCB_SMD_parts": 28.221,
+  "REF_USB_male_plug_tip - REF_PCB_J4_JST_XH5": 36.557,
+  "REF_USB_male_plug_tip - REF_PCB_J1_XY350V_4p": 18.203,
+  "REF_USB_male_plug_tip - REF_PCB_tall_part": 42.393,
+  "REF_cable_12pin_7mm - I9_top_world": 0.0,
+  "REF_cable_12pin_7mm - I9_base_world": 0.0,
+  "REF_cable_12pin_7mm - I9_retainer_world": 31.664,
+  "REF_cable_12pin_7mm - REF_PCB_J3_XY350V_4p": 20.405,
+  "REF_cable_12pin_7mm - REF_PCB_RevD2_board": 4.262,
+  "REF_cable_12pin_7mm - REF_PCB_J2_XY350V_4p": 3.242,
+  "REF_cable_12pin_7mm - REF_PCB_SMD_parts": 6.153,
+  "REF_cable_12pin_7mm - REF_PCB_J4_JST_XH5": 31.377,
+  "REF_cable_12pin_7mm - REF_PCB_J1_XY350V_4p": 4.428,
+  "REF_cable_12pin_7mm - REF_PCB_tall_part": 20.244,
+  "REF_zip_tie_2.5mm_centre - I9_top_world": 19.49,
+  "REF_zip_tie_2.5mm_centre - I9_base_world": 0.0,
+  "REF_zip_tie_2.5mm_centre - I9_retainer_world": 30.605,
+  "REF_zip_tie_2.5mm_centre - REF_PCB_J3_XY350V_4p": 13.001,
+  "REF_zip_tie_2.5mm_centre - REF_PCB_RevD2_board": 3.173,
+  "REF_zip_tie_2.5mm_centre - REF_PCB_J2_XY350V_4p": 2.152,
+  "REF_zip_tie_2.5mm_centre - REF_PCB_SMD_parts": 7.868,
+  "REF_zip_tie_2.5mm_centre - REF_PCB_J4_JST_XH5": 27.832,
+  "REF_zip_tie_2.5mm_centre - REF_PCB_J1_XY350V_4p": 2.973,
+  "REF_zip_tie_2.5mm_centre - REF_PCB_tall_part": 36.349,
+  "REF_zip_tie_2.5mm_centre - REF_cable_12pin_conductors_x12": 0.376,
+  "REF_cable_12pin_conductors_x12 - REF_cable_12pin_7mm": 0.0,
+  "REF_ferrule_collars_green_x12 - REF_cable_12pin_conductors_x12": 0.0,
+  "REF_harness_5_wires_to_J4 - REF_USB_flat_cable_51mm": 3.134,
+  "REF_harness_5_wires_to_J4 - REF_USB_male_90deg_overmold": 10.417,
+  "REF_harness_5x_1pin_housing_d1.2 - REF_USB_male_90deg_overmold": 23.82,
+  "REF_harness_5x_1pin_housing_d1.2 - display_parts": 0.0,
+  "REF_USB_flat_cable_51mm - REF_PCB_tall_part": 16.288,
+  "REF_USB_flat_cable_51mm - REF_PCB_SMD_parts": 11.541,
+  "REF_USB_male_90deg_overmold - REF_PCB_RevD2_board": 11.642,
+  "REF_screw_M2.5x12_PCB_x4 - REF_PCB_SMD_parts": 2.311,
+  "REF_screw_M2.5x12_PCB_x4 - REF_PCB_J4_JST_XH5": 8.32,
+  "display_PCB - I9_top_world": 0.2,
+  "display_LCM - I9_top_world": 0.2,
+  "display_parts - I9_top_world": 0.961,
+  "display_PCB - I9_retainer_world": 0.0,
+  "display_parts - I9_retainer_world": 0.35,
+  "display_LCM - I9_crown_world": 0.0,
+  "display_PCB - I9_crown_world": 1.8
+ },
+ "module_real_vendor": {
+  "pcb_x_top_mm3": 0.0,
+  "lcm_x_top_mm3": 0.0,
+  "pcb_x_retainer_mm3": 0.0,
+  "lcm_x_crown_mm3": 0.0,
+  "I6_values": {
+   "pcb_x_top_mm3": 9.19,
+   "lcm_x_top_mm3": 4.57
+  },
+  "bore_d": 37.0,
+  "retainer_od": 37.1,
+  "pipe_wall": 1.85,
+  "outline_clearance": 0.2
+ },
+ "h2_housings": {
+  "d": 1.2,
+  "l": 12.0,
+  "min_gap_between": 0.07,
+  "pins": [
+   3,
+   1,
+   4,
+   5,
+   7
+  ],
+  "wire_od": 0.8
+ },
+ "usb_flip_check": {
+  "plug_axis_a": -4.52,
+  "flipped_overmold_a_range": [
+   -7.54,
+   8.46
+  ],
+  "flipped_x_top_mm3": 322.262,
+  "current_x_top_mm3": 0.0,
+  "note": "180 deg about the plug axis puts the overmold 8.5 mm in front of the glass plane (through the deck) -> not buildable; I7 keeps the I6 orientation"
+ },
+ "conductors": {
+  "n": 12,
+  "insulation_od": 1.4,
+  "jacket_end_y": 8.0,
+  "helical_lay_mm": 45.0,
+  "ferrule": {
+   "flare_l": 1.5,
+   "flare_r": 1.5,
+   "col_r": 1.3,
+   "col_l": 4.5,
+   "pin_r": 0.55,
+   "pin_l": 8.0,
+   "pin_in": 0.8,
+   "flat": 0.44,
+   "wire_in": 1.2
+  },
+  "entries": [
+   [
+    -16.25,
+    -21.85,
+    17.95
+   ],
+   [
+    -12.75,
+    -21.85,
+    17.95
+   ],
+   [
+    -9.25,
+    -21.85,
+    17.95
+   ],
+   [
+    -5.75,
+    -21.85,
+    17.95
+   ],
+   [
+    3.75,
+    -21.85,
+    17.95
+   ],
+   [
+    7.25,
+    -21.85,
+    17.95
+   ],
+   [
+    10.75,
+    -21.85,
+    17.95
+   ],
+   [
+    14.25,
+    -21.85,
+    17.95
+   ],
+   [
+    23.75,
+    -21.85,
+    17.95
+   ],
+   [
+    27.25,
+    -21.85,
+    17.95
+   ],
+   [
+    30.75,
+    -21.85,
+    17.95
+   ],
+   [
+    34.25,
+    -21.85,
+    17.95
+   ]
+  ],
+  "route": {
+   "min_wire_gap": 0.054136209006010017,
+   "min_obstacle_gap": 0.11230534315109253,
+   "lengths": [
+    72.49236985149658,
+    79.09784622555075,
+    98.26648278954636,
+    70.49194818923374,
+    66.27734341739672,
+    66.60563676874825,
+    102.70091216521315,
+    81.49019901286776,
+    74.35512030053002,
+    85.70645268075185,
+    72.96571377316846,
+    91.75325030724896
+   ],
+   "term": [
+    4,
+    6,
+    10,
+    1,
+    3,
+    2,
+    11,
+    7,
+    5,
+    8,
+    0,
+    9
+   ]
+  },
+  "note": "I7b: relaxed natural breakout (route7b.py); pin starts 0.8 inside the collar (no gap), crimp flats 0.88 A/F"
+ },
+ "zip_tie_I7b": {
+  "n": 1,
+  "y": -18.65,
+  "trench_walls_y": [
+   -45.300000000000004,
+   8.0
+  ],
+  "slot_z": [
+   4.4,
+   6.0
+  ],
+  "slot_w": 3.0,
+  "head_x": [
+   6.9,
+   12.5
+  ],
+  "pocket_floor_z": 1.2,
+  "floor_left_mm": 1.2,
+  "note": "one central tie (fits at the exact middle); slots at wall mid-height"
+ }
+}

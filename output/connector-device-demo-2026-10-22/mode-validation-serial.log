@@ -1,0 +1,15 @@
+HOST_MODE helix
+DISPLAY_MODE: HELIX SIMULATED
+DISPLAY_ALIVE mode=HELIX frames=1661 fps_x10=495 decode_us=7272 transfer_us=13692 free_heap=86596 free_psram=2042400
+DISPLAY_ALIVE mode=HELIX frames=1911 fps_x10=500 decode_us=7240 transfer_us=13324 free_heap=86596 free_psram=2042400
+HOST_MODE storm
+DISPLAY_MODE: STORM SIMULATED
+DISPLAY_ALIVE mode=STORM frames=2159 fps_x10=494 decode_us=8452 transfer_us=13930 free_heap=86596 free_psram=2042400
+DISPLAY_ALIVE mode=STORM frames=2405 fps_x10=490 decode_us=10439 transfer_us=14907 free_heap=86596 free_psram=2042400
+DISPLAY_ALIVE mode=STORM frames=2652 fps_x10=492 decode_us=10290 transfer_us=14898 free_heap=86596 free_psram=2042400
+HOST_MODE idle
+DISPLAY_MODE: IDLE SIMULATED
+DISPLAY_ALIVE mode=IDLE frames=2894 fps_x10=483 decode_us=6963 transfer_us=11580 free_heap=86596 free_psram=2042400
+HOST_MODE full
+DISPLAY_MODE: FULL SIMULATED
+DISPLAY_ALIVE mode=FULL frames=3136 fps_x10=484 decode_us=7033 transfer_us=11339 free_heap=86596 free_psram=2042400

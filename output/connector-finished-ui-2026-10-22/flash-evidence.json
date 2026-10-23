@@ -1,0 +1,26 @@
+{
+  "result": "flashed and playing on connected Rev D ESP32-S3 tester",
+  "device_port": "/dev/cu.usbmodem58760426031",
+  "asset_address": "0x610000",
+  "asset_bytes": 8948181,
+  "asset_sha256": "564e089ee1fc1f76fd77c83502a9825cde96ccd4896998cb0260f29b4e7d4d15",
+  "asset_hash_verified": true,
+  "asset_matches_manifest": true,
+  "largest_compressed_frame_bytes": 46821,
+  "installed_decoder_limit_bytes": 50000,
+  "device_ready": true,
+  "observed_fps_by_mode": {
+    "HELIX": 49.8,
+    "STORM": 49.0,
+    "FULL": [
+      48.6,
+      46.6
+    ]
+  },
+  "calibration_nvs_sha256_before": "8a5341d1f106b87f235d344573af6b65abea7f1d83bea8387a4c41e6df13667e",
+  "calibration_nvs_sha256_after": "8a5341d1f106b87f235d344573af6b65abea7f1d83bea8387a4c41e6df13667e",
+  "calibration_nvs_unchanged": true,
+  "final_mode": "full",
+  "voltage_and_pin_states": "simulated art; live measurement remains for cable testing",
+  "final_mode_verified": true
+}

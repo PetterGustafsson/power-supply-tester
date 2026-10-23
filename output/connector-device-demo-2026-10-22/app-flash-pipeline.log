@@ -1,0 +1,33 @@
+esptool.py v4.8.1
+Serial port /dev/cu.usbmodem58760426031
+Connecting....
+Chip is ESP32-S3 (QFN56) (revision v0.2)
+Features: WiFi, BLE, Embedded PSRAM 2MB (AP_3v3)
+Crystal is 40MHz
+MAC: 24:ec:4a:7e:bd:1c
+Uploading stub...
+Running stub...
+Stub running...
+Changing baud rate to 230400
+Changed.
+Configuring flash size...
+Flash will be erased from 0x00010000 to 0x00068fff...
+Compressed 363152 bytes to 201651...
+Writing at 0x00010000... (7 %)
+Writing at 0x0001c224... (15 %)
+Writing at 0x0002a766... (23 %)
+Writing at 0x0002fe93... (30 %)
+Writing at 0x000359f3... (38 %)
+Writing at 0x0003b5c4... (46 %)
+Writing at 0x00040e7f... (53 %)
+Writing at 0x00046779... (61 %)
+Writing at 0x0004c195... (69 %)
+Writing at 0x000532df... (76 %)
+Writing at 0x0005ad2a... (84 %)
+Writing at 0x000608be... (92 %)
+Writing at 0x000669c4... (100 %)
+Wrote 363152 bytes (201651 compressed) at 0x00010000 in 19.1 seconds (effective 152.3 kbit/s)...
+Hash of data verified.
+
+Leaving...
+Hard resetting via RTS pin...

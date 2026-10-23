@@ -1,0 +1,1 @@
+PASS: production renderer; live/multiple/all pins, timed animation, byte order, bounds, inactive/fault clearing, capture/stale suppression and invalid masks.

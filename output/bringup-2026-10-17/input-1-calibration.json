@@ -1,0 +1,15 @@
+{
+  "pin": 1,
+  "gain": 427.719635,
+  "command": "calv 1 12.03",
+  "acknowledgement": "CAL_SAVED pin=1 gain=427.7196350 mask=001",
+  "saved_at_utc": "2026-10-18T06:33:49.199595+00:00",
+  "reference_voltage_V": 12.03,
+  "reference_source": "User-reported multimeter reading between INP1 and AGND",
+  "supply_display_voltage_V": 12.05,
+  "low_point_file": "input-1-low-point.json",
+  "saved_to_device_NVS": true,
+  "persistence_after_restart_tested": false,
+  "completion_flag_after_restart_confirmed": true,
+  "persistence_check_evidence": "After restarting/restoring the standard app, saving only input 2 returned mask=003, retaining the input 1 completion bit. Gain value not separately read back."
+}

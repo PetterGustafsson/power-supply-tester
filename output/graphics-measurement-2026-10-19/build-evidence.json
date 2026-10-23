@@ -1,0 +1,57 @@
+{
+  "prepared_at": "2026-10-19T21:57:17.282566+00:00",
+  "compile_exit_code": 0,
+  "flashed": true,
+  "fqbn": "esp32:esp32:esp32s3:FlashSize=16M,PSRAM=enabled,CDCOnBoot=default,PartitionScheme=app3M_fat9M_16MB",
+  "core_version": "3.3.7",
+  "source_sha256": {
+    "CalibrationBatch.h": "1fb632bf64b07be83c1ffe07d395bd79819d5489e33c02d0e492ea1695229915",
+    "ConnectorBackdrop.h": "1b8c3d4417465d35eaa667351921225cf5d872e9f2d18ea299a15bfa9f3f7208",
+    "DEV_Config.cpp": "3064ca0b66f077c09c4b5a86fc006130e2bf1ae4802a7ab8a81ffd2c11b4bd52",
+    "DEV_Config.h": "670e4474e3e5b24e8b298e6bb9be0597eeb058fa4ed99e5446ced59d15c25ecf",
+    "Debug.h": "3b9c7b8aaea9dacd124fabbecb390db0cafca4c80755743709935edd467fb9c0",
+    "DisplayGraphics.h": "be5ce15c86981eabbcf0e1d1ba2755e53e13310c3e6802af70d7654248e82687",
+    "LCD_1in28.cpp": "dce921beacd90a2862ad7eb6c8730f716a045868901038a0f6a141c7f959cc4f",
+    "LCD_1in28.h": "79b78afc637a699f7ee1aeeb4af09db83c542845f7d68840f787211df50b2bb1",
+    "Measurement.h": "31e11ec43b4f306aefbd3bb6a509e6f50c3fdf928c6ff3f71aa393cfb5844244",
+    "Tester12VRevD.ino": "08132641549a53e94ab2b59b69d8dc8427a6d98e458eb1f667a7d9626833eeac"
+  },
+  "binary_sha256": {
+    "Tester12VRevD.ino.bin": "ca0c7d3314828ef33f66a1560db9fc0a0aa98969464d70fb066f51e7951f7e50",
+    "Tester12VRevD.ino.bootloader.bin": "5403ba8cdf81cbb47f2debe13c0f5ff5903540075ccaf3fac65f0ee68213cb7d",
+    "Tester12VRevD.ino.merged.bin": "e2f6bbbcab06f44a6a626c637b93ba0838a5ff66113670808bf48c142dfae121",
+    "Tester12VRevD.ino.partitions.bin": "ace02503447d0f470692e65fa76002f2d77a92dc81cd3813d8aa66718d716da9"
+  },
+  "application_bytes": 517600,
+  "tests": {
+    "actual_sketch_integration": "PASS: no LCD transfer during normal batch, calibration banner before scans, unchanged changing-input rejection and read-only diagnostics",
+    "calibration_parser": "PASS"
+  },
+  "changes": "No rendering or LCD transfers inside a complete averaging batch. Rejected averages emit read-only diagnostic means/spans, raw ADC means and references at most once per three seconds.",
+  "calibration_math_and_thresholds_changed": false,
+  "settings_backup_sha256": "feea0f25721f38519d8c1b62e2cae2721a5da5302ddafb521d61d7f0005714af",
+  "installed_at": "2026-10-19T21:58:30.022729+00:00",
+  "flash": {
+    "exit_code": 0,
+    "scope": "application only",
+    "address": "0x10000",
+    "bytes": 517600,
+    "hash_verified": true
+  },
+  "live_validation": {
+    "startup_marker": "MEASUREMENT_MODE: quiet averaging batches; LCD updates after measurement",
+    "calibration_status": "CAL_STATUS protocol=2 batch=6633B2B2 low_mask=007 done_mask=000 mask=FFF zero=1 copied_mask=FFE",
+    "connected": true,
+    "device_ready": true,
+    "device_state": "No voltage",
+    "fresh": true,
+    "state_counts": {
+      "0": 137
+    },
+    "powered_pair_verified": false,
+    "note": "User asked to apply a steady 12 V numbered-input pair for verification after the reflash. No successful powered test inferred from no-voltage scans.",
+    "valid_frames": 137,
+    "invalid_frames": 0,
+    "last_sequence": 136
+  }
+}

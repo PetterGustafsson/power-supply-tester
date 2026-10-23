@@ -1,0 +1,56 @@
+{
+  "prepared_at": "2026-10-20T03:56:36.245460+00:00",
+  "compile_exit_code": 0,
+  "flashed": false,
+  "blocker": "USB disconnected. Awaiting connection and manual BOOT/RESET.",
+  "fqbn": "esp32:esp32:esp32s3:FlashSize=16M,PSRAM=enabled,CDCOnBoot=default,PartitionScheme=app3M_fat9M_16MB",
+  "core_version": "3.3.7",
+  "source_sha256": {
+    "CalibrationBatch.h": "1fb632bf64b07be83c1ffe07d395bd79819d5489e33c02d0e492ea1695229915",
+    "ConnectorBackdrop.h": "1b8c3d4417465d35eaa667351921225cf5d872e9f2d18ea299a15bfa9f3f7208",
+    "DEV_Config.cpp": "3064ca0b66f077c09c4b5a86fc006130e2bf1ae4802a7ab8a81ffd2c11b4bd52",
+    "DEV_Config.h": "670e4474e3e5b24e8b298e6bb9be0597eeb058fa4ed99e5446ced59d15c25ecf",
+    "Debug.h": "3b9c7b8aaea9dacd124fabbecb390db0cafca4c80755743709935edd467fb9c0",
+    "DisplayFont.h": "bf3334f63ccb1ea4ca1627f020f84059ed9dd655a910e716537b7036a9c3684f",
+    "DisplayGraphics.h": "476e7004f877e151c4125fa75a0b15bafbc34857bb095c362017bb8eb562c2cf",
+    "LCD_1in28.cpp": "dce921beacd90a2862ad7eb6c8730f716a045868901038a0f6a141c7f959cc4f",
+    "LCD_1in28.h": "79b78afc637a699f7ee1aeeb4af09db83c542845f7d68840f787211df50b2bb1",
+    "Measurement.h": "31e11ec43b4f306aefbd3bb6a509e6f50c3fdf928c6ff3f71aa393cfb5844244",
+    "Tester12VRevD.ino": "6df43d4923306cb1d116906f86da0833c76684377dc9d152ddb4dd99c3d94b48"
+  },
+  "binary_sha256": {
+    "Tester12VRevD.ino.bin": "db1955910020e52815897f81767f7a160c1d3497765fa0a126c6c91715b64305",
+    "Tester12VRevD.ino.bootloader.bin": "5403ba8cdf81cbb47f2debe13c0f5ff5903540075ccaf3fac65f0ee68213cb7d",
+    "Tester12VRevD.ino.merged.bin": "1ac57167385ced5ce80f535f9e0a1930bdab285fe85e84d86d083a3074afdf89",
+    "Tester12VRevD.ino.partitions.bin": "ace02503447d0f470692e65fa76002f2d77a92dc81cd3813d8aa66718d716da9"
+  },
+  "application_bytes": 617728,
+  "tests": {
+    "renderer": "PASS after hiding calibration text: tabular digits, kerning, time-invariant display, bounds, cache equality, fallback and state clearing",
+    "actual_sketch_integration": "PASS: acquisition, calibration, quiet batches and off-screen-only benchmarks",
+    "font_generation": "Byte-for-byte reproducible with Pillow 12.0.0 and Raqm"
+  },
+  "visual_review": "Updated previews inspected: upright voltage and pin numbers, quiet polarity rings, one curved title, no calibration labels or instructions, and no particle/electron effects. Not-ready and capture states use neutral measurement status.",
+  "measurement_and_calibration_code_unchanged": true,
+  "calibration_before": {
+    "device_mask": 4095,
+    "copied_mask": 4094
+  },
+  "font_source": {
+    "family": "Inter",
+    "commit": "0b58fb370093f9a9f4ff785d94405710b79de67c",
+    "license": "SIL Open Font License 1.1",
+    "files": {
+      "Inter-opsz-wght.ttf": {
+        "url": "https://raw.githubusercontent.com/google/fonts/0b58fb370093f9a9f4ff785d94405710b79de67c/ofl/inter/Inter%5Bopsz,wght%5D.ttf",
+        "sha256": "29160a80ff49ddcab2c97711247e08b1fab27a484a329ce8b813d820dc559031"
+      },
+      "OFL.txt": {
+        "url": "https://raw.githubusercontent.com/google/fonts/0b58fb370093f9a9f4ff785d94405710b79de67c/ofl/inter/OFL.txt",
+        "sha256": "5b9321a4298cfeb6b34354164a1c3afc3db114569984c502b9b35d988fd58c57"
+      }
+    }
+  },
+  "calibration_display_hidden": true,
+  "usb_connected_at_preparation": false
+}

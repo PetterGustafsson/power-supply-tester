@@ -1,0 +1,27 @@
+{
+  "result": "live firmware recognizes robust unstable powered pair for display before strict CSV acceptance",
+  "device_port": "/dev/cu.usbmodem58760426031",
+  "app_address": "0x10000",
+  "asset_address": "0x610000",
+  "app_sha256": "c346628dfdae030e5967d8954f05a73cac3640787f16754c378cfdbea00a2554",
+  "asset_sha256": "152b2a467bcef09bebff48a05e06e6133f563c4d1726ba2112b4f71404a52ce1",
+  "app_flash_hash_verified": true,
+  "calibration_status": "CAL_STATUS protocol=2 batch=6633B2B2 low_mask=007 done_mask=000 mask=FFF zero=1 copied_mask=FFE",
+  "physical_test": {
+    "first_changing_batch_sequence": 87,
+    "first_preview_batch_sequence": 89,
+    "first_preview": "DISPLAY_PREVIEW pair=001/002 volts=12.373 CSV_VALID=0",
+    "first_strict_valid_supply": {
+      "sequence": 92,
+      "volts": 12.2978
+    },
+    "insertions": [
+      "DISPLAY_INSERT_DONE duration_ms=965 frames=21"
+    ],
+    "mode_transitions": [
+      "DISPLAY_MODE: INSERT LIVE"
+    ],
+    "display_errors": [],
+    "strict_CSV_validity_preserved": true
+  }
+}

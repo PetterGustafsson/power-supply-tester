@@ -1,0 +1,20 @@
+{
+  "format": "OPTICS50",
+  "version": 1,
+  "width": 240,
+  "height": 240,
+  "fps": 50,
+  "main_frames": 500,
+  "storm_frames": 100,
+  "main_loop_seconds": 10.0,
+  "helix_loop_seconds": 1.0,
+  "data_offset": 8192,
+  "payload_bytes": 8693464,
+  "asset_bytes": 8701656,
+  "largest_frame_bytes": 46273,
+  "asset_sha256": "f1d4ca13430216b6e73e3e5d080532fe682fad5f20305385c50c91dd5fc71738",
+  "source_main": "output/connector-optics-240.webp",
+  "source_storm": "output/connector-thunderstorm-240.webp",
+  "flash_pattern": "one cold-to-gold directional ooze for every powered pair",
+  "semantics": "simulated display art; voltage and pin states are not measurements"
+}

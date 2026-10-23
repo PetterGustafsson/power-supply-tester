@@ -1,0 +1,219 @@
+could not get a list of mounted file-systems
+Blender 4.2.3 LTS (hash 0e22e4fcea03 built 2024-10-14 23:31:34)
+Timer 'STL Import' took 4.82 ms
+STL Importer: 1 degenerate triangles were removed
+Timer 'STL Import' took 11.40 ms
+Timer 'STL Import' took 1.94 ms
+Timer 'STL Import' took 0.35 ms
+Timer 'STL Import' took 0.91 ms
+Timer 'STL Import' took 7.18 ms
+Timer 'STL Import' took 0.80 ms
+Timer 'STL Import' took 6.06 ms
+Timer 'STL Import' took 0.56 ms
+Timer 'STL Import' took 5.89 ms
+Timer 'STL Import' took 7.27 ms
+Timer 'STL Import' took 0.39 ms
+Timer 'STL Import' took 0.18 ms
+Timer 'STL Import' took 0.18 ms
+Timer 'STL Import' took 0.10 ms
+Timer 'STL Import' took 0.17 ms
+Timer 'STL Import' took 0.20 ms
+Timer 'STL Import' took 95420 ns
+Timer 'STL Import' took 0.19 ms
+Timer 'STL Import' took 0.18 ms
+Timer 'STL Import' took 92996 ns
+Timer 'STL Import' took 0.26 ms
+Timer 'STL Import' took 0.28 ms
+Timer 'STL Import' took 58635 ns
+Timer 'STL Import' took 70552 ns
+Timer 'STL Import' took 4.07 ms
+Timer 'STL Import' took 6.27 ms
+STL Importer: 224 degenerate triangles were removed
+STL Importer: 1313 duplicate triangles were removed
+Timer 'STL Import' took 192.86 ms
+STL Importer: 8 degenerate triangles were removed
+Timer 'STL Import' took 8.68 ms
+Timer 'STL Import' took 0.72 ms
+Timer 'STL Import' took 43.86 ms
+STL Importer: 8 degenerate triangles were removed
+Timer 'STL Import' took 8.93 ms
+Timer 'STL Import' took 0.59 ms
+Timer 'STL Import' took 90386 ns
+Timer 'STL Import' took 0.62 ms
+Timer 'STL Import' took 136.41 ms
+Timer 'STL Import' took 0.12 ms
+Timer 'STL Import' took 85051 ns
+Timer 'STL Import' took 1.64 ms
+Timer 'STL Import' took 1.00 ms
+Timer 'STL Import' took 0.22 ms
+Timer 'STL Import' took 16.13 ms
+Timer 'STL Import' took 18.48 ms
+Timer 'STL Import' took 16.11 ms
+Timer 'STL Import' took 17.21 ms
+Timer 'STL Import' took 16.85 ms
+Timer 'STL Import' took 15.33 ms
+Timer 'STL Import' took 17.61 ms
+Timer 'STL Import' took 18.08 ms
+Timer 'STL Import' took 18.51 ms
+Timer 'STL Import' took 22.40 ms
+Timer 'STL Import' took 21.00 ms
+Timer 'STL Import' took 20.52 ms
+Timer 'STL Import' took 1.45 ms
+Timer 'STL Import' took 4.66 ms
+Fra:1 Mem:116.65M (Peak 116.65M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | I7_base_cutx0
+Fra:1 Mem:116.77M (Peak 116.77M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Plane
+Fra:1 Mem:117.00M (Peak 117.00M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | I7_crown_cutx0
+Fra:1 Mem:117.28M (Peak 117.28M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | REF_ferrule_collars_green_x12
+Fra:1 Mem:117.28M (Peak 117.54M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | REF_PCB_RevD2_board
+Fra:1 Mem:118.99M (Peak 118.99M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | PCB_pads
+Fra:1 Mem:121.55M (Peak 121.55M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | PCB_copper
+Fra:1 Mem:122.61M (Peak 122.61M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | REF_PCB_SMD_parts__dark
+Fra:1 Mem:123.10M (Peak 123.10M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | REF_PCB_SMD_parts__metal
+Fra:1 Mem:124.09M (Peak 124.09M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | REF_PCB_SMD_parts__white
+Fra:1 Mem:126.94M (Peak 126.94M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | REF_PCB_SMD_parts__brown
+Fra:1 Mem:127.39M (Peak 127.39M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | REF_PCB_J1_XY350V_4p__dark
+Fra:1 Mem:127.88M (Peak 127.88M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | REF_PCB_J1_XY350V_4p__metal
+Fra:1 Mem:127.93M (Peak 127.93M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | REF_PCB_J1_XY350V_4p__green
+Fra:1 Mem:127.94M (Peak 127.94M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | REF_PCB_J2_XY350V_4p__dark
+Fra:1 Mem:129.76M (Peak 129.76M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | REF_PCB_J2_XY350V_4p__metal
+Fra:1 Mem:129.79M (Peak 129.79M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | REF_PCB_J2_XY350V_4p__green
+Fra:1 Mem:129.82M (Peak 129.82M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | REF_PCB_J3_XY350V_4p__dark
+Fra:1 Mem:129.69M (Peak 129.82M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | REF_ferrule_pins_0.314in_x12
+Fra:1 Mem:130.20M (Peak 130.20M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | REF_PCB_J3_XY350V_4p__metal
+Fra:1 Mem:130.63M (Peak 130.63M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | REF_PCB_J3_XY350V_4p__green
+Fra:1 Mem:132.78M (Peak 132.78M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | conductor_11
+Fra:1 Mem:132.78M (Peak 132.78M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | REF_PCB_J4_JST_XH5__metal
+Fra:1 Mem:133.93M (Peak 133.93M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | REF_PCB_J4_JST_XH5__white
+Fra:1 Mem:134.02M (Peak 134.02M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | REF_PCB_tall_part__dark
+Fra:1 Mem:134.31M (Peak 134.31M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | REF_PCB_tall_part__metal
+Fra:1 Mem:134.32M (Peak 134.32M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | display_PCB
+Fra:1 Mem:134.36M (Peak 134.36M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | display_LCM
+Fra:1 Mem:134.79M (Peak 134.79M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | display_parts
+Fra:1 Mem:143.85M (Peak 143.85M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | usb_male_body
+Fra:1 Mem:144.21M (Peak 144.21M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | usb_male_shell
+Fra:1 Mem:144.66M (Peak 144.66M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | usb_ribbon
+Fra:1 Mem:148.60M (Peak 148.60M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | usb_female_body
+Fra:1 Mem:153.48M (Peak 153.48M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | usb_female_shell
+Fra:1 Mem:154.06M (Peak 154.06M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | REF_harness_5x_1pin_housing_d1.2
+Fra:1 Mem:154.15M (Peak 154.15M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | usb_female_tongue
+Fra:1 Mem:154.52M (Peak 154.52M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | REF_harness_5_wires_to_J4
+Fra:1 Mem:161.54M (Peak 161.54M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | REF_harness_5x_breadboard_pins_0.64sq
+Fra:1 Mem:161.54M (Peak 161.54M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | REF_J4_XH5_plug
+Fra:1 Mem:169.54M (Peak 169.54M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | REF_grommet_foot_x4
+Fra:1 Mem:170.18M (Peak 170.18M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | REF_screw_M2.5x12_PCB_x4
+Fra:1 Mem:170.31M (Peak 170.31M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | REF_cable_12pin_7mm
+Fra:1 Mem:170.72M (Peak 170.72M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | conductor_00
+Fra:1 Mem:176.53M (Peak 176.53M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | conductor_01
+Fra:1 Mem:182.48M (Peak 182.48M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | conductor_02
+Fra:1 Mem:196.60M (Peak 196.60M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | conductor_03
+Fra:1 Mem:200.01M (Peak 200.06M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | conductor_10
+Fra:1 Mem:235.83M (Peak 235.83M) | Time:00:00.03 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | conductor_04
+Fra:1 Mem:237.81M (Peak 237.81M) | Time:00:00.03 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | conductor_09
+Fra:1 Mem:247.13M (Peak 247.13M) | Time:00:00.03 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | conductor_05
+Fra:1 Mem:246.74M (Peak 247.13M) | Time:00:00.03 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | conductor_06
+Fra:1 Mem:249.48M (Peak 249.99M) | Time:00:00.04 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | conductor_07
+Fra:1 Mem:274.49M (Peak 275.05M) | Time:00:00.05 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | conductor_08
+Fra:1 Mem:298.06M (Peak 304.44M) | Time:00:00.08 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Initializing
+Fra:1 Mem:294.53M (Peak 304.44M) | Time:00:00.08 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Waiting for render to start
+Fra:1 Mem:294.53M (Peak 304.44M) | Time:00:00.08 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Loading render kernels (may take a few minutes the first time)
+Fra:1 Mem:294.53M (Peak 304.44M) | Time:00:00.08 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Updating Scene
+Fra:1 Mem:294.53M (Peak 304.44M) | Time:00:00.08 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Updating Shaders
+Fra:1 Mem:294.64M (Peak 304.44M) | Time:00:00.08 | Mem:0.03M, Peak:0.03M | Scene, ViewLayer | Updating Procedurals
+Fra:1 Mem:294.64M (Peak 304.44M) | Time:00:00.08 | Mem:0.03M, Peak:0.03M | Scene, ViewLayer | Updating Background
+Fra:1 Mem:294.64M (Peak 304.44M) | Time:00:00.08 | Mem:0.03M, Peak:0.03M | Scene, ViewLayer | Updating Camera
+Fra:1 Mem:294.64M (Peak 304.44M) | Time:00:00.08 | Mem:0.03M, Peak:0.03M | Scene, ViewLayer | Updating Meshes Flags
+Fra:1 Mem:294.64M (Peak 304.44M) | Time:00:00.08 | Mem:0.03M, Peak:0.03M | Scene, ViewLayer | Updating Objects
+Fra:1 Mem:294.64M (Peak 304.44M) | Time:00:00.08 | Mem:0.03M, Peak:0.03M | Scene, ViewLayer | Updating Objects | Copying Transformations to device
+Fra:1 Mem:294.65M (Peak 304.44M) | Time:00:00.08 | Mem:0.04M, Peak:0.04M | Scene, ViewLayer | Updating Objects | Applying Static Transformations
+Fra:1 Mem:294.65M (Peak 304.44M) | Time:00:00.08 | Mem:0.04M, Peak:0.04M | Scene, ViewLayer | Updating Particle Systems
+Fra:1 Mem:294.65M (Peak 304.44M) | Time:00:00.08 | Mem:0.04M, Peak:0.04M | Scene, ViewLayer | Updating Particle Systems | Copying Particles to device
+Fra:1 Mem:294.66M (Peak 304.44M) | Time:00:00.08 | Mem:0.04M, Peak:0.04M | Scene, ViewLayer | Updating Meshes
+Fra:1 Mem:326.98M (Peak 326.98M) | Time:00:00.13 | Mem:0.04M, Peak:0.04M | Scene, ViewLayer | Updating Mesh | Computing attributes
+Fra:1 Mem:339.41M (Peak 339.41M) | Time:00:00.14 | Mem:0.04M, Peak:0.04M | Scene, ViewLayer | Updating Mesh | Copying Attributes to device
+Fra:1 Mem:339.41M (Peak 339.41M) | Time:00:00.14 | Mem:12.46M, Peak:12.46M | Scene, ViewLayer | Updating Scene BVH | Building
+Fra:1 Mem:339.41M (Peak 339.41M) | Time:00:00.14 | Mem:12.46M, Peak:12.46M | Scene, ViewLayer | Updating Scene BVH | Building BVH
+Fra:1 Mem:339.41M (Peak 339.41M) | Time:00:00.14 | Mem:77.12M, Peak:77.12M | Scene, ViewLayer | Updating Scene BVH | Building BVH 0%
+Fra:1 Mem:339.41M (Peak 339.41M) | Time:00:00.30 | Mem:150.46M, Peak:215.12M | Scene, ViewLayer | Updating Scene BVH | Copying BVH to device
+Fra:1 Mem:339.41M (Peak 339.41M) | Time:00:00.30 | Mem:150.46M, Peak:215.12M | Scene, ViewLayer | Updating Mesh | Computing normals
+Fra:1 Mem:412.94M (Peak 412.94M) | Time:00:00.33 | Mem:150.46M, Peak:215.12M | Scene, ViewLayer | Updating Mesh | Copying Mesh to device
+Fra:1 Mem:412.94M (Peak 412.94M) | Time:00:00.33 | Mem:223.99M, Peak:223.99M | Scene, ViewLayer | Updating Objects Flags
+Fra:1 Mem:412.94M (Peak 412.94M) | Time:00:00.33 | Mem:223.99M, Peak:223.99M | Scene, ViewLayer | Updating Primitive Offsets
+Fra:1 Mem:412.94M (Peak 412.94M) | Time:00:00.33 | Mem:223.99M, Peak:223.99M | Scene, ViewLayer | Updating Images
+Fra:1 Mem:412.94M (Peak 412.94M) | Time:00:00.33 | Mem:223.99M, Peak:223.99M | Scene, ViewLayer | Updating Camera Volume
+Fra:1 Mem:412.94M (Peak 412.94M) | Time:00:00.33 | Mem:223.99M, Peak:223.99M | Scene, ViewLayer | Updating Lookup Tables
+Fra:1 Mem:412.94M (Peak 412.94M) | Time:00:00.33 | Mem:224.07M, Peak:224.07M | Scene, ViewLayer | Updating Lights
+Fra:1 Mem:412.94M (Peak 412.94M) | Time:00:00.33 | Mem:224.08M, Peak:224.08M | Scene, ViewLayer | Updating Lights | Computing tree
+Fra:1 Mem:412.94M (Peak 412.94M) | Time:00:00.33 | Mem:224.08M, Peak:224.08M | Scene, ViewLayer | Updating Integrator
+Fra:1 Mem:412.94M (Peak 412.94M) | Time:00:00.33 | Mem:224.08M, Peak:224.08M | Scene, ViewLayer | Updating Film
+Fra:1 Mem:412.94M (Peak 412.94M) | Time:00:00.33 | Mem:224.00M, Peak:224.08M | Scene, ViewLayer | Updating Lookup Tables
+Fra:1 Mem:412.94M (Peak 412.94M) | Time:00:00.33 | Mem:224.08M, Peak:224.08M | Scene, ViewLayer | Updating Baking
+Fra:1 Mem:412.94M (Peak 412.94M) | Time:00:00.33 | Mem:224.08M, Peak:224.08M | Scene, ViewLayer | Updating Device | Writing constant memory
+Fra:1 Mem:412.94M (Peak 412.94M) | Time:00:00.33 | Mem:224.08M, Peak:224.08M | Scene, ViewLayer | Loading denoising kernels (may take a few minutes the first time)
+Fra:1 Mem:412.94M (Peak 412.94M) | Time:00:00.33 | Mem:224.08M, Peak:224.08M | Scene, ViewLayer | Sample 0/160
+Fra:1 Mem:528.94M (Peak 528.94M) | Time:00:01.15 | Remaining:02:11.39 | Mem:340.05M, Peak:340.05M | Scene, ViewLayer | Sample 1/160
+Fra:1 Mem:528.94M (Peak 528.94M) | Time:00:24.21 | Remaining:01:31.91 | Mem:340.05M, Peak:340.05M | Scene, ViewLayer | Sample 33/160
+Fra:1 Mem:528.94M (Peak 528.94M) | Time:00:45.88 | Remaining:01:06.58 | Mem:340.05M, Peak:340.05M | Scene, ViewLayer | Sample 65/160
+Fra:1 Mem:528.94M (Peak 528.94M) | Time:00:55.90 | Remaining:00:55.57 | Mem:340.05M, Peak:340.05M | Scene, ViewLayer | Sample 80/160
+Fra:1 Mem:528.94M (Peak 528.94M) | Time:01:06.68 | Remaining:00:44.23 | Mem:340.05M, Peak:340.05M | Scene, ViewLayer | Sample 96/160
+Fra:1 Mem:528.94M (Peak 528.94M) | Time:01:20.95 | Remaining:00:34.55 | Mem:340.05M, Peak:340.05M | Scene, ViewLayer | Sample 112/160
+Fra:1 Mem:528.94M (Peak 528.94M) | Time:01:34.93 | Remaining:00:23.65 | Mem:340.05M, Peak:340.05M | Scene, ViewLayer | Sample 128/160
+Fra:1 Mem:528.94M (Peak 528.94M) | Time:01:44.07 | Remaining:00:11.52 | Mem:340.05M, Peak:340.05M | Scene, ViewLayer | Sample 144/160
+Fra:1 Mem:577.77M (Peak 651.01M) | Time:01:55.50 | Mem:340.05M, Peak:340.05M | Scene, ViewLayer | Sample 160/160
+Fra:1 Mem:577.77M (Peak 651.01M) | Time:01:55.50 | Mem:340.05M, Peak:340.05M | Scene, ViewLayer | Finished
+Saved: '/workspace/psu-tester-case/renders/I7_usb_cutaway_hero.png'
+Time: 01:55.68 (Saving: 00:00.17)
+
+Warning: Asset loading is unfinished
+Warning: Asset loading is unfinished
+Warning: Asset loading is unfinished
+Warning: Asset loading is unfinished
+Warning: Asset loading is unfinished
+Warning: Asset loading is unfinished
+Warning: Asset loading is unfinished
+Warning: Asset loading is unfinished
+Warning: Asset loading is unfinished
+Warning: Asset loading is unfinished
+Warning: Asset loading is unfinished
+Warning: Asset loading is unfinished
+Warning: Asset loading is unfinished
+Warning: Asset loading is unfinished
+Warning: Asset loading is unfinished
+Warning: Asset loading is unfinished
+Warning: Asset loading is unfinished
+Warning: Asset loading is unfinished
+Warning: Asset loading is unfinished
+Warning: Asset loading is unfinished
+Warning: Asset loading is unfinished
+Warning: Asset loading is unfinished
+Warning: Asset loading is unfinished
+Warning: Asset loading is unfinished
+Warning: Asset loading is unfinished
+Warning: Asset loading is unfinished
+Warning: Asset loading is unfinished
+Warning: Asset loading is unfinished
+Warning: Asset loading is unfinished
+Warning: Asset loading is unfinished
+Warning: Asset loading is unfinished
+Warning: Asset loading is unfinished
+Warning: Asset loading is unfinished
+Warning: Asset loading is unfinished
+Warning: Asset loading is unfinished
+Warning: Asset loading is unfinished
+Warning: Asset loading is unfinished
+Warning: Asset loading is unfinished
+Warning: Asset loading is unfinished
+Warning: Asset loading is unfinished
+Warning: Asset loading is unfinished
+Warning: Asset loading is unfinished
+Warning: Asset loading is unfinished
+Warning: Asset loading is unfinished
+Warning: Asset loading is unfinished
+Warning: Asset loading is unfinished
+Warning: Asset loading is unfinished
+Warning: Asset loading is unfinished
+Warning: Asset loading is unfinished
+Warning: Asset loading is unfinished
+Warning: Asset loading is unfinished
+Warning: Asset loading is unfinished
+
+Blender quit

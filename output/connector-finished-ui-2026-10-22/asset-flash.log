@@ -1,0 +1,62 @@
+esptool.py v4.8.1
+Serial port /dev/cu.usbmodem58760426031
+Connecting....
+Chip is ESP32-S3 (QFN56) (revision v0.2)
+Features: WiFi, BLE, Embedded PSRAM 2MB (AP_3v3)
+Crystal is 40MHz
+MAC: 24:ec:4a:7e:bd:1c
+Uploading stub...
+Running stub...
+Stub running...
+Changing baud rate to 230400
+Changed.
+Configuring flash size...
+Flash will be erased from 0x00610000 to 0x00e9cfff...
+Compressed 8963084 bytes to 8946665...
+Writing at 0x00610000... (0 %)
+Writing at 0x00614bd7... (0 %)
+Writing at 0x00618bcd... (0 %)
+Writing at 0x0061cf48... (0 %)
+Writing at 0x006216e1... (0 %)
+Writing at 0x006256dc... (1 %)
+Writing at 0x006296d7... (1 %)
+Writing at 0x0062d6d2... (1 %)
+Writing at 0x006316cd... (1 %)
+Traceback (most recent call last):
+  File "/Users/petter/Documents/ChatGPT/Power supply tester/scripts/flash_serial.py", line 17, in <module>
+    esptool._main()
+    ~~~~~~~~~~~~~^^
+  File "/Users/petter/Documents/ChatGPT/Power supply tester/firmware/.venv/lib/python3.14/site-packages/esptool/__init__.py", line 1314, in _main
+    main()
+    ~~~~^^
+  File "/Users/petter/Documents/ChatGPT/Power supply tester/firmware/.venv/lib/python3.14/site-packages/esptool/__init__.py", line 1036, in main
+    operation_func(esp, args)
+    ~~~~~~~~~~~~~~^^^^^^^^^^^
+  File "/Users/petter/Documents/ChatGPT/Power supply tester/firmware/.venv/lib/python3.14/site-packages/esptool/cmds.py", line 646, in write_flash
+    esp.flash_defl_block(block, seq, timeout=timeout)
+    ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/petter/Documents/ChatGPT/Power supply tester/firmware/.venv/lib/python3.14/site-packages/esptool/loader.py", line 127, in inner
+    return func(*args, **kwargs)
+  File "/Users/petter/Documents/ChatGPT/Power supply tester/firmware/.venv/lib/python3.14/site-packages/esptool/loader.py", line 1132, in flash_defl_block
+    self.check_command(
+    ~~~~~~~~~~~~~~~~~~^
+        "write compressed data to flash after seq %d" % seq,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<3 lines>...
+        timeout=timeout,
+        ^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/Users/petter/Documents/ChatGPT/Power supply tester/firmware/.venv/lib/python3.14/site-packages/esptool/loader.py", line 510, in check_command
+    val, data = self.command(op, data, chk, timeout=timeout)
+                ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/petter/Documents/ChatGPT/Power supply tester/firmware/.venv/lib/python3.14/site-packages/esptool/loader.py", line 469, in command
+    self.write(pkt)
+    ~~~~~~~~~~^^^^^
+  File "/Users/petter/Documents/ChatGPT/Power supply tester/firmware/.venv/lib/python3.14/site-packages/esptool/loader.py", line 422, in write
+    self._port.write(buf)
+    ~~~~~~~~~~~~~~~~^^^^^
+  File "/Users/petter/Documents/ChatGPT/Power supply tester/scripts/flash_serial.py", line 14, in paced_write
+    time.sleep(len(chunk) * 10 / self.baudrate + .002)
+    ~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+KeyboardInterrupt

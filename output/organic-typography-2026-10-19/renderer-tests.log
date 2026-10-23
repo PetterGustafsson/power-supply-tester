@@ -1,0 +1,1 @@
+PASS: production renderer; proportional antialiased fonts, glyph atlas bounds, rotated edge clipping, circular text placement, live/multiple/all pins, timed animation, byte order, framebuffer bounds, inactive/fault clearing, capture/stale suppression and invalid masks.

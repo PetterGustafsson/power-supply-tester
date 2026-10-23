@@ -1,0 +1,464 @@
+Guru Meditation Error: Core  1 panic'ed (Unhandled debug exception).
+Debug exception reason: Stack canary watchpoint triggered (loopTask)
+Core  1 register dump:
+PC      : 0x400570e8  PS      : 0x00060536  A0      : 0x8003134d  A1      : 0x3fce91e0
+A2      : 0x3fce9c80  A3      : 0x00000000  A4      : 0x00000480  A5      : 0x3fcea040
+A6      : 0x00077171  A7      : 0x00000048  A8      : 0x04040403  A9      : 0x07080807
+A10     : 0x3fc96144  A11     : 0x00000002  A12     : 0x00001c2c  A13     : 0x3c05ae08
+A14     : 0xe4fdcd92  A15     : 0x3fff6c49  SAR     : 0x0000001b  EXCCAUSE: 0x00000001
+EXCVADDR: 0x00000000  LBEG    : 0x400570e8  LEND    : 0x400570f3  LCOUNT  : 0x0000000b
+
+
+Backtrace: 0x400570e5:0x3fce91e0 0x4003134a:0x3fce91f0 0x40031f5a:0x3fce9310 0x42002455:0x3fcebe40 0x4200275f:0x3fcebe70 0x42008265:0x3fcebea0 0x4037c5e1:0x3fcebec0
+
+
+
+
+ELF file SHA256: a6f0f654d
+
+Rebooting...
+ESP-ROM:esp32s3-20210327
+Build:Mar 27 2021
+rst:0xc (RTC_SW_CPU_RST),boot:0x18 (SPI_FAST_FLASH_BOOT)
+Saved PC:0x40378cca
+SPIWP:0xee
+mode:DIO, clock div:1
+load:0x3fce2820,len:0x10cc
+load:0x403c8700,len:0xc2c
+load:0x403cb700,len:0x30c0
+entry 0x403c88b8
+Guru Meditation Error: Core  1 panic'ed (Unhandled debug exception).
+Debug exception reason: Stack canary watchpoint triggered (loopTask)
+Core  1 register dump:
+PC      : 0x400570e8  PS      : 0x00060536  A0      : 0x8003134d  A1      : 0x3fce91e0
+A2      : 0x3fce9c80  A3      : 0x00000000  A4      : 0x00000480  A5      : 0x3fcea040
+A6      : 0x00077171  A7      : 0x00000048  A8      : 0x04040403  A9      : 0x07080807
+A10     : 0x3fc96144  A11     : 0x00000002  A12     : 0x00001c2c  A13     : 0x3c05ae08
+A14     : 0xe4fdcd92  A15     : 0x3fff6c49  SAR     : 0x0000001b  EXCCAUSE: 0x00000001
+EXCVADDR: 0x00000000  LBEG    : 0x400570e8  LEND    : 0x400570f3  LCOUNT  : 0x0000000b
+
+
+Backtrace: 0x400570e5:0x3fce91e0 0x4003134a:0x3fce91f0 0x40031f5a:0x3fce9310 0x42002455:0x3fcebe40 0x4200275f:0x3fcebe70 0x42008265:0x3fcebea0 0x4037c5e1:0x3fcebec0
+
+
+
+
+ELF file SHA256: a6f0f654d
+
+Rebooting...
+ESP-ROM:esp32s3-20210327
+Build:Mar 27 2021
+rst:0xc (RTC_SW_CPU_RST),boot:0x18 (SPI_FAST_FLASH_BOOT)
+Saved PC:0x40378cca
+SPIWP:0xee
+mode:DIO, clock div:1
+load:0x3fce2820,len:0x10cc
+load:0x403c8700,len:0xc2c
+load:0x403cb700,len:0x30c0
+entry 0x403c88b8
+Guru Meditation Error: Core  1 panic'ed (Unhandled debug exception).
+Debug exception reason: Stack canary watchpoint triggered (loopTask)
+Core  1 register dump:
+PC      : 0x400570e8  PS      : 0x00060536  A0      : 0x8003134d  A1      : 0x3fce91e0
+A2      : 0x3fce9c80  A3      : 0x00000000  A4      : 0x00000480  A5      : 0x3fcea040
+A6      : 0x00077171  A7      : 0x00000048  A8      : 0x04040403  A9      : 0x07080807
+A10     : 0x3fc96144  A11     : 0x00000002  A12     : 0x00001c2c  A13     : 0x3c05ae08
+A14     : 0xe4fdcd92  A15     : 0x3fff6c49  SAR     : 0x0000001b  EXCCAUSE: 0x00000001
+EXCVADDR: 0x00000000  LBEG    : 0x400570e8  LEND    : 0x400570f3  LCOUNT  : 0x0000000b
+
+
+Backtrace: 0x400570e5:0x3fce91e0 0x4003134a:0x3fce91f0 0x40031f5a:0x3fce9310 0x42002455:0x3fcebe40 0x4200275f:0x3fcebe70 0x42008265:0x3fcebea0 0x4037c5e1:0x3fcebec0
+
+
+
+
+ELF file SHA256: a6f0f654d
+
+Rebooting...
+ESP-ROM:esp32s3-20210327
+Build:Mar 27 2021
+rst:0xc (RTC_SW_CPU_RST),boot:0x18 (SPI_FAST_FLASH_BOOT)
+Saved PC:0x40378cca
+SPIWP:0xee
+mode:DIO, clock div:1
+load:0x3fce2820,len:0x10cc
+load:0x403c8700,len:0xc2c
+load:0x403cb700,len:0x30c0
+entry 0x403c88b8
+Guru Meditation Error: Core  1 panic'ed (Unhandled debug exception).
+Debug exception reason: Stack canary watchpoint triggered (loopTask)
+Core  1 register dump:
+PC      : 0x400570e8  PS      : 0x00060536  A0      : 0x8003134d  A1      : 0x3fce91e0
+A2      : 0x3fce9c80  A3      : 0x00000000  A4      : 0x00000480  A5      : 0x3fcea040
+A6      : 0x00077171  A7      : 0x00000048  A8      : 0x04040403  A9      : 0x07080807
+A10     : 0x3fc96144  A11     : 0x00000002  A12     : 0x00001c2c  A13     : 0x3c05ae08
+A14     : 0xe4fdcd92  A15     : 0x3fff6c49  SAR     : 0x0000001b  EXCCAUSE: 0x00000001
+EXCVADDR: 0x00000000  LBEG    : 0x400570e8  LEND    : 0x400570f3  LCOUNT  : 0x0000000b
+
+
+Backtrace: 0x400570e5:0x3fce91e0 0x4003134a:0x3fce91f0 0x40031f5a:0x3fce9310 0x42002455:0x3fcebe40 0x4200275f:0x3fcebe70 0x42008265:0x3fcebea0 0x4037c5e1:0x3fcebec0
+
+
+
+
+ELF file SHA256: a6f0f654d
+
+Rebooting...
+ESP-ROM:esp32s3-20210327
+Build:Mar 27 2021
+rst:0xc (RTC_SW_CPU_RST),boot:0x18 (SPI_FAST_FLASH_BOOT)
+Saved PC:0x40378cca
+SPIWP:0xee
+mode:DIO, clock div:1
+load:0x3fce2820,len:0x10cc
+load:0x403c8700,len:0xc2c
+load:0x403cb700,len:0x30c0
+entry 0x403c88b8
+Guru Meditation Error: Core  1 panic'ed (Unhandled debug exception).
+Debug exception reason: Stack canary watchpoint triggered (loopTask)
+Core  1 register dump:
+PC      : 0x400570e8  PS      : 0x00060536  A0      : 0x8003134d  A1      : 0x3fce91e0
+A2      : 0x3fce9c80  A3      : 0x00000000  A4      : 0x00000480  A5      : 0x3fcea040
+A6      : 0x00077171  A7      : 0x00000048  A8      : 0x04040403  A9      : 0x07080807
+A10     : 0x3fc96144  A11     : 0x00000002  A12     : 0x00001c2c  A13     : 0x3c05ae08
+A14     : 0xe4fdcd92  A15     : 0x3fff6c49  SAR     : 0x0000001b  EXCCAUSE: 0x00000001
+EXCVADDR: 0x00000000  LBEG    : 0x400570e8  LEND    : 0x400570f3  LCOUNT  : 0x0000000b
+
+
+Backtrace: 0x400570e5:0x3fce91e0 0x4003134a:0x3fce91f0 0x40031f5a:0x3fce9310 0x42002455:0x3fcebe40 0x4200275f:0x3fcebe70 0x42008265:0x3fcebea0 0x4037c5e1:0x3fcebec0
+
+
+
+
+ELF file SHA256: a6f0f654d
+
+Rebooting...
+ESP-ROM:esp32s3-20210327
+Build:Mar 27 2021
+rst:0xc (RTC_SW_CPU_RST),boot:0x18 (SPI_FAST_FLASH_BOOT)
+Saved PC:0x40378cca
+SPIWP:0xee
+mode:DIO, clock div:1
+load:0x3fce2820,len:0x10cc
+load:0x403c8700,len:0xc2c
+load:0x403cb700,len:0x30c0
+entry 0x403c88b8
+Guru Meditation Error: Core  1 panic'ed (Unhandled debug exception).
+Debug exception reason: Stack canary watchpoint triggered (loopTask)
+Core  1 register dump:
+PC      : 0x400570e8  PS      : 0x00060536  A0      : 0x8003134d  A1      : 0x3fce91e0
+A2      : 0x3fce9c80  A3      : 0x00000000  A4      : 0x00000480  A5      : 0x3fcea040
+A6      : 0x00077171  A7      : 0x00000048  A8      : 0x04040403  A9      : 0x07080807
+A10     : 0x3fc96144  A11     : 0x00000002  A12     : 0x00001c2c  A13     : 0x3c05ae08
+A14     : 0xe4fdcd92  A15     : 0x3fff6c49  SAR     : 0x0000001b  EXCCAUSE: 0x00000001
+EXCVADDR: 0x00000000  LBEG    : 0x400570e8  LEND    : 0x400570f3  LCOUNT  : 0x0000000b
+
+
+Backtrace: 0x400570e5:0x3fce91e0 0x4003134a:0x3fce91f0 0x40031f5a:0x3fce9310 0x42002455:0x3fcebe40 0x4200275f:0x3fcebe70 0x42008265:0x3fcebea0 0x4037c5e1:0x3fcebec0
+
+
+
+
+ELF file SHA256: a6f0f654d
+
+Rebooting...
+ESP-ROM:esp32s3-20210327
+Build:Mar 27 2021
+rst:0xc (RTC_SW_CPU_RST),boot:0x18 (SPI_FAST_FLASH_BOOT)
+Saved PC:0x40378cca
+SPIWP:0xee
+mode:DIO, clock div:1
+load:0x3fce2820,len:0x10cc
+load:0x403c8700,len:0xc2c
+load:0x403cb700,len:0x30c0
+entry 0x403c88b8
+Guru Meditation Error: Core  1 panic'ed (Unhandled debug exception).
+Debug exception reason: Stack canary watchpoint triggered (loopTask)
+Core  1 register dump:
+PC      : 0x400570e8  PS      : 0x00060536  A0      : 0x8003134d  A1      : 0x3fce91e0
+A2      : 0x3fce9c80  A3      : 0x00000000  A4      : 0x00000480  A5      : 0x3fcea040
+A6      : 0x00077171  A7      : 0x00000048  A8      : 0x04040403  A9      : 0x07080807
+A10     : 0x3fc96144  A11     : 0x00000002  A12     : 0x00001c2c  A13     : 0x3c05ae08
+A14     : 0xe4fdcd92  A15     : 0x3fff6c49  SAR     : 0x0000001b  EXCCAUSE: 0x00000001
+EXCVADDR: 0x00000000  LBEG    : 0x400570e8  LEND    : 0x400570f3  LCOUNT  : 0x0000000b
+
+
+Backtrace: 0x400570e5:0x3fce91e0 0x4003134a:0x3fce91f0 0x40031f5a:0x3fce9310 0x42002455:0x3fcebe40 0x4200275f:0x3fcebe70 0x42008265:0x3fcebea0 0x4037c5e1:0x3fcebec0
+
+
+
+
+ELF file SHA256: a6f0f654d
+
+Rebooting...
+ESP-ROM:esp32s3-20210327
+Build:Mar 27 2021
+rst:0xc (RTC_SW_CPU_RST),boot:0x18 (SPI_FAST_FLASH_BOOT)
+Saved PC:0x40378cca
+SPIWP:0xee
+mode:DIO, clock div:1
+load:0x3fce2820,len:0x10cc
+load:0x403c8700,len:0xc2c
+load:0x403cb700,len:0x30c0
+entry 0x403c88b8
+Guru Meditation Error: Core  1 panic'ed (Unhandled debug exception).
+Debug exception reason: Stack canary watchpoint triggered (loopTask)
+Core  1 register dump:
+PC      : 0x400570e8  PS      : 0x00060536  A0      : 0x8003134d  A1      : 0x3fce91e0
+A2      : 0x3fce9c80  A3      : 0x00000000  A4      : 0x00000480  A5      : 0x3fcea040
+A6      : 0x00077171  A7      : 0x00000048  A8      : 0x04040403  A9      : 0x07080807
+A10     : 0x3fc96144  A11     : 0x00000002  A12     : 0x00001c2c  A13     : 0x3c05ae08
+A14     : 0xe4fdcd92  A15     : 0x3fff6c49  SAR     : 0x0000001b  EXCCAUSE: 0x00000001
+EXCVADDR: 0x00000000  LBEG    : 0x400570e8  LEND    : 0x400570f3  LCOUNT  : 0x0000000b
+
+
+Backtrace: 0x400570e5:0x3fce91e0 0x4003134a:0x3fce91f0 0x40031f5a:0x3fce9310 0x42002455:0x3fcebe40 0x4200275f:0x3fcebe70 0x42008265:0x3fcebea0 0x4037c5e1:0x3fcebec0
+
+
+
+
+ELF file SHA256: a6f0f654d
+
+Rebooting...
+ESP-ROM:esp32s3-20210327
+Build:Mar 27 2021
+rst:0xc (RTC_SW_CPU_RST),boot:0x18 (SPI_FAST_FLASH_BOOT)
+Saved PC:0x40378cca
+SPIWP:0xee
+mode:DIO, clock div:1
+load:0x3fce2820,len:0x10cc
+load:0x403c8700,len:0xc2c
+load:0x403cb700,len:0x30c0
+entry 0x403c88b8
+Guru Meditation Error: Core  1 panic'ed (Unhandled debug exception).
+Debug exception reason: Stack canary watchpoint triggered (loopTask)
+Core  1 register dump:
+PC      : 0x400570e8  PS      : 0x00060536  A0      : 0x8003134d  A1      : 0x3fce91e0
+A2      : 0x3fce9c80  A3      : 0x00000000  A4      : 0x00000480  A5      : 0x3fcea040
+A6      : 0x00077171  A7      : 0x00000048  A8      : 0x04040403  A9      : 0x07080807
+A10     : 0x3fc96144  A11     : 0x00000002  A12     : 0x00001c2c  A13     : 0x3c05ae08
+A14     : 0xe4fdcd92  A15     : 0x3fff6c49  SAR     : 0x0000001b  EXCCAUSE: 0x00000001
+EXCVADDR: 0x00000000  LBEG    : 0x400570e8  LEND    : 0x400570f3  LCOUNT  : 0x0000000b
+
+
+Backtrace: 0x400570e5:0x3fce91e0 0x4003134a:0x3fce91f0 0x40031f5a:0x3fce9310 0x42002455:0x3fcebe40 0x4200275f:0x3fcebe70 0x42008265:0x3fcebea0 0x4037c5e1:0x3fcebec0
+
+
+
+
+ELF file SHA256: a6f0f654d
+
+Rebooting...
+ESP-ROM:esp32s3-20210327
+Build:Mar 27 2021
+rst:0xc (RTC_SW_CPU_RST),boot:0x18 (SPI_FAST_FLASH_BOOT)
+Saved PC:0x40378cca
+SPIWP:0xee
+mode:DIO, clock div:1
+load:0x3fce2820,len:0x10cc
+load:0x403c8700,len:0xc2c
+load:0x403cb700,len:0x30c0
+entry 0x403c88b8
+Guru Meditation Error: Core  1 panic'ed (Unhandled debug exception).
+Debug exception reason: Stack canary watchpoint triggered (loopTask)
+Core  1 register dump:
+PC      : 0x400570e8  PS      : 0x00060536  A0      : 0x8003134d  A1      : 0x3fce91e0
+A2      : 0x3fce9c80  A3      : 0x00000000  A4      : 0x00000480  A5      : 0x3fcea040
+A6      : 0x00077171  A7      : 0x00000048  A8      : 0x04040403  A9      : 0x07080807
+A10     : 0x3fc96144  A11     : 0x00000002  A12     : 0x00001c2c  A13     : 0x3c05ae08
+A14     : 0xe4fdcd92  A15     : 0x3fff6c49  SAR     : 0x0000001b  EXCCAUSE: 0x00000001
+EXCVADDR: 0x00000000  LBEG    : 0x400570e8  LEND    : 0x400570f3  LCOUNT  : 0x0000000b
+
+
+Backtrace: 0x400570e5:0x3fce91e0 0x4003134a:0x3fce91f0 0x40031f5a:0x3fce9310 0x42002455:0x3fcebe40 0x4200275f:0x3fcebe70 0x42008265:0x3fcebea0 0x4037c5e1:0x3fcebec0
+
+
+
+
+ELF file SHA256: a6f0f654d
+
+Rebooting...
+ESP-ROM:esp32s3-20210327
+Build:Mar 27 2021
+rst:0xc (RTC_SW_CPU_RST),boot:0x18 (SPI_FAST_FLASH_BOOT)
+Saved PC:0x40378cca
+SPIWP:0xee
+mode:DIO, clock div:1
+load:0x3fce2820,len:0x10cc
+load:0x403c8700,len:0xc2c
+load:0x403cb700,len:0x30c0
+entry 0x403c88b8
+Guru Meditation Error: Core  1 panic'ed (Unhandled debug exception).
+Debug exception reason: Stack canary watchpoint triggered (loopTask)
+Core  1 register dump:
+PC      : 0x400570e8  PS      : 0x00060536  A0      : 0x8003134d  A1      : 0x3fce91e0
+A2      : 0x3fce9c80  A3      : 0x00000000  A4      : 0x00000480  A5      : 0x3fcea040
+A6      : 0x00077171  A7      : 0x00000048  A8      : 0x04040403  A9      : 0x07080807
+A10     : 0x3fc96144  A11     : 0x00000002  A12     : 0x00001c2c  A13     : 0x3c05ae08
+A14     : 0xe4fdcd92  A15     : 0x3fff6c49  SAR     : 0x0000001b  EXCCAUSE: 0x00000001
+EXCVADDR: 0x00000000  LBEG    : 0x400570e8  LEND    : 0x400570f3  LCOUNT  : 0x0000000b
+
+
+Backtrace: 0x400570e5:0x3fce91e0 0x4003134a:0x3fce91f0 0x40031f5a:0x3fce9310 0x42002455:0x3fcebe40 0x4200275f:0x3fcebe70 0x42008265:0x3fcebea0 0x4037c5e1:0x3fcebec0
+
+
+
+
+ELF file SHA256: a6f0f654d
+
+Rebooting...
+ESP-ROM:esp32s3-20210327
+Build:Mar 27 2021
+rst:0xc (RTC_SW_CPU_RST),boot:0x18 (SPI_FAST_FLASH_BOOT)
+Saved PC:0x40378cca
+SPIWP:0xee
+mode:DIO, clock div:1
+load:0x3fce2820,len:0x10cc
+load:0x403c8700,len:0xc2c
+load:0x403cb700,len:0x30c0
+entry 0x403c88b8
+Guru Meditation Error: Core  1 panic'ed (Unhandled debug exception).
+Debug exception reason: Stack canary watchpoint triggered (loopTask)
+Core  1 register dump:
+PC      : 0x400570e8  PS      : 0x00060536  A0      : 0x8003134d  A1      : 0x3fce91e0
+A2      : 0x3fce9c80  A3      : 0x00000000  A4      : 0x00000480  A5      : 0x3fcea040
+A6      : 0x00077171  A7      : 0x00000048  A8      : 0x04040403  A9      : 0x07080807
+A10     : 0x3fc96144  A11     : 0x00000002  A12     : 0x00001c2c  A13     : 0x3c05ae08
+A14     : 0xe4fdcd92  A15     : 0x3fff6c49  SAR     : 0x0000001b  EXCCAUSE: 0x00000001
+EXCVADDR: 0x00000000  LBEG    : 0x400570e8  LEND    : 0x400570f3  LCOUNT  : 0x0000000b
+
+
+Backtrace: 0x400570e5:0x3fce91e0 0x4003134a:0x3fce91f0 0x40031f5a:0x3fce9310 0x42002455:0x3fcebe40 0x4200275f:0x3fcebe70 0x42008265:0x3fcebea0 0x4037c5e1:0x3fcebec0
+
+
+
+
+ELF file SHA256: a6f0f654d
+
+Rebooting...
+ESP-ROM:esp32s3-20210327
+Build:Mar 27 2021
+rst:0xc (RTC_SW_CPU_RST),boot:0x18 (SPI_FAST_FLASH_BOOT)
+Saved PC:0x40378cca
+SPIWP:0xee
+mode:DIO, clock div:1
+load:0x3fce2820,len:0x10cc
+load:0x403c8700,len:0xc2c
+load:0x403cb700,len:0x30c0
+entry 0x403c88b8
+Guru Meditation Error: Core  1 panic'ed (Unhandled debug exception).
+Debug exception reason: Stack canary watchpoint triggered (loopTask)
+Core  1 register dump:
+PC      : 0x400570e8  PS      : 0x00060536  A0      : 0x8003134d  A1      : 0x3fce91e0
+A2      : 0x3fce9c80  A3      : 0x00000000  A4      : 0x00000480  A5      : 0x3fcea040
+A6      : 0x00077171  A7      : 0x00000048  A8      : 0x04040403  A9      : 0x07080807
+A10     : 0x3fc96144  A11     : 0x00000002  A12     : 0x00001c2c  A13     : 0x3c05ae08
+A14     : 0xe4fdcd92  A15     : 0x3fff6c49  SAR     : 0x0000001b  EXCCAUSE: 0x00000001
+EXCVADDR: 0x00000000  LBEG    : 0x400570e8  LEND    : 0x400570f3  LCOUNT  : 0x0000000b
+
+
+Backtrace: 0x400570e5:0x3fce91e0 0x4003134a:0x3fce91f0 0x40031f5a:0x3fce9310 0x42002455:0x3fcebe40 0x4200275f:0x3fcebe70 0x42008265:0x3fcebea0 0x4037c5e1:0x3fcebec0
+
+
+
+
+ELF file SHA256: a6f0f654d
+
+Rebooting...
+ESP-ROM:esp32s3-20210327
+Build:Mar 27 2021
+rst:0xc (RTC_SW_CPU_RST),boot:0x18 (SPI_FAST_FLASH_BOOT)
+Saved PC:0x40378cca
+SPIWP:0xee
+mode:DIO, clock div:1
+load:0x3fce2820,len:0x10cc
+load:0x403c8700,len:0xc2c
+load:0x403cb700,len:0x30c0
+entry 0x403c88b8
+Guru Meditation Error: Core  1 panic'ed (Unhandled debug exception).
+Debug exception reason: Stack canary watchpoint triggered (loopTask)
+Core  1 register dump:
+PC      : 0x400570e8  PS      : 0x00060536  A0      : 0x8003134d  A1      : 0x3fce91e0
+A2      : 0x3fce9c80  A3      : 0x00000000  A4      : 0x00000480  A5      : 0x3fcea040
+A6      : 0x00077171  A7      : 0x00000048  A8      : 0x04040403  A9      : 0x07080807
+A10     : 0x3fc96144  A11     : 0x00000002  A12     : 0x00001c2c  A13     : 0x3c05ae08
+A14     : 0xe4fdcd92  A15     : 0x3fff6c49  SAR     : 0x0000001b  EXCCAUSE: 0x00000001
+EXCVADDR: 0x00000000  LBEG    : 0x400570e8  LEND    : 0x400570f3  LCOUNT  : 0x0000000b
+
+
+Backtrace: 0x400570e5:0x3fce91e0 0x4003134a:0x3fce91f0 0x40031f5a:0x3fce9310 0x42002455:0x3fcebe40 0x4200275f:0x3fcebe70 0x42008265:0x3fcebea0 0x4037c5e1:0x3fcebec0
+
+
+
+
+ELF file SHA256: a6f0f654d
+
+Rebooting...
+ESP-ROM:esp32s3-20210327
+Build:Mar 27 2021
+rst:0xc (RTC_SW_CPU_RST),boot:0x18 (SPI_FAST_FLASH_BOOT)
+Saved PC:0x40378cca
+SPIWP:0xee
+mode:DIO, clock div:1
+load:0x3fce2820,len:0x10cc
+load:0x403c8700,len:0xc2c
+load:0x403cb700,len:0x30c0
+entry 0x403c88b8
+Guru Meditation Error: Core  1 panic'ed (Unhandled debug exception).
+Debug exception reason: Stack canary watchpoint triggered (loopTask)
+Core  1 register dump:
+PC      : 0x400570e8  PS      : 0x00060536  A0      : 0x8003134d  A1      : 0x3fce91e0
+A2      : 0x3fce9c80  A3      : 0x00000000  A4      : 0x00000480  A5      : 0x3fcea040
+A6      : 0x00077171  A7      : 0x00000048  A8      : 0x04040403  A9      : 0x07080807
+A10     : 0x3fc96144  A11     : 0x00000002  A12     : 0x00001c2c  A13     : 0x3c05ae08
+A14     : 0xe4fdcd92  A15     : 0x3fff6c49  SAR     : 0x0000001b  EXCCAUSE: 0x00000001
+EXCVADDR: 0x00000000  LBEG    : 0x400570e8  LEND    : 0x400570f3  LCOUNT  : 0x0000000b
+
+
+Backtrace: 0x400570e5:0x3fce91e0 0x4003134a:0x3fce91f0 0x40031f5a:0x3fce9310 0x42002455:0x3fcebe40 0x4200275f:0x3fcebe70 0x42008265:0x3fcebea0 0x4037c5e1:0x3fcebec0
+
+
+
+
+ELF file SHA256: a6f0f654d
+
+Rebooting...
+ESP-ROM:esp32s3-20210327
+Build:Mar 27 2021
+rst:0xc (RTC_SW_CPU_RST),boot:0x18 (SPI_FAST_FLASH_BOOT)
+Saved PC:0x40378cca
+SPIWP:0xee
+mode:DIO, clock div:1
+load:0x3fce2820,len:0x10cc
+load:0x403c8700,len:0xc2c
+load:0x403cb700,len:0x30c0
+entry 0x403c88b8
+Guru Meditation Error: Core  1 panic'ed (Unhandled debug exception).
+Debug exception reason: Stack canary watchpoint triggered (loopTask)
+Core  1 register dump:
+PC      : 0x400570e8  PS      : 0x00060536  A0      : 0x8003134d  A1      : 0x3fce91e0
+A2      : 0x3fce9c80  A3      : 0x00000000  A4      : 0x00000480  A5      : 0x3fcea040
+A6      : 0x00077171  A7      : 0x00000048  A8      : 0x04040403  A9      : 0x07080807
+A10     : 0x3fc96144  A11     : 0x00000002  A12     : 0x00001c2c  A13     : 0x3c05ae08
+A14     : 0xe4fdcd92  A15     : 0x3fff6c49  SAR     : 0x0000001b  EXCCAUSE: 0x00000001
+EXCVADDR: 0x00000000  LBEG    : 0x400570e8  LEND    : 0x400570f3  LCOUNT  : 0x0000000b
+
+
+Backtrace: 0x400570e5:0x3fce91e0 0x4003134a:0x3fce91f0 0x40031f5a:0x3fce9310 0x42002455:0x3fcebe40 0x4200275f:0x3fcebe70 0x42008265:0x3fcebea0 0x4037c5e1:0x3fcebec0
+
+
+
+
+ELF file SHA256: a6f0f654d
+
+Rebooting...
+ESP-ROM:esp32s3-20210327
+Build:Mar 27 2021
+rst:0xc (RTC_SW_CPU_RST),boot:0x18 (SPI_FAST_FLASH_BOOT)
+Saved PC:0x40378cca
+SPIWP:0xee
+mode:DIO, clock div:1
+load:0x3fce2820,len:0x10cc
+load:0x403c8700,len:0xc2c
+load:0x403cb700,len:0x30c0
+entry 0x403c88b8

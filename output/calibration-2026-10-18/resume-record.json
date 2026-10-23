@@ -1,0 +1,58 @@
+{
+  "phase": "User requested restart from input 1; local USB calibration UI running",
+  "observed_at_utc": "2026-10-19T03:54:00.327449+00:00",
+  "port": "/dev/cu.usbmodem58760426031",
+  "console_session": null,
+  "saved_input_1_reference_V": 12.03,
+  "saved_input_1_gain": 427.719635,
+  "persisted_calibration_mask_before_disconnect": "001",
+  "pending_low_point_valid": false,
+  "next_action": "Follow the local UI checklist from input 1. Enter actual multimeter readings and capture each low/high point in the UI.",
+  "settings_backup": {
+    "file": "output/calibration-2026-10-18/pre-diagnostic-first-64KiB.bin",
+    "bytes": 65536,
+    "sha256": "e6298725fd59159441da68954645115719107de77591b25a623ee847bbbfcd58",
+    "scope": "0x000000..0x00ffff; includes partition table and NVS, before diagnostic app update"
+  },
+  "active_app": "Tester12VRevD.ino.bin",
+  "active_app_sha256": "e8d2452f665d86aa895acffc4e2b094a04146034f166d4133274939be3c227bb",
+  "diagnostic_capture_session": 87987,
+  "diagnostic_valid_samples": 4,
+  "diagnostic_invalid_samples": 435,
+  "i2c_addresses_seen": [
+    "0x6B"
+  ],
+  "fault_evidence": "Only local 0x6B consistently visible; ADC 0x48 writes fail, with 4 valid full scans among 439 averaged samples",
+  "inference": "Intermittent measurement-board power or harness communication suspected; not yet confirmed",
+  "new_calibration_commands_sent": true,
+  "after_reseat_valid_samples": 37,
+  "after_reseat_invalid_samples": 0,
+  "after_reseat_i2c_addresses": [
+    "0x48",
+    "0x49",
+    "0x4A",
+    "0x4B",
+    "0x6B"
+  ],
+  "communication_restored_at_utc": "2026-10-19T04:03:38.688486+00:00",
+  "standard_release_restored_at_utc": "2026-10-19T04:05:16.918609+00:00",
+  "release_console_log_start_byte": 809743,
+  "console_pid": 79759,
+  "pending_pin": null,
+  "calibration_commands": [
+    "cal0 2",
+    "calv 2 11.98"
+  ],
+  "last_ack": "CAL_SAVED pin=2 gain=427.1662292 mask=003",
+  "last_ack_at_utc": "2026-10-19T04:11:13.945647+00:00",
+  "latest_consecutive_valid_samples": 290,
+  "calibrated_inputs": [
+    1,
+    2
+  ],
+  "calibration_mask_hex": "003",
+  "calibration_complete": false,
+  "calibration_ui_url": "http://127.0.0.1:8765",
+  "calibration_ui_state": "output/calibration-ui/pass.json",
+  "ui_exec_session": 74739
+}

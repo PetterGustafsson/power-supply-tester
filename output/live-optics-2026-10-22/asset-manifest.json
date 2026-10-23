@@ -1,0 +1,17 @@
+{
+  "format": "LIVE50__",
+  "version": 1,
+  "fps": 50,
+  "sections": {
+    "idle": 140,
+    "insert": 21,
+    "powered": 50,
+    "withdraw": 50,
+    "recognized": 50
+  },
+  "frame_count": 311,
+  "asset_bytes": 5198387,
+  "asset_sha256": "152b2a467bcef09bebff48a05e06e6133f563c4d1726ba2112b4f71404a52ce1",
+  "largest_compressed_frame_bytes": 49935,
+  "semantics": "approved pair 1/2 art without fixed voltage; other pairs use live rendering"
+}

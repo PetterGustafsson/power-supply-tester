@@ -1,0 +1,72 @@
+{
+  "prepared_at": "2026-10-20T04:05:21.235287+00:00",
+  "compile_exit_code": 0,
+  "flashed": false,
+  "blocker": "USB disconnected. Awaiting connection and manual BOOT/RESET.",
+  "fqbn": "esp32:esp32:esp32s3:FlashSize=16M,PSRAM=enabled,CDCOnBoot=default,PartitionScheme=app3M_fat9M_16MB",
+  "core_version": "3.3.7",
+  "source_sha256": {
+    "CalibrationBatch.h": "1fb632bf64b07be83c1ffe07d395bd79819d5489e33c02d0e492ea1695229915",
+    "ConnectorBackdrop.h": "1b8c3d4417465d35eaa667351921225cf5d872e9f2d18ea299a15bfa9f3f7208",
+    "DEV_Config.cpp": "3064ca0b66f077c09c4b5a86fc006130e2bf1ae4802a7ab8a81ffd2c11b4bd52",
+    "DEV_Config.h": "670e4474e3e5b24e8b298e6bb9be0597eeb058fa4ed99e5446ced59d15c25ecf",
+    "Debug.h": "3b9c7b8aaea9dacd124fabbecb390db0cafca4c80755743709935edd467fb9c0",
+    "DisplayFont.h": "66675c5732c0f5b906b7fe3edccb03af2206e8364bddd0c487764701cf8f4d02",
+    "DisplayGraphics.h": "0539e6c781b42b43737d9fd37cb108e81b5b77502af8cf6920ade542fb5572cb",
+    "LCD_1in28.cpp": "dce921beacd90a2862ad7eb6c8730f716a045868901038a0f6a141c7f959cc4f",
+    "LCD_1in28.h": "79b78afc637a699f7ee1aeeb4af09db83c542845f7d68840f787211df50b2bb1",
+    "Measurement.h": "31e11ec43b4f306aefbd3bb6a509e6f50c3fdf928c6ff3f71aa393cfb5844244",
+    "Tester12VRevD.ino": "09a4fc832be9d414d5e52a288d1b1466494fe49a691bf9b442e1643ac9cd3ac6"
+  },
+  "binary_sha256": {
+    "Tester12VRevD.ino.bin": "811ab8d42e86a3be45db1cc0279f6d5c85b482047031bd28ae8a9b8222cf2a88",
+    "Tester12VRevD.ino.bootloader.bin": "5403ba8cdf81cbb47f2debe13c0f5ff5903540075ccaf3fac65f0ee68213cb7d",
+    "Tester12VRevD.ino.merged.bin": "29d789912c1cf9a618a8fb9d3a9e32587b1a5487f5be4e620c3ddee46766d239",
+    "Tester12VRevD.ino.partitions.bin": "ace02503447d0f470692e65fa76002f2d77a92dc81cd3813d8aa66718d716da9"
+  },
+  "application_bytes": 806240,
+  "tests": {
+    "renderer": "PASS: production renderer; tabular voltage digits, kerning, no time-based effects, cached/fresh equality and fallback, antialiasing, bounds, state clearing and invalid masks.",
+    "actual_sketch_integration": "PASS: actual sketch acquisition uses all four ADCs; absent reference ADC, timeout, config corruption, invalid reference, serial calibration of all 12 pins, persisted calibration, 1-plus/11-return classification, changing-input rejection and diagnostics, quiet measurement batches, no-voltage and fault display checked.",
+    "font_generation": "PASS: bold fill/outline font generation is byte-for-byte reproducible; SHA256 66675c5732c0f5b906b7fe3edccb03af2206e8364bddd0c487764701cf8f4d02",
+    "source_audit": "PASS: renderer, font asset and two display startup messages changed since preceding circular build; acquisition, calibration, NVS, timing, backdrop and driver sources unchanged.",
+    "material_preservation": "PASS: source artwork hash unchanged. Pixels outside declared text/contact regions match original RGB565 artwork in every render. No surface washes or extra border."
+  },
+  "visual_review": "Eleven production-rendered states inspected at native size. Bolder statuses moved to outer solid ring; larger curved tabular voltage; dark outlines on type; amber action prompts and coral faults. Pin IDs have increased weight and contrast. Metal and plastic source unchanged. Synthetic measurement fixtures, not LCD photographs.",
+  "measurement_and_calibration_code_unchanged": true,
+  "calibration_before": {
+    "device_mask": 4095,
+    "copied_mask": 4094
+  },
+  "font_source": {
+    "family": "Inter",
+    "commit": "0b58fb370093f9a9f4ff785d94405710b79de67c",
+    "license": "SIL Open Font License 1.1",
+    "files": {
+      "Inter-opsz-wght.ttf": {
+        "url": "https://raw.githubusercontent.com/google/fonts/0b58fb370093f9a9f4ff785d94405710b79de67c/ofl/inter/Inter%5Bopsz,wght%5D.ttf",
+        "sha256": "29160a80ff49ddcab2c97711247e08b1fab27a484a329ce8b813d820dc559031"
+      },
+      "OFL.txt": {
+        "url": "https://raw.githubusercontent.com/google/fonts/0b58fb370093f9a9f4ff785d94405710b79de67c/ofl/inter/OFL.txt",
+        "sha256": "5b9321a4298cfeb6b34354164a1c3afc3db114569984c502b9b35d988fd58c57"
+      }
+    }
+  },
+  "calibration_display_hidden": true,
+  "usb_connected_at_preparation": false,
+  "display_layout": {
+    "title": null,
+    "reading": "upper circular baseline radius 77 px; 27 px weight-700 tabular digits, 13 px unit",
+    "status": "upper solid ring radius 82 px; 16 px weight-750; one essential phrase. Lower OVER RANGE radius 96 px only when needed.",
+    "pin_ids": "12 px weight-650; outer IDs tangential, three inner IDs upright",
+    "outlines": "precomputed 4-bit masks at 2x: 1 px for reading/status; 0.5 px for IDs/unit. One additional bilinear mask sample, no runtime dilation.",
+    "animations": false,
+    "materials": "Original connector artwork; no washes or added border. Material checks outside annotation regions pass.",
+    "scene_cache": "PSRAM stationary scene cache and full-render fallback retained"
+  },
+  "original_artwork_sha256": "1191298bfed21f1ff708f373b61fdae31be2ca04a65d9e81aa285a8efdef5961",
+  "generator_sha256": "8dc81b6e4c4c384a8f14a2dff01a033ba390f76c43596c071e54e4feb34f072d",
+  "font_asset_coverage_bytes": 264880,
+  "mcu_render_performance": "Not yet measured for this build; USB absent. Quiet averaging and cache behavior verified in host-run actual sketch."
+}

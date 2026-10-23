@@ -1,0 +1,76 @@
+ESP-ROM:esp32s3-20210327
+Build:Mar 27 2021
+rst:0x1 (POWERON),boot:0x18 (SPI_FAST_FLASH_BOOT)
+SPIWP:0xee
+mode:DIO, clock div:1
+load:0x3fce2820,len:0x10cc
+load:0x403c8700,len:0xc2c
+load:0x403cb700,len:0x30c0
+entry 0x403c88b8
+DISPLAY_READY: LIVE_OPTICS50 240x240 RGB565, measured voltage and pin state
+DISPLAY_BENCH pair=allied overlay_us=13765
+DISPLAY_BENCH_PART pair=allied polarity_us=2855 discharge_us=7349 voltage_us=693 logo_us=285
+DISPLAY_BENCH pair=other overlay_us=9764
+DISPLAY_BENCH_PART pair=other polarity_us=2832 discharge_us=6630 voltage_us=694 logo_us=474
+MEASUREMENT_MODE: calibrated ADC batches with live optical display
+DISPLAY_DETECTION: two agreeing filtered 4-scan windows; strict CSV unchanged
+TESTER12V Rev D: real ADC input; + and - indicate relative polarity only
+CSV: sequence,valid,A1..A12(raw volts),REF0..REF3,state,positive_mask_hex,return_mask_hex,unknown_mask_hex,supply_volts
+MEAS_UNSTABLE samples=8 varying_mask=09B limit_V=0.250
+MEAS_MEAN_V,6.22905,-5.97015,0.00753,0.05871,0.02633,-0.00125,-0.00337,0.04137,0.01441,-0.00524,0.00355,0.02276
+MEAS_SPAN_V,1.85883,1.59134,0.24070,0.45470,0.28088,0.16049,0.18719,0.40119,0.05345,0.05351,0.05351,0.21392
+MEAS_RAW_V,0.5909766,0.5626289,0.5764766,0.5764336,0.5764532,0.5765469,0.5764102,0.5763594,0.5763164,0.5764336DISPLAY_MODE: INSERT LIVE
+,0.5763282,0.5762188
+MEAS_REF_V,0.5763594,0.5765157,0.5763985,0.5762656
+DISPLAY_PREVIEW pair=001/002 volts=12.177 confirmed_ms=1633 signal_ms=1212 detection_ms=421 CSV_VALID=0
+0,0,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,2,000,000,FFF,0.0000
+1,0,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,2,000,000,FFF,0.0000
+DISPLAY_INSERT_DONE duration_ms=964 frames=21
+2,0,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,2,000,000,FFF,0.0000
+CAL_STATUS protocol=2 batch=6633B2B2 low_mask=007 done_mask=000 mask=FFF zero=1 copied_mask=FFE
+3,0,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,2,000,000,FFF,0.0000
+4,0,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,2,000,000,FFF,0.0000
+DISPLAY_PREVIEW pair=001/002 volts=12.572 confirmed_ms=4254 signal_ms=1212 detection_ms=3042 CSV_VALID=0
+5,0,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,2,000,000,FFF,0.0000
+MEAS_UNSTABLE samples=8 varying_mask=2FF limit_V=0.250
+MEAS_MEAN_V,6.06356,-6.27272,0.01087,0.06706,-0.02716,-0.04137,-0.01674,0.03469,0.00104,-0.00524,-0.00314,0.01609
+MEAS_SPAN_V,1.84547,2.12627,0.72218,0.58842,0.38782,0.50817,0.52157,0.38780,0.14709,0.25402,0.12033,0.16046
+MEAS_RAW_V,0.5906094,0.5619688,0.5765547,0.5766836,0.5763477,0.5765000,0.5764492,0.5765743,0.5763047,0.5764805,0.5763828,0.5764336
+MEAS_REF_V,0.5763789,0.5765625,0.5764688,0.5764961
+6,0,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,2,000,000,FFF,0.0000
+7,0,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,2,000,000,FFF,0.0000
+DISPLAY_ALIVE mode=RECOGNIZED fps_x10=268 decode_us=11220 overlay_us=4334 transfer_us=12004 free_heap=71996
+DISPLAY_BENCH_CACHE allied_us=13765 other_us=9764 allied_discharge_us=7349 other_discharge_us=6630 voltage_us=693
+DISPLAY_PREVIEW pair=001/002 volts=12.799 confirmed_ms=5797 signal_ms=1212 detection_ms=4585 CSV_VALID=0
+8,0,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,2,000,000,FFF,0.0000
+9,0,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,2,000,000,FFF,0.0000
+10,0,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,2,000,000,FFF,0.0000
+11,0,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,2,000,000,FFF,0.0000
+MEAS_UNSTABLE samples=8 varying_mask=23B limit_V=0.250
+MEAS_MEAN_V,6.36277,-6.38805,-0.01756,0.06539,0.02131,-0.03969,-0.01507,0.04805,0.00271,-0.02030,0.00188,0.01775
+MEAS_SPAN_V,1.43092,2.04604,0.20065,0.30757,0.36109,0.46807,0.14709,0.22734,0.16044,0.26742,0.05347,0.06682
+MEAS_RAW_V,0.5913946,0.5615352,0.5765703,0.5766328,0.5765469,0.5763399,0.5765352,0.5765586,0.5763946,0.5762813,0.5764766,0.5763906
+MEAS_REF_V,0.5764649,0.5763985,0.5765508,0.5764493
+DISPLAY_PREVIEW pair=001/002 volts=12.779 confirmed_ms=7795 signal_ms=1212 detection_ms=6583 CSV_VALID=0
+12,0,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,2,000,000,FFF,0.0000
+13,0,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,2,000,000,FFF,0.0000
+14,0,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,2,000,000,FFF,0.0000
+DISPLAY_PREVIEW pair=001/002 volts=11.970 confirmed_ms=9344 signal_ms=1212 detection_ms=8132 CSV_VALID=0
+15,0,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,2,000,000,FFF,0.0000
+16,0,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,2,000,000,FFF,0.0000
+DISPLAY_PREVIEW pair=001/002 volts=12.806 confirmed_ms=10331 signal_ms=1212 detection_ms=9119 CSV_VALID=0
+17,0,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,2,000,000,FFF,0.0000
+DISPLAY_ALIVE mode=RECOGNIZED fps_x10=246 decode_us=10537 overlay_us=6547 transfer_us=15284 free_heap=71996
+DISPLAY_BENCH_CACHE allied_us=13765 other_us=9764 allied_discharge_us=7349 other_discharge_us=6630 voltage_us=693
+MEAS_UNSTABLE samples=8 varying_mask=2EF limit_V=0.250
+MEAS_MEAN_V,5.80613,-6.10723,0.03093,-0.02822,0.00627,-0.06644,0.01167,-0.03552,0.01440,-0.03699,0.00355,-0.02569
+MEAS_SPAN_V,1.51110,2.09958,0.45470,0.41458,0.17387,0.46806,0.25410,0.38780,0.08021,0.26745,0.08022,0.24070
+MEAS_RAW_V,0.5898086,0.5624258,0.5765469,0.5765430,0.5762266,0.5765117,0.5764610,0.5764922,0.5761367,0.5764766,0.5763438,0.5764180
+MEAS_REF_V,0.5761797,0.5766328,0.5764141,0.5765781
+18,0,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,2,000,000,FFF,0.0000
+19,0,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,2,000,000,FFF,0.0000
+20,0,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,2,000,000,FFF,0.0000
+DISPLAY_PREVIEW pair=001/002 volts=11.663 confirmed_ms=12376 signal_ms=1212 detection_ms=11164 CSV_VALID=0
+21,0,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,2,000,000,FFF,0.0000
+22,0,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,2,000,000,FFF,0.0000
+23,0,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,2,000,000,FFF,0.0000

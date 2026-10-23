@@ -1,0 +1,29 @@
+--- boot/full ---
+ESP-ROM:esp32s3-20210327
+Build:Mar 27 2021
+rst:0x1 (POWERON),boot:0x18 (SPI_FAST_FLASH_BOOT)
+SPIWP:0xee
+mode:DIO, clock div:1
+load:0x3fce2820,len:0x10cc
+load:0x403c8700,len:0xc2c
+load:0x403cb700,len:0x30c0
+entry 0x403c88b8
+DISPLAY_BOOT: OPTICS50 SIMULATED internal_heap=231604 max_block=172020
+DISPLAY_MEMORY: delta_internal=1 free_heap=112816 free_psram=2042400
+DISPLAY_READY: OPTICS50 SIMULATED 240x240 RGB565 50 source fps, 8701656 asset bytes
+DISPLAY_COMMANDS: full idle helix storm
+DISPLAY_MODE: FULL SIMULATED
+DISPLAY_ALIVE mode=FULL frames=235 fps_x10=468 decode_us=9860 transfer_us=12904 free_heap=86596 free_psram=2042400
+
+--- recognized pair ---
+DISPLAY_MODE: HELIX SIMULATED
+DISPLAY_ALIVE mode=HELIX frames=484 fps_x10=498 decode_us=8115 transfer_us=13844 free_heap=86596 free_psram=2042400
+
+--- alternate pair ---
+DISPLAY_MODE: STORM SIMULATED
+DISPLAY_ALIVE mode=STORM frames=732 fps_x10=496 decode_us=8553 transfer_us=14013 free_heap=86596 free_psram=2042400
+DISPLAY_ALIVE mode=STORM frames=979 fps_x10=493 decode_us=9479 transfer_us=14502 free_heap=86596 free_psram=2042400
+
+--- final full mode ---
+DISPLAY_MODE: FULL SIMULATED
+DISPLAY_ALIVE mode=FULL frames=1211 fps_x10=463 decode_us=10036 transfer_us=12999 free_heap=86596 free_psram=2042400

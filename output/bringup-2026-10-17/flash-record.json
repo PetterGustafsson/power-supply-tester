@@ -1,0 +1,79 @@
+{
+  "port": "/dev/cu.usbmodem58760426031",
+  "backup": "/Users/petter/Documents/ChatGPT/Power supply tester/output/bringup-2026-10-17/original-first-512KiB.bin",
+  "backup_bytes": 524288,
+  "backup_sha256": "b43294a947fa5cb440d86d55eda20d5d1b45ad8530dffff97cf632ebb27ef8f1",
+  "backup_scope": "0x000000..0x07ffff only; all sectors changed by app update are included. Rest of flash is unchanged.",
+  "app_path": "/Users/petter/Documents/ChatGPT/Power supply tester/firmware/Tester12VRevD/build/Tester12VRevD.ino.bin",
+  "app_sha256": "e8d2452f665d86aa895acffc4e2b094a04146034f166d4133274939be3c227bb",
+  "app_flash_offset": "0x10000",
+  "calibration_commands_sent": true,
+  "hardware_revision": "D2, confirmed by user",
+  "firmware_family": "Rev D; compatible with D2",
+  "prior_temporary_app": "Rev A/B build loaded based on saved order; replaced before inspecting readings",
+  "source_and_binary_hashes_verified": true,
+  "firmware_active": "Standard Rev D release restored after resume diagnostics; app hash verified",
+  "flash_verified": true,
+  "final_startup_verified": true,
+  "final_test_seconds": 20,
+  "final_valid_samples": 38,
+  "final_invalid_samples": 0,
+  "final_state": "FINISH_CAL; calibration required before voltage measurement",
+  "detected_i2c_addresses": [
+    "0x48",
+    "0x49",
+    "0x4A",
+    "0x4B",
+    "0x6B"
+  ],
+  "initial_adc_fault_samples": 522,
+  "initial_adc_fault_cause": "Unconfirmed; not reproduced in diagnostic or final standard-firmware recheck",
+  "calibration_performed": true,
+  "external_known_voltage_test_performed": true,
+  "power_rail_voltages_measured": true,
+  "completed_at_utc": "2026-10-17T23:40:26.357531+00:00",
+  "usb_power_rail_checks": {
+    "source": "User-reported multimeter measurements",
+    "usb5v_V_approx": 5.0,
+    "host3v3_V_approx": 3.3,
+    "reference": "USB_GND / TP14",
+    "test_points": {
+      "USB5V": "TP13",
+      "HOST3V3": "TP15"
+    },
+    "precision": "Approximate; no additional digits or meter accuracy supplied",
+    "isolated_rails_measured": false,
+    "recorded_at_utc": "2026-10-18T05:29:37.019010+00:00"
+  },
+  "zero_calibration_status": "ZERO_SAVED; this assumes all twelve terminals were open",
+  "calibration_complete": false,
+  "open_input_baseline_saved": true,
+  "calibration_phase": "Guided local UI: new calibration pass starting at input 1; existing gains retained until replaced",
+  "pending_calibration_pin": null,
+  "pending_low_point_storage": "ESP32 RAM only; keep USB and the current serial console connected",
+  "calibration_console_session": null,
+  "last_calibration_ack": "CAL_SAVED pin=2 gain=427.1662292 mask=003",
+  "pending_low_point_valid": false,
+  "last_serial_disconnect": "[Errno 6] Device not configured",
+  "last_calibration_ack_at_utc": "2026-10-19T04:11:13.945647+00:00",
+  "calibrated_inputs": [
+    1,
+    2
+  ],
+  "calibration_mask_hex": "003",
+  "external_known_voltage_test_scope": "Input 1 high calibration point only; no independent post-calibration measurement or pair test yet",
+  "input_1_reference_measurement": {
+    "meter_V": 12.03,
+    "supply_display_V": 12.05,
+    "source": "User-reported readings; multimeter used for calibration"
+  },
+  "resume_record": "../calibration-2026-10-18/resume-record.json",
+  "input_2_reference_measurement": {
+    "meter_V": 11.98,
+    "supply_display_V": 12.0,
+    "source": "User-reported readings; multimeter used for calibration"
+  },
+  "calibration_ui_url": "http://127.0.0.1:8765",
+  "calibration_ui_state": "output/calibration-ui/pass.json",
+  "calibration_ui_exec_session": 74739
+}

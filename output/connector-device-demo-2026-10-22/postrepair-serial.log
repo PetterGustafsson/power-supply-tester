@@ -1,0 +1,3 @@
+DISPLAY_ALIVE mode=FULL frames=156 fps_x10=310 decode_us=21784 transfer_us=10507 free_psram=1925660
+DISPLAY_ALIVE mode=FULL frames=281 fps_x10=249 decode_us=26698 transfer_us=13323 free_psram=1925660
+DISPLAY_ALIVE mode=FULL frames=414 fps_x10=264 decode_us=25697 transfer_us=12071 free_psram=1925660

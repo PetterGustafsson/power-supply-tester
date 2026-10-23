@@ -1,0 +1,181 @@
+ESP-ROM:esp32s3-20210327
+Build:Mar 27 2021
+rst:0x1 (POWERON),boot:0x18 (SPI_FAST_FLASH_BOOT)
+SPIWP:0xee
+mode:DIO, clock div:1
+load:0x3fce2820,len:0x10cc
+load:0x403c8700,len:0xc2c
+load:0x403cb700,len:0x30c0
+entry 0x403c88b8
+TESTER12V Rev D DIAGNOSTIC: real ADC input; no calibration commands sent
+BUS_LEVELS SDA=1 SCL=1 clock=100000
+I2C_FOUND address=0x48
+I2C_FOUND address=0x49
+I2C_FOUND address=0x4A
+I2C_FOUND address=0x4B
+I2C_FOUND address=0x6B
+I2C_SCAN_END devices=5 adc_addresses=4 expected_adc_addresses=4
+CSV: sequence,valid,A1..A12(raw volts),REF0..REF3,state,positive_mask_hex,return_mask_hex,unknown_mask_hex,supply_volts
+0,1,0.607801,0.581133,0.581117,0.581094,0.581094,0.581109,0.581094,0.581074,0.581000,0.581012,0.580988,0.580973,0.581074,0.581082,0.581074,0.581070,5,000,000,FFF,0.0000
+1,1,0.607824,0.581156,0.581145,0.581105,0.581113,0.581133,0.581113,0.581094,0.581023,0.581051,0.581031,0.581004,0.581082,0.581102,0.581098,0.581098,5,000,000,FFF,0.0000
+2,1,0.607813,0.581133,0.581137,0.581102,0.581098,0.581113,0.581105,0.581074,0.581012,0.581027,0.581020,0.580996,0.581078,0.581082,0.581094,0.581098,5,000,000,FFF,0.0000
+3,1,0.607828,0.581152,0.581137,0.581109,0.581117,0.581129,0.581105,0.581086,0.581023,0.581039,0.581027,0.581000,0.581094,0.581102,0.581098,0.581094,5,000,000,FFF,0.0000
+4,1,0.607801,0.581145,0.581129,0.581105,0.581094,0.581129,0.581102,0.581082,0.581004,0.581039,0.581031,0.580996,0.581070,0.581098,0.581094,0.581086,5,000,000,FFF,0.0000
+5,1,0.607809,0.581141,0.581125,0.581098,0.581098,0.581125,0.581102,0.581086,0.581012,0.581031,0.581031,0.581000,0
+{
+  "port": "/dev/cu.usbmodem58760426031",
+  "seconds": 20,
+  "sample_count": 37,
+  "valid_samples": 37,
+  "invalid_samples": 0,
+  "states": {
+    "FINISH_CAL": 37
+  },
+  "calibration_performed": false,
+  "raw_adc_channels_V": [
+    {
+      "channel": 1,
+      "mean": 0.6078075675675676,
+      "minimum": 0.607781,
+      "maximum": 0.60784
+    },
+    {
+      "channel": 2,
+      "mean": 0.581137,
+      "minimum": 0.581113,
+      "maximum": 0.58116
+    },
+    {
+      "channel": 3,
+      "mean": 0.5811289189189189,
+      "minimum": 0.581098,
+      "maximum": 0.581152
+    },
+    {
+      "channel": 4,
+      "mean": 0.5811024864864864,
+      "minimum": 0.58107,
+      "maximum": 0.581133
+    },
+    {
+      "channel": 5,
+      "mean": 0.5810977837837837,
+      "minimum": 0.58107,
+      "maximum": 0.581133
+    },
+    {
+      "channel": 6,
+      "mean": 0.581115972972973,
+      "minimum": 0.58109,
+      "maximum": 0.581145
+    },
+    {
+      "channel": 7,
+      "mean": 0.5810992432432432,
+      "minimum": 0.58107,
+      "maximum": 0.581125
+    },
+    {
+      "channel": 8,
+      "mean": 0.5810802972972973,
+      "minimum": 0.581055,
+      "maximum": 0.581105
+    },
+    {
+      "channel": 9,
+      "mean": 0.581008027027027,
+      "minimum": 0.580984,
+      "maximum": 0.581031
+    },
+    {
+      "channel": 10,
+      "mean": 0.5810271891891892,
+      "minimum": 0.581,
+      "maximum": 0.581055
+    },
+    {
+      "channel": 11,
+      "mean": 0.5810184054054054,
+      "minimum": 0.580988,
+      "maximum": 0.581039
+    },
+    {
+      "channel": 12,
+      "mean": 0.5809947837837838,
+      "minimum": 0.580969,
+      "maximum": 0.581023
+    }
+  ],
+  "last_valid_sample": {
+    "sequence": 36,
+    "valid": 1,
+    "adc": [
+      0.607809,
+      0.581137,
+      0.581117,
+      0.58109,
+      0.58109,
+      0.581113,
+      0.581098,
+      0.581066,
+      0.580996,
+      0.581027,
+      0.581016,
+      0.580988
+    ],
+    "reference": [
+      0.58107,
+      0.581086,
+      0.581082,
+      0.58109
+    ],
+    "state": 5,
+    "positive_mask": 0,
+    "return_mask": 0,
+    "unknown_mask": 4095,
+    "supply_volts": 0.0
+  },
+  "raw_reference_V": [
+    {
+      "phase": 0,
+      "mean": 0.5810760810810811,
+      "minimum": 0.581051,
+      "maximum": 0.581102
+    },
+    {
+      "phase": 1,
+      "mean": 0.5810881891891891,
+      "minimum": 0.581063,
+      "maximum": 0.581113
+    },
+    {
+      "phase": 2,
+      "mean": 0.5810882432432433,
+      "minimum": 0.581059,
+      "maximum": 0.581113
+    },
+    {
+      "phase": 3,
+      "mean": 0.5810883513513514,
+      "minimum": 0.581059,
+      "maximum": 0.581113
+    }
+  ],
+  "i2c_addresses_seen": [
+    "0x48",
+    "0x49",
+    "0x4A",
+    "0x4B",
+    "0x6B"
+  ],
+  "bus_and_error_lines": [
+    "BUS_LEVELS SDA=1 SCL=1 clock=100000",
+    "I2C_SCAN_END devices=5 adc_addresses=4 expected_adc_addresses=4",
+    "BUS_LEVELS SDA=1 SCL=1 clock=100000",
+    "I2C_SCAN_END devices=5 adc_addresses=4 expected_adc_addresses=4",
+    "BUS_LEVELS SDA=1 SCL=1 clock=100000",
+    "I2C_SCAN_END devices=5 adc_addresses=4 expected_adc_addresses=4",
+    "BUS_LEVELS SDA=1 SCL=1 clock=100000",
+    "I2C_SCAN_END devices=5 adc_addresses=4 expected_adc_addresses=4"
+  ]
+}

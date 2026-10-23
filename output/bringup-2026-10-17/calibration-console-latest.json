@@ -1,0 +1,41 @@
+{
+  "pid": 79759,
+  "port": "/dev/cu.usbmodem58760426031",
+  "pending_pin": null,
+  "pending_low_point_valid": false,
+  "console_closed": true,
+  "last_ack": "CAL_SAVED pin=2 gain=427.1662292 mask=003",
+  "sample": {
+    "sequence": 4335,
+    "valid": 1,
+    "raw_V": [
+      0.576277,
+      0.576273,
+      0.574934,
+      0.576242,
+      0.576238,
+      0.576238,
+      0.576234,
+      0.576211,
+      0.57616,
+      0.576164,
+      0.57616,
+      0.576129
+    ],
+    "reference_V": [
+      0.576231,
+      0.576203,
+      0.576231,
+      0.576227
+    ],
+    "state": 5,
+    "positive_mask": 0,
+    "return_mask": 0,
+    "unknown_mask": 4095,
+    "supply_V": 0.0
+  },
+  "updated_at_utc": "2026-10-19T04:41:12.356443+00:00",
+  "last_command": "calv 2 11.98",
+  "last_ack_at_utc": "2026-10-19T04:11:13.945647+00:00",
+  "calibration_mask": 3
+}

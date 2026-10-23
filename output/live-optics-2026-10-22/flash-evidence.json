@@ -1,0 +1,24 @@
+{
+  "result": "installed live measurement firmware with finished connector optical UI on Rev D ESP32-S3",
+  "device_port": "/dev/cu.usbmodem58760426031",
+  "app_address": "0x10000",
+  "asset_address": "0x610000",
+  "app_sha256": "a4c1e021feb97a09dc6211aa8eee092cd70d3744cfb34d2ce64f317a4dc94c36",
+  "asset_sha256": "6ec054776ca115c901c10f7761a0a70bbfc623d4c5f98aea9b7e7ee4285d9760",
+  "asset_flash_hash_verified": true,
+  "app_flash_hash_verified": true,
+  "nvs_sha256_before": "8a5341d1f106b87f235d344573af6b65abea7f1d83bea8387a4c41e6df13667e",
+  "nvs_sha256_after": "8a5341d1f106b87f235d344573af6b65abea7f1d83bea8387a4c41e6df13667e",
+  "nvs_unchanged": true,
+  "valid_open_input_scans": 40,
+  "captured_scans": 40,
+  "idle_fps": [
+    38.1,
+    38.3,
+    37.3,
+    39.0
+  ],
+  "calibration_status": "CAL_STATUS protocol=2 batch=6633B2B2 low_mask=007 done_mask=000 mask=FFF zero=1 copied_mask=FFE",
+  "powered_state_evidence": "runtime overlays benchmarked offscreen; cable-powered behavior awaits physical cable test",
+  "browser_console": "reconnected in test phase with live no-voltage telemetry"
+}

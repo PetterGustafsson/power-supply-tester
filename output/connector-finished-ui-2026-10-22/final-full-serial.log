@@ -1,0 +1,15 @@
+ESP-ROM:esp32s3-20210327
+Build:Mar 27 2021
+rst:0x1 (POWERON),boot:0x39 (SPI_FAST_FLASH_BOOT)
+SPIWP:0xee
+mode:DIO, clock div:1
+load:0x3fce2820,len:0x10cc
+load:0x403c8700,len:0xc2c
+load:0x403cb700,len:0x30c0
+entry 0x403c88b8
+DISPLAY_BOOT: OPTICS50 SIMULATED internal_heap=231604 max_block=172020
+DISPLAY_MEMORY: delta_internal=1 free_heap=112816 free_psram=2042400
+DISPLAY_READY: OPTICS50 SIMULATED 240x240 RGB565 50 source fps, 8948181 asset bytes
+DISPLAY_COMMANDS: full idle helix storm
+DISPLAY_MODE: FULL SIMULATED
+DISPLAY_ALIVE mode=FULL frames=234 fps_x10=466 decode_us=9992 transfer_us=12819 free_heap=86596 free_psram=2042400

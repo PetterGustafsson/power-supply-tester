@@ -1,0 +1,5 @@
+DISPLAY_BENCH frame=275 level6_us=6040 level1_us=6557
+DISPLAY_BENCH frame=325 level6_us=14430 level1_us=16198
+DISPLAY_BENCH frame=550 level6_us=7659 level1_us=9244
+DISPLAY_ALIVE mode=FULL frames=151 fps_x10=301 decode_us=12080 transfer_us=10353 free_psram=2042400
+DISPLAY_ALIVE mode=FULL frames=315 fps_x10=326 decode_us=17027 transfer_us=13309 free_psram=2042400

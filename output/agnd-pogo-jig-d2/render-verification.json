@@ -1,0 +1,15 @@
+{
+  "source_board_laminate_surfaces_z": [
+    -0.8,
+    0.8
+  ],
+  "PCB_laminate_bottom_in_fixture": 9.0,
+  "PCB_laminate_top_in_fixture": 10.6,
+  "native_model_min_z": -2.7,
+  "arm_bottom_to_tallest_native_component_clearance": 4.2,
+  "probe_geometry": "Simplified outer envelope; tip, barrel diameters and total length supplied by user. Tail and shoulder proportions illustrative.",
+  "board_geometry": "Native KiCad model, source PCB hash matches enclosure-d2 reference.",
+  "minimum_native_solder_tail_to_base_floor_clearance": 3.1,
+  "drop_in_frame_clearance_per_side_mm": 0.2,
+  "PCB_fasteners": 0
+}

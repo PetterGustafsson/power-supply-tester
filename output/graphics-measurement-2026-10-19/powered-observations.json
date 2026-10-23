@@ -1,0 +1,425 @@
+[
+  {
+    "sequence": 56,
+    "device_state": "No voltage",
+    "fresh": true,
+    "actual_pair_V": 0.0073,
+    "unstable": false,
+    "adc_fault": false,
+    "age_s": 0.3
+  },
+  {
+    "sequence": 57,
+    "device_state": "No voltage",
+    "fresh": true,
+    "actual_pair_V": 0.0063,
+    "unstable": false,
+    "adc_fault": false,
+    "age_s": 0.02
+  },
+  {
+    "sequence": 58,
+    "device_state": "No voltage",
+    "fresh": true,
+    "actual_pair_V": 0.0065,
+    "unstable": false,
+    "adc_fault": false,
+    "age_s": 0.25
+  },
+  {
+    "sequence": 59,
+    "device_state": "No voltage",
+    "fresh": true,
+    "actual_pair_V": 0.0067,
+    "unstable": false,
+    "adc_fault": false,
+    "age_s": 0.22
+  },
+  {
+    "sequence": 60,
+    "device_state": "No voltage",
+    "fresh": true,
+    "actual_pair_V": 0.01,
+    "unstable": false,
+    "adc_fault": false,
+    "age_s": 0.19
+  },
+  {
+    "sequence": 61,
+    "device_state": "No voltage",
+    "fresh": true,
+    "actual_pair_V": 0.0119,
+    "unstable": false,
+    "adc_fault": false,
+    "age_s": 0.17
+  },
+  {
+    "sequence": 62,
+    "device_state": "No voltage",
+    "fresh": true,
+    "actual_pair_V": 0.0086,
+    "unstable": false,
+    "adc_fault": false,
+    "age_s": 0.14
+  },
+  {
+    "sequence": 63,
+    "device_state": "No voltage",
+    "fresh": true,
+    "actual_pair_V": 0.0046,
+    "unstable": false,
+    "adc_fault": false,
+    "age_s": 0.11
+  },
+  {
+    "sequence": 64,
+    "device_state": "No voltage",
+    "fresh": true,
+    "actual_pair_V": 0.0119,
+    "unstable": false,
+    "adc_fault": false,
+    "age_s": 0.08
+  },
+  {
+    "sequence": 65,
+    "device_state": "No voltage",
+    "fresh": true,
+    "actual_pair_V": 0.0044,
+    "unstable": false,
+    "adc_fault": false,
+    "age_s": 0.06
+  },
+  {
+    "sequence": 66,
+    "device_state": "No voltage",
+    "fresh": true,
+    "actual_pair_V": 0.0086,
+    "unstable": false,
+    "adc_fault": false,
+    "age_s": 0.04
+  },
+  {
+    "sequence": 67,
+    "device_state": "No voltage",
+    "fresh": true,
+    "actual_pair_V": 0.0079,
+    "unstable": false,
+    "adc_fault": false,
+    "age_s": 0.01
+  },
+  {
+    "sequence": 68,
+    "device_state": "No voltage",
+    "fresh": true,
+    "actual_pair_V": 0.0063,
+    "unstable": false,
+    "adc_fault": false,
+    "age_s": 0.24
+  },
+  {
+    "sequence": 69,
+    "device_state": "No voltage",
+    "fresh": true,
+    "actual_pair_V": 0.0111,
+    "unstable": false,
+    "adc_fault": false,
+    "age_s": 0.22
+  },
+  {
+    "sequence": 70,
+    "device_state": "No voltage",
+    "fresh": true,
+    "actual_pair_V": 0.0075,
+    "unstable": false,
+    "adc_fault": false,
+    "age_s": 0.19
+  },
+  {
+    "sequence": 71,
+    "device_state": "No voltage",
+    "fresh": true,
+    "actual_pair_V": 0.0069,
+    "unstable": false,
+    "adc_fault": false,
+    "age_s": 0.16
+  },
+  {
+    "sequence": 72,
+    "device_state": "No voltage",
+    "fresh": true,
+    "actual_pair_V": 0.0063,
+    "unstable": false,
+    "adc_fault": false,
+    "age_s": 0.13
+  },
+  {
+    "sequence": 73,
+    "device_state": "No voltage",
+    "fresh": true,
+    "actual_pair_V": 0.0088,
+    "unstable": false,
+    "adc_fault": false,
+    "age_s": 0.1
+  },
+  {
+    "sequence": 74,
+    "device_state": "No voltage",
+    "fresh": true,
+    "actual_pair_V": 0.0069,
+    "unstable": false,
+    "adc_fault": false,
+    "age_s": 0.07
+  },
+  {
+    "sequence": 75,
+    "device_state": "No voltage",
+    "fresh": true,
+    "actual_pair_V": 0.0073,
+    "unstable": false,
+    "adc_fault": false,
+    "age_s": 0.04
+  },
+  {
+    "sequence": 76,
+    "device_state": "No voltage",
+    "fresh": true,
+    "actual_pair_V": 0.009,
+    "unstable": false,
+    "adc_fault": false,
+    "age_s": 0.01
+  },
+  {
+    "sequence": 77,
+    "device_state": "No voltage",
+    "fresh": true,
+    "actual_pair_V": 0.0102,
+    "unstable": false,
+    "adc_fault": false,
+    "age_s": 0.24
+  },
+  {
+    "sequence": 78,
+    "device_state": "No voltage",
+    "fresh": true,
+    "actual_pair_V": 0.0146,
+    "unstable": false,
+    "adc_fault": false,
+    "age_s": 0.21
+  },
+  {
+    "sequence": 79,
+    "device_state": "No voltage",
+    "fresh": true,
+    "actual_pair_V": 0.0086,
+    "unstable": false,
+    "adc_fault": false,
+    "age_s": 0.18
+  },
+  {
+    "sequence": 80,
+    "device_state": "No voltage",
+    "fresh": true,
+    "actual_pair_V": 0.0133,
+    "unstable": false,
+    "adc_fault": false,
+    "age_s": 0.14
+  },
+  {
+    "sequence": 81,
+    "device_state": "No voltage",
+    "fresh": true,
+    "actual_pair_V": 0.0117,
+    "unstable": false,
+    "adc_fault": false,
+    "age_s": 0.12
+  },
+  {
+    "sequence": 82,
+    "device_state": "No voltage",
+    "fresh": true,
+    "actual_pair_V": 0.0065,
+    "unstable": false,
+    "adc_fault": false,
+    "age_s": 0.08
+  },
+  {
+    "sequence": 83,
+    "device_state": "No voltage",
+    "fresh": true,
+    "actual_pair_V": 0.0048,
+    "unstable": false,
+    "adc_fault": false,
+    "age_s": 0.05
+  },
+  {
+    "sequence": 84,
+    "device_state": "No voltage",
+    "fresh": true,
+    "actual_pair_V": 0.0073,
+    "unstable": false,
+    "adc_fault": false,
+    "age_s": 0.03
+  },
+  {
+    "sequence": 85,
+    "device_state": "No voltage",
+    "fresh": true,
+    "actual_pair_V": 0.0134,
+    "unstable": false,
+    "adc_fault": false,
+    "age_s": 0.01
+  },
+  {
+    "sequence": 86,
+    "device_state": "No voltage",
+    "fresh": true,
+    "actual_pair_V": 0.0102,
+    "unstable": false,
+    "adc_fault": false,
+    "age_s": 0.23
+  },
+  {
+    "sequence": 87,
+    "device_state": "No voltage",
+    "fresh": true,
+    "actual_pair_V": 0.0092,
+    "unstable": false,
+    "adc_fault": false,
+    "age_s": 0.2
+  },
+  {
+    "sequence": 88,
+    "device_state": "No voltage",
+    "fresh": true,
+    "actual_pair_V": 0.008,
+    "unstable": false,
+    "adc_fault": false,
+    "age_s": 0.17
+  },
+  {
+    "sequence": 89,
+    "device_state": "No voltage",
+    "fresh": true,
+    "actual_pair_V": 0.0086,
+    "unstable": false,
+    "adc_fault": false,
+    "age_s": 0.13
+  },
+  {
+    "sequence": 90,
+    "device_state": "No voltage",
+    "fresh": true,
+    "actual_pair_V": 0.0098,
+    "unstable": false,
+    "adc_fault": false,
+    "age_s": 0.11
+  },
+  {
+    "sequence": 91,
+    "device_state": "No voltage",
+    "fresh": true,
+    "actual_pair_V": 0.0069,
+    "unstable": false,
+    "adc_fault": false,
+    "age_s": 0.08
+  },
+  {
+    "sequence": 92,
+    "device_state": "No voltage",
+    "fresh": true,
+    "actual_pair_V": 0.009,
+    "unstable": false,
+    "adc_fault": false,
+    "age_s": 0.05
+  },
+  {
+    "sequence": 93,
+    "device_state": "No voltage",
+    "fresh": true,
+    "actual_pair_V": 0.0102,
+    "unstable": false,
+    "adc_fault": false,
+    "age_s": 0.02
+  },
+  {
+    "sequence": 94,
+    "device_state": "No voltage",
+    "fresh": true,
+    "actual_pair_V": 0.0077,
+    "unstable": false,
+    "adc_fault": false,
+    "age_s": 0.24
+  },
+  {
+    "sequence": 95,
+    "device_state": "No voltage",
+    "fresh": true,
+    "actual_pair_V": 0.0086,
+    "unstable": false,
+    "adc_fault": false,
+    "age_s": 0.22
+  },
+  {
+    "sequence": 96,
+    "device_state": "No voltage",
+    "fresh": true,
+    "actual_pair_V": 0.0094,
+    "unstable": false,
+    "adc_fault": false,
+    "age_s": 0.19
+  },
+  {
+    "sequence": 97,
+    "device_state": "No voltage",
+    "fresh": true,
+    "actual_pair_V": 0.0063,
+    "unstable": false,
+    "adc_fault": false,
+    "age_s": 0.15
+  },
+  {
+    "sequence": 98,
+    "device_state": "No voltage",
+    "fresh": true,
+    "actual_pair_V": 0.0063,
+    "unstable": false,
+    "adc_fault": false,
+    "age_s": 0.12
+  },
+  {
+    "sequence": 99,
+    "device_state": "No voltage",
+    "fresh": true,
+    "actual_pair_V": 0.009,
+    "unstable": false,
+    "adc_fault": false,
+    "age_s": 0.09
+  },
+  {
+    "sequence": 100,
+    "device_state": "No voltage",
+    "fresh": true,
+    "actual_pair_V": 0.0061,
+    "unstable": false,
+    "adc_fault": false,
+    "age_s": 0.06
+  },
+  {
+    "sequence": 101,
+    "device_state": "No voltage",
+    "fresh": true,
+    "actual_pair_V": 0.0069,
+    "unstable": false,
+    "adc_fault": false,
+    "age_s": 0.04
+  },
+  {
+    "sequence": 102,
+    "device_state": "No voltage",
+    "fresh": true,
+    "actual_pair_V": 0.0081,
+    "unstable": false,
+    "adc_fault": false,
+    "age_s": 0.01
+  }
+]

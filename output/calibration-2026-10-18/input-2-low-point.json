@@ -1,0 +1,16 @@
+{
+  "pin": 2,
+  "acknowledgement": "CAL_LOW_SAVED pin=2; apply known +12V relative to AGND, then calv 2 12.000",
+  "recorded_at_utc": "2026-10-19T04:06:40.302875+00:00",
+  "meter_reading_V": 0.0,
+  "meter_reading_verbatim": "0.00",
+  "setup": "Supply positive on INP2, negative on AGND; other numbered inputs open",
+  "console_session": 49904,
+  "console_pid": 79759,
+  "persistent": false,
+  "valid_only_while_current_ESP32_session_remains_running": true,
+  "next_step": "Without moving leads, apply approximately +12 V and report actual multimeter voltage before calv 2",
+  "consumed_by_calv": true,
+  "consumed_at_utc": "2026-10-19T04:11:13.945711+00:00",
+  "currently_pending": false
+}

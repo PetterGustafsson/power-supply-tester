@@ -1,0 +1,44 @@
+{
+  "enclosure": "I15",
+  "electronics": "Rev D2",
+  "display_surface": "unpowered black glass",
+  "usb_support": {
+    "type": "foam pad",
+    "quantity": 1,
+    "thickness_mm": 2
+  },
+  "usb_extender": {
+    "quantity": 1,
+    "type": "90 degree USB-C male to female, soft flat cable",
+    "length_inches": 4,
+    "pose": "straight",
+    "reference_asin": "B0D9XGFW3W"
+  },
+  "screw_reference_asin": "B0G24Z3P66",
+  "hardware": [
+    {
+      "use": "PCB and display",
+      "quantity": 6,
+      "allocation": {
+        "PCB": 4,
+        "display": 2
+      },
+      "size": "M2",
+      "length_mm": 6,
+      "type": "self-tapping",
+      "material": "steel",
+      "finish": "black",
+      "head": "countersunk flat Phillips"
+    },
+    {
+      "use": "case",
+      "quantity": 4,
+      "size": "M2.5",
+      "length_mm": 10,
+      "type": "self-tapping",
+      "material": "steel",
+      "finish": "black",
+      "head": "countersunk flat Phillips"
+    }
+  ]
+}

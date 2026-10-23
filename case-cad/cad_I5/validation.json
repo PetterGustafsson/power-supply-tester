@@ -1,0 +1,603 @@
+{
+ "step": {
+  "I5_base": {
+   "solids": 1,
+   "valid": true,
+   "free_edges": 0,
+   "volume_cm3": 41.576,
+   "faces": 306,
+   "surface_types": [
+    "BSPLINE",
+    "CONE",
+    "CYLINDER",
+    "PLANE"
+   ]
+  },
+  "I5_top": {
+   "solids": 1,
+   "valid": true,
+   "free_edges": 0,
+   "volume_cm3": 75.508,
+   "faces": 319,
+   "surface_types": [
+    "BSPLINE",
+    "CONE",
+    "CYLINDER",
+    "PLANE",
+    "SPHERE",
+    "TORUS"
+   ]
+  },
+  "I5_crown": {
+   "solids": 1,
+   "valid": true,
+   "free_edges": 0,
+   "volume_cm3": 0.803,
+   "faces": 9,
+   "surface_types": [
+    "CONE",
+    "CYLINDER",
+    "PLANE",
+    "TORUS"
+   ]
+  },
+  "I5_retainer": {
+   "solids": 1,
+   "valid": true,
+   "free_edges": 0,
+   "volume_cm3": 1.039,
+   "faces": 43,
+   "surface_types": [
+    "CONE",
+    "CYLINDER",
+    "PLANE"
+   ]
+  }
+ },
+ "assembly": {
+  "solids": 233,
+  "labels": [
+   "printed_parts",
+   "I5_base",
+   "I5_top",
+   "I5_crown",
+   "I5_retainer",
+   "reference_bodies_NOT_PRINTED",
+   "REF_PCB_RevD2_board",
+   "REF_PCB_J1_XY350V_4p",
+   "REF_PCB_J2_XY350V_4p",
+   "REF_PCB_J3_XY350V_4p",
+   "REF_PCB_J4_JST_XH5",
+   "REF_PCB_tall_part",
+   "REF_PCB_ic1",
+   "REF_PCB_ic2",
+   "REF_PCB_ic3",
+   "REF_PCB_ic4",
+   "REF_PCB_ic5",
+   "REF_display_ESP32-S3-LCD-1_28",
+   "REF_USB_male_90deg_overmold",
+   "REF_USB_flat_cable_51mm",
+   "REF_USB_female_overmold",
+   "REF_cable_12pin_7mm",
+   "REF_harness_5x_breadboard_pins_0_64sq",
+   "REF_harness_Dupont_1x5_female",
+   "REF_harness_5_wires_to_J4",
+   "REF_J4_XH5_plug"
+  ]
+ },
+ "interference_mm3": {
+  "I5_base x I5_top": 0.0,
+  "I5_base x I5_crown": 0.0,
+  "I5_base x I5_retainer": 0.0,
+  "I5_top x I5_crown": 6.494,
+  "I5_top x I5_retainer": 28.604,
+  "I5_crown x I5_retainer": 0.0,
+  "I5_top x REF_USB_female_overmold": 8.424,
+  "I5_top x REF_cable_12pin_7mm": 8.8,
+  "REF_display_ESP32-S3-LCD-1.28 x REF_USB_male_90deg_overmold": 11.016,
+  "REF_display_ESP32-S3-LCD-1.28 x REF_harness_5x_breadboard_pins_0.64sq": 0.253,
+  "REF_USB_male_90deg_overmold x REF_USB_flat_cable_51mm": 1.7,
+  "REF_USB_flat_cable_51mm x REF_USB_female_overmold": 1.7,
+  "REF_harness_5x_breadboard_pins_0.64sq x REF_harness_Dupont_1x5_female": 17.408
+ },
+ "min_distance_mm": {
+  "I5_top - REF_PCB_J1_XY350V_4p": 14.12,
+  "I5_top - REF_PCB_J2_XY350V_4p": 14.0,
+  "I5_top - REF_PCB_J3_XY350V_4p": 10.35,
+  "I5_top - REF_PCB_tall_part": 14.17,
+  "I5_top - REF_PCB_J4_JST_XH5": 11.72,
+  "I5_top - REF_PCB_RevD2_board": 3.49,
+  "I5_base - REF_PCB_RevD2_board": 0.0,
+  "I5_top - REF_USB_male_90deg_overmold": 1.0,
+  "I5_top - REF_USB_flat_cable_51mm": 2.2,
+  "I5_base - REF_USB_flat_cable_51mm": 0.43,
+  "I5_top - REF_display_ESP32-S3-LCD-1.28": 0.12,
+  "I5_retainer - REF_USB_male_90deg_overmold": 4.37,
+  "I5_base - REF_USB_female_overmold": 0.1,
+  "I5_base - REF_cable_12pin_7mm": 0.0,
+  "I5_top - REF_cable_12pin_7mm": 0.0,
+  "I5_top - REF_harness_Dupont_1x5_female": 2.22,
+  "I5_top - REF_harness_5_wires_to_J4": 1.0,
+  "I5_retainer - REF_harness_Dupont_1x5_female": 1.07,
+  "I5_retainer - REF_harness_5_wires_to_J4": 11.18,
+  "I5_retainer - REF_harness_5x_breadboard_pins_0.64sq": 1.47,
+  "I5_retainer - REF_display_ESP32-S3-LCD-1.28": 0.0,
+  "I5_base - REF_harness_5_wires_to_J4": 13.5,
+  "REF_harness_5_wires_to_J4 - REF_USB_male_90deg_overmold": 17.57,
+  "REF_harness_5_wires_to_J4 - REF_USB_flat_cable_51mm": 8.59,
+  "REF_harness_Dupont_1x5_female - REF_USB_male_90deg_overmold": 16.04,
+  "REF_harness_Dupont_1x5_female - REF_USB_flat_cable_51mm": 9.81,
+  "REF_harness_5_wires_to_J4 - REF_PCB_tall_part": 11.57,
+  "REF_harness_5_wires_to_J4 - REF_PCB_RevD2_board": 11.0,
+  "REF_USB_male_90deg_overmold - REF_PCB_RevD2_board": 11.63,
+  "REF_display_ESP32-S3-LCD-1.28 - REF_PCB_RevD2_board": 25.65,
+  "I5_base - I5_top": 0.25,
+  "I5_base - I5_crown": 40.041,
+  "I5_base - I5_retainer": 32.768,
+  "I5_top - I5_crown": 0.0,
+  "I5_top - I5_retainer": 0.0,
+  "I5_crown - I5_retainer": 3.4
+ },
+ "overhangs_print_orientation": {
+  "I5_base": {
+   "steep_overhang_mm2": 433.4,
+   "horizontal_downfacing_mm2": 397.8,
+   "regions": [
+    {
+     "area_mm2": 212.8,
+     "bbox": [
+      [
+       -8.9,
+       25.6,
+       16.1
+      ],
+      [
+       8.9,
+       34.1,
+       24.6
+      ]
+     ]
+    },
+    {
+     "area_mm2": 60.0,
+     "bbox": [
+      [
+       -6.2,
+       -10.4,
+       1.2
+      ],
+      [
+       6.2,
+       -5.6,
+       1.2
+      ]
+     ]
+    },
+    {
+     "area_mm2": 60.0,
+     "bbox": [
+      [
+       -6.2,
+       1.6,
+       1.2
+      ],
+      [
+       6.2,
+       6.4,
+       1.2
+      ]
+     ]
+    },
+    {
+     "area_mm2": 59.4,
+     "bbox": [
+      [
+       -42.0,
+       -48.0,
+       -0.0
+      ],
+      [
+       42.0,
+       -47.5,
+       0.5
+      ]
+     ]
+    },
+    {
+     "area_mm2": 59.4,
+     "bbox": [
+      [
+       -42.0,
+       47.5,
+       -0.0
+      ],
+      [
+       42.0,
+       48.0,
+       0.5
+      ]
+     ]
+    },
+    {
+     "area_mm2": 50.9,
+     "bbox": [
+      [
+       -54.0,
+       -36.0,
+       -0.0
+      ],
+      [
+       -53.5,
+       36.0,
+       0.5
+      ]
+     ]
+    },
+    {
+     "area_mm2": 50.9,
+     "bbox": [
+      [
+       53.5,
+       -36.0,
+       -0.0
+      ],
+      [
+       54.0,
+       36.0,
+       0.5
+      ]
+     ]
+    },
+    {
+     "area_mm2": 46.4,
+     "bbox": [
+      [
+       -52.6,
+       -44.0,
+       0.8
+      ],
+      [
+       -42.6,
+       -34.0,
+       0.8
+      ]
+     ]
+    },
+    {
+     "area_mm2": 46.4,
+     "bbox": [
+      [
+       42.6,
+       -44.0,
+       0.8
+      ],
+      [
+       52.6,
+       -34.0,
+       0.8
+      ]
+     ]
+    },
+    {
+     "area_mm2": 46.4,
+     "bbox": [
+      [
+       -52.6,
+       34.0,
+       0.8
+      ],
+      [
+       -42.6,
+       44.0,
+       0.8
+      ]
+     ]
+    },
+    {
+     "area_mm2": 46.4,
+     "bbox": [
+      [
+       42.6,
+       34.0,
+       0.8
+      ],
+      [
+       52.6,
+       44.0,
+       0.8
+      ]
+     ]
+    },
+    {
+     "area_mm2": 23.1,
+     "bbox": [
+      [
+       -50.8,
+       -42.2,
+       3.2
+      ],
+      [
+       -44.4,
+       -35.8,
+       3.2
+      ]
+     ]
+    }
+   ]
+  },
+  "I5_top": {
+   "steep_overhang_mm2": 871.0,
+   "horizontal_downfacing_mm2": 7229.1,
+   "regions": [
+    {
+     "area_mm2": 1322.6,
+     "bbox": [
+      [
+       7.3,
+       -45.6,
+       33.1
+      ],
+      [
+       51.6,
+       45.6,
+       33.1
+      ]
+     ]
+    },
+    {
+     "area_mm2": 1053.7,
+     "bbox": [
+      [
+       -51.6,
+       -45.6,
+       33.1
+      ],
+      [
+       -7.3,
+       45.6,
+       33.2
+      ]
+     ]
+    },
+    {
+     "area_mm2": 674.0,
+     "bbox": [
+      [
+       -20.2,
+       -29.2,
+       39.1
+      ],
+      [
+       20.2,
+       23.2,
+       39.1
+      ]
+     ]
+    },
+    {
+     "area_mm2": 584.0,
+     "bbox": [
+      [
+       -20.2,
+       -45.1,
+       38.6
+      ],
+      [
+       20.2,
+       -30.8,
+       39.1
+      ]
+     ]
+    },
+    {
+     "area_mm2": 418.0,
+     "bbox": [
+      [
+       -6.4,
+       28.2,
+       26.8
+      ],
+      [
+       6.4,
+       44.4,
+       26.8
+      ]
+     ]
+    },
+    {
+     "area_mm2": 335.5,
+     "bbox": [
+      [
+       -38.2,
+       24.8,
+       38.6
+      ],
+      [
+       -21.8,
+       45.1,
+       39.1
+      ]
+     ]
+    },
+    {
+     "area_mm2": 335.5,
+     "bbox": [
+      [
+       21.8,
+       24.8,
+       38.6
+      ],
+      [
+       38.2,
+       45.1,
+       39.1
+      ]
+     ]
+    },
+    {
+     "area_mm2": 269.0,
+     "bbox": [
+      [
+       21.8,
+       -11.2,
+       39.1
+      ],
+      [
+       38.2,
+       5.2,
+       39.1
+      ]
+     ]
+    },
+    {
+     "area_mm2": 269.0,
+     "bbox": [
+      [
+       21.8,
+       6.8,
+       39.1
+      ],
+      [
+       38.2,
+       23.2,
+       39.1
+      ]
+     ]
+    },
+    {
+     "area_mm2": 269.0,
+     "bbox": [
+      [
+       -38.2,
+       -29.2,
+       39.1
+      ],
+      [
+       -21.8,
+       -12.8,
+       39.1
+      ]
+     ]
+    },
+    {
+     "area_mm2": 269.0,
+     "bbox": [
+      [
+       -38.2,
+       -11.2,
+       39.1
+      ],
+      [
+       -21.8,
+       5.2,
+       39.1
+      ]
+     ]
+    },
+    {
+     "area_mm2": 269.0,
+     "bbox": [
+      [
+       -38.2,
+       6.8,
+       39.1
+      ],
+      [
+       -21.8,
+       23.2,
+       39.1
+      ]
+     ]
+    }
+   ]
+  },
+  "I5_crown": {
+   "steep_overhang_mm2": 13.9,
+   "horizontal_downfacing_mm2": 0.0,
+   "regions": [
+    {
+     "area_mm2": 13.9,
+     "bbox": [
+      [
+       -20.2,
+       -20.2,
+       0.1
+      ],
+      [
+       20.2,
+       20.2,
+       0.1
+      ]
+     ]
+    }
+   ]
+  },
+  "I5_retainer": {
+   "steep_overhang_mm2": 0.0,
+   "horizontal_downfacing_mm2": 0.0,
+   "regions": []
+  }
+ },
+ "outer_skin_deviation_vs_SDF_mm": {
+  "all_max": 4.78,
+  "all_p95": 1.52,
+  "all_mean": 0.175,
+  "above_deck_max": 4.78,
+  "above_deck_p95": 3.39,
+  "worst_point": [
+   -15.4,
+   16.8,
+   48.8
+  ]
+ },
+ "skins_mm": {
+  "tab_channel_to_outer": 1.48,
+  "plug_window_to_outer": 2.7,
+  "pipe_wall": 2.0
+ },
+ "retainer_reliefs": [
+  {
+   "deg": [
+    -114.3,
+    -60.5
+   ],
+   "depth": 3.55
+  },
+  {
+   "deg": [
+    -59.4,
+    -54.9
+   ],
+   "depth": 0.69
+  },
+  {
+   "deg": [
+    -48.2,
+    -36.2
+   ],
+   "depth": 0.81
+  },
+  {
+   "deg": [
+    29.3,
+    55.2
+   ],
+   "depth": 2.85
+  },
+  {
+   "deg": [
+    77.7,
+    102.3
+   ],
+   "depth": 1.35
+  },
+  {
+   "deg": [
+    116.7,
+    150.7
+   ],
+   "depth": 2.85
+  }
+ ],
+ "housing_radial_gap_to_sleeve_mm": 1.069
+}

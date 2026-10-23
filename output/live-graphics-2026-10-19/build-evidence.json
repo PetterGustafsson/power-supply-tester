@@ -1,0 +1,843 @@
+{
+  "prepared_at": "2026-10-19T21:42:45.572537+00:00",
+  "compile_exit_code": 0,
+  "flashed": true,
+  "fqbn": "esp32:esp32:esp32s3:FlashSize=16M,PSRAM=enabled,CDCOnBoot=default,PartitionScheme=app3M_fat9M_16MB",
+  "core_version": "3.3.7",
+  "source_sha256": {
+    "CalibrationBatch.h": "1fb632bf64b07be83c1ffe07d395bd79819d5489e33c02d0e492ea1695229915",
+    "ConnectorBackdrop.h": "1b8c3d4417465d35eaa667351921225cf5d872e9f2d18ea299a15bfa9f3f7208",
+    "DEV_Config.cpp": "3064ca0b66f077c09c4b5a86fc006130e2bf1ae4802a7ab8a81ffd2c11b4bd52",
+    "DEV_Config.h": "670e4474e3e5b24e8b298e6bb9be0597eeb058fa4ed99e5446ced59d15c25ecf",
+    "Debug.h": "3b9c7b8aaea9dacd124fabbecb390db0cafca4c80755743709935edd467fb9c0",
+    "DisplayGraphics.h": "be5ce15c86981eabbcf0e1d1ba2755e53e13310c3e6802af70d7654248e82687",
+    "LCD_1in28.cpp": "dce921beacd90a2862ad7eb6c8730f716a045868901038a0f6a141c7f959cc4f",
+    "LCD_1in28.h": "79b78afc637a699f7ee1aeeb4af09db83c542845f7d68840f787211df50b2bb1",
+    "Measurement.h": "31e11ec43b4f306aefbd3bb6a509e6f50c3fdf928c6ff3f71aa393cfb5844244",
+    "Tester12VRevD.ino": "57c5a278f3906ecca31fc81e27609ee45e94fad86dab7c30725aba6064d190a1"
+  },
+  "binary_sha256": {
+    "Tester12VRevD.ino.bin": "0b39afb19c35b197ced596c2e70b6ff82f7ea52f49e6619a9ff46b02a960c248",
+    "Tester12VRevD.ino.bootloader.bin": "5403ba8cdf81cbb47f2debe13c0f5ff5903540075ccaf3fac65f0ee68213cb7d",
+    "Tester12VRevD.ino.merged.bin": "b0860735f1454d68ff3366d76c6ee55ec5c366aef1fd13e32811180cc514d9a3",
+    "Tester12VRevD.ino.partitions.bin": "ace02503447d0f470692e65fa76002f2d77a92dc81cd3813d8aa66718d716da9"
+  },
+  "tests": {
+    "production_renderer": "Passed: live masks, animation, bounds, fault/idle clearing, stale/capture suppression",
+    "actual_sketch_integration": "Passed",
+    "calibration_commands": "Passed"
+  },
+  "measurement_and_calibration_math_changed": false,
+  "calibration_before": {
+    "device_mask": 4095,
+    "copied_mask": 4094
+  },
+  "blocker": null,
+  "scheduler": "100 ms minimum between frames; display service runs only between complete ADC scans, outside mux conversion timing and timeouts.",
+  "installed_at": "2026-10-19T21:48:35.016137+00:00",
+  "flash": {
+    "address": "0x10000",
+    "bytes": 516960,
+    "scope": "application only",
+    "hash_verified": true,
+    "exit_code": 0,
+    "settings_backup_bytes": 65536,
+    "settings_backup_sha256": "feea0f25721f38519d8c1b62e2cae2721a5da5302ddafb521d61d7f0005714af"
+  },
+  "live_validation": {
+    "display_ready_observed": true,
+    "display_ready_line": "DISPLAY_READY: LIVE_CONNECTOR 240x240, measured pins and voltage",
+    "calibration_status": "CAL_STATUS protocol=2 batch=6633B2B2 low_mask=007 done_mask=000 mask=FFF zero=1 copied_mask=FFE",
+    "device_mask": 4095,
+    "copied_mask": 4094,
+    "phase": "test",
+    "connected": true,
+    "sample_age_s": 0.5,
+    "fresh_valid_reading": true,
+    "current_device_state": "No voltage",
+    "valid_frames": 40,
+    "invalid_frames": 46,
+    "state_counts": {
+      "0": 40,
+      "2": 46
+    },
+    "frames": [
+      {
+        "sequence": 0,
+        "valid": true,
+        "state": 0,
+        "positive_mask": "000",
+        "return_mask": "000",
+        "unknown_mask": "FFF",
+        "volts": 0.0119
+      },
+      {
+        "sequence": 1,
+        "valid": true,
+        "state": 0,
+        "positive_mask": "000",
+        "return_mask": "000",
+        "unknown_mask": "FFF",
+        "volts": 0.0082
+      },
+      {
+        "sequence": 2,
+        "valid": true,
+        "state": 0,
+        "positive_mask": "000",
+        "return_mask": "000",
+        "unknown_mask": "FFF",
+        "volts": 0.0115
+      },
+      {
+        "sequence": 3,
+        "valid": true,
+        "state": 0,
+        "positive_mask": "000",
+        "return_mask": "000",
+        "unknown_mask": "FFF",
+        "volts": 0.0104
+      },
+      {
+        "sequence": 4,
+        "valid": true,
+        "state": 0,
+        "positive_mask": "000",
+        "return_mask": "000",
+        "unknown_mask": "FFF",
+        "volts": 0.0069
+      },
+      {
+        "sequence": 5,
+        "valid": true,
+        "state": 0,
+        "positive_mask": "000",
+        "return_mask": "000",
+        "unknown_mask": "FFF",
+        "volts": 0.0065
+      },
+      {
+        "sequence": 6,
+        "valid": true,
+        "state": 0,
+        "positive_mask": "000",
+        "return_mask": "000",
+        "unknown_mask": "FFF",
+        "volts": 0.009
+      },
+      {
+        "sequence": 7,
+        "valid": true,
+        "state": 0,
+        "positive_mask": "000",
+        "return_mask": "000",
+        "unknown_mask": "FFF",
+        "volts": 0.0069
+      },
+      {
+        "sequence": 8,
+        "valid": true,
+        "state": 0,
+        "positive_mask": "000",
+        "return_mask": "000",
+        "unknown_mask": "FFF",
+        "volts": 0.0102
+      },
+      {
+        "sequence": 9,
+        "valid": true,
+        "state": 0,
+        "positive_mask": "000",
+        "return_mask": "000",
+        "unknown_mask": "FFF",
+        "volts": 0.0102
+      },
+      {
+        "sequence": 10,
+        "valid": true,
+        "state": 0,
+        "positive_mask": "000",
+        "return_mask": "000",
+        "unknown_mask": "FFF",
+        "volts": 0.018
+      },
+      {
+        "sequence": 11,
+        "valid": true,
+        "state": 0,
+        "positive_mask": "000",
+        "return_mask": "000",
+        "unknown_mask": "FFF",
+        "volts": 0.0092
+      },
+      {
+        "sequence": 12,
+        "valid": false,
+        "state": 2,
+        "positive_mask": "000",
+        "return_mask": "000",
+        "unknown_mask": "FFF",
+        "volts": 0.0
+      },
+      {
+        "sequence": 13,
+        "valid": false,
+        "state": 2,
+        "positive_mask": "000",
+        "return_mask": "000",
+        "unknown_mask": "FFF",
+        "volts": 0.0
+      },
+      {
+        "sequence": 14,
+        "valid": false,
+        "state": 2,
+        "positive_mask": "000",
+        "return_mask": "000",
+        "unknown_mask": "FFF",
+        "volts": 0.0
+      },
+      {
+        "sequence": 15,
+        "valid": false,
+        "state": 2,
+        "positive_mask": "000",
+        "return_mask": "000",
+        "unknown_mask": "FFF",
+        "volts": 0.0
+      },
+      {
+        "sequence": 16,
+        "valid": false,
+        "state": 2,
+        "positive_mask": "000",
+        "return_mask": "000",
+        "unknown_mask": "FFF",
+        "volts": 0.0
+      },
+      {
+        "sequence": 17,
+        "valid": false,
+        "state": 2,
+        "positive_mask": "000",
+        "return_mask": "000",
+        "unknown_mask": "FFF",
+        "volts": 0.0
+      },
+      {
+        "sequence": 18,
+        "valid": false,
+        "state": 2,
+        "positive_mask": "000",
+        "return_mask": "000",
+        "unknown_mask": "FFF",
+        "volts": 0.0
+      },
+      {
+        "sequence": 19,
+        "valid": false,
+        "state": 2,
+        "positive_mask": "000",
+        "return_mask": "000",
+        "unknown_mask": "FFF",
+        "volts": 0.0
+      },
+      {
+        "sequence": 20,
+        "valid": false,
+        "state": 2,
+        "positive_mask": "000",
+        "return_mask": "000",
+        "unknown_mask": "FFF",
+        "volts": 0.0
+      },
+      {
+        "sequence": 21,
+        "valid": false,
+        "state": 2,
+        "positive_mask": "000",
+        "return_mask": "000",
+        "unknown_mask": "FFF",
+        "volts": 0.0
+      },
+      {
+        "sequence": 22,
+        "valid": false,
+        "state": 2,
+        "positive_mask": "000",
+        "return_mask": "000",
+        "unknown_mask": "FFF",
+        "volts": 0.0
+      },
+      {
+        "sequence": 23,
+        "valid": false,
+        "state": 2,
+        "positive_mask": "000",
+        "return_mask": "000",
+        "unknown_mask": "FFF",
+        "volts": 0.0
+      },
+      {
+        "sequence": 24,
+        "valid": false,
+        "state": 2,
+        "positive_mask": "000",
+        "return_mask": "000",
+        "unknown_mask": "FFF",
+        "volts": 0.0
+      },
+      {
+        "sequence": 25,
+        "valid": false,
+        "state": 2,
+        "positive_mask": "000",
+        "return_mask": "000",
+        "unknown_mask": "FFF",
+        "volts": 0.0
+      },
+      {
+        "sequence": 26,
+        "valid": false,
+        "state": 2,
+        "positive_mask": "000",
+        "return_mask": "000",
+        "unknown_mask": "FFF",
+        "volts": 0.0
+      },
+      {
+        "sequence": 27,
+        "valid": false,
+        "state": 2,
+        "positive_mask": "000",
+        "return_mask": "000",
+        "unknown_mask": "FFF",
+        "volts": 0.0
+      },
+      {
+        "sequence": 28,
+        "valid": false,
+        "state": 2,
+        "positive_mask": "000",
+        "return_mask": "000",
+        "unknown_mask": "FFF",
+        "volts": 0.0
+      },
+      {
+        "sequence": 29,
+        "valid": false,
+        "state": 2,
+        "positive_mask": "000",
+        "return_mask": "000",
+        "unknown_mask": "FFF",
+        "volts": 0.0
+      },
+      {
+        "sequence": 30,
+        "valid": false,
+        "state": 2,
+        "positive_mask": "000",
+        "return_mask": "000",
+        "unknown_mask": "FFF",
+        "volts": 0.0
+      },
+      {
+        "sequence": 31,
+        "valid": false,
+        "state": 2,
+        "positive_mask": "000",
+        "return_mask": "000",
+        "unknown_mask": "FFF",
+        "volts": 0.0
+      },
+      {
+        "sequence": 32,
+        "valid": false,
+        "state": 2,
+        "positive_mask": "000",
+        "return_mask": "000",
+        "unknown_mask": "FFF",
+        "volts": 0.0
+      },
+      {
+        "sequence": 33,
+        "valid": true,
+        "state": 0,
+        "positive_mask": "000",
+        "return_mask": "000",
+        "unknown_mask": "FFF",
+        "volts": 0.0135
+      },
+      {
+        "sequence": 34,
+        "valid": true,
+        "state": 0,
+        "positive_mask": "000",
+        "return_mask": "000",
+        "unknown_mask": "FFF",
+        "volts": 0.0111
+      },
+      {
+        "sequence": 35,
+        "valid": true,
+        "state": 0,
+        "positive_mask": "000",
+        "return_mask": "000",
+        "unknown_mask": "FFF",
+        "volts": 0.0134
+      },
+      {
+        "sequence": 36,
+        "valid": false,
+        "state": 2,
+        "positive_mask": "000",
+        "return_mask": "000",
+        "unknown_mask": "FFF",
+        "volts": 0.0
+      },
+      {
+        "sequence": 37,
+        "valid": false,
+        "state": 2,
+        "positive_mask": "000",
+        "return_mask": "000",
+        "unknown_mask": "FFF",
+        "volts": 0.0
+      },
+      {
+        "sequence": 38,
+        "valid": false,
+        "state": 2,
+        "positive_mask": "000",
+        "return_mask": "000",
+        "unknown_mask": "FFF",
+        "volts": 0.0
+      },
+      {
+        "sequence": 39,
+        "valid": false,
+        "state": 2,
+        "positive_mask": "000",
+        "return_mask": "000",
+        "unknown_mask": "FFF",
+        "volts": 0.0
+      },
+      {
+        "sequence": 40,
+        "valid": true,
+        "state": 0,
+        "positive_mask": "000",
+        "return_mask": "000",
+        "unknown_mask": "FFF",
+        "volts": 0.0065
+      },
+      {
+        "sequence": 41,
+        "valid": true,
+        "state": 0,
+        "positive_mask": "000",
+        "return_mask": "000",
+        "unknown_mask": "FFF",
+        "volts": 0.008
+      },
+      {
+        "sequence": 42,
+        "valid": true,
+        "state": 0,
+        "positive_mask": "000",
+        "return_mask": "000",
+        "unknown_mask": "FFF",
+        "volts": 0.009
+      },
+      {
+        "sequence": 43,
+        "valid": true,
+        "state": 0,
+        "positive_mask": "000",
+        "return_mask": "000",
+        "unknown_mask": "FFF",
+        "volts": 0.0085
+      },
+      {
+        "sequence": 44,
+        "valid": true,
+        "state": 0,
+        "positive_mask": "000",
+        "return_mask": "000",
+        "unknown_mask": "FFF",
+        "volts": 0.0081
+      },
+      {
+        "sequence": 45,
+        "valid": true,
+        "state": 0,
+        "positive_mask": "000",
+        "return_mask": "000",
+        "unknown_mask": "FFF",
+        "volts": 0.0088
+      },
+      {
+        "sequence": 46,
+        "valid": true,
+        "state": 0,
+        "positive_mask": "000",
+        "return_mask": "000",
+        "unknown_mask": "FFF",
+        "volts": 0.0079
+      },
+      {
+        "sequence": 47,
+        "valid": true,
+        "state": 0,
+        "positive_mask": "000",
+        "return_mask": "000",
+        "unknown_mask": "FFF",
+        "volts": 0.0117
+      },
+      {
+        "sequence": 48,
+        "valid": true,
+        "state": 0,
+        "positive_mask": "000",
+        "return_mask": "000",
+        "unknown_mask": "FFF",
+        "volts": 0.0098
+      },
+      {
+        "sequence": 49,
+        "valid": true,
+        "state": 0,
+        "positive_mask": "000",
+        "return_mask": "000",
+        "unknown_mask": "FFF",
+        "volts": 0.0082
+      },
+      {
+        "sequence": 50,
+        "valid": false,
+        "state": 2,
+        "positive_mask": "000",
+        "return_mask": "000",
+        "unknown_mask": "FFF",
+        "volts": 0.0
+      },
+      {
+        "sequence": 51,
+        "valid": false,
+        "state": 2,
+        "positive_mask": "000",
+        "return_mask": "000",
+        "unknown_mask": "FFF",
+        "volts": 0.0
+      },
+      {
+        "sequence": 52,
+        "valid": false,
+        "state": 2,
+        "positive_mask": "000",
+        "return_mask": "000",
+        "unknown_mask": "FFF",
+        "volts": 0.0
+      },
+      {
+        "sequence": 53,
+        "valid": false,
+        "state": 2,
+        "positive_mask": "000",
+        "return_mask": "000",
+        "unknown_mask": "FFF",
+        "volts": 0.0
+      },
+      {
+        "sequence": 54,
+        "valid": false,
+        "state": 2,
+        "positive_mask": "000",
+        "return_mask": "000",
+        "unknown_mask": "FFF",
+        "volts": 0.0
+      },
+      {
+        "sequence": 55,
+        "valid": false,
+        "state": 2,
+        "positive_mask": "000",
+        "return_mask": "000",
+        "unknown_mask": "FFF",
+        "volts": 0.0
+      },
+      {
+        "sequence": 56,
+        "valid": false,
+        "state": 2,
+        "positive_mask": "000",
+        "return_mask": "000",
+        "unknown_mask": "FFF",
+        "volts": 0.0
+      },
+      {
+        "sequence": 57,
+        "valid": false,
+        "state": 2,
+        "positive_mask": "000",
+        "return_mask": "000",
+        "unknown_mask": "FFF",
+        "volts": 0.0
+      },
+      {
+        "sequence": 58,
+        "valid": false,
+        "state": 2,
+        "positive_mask": "000",
+        "return_mask": "000",
+        "unknown_mask": "FFF",
+        "volts": 0.0
+      },
+      {
+        "sequence": 59,
+        "valid": false,
+        "state": 2,
+        "positive_mask": "000",
+        "return_mask": "000",
+        "unknown_mask": "FFF",
+        "volts": 0.0
+      },
+      {
+        "sequence": 60,
+        "valid": false,
+        "state": 2,
+        "positive_mask": "000",
+        "return_mask": "000",
+        "unknown_mask": "FFF",
+        "volts": 0.0
+      },
+      {
+        "sequence": 61,
+        "valid": false,
+        "state": 2,
+        "positive_mask": "000",
+        "return_mask": "000",
+        "unknown_mask": "FFF",
+        "volts": 0.0
+      },
+      {
+        "sequence": 62,
+        "valid": false,
+        "state": 2,
+        "positive_mask": "000",
+        "return_mask": "000",
+        "unknown_mask": "FFF",
+        "volts": 0.0
+      },
+      {
+        "sequence": 63,
+        "valid": false,
+        "state": 2,
+        "positive_mask": "000",
+        "return_mask": "000",
+        "unknown_mask": "FFF",
+        "volts": 0.0
+      },
+      {
+        "sequence": 64,
+        "valid": false,
+        "state": 2,
+        "positive_mask": "000",
+        "return_mask": "000",
+        "unknown_mask": "FFF",
+        "volts": 0.0
+      },
+      {
+        "sequence": 65,
+        "valid": false,
+        "state": 2,
+        "positive_mask": "000",
+        "return_mask": "000",
+        "unknown_mask": "FFF",
+        "volts": 0.0
+      },
+      {
+        "sequence": 66,
+        "valid": false,
+        "state": 2,
+        "positive_mask": "000",
+        "return_mask": "000",
+        "unknown_mask": "FFF",
+        "volts": 0.0
+      },
+      {
+        "sequence": 67,
+        "valid": false,
+        "state": 2,
+        "positive_mask": "000",
+        "return_mask": "000",
+        "unknown_mask": "FFF",
+        "volts": 0.0
+      },
+      {
+        "sequence": 68,
+        "valid": false,
+        "state": 2,
+        "positive_mask": "000",
+        "return_mask": "000",
+        "unknown_mask": "FFF",
+        "volts": 0.0
+      },
+      {
+        "sequence": 69,
+        "valid": false,
+        "state": 2,
+        "positive_mask": "000",
+        "return_mask": "000",
+        "unknown_mask": "FFF",
+        "volts": 0.0
+      },
+      {
+        "sequence": 70,
+        "valid": false,
+        "state": 2,
+        "positive_mask": "000",
+        "return_mask": "000",
+        "unknown_mask": "FFF",
+        "volts": 0.0
+      },
+      {
+        "sequence": 71,
+        "valid": true,
+        "state": 0,
+        "positive_mask": "000",
+        "return_mask": "000",
+        "unknown_mask": "FFF",
+        "volts": 0.0073
+      },
+      {
+        "sequence": 72,
+        "valid": true,
+        "state": 0,
+        "positive_mask": "000",
+        "return_mask": "000",
+        "unknown_mask": "FFF",
+        "volts": 0.014
+      },
+      {
+        "sequence": 73,
+        "valid": true,
+        "state": 0,
+        "positive_mask": "000",
+        "return_mask": "000",
+        "unknown_mask": "FFF",
+        "volts": 0.0079
+      },
+      {
+        "sequence": 74,
+        "valid": true,
+        "state": 0,
+        "positive_mask": "000",
+        "return_mask": "000",
+        "unknown_mask": "FFF",
+        "volts": 0.0117
+      },
+      {
+        "sequence": 75,
+        "valid": true,
+        "state": 0,
+        "positive_mask": "000",
+        "return_mask": "000",
+        "unknown_mask": "FFF",
+        "volts": 0.0109
+      },
+      {
+        "sequence": 76,
+        "valid": true,
+        "state": 0,
+        "positive_mask": "000",
+        "return_mask": "000",
+        "unknown_mask": "FFF",
+        "volts": 0.0084
+      },
+      {
+        "sequence": 77,
+        "valid": true,
+        "state": 0,
+        "positive_mask": "000",
+        "return_mask": "000",
+        "unknown_mask": "FFF",
+        "volts": 0.0119
+      },
+      {
+        "sequence": 78,
+        "valid": true,
+        "state": 0,
+        "positive_mask": "000",
+        "return_mask": "000",
+        "unknown_mask": "FFF",
+        "volts": 0.0104
+      },
+      {
+        "sequence": 79,
+        "valid": true,
+        "state": 0,
+        "positive_mask": "000",
+        "return_mask": "000",
+        "unknown_mask": "FFF",
+        "volts": 0.0069
+      },
+      {
+        "sequence": 80,
+        "valid": true,
+        "state": 0,
+        "positive_mask": "000",
+        "return_mask": "000",
+        "unknown_mask": "FFF",
+        "volts": 0.0119
+      },
+      {
+        "sequence": 81,
+        "valid": true,
+        "state": 0,
+        "positive_mask": "000",
+        "return_mask": "000",
+        "unknown_mask": "FFF",
+        "volts": 0.014
+      },
+      {
+        "sequence": 82,
+        "valid": true,
+        "state": 0,
+        "positive_mask": "000",
+        "return_mask": "000",
+        "unknown_mask": "FFF",
+        "volts": 0.0102
+      },
+      {
+        "sequence": 83,
+        "valid": true,
+        "state": 0,
+        "positive_mask": "000",
+        "return_mask": "000",
+        "unknown_mask": "FFF",
+        "volts": 0.0065
+      },
+      {
+        "sequence": 84,
+        "valid": true,
+        "state": 0,
+        "positive_mask": "000",
+        "return_mask": "000",
+        "unknown_mask": "FFF",
+        "volts": 0.0096
+      },
+      {
+        "sequence": 85,
+        "valid": true,
+        "state": 0,
+        "positive_mask": "000",
+        "return_mask": "000",
+        "unknown_mask": "FFF",
+        "volts": 0.0071
+      }
+    ],
+    "physical_display_image_verified": false,
+    "note": "Production renderer pixels verified with fixtures; device startup and live ADC stream verified over USB. Stream includes valid scans and unstable-input guard results. No cause inferred and no additional calibration performed. User was told supply could be enabled after restart."
+  }
+}

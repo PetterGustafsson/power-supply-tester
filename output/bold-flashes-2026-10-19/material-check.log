@@ -1,0 +1,1 @@
+PASS: original artwork unchanged; pixels outside text/contact annotation regions match RGB565 source across all animation and status frames.

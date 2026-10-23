@@ -1,0 +1,16 @@
+00:00.459  blend            | Read blend: "/Users/petter/Documents/ChatGPT/Power supply tester/output/enclosure-d2/board-and-display.blend"
+PCB_HORIZONTAL_PLANES [(-0.7875, 5282.902946899645), (0.7875, 5282.902810190339), (-0.8125, 5225.853977716208), (0.8125, 5187.226187988985), (-0.8, 4910.477716139057), (0.8, 4683.145554820798), (0.875, 94.79327669948589), (0.845, 78.96000307798386)]
+/Users/petter/Documents/ChatGPT/Power supply tester/output/agnd-pogo-jig-d2/render_jig.py:33: DeprecationWarning: 'Material.use_nodes' is expected to be removed in Blender 6.0
+  m=bpy.data.materials.new(name);m.diffuse_color=(*rgb,1);m.use_nodes=True
+/Users/petter/Documents/ChatGPT/Power supply tester/output/agnd-pogo-jig-d2/render_jig.py:48: DeprecationWarning: 'Material.use_nodes' is expected to be removed in Blender 6.0
+  if m.use_nodes:
+00:19.948  render           | Saved: '/Users/petter/Documents/ChatGPT/Power supply tester/output/agnd-pogo-jig-d2/print-parts-preview.png'
+JIG_PREVIEWS_COMPLETE
+Blender 5.1.2 (hash ec6e62d40fa9 built 2026-05-19 01:30:33)
+Timer 'STL Import' took 2.26 ms
+Timer 'STL Import' took 1.18 ms
+Timer 'STL Import' took 2.43 ms
+Timer 'STL Import' took 1.15 ms
+Timer 'STL Import' took 2.44 ms
+
+Blender quit

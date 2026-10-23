@@ -1,0 +1,241 @@
+{
+  "maintenance": false,
+  "workflow": "two-pass-v2",
+  "pass_id": "20261019-131933-6633b2b2",
+  "batch_id": "6633B2B2",
+  "current": 4,
+  "phase": "low",
+  "zeros": {
+    "1": {
+      "pin": 1,
+      "meter_V": 0.01,
+      "meter_input": "0.01",
+      "captured_at": "2026-10-19T20:47:06.527320+00:00",
+      "acknowledgement": "CAL_LOW_SAVED pin=1 batch=6633B2B2 low_mask=001",
+      "preview_low_signal_V": -0.0012667499999999832,
+      "preview_uses_reference_ratio_approximation": true,
+      "low_point_storage": "Device NVS, tied to batch 6633B2B2"
+    },
+    "2": {
+      "pin": 2,
+      "meter_V": 0.01,
+      "meter_input": "0.01",
+      "captured_at": "2026-10-19T20:48:21.666991+00:00",
+      "acknowledgement": "CAL_LOW_SAVED pin=2 batch=6633B2B2 low_mask=003",
+      "preview_low_signal_V": -0.0012667499999999832,
+      "preview_uses_reference_ratio_approximation": true,
+      "low_point_storage": "Device NVS, tied to batch 6633B2B2"
+    },
+    "3": {
+      "pin": 3,
+      "meter_V": 0.01,
+      "meter_input": "0.01",
+      "captured_at": "2026-10-19T20:48:56.658466+00:00",
+      "acknowledgement": "CAL_LOW_SAVED pin=3 batch=6633B2B2 low_mask=007",
+      "preview_low_signal_V": -0.0012720000000000509,
+      "preview_uses_reference_ratio_approximation": true,
+      "low_point_storage": "Device NVS, tied to batch 6633B2B2"
+    }
+  },
+  "zero_count": 3,
+  "completed": {},
+  "completed_count": 0,
+  "copied_mask": 0,
+  "supports_copy": true,
+  "shared_source": null,
+  "checks": [],
+  "stored_count": 2,
+  "device_mask": 3,
+  "connected": true,
+  "device_ready": true,
+  "fresh": true,
+  "ready": true,
+  "busy": false,
+  "valid_streak": 12,
+  "age_s": 0.09,
+  "adc_fault": false,
+  "raw_V": 0.576188,
+  "reference_V": 0.576168,
+  "signal_mV": 0.020000000000020002,
+  "preview_V": null,
+  "actual_pair_V": null,
+  "device_state": "Calibration incomplete",
+  "sequence": 11,
+  "channels": [
+    {
+      "pin": 1,
+      "raw_V": 0.574867,
+      "signal_mV": -1.3130000000000086,
+      "saved": true,
+      "copied": false,
+      "polarity": "?",
+      "zero_this_pass": true,
+      "this_pass": false
+    },
+    {
+      "pin": 2,
+      "raw_V": 0.576223,
+      "signal_mV": 0.05900000000003125,
+      "saved": true,
+      "copied": false,
+      "polarity": "?",
+      "zero_this_pass": true,
+      "this_pass": false
+    },
+    {
+      "pin": 3,
+      "raw_V": 0.576231,
+      "signal_mV": 0.05100000000002325,
+      "saved": false,
+      "copied": false,
+      "polarity": "?",
+      "zero_this_pass": true,
+      "this_pass": false
+    },
+    {
+      "pin": 4,
+      "raw_V": 0.576188,
+      "signal_mV": 0.020000000000020002,
+      "saved": false,
+      "copied": false,
+      "polarity": "?",
+      "zero_this_pass": false,
+      "this_pass": false
+    },
+    {
+      "pin": 5,
+      "raw_V": 0.576191,
+      "signal_mV": 0.010999999999983245,
+      "saved": false,
+      "copied": false,
+      "polarity": "?",
+      "zero_this_pass": false,
+      "this_pass": false
+    },
+    {
+      "pin": 6,
+      "raw_V": 0.576191,
+      "signal_mV": 0.026999999999999247,
+      "saved": false,
+      "copied": false,
+      "polarity": "?",
+      "zero_this_pass": false,
+      "this_pass": false
+    },
+    {
+      "pin": 7,
+      "raw_V": 0.576188,
+      "signal_mV": 0.008000000000008,
+      "saved": false,
+      "copied": false,
+      "polarity": "?",
+      "zero_this_pass": false,
+      "this_pass": false
+    },
+    {
+      "pin": 8,
+      "raw_V": 0.576156,
+      "signal_mV": -0.012000000000012001,
+      "saved": false,
+      "copied": false,
+      "polarity": "?",
+      "zero_this_pass": false,
+      "this_pass": false
+    },
+    {
+      "pin": 9,
+      "raw_V": 0.576102,
+      "signal_mV": -0.0780000000000225,
+      "saved": false,
+      "copied": false,
+      "polarity": "?",
+      "zero_this_pass": false,
+      "this_pass": false
+    },
+    {
+      "pin": 10,
+      "raw_V": 0.576109,
+      "signal_mV": -0.05500000000002725,
+      "saved": false,
+      "copied": false,
+      "polarity": "?",
+      "zero_this_pass": false,
+      "this_pass": false
+    },
+    {
+      "pin": 11,
+      "raw_V": 0.576109,
+      "signal_mV": -0.07100000000004325,
+      "saved": false,
+      "copied": false,
+      "polarity": "?",
+      "zero_this_pass": false,
+      "this_pass": false
+    },
+    {
+      "pin": 12,
+      "raw_V": 0.576066,
+      "signal_mV": -0.1020000000000465,
+      "saved": false,
+      "copied": false,
+      "polarity": "?",
+      "zero_this_pass": false,
+      "this_pass": false
+    }
+  ],
+  "graph": [
+    {
+      "seconds": -5.56,
+      "signal_mV": 0.016000000000016
+    },
+    {
+      "seconds": -5.04,
+      "signal_mV": 0.026999999999999247
+    },
+    {
+      "seconds": -4.54,
+      "signal_mV": 0.018999999999991246
+    },
+    {
+      "seconds": -4.05,
+      "signal_mV": 0.010999999999983245
+    },
+    {
+      "seconds": -3.55,
+      "signal_mV": 0.014999999999987246
+    },
+    {
+      "seconds": -3.06,
+      "signal_mV": 0.012000000000012001
+    },
+    {
+      "seconds": -2.56,
+      "signal_mV": 0.016000000000016
+    },
+    {
+      "seconds": -2.07,
+      "signal_mV": 0.020000000000020002
+    },
+    {
+      "seconds": -1.57,
+      "signal_mV": 0.024000000000024002
+    },
+    {
+      "seconds": -1.07,
+      "signal_mV": 0.006999999999979245
+    },
+    {
+      "seconds": -0.58,
+      "signal_mV": 0.018999999999991246
+    },
+    {
+      "seconds": -0.09,
+      "signal_mV": 0.020000000000020002
+    }
+  ],
+  "error": null,
+  "notice": "Tester connected. Saved 0 V points are retained across USB reconnects. Follow the current checklist.",
+  "last_ack": "CAL_STATUS protocol=2 batch=6633B2B2 low_mask=007 done_mask=000 mask=003 zero=1 copied_mask=000",
+  "last_ack_at": "2026-10-19T20:57:14.150567+00:00",
+  "updated_at": "2026-10-19T20:57:19.688749+00:00"
+}

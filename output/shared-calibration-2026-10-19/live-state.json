@@ -1,0 +1,692 @@
+{
+  "maintenance": false,
+  "workflow": "two-pass-v2",
+  "pass_id": "20261019-131933-6633b2b2",
+  "batch_id": "6633B2B2",
+  "current": 1,
+  "phase": "test",
+  "zeros": {
+    "1": {
+      "pin": 1,
+      "meter_V": 0.01,
+      "meter_input": "0.01",
+      "captured_at": "2026-10-19T20:47:06.527320+00:00",
+      "acknowledgement": "CAL_LOW_SAVED pin=1 batch=6633B2B2 low_mask=001",
+      "preview_low_signal_V": -0.0012667499999999832,
+      "preview_uses_reference_ratio_approximation": true,
+      "low_point_storage": "Device NVS, tied to batch 6633B2B2"
+    },
+    "2": {
+      "pin": 2,
+      "meter_V": 0.01,
+      "meter_input": "0.01",
+      "captured_at": "2026-10-19T20:48:21.666991+00:00",
+      "acknowledgement": "CAL_LOW_SAVED pin=2 batch=6633B2B2 low_mask=003",
+      "preview_low_signal_V": -0.0012667499999999832,
+      "preview_uses_reference_ratio_approximation": true,
+      "low_point_storage": "Device NVS, tied to batch 6633B2B2"
+    },
+    "3": {
+      "pin": 3,
+      "meter_V": 0.01,
+      "meter_input": "0.01",
+      "captured_at": "2026-10-19T20:48:56.658466+00:00",
+      "acknowledgement": "CAL_LOW_SAVED pin=3 batch=6633B2B2 low_mask=007",
+      "preview_low_signal_V": -0.0012720000000000509,
+      "preview_uses_reference_ratio_approximation": true,
+      "low_point_storage": "Device NVS, tied to batch 6633B2B2"
+    }
+  },
+  "zero_count": 3,
+  "completed": {},
+  "completed_count": 0,
+  "copied_mask": 4094,
+  "supports_copy": true,
+  "shared_source": {
+    "pin": 1,
+    "gain": 427.9315796,
+    "acknowledgement": "CAL_COPIED source=1 gain=427.9315796 mask=FFF copied_mask=FFE",
+    "saved_at": "2026-10-19T20:57:20.123351+00:00",
+    "provenance": "Existing measured INP1 calibration; gain copied to INP2\u2013INP12. Separate open-input baselines retained."
+  },
+  "checks": [],
+  "stored_count": 12,
+  "device_mask": 4095,
+  "connected": true,
+  "device_ready": true,
+  "fresh": false,
+  "ready": false,
+  "busy": false,
+  "valid_streak": 0,
+  "age_s": 0.23,
+  "adc_fault": false,
+  "unstable": true,
+  "raw_V": null,
+  "reference_V": null,
+  "signal_mV": null,
+  "preview_V": null,
+  "actual_pair_V": null,
+  "device_state": "Check wiring",
+  "sequence": 141,
+  "channels": [
+    {
+      "pin": 1,
+      "raw_V": null,
+      "signal_mV": null,
+      "saved": true,
+      "copied": false,
+      "polarity": "?",
+      "zero_this_pass": true,
+      "this_pass": false
+    },
+    {
+      "pin": 2,
+      "raw_V": null,
+      "signal_mV": null,
+      "saved": true,
+      "copied": true,
+      "polarity": "?",
+      "zero_this_pass": true,
+      "this_pass": false
+    },
+    {
+      "pin": 3,
+      "raw_V": null,
+      "signal_mV": null,
+      "saved": true,
+      "copied": true,
+      "polarity": "?",
+      "zero_this_pass": true,
+      "this_pass": false
+    },
+    {
+      "pin": 4,
+      "raw_V": null,
+      "signal_mV": null,
+      "saved": true,
+      "copied": true,
+      "polarity": "?",
+      "zero_this_pass": false,
+      "this_pass": false
+    },
+    {
+      "pin": 5,
+      "raw_V": null,
+      "signal_mV": null,
+      "saved": true,
+      "copied": true,
+      "polarity": "?",
+      "zero_this_pass": false,
+      "this_pass": false
+    },
+    {
+      "pin": 6,
+      "raw_V": null,
+      "signal_mV": null,
+      "saved": true,
+      "copied": true,
+      "polarity": "?",
+      "zero_this_pass": false,
+      "this_pass": false
+    },
+    {
+      "pin": 7,
+      "raw_V": null,
+      "signal_mV": null,
+      "saved": true,
+      "copied": true,
+      "polarity": "?",
+      "zero_this_pass": false,
+      "this_pass": false
+    },
+    {
+      "pin": 8,
+      "raw_V": null,
+      "signal_mV": null,
+      "saved": true,
+      "copied": true,
+      "polarity": "?",
+      "zero_this_pass": false,
+      "this_pass": false
+    },
+    {
+      "pin": 9,
+      "raw_V": null,
+      "signal_mV": null,
+      "saved": true,
+      "copied": true,
+      "polarity": "?",
+      "zero_this_pass": false,
+      "this_pass": false
+    },
+    {
+      "pin": 10,
+      "raw_V": null,
+      "signal_mV": null,
+      "saved": true,
+      "copied": true,
+      "polarity": "?",
+      "zero_this_pass": false,
+      "this_pass": false
+    },
+    {
+      "pin": 11,
+      "raw_V": null,
+      "signal_mV": null,
+      "saved": true,
+      "copied": true,
+      "polarity": "?",
+      "zero_this_pass": false,
+      "this_pass": false
+    },
+    {
+      "pin": 12,
+      "raw_V": null,
+      "signal_mV": null,
+      "saved": true,
+      "copied": true,
+      "polarity": "?",
+      "zero_this_pass": false,
+      "this_pass": false
+    }
+  ],
+  "graph": [
+    {
+      "seconds": -59.57,
+      "signal_mV": 0.05100000000002325
+    },
+    {
+      "seconds": -59.08,
+      "signal_mV": 0.04700000000001925
+    },
+    {
+      "seconds": -58.58,
+      "signal_mV": 0.053999999999998494
+    },
+    {
+      "seconds": -58.08,
+      "signal_mV": 0.04300000000001525
+    },
+    {
+      "seconds": -57.59,
+      "signal_mV": 0.04599999999999049
+    },
+    {
+      "seconds": -57.09,
+      "signal_mV": 0.04700000000001925
+    },
+    {
+      "seconds": -56.6,
+      "signal_mV": 0.04300000000001525
+    },
+    {
+      "seconds": -56.09,
+      "signal_mV": 0.05100000000002325
+    },
+    {
+      "seconds": -55.61,
+      "signal_mV": null
+    },
+    {
+      "seconds": -55.13,
+      "signal_mV": null
+    },
+    {
+      "seconds": -54.64,
+      "signal_mV": null
+    },
+    {
+      "seconds": -54.15,
+      "signal_mV": null
+    },
+    {
+      "seconds": -53.67,
+      "signal_mV": null
+    },
+    {
+      "seconds": -53.19,
+      "signal_mV": null
+    },
+    {
+      "seconds": -52.7,
+      "signal_mV": null
+    },
+    {
+      "seconds": -52.22,
+      "signal_mV": null
+    },
+    {
+      "seconds": -51.73,
+      "signal_mV": null
+    },
+    {
+      "seconds": -51.25,
+      "signal_mV": null
+    },
+    {
+      "seconds": -50.76,
+      "signal_mV": null
+    },
+    {
+      "seconds": -50.28,
+      "signal_mV": null
+    },
+    {
+      "seconds": -49.79,
+      "signal_mV": null
+    },
+    {
+      "seconds": -49.31,
+      "signal_mV": null
+    },
+    {
+      "seconds": -48.82,
+      "signal_mV": null
+    },
+    {
+      "seconds": -48.33,
+      "signal_mV": null
+    },
+    {
+      "seconds": -47.84,
+      "signal_mV": 0.04700000000001925
+    },
+    {
+      "seconds": -47.35,
+      "signal_mV": 0.062000000000006494
+    },
+    {
+      "seconds": -46.86,
+      "signal_mV": null
+    },
+    {
+      "seconds": -46.37,
+      "signal_mV": null
+    },
+    {
+      "seconds": -45.89,
+      "signal_mV": null
+    },
+    {
+      "seconds": -45.4,
+      "signal_mV": null
+    },
+    {
+      "seconds": -44.91,
+      "signal_mV": 0.03900000000001125
+    },
+    {
+      "seconds": -44.41,
+      "signal_mV": -0.05500000000002725
+    },
+    {
+      "seconds": -43.92,
+      "signal_mV": -0.03500000000000725
+    },
+    {
+      "seconds": -43.42,
+      "signal_mV": -0.07899999999994023
+    },
+    {
+      "seconds": -42.93,
+      "signal_mV": -0.11699999999992272
+    },
+    {
+      "seconds": -42.44,
+      "signal_mV": null
+    },
+    {
+      "seconds": -41.95,
+      "signal_mV": null
+    },
+    {
+      "seconds": -41.47,
+      "signal_mV": null
+    },
+    {
+      "seconds": -40.98,
+      "signal_mV": null
+    },
+    {
+      "seconds": -40.5,
+      "signal_mV": null
+    },
+    {
+      "seconds": -40.01,
+      "signal_mV": null
+    },
+    {
+      "seconds": -39.53,
+      "signal_mV": null
+    },
+    {
+      "seconds": -39.04,
+      "signal_mV": null
+    },
+    {
+      "seconds": -38.56,
+      "signal_mV": null
+    },
+    {
+      "seconds": -38.07,
+      "signal_mV": null
+    },
+    {
+      "seconds": -37.59,
+      "signal_mV": null
+    },
+    {
+      "seconds": -37.1,
+      "signal_mV": null
+    },
+    {
+      "seconds": -36.62,
+      "signal_mV": null
+    },
+    {
+      "seconds": -36.13,
+      "signal_mV": null
+    },
+    {
+      "seconds": -35.65,
+      "signal_mV": null
+    },
+    {
+      "seconds": -35.16,
+      "signal_mV": null
+    },
+    {
+      "seconds": -34.68,
+      "signal_mV": null
+    },
+    {
+      "seconds": -34.19,
+      "signal_mV": null
+    },
+    {
+      "seconds": -33.71,
+      "signal_mV": null
+    },
+    {
+      "seconds": -33.22,
+      "signal_mV": null
+    },
+    {
+      "seconds": -32.73,
+      "signal_mV": null
+    },
+    {
+      "seconds": -32.25,
+      "signal_mV": null
+    },
+    {
+      "seconds": -31.76,
+      "signal_mV": 14.08200000000004
+    },
+    {
+      "seconds": -31.27,
+      "signal_mV": null
+    },
+    {
+      "seconds": -30.79,
+      "signal_mV": null
+    },
+    {
+      "seconds": -30.3,
+      "signal_mV": null
+    },
+    {
+      "seconds": -29.81,
+      "signal_mV": null
+    },
+    {
+      "seconds": -29.33,
+      "signal_mV": null
+    },
+    {
+      "seconds": -28.85,
+      "signal_mV": null
+    },
+    {
+      "seconds": -28.36,
+      "signal_mV": null
+    },
+    {
+      "seconds": -27.88,
+      "signal_mV": null
+    },
+    {
+      "seconds": -27.39,
+      "signal_mV": null
+    },
+    {
+      "seconds": -26.91,
+      "signal_mV": null
+    },
+    {
+      "seconds": -26.42,
+      "signal_mV": null
+    },
+    {
+      "seconds": -25.94,
+      "signal_mV": null
+    },
+    {
+      "seconds": -25.45,
+      "signal_mV": null
+    },
+    {
+      "seconds": -24.97,
+      "signal_mV": null
+    },
+    {
+      "seconds": -24.48,
+      "signal_mV": null
+    },
+    {
+      "seconds": -23.99,
+      "signal_mV": null
+    },
+    {
+      "seconds": -23.51,
+      "signal_mV": null
+    },
+    {
+      "seconds": -23.03,
+      "signal_mV": null
+    },
+    {
+      "seconds": -22.54,
+      "signal_mV": null
+    },
+    {
+      "seconds": -22.06,
+      "signal_mV": null
+    },
+    {
+      "seconds": -21.57,
+      "signal_mV": null
+    },
+    {
+      "seconds": -21.09,
+      "signal_mV": null
+    },
+    {
+      "seconds": -20.6,
+      "signal_mV": null
+    },
+    {
+      "seconds": -20.12,
+      "signal_mV": null
+    },
+    {
+      "seconds": -19.63,
+      "signal_mV": null
+    },
+    {
+      "seconds": -19.15,
+      "signal_mV": null
+    },
+    {
+      "seconds": -18.66,
+      "signal_mV": null
+    },
+    {
+      "seconds": -18.18,
+      "signal_mV": null
+    },
+    {
+      "seconds": -17.69,
+      "signal_mV": null
+    },
+    {
+      "seconds": -17.21,
+      "signal_mV": null
+    },
+    {
+      "seconds": -16.72,
+      "signal_mV": null
+    },
+    {
+      "seconds": -16.24,
+      "signal_mV": null
+    },
+    {
+      "seconds": -15.75,
+      "signal_mV": null
+    },
+    {
+      "seconds": -15.27,
+      "signal_mV": null
+    },
+    {
+      "seconds": -14.78,
+      "signal_mV": null
+    },
+    {
+      "seconds": -14.3,
+      "signal_mV": null
+    },
+    {
+      "seconds": -13.81,
+      "signal_mV": null
+    },
+    {
+      "seconds": -13.32,
+      "signal_mV": null
+    },
+    {
+      "seconds": -12.84,
+      "signal_mV": null
+    },
+    {
+      "seconds": -12.36,
+      "signal_mV": null
+    },
+    {
+      "seconds": -11.87,
+      "signal_mV": null
+    },
+    {
+      "seconds": -11.39,
+      "signal_mV": null
+    },
+    {
+      "seconds": -10.9,
+      "signal_mV": null
+    },
+    {
+      "seconds": -10.42,
+      "signal_mV": null
+    },
+    {
+      "seconds": -9.93,
+      "signal_mV": null
+    },
+    {
+      "seconds": -9.45,
+      "signal_mV": null
+    },
+    {
+      "seconds": -8.96,
+      "signal_mV": null
+    },
+    {
+      "seconds": -8.48,
+      "signal_mV": null
+    },
+    {
+      "seconds": -7.99,
+      "signal_mV": null
+    },
+    {
+      "seconds": -7.51,
+      "signal_mV": null
+    },
+    {
+      "seconds": -7.02,
+      "signal_mV": null
+    },
+    {
+      "seconds": -6.54,
+      "signal_mV": null
+    },
+    {
+      "seconds": -6.05,
+      "signal_mV": null
+    },
+    {
+      "seconds": -5.57,
+      "signal_mV": null
+    },
+    {
+      "seconds": -5.08,
+      "signal_mV": null
+    },
+    {
+      "seconds": -4.6,
+      "signal_mV": null
+    },
+    {
+      "seconds": -4.11,
+      "signal_mV": null
+    },
+    {
+      "seconds": -3.62,
+      "signal_mV": null
+    },
+    {
+      "seconds": -3.14,
+      "signal_mV": null
+    },
+    {
+      "seconds": -2.66,
+      "signal_mV": null
+    },
+    {
+      "seconds": -2.17,
+      "signal_mV": null
+    },
+    {
+      "seconds": -1.69,
+      "signal_mV": null
+    },
+    {
+      "seconds": -1.2,
+      "signal_mV": null
+    },
+    {
+      "seconds": -0.72,
+      "signal_mV": null
+    },
+    {
+      "seconds": -0.23,
+      "signal_mV": null
+    }
+  ],
+  "error": null,
+  "notice": "Shared gain loaded. Remove AGND before testing a numbered pin pair.",
+  "last_ack": "CAL_STATUS protocol=2 batch=6633B2B2 low_mask=007 done_mask=000 mask=FFF zero=1 copied_mask=FFE",
+  "last_ack_at": "2026-10-19T20:59:19.547318+00:00",
+  "updated_at": "2026-10-19T21:00:28.406133+00:00"
+}

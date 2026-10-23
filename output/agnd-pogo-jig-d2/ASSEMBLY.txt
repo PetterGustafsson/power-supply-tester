@@ -1,0 +1,106 @@
+REV D2 AGND POGO CALIBRATION JIG — V2 DROP-IN FRAME
+
+PRINT FILES
+D2_AGND_jig_drop_in.3mf     : frame, arm and optional fit coupon, arranged flat.
+01_base.stl                : print one, 100 x 84 x 27 mm.
+02_pogo_arm.stl            : print one, 18 x 27 x 10 mm.
+03_pin_fit_coupon.stl      : optional; 2.0 / 2.1 / 2.2 / 2.3 / 2.4 mm bores.
+
+All dimensions are millimetres. Print at 100% scale with the supplied flat faces
+on the bed. The complete 3MF layout occupies 125 x 85 mm. The 3MF contains mesh
+geometry and layout; choose your own printer and filament profile in the slicer.
+
+Starting print settings: PETG, 0.20 mm layers, four walls, five top/bottom layers,
+40% infill. PLA is also usable for a room-temperature prototype. The parts are
+designed to print without supports; the small screw bores and nut pockets use
+short bridges. Remove any loose strands from bores and nut pockets after printing.
+Print the coupon first to check the barrel fit. The arm has a nominal 2.20 mm bore
+for the 2.00 mm barrel, closed gently by the split clamp. Clean the bore until the
+barrel can slide freely before tightening. Do not force the spring mechanism.
+
+HARDWARE (plain hex nuts; locking nuts do not fit these pockets)
+No screws, nuts or locating pegs are used to mount the PCB. It rests in the frame.
+2 x M3 x 16 mm machine screws and 2 x M3 nuts — arm to rear pedestal.
+1 x M3 x 12 mm machine screw and 1 x M3 nut — pogo split clamp.
+1 x supplied pogo pin: 2.0 mm barrel, 1.5 mm contact tip,
+    33.0 mm extended total length, 25.7 mm fully compressed total length.
+1 x insulated wire from the stationary pogo tail to calibration supply negative.
+
+Nut pocket dimensions, for checking your hardware:
+M3 arm mounting: 5.80 mm wide x 2.60 mm high, entered from the rear of pedestal.
+M3 clamp: 5.80 mm across flats x 2.70 mm thick, entered from the arm's right side.
+The screw lengths above assume no washers. Tighten the plastic fixture by hand.
+
+ASSEMBLY
+1. Switch off the bench supply and disconnect USB before installing the PCB.
+   Input 1's completed calibration has been saved in device memory.
+2. With the pogo arm removed, lower the PCB into the frame. The green input
+   terminals face the REV D2 engraving on the front; the tall pedestal sits
+   behind the PCB's upper-right corner. The board rests on a 2 mm wide edge
+   ledge. The small additional support lies directly beneath the AGND pad.
+   The pocket is 86.4 x 62.4 mm: 0.2 mm clearance on EACH side of the board.
+   Four 4 mm diameter circular corner reliefs clear the PCB's sharp corners.
+   A 0.6 mm x 45 degree chamfer guides the PCB into the opening. Do not scale
+   the model in the slicer to change the clearance; that also shifts the pin.
+3. Insert two M3 nuts into the pedestal's rear slots. Place the arm on its two
+   circular locating bosses, AGND lettering upward. Install two M3 x 16 screws.
+4. Insert the clamp's M3 nut through the right side slot. Start the M3 x 12 clamp
+   screw from the arm's front face, leaving the clamp loose.
+5. Feed the pogo pin downward through the arm, contact tip first. Its tip must
+   land on TP19 / AGND: the uppermost pad in the group at the right edge, below
+   and left of the PCB's upper-right mounting hole. Check the contact visually.
+6. Let the tip just touch the pad with the spring extended. Mark this position,
+   then slide the stationary barrel down about 2.0 mm and gently tighten the
+   split clamp around the barrel. Check that the moving plunger remains free.
+   At this setting, pin total length is about 31.0 mm, and its rear end is about
+   6.6 mm above the arm's top face. Never set the pin at its fully compressed stop.
+   If solder or a wire changes the visible rear-end length, use the 2 mm movement
+   from first contact rather than the exposed-tail dimension.
+7. Connect the stationary tail to the calibration supply NEGATIVE. Secure the
+   wire to the pedestal so pulling the wire does not change pin insertion depth.
+   The positive supply lead moves between numbered inputs during calibration.
+   Keep this AGND connection separate from USB_GND.
+
+AFTER CALIBRATION
+Remove the pogo arm / AGND connection before normal floating any-pair testing.
+The board can remain seated in the frame. The two arm screws allow arm removal
+without changing the clamp's insertion-depth setting. Lift the PCB out with the
+arm removed. This is a gravity-seated frame, with no snap clips or lid.
+
+DESIGN BASIS / FIT STATUS
+Board: actual Rev D2 KiCad source, 86 x 62 x 1.6 mm.
+PCB mounting holes are left unused.
+Pocket: 86.4 x 62.4 mm below the entry chamfer, giving 0.2 mm per-side clearance.
+Corner reliefs: 4 mm diameter, centred at the four pocket corners, through the base.
+Entry chamfer: 0.6 mm at 45 degrees, including around the circular corner reliefs.
+Edge ledge: 2 mm inside the nominal board outline, at z=9 mm.
+Frame lip: z=11.4 mm; the 1.6 mm PCB's top sits at z=10.6 mm.
+AGND / TP19: (77,10) mm, 1.5 mm diameter pad.
+Coordinates above are measured from the PCB's top-left corner, x right, y down.
+AGND is 6 mm left and 7 mm below the upper-right mounting-hole centre.
+PCB underside sits 9 mm above the jig bottom; base plate thickness is 4 mm.
+The arm bottom is 25 mm above the jig bottom. Pin insertion depth is adjustable.
+
+The source CAD and exported meshes passed solid/manifold/closed-mesh checks.
+The two printed parts and the seated PCB envelope have zero nominal interference.
+Wall, ledge, corner relief and chamfer sections are checked in the CAD generator.
+The pogo bore is centred on the AGND coordinate. The preview uses the actual D2 board model;
+fasteners, wire and the pin's shoulder/tail proportions are simplified.
+This is a first-print design. Physical fit, your printer's clearances, and pogo
+spring force have not been tested. Start with the fit coupon and check the contact
+and clamp freedom before applying power.
+
+EDITABLE FILES
+D2_AGND_jig.step  : solid CAD for the base and arm in assembly position.
+D2_AGND_jig.FCStd : FreeCAD document with solids and a reference dimension sheet.
+build_jig.py     : source generator, including the arm bore setting and geometry.
+pcb-reference.json : source PCB mechanical extract for rebuilding outside the repo.
+dimensions.json / validation.json : design dimensions and CAD/mesh checks.
+assembly-preview.png / pogo-contact-detail.png / print-parts-preview.png : renders.
+
+Rebuild on this Mac:
+/Applications/FreeCAD.app/Contents/Resources/bin/python build_jig.py
+Keep pcb-reference.json beside the generator. Inside this project it also checks
+the actual source PCB hash. Outside the project it uses the bundled mechanical
+extract. The dimension sheet is a reference; edit the Python source and regenerate
+to change the geometry. The generator uses FreeCAD and the Mac's Arial font.

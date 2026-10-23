@@ -1,0 +1,19 @@
+{
+  "result": "live Rev D measurement firmware installed and running",
+  "device_port": "/dev/cu.usbmodem58760426031",
+  "target": "esp32:esp32:esp32s3:FlashSize=16M,PSRAM=enabled,CDCOnBoot=default,PartitionScheme=app3M_fat9M_16MB",
+  "app_address": "0x10000",
+  "app_bytes": 815840,
+  "app_sha256": "13a5b93446cf8981458681908418c934053a54fff8fc5572dc191d1e48d8b1a6",
+  "compile_succeeded": true,
+  "flash_hash_verified": true,
+  "calibration_nvs_sha256_before": "8a5341d1f106b87f235d344573af6b65abea7f1d83bea8387a4c41e6df13667e",
+  "calibration_nvs_sha256_after": "8a5341d1f106b87f235d344573af6b65abea7f1d83bea8387a4c41e6df13667e",
+  "calibration_nvs_unchanged": true,
+  "calibration_status": "CAL_STATUS protocol=2 batch=6633B2B2 low_mask=007 done_mask=000 mask=FFF zero=1 copied_mask=FFE",
+  "valid_scans": 36,
+  "captured_scans": 36,
+  "final_restart_ready": true,
+  "final_restart_errors": [],
+  "external_cable_test": "not performed during firmware upload"
+}

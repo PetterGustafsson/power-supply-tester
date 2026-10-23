@@ -1,0 +1,751 @@
+{
+ "step": {
+  "I6_base": {
+   "solids": 1,
+   "valid": true,
+   "free_edges": 0,
+   "volume_cm3": 42.917,
+   "faces": 286,
+   "surface_types": [
+    "BSPLINE",
+    "CONE",
+    "CYLINDER",
+    "PLANE"
+   ]
+  },
+  "I6_top": {
+   "solids": 1,
+   "valid": true,
+   "free_edges": 0,
+   "volume_cm3": 75.418,
+   "faces": 261,
+   "surface_types": [
+    "BSPLINE",
+    "CONE",
+    "CYLINDER",
+    "PLANE",
+    "SPHERE",
+    "TORUS"
+   ]
+  },
+  "I6_crown": {
+   "solids": 1,
+   "valid": true,
+   "free_edges": 0,
+   "volume_cm3": 0.803,
+   "faces": 9,
+   "surface_types": [
+    "CONE",
+    "CYLINDER",
+    "PLANE",
+    "TORUS"
+   ]
+  },
+  "I6_retainer": {
+   "solids": 1,
+   "valid": true,
+   "free_edges": 0,
+   "volume_cm3": 1.055,
+   "faces": 42,
+   "surface_types": [
+    "CONE",
+    "CYLINDER",
+    "PLANE"
+   ]
+  }
+ },
+ "assembly": {
+  "solids": 248,
+  "labels": [
+   "printed_parts",
+   "I6_base",
+   "I6_top",
+   "I6_crown",
+   "I6_retainer",
+   "reference_bodies_NOT_PRINTED",
+   "REF_PCB_RevD2_board",
+   "REF_PCB_J1_XY350V_4p",
+   "REF_PCB_J2_XY350V_4p",
+   "REF_PCB_J3_XY350V_4p",
+   "REF_PCB_J4_JST_XH5",
+   "REF_PCB_tall_part",
+   "REF_PCB_ic1",
+   "REF_PCB_ic2",
+   "REF_PCB_ic3",
+   "REF_PCB_ic4",
+   "REF_PCB_ic5",
+   "REF_display_ESP32-S3-LCD-1_28",
+   "REF_USB_male_90deg_overmold",
+   "REF_USB_flat_cable_51mm",
+   "REF_USB_female_overmold",
+   "REF_cable_12pin_7mm",
+   "REF_harness_5x_breadboard_pins_0_64sq",
+   "REF_harness_Dupont_1x5_female",
+   "REF_harness_5_wires_to_J4",
+   "REF_J4_XH5_plug",
+   "REF_grommet_foot_x4",
+   "REF_screw_M2_5x12_shell_x4",
+   "REF_screw_M2_5x12_PCB_x4",
+   "REF_cable_12pin_7mm_external",
+   "REF_HR10A-10P-12S_73__female_plug"
+  ]
+ },
+ "interference_mm3": {
+  "I6_base x I6_top": 0.0,
+  "I6_base x I6_crown": 0.0,
+  "I6_base x I6_retainer": 0.0,
+  "I6_top x I6_crown": 6.494,
+  "I6_top x I6_retainer": 28.604,
+  "I6_crown x I6_retainer": 0.0,
+  "I6_base x REF_screw_M2.5x12_PCB_x4": 73.513,
+  "I6_top x REF_USB_female_overmold": 8.424,
+  "I6_top x REF_cable_12pin_7mm": 8.8,
+  "I6_top x REF_screw_M2.5x12_shell_x4": 63.617,
+  "REF_display_ESP32-S3-LCD-1.28 x REF_USB_male_90deg_overmold": 11.016,
+  "REF_display_ESP32-S3-LCD-1.28 x REF_harness_5x_breadboard_pins_0.64sq": 0.253,
+  "REF_USB_male_90deg_overmold x REF_USB_flat_cable_51mm": 1.7,
+  "REF_USB_flat_cable_51mm x REF_USB_female_overmold": 1.7,
+  "REF_harness_5x_breadboard_pins_0.64sq x REF_harness_Dupont_1x5_female": 17.408
+ },
+ "min_distance_mm": {
+  "I6_top - REF_PCB_J1_XY350V_4p": 14.12,
+  "I6_top - REF_PCB_J2_XY350V_4p": 14.0,
+  "I6_top - REF_PCB_J3_XY350V_4p": 10.35,
+  "I6_top - REF_PCB_tall_part": 14.17,
+  "I6_top - REF_PCB_J4_JST_XH5": 11.72,
+  "I6_top - REF_PCB_RevD2_board": 2.26,
+  "I6_base - REF_PCB_RevD2_board": 0.0,
+  "I6_top - REF_USB_male_90deg_overmold": 1.0,
+  "I6_top - REF_USB_flat_cable_51mm": 2.2,
+  "I6_base - REF_USB_flat_cable_51mm": 0.43,
+  "I6_top - REF_display_ESP32-S3-LCD-1.28": 0.12,
+  "I6_retainer - REF_USB_male_90deg_overmold": 4.37,
+  "I6_base - REF_USB_female_overmold": 0.1,
+  "I6_base - REF_cable_12pin_7mm": 0.0,
+  "I6_top - REF_cable_12pin_7mm": 0.0,
+  "I6_top - REF_harness_Dupont_1x5_female": 2.22,
+  "I6_top - REF_harness_5_wires_to_J4": 1.15,
+  "I6_retainer - REF_harness_Dupont_1x5_female": 0.95,
+  "I6_retainer - REF_harness_5_wires_to_J4": 9.27,
+  "I6_retainer - REF_harness_5x_breadboard_pins_0.64sq": 1.27,
+  "I6_retainer - REF_display_ESP32-S3-LCD-1.28": 0.0,
+  "I6_base - REF_harness_5_wires_to_J4": 13.5,
+  "REF_harness_5_wires_to_J4 - REF_USB_male_90deg_overmold": 12.59,
+  "REF_harness_5_wires_to_J4 - REF_USB_flat_cable_51mm": 2.55,
+  "REF_harness_Dupont_1x5_female - REF_USB_male_90deg_overmold": 16.04,
+  "REF_harness_Dupont_1x5_female - REF_USB_flat_cable_51mm": 9.81,
+  "REF_harness_5_wires_to_J4 - REF_PCB_tall_part": 15.83,
+  "REF_harness_5_wires_to_J4 - REF_PCB_RevD2_board": 11.0,
+  "REF_USB_male_90deg_overmold - REF_PCB_RevD2_board": 11.63,
+  "I6_base - REF_grommet_foot_x4": 0.0,
+  "I6_base - REF_cable_12pin_7mm_external": 15.15,
+  "I6_top - REF_cable_12pin_7mm_external": 15.15,
+  "I6_base - REF_HR10A-10P-12S(73)_female_plug": 112.36,
+  "I6_top - REF_HR10A-10P-12S(73)_female_plug": 112.37,
+  "REF_grommet_foot_x4 - REF_cable_12pin_7mm_external": 45.13,
+  "I6_top - REF_grommet_foot_x4": 1.85,
+  "I6_base - REF_screw_M2.5x12_shell_x4": 0.0,
+  "I6_top - REF_screw_M2.5x12_shell_x4": 0.0,
+  "REF_screw_M2.5x12_shell_x4 - REF_grommet_foot_x4": 0.25,
+  "REF_screw_M2.5x12_PCB_x4 - REF_PCB_J4_JST_XH5": 4.3,
+  "REF_harness_5_wires_to_J4 - REF_PCB_J4_JST_XH5": 4.0,
+  "REF_display_ESP32-S3-LCD-1.28 - REF_PCB_RevD2_board": 25.65,
+  "I6_base - I6_top": 0.25,
+  "I6_base - I6_crown": 40.041,
+  "I6_base - I6_retainer": 32.768,
+  "I6_top - I6_crown": 0.0,
+  "I6_top - I6_retainer": 0.0,
+  "I6_crown - I6_retainer": 3.4
+ },
+ "overhangs_print_orientation": {
+  "I6_base": {
+   "steep_overhang_mm2": 433.4,
+   "horizontal_downfacing_mm2": 176.5,
+   "regions": [
+    {
+     "area_mm2": 212.8,
+     "bbox": [
+      [
+       -8.9,
+       25.6,
+       16.1
+      ],
+      [
+       8.9,
+       34.1,
+       24.6
+      ]
+     ]
+    },
+    {
+     "area_mm2": 60.0,
+     "bbox": [
+      [
+       -6.2,
+       -10.4,
+       1.2
+      ],
+      [
+       6.2,
+       -5.6,
+       1.2
+      ]
+     ]
+    },
+    {
+     "area_mm2": 60.0,
+     "bbox": [
+      [
+       -6.2,
+       1.6,
+       1.2
+      ],
+      [
+       6.2,
+       6.4,
+       1.2
+      ]
+     ]
+    },
+    {
+     "area_mm2": 59.4,
+     "bbox": [
+      [
+       -42.0,
+       -48.0,
+       -0.0
+      ],
+      [
+       42.0,
+       -47.5,
+       0.5
+      ]
+     ]
+    },
+    {
+     "area_mm2": 59.4,
+     "bbox": [
+      [
+       -42.0,
+       47.5,
+       -0.0
+      ],
+      [
+       42.0,
+       48.0,
+       0.5
+      ]
+     ]
+    },
+    {
+     "area_mm2": 50.9,
+     "bbox": [
+      [
+       -54.0,
+       -36.0,
+       -0.0
+      ],
+      [
+       -53.5,
+       36.0,
+       0.5
+      ]
+     ]
+    },
+    {
+     "area_mm2": 50.9,
+     "bbox": [
+      [
+       53.5,
+       -36.0,
+       -0.0
+      ],
+      [
+       54.0,
+       36.0,
+       0.5
+      ]
+     ]
+    },
+    {
+     "area_mm2": 14.1,
+     "bbox": [
+      [
+       -49.2,
+       -41.1,
+       8.0
+      ],
+      [
+       -43.7,
+       -35.6,
+       8.0
+      ]
+     ]
+    },
+    {
+     "area_mm2": 14.1,
+     "bbox": [
+      [
+       43.7,
+       -41.1,
+       8.0
+      ],
+      [
+       49.2,
+       -35.6,
+       8.0
+      ]
+     ]
+    },
+    {
+     "area_mm2": 14.1,
+     "bbox": [
+      [
+       -49.2,
+       35.6,
+       8.0
+      ],
+      [
+       -43.7,
+       41.1,
+       8.0
+      ]
+     ]
+    },
+    {
+     "area_mm2": 14.1,
+     "bbox": [
+      [
+       43.7,
+       35.6,
+       8.0
+      ],
+      [
+       49.2,
+       41.1,
+       8.0
+      ]
+     ]
+    }
+   ]
+  },
+  "I6_top": {
+   "steep_overhang_mm2": 893.7,
+   "horizontal_downfacing_mm2": 7369.0,
+   "regions": [
+    {
+     "area_mm2": 1322.6,
+     "bbox": [
+      [
+       -51.6,
+       -45.6,
+       33.1
+      ],
+      [
+       -7.3,
+       45.6,
+       33.1
+      ]
+     ]
+    },
+    {
+     "area_mm2": 1322.6,
+     "bbox": [
+      [
+       7.3,
+       -45.6,
+       33.1
+      ],
+      [
+       51.6,
+       45.6,
+       33.1
+      ]
+     ]
+    },
+    {
+     "area_mm2": 674.0,
+     "bbox": [
+      [
+       -20.2,
+       -29.2,
+       39.1
+      ],
+      [
+       20.2,
+       23.2,
+       39.1
+      ]
+     ]
+    },
+    {
+     "area_mm2": 584.0,
+     "bbox": [
+      [
+       -20.2,
+       -45.1,
+       38.6
+      ],
+      [
+       20.2,
+       -30.8,
+       39.1
+      ]
+     ]
+    },
+    {
+     "area_mm2": 418.0,
+     "bbox": [
+      [
+       -6.4,
+       28.2,
+       26.8
+      ],
+      [
+       6.4,
+       44.4,
+       26.8
+      ]
+     ]
+    },
+    {
+     "area_mm2": 335.5,
+     "bbox": [
+      [
+       -38.2,
+       24.8,
+       38.6
+      ],
+      [
+       -21.8,
+       45.1,
+       39.1
+      ]
+     ]
+    },
+    {
+     "area_mm2": 335.5,
+     "bbox": [
+      [
+       21.8,
+       24.8,
+       38.6
+      ],
+      [
+       38.2,
+       45.1,
+       39.1
+      ]
+     ]
+    },
+    {
+     "area_mm2": 269.0,
+     "bbox": [
+      [
+       -38.2,
+       -29.2,
+       39.1
+      ],
+      [
+       -21.8,
+       -12.8,
+       39.1
+      ]
+     ]
+    },
+    {
+     "area_mm2": 269.0,
+     "bbox": [
+      [
+       -38.2,
+       -11.2,
+       39.1
+      ],
+      [
+       -21.8,
+       5.2,
+       39.1
+      ]
+     ]
+    },
+    {
+     "area_mm2": 269.0,
+     "bbox": [
+      [
+       -38.2,
+       6.8,
+       39.1
+      ],
+      [
+       -21.8,
+       23.2,
+       39.1
+      ]
+     ]
+    },
+    {
+     "area_mm2": 269.0,
+     "bbox": [
+      [
+       21.8,
+       -29.2,
+       39.1
+      ],
+      [
+       38.2,
+       -12.8,
+       39.1
+      ]
+     ]
+    },
+    {
+     "area_mm2": 269.0,
+     "bbox": [
+      [
+       21.8,
+       -11.2,
+       39.1
+      ],
+      [
+       38.2,
+       5.2,
+       39.1
+      ]
+     ]
+    }
+   ]
+  },
+  "I6_crown": {
+   "steep_overhang_mm2": 13.9,
+   "horizontal_downfacing_mm2": 0.0,
+   "regions": [
+    {
+     "area_mm2": 13.9,
+     "bbox": [
+      [
+       -20.2,
+       -20.2,
+       0.1
+      ],
+      [
+       20.2,
+       20.2,
+       0.1
+      ]
+     ]
+    }
+   ]
+  },
+  "I6_retainer": {
+   "steep_overhang_mm2": 0.0,
+   "horizontal_downfacing_mm2": 0.0,
+   "regions": []
+  }
+ },
+ "outer_skin_deviation_vs_SDF_mm": {
+  "all_max": 4.82,
+  "all_p95": 1.45,
+  "all_mean": 0.171,
+  "above_deck_max": 4.82,
+  "above_deck_p95": 3.38,
+  "worst_point": [
+   -15.0,
+   17.5,
+   48.8
+  ]
+ },
+ "skins_mm": {
+  "tab_channel_to_outer": 1.48,
+  "plug_window_to_outer": 2.7,
+  "pipe_wall": 2.0
+ },
+ "retainer_reliefs": [
+  {
+   "deg": [
+    -114.3,
+    -60.5
+   ],
+   "depth": 3.55
+  },
+  {
+   "deg": [
+    -59.4,
+    -54.9
+   ],
+   "depth": 0.69
+  },
+  {
+   "deg": [
+    -48.2,
+    -36.2
+   ],
+   "depth": 0.81
+  },
+  {
+   "deg": [
+    29.3,
+    55.2
+   ],
+   "depth": 2.85
+  },
+  {
+   "deg": [
+    77.7,
+    102.3
+   ],
+   "depth": 1.35
+  },
+  {
+   "deg": [
+    116.7,
+    150.7
+   ],
+   "depth": 2.85
+  }
+ ],
+ "housing_radial_gap_to_sleeve_mm": 1.069,
+ "retainer_vs_vendor_parts": {
+  "min_distance_any_part": 0.35,
+  "nearest5_module_frame_bbox": [
+   [
+    0.35,
+    [
+     11.1,
+     12.37,
+     -11.93,
+     -11.66,
+     -3.86,
+     -3.4
+    ]
+   ],
+   [
+    0.385,
+    [
+     -2.9,
+     2.9,
+     14.79,
+     16.79,
+     -4.4,
+     -3.4
+    ]
+   ],
+   [
+    0.4,
+    [
+     7.77,
+     8.07,
+     -15.03,
+     -14.97,
+     -3.7,
+     -3.4
+    ]
+   ],
+   [
+    0.403,
+    [
+     7.77,
+     8.07,
+     -15.52,
+     -15.03,
+     -3.71,
+     -3.4
+    ]
+   ],
+   [
+    0.441,
+    [
+     11.18,
+     12.3,
+     -11.66,
+     -9.37,
+     -3.85,
+     -3.43
+    ]
+   ]
+  ],
+  "antenna": {
+   "name": "C3-001 (2.4 GHz ceramic chip antenna)",
+   "module_frame": {
+    "name": "C3-001 (2.4 GHz ceramic chip antenna)",
+    "x0": -2.9,
+    "x1": 2.9,
+    "u0": 14.79,
+    "u1": 16.79,
+    "a0": -4.4,
+    "a1": -3.4
+   },
+   "world_centre": [
+    0.0,
+    4.6,
+    67.04
+   ],
+   "retainer_distance": 0.385
+  },
+  "window_new_u": [
+   -7.12,
+   7.48
+  ],
+  "window_new_x": "> +11.25",
+  "window_old": {
+   "u": [
+    -8.82,
+    9.18
+   ],
+   "x": "< -11.25 (to the sleeve wall)"
+  }
+ },
+ "HR10A_plug": {
+  "cable_len_outside_mm": 126.0,
+  "plug_front": [
+   62.1,
+   -198.6,
+   5.3
+  ],
+  "plug_axis": [
+   -0.55,
+   0.835,
+   -0.0
+  ],
+  "model": "derived from Hirose HR10A-10P-12P.stp + socket insert",
+  "A": 43.0,
+  "dB": 14.7,
+  "dC": 9.5,
+  "cable_od": 7.0
+ },
+ "screws_I6": {
+  "all_8": "M2.5 x 12 plastic thread-forming, flat(pan)-head d 4.5 x 1.7 (assumed)",
+  "shell": {
+   "counterbore": "d5.5 x 8.0 from below",
+   "clearance": 3.5,
+   "base_floor_under_head": 2.5,
+   "top_pilot": "d2.0 x 10.5 from z 11.0",
+   "engagement": 9.0,
+   "engagement_xd": 3.6,
+   "tip_to_pilot_bottom": 1.5,
+   "top_boss_wall": 2.6,
+   "base_column_wall_low": 1.75,
+   "base_column_wall_ext_inner": 1.6,
+   "base_column_wall_ext_outer_min": 1.6,
+   "screw_xy": [
+    46.41,
+    38.36
+   ]
+  },
+  "pcb": {
+   "pilot": "d2.0 x 12.0 from z 14.0",
+   "engagement": 10.4,
+   "engagement_xd": 4.16,
+   "tip_to_pilot_bottom": 1.6,
+   "standoff_wall": 2.0
+  },
+  "grommet": {
+   "hip_d": 5.5,
+   "hip_l": 8.0,
+   "flange_d": 9.5,
+   "flange_t": 2.0,
+   "bore_d": 5.0,
+   "protrusion_below_base": 2.0,
+   "head_recess_below_counterbore_floor": 1.7
+  }
+ }
+}

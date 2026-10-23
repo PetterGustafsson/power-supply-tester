@@ -1,0 +1,474 @@
+{
+  "maintenance": false,
+  "workflow": "two-pass-v2",
+  "pass_id": "20261019-131933-6633b2b2",
+  "batch_id": "6633B2B2",
+  "current": 1,
+  "phase": "low",
+  "zeros": {},
+  "zero_count": 0,
+  "completed": {},
+  "completed_count": 0,
+  "stored_count": 2,
+  "device_mask": 3,
+  "connected": true,
+  "device_ready": true,
+  "fresh": true,
+  "ready": true,
+  "busy": false,
+  "valid_streak": 85,
+  "age_s": 0.39,
+  "adc_fault": false,
+  "raw_V": 0.574887,
+  "reference_V": 0.576191,
+  "signal_mV": -1.3039999999999718,
+  "preview_V": null,
+  "actual_pair_V": null,
+  "device_state": "Calibration incomplete",
+  "sequence": 84,
+  "channels": [
+    {
+      "pin": 1,
+      "raw_V": 0.574887,
+      "signal_mV": -1.3039999999999718,
+      "saved": true,
+      "zero_this_pass": false,
+      "this_pass": false
+    },
+    {
+      "pin": 2,
+      "raw_V": 0.576223,
+      "signal_mV": 0.05500000000002725,
+      "saved": true,
+      "zero_this_pass": false,
+      "this_pass": false
+    },
+    {
+      "pin": 3,
+      "raw_V": 0.576223,
+      "signal_mV": 0.03900000000001125,
+      "saved": false,
+      "zero_this_pass": false,
+      "this_pass": false
+    },
+    {
+      "pin": 4,
+      "raw_V": 0.576199,
+      "signal_mV": 0.008000000000008,
+      "saved": false,
+      "zero_this_pass": false,
+      "this_pass": false
+    },
+    {
+      "pin": 5,
+      "raw_V": 0.576203,
+      "signal_mV": 0.012000000000012001,
+      "saved": false,
+      "zero_this_pass": false,
+      "this_pass": false
+    },
+    {
+      "pin": 6,
+      "raw_V": 0.576195,
+      "signal_mV": 0.026999999999999247,
+      "saved": false,
+      "zero_this_pass": false,
+      "this_pass": false
+    },
+    {
+      "pin": 7,
+      "raw_V": 0.576195,
+      "signal_mV": 0.010999999999983245,
+      "saved": false,
+      "zero_this_pass": false,
+      "this_pass": false
+    },
+    {
+      "pin": 8,
+      "raw_V": 0.576164,
+      "signal_mV": -0.026999999999999247,
+      "saved": false,
+      "zero_this_pass": false,
+      "this_pass": false
+    },
+    {
+      "pin": 9,
+      "raw_V": 0.576109,
+      "signal_mV": -0.0820000000000265,
+      "saved": false,
+      "zero_this_pass": false,
+      "this_pass": false
+    },
+    {
+      "pin": 10,
+      "raw_V": 0.576113,
+      "signal_mV": -0.05500000000002725,
+      "saved": false,
+      "zero_this_pass": false,
+      "this_pass": false
+    },
+    {
+      "pin": 11,
+      "raw_V": 0.576105,
+      "signal_mV": -0.07900000000005125,
+      "saved": false,
+      "zero_this_pass": false,
+      "this_pass": false
+    },
+    {
+      "pin": 12,
+      "raw_V": 0.576094,
+      "signal_mV": -0.09700000000001374,
+      "saved": false,
+      "zero_this_pass": false,
+      "this_pass": false
+    }
+  ],
+  "graph": [
+    {
+      "seconds": -42.04,
+      "signal_mV": -1.3050000000000006
+    },
+    {
+      "seconds": -41.51,
+      "signal_mV": -1.3050000000000006
+    },
+    {
+      "seconds": -40.99,
+      "signal_mV": -1.3009999999999966
+    },
+    {
+      "seconds": -40.49,
+      "signal_mV": -1.2969999999999926
+    },
+    {
+      "seconds": -40.0,
+      "signal_mV": -1.2969999999999926
+    },
+    {
+      "seconds": -39.5,
+      "signal_mV": -1.3050000000000006
+    },
+    {
+      "seconds": -39.01,
+      "signal_mV": -1.3050000000000006
+    },
+    {
+      "seconds": -38.51,
+      "signal_mV": -1.3009999999999966
+    },
+    {
+      "seconds": -38.01,
+      "signal_mV": -1.3009999999999966
+    },
+    {
+      "seconds": -37.52,
+      "signal_mV": -1.3079999999999758
+    },
+    {
+      "seconds": -37.03,
+      "signal_mV": -1.2929999999999886
+    },
+    {
+      "seconds": -36.53,
+      "signal_mV": -1.2959999999999638
+    },
+    {
+      "seconds": -36.03,
+      "signal_mV": -1.3009999999999966
+    },
+    {
+      "seconds": -35.54,
+      "signal_mV": -1.2929999999999886
+    },
+    {
+      "seconds": -35.05,
+      "signal_mV": -1.3050000000000006
+    },
+    {
+      "seconds": -34.55,
+      "signal_mV": -1.3009999999999966
+    },
+    {
+      "seconds": -34.06,
+      "signal_mV": -1.2929999999999886
+    },
+    {
+      "seconds": -33.56,
+      "signal_mV": -1.2929999999999886
+    },
+    {
+      "seconds": -33.07,
+      "signal_mV": -1.2969999999999926
+    },
+    {
+      "seconds": -32.57,
+      "signal_mV": -1.3009999999999966
+    },
+    {
+      "seconds": -32.07,
+      "signal_mV": -1.2959999999999638
+    },
+    {
+      "seconds": -31.58,
+      "signal_mV": -1.2809999999999766
+    },
+    {
+      "seconds": -31.09,
+      "signal_mV": -1.2889999999999846
+    },
+    {
+      "seconds": -30.59,
+      "signal_mV": -1.2929999999999886
+    },
+    {
+      "seconds": -30.1,
+      "signal_mV": -1.2969999999999926
+    },
+    {
+      "seconds": -29.6,
+      "signal_mV": -1.2969999999999926
+    },
+    {
+      "seconds": -29.1,
+      "signal_mV": -1.3039999999999718
+    },
+    {
+      "seconds": -28.6,
+      "signal_mV": -1.2809999999999766
+    },
+    {
+      "seconds": -28.12,
+      "signal_mV": -1.3090000000000046
+    },
+    {
+      "seconds": -27.62,
+      "signal_mV": -1.2929999999999886
+    },
+    {
+      "seconds": -27.13,
+      "signal_mV": -1.3050000000000006
+    },
+    {
+      "seconds": -26.63,
+      "signal_mV": -1.2969999999999926
+    },
+    {
+      "seconds": -26.13,
+      "signal_mV": -1.2929999999999886
+    },
+    {
+      "seconds": -25.64,
+      "signal_mV": -1.2999999999999678
+    },
+    {
+      "seconds": -25.15,
+      "signal_mV": -1.2959999999999638
+    },
+    {
+      "seconds": -24.65,
+      "signal_mV": -1.3050000000000006
+    },
+    {
+      "seconds": -24.16,
+      "signal_mV": -1.2969999999999926
+    },
+    {
+      "seconds": -23.66,
+      "signal_mV": -1.3009999999999966
+    },
+    {
+      "seconds": -23.17,
+      "signal_mV": -1.2929999999999886
+    },
+    {
+      "seconds": -22.67,
+      "signal_mV": -1.2929999999999886
+    },
+    {
+      "seconds": -22.18,
+      "signal_mV": -1.3009999999999966
+    },
+    {
+      "seconds": -21.68,
+      "signal_mV": -1.3009999999999966
+    },
+    {
+      "seconds": -21.19,
+      "signal_mV": -1.3009999999999966
+    },
+    {
+      "seconds": -20.69,
+      "signal_mV": -1.2889999999999846
+    },
+    {
+      "seconds": -20.2,
+      "signal_mV": -1.2889999999999846
+    },
+    {
+      "seconds": -19.7,
+      "signal_mV": -1.2849999999999806
+    },
+    {
+      "seconds": -19.21,
+      "signal_mV": -1.2889999999999846
+    },
+    {
+      "seconds": -18.71,
+      "signal_mV": -1.2900000000000134
+    },
+    {
+      "seconds": -18.21,
+      "signal_mV": -1.3009999999999966
+    },
+    {
+      "seconds": -17.72,
+      "signal_mV": -1.2969999999999926
+    },
+    {
+      "seconds": -17.22,
+      "signal_mV": -1.3079999999999758
+    },
+    {
+      "seconds": -16.73,
+      "signal_mV": -1.3119999999999798
+    },
+    {
+      "seconds": -16.24,
+      "signal_mV": -1.2959999999999638
+    },
+    {
+      "seconds": -15.74,
+      "signal_mV": -1.2860000000000094
+    },
+    {
+      "seconds": -15.24,
+      "signal_mV": -1.2999999999999678
+    },
+    {
+      "seconds": -14.75,
+      "signal_mV": -1.2929999999999886
+    },
+    {
+      "seconds": -14.25,
+      "signal_mV": -1.2959999999999638
+    },
+    {
+      "seconds": -13.76,
+      "signal_mV": -1.2969999999999926
+    },
+    {
+      "seconds": -13.26,
+      "signal_mV": -1.2929999999999886
+    },
+    {
+      "seconds": -12.77,
+      "signal_mV": -1.2929999999999886
+    },
+    {
+      "seconds": -12.28,
+      "signal_mV": -1.3009999999999966
+    },
+    {
+      "seconds": -11.78,
+      "signal_mV": -1.3009999999999966
+    },
+    {
+      "seconds": -11.28,
+      "signal_mV": -1.3050000000000006
+    },
+    {
+      "seconds": -10.79,
+      "signal_mV": -1.2849999999999806
+    },
+    {
+      "seconds": -10.29,
+      "signal_mV": -1.2929999999999886
+    },
+    {
+      "seconds": -9.8,
+      "signal_mV": -1.2969999999999926
+    },
+    {
+      "seconds": -9.31,
+      "signal_mV": -1.2889999999999846
+    },
+    {
+      "seconds": -8.81,
+      "signal_mV": -1.2929999999999886
+    },
+    {
+      "seconds": -8.31,
+      "signal_mV": -1.2889999999999846
+    },
+    {
+      "seconds": -7.82,
+      "signal_mV": -1.2929999999999886
+    },
+    {
+      "seconds": -7.32,
+      "signal_mV": -1.2929999999999886
+    },
+    {
+      "seconds": -6.83,
+      "signal_mV": -1.3039999999999718
+    },
+    {
+      "seconds": -6.34,
+      "signal_mV": -1.2969999999999926
+    },
+    {
+      "seconds": -5.84,
+      "signal_mV": -1.2929999999999886
+    },
+    {
+      "seconds": -5.35,
+      "signal_mV": -1.2929999999999886
+    },
+    {
+      "seconds": -4.85,
+      "signal_mV": -1.3009999999999966
+    },
+    {
+      "seconds": -4.35,
+      "signal_mV": -1.2969999999999926
+    },
+    {
+      "seconds": -3.86,
+      "signal_mV": -1.2889999999999846
+    },
+    {
+      "seconds": -3.36,
+      "signal_mV": -1.2929999999999886
+    },
+    {
+      "seconds": -2.87,
+      "signal_mV": -1.2929999999999886
+    },
+    {
+      "seconds": -2.38,
+      "signal_mV": -1.3090000000000046
+    },
+    {
+      "seconds": -1.88,
+      "signal_mV": -1.2929999999999886
+    },
+    {
+      "seconds": -1.38,
+      "signal_mV": -1.3050000000000006
+    },
+    {
+      "seconds": -0.89,
+      "signal_mV": -1.2889999999999846
+    },
+    {
+      "seconds": -0.39,
+      "signal_mV": -1.3039999999999718
+    }
+  ],
+  "error": null,
+  "notice": "Tester connected. Saved 0 V points are retained across USB reconnects. Follow the current checklist.",
+  "last_ack": "CAL_STATUS protocol=2 batch=6633B2B2 low_mask=000 done_mask=000 mask=003 zero=1",
+  "last_ack_at": "2026-10-19T20:29:41.133193+00:00",
+  "updated_at": "2026-10-19T20:30:22.623047+00:00"
+}

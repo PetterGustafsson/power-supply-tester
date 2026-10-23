@@ -1,0 +1,1 @@
+PASS: real command parser; all 12 lows before highs, NVS round-trip, per-pin gains, new-pass preservation and invalid captures.

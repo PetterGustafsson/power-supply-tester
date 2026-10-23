@@ -1,0 +1,30 @@
+{
+  "result": "installed approved pair 1/2 art with live voltage, bounded powered-state hold, and one-second optical insertion",
+  "device_port": "/dev/cu.usbmodem58760426031",
+  "app_address": "0x10000",
+  "asset_address": "0x610000",
+  "app_sha256": "12806c87b1a2bb1e6cfe21edf076193353b4c9ae18ae8d3ae86090c9671ccd14",
+  "asset_sha256": "152b2a467bcef09bebff48a05e06e6133f563c4d1726ba2112b4f71404a52ce1",
+  "app_flash_hash_verified": true,
+  "asset_flash_hash_verified": true,
+  "calibration_status": "CAL_STATUS protocol=2 batch=6633B2B2 low_mask=007 done_mask=000 mask=FFF zero=1 copied_mask=FFE",
+  "user_confirmed_approved_powered_look": true,
+  "final_device_validation": {
+    "insertions": [
+      "DISPLAY_INSERT_DONE duration_ms=966 frames=21",
+      "DISPLAY_INSERT_DONE duration_ms=965 frames=21"
+    ],
+    "mode_transitions": [
+      "DISPLAY_MODE: INSERT LIVE",
+      "DISPLAY_MODE: WITHDRAW LIVE",
+      "DISPLAY_MODE: INSERT LIVE"
+    ],
+    "display_errors": [],
+    "recognized_alive_reports": 9,
+    "accepted_pair_1_2_scans": 47,
+    "accepted_voltage_mean_V": 12.287,
+    "accepted_no_voltage_scans": 10,
+    "last_alive": "DISPLAY_ALIVE mode=RECOGNIZED fps_x10=242 decode_us=11161 overlay_us=6579 transfer_us=15289 free_heap=72244",
+    "unstable_batch_diagnostics_preserved": true
+  }
+}

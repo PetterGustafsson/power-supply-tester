@@ -1,0 +1,61 @@
+{
+  "source_file": "hardware/rev-d/tester12v.kicad_pcb",
+  "source_sha256": "3b42eb5357a07355b095cfb20fbd8990def34dc454e6bbaee1a527b505f991d6",
+  "scope": {
+    "revision": "D2",
+    "board_mm": [
+      86,
+      62
+    ],
+    "thickness_mm": 1.6
+  },
+  "mounting_holes": {
+    "diameter_mm": 2.7,
+    "centres_mm": [
+      [
+        3,
+        3
+      ],
+      [
+        83,
+        3
+      ],
+      [
+        3,
+        59
+      ],
+      [
+        83,
+        59
+      ]
+    ]
+  },
+  "parts": [
+    {
+      "ref": "TP19",
+      "sym": "TP",
+      "value": "AGND",
+      "pins": {
+        "1": "AGND"
+      },
+      "fp": "TestPoint:TestPoint_Pad_D1.5mm",
+      "pcb": [
+        77,
+        10,
+        0
+      ],
+      "sch": [
+        240,
+        189
+      ],
+      "page": "root",
+      "mpn": "",
+      "maker": "",
+      "note": "",
+      "dnp": false,
+      "schrot": 0,
+      "uuid": "8eb22163-be2b-5e08-b1cc-65b1e33f2acb",
+      "local_fp": "Tester:TestPoint_Pad_D1.5mm"
+    }
+  ]
+}

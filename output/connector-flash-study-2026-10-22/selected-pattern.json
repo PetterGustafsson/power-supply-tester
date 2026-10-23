@@ -1,0 +1,20 @@
+{
+  "style": "liquid",
+  "size": [
+    240,
+    240
+  ],
+  "frame_rate": 50,
+  "loop_frames": 50,
+  "loop_seconds": 1,
+  "direction": "negative to positive",
+  "palette": "ice blue to bright gold",
+  "accepted_pair": [
+    1,
+    2
+  ],
+  "other_pair_example": [
+    3,
+    7
+  ]
+}

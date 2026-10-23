@@ -1,0 +1,117 @@
+{
+ "design": {
+  "RIB": {
+   "t": 1.6,
+   "depth": 6.0,
+   "run": 6.0,
+   "n": 8,
+   "phi0": 22.5,
+   "collar_w": 2.0,
+   "collar_h": 2.0
+  },
+  "ribs": [
+   {
+    "phi": 22.5,
+    "root_s": 20.96,
+    "root_xy": [
+     19.37,
+     10.0
+    ]
+   },
+   {
+    "phi": 67.5,
+    "root_s": 28.35,
+    "root_xy": [
+     10.85,
+     28.17
+    ]
+   },
+   {
+    "phi": 112.5,
+    "root_s": 28.35,
+    "root_xy": [
+     -10.85,
+     28.17
+    ]
+   },
+   {
+    "phi": 157.5,
+    "root_s": 20.96,
+    "root_xy": [
+     -19.37,
+     10.0
+    ]
+   },
+   {
+    "phi": 202.5,
+    "root_s": 20.12,
+    "root_xy": [
+     -18.59,
+     -5.72
+    ]
+   },
+   {
+    "phi": 247.5,
+    "root_s": 24.24,
+    "root_xy": [
+     -9.27,
+     -20.41
+    ]
+   },
+   {
+    "phi": 292.5,
+    "root_s": 24.24,
+    "root_xy": [
+     9.27,
+     -20.41
+    ]
+   },
+   {
+    "phi": 337.5,
+    "root_s": 20.12,
+    "root_xy": [
+     18.59,
+     -5.72
+    ]
+   }
+  ],
+  "deck_underside_z": 45.6,
+  "root_centre_y": 1.982
+ },
+ "ribs_and_collar_volume_cm3": 0.656,
+ "hanging_zmin": 39.6,
+ "hanging_min_radius_to_pipe_axis": 19.49,
+ "bore_r": 18.5,
+ "retainer_od": 37.1,
+ "clearance_hanging_ribs_mm": {
+  "REF_display_ESP32-S3-LCD-1.28": 0.91,
+  "I8_retainer_world": 0.94,
+  "REF_USB_male_90deg_overmold": 2.31,
+  "REF_USB_male_plug_tip": 4.54,
+  "REF_USB_flat_cable_51mm": 10.0,
+  "REF_USB_female_overmold": 7.63,
+  "REF_harness_5_wires_to_J4": 3.78,
+  "REF_harness_5x_1pin_housing_d1.2": 4.69,
+  "REF_harness_5x_breadboard_pins_0.64sq": 5.84,
+  "REF_J4_XH5_plug": 19.62,
+  "REF_PCB_J4_JST_XH5": 22.48,
+  "REF_PCB_SMD_parts": 22.69,
+  "REF_PCB_tall_part": 14.87,
+  "REF_PCB_RevD2_board": 24.01,
+  "REF_PCB_J1_XY350V_4p": 15.41,
+  "REF_PCB_J2_XY350V_4p": 15.42,
+  "REF_PCB_J3_XY350V_4p": 19.0,
+  "REF_cable_12pin_conductors_x12": 22.49,
+  "REF_zip_tie_2.5mm_centre": 29.78
+ },
+ "loading_sweep_along_pipe_axis_0_45mm": {
+  "REF_display_ESP32-S3-LCD-1.28": {
+   "min_mm": 0.91,
+   "at_withdrawal_mm": 0.0
+  },
+  "I8_retainer_world": {
+   "min_mm": 0.94,
+   "at_withdrawal_mm": 0.0
+  }
+ }
+}

@@ -1,0 +1,34 @@
+{
+ "I6_base": {
+  "filament": "Matte Charcoal",
+  "rgb": [
+   0.1,
+   0.1,
+   0.11
+  ]
+ },
+ "I6_top": {
+  "filament": "Matte Ivory White (or Marble)",
+  "rgb": [
+   0.88,
+   0.87,
+   0.82
+  ]
+ },
+ "I6_crown": {
+  "filament": "Basic Orange (suggested, name unverified)",
+  "rgb": [
+   1.0,
+   0.416,
+   0.075
+  ]
+ },
+ "I6_retainer": {
+  "filament": "Matte Charcoal",
+  "rgb": [
+   0.1,
+   0.1,
+   0.11
+  ]
+ }
+}

@@ -1,0 +1,79 @@
+{
+  "fixture_revision": "v2_drop_in_frame",
+  "pcb_width": 86.0,
+  "pcb_depth": 62.0,
+  "pcb_thickness": 1.6,
+  "pcb_bottom_z": 9.0,
+  "base_thickness": 4.0,
+  "pcb_mount_holes": [
+    [
+      3,
+      3
+    ],
+    [
+      83,
+      3
+    ],
+    [
+      3,
+      59
+    ],
+    [
+      83,
+      59
+    ]
+  ],
+  "pcb_hole_diameter": 2.7,
+  "pcb_fasteners_required": 0,
+  "board_clearance_per_side": 0.2,
+  "board_pocket_width": 86.4,
+  "board_pocket_depth": 62.4,
+  "corner_relief_diameter": 4.0,
+  "frame_wall_thickness": 3.5,
+  "frame_top_z": 11.4,
+  "entry_chamfer": 0.6,
+  "entry_chamfer_degrees": 45,
+  "support_ledge_width_inside_pcb_edge": 2.0,
+  "agnd_xy_kicad": [
+    77.0,
+    10.0
+  ],
+  "agnd_pad_diameter": 1.5,
+  "pogo_barrel_diameter": 2.0,
+  "pogo_tip_diameter": 1.5,
+  "pogo_free_length": 33.0,
+  "pogo_fully_compressed_length": 25.7,
+  "nominal_compression": 2.0,
+  "pogo_bore": 2.2,
+  "arm_bottom_z": 25.0,
+  "arm_thickness": 10.0,
+  "arm_mount_xy_kicad": [
+    [
+      71.0,
+      -7.0
+    ],
+    [
+      83.0,
+      -7.0
+    ]
+  ],
+  "arm_mount_bore": 3.4,
+  "register_boss_diameter": 6.0,
+  "register_socket_diameter": 6.4,
+  "register_height": 2.0,
+  "register_socket_depth": 2.2,
+  "clamp_split": 0.8,
+  "clamp_screw_x": 82.5,
+  "clamp_screw_z": 30.0,
+  "clamp_bore": 3.4,
+  "clamp_screw_length": 12.0,
+  "arm_front_kicad_y": 14.0,
+  "m3_nut_slot_width": 5.8,
+  "m3_nut_slot_thickness": 2.7,
+  "base_bounds_kicad": [
+    -7,
+    93,
+    -15,
+    69
+  ]
+}

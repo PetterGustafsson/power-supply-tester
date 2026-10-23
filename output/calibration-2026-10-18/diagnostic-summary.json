@@ -1,0 +1,170 @@
+{
+  "port": "/dev/cu.usbmodem58760426031",
+  "seconds": 20,
+  "sample_count": 439,
+  "valid_samples": 4,
+  "invalid_samples": 435,
+  "states": {
+    "ADC_FAULT": 435,
+    "FINISH_CAL": 4
+  },
+  "calibration_performed": false,
+  "raw_adc_channels_V": [
+    {
+      "channel": 1,
+      "mean": 0.60791325,
+      "minimum": 0.607891,
+      "maximum": 0.607926
+    },
+    {
+      "channel": 2,
+      "mean": 0.581134,
+      "minimum": 0.581129,
+      "maximum": 0.581141
+    },
+    {
+      "channel": 3,
+      "mean": 0.581127,
+      "minimum": 0.581121,
+      "maximum": 0.581137
+    },
+    {
+      "channel": 4,
+      "mean": 0.581098,
+      "minimum": 0.581086,
+      "maximum": 0.581102
+    },
+    {
+      "channel": 5,
+      "mean": 0.5810919999999999,
+      "minimum": 0.581086,
+      "maximum": 0.581102
+    },
+    {
+      "channel": 6,
+      "mean": 0.581117,
+      "minimum": 0.581109,
+      "maximum": 0.581129
+    },
+    {
+      "channel": 7,
+      "mean": 0.58110075,
+      "minimum": 0.581094,
+      "maximum": 0.581109
+    },
+    {
+      "channel": 8,
+      "mean": 0.581085,
+      "minimum": 0.581078,
+      "maximum": 0.58109
+    },
+    {
+      "channel": 9,
+      "mean": 0.581009,
+      "minimum": 0.581,
+      "maximum": 0.58102
+    },
+    {
+      "channel": 10,
+      "mean": 0.5810329999999999,
+      "minimum": 0.581023,
+      "maximum": 0.581043
+    },
+    {
+      "channel": 11,
+      "mean": 0.5810234999999999,
+      "minimum": 0.58102,
+      "maximum": 0.581031
+    },
+    {
+      "channel": 12,
+      "mean": 0.5810029999999999,
+      "minimum": 0.580996,
+      "maximum": 0.581008
+    }
+  ],
+  "last_valid_sample": {
+    "sequence": 408,
+    "valid": 1,
+    "adc": [
+      0.607926,
+      0.581141,
+      0.581121,
+      0.581102,
+      0.581102,
+      0.581129,
+      0.581098,
+      0.581086,
+      0.58102,
+      0.581043,
+      0.58102,
+      0.581
+    ],
+    "reference": [
+      0.581082,
+      0.581102,
+      0.58109,
+      0.581102
+    ],
+    "state": 5,
+    "positive_mask": 0,
+    "return_mask": 0,
+    "unknown_mask": 4095,
+    "supply_volts": 0.0
+  },
+  "raw_reference_V": [
+    {
+      "phase": 0,
+      "mean": 0.5810759999999999,
+      "minimum": 0.581066,
+      "maximum": 0.581082
+    },
+    {
+      "phase": 1,
+      "mean": 0.58109,
+      "minimum": 0.581082,
+      "maximum": 0.581102
+    },
+    {
+      "phase": 2,
+      "mean": 0.581091,
+      "minimum": 0.581086,
+      "maximum": 0.581094
+    },
+    {
+      "phase": 3,
+      "mean": 0.581095,
+      "minimum": 0.581086,
+      "maximum": 0.581102
+    }
+  ],
+  "i2c_addresses_seen": [
+    "0x6B"
+  ],
+  "bus_and_error_lines": [
+    "BUS_LEVELS SDA=1 SCL=1 clock=100000",
+    "I2C_SCAN_END devices=1 adc_addresses=0 expected_adc_addresses=4",
+    "ADC_WRITE_ERROR address=0x48 register=1 error=4 SDA=1 SCL=1",
+    "ADC_WRITE_ERROR address=0x48 register=1 error=4 SDA=1 SCL=1",
+    "ADC_WRITE_ERROR address=0x48 register=1 error=4 SDA=1 SCL=1",
+    "ADC_WRITE_ERROR address=0x48 register=1 error=4 SDA=1 SCL=1",
+    "ADC_WRITE_ERROR address=0x48 register=1 error=4 SDA=1 SCL=1",
+    "ADC_WRITE_ERROR address=0x48 register=1 error=4 SDA=1 SCL=1",
+    "ADC_WRITE_ERROR address=0x48 register=1 error=4 SDA=1 SCL=1",
+    "ADC_WRITE_ERROR address=0x48 register=1 error=4 SDA=1 SCL=1",
+    "ADC_WRITE_ERROR address=0x48 register=1 error=4 SDA=1 SCL=1",
+    "ADC_WRITE_ERROR address=0x48 register=1 error=4 SDA=1 SCL=1",
+    "ADC_WRITE_ERROR address=0x48 register=1 error=4 SDA=1 SCL=1",
+    "ADC_WRITE_ERROR address=0x48 register=1 error=4 SDA=1 SCL=1",
+    "ADC_WRITE_ERROR address=0x48 register=1 error=4 SDA=1 SCL=1",
+    "ADC_WRITE_ERROR address=0x48 register=1 error=4 SDA=1 SCL=1",
+    "ADC_WRITE_ERROR address=0x48 register=1 error=4 SDA=1 SCL=1",
+    "ADC_WRITE_ERROR address=0x48 register=1 error=4 SDA=1 SCL=1",
+    "BUS_LEVELS SDA=1 SCL=1 clock=100000",
+    "I2C_SCAN_END devices=1 adc_addresses=0 expected_adc_addresses=4",
+    "BUS_LEVELS SDA=1 SCL=1 clock=100000",
+    "I2C_SCAN_END devices=1 adc_addresses=0 expected_adc_addresses=4",
+    "BUS_LEVELS SDA=1 SCL=1 clock=100000",
+    "I2C_SCAN_END devices=1 adc_addresses=0 expected_adc_addresses=4"
+  ]
+}

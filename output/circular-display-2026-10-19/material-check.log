@@ -1,0 +1,1 @@
+PASS: every pixel outside radius 85 matches original connector artwork after RGB565 conversion in all rendered states. Source asset and all firmware files except renderer unchanged.

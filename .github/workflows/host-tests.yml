@@ -1,0 +1,23 @@
+name: Host firmware tests
+
+on:
+  push:
+  pull_request:
+
+jobs:
+  firmware-logic:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: python -m pip install Pillow
+      - name: Preview detection guards
+        run: |
+          clang++ -std=c++17 -O2 hardware/rev-d/scripts/test_preview_detection.cpp -o /tmp/tester-preview
+          /tmp/tester-preview
+      - name: Actual sketch with simulated hardware
+        run: python hardware/rev-d/scripts/test_integration.py
+      - name: Calibration command parser
+        run: python hardware/rev-d/scripts/test_calibration_commands.py

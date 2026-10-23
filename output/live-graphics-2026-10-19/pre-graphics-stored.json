@@ -1,0 +1,26 @@
+{
+  "gains": {
+    "1": 427.9315796,
+    "2": 427.9315796,
+    "3": 427.9315796,
+    "4": 427.9315796,
+    "5": 427.9315796,
+    "6": 427.9315796,
+    "7": 427.9315796,
+    "8": 427.9315796,
+    "9": 427.9315796,
+    "10": 427.9315796,
+    "11": 427.9315796,
+    "12": 427.9315796
+  },
+  "device_mask": 4095,
+  "copied_mask": 4094,
+  "shared_source": {
+    "pin": 1,
+    "gain": 427.9315796,
+    "acknowledgement": "CAL_COPIED source=1 gain=427.9315796 mask=FFF copied_mask=FFE",
+    "saved_at": "2026-10-19T20:57:20.123351+00:00",
+    "provenance": "Existing measured INP1 calibration; gain copied to INP2\u2013INP12. Separate open-input baselines retained."
+  },
+  "updated_at": "2026-10-19T20:57:20.123761+00:00"
+}

@@ -1,0 +1,62 @@
+{
+  "observed_at_utc": "2026-10-19T04:07:54.076237+00:00",
+  "sample_count": 307,
+  "valid_samples": 299,
+  "invalid_samples": 8,
+  "invalid_sequences": [
+    2,
+    4,
+    8,
+    9,
+    10,
+    11,
+    15,
+    16
+  ],
+  "latest_consecutive_valid_samples": 290,
+  "calibration_commands_sent": true,
+  "commands": [
+    "cal0 2"
+  ],
+  "latest_state": {
+    "pid": 79759,
+    "port": "/dev/cu.usbmodem58760426031",
+    "pending_pin": 2,
+    "pending_low_point_valid": true,
+    "console_closed": false,
+    "last_ack": "CAL_LOW_SAVED pin=2; apply known +12V relative to AGND, then calv 2 12.000",
+    "sample": {
+      "sequence": 305,
+      "valid": 1,
+      "raw_V": [
+        0.576254,
+        0.574918,
+        0.576254,
+        0.576215,
+        0.576231,
+        0.576238,
+        0.576219,
+        0.576191,
+        0.576137,
+        0.576156,
+        0.576145,
+        0.576109
+      ],
+      "reference_V": [
+        0.576215,
+        0.576219,
+        0.576219,
+        0.576211
+      ],
+      "state": 5,
+      "positive_mask": 0,
+      "return_mask": 0,
+      "unknown_mask": 4095,
+      "supply_V": 0.0
+    },
+    "updated_at_utc": "2026-10-19T04:07:53.571606+00:00",
+    "last_command": "cal0 2",
+    "last_ack_at_utc": "2026-10-19T04:06:40.302875+00:00"
+  },
+  "serial_console_kept_open": true
+}

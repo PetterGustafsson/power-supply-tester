@@ -1,0 +1,28 @@
+{
+  "result": "Flashed and booted on connected Rev D ESP32-S3 tester",
+  "device_port": "/dev/cu.usbmodem58760426031",
+  "asset_address": "0x610000",
+  "asset_bytes": 8701656,
+  "asset_sha256": "f1d4ca13430216b6e73e3e5d080532fe682fad5f20305385c50c91dd5fc71738",
+  "asset_flash_hash_verified": true,
+  "calibration_nvs_address": "0x9000",
+  "calibration_nvs_sha256": "8a5341d1f106b87f235d344573af6b65abea7f1d83bea8387a4c41e6df13667e",
+  "calibration_nvs_unchanged": true,
+  "source_fps": 50,
+  "observed_fps_by_mode": {
+    "full": [
+      46.8,
+      46.3
+    ],
+    "helix": [
+      49.8
+    ],
+    "storm": [
+      49.6,
+      49.3
+    ]
+  },
+  "final_mode": "full",
+  "voltage_and_pin_states": "simulated art; not live measurements",
+  "flash_pattern": "cold-to-gold directional ooze on every powered pair"
+}

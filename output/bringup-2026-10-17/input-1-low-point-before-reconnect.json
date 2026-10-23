@@ -1,0 +1,8 @@
+{
+  "acknowledgement": "CAL_LOW_SAVED pin=1; apply known +12V relative to AGND, then calv 1 12.000",
+  "recorded_at_utc": "2026-10-18T05:41:24.018232+00:00",
+  "confirmed_setup": "User connected input 1 to AGND; raw ADC shift independently consistent",
+  "console_session": 43576,
+  "persistent": false,
+  "next_step": "Remove the jumper, apply approximately +12 V between input 1 and AGND, and report measured voltage"
+}

@@ -1,0 +1,54 @@
+{
+  "source": "case-cad/cad_I15/PSU_case_I15_print.3mf",
+  "source_sha256": "04e58679ae85b70da791a6a6f26a03a51be729767f736b5938c1f6c0e3814942",
+  "units": "mm",
+  "geometry": "unchanged I15 meshes; individual STLs centered on XY and placed at Z=0",
+  "omitted_object": "I15_shim",
+  "replacement": "2 mm foam pad",
+  "parts": [
+    {
+      "name": "I15_base",
+      "file": "I15_base_print.stl",
+      "triangles": 23314,
+      "size_mm": [
+        108.0,
+        96.0,
+        25.5
+      ],
+      "sha256": "b263906f410ed0cfd9173215e67d0608eb12b07fcca61f880af742fc3bb1e7fd"
+    },
+    {
+      "name": "I15_top",
+      "file": "I15_top_print.stl",
+      "triangles": 80232,
+      "size_mm": [
+        108.0,
+        96.0,
+        67.6071
+      ],
+      "sha256": "fd6fa64a32fafe310f7fbaa3fedac7381606977c00ffb5bd25dae8475e87c235"
+    },
+    {
+      "name": "I15_crown",
+      "file": "I15_crown_print.stl",
+      "triangles": 15168,
+      "size_mm": [
+        40.7,
+        40.692,
+        2.8
+      ],
+      "sha256": "2cbe82786c011ec61556a92d54d91445dd7574dbf4c01db6d7cb4b75190e1e08"
+    },
+    {
+      "name": "I15_retainer",
+      "file": "I15_retainer_print.stl",
+      "triangles": 3738,
+      "size_mm": [
+        36.8,
+        39.9996,
+        7.5
+      ],
+      "sha256": "53bf62d2f561a7e2f831f16bb75655ca42ceb0ef2c28ca602b4e92e63c993a07"
+    }
+  ]
+}

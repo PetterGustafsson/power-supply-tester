@@ -1,0 +1,32 @@
+test_all_zeros_before_any_high_and_exact_meter_reference (test_server.ControllerTests.test_all_zeros_before_any_high_and_exact_meter_reference) ... ok
+test_boot_does_not_silently_discard_saved_zeros (test_server.ControllerTests.test_boot_does_not_silently_discard_saved_zeros) ... ok
+test_changing_connections_are_distinct_from_adc_faults (test_server.ControllerTests.test_changing_connections_are_distinct_from_adc_faults) ... ok
+test_complete_two_passes_and_live_pair_reading (test_server.ControllerTests.test_complete_two_passes_and_live_pair_reading) ... ok
+test_error_timeout_and_reconnect_never_resend_capture (test_server.ControllerTests.test_error_timeout_and_reconnect_never_resend_capture) ... ok
+test_high_cannot_start_before_all_zeros (test_server.ControllerTests.test_high_cannot_start_before_all_zeros) ... ok
+test_high_ranges_and_wrong_signal_rejected (test_server.ControllerTests.test_high_ranges_and_wrong_signal_rejected) ... ok
+test_low_requires_meter_confirmation_and_selected_connection (test_server.ControllerTests.test_low_requires_meter_confirmation_and_selected_connection) ... ok
+test_new_pass_clears_only_device_batch_metadata (test_server.ControllerTests.test_new_pass_clears_only_device_batch_metadata) ... ok
+test_old_firmware_and_missing_baseline_are_blocked (test_server.ControllerTests.test_old_firmware_and_missing_baseline_are_blocked) ... ok
+test_only_matching_pin_and_batch_ack_advances (test_server.ControllerTests.test_only_matching_pin_and_batch_ack_advances) ... ok
+test_other_inputs_must_be_open (test_server.ControllerTests.test_other_inputs_must_be_open) ... ok
+test_preview_uses_selected_inputs_own_zero (test_server.ControllerTests.test_preview_uses_selected_inputs_own_zero) ... ok
+test_reconnect_retains_zeros_but_requires_device_verification (test_server.ControllerTests.test_reconnect_retains_zeros_but_requires_device_verification) ... ok
+test_server_reload_restores_points_then_verifies_device (test_server.ControllerTests.test_server_reload_restores_points_then_verifies_device) ... ok
+test_stale_faulted_and_changing_readings_block_capture (test_server.ControllerTests.test_stale_faulted_and_changing_readings_block_capture) ... ok
+test_stale_form_cannot_capture_a_different_input_or_pass (test_server.ControllerTests.test_stale_form_cannot_capture_a_different_input_or_pass) ... ok
+test_start_preserves_existing_gains (test_server.ControllerTests.test_start_preserves_existing_gains) ... ok
+test_wrong_device_pass_or_missing_device_zeros_blocks_capture (test_server.ControllerTests.test_wrong_device_pass_or_missing_device_zeros_blocks_capture) ... ok
+test_commands_require_token_and_same_origin (test_server.HTTPTests.test_commands_require_token_and_same_origin) ... ok
+test_live_json_and_assets_served (test_server.HTTPTests.test_live_json_and_assets_served) ... ok
+test_copy_records_provenance_only_after_device_ack (test_server.SharedGainTests.test_copy_records_provenance_only_after_device_ack) ... ok
+test_copy_requires_supported_firmware_and_measured_source (test_server.SharedGainTests.test_copy_requires_supported_firmware_and_measured_source) ... ok
+test_invalid_or_stale_check_not_recorded (test_server.SharedGainTests.test_invalid_or_stale_check_not_recorded) ... ok
+test_supply_check_passes_with_matching_voltage_and_direction (test_server.SharedGainTests.test_supply_check_passes_with_matching_voltage_and_direction) ... ok
+test_test_mode_and_copied_flags_survive_reload (test_server.SharedGainTests.test_test_mode_and_copied_flags_survive_reload) ... ok
+test_voltage_or_polarity_failures_are_recorded_without_adjustment (test_server.SharedGainTests.test_voltage_or_polarity_failures_are_recorded_without_adjustment) ... ok
+
+----------------------------------------------------------------------
+Ran 27 tests in 1.433s
+
+OK

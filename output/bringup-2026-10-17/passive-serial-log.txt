@@ -1,0 +1,25 @@
+ESP-ROM:esp32s3-20210327
+Build:Mar 27 2021
+rst:0x1 (POWERON),boot:0x18 (SPI_FAST_FLASH_BOOT)
+SPIWP:0xee
+mode:DIO, clock div:1
+load:0x3fce2820,len:0x10cc
+load:0x403c8700,len:0xc2c
+load:0x403cb700,len:0x30c0
+entry 0x403c88b8
+ConnectorDisplay: simulated voltage rise/drop, alternating success/failure
+DISPLAY_READY: 240x240 RGB565, 10 fps, 1474428 animation bytes
+ANIMATION_STATE: GREEN_SUCCESS
+SIMULATED_VOLTAGE state=0 millivolts=2000 stage=RISING
+SIMULATED_VOLTAGE state=0 millivolts=24000 stage=HOLD
+SIMULATED_VOLTAGE state=0 millivolts=0 stage=DROP
+DISPLAY_ALIVE frames=46 render_ms=15 free_heap=231952
+SIMULATED_VOLTAGE state=1 millivolts=0 stage=IDLE
+ANIMATION_STATE: RED_FAILURE
+SIMULATED_VOLTAGE state=1 millivolts=2000 stage=RISING
+SIMULATED_VOLTAGE state=1 millivolts=24000 stage=HOLD
+SIMULATED_VOLTAGE state=1 millivolts=0 stage=DROP
+DISPLAY_ALIVE frames=96 render_ms=15 free_heap=231952
+SIMULATED_VOLTAGE state=0 millivolts=0 stage=IDLE
+ANIMATION_STATE: GREEN_SUCCESS
+SIMULATED_VOLTAGE state=0 millivolts=2000 stage=RISING

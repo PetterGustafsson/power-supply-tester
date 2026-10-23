@@ -1,0 +1,59 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>D2 calibration · Power supply tester</title>
+  <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+<main class="app">
+  <header class="topbar">
+    <div class="brand"><span class="brand-mark" aria-hidden="true">12</span><div><strong>Power supply tester</strong><span>REV D2 · CALIBRATION</span></div></div>
+    <div class="connection"><span id="health" class="pill waiting">Connecting…</span><span id="freshness">Waiting for USB readings</span></div>
+  </header>
+  <section class="intro">
+    <div><p id="eyebrow" class="eyebrow">ALL 0 V FIRST · THEN ALL 12 V</p><h1 id="pageTitle">Tester calibration</h1><p id="pageIntro">Two passes across inputs 1–12. Follow the checklist and live readings.</p></div>
+    <div class="intro-actions"><button id="shared" class="button secondary small">Use INP1 gain + test</button><button id="restart" class="button secondary small">Start again from input 1</button></div>
+  </section>
+  <section class="progress-panel" aria-label="Calibration pass progress">
+    <div class="progress-heading"><strong id="progressText">0 V: 0 / 12 · 12 V: 0 / 12</strong><span id="storedText">Existing values stay saved until replaced</span></div>
+    <div id="pins" class="pins"></div>
+  </section>
+  <div id="error" class="alert" role="alert" hidden></div>
+  <div class="workspace">
+    <section class="instruction-panel panel">
+      <div class="panel-heading"><span id="inputLabel" class="input-label">INPUT 1</span><span id="stageCount">0 V PASS · INPUT 1 OF 12</span></div>
+      <div id="stages" class="stages"><span id="stageLow" class="stage active"><b>1</b> All 12 at 0 V</span><span class="stage-line"></span><span id="stageHigh" class="stage"><b>2</b> All 12 at 12 V</span></div>
+      <div id="stepContent"></div>
+      <p id="notice" class="notice" aria-live="polite">Waiting for a live connection…</p>
+    </section>
+    <section class="right-column">
+      <div class="panel board-panel">
+        <div class="panel-heading"><strong>Where to connect</strong><span>Component side · inputs facing you</span></div>
+        <svg id="board" viewBox="225 100 1118 850" role="img" aria-labelledby="boardTitle boardDesc">
+          <title id="boardTitle">Rev D2 PCB calibration connections</title>
+          <desc id="boardDesc">Supply positive connects to input 1; supply negative stays on the AGND pad at the upper right.</desc>
+          <image href="/board.png" x="0" y="0" width="1568" height="1064"/>
+          <g id="groundTarget"><circle cx="1203" cy="273" r="29" class="halo"/><circle cx="1203" cy="273" r="29" class="ground-ring"/><path d="M1203 238 V159 H1110" class="ground-leader"/><rect x="1008" y="109" width="282" height="50" rx="12" class="ground-tag"/><text x="1149" y="143" class="tag-text">−  AGND PAD / POGO</text></g>
+          <g id="inputTarget"><circle id="inputHalo" cx="583" cy="792" r="29" class="halo"/><circle id="inputCircle" cx="583" cy="792" r="29" class="positive-ring"/><path id="inputLeader" d="M583 828 V907" class="positive-leader"/><rect id="inputTag" x="490" y="907" width="186" height="43" rx="10" class="positive-tag"/><text id="inputTagText" x="583" y="938" class="tag-text">+  INP1</text></g>
+          <g id="returnTarget" style="display:none"><circle id="returnHalo" cx="626" cy="792" r="29" class="halo"/><circle id="returnCircle" cx="626" cy="792" r="29" class="ground-ring"/><path id="returnLeader" d="M626 760 V729" class="ground-leader"/><rect id="returnTag" x="533" y="686" width="186" height="43" rx="10" class="ground-tag"/><text id="returnTagText" x="626" y="716" class="tag-text">− INP2</text></g>
+        </svg>
+        <div class="wire-legend"><span><i class="dot positive"></i><b>Red +</b> → <span id="legendPin">INP1</span></span><span><i class="dot negative"></i><b>Black −</b> → <span id="legendReturn">AGND</span></span><span class="usb-note">USB stays connected</span></div>
+      </div>
+      <div class="panel live-panel">
+        <div class="panel-heading"><strong>Live readings</strong><span id="sequence">USB serial</span></div>
+        <div class="readings">
+          <div><p id="voltageLabel" class="reading-label">Voltage preview</p><div class="big-reading"><span id="preview">—</span><span class="unit">V</span></div><p id="previewHelp" class="reading-help">Available after capturing the 0 V point.</p></div>
+          <div class="adc-reading"><p class="reading-label">ADC node · internal</p><div><strong id="adc">—</strong><span class="unit">V</span></div><p class="reading-help">About 0.58 V is normal here.</p></div>
+        </div>
+        <div class="chart-heading"><span>Live ADC signal</span><span id="signal">— mV</span></div>
+        <svg id="chart" viewBox="0 0 600 120" role="img" aria-label="ADC signal over the last sixty seconds"><path id="chartGrid" d="M42 15H586 M42 55H586 M42 95H586"/><path id="chartLine" d=""/><text id="chartMax" x="0" y="20">—</text><text id="chartMin" x="0" y="100">—</text><text x="42" y="117">−60 s</text><text x="556" y="117">now</text></svg>
+      </div>
+    </section>
+  </div>
+  <section id="testResults" class="panel channel-panel" hidden><strong>Supply checks</strong><p class="meter-hint">Target: voltage error within ±0.10 V and correct polarity. Passing a check does not change the copied-gain label.</p><div class="table-wrap"><table><thead><tr><th>Connections</th><th>Meter</th><th>Tester</th><th>Error</th><th>Result</th></tr></thead><tbody id="checkRows"></tbody></table></div></section>
+  <details class="panel channel-panel"><summary>All twelve live ADC channels</summary><div class="table-wrap"><table><thead><tr><th>Input</th><th>ADC node (V)</th><th>Signal (mV)</th><th>Saved on tester</th><th>This pass</th></tr></thead><tbody id="channelRows"></tbody></table></div></details>
+  <footer><span>Manual bench-supply controls · local USB connection · progress saved on tester</span><a href="/api/export" target="_blank" rel="noopener">Calibration record</a></footer>
+</main>
+<script src="/app.js"></script>
+</body></html>

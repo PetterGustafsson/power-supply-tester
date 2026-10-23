@@ -1,0 +1,140 @@
+{
+  "port": "/dev/cu.usbmodem58760426031",
+  "seconds": 20,
+  "sample_count": 38,
+  "valid_samples": 38,
+  "invalid_samples": 0,
+  "states": {
+    "FINISH_CAL": 38
+  },
+  "calibration_performed": false,
+  "raw_adc_channels_V": [
+    {
+      "channel": 1,
+      "mean": 0.5765120263157895,
+      "minimum": 0.576488,
+      "maximum": 0.576543
+    },
+    {
+      "channel": 2,
+      "mean": 0.5765177105263158,
+      "minimum": 0.576496,
+      "maximum": 0.576547
+    },
+    {
+      "channel": 3,
+      "mean": 0.5765104736842105,
+      "minimum": 0.576488,
+      "maximum": 0.576535
+    },
+    {
+      "channel": 4,
+      "mean": 0.5764827894736843,
+      "minimum": 0.576461,
+      "maximum": 0.576508
+    },
+    {
+      "channel": 5,
+      "mean": 0.5764771052631579,
+      "minimum": 0.576453,
+      "maximum": 0.5765
+    },
+    {
+      "channel": 6,
+      "mean": 0.5764819736842105,
+      "minimum": 0.576453,
+      "maximum": 0.576516
+    },
+    {
+      "channel": 7,
+      "mean": 0.5764635,
+      "minimum": 0.576441,
+      "maximum": 0.576492
+    },
+    {
+      "channel": 8,
+      "mean": 0.5764449736842105,
+      "minimum": 0.576414,
+      "maximum": 0.576473
+    },
+    {
+      "channel": 9,
+      "mean": 0.5763947368421053,
+      "minimum": 0.576375,
+      "maximum": 0.576422
+    },
+    {
+      "channel": 10,
+      "mean": 0.5764024473684211,
+      "minimum": 0.576379,
+      "maximum": 0.576426
+    },
+    {
+      "channel": 11,
+      "mean": 0.5763923421052631,
+      "minimum": 0.576371,
+      "maximum": 0.576418
+    },
+    {
+      "channel": 12,
+      "mean": 0.5763700263157895,
+      "minimum": 0.57634,
+      "maximum": 0.576398
+    }
+  ],
+  "last_valid_sample": {
+    "sequence": 37,
+    "valid": 1,
+    "adc": [
+      0.576504,
+      0.576504,
+      0.576488,
+      0.576465,
+      0.576461,
+      0.576465,
+      0.576441,
+      0.576422,
+      0.576379,
+      0.576391,
+      0.576371,
+      0.576348
+    ],
+    "reference": [
+      0.576445,
+      0.576453,
+      0.576445,
+      0.576438
+    ],
+    "state": 5,
+    "positive_mask": 0,
+    "return_mask": 0,
+    "unknown_mask": 4095,
+    "supply_volts": 0.0
+  },
+  "raw_reference_V": [
+    {
+      "phase": 0,
+      "mean": 0.5764600263157895,
+      "minimum": 0.576438,
+      "maximum": 0.576488
+    },
+    {
+      "phase": 1,
+      "mean": 0.5764642894736842,
+      "minimum": 0.576441,
+      "maximum": 0.576488
+    },
+    {
+      "phase": 2,
+      "mean": 0.5764640263157895,
+      "minimum": 0.576445,
+      "maximum": 0.576496
+    },
+    {
+      "phase": 3,
+      "mean": 0.5764660789473685,
+      "minimum": 0.576438,
+      "maximum": 0.576504
+    }
+  ]
+}

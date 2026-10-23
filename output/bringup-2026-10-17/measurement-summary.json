@@ -1,0 +1,11 @@
+{
+  "port": "/dev/cu.usbmodem58760426031",
+  "seconds": 20,
+  "sample_count": 522,
+  "valid_samples": 0,
+  "invalid_samples": 522,
+  "states": {
+    "ADC_FAULT": 522
+  },
+  "calibration_performed": false
+}

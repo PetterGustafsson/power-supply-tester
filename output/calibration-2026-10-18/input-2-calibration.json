@@ -1,0 +1,15 @@
+{
+  "pin": 2,
+  "gain": 427.1662292,
+  "command": "calv 2 11.98",
+  "acknowledgement": "CAL_SAVED pin=2 gain=427.1662292 mask=003",
+  "saved_at_utc": "2026-10-19T04:11:13.945711+00:00",
+  "reference_voltage_V": 11.98,
+  "reference_source": "User-reported multimeter reading between INP2 and AGND",
+  "supply_display_voltage_V": 12.0,
+  "low_point_meter_voltage_V": 0.0,
+  "low_point_file": "../calibration-2026-10-18/input-2-low-point.json",
+  "saved_to_device_NVS": true,
+  "persistence_after_restart_tested": false,
+  "console_session": 49904
+}

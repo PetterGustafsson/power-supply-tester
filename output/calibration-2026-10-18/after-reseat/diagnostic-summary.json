@@ -1,0 +1,157 @@
+{
+  "port": "/dev/cu.usbmodem58760426031",
+  "seconds": 20,
+  "sample_count": 37,
+  "valid_samples": 37,
+  "invalid_samples": 0,
+  "states": {
+    "FINISH_CAL": 37
+  },
+  "calibration_performed": false,
+  "raw_adc_channels_V": [
+    {
+      "channel": 1,
+      "mean": 0.6078075675675676,
+      "minimum": 0.607781,
+      "maximum": 0.60784
+    },
+    {
+      "channel": 2,
+      "mean": 0.581137,
+      "minimum": 0.581113,
+      "maximum": 0.58116
+    },
+    {
+      "channel": 3,
+      "mean": 0.5811289189189189,
+      "minimum": 0.581098,
+      "maximum": 0.581152
+    },
+    {
+      "channel": 4,
+      "mean": 0.5811024864864864,
+      "minimum": 0.58107,
+      "maximum": 0.581133
+    },
+    {
+      "channel": 5,
+      "mean": 0.5810977837837837,
+      "minimum": 0.58107,
+      "maximum": 0.581133
+    },
+    {
+      "channel": 6,
+      "mean": 0.581115972972973,
+      "minimum": 0.58109,
+      "maximum": 0.581145
+    },
+    {
+      "channel": 7,
+      "mean": 0.5810992432432432,
+      "minimum": 0.58107,
+      "maximum": 0.581125
+    },
+    {
+      "channel": 8,
+      "mean": 0.5810802972972973,
+      "minimum": 0.581055,
+      "maximum": 0.581105
+    },
+    {
+      "channel": 9,
+      "mean": 0.581008027027027,
+      "minimum": 0.580984,
+      "maximum": 0.581031
+    },
+    {
+      "channel": 10,
+      "mean": 0.5810271891891892,
+      "minimum": 0.581,
+      "maximum": 0.581055
+    },
+    {
+      "channel": 11,
+      "mean": 0.5810184054054054,
+      "minimum": 0.580988,
+      "maximum": 0.581039
+    },
+    {
+      "channel": 12,
+      "mean": 0.5809947837837838,
+      "minimum": 0.580969,
+      "maximum": 0.581023
+    }
+  ],
+  "last_valid_sample": {
+    "sequence": 36,
+    "valid": 1,
+    "adc": [
+      0.607809,
+      0.581137,
+      0.581117,
+      0.58109,
+      0.58109,
+      0.581113,
+      0.581098,
+      0.581066,
+      0.580996,
+      0.581027,
+      0.581016,
+      0.580988
+    ],
+    "reference": [
+      0.58107,
+      0.581086,
+      0.581082,
+      0.58109
+    ],
+    "state": 5,
+    "positive_mask": 0,
+    "return_mask": 0,
+    "unknown_mask": 4095,
+    "supply_volts": 0.0
+  },
+  "raw_reference_V": [
+    {
+      "phase": 0,
+      "mean": 0.5810760810810811,
+      "minimum": 0.581051,
+      "maximum": 0.581102
+    },
+    {
+      "phase": 1,
+      "mean": 0.5810881891891891,
+      "minimum": 0.581063,
+      "maximum": 0.581113
+    },
+    {
+      "phase": 2,
+      "mean": 0.5810882432432433,
+      "minimum": 0.581059,
+      "maximum": 0.581113
+    },
+    {
+      "phase": 3,
+      "mean": 0.5810883513513514,
+      "minimum": 0.581059,
+      "maximum": 0.581113
+    }
+  ],
+  "i2c_addresses_seen": [
+    "0x48",
+    "0x49",
+    "0x4A",
+    "0x4B",
+    "0x6B"
+  ],
+  "bus_and_error_lines": [
+    "BUS_LEVELS SDA=1 SCL=1 clock=100000",
+    "I2C_SCAN_END devices=5 adc_addresses=4 expected_adc_addresses=4",
+    "BUS_LEVELS SDA=1 SCL=1 clock=100000",
+    "I2C_SCAN_END devices=5 adc_addresses=4 expected_adc_addresses=4",
+    "BUS_LEVELS SDA=1 SCL=1 clock=100000",
+    "I2C_SCAN_END devices=5 adc_addresses=4 expected_adc_addresses=4",
+    "BUS_LEVELS SDA=1 SCL=1 clock=100000",
+    "I2C_SCAN_END devices=5 adc_addresses=4 expected_adc_addresses=4"
+  ]
+}

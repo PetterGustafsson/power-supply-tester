@@ -1,0 +1,48 @@
+{
+  "status": "installed; operator-confirmed working",
+  "device_port": "/dev/cu.usbmodem58760426031",
+  "app_address": "0x10000",
+  "app_sha256": "f687a80398e25b182a505df70b36d92d746b00abc2a1e4641c8080f3337a8aff",
+  "app_flash_hash_verified": true,
+  "artwork_rewritten": false,
+  "calibration_status": "CAL_STATUS protocol=2 batch=6633B2B2 low_mask=007 done_mask=000 mask=FFF zero=1 copied_mask=FFE",
+  "nvs_backup_sha256": "8a5341d1f106b87f235d344573af6b65abea7f1d83bea8387a4c41e6df13667e",
+  "nvs_last_verified_byte_match": true,
+  "latest_boot_check": {
+    "first_detection_ms": 733,
+    "insertion_ms": [
+      983
+    ],
+    "capture_seconds": 20,
+    "withdrawals": 0,
+    "display_errors": []
+  },
+  "host_tests": {
+    "preview_detection": "passed; noisy two- and four-pin, continuous confirmation, offset, missing contacts, polarity, range and fault guards",
+    "sketch_integration": "passed",
+    "calibration_commands": "passed"
+  },
+  "strict_csv_stability_guard_V": 0.25,
+  "powered_physical_capture_csv_valid": false,
+  "source_sha256": {
+    "Tester12VRevD.ino": "76f781b724d0d84b6ab910ee54f1351ad334f6a21bd22c37ce9550750338fb45",
+    "PreviewDetection.h": "e9a476f2a5fc6ead335e209e4dd17dc851a7f9dc2a3cd6492c998bf21b5b8cbb",
+    "Measurement.h": "31e11ec43b4f306aefbd3bb6a509e6f50c3fdf928c6ff3f71aa393cfb5844244",
+    "LiveOptics.h": "1b8c5a4c87d161faeb2523f2eab40c3614cc889b3cad876eeadcfab43c5314ed",
+    "CalibrationBatch.h": "1fb632bf64b07be83c1ffe07d395bd79819d5489e33c02d0e492ea1695229915"
+  },
+  "operator_confirmation": {
+    "date": "2026-10-23",
+    "replug_response": "Yes, about 1\u20132 seconds and steady",
+    "final_feedback": "Works well, stop"
+  },
+  "physical_replug_observed": {
+    "pair": "001/002",
+    "first_signal_ms": 24493,
+    "preview_confirmed_ms": 25275,
+    "detection_ms": 782,
+    "insertion_ms": 966,
+    "combined_ms": 1748,
+    "source": "final tester serial stream during operator replug; operator confirmed the LCD"
+  }
+}

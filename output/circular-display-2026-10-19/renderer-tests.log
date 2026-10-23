@@ -1,0 +1,1 @@
+PASS: production renderer; tabular voltage digits, kerning, no time-based effects, cached/fresh equality and fallback, antialiasing, bounds, state clearing and invalid masks.

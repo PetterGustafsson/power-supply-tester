@@ -1,10 +1,12 @@
 """Compile without flashing and record reproducible source/binary hashes."""
 from pathlib import Path
-import hashlib,json,subprocess
+import hashlib,json,subprocess,os,shutil,tempfile
 ROOT=Path(__file__).resolve().parent
-CLI='/Applications/Arduino IDE.app/Contents/Resources/app/lib/backend/resources/arduino-cli'
+CLI=os.environ.get('ARDUINO_CLI') or shutil.which('arduino-cli')
+if not CLI:raise SystemExit('Install arduino-cli or set ARDUINO_CLI to its executable path.')
 fqbn='esp32:esp32:esp32s3:FlashSize=16M,PSRAM=enabled,CDCOnBoot=default,PartitionScheme=app3M_fat9M_16MB'
-args=[CLI,'compile','--fqbn',fqbn,'--build-path','/private/tmp/tester12vd-build','--output-dir',str(ROOT/'build'),str(ROOT)]
+scratch=tempfile.TemporaryDirectory(prefix='tester12vd-build-')
+args=[CLI,'compile','--fqbn',fqbn,'--build-path',scratch.name,'--output-dir',str(ROOT/'build'),str(ROOT)]
 r=subprocess.run(args,capture_output=True,text=True)
 log=ROOT.parents[1]/'hardware/rev-d/validation/firmware-build.log'
 log.write_text('Command: '+repr(args)+'\nExit code: '+str(r.returncode)+'\n'+r.stdout+r.stderr)

@@ -1,0 +1,34 @@
+{
+ "stl/I9_top_world.stl": {
+  "samples": 12935,
+  "wall_min_outside_seat": 1.81,
+  "at": [
+   35.9,
+   29.8,
+   47.4
+  ],
+  "p1": 1.85,
+  "below_1p6_outside_seat": 0,
+  "seat_zone_below_1p6": 78,
+  "seat_zone_thin_radius_range": [
+   18.53,
+   21.32
+  ]
+ },
+ "../cad_I8/stl/I8_top_world.stl": {
+  "samples": 12796,
+  "wall_min_outside_seat": 1.83,
+  "at": [
+   35.9,
+   29.0,
+   47.4
+  ],
+  "p1": 1.85,
+  "below_1p6_outside_seat": 0,
+  "seat_zone_below_1p6": 160,
+  "seat_zone_thin_radius_range": [
+   18.51,
+   21.39
+  ]
+ }
+}

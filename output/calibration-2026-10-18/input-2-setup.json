@@ -1,0 +1,36 @@
+{
+  "low_point_meter_reading_V": 0.0,
+  "source": "User-reported multimeter reading: 0.00",
+  "confirmed_setup": "Positive on INP2, negative on AGND, other numbered inputs open; supply enabled at 0.00 V as requested",
+  "before_capture_sample": {
+    "sequence": 156,
+    "valid": 1,
+    "raw_V": [
+      0.57625,
+      0.574914,
+      0.57625,
+      0.576223,
+      0.576219,
+      0.576231,
+      0.576219,
+      0.576191,
+      0.576141,
+      0.576137,
+      0.576129,
+      0.576113
+    ],
+    "reference_V": [
+      0.576211,
+      0.576195,
+      0.576207,
+      0.576211
+    ],
+    "state": 5,
+    "positive_mask": 0,
+    "return_mask": 0,
+    "unknown_mask": 4095,
+    "supply_V": 0.0
+  },
+  "console_session": 49904,
+  "recorded_at_utc": "2026-10-19T04:06:36.168246+00:00"
+}

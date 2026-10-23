@@ -1,46 +1,125 @@
 # Power supply tester
 
-Hardware, firmware, enclosure designs, and display artwork for a twelve-input DC power supply tester with a round Waveshare ESP32-S3 display.
+**Twelve inputs. One supply. A little theatre on the desk.**
 
-The designated engineering baseline is **Rev D2**, as recorded in [hardware/LATEST-DESIGN.txt](hardware/LATEST-DESIGN.txt). It identifies multiple positive and return pins from one common DC supply. Read the [Rev D2 design guide](hardware/rev-d/README.md) for supported connections, operating limits, wiring, and calibration requirements. Physical prototype testing and manufacturing placement/DFM review remain outstanding.
+Rev D2 measurement PCB · I15 enclosure · ESP32-S3 · 240 × 240 round LCD
 
-## Renderings
+<p align="center">
+  <img src="docs/images/connector-experience.gif" width="300" alt="Animated chrome connector with brass contacts, orange orientation datums and a glowing powered state">
+</p>
 
-**Display, connector, and wiring**
+The tester identifies positive and return contacts from one common DC supply.
+Chrome reflections, brass pins and orange locating keys give the idle display
+its character. Applying voltage starts a one-second optical seating animation,
+followed by live voltage, polarity and animated current artwork. The red Allied
+Vision emblem at six o'clock currently recognizes the **1–2 pair**.
 
-![Round display mounted above the Rev D2 tester PCB, with the white connector, five-wire harness, and USB cable visible](docs/images/power-supply-tester-render.png)
+*The animation above is an artwork preview with illustrative voltage. The device
+uses its ADC readings to drive the live display.*
 
-The round Waveshare display connects to the measurement PCB through the proposed five-wire harness. USB power enters at the display module.
+## The current build
 
-**Board and display assembly**
+The October 23 firmware is the version the operator confirmed working: the
+1–2 cable responds in approximately **1–2 seconds and stays powered**. Source,
+the exact installed application binary, its display asset and build hashes are
+included. [Build and flash guide →](docs/BUILD.md)
 
-![Rev D2 tester PCB beside the round ESP32 display, connected through a five-wire harness and the white J4 connector](output/enclosure-d2/board-and-display-usb-rear-connector-ui.png)
-
-**Rev D2 PCB**
-
-![Rev D2 black PCB with twelve numbered input terminals and the labelled five-pin ESP32 harness connector](hardware/rev-d/previews/pcb-3d.png)
-
-The assembly views combine the Rev D2 board geometry with the display model. Harness routing, enclosure placement, and on-screen readings are illustrative; see the [assembly guide](output/enclosure-d2/assembly-guide.txt) for dimensions and wiring details.
-
-## Start here
-
-- [Hardware and wiring](hardware/rev-d/README.md)
-- [Matching Rev D firmware](firmware/Tester12VRevD/README.md)
-- [Validation record](hardware/rev-d/validation/REPORT.md)
-- [Complete Rev D2 engineering package](hardware/tester12v-rev-d2-engineering-package.zip)
-- [Connector artwork](output/README.md)
-
-## Workspace layout
-
-| Directory | Contents |
+| Part of the project | Start here |
 | --- | --- |
-| `hardware/` | KiCad sources, PCB revisions, manufacturing exports, sourcing, and validation evidence |
-| `firmware/` | ESP32 measurement firmware and earlier display demonstrations |
-| `scripts/` | Connector artwork, animation, rendering, and device utilities |
-| `output/` | Display assets, previews, and enclosure designs |
-| `outputs/` | BOM review workbooks and supporting artifacts |
-| `references/` | Manufacturer drawings and reference models |
+| Enclosure, ready to print | [I15 as-built 3MF and four STLs](case-cad/current/) |
+| Preserved original CAD and earlier revisions | [CAD guide](case-cad/README.md) |
+| Working measurement firmware | [Tester12VRevD source](firmware/Tester12VRevD/) |
+| Exact working firmware + optical asset | [October 23 binary package](firmware/releases/d2-live-2026-10-23/) |
+| PCB schematic, layout, BOM, Gerbers and CPL | [Rev D2 hardware](hardware/rev-d/README.md) |
+| Assembly poster | [A2 PDF](output/pdf/power-supply-tester-final-layout.pdf) · [full-resolution PNG](output/final-layout-poster/power-supply-tester-final-layout.png) |
+| Poster scene and parts list | [Blender scene](output/final-layout-poster/final-layout.blend) · [parts manifest](output/final-layout-poster/parts-manifest.json) |
+| Artwork sources and generation | [Scripts](scripts/) · [art and build guide](docs/BUILD.md#artwork-and-poster) |
+| Calibration and bench testing | [Local calibration UI](tools/calibration-ui/README.txt) · [firmware/calibration guide](firmware/Tester12VRevD/README.md) |
+| Timing, installation and regression evidence | [October 23 record](output/fast-response-2026-10-23/flash-evidence.json) |
 
-Earlier revisions and Rev E development material are retained alongside the designated baseline. Use the matching hardware, firmware, and manufacturing files together; the revision guides describe their compatibility.
+## The assembly
 
-Local tool environments, caches, editor backups, and intermediate animation frames are excluded from version control. Build and regeneration instructions live with the relevant firmware, hardware revision, or artwork. Manufacturer reference material and bundled third-party code retain their original terms and notices.
+![Final component layout: marble shell, charcoal base, orange crown, black display glass, measurement PCB, straight flat USB extender, foam pad, cable and ten black screws](output/final-layout-poster/power-supply-tester-final-layout-preview.png)
+
+| Hardware | Quantity | Use |
+| --- | ---: | --- |
+| M2 × 6 mm, black flat Phillips self-tapping screws | 6 | Four for the PCB, two for the display |
+| M2.5 × 10 mm, black flat Phillips self-tapping screws | 4 | Case |
+| 2 mm foam pad | 1 | USB support |
+| 4-inch soft flat USB-C extension, 90° male to female | 1 | Internal USB connection |
+| Twelve-core HR10A connector cable with ferrule ends | 1 | Twelve sensing inputs |
+| Five-wire display harness | 1 | Display-to-PCB connection |
+| Rubber feet | 4 | Base |
+| Cable tie | 1 | Cable strain relief |
+
+The [as-built print plate](case-cad/current/PSU_case_I15_as_built.3mf) contains
+the base, shell, crown and display retainer. The preserved original I15 package
+also contains the earlier printed shim; the current assembly uses the foam pad.
+The poster shows the display as unpowered black glass and the USB cable straight.
+
+Selected components: [screw assortment](https://www.amazon.com/dp/B0G24Z3P66),
+[USB extension](https://www.amazon.com/dp/B0D9XGFW3W).
+
+## Display art
+
+![Idle, seating, recognized 1–2 pair and other powered pair artwork](output/connector-finished-ui-2026-10-22/experience-states.png)
+
+- **Idle:** numbered brass contacts and orange orientation sheen.
+- **Seating:** optical travel across one second.
+- **Recognized pair:** static red emblem, cold-to-gold discharge and a spectral helix.
+- **Other pairs:** muted crossed emblem with live polarity effects.
+
+The previews show the visual design. The firmware samples 21 travel frames
+across the one-second transition; playback and render timing are recorded in
+the device logs. The electrical overlays illustrate classified polarity.
+
+## Electronics and validation
+
+The non-touch Waveshare ESP32-S3-LCD-1.28 handles the display and measurement
+firmware. Four ADS1115 devices on the isolated measurement PCB provide twelve
+sensing channels and a reference channel. See the
+[hardware guide](hardware/rev-d/README.md) for the supported connection model,
+limits, pin numbering and harness wiring.
+
+The current prototype uses the measured input-1 gain shared with inputs 2–12,
+with copied calibration provenance retained. Complete individual-channel
+calibration and independent accuracy qualification remain in the
+[calibration guide](firmware/Tester12VRevD/README.md). Noisy batches can produce
+a filtered provisional LCD estimate while the strict measurement CSV rejects
+them. The display response improvement preserves that distinction.
+
+## Build and test
+
+```sh
+python3 -m venv .venv
+source .venv/bin/activate
+python -m pip install -r requirements.txt
+
+clang++ -std=c++17 -O2 hardware/rev-d/scripts/test_preview_detection.cpp -o /tmp/tester-preview
+/tmp/tester-preview
+python hardware/rev-d/scripts/test_integration.py
+python hardware/rev-d/scripts/test_calibration_commands.py
+```
+
+These tests use simulated hardware and do not open the tester's USB port.
+Firmware compilation, binary recovery, artwork generation and poster rendering
+are documented in [BUILD.md](docs/BUILD.md).
+
+## Project map
+
+```text
+case-cad/        Current printable enclosure and historical CAD/reference exports
+firmware/        Measurement source, display demos and the working binary package
+hardware/        KiCad sources, manufacturing exports, sourcing and validation
+scripts/         Artwork, optical assets, enclosure export and poster generation
+tools/           Local calibration and supply-test interface
+assets/          Fonts and their license/source records
+docs/            Build guide and README artwork
+output/          Posters, display assets and engineering/test evidence
+references/      Manufacturer drawings and reference material
+```
+
+Historical hardware packages and art studies are retained with their revision
+names. The links in **The current build** identify this prototype's baseline.
+Third-party fonts, code, logos and models retain their original terms; see
+[third-party notices](THIRD_PARTY_NOTICES.md).

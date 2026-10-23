@@ -15,3 +15,20 @@ build/
 
 # Intermediate animation frames; retained scripts regenerate these
 output/*-frames/
+
+# Local work and service state
+tmp/
+.env
+.env.*
+!.env.example
+output/calibration-ui/
+*.elf
+*.map
+
+# CAD review bundles duplicate the source/exports; large STEP assemblies are
+# preserved as .step.gz files. Local mesh scratch directories are reproducible.
+case-cad/*_review.tgz
+case-cad/cad_I*/PSU_case_I*_assembly.step
+case-cad/**/_*/
+case-cad/ref/*_parsed.pkl
+output/**/*.ppm

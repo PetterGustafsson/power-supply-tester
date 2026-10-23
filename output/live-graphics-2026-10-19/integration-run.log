@@ -1,0 +1,2 @@
+PASS: actual sketch acquisition uses all four ADCs; absent reference ADC, timeout, config corruption, invalid reference, serial calibration of all 12 pins, persisted calibration, 1-plus/11-return classification, changing-input rejection, no-voltage and fault display checked.
+

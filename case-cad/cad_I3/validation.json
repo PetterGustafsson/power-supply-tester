@@ -1,0 +1,534 @@
+{
+ "step": {
+  "I3_base": {
+   "solids": 1,
+   "valid": true,
+   "free_edges": 0,
+   "volume_cm3": 41.576,
+   "faces": 306,
+   "surface_types": [
+    "BSPLINE",
+    "CONE",
+    "CYLINDER",
+    "PLANE"
+   ]
+  },
+  "I3_top": {
+   "solids": 1,
+   "valid": true,
+   "free_edges": 0,
+   "volume_cm3": 73.388,
+   "faces": 318,
+   "surface_types": [
+    "BSPLINE",
+    "CONE",
+    "CYLINDER",
+    "PLANE",
+    "SPHERE",
+    "TORUS"
+   ]
+  },
+  "I3_crown": {
+   "solids": 1,
+   "valid": true,
+   "free_edges": 0,
+   "volume_cm3": 0.66,
+   "faces": 9,
+   "surface_types": [
+    "CONE",
+    "CYLINDER",
+    "PLANE",
+    "TORUS"
+   ]
+  },
+  "I3_retainer": {
+   "solids": 1,
+   "valid": true,
+   "free_edges": 0,
+   "volume_cm3": 1.02,
+   "faces": 7,
+   "surface_types": [
+    "CONE",
+    "CYLINDER",
+    "PLANE"
+   ]
+  }
+ },
+ "assembly": {
+  "solids": 20,
+  "labels": [
+   "printed_parts",
+   "I3_base",
+   "I3_top",
+   "I3_crown",
+   "I3_retainer",
+   "reference_bodies_NOT_PRINTED",
+   "REF_PCB_RevD2_board",
+   "REF_PCB_J1_XY350V_4p",
+   "REF_PCB_J2_XY350V_4p",
+   "REF_PCB_J3_XY350V_4p",
+   "REF_PCB_J4_JST_XH5",
+   "REF_PCB_tall_part",
+   "REF_PCB_ic1",
+   "REF_PCB_ic2",
+   "REF_PCB_ic3",
+   "REF_PCB_ic4",
+   "REF_PCB_ic5",
+   "REF_display_ESP32-S3-LCD-1_28",
+   "REF_USB_male_90deg_overmold",
+   "REF_USB_flat_cable_51mm",
+   "REF_USB_female_overmold",
+   "REF_cable_12pin_7mm"
+  ]
+ },
+ "interference_mm3": {
+  "I3_base x I3_top": 0.0,
+  "I3_base x I3_crown": 0.0,
+  "I3_base x I3_retainer": 0.0,
+  "I3_top x I3_crown": 6.494,
+  "I3_top x I3_retainer": 10.61,
+  "I3_crown x I3_retainer": 0.0,
+  "I3_top x REF_USB_female_overmold": 8.424,
+  "I3_top x REF_cable_12pin_7mm": 8.8,
+  "REF_display_ESP32-S3-LCD-1.28 x REF_USB_male_90deg_overmold": 11.016,
+  "REF_USB_male_90deg_overmold x REF_USB_flat_cable_51mm": 1.7,
+  "REF_USB_flat_cable_51mm x REF_USB_female_overmold": 1.7
+ },
+ "min_distance_mm": {
+  "I3_top - REF_PCB_J1_XY350V_4p": 14.12,
+  "I3_top - REF_PCB_J2_XY350V_4p": 14.0,
+  "I3_top - REF_PCB_J3_XY350V_4p": 10.35,
+  "I3_top - REF_PCB_tall_part": 14.17,
+  "I3_top - REF_PCB_J4_JST_XH5": 11.72,
+  "I3_top - REF_PCB_RevD2_board": 3.49,
+  "I3_base - REF_PCB_RevD2_board": 0.0,
+  "I3_top - REF_USB_male_90deg_overmold": 1.0,
+  "I3_top - REF_USB_flat_cable_51mm": 2.2,
+  "I3_base - REF_USB_flat_cable_51mm": 0.43,
+  "I3_top - REF_display_ESP32-S3-LCD-1.28": 0.15,
+  "I3_retainer - REF_USB_male_90deg_overmold": 4.37,
+  "I3_base - REF_USB_female_overmold": 0.1,
+  "I3_base - REF_cable_12pin_7mm": 0.0,
+  "I3_top - REF_cable_12pin_7mm": 0.0,
+  "REF_USB_male_90deg_overmold - REF_PCB_RevD2_board": 11.63,
+  "REF_display_ESP32-S3-LCD-1.28 - REF_PCB_RevD2_board": 25.65,
+  "I3_base - I3_top": 0.25,
+  "I3_base - I3_crown": 40.407,
+  "I3_base - I3_retainer": 32.768,
+  "I3_top - I3_crown": 0.0,
+  "I3_top - I3_retainer": 0.0,
+  "I3_crown - I3_retainer": 7.9
+ },
+ "overhangs_print_orientation": {
+  "I3_base": {
+   "steep_overhang_mm2": 433.4,
+   "horizontal_downfacing_mm2": 397.8,
+   "regions": [
+    {
+     "area_mm2": 212.8,
+     "bbox": [
+      [
+       -8.9,
+       25.6,
+       16.1
+      ],
+      [
+       8.9,
+       34.1,
+       24.6
+      ]
+     ]
+    },
+    {
+     "area_mm2": 60.0,
+     "bbox": [
+      [
+       -6.2,
+       -10.4,
+       1.2
+      ],
+      [
+       6.2,
+       -5.6,
+       1.2
+      ]
+     ]
+    },
+    {
+     "area_mm2": 60.0,
+     "bbox": [
+      [
+       -6.2,
+       1.6,
+       1.2
+      ],
+      [
+       6.2,
+       6.4,
+       1.2
+      ]
+     ]
+    },
+    {
+     "area_mm2": 59.4,
+     "bbox": [
+      [
+       -42.0,
+       -48.0,
+       -0.0
+      ],
+      [
+       42.0,
+       -47.5,
+       0.5
+      ]
+     ]
+    },
+    {
+     "area_mm2": 59.4,
+     "bbox": [
+      [
+       -42.0,
+       47.5,
+       -0.0
+      ],
+      [
+       42.0,
+       48.0,
+       0.5
+      ]
+     ]
+    },
+    {
+     "area_mm2": 50.9,
+     "bbox": [
+      [
+       -54.0,
+       -36.0,
+       -0.0
+      ],
+      [
+       -53.5,
+       36.0,
+       0.5
+      ]
+     ]
+    },
+    {
+     "area_mm2": 50.9,
+     "bbox": [
+      [
+       53.5,
+       -36.0,
+       -0.0
+      ],
+      [
+       54.0,
+       36.0,
+       0.5
+      ]
+     ]
+    },
+    {
+     "area_mm2": 46.4,
+     "bbox": [
+      [
+       -52.6,
+       -44.0,
+       0.8
+      ],
+      [
+       -42.6,
+       -34.0,
+       0.8
+      ]
+     ]
+    },
+    {
+     "area_mm2": 46.4,
+     "bbox": [
+      [
+       42.6,
+       -44.0,
+       0.8
+      ],
+      [
+       52.6,
+       -34.0,
+       0.8
+      ]
+     ]
+    },
+    {
+     "area_mm2": 46.4,
+     "bbox": [
+      [
+       -52.6,
+       34.0,
+       0.8
+      ],
+      [
+       -42.6,
+       44.0,
+       0.8
+      ]
+     ]
+    },
+    {
+     "area_mm2": 46.4,
+     "bbox": [
+      [
+       42.6,
+       34.0,
+       0.8
+      ],
+      [
+       52.6,
+       44.0,
+       0.8
+      ]
+     ]
+    },
+    {
+     "area_mm2": 23.1,
+     "bbox": [
+      [
+       -50.8,
+       -42.2,
+       3.2
+      ],
+      [
+       -44.4,
+       -35.8,
+       3.2
+      ]
+     ]
+    }
+   ]
+  },
+  "I3_top": {
+   "steep_overhang_mm2": 830.6,
+   "horizontal_downfacing_mm2": 7243.5,
+   "regions": [
+    {
+     "area_mm2": 1322.6,
+     "bbox": [
+      [
+       7.3,
+       -45.6,
+       33.1
+      ],
+      [
+       51.6,
+       45.6,
+       33.1
+      ]
+     ]
+    },
+    {
+     "area_mm2": 1322.6,
+     "bbox": [
+      [
+       -51.6,
+       -45.6,
+       33.1
+      ],
+      [
+       -7.3,
+       45.6,
+       33.1
+      ]
+     ]
+    },
+    {
+     "area_mm2": 680.3,
+     "bbox": [
+      [
+       -20.2,
+       -29.2,
+       39.1
+      ],
+      [
+       20.2,
+       24.4,
+       39.1
+      ]
+     ]
+    },
+    {
+     "area_mm2": 620.3,
+     "bbox": [
+      [
+       -20.2,
+       16.3,
+       38.6
+      ],
+      [
+       20.2,
+       45.1,
+       50.6
+      ]
+     ]
+    },
+    {
+     "area_mm2": 584.0,
+     "bbox": [
+      [
+       -20.2,
+       -45.1,
+       38.6
+      ],
+      [
+       20.2,
+       -30.8,
+       39.1
+      ]
+     ]
+    },
+    {
+     "area_mm2": 418.0,
+     "bbox": [
+      [
+       -6.4,
+       28.2,
+       26.8
+      ],
+      [
+       6.4,
+       44.4,
+       26.8
+      ]
+     ]
+    },
+    {
+     "area_mm2": 335.5,
+     "bbox": [
+      [
+       -38.2,
+       24.8,
+       38.6
+      ],
+      [
+       -21.8,
+       45.1,
+       39.1
+      ]
+     ]
+    },
+    {
+     "area_mm2": 335.5,
+     "bbox": [
+      [
+       21.8,
+       24.8,
+       38.6
+      ],
+      [
+       38.2,
+       45.1,
+       39.1
+      ]
+     ]
+    },
+    {
+     "area_mm2": 269.0,
+     "bbox": [
+      [
+       21.8,
+       -11.2,
+       39.1
+      ],
+      [
+       38.2,
+       5.2,
+       39.1
+      ]
+     ]
+    },
+    {
+     "area_mm2": 269.0,
+     "bbox": [
+      [
+       21.8,
+       6.8,
+       39.1
+      ],
+      [
+       38.2,
+       23.2,
+       39.1
+      ]
+     ]
+    },
+    {
+     "area_mm2": 269.0,
+     "bbox": [
+      [
+       -38.2,
+       -29.2,
+       39.1
+      ],
+      [
+       -21.8,
+       -12.8,
+       39.1
+      ]
+     ]
+    },
+    {
+     "area_mm2": 269.0,
+     "bbox": [
+      [
+       -38.2,
+       -11.2,
+       39.1
+      ],
+      [
+       -21.8,
+       5.2,
+       39.1
+      ]
+     ]
+    }
+   ]
+  },
+  "I3_crown": {
+   "steep_overhang_mm2": 13.2,
+   "horizontal_downfacing_mm2": 0.0,
+   "regions": [
+    {
+     "area_mm2": 13.2,
+     "bbox": [
+      [
+       -19.1,
+       -19.1,
+       0.1
+      ],
+      [
+       19.1,
+       19.1,
+       0.1
+      ]
+     ]
+    }
+   ]
+  },
+  "I3_retainer": {
+   "steep_overhang_mm2": 0.0,
+   "horizontal_downfacing_mm2": 0.0,
+   "regions": []
+  }
+ },
+ "outer_skin_deviation_vs_SDF_mm": {
+  "all_max": 4.28,
+  "all_p95": 1.23,
+  "all_mean": 0.148,
+  "above_deck_max": 4.28,
+  "above_deck_p95": 3.1,
+  "worst_point": [
+   -15.1,
+   14.8,
+   49.1
+  ]
+ }
+}

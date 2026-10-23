@@ -1,0 +1,20 @@
+# Preserve CAD/media byte-for-byte and keep generated geometry out of text diffs.
+*.step binary
+*.stp binary
+*.brep binary
+*.stl binary
+*.3mf binary
+*.wrl binary
+*.gz binary
+*.bin binary
+*.blend binary
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+*.webp binary
+*.ppm binary
+*.pdf binary
+*.ttf binary
+output/** linguist-generated=true
+assets/fonts/**/OFL.txt -whitespace

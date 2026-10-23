@@ -1,0 +1,5 @@
+I9_base 9647 19314 watertight True size [108.  96.  30.]
+I9_top 32388 64776 watertight True size [108.   96.   67.6]
+I9_crown 7584 15168 watertight True size [40.7 40.7  2.5]
+I9_retainer 906 1808 watertight True size [37.1 35.5  7.5]
+lib3mf re-read: [('I9_base', 19314, True), ('I9_top', 64776, True), ('I9_crown', 15168, True), ('I9_retainer', 1808, True)]

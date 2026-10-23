@@ -1,5 +1,21 @@
 # Hirose HR10A-10P-12P(73) — UI artwork
 
+## Current device artwork
+
+The current live optical asset is
+[`live-optics-2026-10-22/live50.bin`](live-optics-2026-10-22/live50.bin), also
+included with the [working firmware release](../firmware/releases/d2-live-2026-10-23/).
+Its generator is [`build_live_optics_asset.py`](../scripts/build_live_optics_asset.py).
+The [finished artwork previews](connector-finished-ui-2026-10-22/) and
+[final assembly poster](pdf/power-supply-tester-final-layout.pdf) show the
+current visual design. The polished brass/gold treatment is an artistic choice.
+
+The following notes preserve the original static drawing's geometry and source
+research. Current runtime rendering and calibration are documented in
+[`firmware/Tester12VRevD/README.md`](../firmware/Tester12VRevD/README.md).
+
+## Original static illustration
+
 Original, orthographic SVG illustration of the **male cable plug viewed from its mating face**. Main polarization key is at 12 o'clock. Transparent background. No external images, fonts, JavaScript or raster textures in the SVG.
 
 ## Files
