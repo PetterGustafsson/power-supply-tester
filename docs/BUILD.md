@@ -130,6 +130,11 @@ generated files; compare hashes before replacing a known installed release.
 For the broader artwork studies, run `python scripts/build_connector_optics.py`.
 Older Node rendering helpers use `npm ci` and the `sharp` dependency.
 
+The assembled product render uses the current I15 meshes and approved display
+animation. Its [export and regeneration guide](../output/product-render/README.md)
+covers the 6000 × 4500 still and GIF master, the lighter README GIF, and the
+self-contained Blender scene.
+
 The final poster is generated with Blender 4.2 and ReportLab:
 
 ```sh

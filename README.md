@@ -1,12 +1,14 @@
+<p align="center">
+  <a href="output/product-render/power-supply-tester-three-modes-6000.gif">
+    <img src="docs/images/power-supply-tester.gif" width="960" alt="Assembled marble and orange power supply tester with its complete cable and chrome connector, cycling through idle, recognized power and other-pair power">
+  </a>
+</p>
+
 # Power supply tester
 
 **Twelve inputs. One supply. A little theatre on the desk.**
 
 Rev D2 measurement PCB · I15 enclosure · ESP32-S3 · 240 × 240 round LCD
-
-<p align="center">
-  <img src="docs/images/connector-experience.gif" width="300" alt="Animated chrome connector with brass contacts, orange orientation datums and a glowing powered state">
-</p>
 
 The tester identifies positive and return contacts from one common DC supply.
 Chrome reflections, brass pins and orange locating keys give the idle display
@@ -14,8 +16,13 @@ its character. Applying voltage starts a one-second optical seating animation,
 followed by live voltage, polarity and animated current artwork. The red Allied
 Vision emblem at six o'clock currently recognizes the **1–2 pair**.
 
-*The animation above is an artwork preview with illustrative voltage. The device
-uses its ADC readings to drive the live display.*
+The opening render cycles through **idle → recognized pair → other powered pair**,
+including the one-second optical seating transition. Download the
+[6000 × 4500 still](output/product-render/power-supply-tester-hero.png) or
+[6000 × 4500 animated master](output/product-render/power-supply-tester-three-modes-6000.gif).
+
+*The animation uses illustrative voltage. The device uses its ADC readings to
+drive the live display.*
 
 ## The current build
 
@@ -31,6 +38,7 @@ included. [Build and flash guide →](docs/BUILD.md)
 | Working measurement firmware | [Tester12VRevD source](firmware/Tester12VRevD/) |
 | Exact working firmware + optical asset | [October 23 binary package](firmware/releases/d2-live-2026-10-23/) |
 | PCB schematic, layout, BOM, Gerbers and CPL | [Rev D2 hardware](hardware/rev-d/README.md) |
+| Finished product rendering and animation | [6K still](output/product-render/power-supply-tester-hero.png) · [6K GIF](output/product-render/power-supply-tester-three-modes-6000.gif) · [scene and regeneration guide](output/product-render/README.md) |
 | Assembly poster | [A2 PDF](output/pdf/power-supply-tester-final-layout.pdf) · [full-resolution PNG](output/final-layout-poster/power-supply-tester-final-layout.png) |
 | Poster scene and parts list | [Blender scene](output/final-layout-poster/final-layout.blend) · [parts manifest](output/final-layout-poster/parts-manifest.json) |
 | Artwork sources and generation | [Scripts](scripts/) · [art and build guide](docs/BUILD.md#artwork-and-poster) |
@@ -61,6 +69,10 @@ Selected components: [screw assortment](https://www.amazon.com/dp/B0G24Z3P66),
 [USB extension](https://www.amazon.com/dp/B0D9XGFW3W).
 
 ## Display art
+
+<p align="center">
+  <img src="docs/images/connector-experience.gif" width="300" alt="Animated chrome connector with brass contacts, orange orientation datums and a glowing powered state">
+</p>
 
 ![Idle, seating, recognized 1–2 pair and other powered pair artwork](output/connector-finished-ui-2026-10-22/experience-states.png)
 

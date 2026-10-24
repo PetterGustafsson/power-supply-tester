@@ -32,3 +32,7 @@ case-cad/cad_I*/PSU_case_I*_assembly.step
 case-cad/**/_*/
 case-cad/ref/*_parsed.pkl
 output/**/*.ppm
+
+# Product-render review copies; final masters and the README GIF are tracked.
+output/product-render/animation-*-preview.png
+output/product-render/power-supply-tester-three-modes.gif
